@@ -61,6 +61,50 @@ const SettingsModal = ({ onClose }) => {
     }
   };
 
+  const handlePushSubscription = async (enable) => {
+    updateSetting('dailyReminders', enable);
+    if (!enable) return;
+
+    if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
+      alert("Push notifications are not supported by this browser.");
+      return;
+    }
+
+    try {
+      const permission = await Notification.requestPermission();
+      if (permission !== 'granted') {
+        updateSetting('dailyReminders', false);
+        alert("Permission not granted for notifications");
+        return;
+      }
+
+      const reg = await navigator.serviceWorker.ready;
+      
+      const token = localStorage.getItem('token');
+      const vapidRes = await fetch('/api/settings/push/vapidPublicKey');
+      const { publicKey } = await vapidRes.json();
+      
+      const subscription = await reg.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: publicKey
+      });
+
+      await fetch('/api/settings/push/subscribe', {
+        method: 'POST',
+        body: JSON.stringify(subscription),
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`
+        }
+      });
+      
+      alert("Daily Reminders enabled! You'll receive a test notification shortly if triggered by admin.");
+    } catch (e) {
+      console.error("Failed to subscribe to push notifications:", e);
+      updateSetting('dailyReminders', false);
+    }
+  };
+
   return (
     <div className="settings-modal-overlay">
       <div className="settings-modal-content">
@@ -157,7 +201,7 @@ const SettingsModal = ({ onClose }) => {
                     <p>Receive a daily push notification to maintain your learning streak.</p>
                   </div>
                   <label className="toggle-switch">
-                    <input type="checkbox" checked={settings.dailyReminders ?? true} onChange={(e) => updateSetting('dailyReminders', e.target.checked)} />
+                    <input type="checkbox" checked={settings.dailyReminders ?? true} onChange={(e) => handlePushSubscription(e.target.checked)} />
                     <span className="toggle-slider"></span>
                   </label>
                 </div>

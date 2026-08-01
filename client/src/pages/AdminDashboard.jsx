@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Users, Search, Play, Activity, Settings, LogOut, MessageSquare, ChevronRight, CheckCircle, BookOpen, Award, BarChart2, Filter, Trash2, Edit3, Plus, X, User, Calendar, Book, Megaphone, Gamepad2, Download, Save, Bell, ArrowLeft, ArrowRight, ArrowUp, ArrowDown, Target, Zap, Trophy, AlertTriangle, BrainCircuit, Lightbulb } from 'lucide-react';
+import { Users, Search, Play, Activity, Settings, LogOut, MessageSquare, ChevronRight, CheckCircle, BookOpen, Award, BarChart2, Filter, Trash2, Edit3, Plus, X, User, Calendar, Book, Megaphone, Gamepad2, Download, Save, Bell, ArrowLeft, ArrowRight, ArrowUp, ArrowDown, Target, Zap, Trophy, AlertTriangle, BrainCircuit, Lightbulb, Menu } from 'lucide-react';
 import './AdminDashboard.css';
 
 const AdminDashboard = () => {
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState('overview');
   const [loading, setLoading] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   // Data States
   const [analytics, setAnalytics] = useState(null);
@@ -368,29 +369,31 @@ const AdminDashboard = () => {
 
   return (
     <div className="admin-layout">
+      <div className={`admin-sidebar-backdrop ${sidebarOpen ? 'active' : ''}`} onClick={() => setSidebarOpen(false)} />
+
       {/* Sidebar */}
-      <aside className="admin-sidebar">
+      <aside className={`admin-sidebar ${sidebarOpen ? 'admin-sidebar-open' : ''}`}>
         <div className="admin-sidebar-logo">
           <h2>BhashaSetu <span className="highlight">Pro</span></h2>
         </div>
         
         <nav className="admin-nav">
-          <button className={`admin-nav-item ${activeTab === 'overview' ? 'active' : ''}`} onClick={() => setActiveTab('overview')}>
+          <button className={`admin-nav-item ${activeTab === 'overview' ? 'active' : ''}`} onClick={() => { setActiveTab('overview'); setSidebarOpen(false); }}>
             <BarChart2 size={20} /> <span>Overview</span>
           </button>
-          <button className={`admin-nav-item ${activeTab === 'students' ? 'active' : ''}`} onClick={() => setActiveTab('students')}>
+          <button className={`admin-nav-item ${activeTab === 'students' ? 'active' : ''}`} onClick={() => { setActiveTab('students'); setSidebarOpen(false); }}>
             <Users size={20} /> <span>Students</span>
           </button>
-          <button className={`admin-nav-item ${activeTab === 'lessons' ? 'active' : ''}`} onClick={() => setActiveTab('lessons')}>
+          <button className={`admin-nav-item ${activeTab === 'lessons' ? 'active' : ''}`} onClick={() => { setActiveTab('lessons'); setSidebarOpen(false); }}>
             <BookOpen size={20} /> <span>Curriculum</span>
           </button>
-          <button className={`admin-nav-item ${activeTab === 'games' ? 'active' : ''}`} onClick={() => setActiveTab('games')}>
+          <button className={`admin-nav-item ${activeTab === 'games' ? 'active' : ''}`} onClick={() => { setActiveTab('games'); setSidebarOpen(false); }}>
             <Gamepad2 size={20} /> <span>Games</span>
           </button>
-          <button className={`admin-nav-item ${activeTab === 'broadcast' ? 'active' : ''}`} onClick={() => setActiveTab('broadcast')}>
+          <button className={`admin-nav-item ${activeTab === 'broadcast' ? 'active' : ''}`} onClick={() => { setActiveTab('broadcast'); setSidebarOpen(false); }}>
             <Megaphone size={20} /> <span>Broadcast</span>
           </button>
-          <button className={`admin-nav-item ${activeTab === 'settings' ? 'active' : ''}`} onClick={() => setActiveTab('settings')}>
+          <button className={`admin-nav-item ${activeTab === 'settings' ? 'active' : ''}`} onClick={() => { setActiveTab('settings'); setSidebarOpen(false); }}>
             <Settings size={20} /> <span>Settings</span>
           </button>
           
@@ -403,6 +406,9 @@ const AdminDashboard = () => {
       {/* Main Workspace */}
       <div className="admin-workspace">
         <header className="admin-header">
+          <button className="admin-sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
+            {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
           <h1>{activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}</h1>
           <div className="admin-profile">
             <div className="admin-profile-text">

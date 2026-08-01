@@ -3,15 +3,15 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './LanguageSelection.css';
 
-const languages = [
-  { code: 'en', name: 'English', sub: 'ENGLISH' },
-  { code: 'hi', name: 'हिन्दी', sub: 'HINDI' },
-  { code: 'mwr', name: 'मारवाड़ी', sub: 'MARWADI' },
-  { code: 'ta', name: 'தமிழ்', sub: 'TAMIL' },
-  { code: 'te', name: 'తెలుగు', sub: 'TELUGU' },
-  { code: 'bn', name: 'বাংলা', sub: 'BENGALI' },
-  { code: 'mr', name: 'मराठी', sub: 'MARATHI' },
-  { code: 'ur', name: 'اردو', sub: 'URDU' }
+const ALL_LANGUAGES = [
+  { code: 'en', name: 'English', sub: 'ENGLISH', native: 'English' },
+  { code: 'hi', name: 'हिन्दी', sub: 'HINDI', native: 'Hindi' },
+  { code: 'mwr', name: 'मारवाड़ी', sub: 'MARWADI', native: 'Marwadi' },
+  { code: 'ta', name: 'தமிழ்', sub: 'TAMIL', native: 'Tamil' },
+  { code: 'te', name: 'తెలుగు', sub: 'TELUGU', native: 'Telugu' },
+  { code: 'bn', name: 'বাংলা', sub: 'BENGALI', native: 'Bengali' },
+  { code: 'mr', name: 'मराठी', sub: 'MARATHI', native: 'Marathi' },
+  { code: 'ur', name: 'اردو', sub: 'URDU', native: 'Urdu' }
 ];
 
 const floatingWords = [
@@ -37,23 +37,14 @@ const floatingWords = [
   { text: 'Setu', color: '#EA4378', size: 2.0 }
 ];
 
-const spokenText = {
-  en: "Welcome to BhashaSetu. Please select your preferred language and click continue.",
-  hi: "भाषासेतु में आपका स्वागत है। कृपया अपनी पसंदीदा भाषा चुनें और आगे बढ़ें पर क्लिक करें।",
-  mwr: "भाषासेतु में आपका स्वागत है। कृपया अपनी पसंदीदा भाषा चुनें और आगे बढ़ें पर क्लिक करें।",
-  ta: "பாஷாசேதுக்கு உங்களை வரவேற்கிறோம். தயவுசெய்து உங்கள் விருப்பமான மொழியைத் தேர்ந்தெடுத்து தொடரவும் என்பதை கிளிக் செய்யவும்.",
-  te: "భాషాసేతుకు స్వాగతం. దయచేసి మీకు ఇష్టమైన భాషను ఎంచుకుని, కొనసాగించు క్లిక్ చేయండి.",
-  bn: "ভাষাসেতুতে আপনাকে স্বাগত। অনুগ্রহ করে আপনার পছন্দের ভাষা বেছে নিন এবং চালিয়ে যান এ ক্লিক করুন।",
-  mr: "भाषासेतू मध्ये आपले स्वागत आहे. कृपया तुमची पसंतीची भाषा निवडा आणि पुढे जा वर क्लिक करा.",
-  ur: "بھاشا سیتو میں خوش آمدید۔ براہ کرم اپنی پسندیدہ زبان منتخب کریں اور جاری رکھیں پر کلک کریں۔"
-};
-
 const LanguageSelection = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
+  
   const [selectedLang, setSelectedLang] = useState(() => {
     return localStorage.getItem('i18nextLng') || i18n.language || 'en';
   });
+  const [recentLangs, setRecentLangs] = useState([]);
   const containerRef = useRef(null);
   const lettersRef = useRef([]);
 
@@ -61,23 +52,37 @@ const LanguageSelection = () => {
     if (i18n.language) {
       setSelectedLang(i18n.language);
     }
+    // Load recents
+    const savedRecents = localStorage.getItem('recent_langs');
+    if (savedRecents) {
+      try {
+        setRecentLangs(JSON.parse(savedRecents));
+      } catch (e) {
+        console.error(e);
+      }
+    }
   }, [i18n.language]);
 
   const handleLanguageSelect = (code) => {
     setSelectedLang(code);
     i18n.changeLanguage(code);
     localStorage.setItem('i18nextLng', code);
+    
+    // Update recents logic preserved
+    let newRecents = [code, ...recentLangs.filter(l => l !== code)].slice(0, 3);
+    setRecentLangs(newRecents);
+    localStorage.setItem('recent_langs', JSON.stringify(newRecents));
   };
 
   const handleOrbClick = () => {
-    // TTS removed as requested
+    // TTS functionality could go here
   };
 
   const handleContinue = () => {
     navigate('/register');
   };
 
-  // Static layout logic
+  // Static layout logic for floating words
   useEffect(() => {
     const container = containerRef.current;
     if (!container) return;
@@ -98,7 +103,6 @@ const LanguageSelection = () => {
           x = Math.random() * (window.innerWidth - 120) + 20;
           y = Math.random() * (window.innerHeight - 120) + 20;
           
-          // Check against card bounds
           if (
             cardRectInit && 
             x + 100 > cardRectInit.left - 30 && 
@@ -109,14 +113,13 @@ const LanguageSelection = () => {
             isOverlapping = true;
           }
           
-          // Check against other words
           if (!isOverlapping) {
             for (let j = 0; j < newItems.length; j++) {
               let existing = newItems[j];
               let dx = x - existing.x;
               let dy = y - existing.y;
               let distance = Math.sqrt(dx * dx + dy * dy);
-              if (distance < 110) { // minimum distance
+              if (distance < 110) { 
                 isOverlapping = true;
                 break;
               }
@@ -132,14 +135,12 @@ const LanguageSelection = () => {
 
     let items = generateLayout();
 
-    // Apply to DOM directly
     items.forEach((p, idx) => {
       if (lettersRef.current[idx]) {
         lettersRef.current[idx].style.transform = `translate(${p.x}px, ${p.y}px)`;
       }
     });
 
-    // Re-layout on resize
     const handleResize = () => {
       let newItems = generateLayout();
       newItems.forEach((p, idx) => {
@@ -195,7 +196,7 @@ const LanguageSelection = () => {
           <p>{t('tap_lang')}</p>
           
           <div className="ls-grid">
-            {languages.map((lang) => (
+            {ALL_LANGUAGES.map((lang) => (
               <button
                 key={lang.code}
                 className={`ls-lang-btn ${selectedLang === lang.code ? 'selected' : ''}`}

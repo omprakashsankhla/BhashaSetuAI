@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Flame, Coins, User, Settings, Award, BookOpen, Lock, Check, Play, LogOut, Heart, Mic, Gamepad2, Edit3, BarChart2, Medal, ArrowRight, Home, Target, Loader, Bot, Globe, Bell } from 'lucide-react';
+import { Flame, Coins, User, Settings, Award, BookOpen, Lock, Check, Play, LogOut, Heart, Mic, Gamepad2, Edit3, BarChart2, Medal, ArrowRight, Home, Target, Loader, Bot, Globe, Bell, Menu, X } from 'lucide-react';
 import ProfileModal from '../components/ProfileModal';
 import SettingsModal from '../components/SettingsModal';
 import LeaderboardModal from '../components/LeaderboardModal';
@@ -37,6 +37,8 @@ const Dashboard = () => {
   const [showAnnouncements, setShowAnnouncements] = useState(false);
   const [activeLessonId, setActiveLessonId] = useState(null);
   const [activeTab, setActiveTab] = useState(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [aiExpanded, setAiExpanded] = useState(false);
 
   useEffect(() => {
     fetchDashboardData();
@@ -116,24 +118,28 @@ const Dashboard = () => {
   const tasksCompleted = todaysTasks ? [todaysTasks.lessonCompleted, todaysTasks.activityCompleted, todaysTasks.speakingDone, todaysTasks.gameCompleted].filter(Boolean).length : 0;
   const totalTasksXp = 80;
 
+
   return (
     <div className="dashboard-layout">
+      {/* Sidebar Backdrop */}
+      <div className={`sidebar-backdrop ${sidebarOpen ? 'active' : ''}`} onClick={() => setSidebarOpen(false)} />
+
       {/* Sidebar */}
-      <aside className="sidebar">
+      <aside className={`sidebar ${sidebarOpen ? 'sidebar-open' : ''}`}>
         <div className="sidebar-logo">
           <h2>BhashaSetu</h2>
         </div>
         
         <nav className="sidebar-nav">
-          <button className="nav-item active"><Home size={20} /> <span>{t('dash_nav_home', 'Home')}</span></button>
-          <button className="nav-item" onClick={() => navigate('/learn')}><BookOpen size={20} /> <span>{t('dash_nav_learn', 'Learn')}</span></button>
-          <button className="nav-item" onClick={() => navigate('/activities')}><Target size={20} /> <span>{t('dash_nav_activities', 'Activities')}</span></button>
-          <button className="nav-item" onClick={() => navigate('/games')}><Gamepad2 size={20} /> <span>{t('dash_nav_games', 'Games')}</span></button>
-          <button className="nav-item" onClick={() => navigate('/lesson/practice')}><Edit3 size={20} /> <span>{t('dash_nav_practice', 'Practice')}</span></button>
-          <button className="nav-item" onClick={() => setShowLeaderboard(true)}><Award size={20} /> <span>{t('dash_nav_leaderboard', 'Leaderboard')}</span></button>
-          <button className="nav-item" onClick={() => setShowProgress(true)}><BarChart2 size={20} /> <span>{t('dash_nav_progress', 'Progress')}</span></button>
-          <button className="nav-item" onClick={() => setShowProfile(true)}><User size={20} /> <span>{t('dash_nav_profile', 'Profile')}</span></button>
-          <button className="nav-item" onClick={() => setShowSettings(true)}><Settings size={20} /> <span>{t('dash_nav_settings', 'Settings')}</span></button>
+          <button className="nav-item active" onClick={() => setSidebarOpen(false)}><Home size={20} /> <span>{t('dash_nav_home', 'Home')}</span></button>
+          <button className="nav-item" onClick={() => { navigate('/learn'); setSidebarOpen(false); }}><BookOpen size={20} /> <span>{t('dash_nav_learn', 'Learn')}</span></button>
+          <button className="nav-item" onClick={() => { navigate('/activities'); setSidebarOpen(false); }}><Target size={20} /> <span>{t('dash_nav_activities', 'Activities')}</span></button>
+          <button className="nav-item" onClick={() => { navigate('/games'); setSidebarOpen(false); }}><Gamepad2 size={20} /> <span>{t('dash_nav_games', 'Games')}</span></button>
+          <button className="nav-item" onClick={() => { navigate('/lesson/practice'); setSidebarOpen(false); }}><Edit3 size={20} /> <span>{t('dash_nav_practice', 'Practice')}</span></button>
+          <button className="nav-item" onClick={() => { setShowLeaderboard(true); setSidebarOpen(false); }}><Award size={20} /> <span>{t('dash_nav_leaderboard', 'Leaderboard')}</span></button>
+          <button className="nav-item" onClick={() => { setShowProgress(true); setSidebarOpen(false); }}><BarChart2 size={20} /> <span>{t('dash_nav_progress', 'Progress')}</span></button>
+          <button className="nav-item" onClick={() => { setShowProfile(true); setSidebarOpen(false); }}><User size={20} /> <span>{t('dash_nav_profile', 'Profile')}</span></button>
+          <button className="nav-item" onClick={() => { setShowSettings(true); setSidebarOpen(false); }}><Settings size={20} /> <span>{t('dash_nav_settings', 'Settings')}</span></button>
           
           <button className="nav-item logout" onClick={handleLogout} style={{ marginTop: 'auto' }}>
             <LogOut size={20} /> <span>{t('dash_nav_logout', 'Logout')}</span>
@@ -146,16 +152,18 @@ const Dashboard = () => {
         
         {/* Top Header */}
         <header className="dashboard-header">
+          <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
+            {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
           <div className="welcome-text">
             <h1>{t('dash_hello', { name: user.name.split(' ')[0] })}</h1>
             <p>{t(getGreetingKey())}</p>
           </div>
 
-          <div className="header-lang-selectors" style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
-            {/* Learning Language Selector */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', background: '#f1f5f9', padding: '0.4rem 0.8rem', borderRadius: '12px', border: '1px solid #e2e8f0' }}>
-              <Globe size={16} color="#475569" />
-              <span style={{ fontSize: '0.85rem', fontWeight: 'bold', color: '#475569' }}>{t('header_learn_lang', 'Learn')}:</span>
+          <div className="header-actions">
+            <div className="lang-switcher">
+              <Globe size={16} />
+              <span>{t('header_learn_lang', 'Learn')}:</span>
               <select 
                 value={user?.preferred_language || 'hi'} 
                 onChange={async (e) => {
@@ -177,59 +185,32 @@ const Dashboard = () => {
                     console.error(err);
                   }
                 }}
-                style={{ border: 'none', background: 'transparent', fontWeight: '600', color: '#1e293b', cursor: 'pointer', outline: 'none', fontSize: '0.85rem' }}
               >
                 <option value="en">English</option>
-                <option value="hi">हिन्दी (Hindi)</option>
-                <option value="mwr">मारवाड़ी (Marwadi)</option>
-                <option value="ta">தமிழ் (Tamil)</option>
-                <option value="te">తెలుగు (Telugu)</option>
-                <option value="bn">বাংলা (Bengali)</option>
-                <option value="mr">मराठी (Marathi)</option>
-                <option value="ur">اردو (Urdu)</option>
+                <option value="hi">हिन्दी</option>
+                <option value="mwr">मारवाड़ी</option>
+                <option value="ta">தமிழ்</option>
+                <option value="te">తెలుగు</option>
+                <option value="bn">বাংলা</option>
+                <option value="mr">मराठी</option>
+                <option value="ur">اردو</option>
               </select>
             </div>
-          </div>
-          
-          <div className="header-stats">
-            <button 
-              className="action-btn secondary mr-4" 
-              onClick={() => navigate('/assessment?retake=true')}
-              style={{ padding: '0.6rem 1.2rem', borderRadius: '12px', border: '1px solid #e2e8f0', background: '#fff', cursor: 'pointer', fontWeight: '600', color: '#64748b', marginRight: '1rem' }}
-            >
+            
+            <button className="btn-secondary retake-btn" onClick={() => navigate('/assessment?retake=true')}>
               {t('dash_retake_assessment')}
             </button>
-            <div className="stat-item streak clickable" onClick={() => setShowStreakModal(true)} style={{ cursor: 'pointer', transition: 'transform 0.2s', ':hover': { transform: 'scale(1.05)' } }}>
-              <Flame size={24} fill="#f97316" color="#f97316" />
-              <span>{t('dash_day_streak', { count: stats.streak })}</span>
-            </div>
-            <div className="stat-item xp" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.2rem' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '600' }}>
-                <span style={{ color: '#eab308', fontSize: '1.2rem' }}>⭐</span>
-                <span>XP : {stats.xp}</span>
-              </div>
-              <span style={{ fontSize: '0.8rem', color: '#64748b', fontWeight: '600' }}>🏆 {t('dash_rank', { rank: rank || 'Bronze Learner' })}</span>
-            </div>
-            <div className="stat-item coins clickable" onClick={() => setShowShopModal(true)} style={{ cursor: 'pointer', transition: 'transform 0.2s', ':hover': { transform: 'scale(1.05)' } }}>
-              <Coins size={24} fill="#eab308" color="#eab308" />
-              <span>{stats.coins}</span>
-            </div>
-            <div className="stat-item clickable" onClick={() => setShowAnnouncements(true)} style={{ cursor: 'pointer', position: 'relative', display: 'flex', alignItems: 'center' }}>
-              <Bell size={24} color="#64748b" />
+            
+            <div className="notification-bell clickable" onClick={() => setShowAnnouncements(true)}>
+              <Bell size={24} />
               {data.announcements && data.announcements.length > 0 && (
-                <span style={{
-                  position: 'absolute', top: '-5px', right: '-5px',
-                  background: '#ef4444', color: 'white', borderRadius: '50%',
-                  width: '16px', height: '16px', fontSize: '0.65rem',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold'
-                }}>
-                  {data.announcements.length}
-                </span>
+                <span className="badge">{data.announcements.length}</span>
               )}
             </div>
-            <div className="avatar-circle clickable" onClick={() => setShowProfile(true)} style={{ cursor: 'pointer', transition: 'transform 0.2s', padding: (user?.avatar && user.avatar !== '/default-avatar.png') ? 0 : '', overflow: 'hidden' }}>
+            
+            <div className="avatar-circle clickable" onClick={() => setShowProfile(true)}>
               {user?.avatar && user.avatar !== '/default-avatar.png' ? (
-                <img src={user.avatar} alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src={user.avatar} alt="Profile" />
               ) : (
                 user.name.charAt(0).toUpperCase()
               )}
@@ -237,65 +218,54 @@ const Dashboard = () => {
           </div>
         </header>
 
+        {/* Top Metrics Row */}
+        <div className="dashboard-metrics-row">
+          <div className="metric-card clickable" onClick={() => setShowStreakModal(true)}>
+            <div className="metric-icon streak-icon"><Flame size={24} /></div>
+            <div className="metric-info">
+              <span className="metric-value">{stats.streak}</span>
+              <span className="metric-label">{t('dash_day_streak', 'Day Streak')}</span>
+            </div>
+          </div>
+          <div className="metric-card">
+            <div className="metric-icon xp-icon">⭐</div>
+            <div className="metric-info">
+              <span className="metric-value">{stats.xp}</span>
+              <span className="metric-label">Total XP</span>
+            </div>
+          </div>
+          <div className="metric-card">
+            <div className="metric-icon rank-icon"><Award size={24} /></div>
+            <div className="metric-info">
+              <span className="metric-value" style={{fontSize: '1.2rem'}}>{t('dash_rank', { rank: rank || 'Bronze' })}</span>
+              <span className="metric-label">Current Rank</span>
+            </div>
+          </div>
+          <div className="metric-card clickable" onClick={() => setShowShopModal(true)}>
+            <div className="metric-icon coins-icon"><Coins size={24} /></div>
+            <div className="metric-info">
+              <span className="metric-value">{stats.coins}</span>
+              <span className="metric-label">Coins</span>
+            </div>
+          </div>
+        </div>
+
         {/* Two-Column Scrollable Area */}
-        <main className="dashboard-main-area" style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '2rem' }}>
+        <main className="dashboard-main-area">
           
           {/* Middle Column: Main Activities */}
           <div className="activities-column">
             
             {/* Today's Goal */}
-            <div className="stat-card" style={{ marginBottom: '1.5rem', padding: '1.5rem', background: '#fff', borderRadius: '16px', boxShadow: '0 4px 6px rgba(0,0,0,0.05)' }}>
-              <h3 style={{ margin: '0 0 1rem 0' }}>{t('dash_todays_goal')}</h3>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                <div style={{ flex: 1, height: '16px', background: '#e5e7eb', borderRadius: '8px', overflow: 'hidden', display: 'flex' }}>
-                  <div style={{ width: `${goalPercent}%`, height: '100%', background: '#111827', borderRadius: '8px', transition: 'width 0.5s ease' }}></div>
-                </div>
-                <span style={{ fontWeight: 'bold', color: '#475569', whiteSpace: 'nowrap' }}>
-                  {todaysGoal ? `${todaysGoal.earned} / ${todaysGoal.target} XP` : '0 / 60 XP'}
-                </span>
+            <div className="dash-card goal-card">
+              <div className="card-header">
+                <h3>{t('dash_todays_goal', "Today's Goal")}</h3>
+                <span className="goal-text">{todaysGoal ? `${todaysGoal.earned} / ${todaysGoal.target} XP` : '0 / 60 XP'}</span>
+              </div>
+              <div className="progress-bar-bg">
+                <div className="progress-bar-fill" style={{ width: `${goalPercent}%` }}></div>
               </div>
             </div>
-
-            {/* BhashaSetu Analysis Widget */}
-            {data.settings && data.settings.ai_insights && (
-              <div className="stat-card" style={{ marginBottom: '1.5rem', padding: '1.5rem', background: 'linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)', borderRadius: '16px', boxShadow: '0 4px 6px rgba(0,0,0,0.05)', border: '1px solid #bbf7d0' }}>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '1rem' }}>
-                  <div style={{ background: '#22c55e', color: 'white', padding: '0.5rem', borderRadius: '12px' }}>
-                    <Bot size={24} />
-                  </div>
-                  <h3 style={{ margin: 0, color: '#166534', fontSize: '1.25rem' }}>BhashaSetu Analysis</h3>
-                </div>
-                
-                <div style={{ background: 'white', padding: '1rem', borderRadius: '12px', marginBottom: '1rem' }}>
-                  <h4 style={{ margin: '0 0 0.5rem 0', color: '#374151', fontSize: '0.9rem', textTransform: 'uppercase', letterSpacing: '0.05em' }}>AI Learning Strategy</h4>
-                  <p style={{ margin: 0, color: '#4b5563', lineHeight: '1.5', fontStyle: 'italic' }}>
-                    "{data.settings.ai_insights.learning_strategy}"
-                  </p>
-                </div>
-
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
-                  <div>
-                    <h4 style={{ margin: '0 0 0.5rem 0', color: '#16a34a', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '0.25rem' }}><Check size={16}/> Strengths</h4>
-                    <ul style={{ margin: 0, paddingLeft: '1.25rem', color: '#374151', fontSize: '0.9rem' }}>
-                      {data.settings.ai_insights.strengths?.map((s, i) => <li key={i}>{s}</li>)}
-                    </ul>
-                  </div>
-                  <div>
-                    <h4 style={{ margin: '0 0 0.5rem 0', color: '#dc2626', fontSize: '0.9rem', display: 'flex', alignItems: 'center', gap: '0.25rem' }}><Target size={16}/> Focus Areas</h4>
-                    <ul style={{ margin: 0, paddingLeft: '1.25rem', color: '#374151', fontSize: '0.9rem' }}>
-                      {data.settings.ai_insights.weaknesses?.map((w, i) => <li key={i}>{w}</li>)}
-                    </ul>
-                  </div>
-                </div>
-                
-                <div style={{ marginTop: '1rem', paddingTop: '1rem', borderTop: '1px dashed #86efac', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span style={{ fontSize: '0.9rem', color: '#166534', fontWeight: '500' }}>Overall Level:</span>
-                  <span style={{ background: '#166534', color: 'white', padding: '0.25rem 0.75rem', borderRadius: '20px', fontSize: '0.85rem', fontWeight: 'bold' }}>
-                    {data.settings.ai_insights.overall_level}
-                  </span>
-                </div>
-              </div>
-            )}
 
             {/* Proficiency Track Selector */}
             <div className="track-selector" style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', background: '#f1f5f9', padding: '0.5rem', borderRadius: '12px' }}>
@@ -321,44 +291,36 @@ const Dashboard = () => {
             </div>
 
             {/* Continue Learning */}
-            <div className="stat-card continue-card" style={{ marginBottom: '1.5rem', padding: '1.5rem', background: '#f8fafc', border: '2px solid #e2e8f0', borderRadius: '16px' }}>
-              <h3 style={{ margin: '0 0 1.5rem 0', color: '#111827', fontSize: '1.1rem' }}>{t('dash_continue_learning')}</h3>
+            <div className="dash-card continue-card">
+              <h3>{t('dash_continue_learning', 'Continue Learning')}</h3>
               
               {currentTrackLesson ? (
                 <>
-                  <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
-                    <Play size={24} fill="#111827" />
-                    <h4 style={{ margin: 0, fontSize: '1.1rem' }}>
+                  <div className="lesson-info">
+                    <div className="lesson-icon-circle"><Play size={24} /></div>
+                    <h4>
                       {t('dash_lesson', { num: filteredLessons.findIndex(l => l.id === currentTrackLesson.id) + 1, title: currentTrackLesson.title })}
                     </h4>
                   </div>
                   
-                  <p style={{ margin: '0 0 1.5rem 0', color: '#475569', fontWeight: '500' }}>
+                  <p className="progress-text">
                     {t('dash_progress_pct', { pct: progressPercent })}
                   </p>
 
-                  <button 
-                    className="primary-btn" 
-                    style={{ width: '100%', padding: '1rem', borderRadius: '12px', background: '#111827', color: 'white', border: 'none', fontWeight: 'bold', cursor: 'pointer', fontSize: '1rem' }}
-                    onClick={() => setActiveLessonId(currentTrackLesson.id)}
-                  >
-                    {t('dash_continue_btn')}
+                  <button className="btn-primary" onClick={() => setActiveLessonId(currentTrackLesson.id)}>
+                    {t('dash_continue_btn', 'Continue')}
                   </button>
                 </>
               ) : (
-                <div>
-                  <p style={{ color: '#475569', marginBottom: '1rem' }}>
+                <div className="empty-state">
+                  <p>
                     {completedLessons === totalLessons && totalLessons > 0 
-                      ? t('dash_congrats') 
-                      : t('dash_take_assessment')}
+                      ? t('dash_congrats', 'You have completed all lessons!') 
+                      : t('dash_take_assessment', 'Take an assessment to unlock lessons.')}
                   </p>
                   {completedLessons !== totalLessons && (
-                    <button 
-                      className="primary-btn" 
-                      style={{ width: '100%', padding: '1rem', borderRadius: '12px', background: '#111827', color: 'white', border: 'none', fontWeight: 'bold', cursor: 'pointer', fontSize: '1rem' }}
-                      onClick={() => navigate('/assessment')}
-                    >
-                      {t('dash_take_assessment_btn')}
+                    <button className="btn-primary" onClick={() => navigate('/assessment')}>
+                      {t('dash_take_assessment_btn', 'Take Assessment')}
                     </button>
                   )}
                 </div>
@@ -366,101 +328,94 @@ const Dashboard = () => {
             </div>
 
             {/* Today's Tasks */}
-            <div className="stat-card" style={{ marginBottom: '1.5rem', padding: '1.5rem', background: '#fff', borderRadius: '16px', boxShadow: '0 4px 6px rgba(0,0,0,0.05)' }}>
-              <h3 style={{ margin: '0 0 1rem 0' }}>{t('dash_todays_tasks')}</h3>
-              <ul style={{ listStyle: 'none', padding: 0, margin: '0 0 1rem 0' }}>
+            <div className="dash-card">
+              <h3>{t('dash_todays_tasks', "Today's Tasks")}</h3>
+              <ul className="task-list">
                 <TaskItem done={todaysTasks?.lessonCompleted} label={t('dash_task_lesson')} />
                 <TaskItem done={todaysTasks?.activityCompleted} label={t('dash_task_activity')} />
                 <TaskItem done={todaysTasks?.speakingDone} label={t('dash_task_speak')} />
                 <TaskItem done={todaysTasks?.gameCompleted} label={t('dash_task_game')} />
                 {assignedTasks && assignedTasks.length > 0 && assignedTasks.map(task => (
-                  <li key={task.assignmentId} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.8rem', color: '#111827', background: '#fef08a', padding: '0.5rem', borderRadius: '8px' }}>
-                    <div style={{
-                      width: '20px', height: '20px', 
-                      background: 'transparent', 
-                      border: '1px solid #ca8a04', 
-                      display: 'flex', alignItems: 'center', justifyContent: 'center', 
-                      borderRadius: '4px'
-                    }}>
-                    </div>
-                    <span 
-                      style={{ textDecoration: 'none', cursor: 'pointer', fontWeight: '500', color: '#854d0e' }}
-                      onClick={() => setActiveLessonId(task.lessonId)}
-                    >
-                      Assigned: {task.title}
-                    </span>
+                  <li key={task.assignmentId} className="assigned-task" onClick={() => setActiveLessonId(task.lessonId)}>
+                    <div className="checkbox-empty"></div>
+                    <span>Assigned: {task.title}</span>
                   </li>
                 ))}
               </ul>
-              <div style={{ padding: '0.5rem 0', borderTop: '1px dashed #e2e8f0', color: '#111827', fontWeight: 'bold' }}>
+              <div className="task-reward">
                 {t('dash_reward', { xp: totalTasksXp })} {tasksCompleted === 4 && '✅'}
               </div>
             </div>
-
-
 
           </div>
 
           {/* Right Column: Progress & Gamification */}
           <div className="progress-column">
-            
-            {/* Daily Streak */}
-            <div className="stat-card" style={{ marginBottom: '1.5rem', padding: '1.5rem', background: '#fff', borderRadius: '16px', boxShadow: '0 4px 6px rgba(0,0,0,0.05)' }}>
-              <h3 style={{ margin: '0 0 1rem 0' }}>{t('dash_daily_streak')}</h3>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginBottom: '1rem' }}>
-                <Flame size={40} fill="#f97316" color="#f97316" />
-                <div>
-                  <h2 style={{ margin: 0 }}>{t('dash_days', { count: stats.streak })}</h2>
+            {/* AI Analysis Widget - Professional Collapsible */}
+            {data.settings && data.settings.ai_insights && (
+              <div className="dash-card ai-insight-card">
+                <div className="ai-card-header" onClick={() => setAiExpanded(!aiExpanded)}>
+                  <div className="ai-title-wrap">
+                    <div className="ai-icon-bg">
+                      <Bot size={20} />
+                    </div>
+                    <h3>AI Learning Insights</h3>
+                  </div>
+                  <button className="expand-btn">
+                    {aiExpanded ? '▲' : '▼'}
+                  </button>
                 </div>
+                
+                {aiExpanded && (
+                  <div className="ai-card-body">
+                    <div className="ai-strategy">
+                      <h4>Learning Strategy</h4>
+                      <p>"{data.settings.ai_insights.learning_strategy}"</p>
+                    </div>
+
+                    <div className="ai-strengths-weaknesses">
+                      <div>
+                        <h4 className="strengths-title"><Check size={16}/> Strengths</h4>
+                        <ul>
+                          {data.settings.ai_insights.strengths?.map((s, i) => <li key={i}>{s}</li>)}
+                        </ul>
+                      </div>
+                      <div>
+                        <h4 className="focus-title"><Target size={16}/> Focus Areas</h4>
+                        <ul>
+                          {data.settings.ai_insights.weaknesses?.map((w, i) => <li key={i}>{w}</li>)}
+                        </ul>
+                      </div>
+                    </div>
+                    
+                    <div className="ai-overall-level">
+                      <span>Overall Level:</span>
+                      <span className="level-badge">{data.settings.ai_insights.overall_level}</span>
+                    </div>
+                  </div>
+                )}
               </div>
-              <p style={{ margin: '0 0 0.5rem 0', color: '#64748b', fontSize: '0.9rem' }}>{t('dash_next_reward')}</p>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 'bold', color: '#eab308' }}>
-                <Coins size={20} fill="#eab308" /> {stats.streak < 7 ? t('dash_coins_at_7') : stats.streak < 30 ? t('dash_coins_at_30') : t('dash_legendary')}
-              </div>
-            </div>
+            )}
 
             {/* Achievements */}
-            <div className="stat-card" style={{ marginBottom: '1.5rem', padding: '1.5rem', background: '#fff', borderRadius: '16px', boxShadow: '0 4px 6px rgba(0,0,0,0.05)' }}>
-              <h3 style={{ margin: '0 0 1.25rem 0' }}>{t('dash_achievements')}</h3>
-              <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(110px, 1fr))', gap: '0.75rem' }}>
+            <div className="dash-card">
+              <h3>{t('dash_achievements', 'Achievements')}</h3>
+              <div className="achievements-grid">
                 {achievements && achievements.map((ach) => {
                   const percent = Math.min(100, Math.round((ach.current / ach.target) * 100));
                   return (
                     <div 
                       key={ach.id} 
                       title={t(`ach_${ach.id}_desc`, ach.desc)}
-                      style={{
-                        display: 'flex',
-                        flexDirection: 'column',
-                        alignItems: 'center',
-                        justifyContent: 'space-between',
-                        padding: '0.75rem 0.5rem',
-                        borderRadius: '16px',
-                        background: ach.unlocked ? 'linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)' : '#f8fafc',
-                        border: `2px solid ${ach.unlocked ? '#4ade80' : '#e2e8f0'}`,
-                        opacity: ach.unlocked ? 1 : 0.7,
-                        transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
-                        cursor: 'help',
-                        boxShadow: ach.unlocked ? '0 4px 12px rgba(74, 222, 128, 0.15)' : 'none',
-                        position: 'relative'
-                      }}
-                      className="achievement-badge-card"
+                      className={`achievement-badge-card ${ach.unlocked ? 'unlocked' : 'locked'}`}
                     >
-                      {!ach.unlocked && (
-                        <div style={{ position: 'absolute', top: '5px', right: '5px', fontSize: '0.75rem', color: '#94a3b8' }}>
-                          🔒
-                        </div>
-                      )}
-                      <span style={{ fontSize: '2rem', marginBottom: '0.25rem', filter: ach.unlocked ? 'none' : 'grayscale(100%)' }}>
-                        {ach.icon}
-                      </span>
-                      <span style={{ fontSize: '0.75rem', fontWeight: 'bold', color: ach.unlocked ? '#15803d' : '#475569', textAlign: 'center', lineHeight: '1.1', height: '24px', display: 'flex', alignItems: 'center' }}>
-                        {t(`ach_${ach.id}_title`, ach.title)}
-                      </span>
-                      <div style={{ width: '80%', height: '5px', background: '#e2e8f0', borderRadius: '3px', marginTop: '0.5rem', overflow: 'hidden' }}>
-                        <div style={{ width: `${percent}%`, height: '100%', background: ach.unlocked ? '#22c55e' : '#cbd5e1', borderRadius: '3px' }} />
+                      {!ach.unlocked && <div className="lock-icon">🔒</div>}
+                      <span className="ach-icon">{ach.icon}</span>
+                      <span className="ach-title">{t(`ach_${ach.id}_title`, ach.title)}</span>
+                      <div className="ach-progress-bg">
+                        <div className="ach-progress-fill" style={{ width: `${percent}%` }} />
                       </div>
-                      <span style={{ fontSize: '0.65rem', color: '#64748b', marginTop: '0.25rem', fontWeight: '600' }}>
+                      <span className="ach-progress-text">
                         {ach.current >= ach.target ? ach.target : ach.current}/{ach.target}
                       </span>
                     </div>
@@ -470,20 +425,21 @@ const Dashboard = () => {
             </div>
 
             {/* Skill Analysis */}
-            <div className="stat-card" style={{ marginBottom: '1.5rem', padding: '1.5rem', background: '#fff', borderRadius: '16px', boxShadow: '0 4px 6px rgba(0,0,0,0.05)' }}>
-              <h3 style={{ margin: '0 0 1.5rem 0' }}>{t('dash_skill_analysis')}</h3>
-              
-              {skillAnalysis && Object.entries(skillAnalysis).map(([skill, percent]) => (
-                <div key={skill} style={{ marginBottom: '1rem' }}>
-                  <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.25rem', fontSize: '0.9rem', fontWeight: '500' }}>
-                    <span>{t(`dash_${skill}`, skill.charAt(0).toUpperCase() + skill.slice(1))}</span>
-                    <span>{percent}%</span>
+            <div className="dash-card">
+              <h3>{t('dash_skill_analysis', 'Skill Analysis')}</h3>
+              <div className="skills-list">
+                {skillAnalysis && Object.entries(skillAnalysis).map(([skill, percent]) => (
+                  <div key={skill} className="skill-item">
+                    <div className="skill-header">
+                      <span>{t(`dash_${skill}`, skill.charAt(0).toUpperCase() + skill.slice(1))}</span>
+                      <span>{percent}%</span>
+                    </div>
+                    <div className="progress-bar-bg">
+                      <div className="progress-bar-fill" style={{ width: `${percent}%` }}></div>
+                    </div>
                   </div>
-                  <div style={{ width: '100%', height: '8px', background: '#e5e7eb', borderRadius: '4px' }}>
-                    <div style={{ width: `${percent}%`, height: '100%', background: '#111827', borderRadius: '4px', transition: 'width 0.5s ease' }}></div>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
 
             {/* Leaderboard */}
@@ -585,12 +541,9 @@ const Dashboard = () => {
       </div>
 
       {/* Floating AI Tutor Bot */}
-      <div 
-        className="ai-tutor-fab"
-        onClick={() => setShowTutor(true)}
-      >
-        <span style={{ fontWeight: '600', fontSize: '1.05rem', letterSpacing: '0.5px' }}>{t('dash_talk_with_me')}</span>
-        <div style={{ background: 'rgba(255,255,255,0.2)', padding: '0.6rem', borderRadius: '50%', display: 'flex' }}>
+      <div className="ai-tutor-fab" onClick={() => setShowTutor(true)}>
+        <span>{t('dash_talk_with_me', 'Chat')}</span>
+        <div className="tutor-icon-wrap">
           <Bot size={24} />
         </div>
       </div>
@@ -613,17 +566,11 @@ const Dashboard = () => {
 
 // Reusable TaskItem component
 const TaskItem = ({ done, label }) => (
-  <li style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.8rem', color: done ? '#111827' : '#475569' }}>
-    <div style={{
-      width: '20px', height: '20px', 
-      background: done ? '#10b981' : 'transparent', 
-      border: done ? 'none' : '1px solid #cbd5e1', 
-      display: 'flex', alignItems: 'center', justifyContent: 'center', 
-      borderRadius: '4px'
-    }}>
+  <li className={`task-item ${done ? 'done' : ''}`}>
+    <div className={`checkbox ${done ? 'checked' : ''}`}>
       {done && <Check size={14} color="white" />}
     </div>
-    <span style={{ textDecoration: done ? 'line-through' : 'none' }}>{label}</span>
+    <span>{label}</span>
   </li>
 );
 

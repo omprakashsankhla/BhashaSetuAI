@@ -31,8 +31,20 @@ const TutorModal = ({ onClose }) => {
   const [inputMode, setInputMode] = useState('type'); // 'type' or 'speak'
   const [isRecording, setIsRecording] = useState(false);
   const [speechSupported, setSpeechSupported] = useState(false);
+  const [isOffline, setIsOffline] = useState(!navigator.onLine);
   const messagesEndRef = useRef(null);
   const recognitionRef = useRef(null);
+
+  useEffect(() => {
+    const handleOnline = () => setIsOffline(false);
+    const handleOffline = () => setIsOffline(true);
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+    };
+  }, []);
 
   useEffect(() => {
     // Check if Web Speech API is supported
@@ -233,7 +245,11 @@ const TutorModal = ({ onClose }) => {
             </button>
           </div>
 
-          {inputMode === 'type' ? (
+          {isOffline ? (
+            <div className="offline-warning" style={{ padding: '1rem', textAlign: 'center', color: '#ef4444', background: '#fee2e2', borderRadius: '12px', width: '100%' }}>
+              Internet connection required for AI features.
+            </div>
+          ) : inputMode === 'type' ? (
             <div className="text-input-wrapper">
               <textarea
                 value={input}

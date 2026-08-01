@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Flame, Coins, User, Settings, Award, BookOpen, Lock, Check, Play, LogOut, Heart, Mic, Gamepad2, Edit3, BarChart2, Medal, ArrowRight, Home, Target, Bot, Globe, Bell } from 'lucide-react';
+import { Flame, Coins, User, Settings, Award, BookOpen, Lock, Check, Play, LogOut, Heart, Mic, Gamepad2, Edit3, BarChart2, Medal, ArrowRight, Home, Target, Bot, Globe, Bell, Menu, X } from 'lucide-react';
 import ProfileModal from '../components/ProfileModal';
 import SettingsModal from '../components/SettingsModal';
 import LessonPage from './LessonPage';
@@ -29,6 +29,7 @@ const LearnPage = () => {
   const [showAnnouncements, setShowAnnouncements] = useState(false);
   const [activeLessonId, setActiveLessonId] = useState(null);
   const [activeTab, setActiveTab] = useState(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   useEffect(() => {
     fetchDashboardData();
@@ -70,24 +71,27 @@ const LearnPage = () => {
   const { unitProgress, dayNumber, user, stats, rank } = data;
   const currentUnitProgress = activeTab && unitProgress ? unitProgress[activeTab] || [] : [];
 
+
   return (
     <div className="dashboard-layout">
+      <div className={`sidebar-backdrop ${sidebarOpen ? 'active' : ''}`} onClick={() => setSidebarOpen(false)} />
+
       {/* Sidebar - Reused from Dashboard style */}
-      <aside className="sidebar">
+      <aside className={`sidebar ${sidebarOpen ? 'sidebar-open' : ''}`}>
         <div className="sidebar-logo">
           <h2>BhashaSetu</h2>
         </div>
         
         <nav className="sidebar-nav">
-          <button className="nav-item" onClick={() => navigate('/dashboard')}><Home size={20} /> <span>{t('dash_nav_home', 'Home')}</span></button>
-          <button className="nav-item active"><BookOpen size={20} /> <span>{t('dash_nav_learn', 'Learn')}</span></button>
-          <button className="nav-item" onClick={() => navigate('/activities')}><Target size={20} /> <span>{t('dash_nav_activities', 'Activities')}</span></button>
-          <button className="nav-item" onClick={() => navigate('/games')}><Gamepad2 size={20} /> <span>{t('dash_nav_games', 'Games')}</span></button>
-          <button className="nav-item" onClick={() => navigate('/lesson/practice')}><Edit3 size={20} /> <span>{t('dash_nav_practice', 'Practice')}</span></button>
-          <button className="nav-item" onClick={() => setShowLeaderboard(true)}><Award size={20} /> <span>{t('dash_nav_leaderboard', 'Leaderboard')}</span></button>
-          <button className="nav-item" onClick={() => setShowProgress(true)}><BarChart2 size={20} /> <span>{t('dash_nav_progress', 'Progress')}</span></button>
-          <button className="nav-item" onClick={() => setShowProfile(true)}><User size={20} /> <span>{t('dash_nav_profile', 'Profile')}</span></button>
-          <button className="nav-item" onClick={() => setShowSettings(true)}><Settings size={20} /> <span>{t('dash_nav_settings', 'Settings')}</span></button>
+          <button className="nav-item" onClick={() => { navigate('/dashboard'); setSidebarOpen(false); }}><Home size={20} /> <span>{t('dash_nav_home', 'Home')}</span></button>
+          <button className="nav-item active" onClick={() => setSidebarOpen(false)}><BookOpen size={20} /> <span>{t('dash_nav_learn', 'Learn')}</span></button>
+          <button className="nav-item" onClick={() => { navigate('/activities'); setSidebarOpen(false); }}><Target size={20} /> <span>{t('dash_nav_activities', 'Activities')}</span></button>
+          <button className="nav-item" onClick={() => { navigate('/games'); setSidebarOpen(false); }}><Gamepad2 size={20} /> <span>{t('dash_nav_games', 'Games')}</span></button>
+          <button className="nav-item" onClick={() => { navigate('/lesson/practice'); setSidebarOpen(false); }}><Edit3 size={20} /> <span>{t('dash_nav_practice', 'Practice')}</span></button>
+          <button className="nav-item" onClick={() => { setShowLeaderboard(true); setSidebarOpen(false); }}><Award size={20} /> <span>{t('dash_nav_leaderboard', 'Leaderboard')}</span></button>
+          <button className="nav-item" onClick={() => { setShowProgress(true); setSidebarOpen(false); }}><BarChart2 size={20} /> <span>{t('dash_nav_progress', 'Progress')}</span></button>
+          <button className="nav-item" onClick={() => { setShowProfile(true); setSidebarOpen(false); }}><User size={20} /> <span>{t('dash_nav_profile', 'Profile')}</span></button>
+          <button className="nav-item" onClick={() => { setShowSettings(true); setSidebarOpen(false); }}><Settings size={20} /> <span>{t('dash_nav_settings', 'Settings')}</span></button>
           
           <button className="nav-item logout" onClick={handleLogout} style={{ marginTop: 'auto' }}>
             <LogOut size={20} /> <span>{t('dash_nav_logout', 'Logout')}</span>
@@ -99,16 +103,17 @@ const LearnPage = () => {
         
         {/* Top Header */}
         <header className="dashboard-header">
+          <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
+            {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
           <div className="welcome-text">
             <h1>{t('dash_learning_journey', 'Learning Journey')}</h1>
             <p>{t('dash_day_of', { current: dayNumber || 1, total: 30 })}</p>
           </div>
 
-          <div className="header-lang-selectors" style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
-            {/* Learning Language Selector */}
-            <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', background: '#f1f5f9', padding: '0.4rem 0.8rem', borderRadius: '12px', border: '1px solid #e2e8f0' }}>
-              <Globe size={16} color="#475569" />
-              <span style={{ fontSize: '0.85rem', fontWeight: 'bold', color: '#475569' }}>{t('header_learn_lang', 'Learn')}:</span>
+          <div className="header-actions">
+            <div className="lang-switcher">
+              <Globe size={16} />
               <select 
                 value={user?.preferred_language || 'hi'} 
                 onChange={async (e) => {
@@ -130,7 +135,6 @@ const LearnPage = () => {
                     console.error(err);
                   }
                 }}
-                style={{ border: 'none', background: 'transparent', fontWeight: '600', color: '#1e293b', cursor: 'pointer', outline: 'none', fontSize: '0.85rem' }}
               >
                 <option value="en">English</option>
                 <option value="hi">हिन्दी (Hindi)</option>
@@ -142,42 +146,18 @@ const LearnPage = () => {
                 <option value="ur">اردو (Urdu)</option>
               </select>
             </div>
-          </div>
-          
-          <div className="header-stats">
-            <div className="stat-item streak clickable" onClick={() => setShowStreakModal(true)} style={{ cursor: 'pointer', transition: 'transform 0.2s' }}>
-              <Flame size={24} fill="#f97316" color="#f97316" />
-              <span>{t('dash_day_streak', { count: stats.streak })}</span>
-            </div>
-            <div className="stat-item xp" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '0.2rem' }}>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: '600' }}>
-                <span style={{ color: '#eab308', fontSize: '1.2rem' }}>⭐</span>
-                <span>XP : {stats.xp}</span>
-              </div>
-              <span style={{ fontSize: '0.8rem', color: '#64748b', fontWeight: '600' }}>🏆 {t('dash_rank', { rank: rank || 'Bronze Learner' })}</span>
-            </div>
-            <div className="stat-item coins clickable" onClick={() => setShowShopModal(true)} style={{ cursor: 'pointer', transition: 'transform 0.2s' }}>
-              <Coins size={24} fill="#eab308" color="#eab308" />
-              <span>{stats.coins}</span>
-            </div>
-            <div className="stat-item clickable" onClick={() => setShowAnnouncements(true)} style={{ cursor: 'pointer', position: 'relative', display: 'flex', alignItems: 'center' }}>
-              <Bell size={24} color="#64748b" />
+            
+            <div className="notification-bell clickable" onClick={() => setShowAnnouncements(true)}>
+              <Bell size={24} />
               {data.announcements && data.announcements.length > 0 && (
-                <span style={{
-                  position: 'absolute', top: '-5px', right: '-5px',
-                  background: '#ef4444', color: 'white', borderRadius: '50%',
-                  width: '16px', height: '16px', fontSize: '0.65rem',
-                  display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold'
-                }}>
-                  {data.announcements.length}
-                </span>
+                <span className="badge">{data.announcements.length}</span>
               )}
             </div>
-            <div className="avatar-circle clickable" onClick={() => setShowProfile(true)} style={{ cursor: 'pointer', transition: 'transform 0.2s', padding: (user?.avatar && user.avatar !== '/default-avatar.png') ? 0 : '', overflow: 'hidden' }}>
+            <div className="avatar-circle clickable" onClick={() => setShowProfile(true)}>
               {user?.avatar && user.avatar !== '/default-avatar.png' ? (
-                <img src={user.avatar} alt="Profile" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                <img src={user.avatar} alt="Profile" />
               ) : (
-                user.name.charAt(0).toUpperCase()
+                user?.name ? user.name.charAt(0).toUpperCase() : 'U'
               )}
             </div>
           </div>
@@ -185,22 +165,12 @@ const LearnPage = () => {
 
         <main className="learn-map-container">
           {/* Proficiency Track Selector */}
-          <div className="track-selector" style={{ display: 'flex', gap: '0.5rem', marginBottom: '2rem', background: '#f1f5f9', padding: '0.5rem', borderRadius: '12px', maxWidth: '600px', margin: '0 auto 2rem auto' }}>
+          <div className="track-selector">
             {['Beginner', 'Intermediate', 'Advanced'].map(lvl => (
               <button
                 key={lvl}
                 onClick={() => setActiveTab(lvl)}
-                style={{
-                  flex: 1,
-                  padding: '0.75rem',
-                  border: 'none',
-                  borderRadius: '8px',
-                  fontWeight: 'bold',
-                  cursor: 'pointer',
-                  background: activeTab === lvl ? '#111827' : 'transparent',
-                  color: activeTab === lvl ? '#fff' : '#64748b',
-                  transition: 'all 0.2s'
-                }}
+                className={`track-btn ${activeTab === lvl ? 'active' : ''}`}
               >
                 {t(`dash_${lvl.toLowerCase()}`, lvl)}
               </button>

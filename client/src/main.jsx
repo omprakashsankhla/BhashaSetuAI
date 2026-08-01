@@ -16,6 +16,18 @@ import './index.css'
 import './theme.css'
 import './i18n'
 import App from './App.jsx'
+import { registerSW } from 'virtual:pwa-register'
+
+const updateSW = registerSW({
+  onNeedRefresh() {
+    if (confirm('New content available. Reload?')) {
+      updateSW(true)
+    }
+  },
+  onOfflineReady() {
+    console.log('BhashaSetu is ready to work offline.')
+  },
+})
 
 createRoot(document.getElementById('root')).render(
   <App />

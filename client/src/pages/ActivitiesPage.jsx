@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Home, BookOpen, Target, Gamepad2, Edit3, Award, Medal, BarChart2, User, Settings, LogOut, Bot, Mic, BookText, Layers, BrainCircuit, Activity, Compass, ShieldAlert, Eye, UserCheck } from 'lucide-react';
+import { Home, BookOpen, Target, Gamepad2, Edit3, Award, Medal, BarChart2, User, Settings, LogOut, Bot, Mic, BookText, Layers, BrainCircuit, Activity, Compass, ShieldAlert, Eye, UserCheck, Menu, X } from 'lucide-react';
 import ProfileModal from '../components/ProfileModal';
 import SettingsModal from '../components/SettingsModal';
 import LeaderboardModal from '../components/LeaderboardModal';
@@ -20,6 +20,7 @@ const ActivitiesPage = () => {
   const [showTutor, setShowTutor] = useState(false);
   const [showProgress, setShowProgress] = useState(false);
   const [data, setData] = useState(null);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   const [activeTab, setActiveTab] = useState(() => {
     const userStr = localStorage.getItem('user');
@@ -244,24 +245,27 @@ const ActivitiesPage = () => {
 
   const filteredActivities = allActivities.filter(a => a.level === activeTab);
 
+
   return (
     <div className="dashboard-layout">
+      <div className={`sidebar-backdrop ${sidebarOpen ? 'active' : ''}`} onClick={() => setSidebarOpen(false)} />
+
       {/* Sidebar - Reused from Dashboard style */}
-      <aside className="sidebar">
+      <aside className={`sidebar ${sidebarOpen ? 'sidebar-open' : ''}`}>
         <div className="sidebar-logo">
           <h2>BhashaSetu</h2>
         </div>
         
         <nav className="sidebar-nav">
-          <button className="nav-item" onClick={() => navigate('/dashboard')}><Home size={20} /> <span>{t('dash_nav_home', 'Home')}</span></button>
-          <button className="nav-item" onClick={() => navigate('/learn')}><BookOpen size={20} /> <span>{t('dash_nav_learn', 'Learn')}</span></button>
-          <button className="nav-item active"><Target size={20} /> <span>{t('dash_nav_activities', 'Activities')}</span></button>
-          <button className="nav-item" onClick={() => navigate('/games')}><Gamepad2 size={20} /> <span>{t('dash_nav_games', 'Games')}</span></button>
-          <button className="nav-item" onClick={() => navigate('/lesson/practice')}><Edit3 size={20} /> <span>{t('dash_nav_practice', 'Practice')}</span></button>
-          <button className="nav-item" onClick={() => setShowLeaderboard(true)}><Award size={20} /> <span>{t('dash_nav_leaderboard', 'Leaderboard')}</span></button>
-          <button className="nav-item" onClick={() => setShowProgress(true)}><BarChart2 size={20} /> <span>{t('dash_nav_progress', 'Progress')}</span></button>
-          <button className="nav-item" onClick={() => setShowProfile(true)}><User size={20} /> <span>{t('dash_nav_profile', 'Profile')}</span></button>
-          <button className="nav-item" onClick={() => setShowSettings(true)}><Settings size={20} /> <span>{t('dash_nav_settings', 'Settings')}</span></button>
+          <button className="nav-item" onClick={() => { navigate('/dashboard'); setSidebarOpen(false); }}><Home size={20} /> <span>{t('dash_nav_home', 'Home')}</span></button>
+          <button className="nav-item" onClick={() => { navigate('/learn'); setSidebarOpen(false); }}><BookOpen size={20} /> <span>{t('dash_nav_learn', 'Learn')}</span></button>
+          <button className="nav-item active" onClick={() => setSidebarOpen(false)}><Target size={20} /> <span>{t('dash_nav_activities', 'Activities')}</span></button>
+          <button className="nav-item" onClick={() => { navigate('/games'); setSidebarOpen(false); }}><Gamepad2 size={20} /> <span>{t('dash_nav_games', 'Games')}</span></button>
+          <button className="nav-item" onClick={() => { navigate('/lesson/practice'); setSidebarOpen(false); }}><Edit3 size={20} /> <span>{t('dash_nav_practice', 'Practice')}</span></button>
+          <button className="nav-item" onClick={() => { setShowLeaderboard(true); setSidebarOpen(false); }}><Award size={20} /> <span>{t('dash_nav_leaderboard', 'Leaderboard')}</span></button>
+          <button className="nav-item" onClick={() => { setShowProgress(true); setSidebarOpen(false); }}><BarChart2 size={20} /> <span>{t('dash_nav_progress', 'Progress')}</span></button>
+          <button className="nav-item" onClick={() => { setShowProfile(true); setSidebarOpen(false); }}><User size={20} /> <span>{t('dash_nav_profile', 'Profile')}</span></button>
+          <button className="nav-item" onClick={() => { setShowSettings(true); setSidebarOpen(false); }}><Settings size={20} /> <span>{t('dash_nav_settings', 'Settings')}</span></button>
           
           <button className="nav-item logout" onClick={handleLogout} style={{ marginTop: 'auto' }}>
             <LogOut size={20} /> <span>{t('dash_nav_logout', 'Logout')}</span>
@@ -273,6 +277,9 @@ const ActivitiesPage = () => {
         
         {/* Top Header */}
         <header className="dashboard-header activities-header">
+          <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
+            {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
           <div className="welcome-text">
             <h1>{t('act_title', 'Learning Activities')}</h1>
             <p>{t('act_subtitle', "Engaging ways to practice and apply what you've learned.")}</p>

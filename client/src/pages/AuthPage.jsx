@@ -2,13 +2,14 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useGoogleLogin } from '@react-oauth/google';
-import { Bot, BookOpen, Mic, Brain, Check } from 'lucide-react';
+import { Bot, Eye, EyeOff, BookOpen, Mic, Brain, Check } from 'lucide-react';
 import './AuthPage.css';
 
 const AuthPage = () => {
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
   const [isLogin, setIsLogin] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
   
   const [formData, setFormData] = useState({
@@ -17,6 +18,7 @@ const AuthPage = () => {
     password: '',
     preferred_language: i18n.language || 'hi', // default learning language to active selection
     education_level: 'No formal education',
+    proficiency_level: 'Beginner',
     age: ''
   });
 
@@ -25,7 +27,6 @@ const AuthPage = () => {
   };
 
   const handleLanguageChange = () => {
-    // Navigate back to language selection
     navigate('/');
   };
 
@@ -36,7 +37,7 @@ const AuthPage = () => {
       const endpoint = isLogin ? '/api/auth/login' : '/api/auth/register';
       const body = isLogin 
         ? { email: formData.email, password: formData.password }
-        : { ...formData, proficiency_level: 'Beginner' };
+        : { ...formData };
 
       const response = await fetch(`http://localhost:5000${endpoint}`, {
         method: 'POST',
@@ -88,7 +89,6 @@ const AuthPage = () => {
         }
         localStorage.setItem('token', data.token);
         localStorage.setItem('user', JSON.stringify(data.user));
-        console.log("Google Auth success:", data);
         
         if (data.user.role === 'Admin') {
           navigate('/admin');
@@ -186,7 +186,24 @@ const AuthPage = () => {
 
               <div className="form-group">
                 <label>{t('label_password')}</label>
-                <input type="password" name="password" value={formData.password} onChange={handleInputChange} placeholder="••••••••••" required />
+                <div className="password-input-wrapper">
+                  <input 
+                    type={showPassword ? 'text' : 'password'} 
+                    name="password" 
+                    value={formData.password} 
+                    onChange={handleInputChange} 
+                    placeholder="••••••••••" 
+                    required 
+                  />
+                  <button 
+                    type="button" 
+                    className="password-toggle-btn"
+                    onClick={() => setShowPassword(!showPassword)}
+                    aria-label={showPassword ? 'Hide password' : 'Show password'}
+                  >
+                    {showPassword ? <EyeOff size={18} /> : <Eye size={18} />}
+                  </button>
+                </div>
               </div>
 
               {!isLogin && (
@@ -205,21 +222,32 @@ const AuthPage = () => {
                     </select>
                   </div>
                   <div className="form-group half">
-                    <label>{t('label_education')}</label>
-                    <select name="education_level" value={formData.education_level} onChange={handleInputChange}>
-                      <option value="No formal education">{t('edu_none')}</option>
-                      <option value="Primary School">Primary School</option>
-                      <option value="High School">High School</option>
-                      <option value="Adult literacy class">Adult literacy class</option>
+                    <label>{t('label_proficiency', 'Proficiency')}</label>
+                    <select name="proficiency_level" value={formData.proficiency_level} onChange={handleInputChange}>
+                      <option value="Beginner">Beginner</option>
+                      <option value="Intermediate">Intermediate</option>
+                      <option value="Advanced">Advanced</option>
                     </select>
                   </div>
                 </div>
               )}
               
               {!isLogin && (
-                <div className="form-group">
-                  <label>{t('label_age')}</label>
-                  <input type="number" name="age" value={formData.age} onChange={handleInputChange} placeholder={t('label_age')} required />
+                <div className="form-row">
+                  <div className="form-group half">
+                    <label>{t('label_education', 'Education Level')}</label>
+                    <select name="education_level" value={formData.education_level} onChange={handleInputChange}>
+                      <option value="No formal education">{t('edu_none', 'No formal education')}</option>
+                      <option value="Primary School">Primary School</option>
+                      <option value="High School">High School</option>
+                      <option value="Adult literacy class">Adult literacy class</option>
+                      <option value="College/University">College/University</option>
+                    </select>
+                  </div>
+                  <div className="form-group half">
+                    <label>{t('label_age', 'Age')}</label>
+                    <input type="number" name="age" value={formData.age} onChange={handleInputChange} placeholder="e.g. 25" required min="4" max="120" />
+                  </div>
                 </div>
               )}
 
