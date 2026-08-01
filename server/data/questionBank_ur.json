@@ -1,0 +1,958 @@
+{
+  "Beginner": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "ترجمہ کریں: Water",
+        "options": [
+          "پانی",
+          "Fire",
+          "Earth",
+          "Air"
+        ],
+        "answer": "پانی",
+        "feedback": "صحیح جواب ہے: پانی"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "ترجمہ کریں: Food",
+        "options": [
+          "کھانا",
+          "Sleep",
+          "Walk",
+          "Run"
+        ],
+        "answer": "کھانا",
+        "feedback": "صحیح جواب ہے: کھانا"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "ترجمہ کریں: Sun",
+        "options": [
+          "سورج",
+          "Moon",
+          "Star",
+          "Cloud"
+        ],
+        "answer": "سورج",
+        "feedback": "صحیح جواب ہے: سورج"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "ترجمہ کریں: House",
+        "options": [
+          "گھر",
+          "Tree",
+          "Road",
+          "Car"
+        ],
+        "answer": "گھر",
+        "feedback": "صحیح جواب ہے: گھر"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "خالی جگہ پر کریں: A ___ C",
+        "options": [
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "answer": "B",
+        "feedback": "صحیح جواب ہے: B"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: مجھے سیب پسند ہیں۔",
+        "word": "مجھے سیب پسند ہیں۔"
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: Hello.",
+        "word": "Hello."
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: Thank you.",
+        "word": "Thank you."
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: Good boy.",
+        "word": "Good boy."
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: Welcome.",
+        "word": "Welcome."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: وہ ایک کتاب پڑھ رہی ہے۔",
+        "answer": "She is reading a book.",
+        "feedback": "صحیح ترجمہ ہے: She is reading a book."
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: Namaste / Vanakkam / Hello",
+        "answer": "Hello",
+        "feedback": "صحیح ترجمہ ہے: Hello"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: Yes",
+        "answer": "Yes",
+        "feedback": "صحیح ترجمہ ہے: Yes"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: No",
+        "answer": "No",
+        "feedback": "صحیح ترجمہ ہے: No"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: Water",
+        "answer": "Water",
+        "feedback": "صحیح ترجمہ ہے: Water"
+      }
+    ],
+    "Listening": [
+      {
+        "id": 76,
+        "type": "Listening",
+        "audioText": "صبح بخیر",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "Good morning",
+        "feedback": "صحیح جواب ہے: Good morning"
+      },
+      {
+        "id": 77,
+        "type": "Listening",
+        "audioText": "Thank you",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "Thank you",
+        "feedback": "صحیح جواب ہے: Thank you"
+      },
+      {
+        "id": 78,
+        "type": "Listening",
+        "audioText": "Welcome",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "Welcome",
+        "feedback": "صحیح جواب ہے: Welcome"
+      },
+      {
+        "id": 79,
+        "type": "Listening",
+        "audioText": "Yes",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "Yes",
+        "feedback": "صحیح جواب ہے: Yes"
+      },
+      {
+        "id": 80,
+        "type": "Listening",
+        "audioText": "No",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "No",
+        "feedback": "صحیح جواب ہے: No"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 101,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: I ___ a student.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "am",
+        "feedback": "صحیح جواب ہے: am"
+      },
+      {
+        "id": 102,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: He ___ a boy.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "صحیح جواب ہے: is"
+      },
+      {
+        "id": 103,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: They ___ playing.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "صحیح جواب ہے: are"
+      },
+      {
+        "id": 104,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: She ___ reading.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "صحیح جواب ہے: is"
+      },
+      {
+        "id": 105,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: We ___ happy.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "be"
+        ],
+        "answer": "are",
+        "feedback": "صحیح جواب ہے: are"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 126,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "dog",
+          "The",
+          "barks"
+        ],
+        "answer": "The dog barks",
+        "feedback": "صحیح جواب ہے: The dog barks"
+      },
+      {
+        "id": 127,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "boy",
+          "is",
+          "He",
+          "a"
+        ],
+        "answer": "He is a boy",
+        "feedback": "صحیح جواب ہے: He is a boy"
+      },
+      {
+        "id": 128,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "playing",
+          "are",
+          "They"
+        ],
+        "answer": "They are playing",
+        "feedback": "صحیح جواب ہے: They are playing"
+      },
+      {
+        "id": 129,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "reading",
+          "She",
+          "is"
+        ],
+        "answer": "She is reading",
+        "feedback": "صحیح جواب ہے: She is reading"
+      },
+      {
+        "id": 130,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "happy",
+          "We",
+          "are"
+        ],
+        "answer": "We are happy",
+        "feedback": "صحیح جواب ہے: We are happy"
+      }
+    ]
+  },
+  "Intermediate": {
+    "MCQ": [
+      {
+        "id": 201,
+        "type": "MCQ",
+        "text": "ترجمہ کریں: Beautiful",
+        "options": [
+          "خوبصورت",
+          "Ugly",
+          "Fast",
+          "Slow"
+        ],
+        "answer": "خوبصورت",
+        "feedback": "صحیح جواب ہے: خوبصورت"
+      },
+      {
+        "id": 202,
+        "type": "MCQ",
+        "text": "ترجمہ کریں: Library",
+        "options": [
+          "لائبریری",
+          "School",
+          "Hospital",
+          "Park"
+        ],
+        "answer": "لائبریری",
+        "feedback": "صحیح جواب ہے: لائبریری"
+      },
+      {
+        "id": 203,
+        "type": "MCQ",
+        "text": "خالی جگہ پر کریں: Past tense of 'run' is ___",
+        "options": [
+          "ran",
+          "runned",
+          "running",
+          "runs"
+        ],
+        "answer": "ran",
+        "feedback": "صحیح جواب ہے: ran"
+      },
+      {
+        "id": 204,
+        "type": "MCQ",
+        "text": "خالی جگہ پر کریں: Opposite of 'hot' is ___",
+        "options": [
+          "cold",
+          "warm",
+          "boiling",
+          "freezing"
+        ],
+        "answer": "cold",
+        "feedback": "صحیح جواب ہے: cold"
+      },
+      {
+        "id": 205,
+        "type": "MCQ",
+        "text": "خالی جگہ پر کریں: Verb is ___",
+        "options": [
+          "Run",
+          "Apple",
+          "Blue",
+          "Quickly"
+        ],
+        "answer": "Run",
+        "feedback": "صحیح جواب ہے: Run"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 226,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: میں ایک نئی زبان سیکھ رہا ہوں۔",
+        "word": "میں ایک نئی زبان سیکھ رہا ہوں۔"
+      },
+      {
+        "id": 227,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: The quick brown fox.",
+        "word": "The quick brown fox."
+      },
+      {
+        "id": 228,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: It is raining outside.",
+        "word": "It is raining outside."
+      },
+      {
+        "id": 229,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: She likes to read books.",
+        "word": "She likes to read books."
+      },
+      {
+        "id": 230,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: I am learning English.",
+        "word": "I am learning English."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 251,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: لائبریری کہاں ہے؟",
+        "answer": "Where is the library?",
+        "feedback": "صحیح ترجمہ ہے: Where is the library?"
+      },
+      {
+        "id": 252,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: Beautiful",
+        "answer": "Beautiful",
+        "feedback": "صحیح ترجمہ ہے: Beautiful"
+      },
+      {
+        "id": 253,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: Important",
+        "answer": "Important",
+        "feedback": "صحیح ترجمہ ہے: Important"
+      },
+      {
+        "id": 254,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: Because",
+        "answer": "Because",
+        "feedback": "صحیح ترجمہ ہے: Because"
+      },
+      {
+        "id": 255,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: Together",
+        "answer": "Together",
+        "feedback": "صحیح ترجمہ ہے: Together"
+      }
+    ],
+    "Listening": [
+      {
+        "id": 276,
+        "type": "Listening",
+        "audioText": "آپ کیسے ہیں؟",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "How are you?",
+        "feedback": "صحیح جواب ہے: How are you?"
+      },
+      {
+        "id": 277,
+        "type": "Listening",
+        "audioText": "Beautiful",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "Beautiful",
+        "feedback": "صحیح جواب ہے: Beautiful"
+      },
+      {
+        "id": 278,
+        "type": "Listening",
+        "audioText": "I am fine",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "I am fine",
+        "feedback": "صحیح جواب ہے: I am fine"
+      },
+      {
+        "id": 279,
+        "type": "Listening",
+        "audioText": "See you later",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "See you later",
+        "feedback": "صحیح جواب ہے: See you later"
+      },
+      {
+        "id": 280,
+        "type": "Listening",
+        "audioText": "Have a good day",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "Have a good day",
+        "feedback": "صحیح جواب ہے: Have a good day"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 301,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: She ___ to the store yesterday.",
+        "options": [
+          "went",
+          "go",
+          "going",
+          "goes"
+        ],
+        "answer": "went",
+        "feedback": "صحیح جواب ہے: went"
+      },
+      {
+        "id": 302,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: I have ___ eaten breakfast.",
+        "options": [
+          "already",
+          "yet",
+          "still",
+          "soon"
+        ],
+        "answer": "already",
+        "feedback": "صحیح جواب ہے: already"
+      },
+      {
+        "id": 303,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: He is taller ___ his brother.",
+        "options": [
+          "than",
+          "then",
+          "that",
+          "there"
+        ],
+        "answer": "than",
+        "feedback": "صحیح جواب ہے: than"
+      },
+      {
+        "id": 304,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: They will arrive ___ Monday.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "by"
+        ],
+        "answer": "on",
+        "feedback": "صحیح جواب ہے: on"
+      },
+      {
+        "id": 305,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: She ___ speaking French.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "صحیح جواب ہے: is"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 326,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "store",
+          "She",
+          "went",
+          "the",
+          "to"
+        ],
+        "answer": "She went to the store",
+        "feedback": "صحیح جواب ہے: She went to the store"
+      },
+      {
+        "id": 327,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "brother",
+          "than",
+          "taller",
+          "He",
+          "is",
+          "his"
+        ],
+        "answer": "He is taller than his brother",
+        "feedback": "صحیح جواب ہے: He is taller than his brother"
+      },
+      {
+        "id": 328,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "Monday",
+          "arrive",
+          "on",
+          "They",
+          "will"
+        ],
+        "answer": "They will arrive on Monday",
+        "feedback": "صحیح جواب ہے: They will arrive on Monday"
+      },
+      {
+        "id": 329,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "already",
+          "have",
+          "I",
+          "eaten"
+        ],
+        "answer": "I have already eaten",
+        "feedback": "صحیح جواب ہے: I have already eaten"
+      },
+      {
+        "id": 330,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "speaking",
+          "is",
+          "She",
+          "French"
+        ],
+        "answer": "She is speaking French",
+        "feedback": "صحیح جواب ہے: She is speaking French"
+      }
+    ]
+  },
+  "Advanced": {
+    "MCQ": [
+      {
+        "id": 401,
+        "type": "MCQ",
+        "text": "ترجمہ کریں: Environment",
+        "options": [
+          "ماحول",
+          "Economy",
+          "Society",
+          "Politics"
+        ],
+        "answer": "ماحول",
+        "feedback": "صحیح جواب ہے: ماحول"
+      },
+      {
+        "id": 402,
+        "type": "MCQ",
+        "text": "ترجمہ کریں: Economy",
+        "options": [
+          "معیشت",
+          "History",
+          "Math",
+          "Science"
+        ],
+        "answer": "معیشت",
+        "feedback": "صحیح جواب ہے: معیشت"
+      },
+      {
+        "id": 403,
+        "type": "MCQ",
+        "text": "خالی جگہ پر کریں: Synonym for 'meticulous'",
+        "options": [
+          "careful",
+          "careless",
+          "fast",
+          "slow"
+        ],
+        "answer": "careful",
+        "feedback": "صحیح جواب ہے: careful"
+      },
+      {
+        "id": 404,
+        "type": "MCQ",
+        "text": "خالی جگہ پر کریں: Meaning of 'ubiquitous'",
+        "options": [
+          "everywhere",
+          "nowhere",
+          "rare",
+          "unique"
+        ],
+        "answer": "everywhere",
+        "feedback": "صحیح جواب ہے: everywhere"
+      },
+      {
+        "id": 405,
+        "type": "MCQ",
+        "text": "خالی جگہ پر کریں: Adverb is ___",
+        "options": [
+          "Quickly",
+          "Quick",
+          "Quicker",
+          "Quickest"
+        ],
+        "answer": "Quickly",
+        "feedback": "صحیح جواب ہے: Quickly"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 426,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: پائیدار ترقی ہمارے مستقبل کے لیے اہم ہے۔",
+        "word": "پائیدار ترقی ہمارے مستقبل کے لیے اہم ہے۔"
+      },
+      {
+        "id": 427,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: The hypothesis was confirmed.",
+        "word": "The hypothesis was confirmed."
+      },
+      {
+        "id": 428,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: Significant progress has been made.",
+        "word": "Significant progress has been made."
+      },
+      {
+        "id": 429,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: The implications are profound.",
+        "word": "The implications are profound."
+      },
+      {
+        "id": 430,
+        "type": "Reading",
+        "text": "بلند آواز سے پڑھیں: It is undeniably true.",
+        "word": "It is undeniably true."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 451,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: معیشت تیزی سے بڑھ رہی ہے۔",
+        "answer": "The economy is growing rapidly.",
+        "feedback": "صحیح ترجمہ ہے: The economy is growing rapidly."
+      },
+      {
+        "id": 452,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: Environment",
+        "answer": "Environment",
+        "feedback": "صحیح ترجمہ ہے: Environment"
+      },
+      {
+        "id": 453,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: Sustainable",
+        "answer": "Sustainable",
+        "feedback": "صحیح ترجمہ ہے: Sustainable"
+      },
+      {
+        "id": 454,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: Development",
+        "answer": "Development",
+        "feedback": "صحیح ترجمہ ہے: Development"
+      },
+      {
+        "id": 455,
+        "type": "Writing",
+        "text": "انگریزی ترجمہ لکھیں: Congratulations",
+        "answer": "Congratulations",
+        "feedback": "صحیح ترجمہ ہے: Congratulations"
+      }
+    ],
+    "Listening": [
+      {
+        "id": 476,
+        "type": "Listening",
+        "audioText": "آپ کی کامیابی پر مبارکباد۔",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "Congratulations on your success.",
+        "feedback": "صحیح جواب ہے: Congratulations on your success."
+      },
+      {
+        "id": 477,
+        "type": "Listening",
+        "audioText": "Environment",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "Environment",
+        "feedback": "صحیح جواب ہے: Environment"
+      },
+      {
+        "id": 478,
+        "type": "Listening",
+        "audioText": "Sustainable",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "Sustainable",
+        "feedback": "صحیح جواب ہے: Sustainable"
+      },
+      {
+        "id": 479,
+        "type": "Listening",
+        "audioText": "Development",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "Development",
+        "feedback": "صحیح جواب ہے: Development"
+      },
+      {
+        "id": 480,
+        "type": "Listening",
+        "audioText": "Hypothesis",
+        "text": "سنیں اور انگریزی میں لکھیں",
+        "answer": "Hypothesis",
+        "feedback": "صحیح جواب ہے: Hypothesis"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 501,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: If I ___ known, I would have come.",
+        "options": [
+          "had",
+          "have",
+          "has",
+          "did"
+        ],
+        "answer": "had",
+        "feedback": "صحیح جواب ہے: had"
+      },
+      {
+        "id": 502,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: By the time we arrived, they ___ left.",
+        "options": [
+          "had",
+          "have",
+          "will have",
+          "are"
+        ],
+        "answer": "had",
+        "feedback": "صحیح جواب ہے: had"
+      },
+      {
+        "id": 503,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: Not only ___ he late, but he also forgot his book.",
+        "options": [
+          "was",
+          "is",
+          "were",
+          "did"
+        ],
+        "answer": "was",
+        "feedback": "صحیح جواب ہے: was"
+      },
+      {
+        "id": 504,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: I wish I ___ a car.",
+        "options": [
+          "had",
+          "have",
+          "will have",
+          "am having"
+        ],
+        "answer": "had",
+        "feedback": "صحیح جواب ہے: had"
+      },
+      {
+        "id": 505,
+        "type": "Grammar",
+        "text": "خالی جگہ پر کریں: She speaks as if she ___ everything.",
+        "options": [
+          "knew",
+          "knows",
+          "know",
+          "knowing"
+        ],
+        "answer": "knew",
+        "feedback": "صحیح جواب ہے: knew"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 526,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "come",
+          "have",
+          "would",
+          "I",
+          "known",
+          "had",
+          "If",
+          "I"
+        ],
+        "answer": "If I had known I would have come",
+        "feedback": "صحیح جواب ہے: If I had known I would have come"
+      },
+      {
+        "id": 527,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "arrived",
+          "we",
+          "time",
+          "the",
+          "By",
+          "left",
+          "had",
+          "they"
+        ],
+        "answer": "By the time we arrived they had left",
+        "feedback": "صحیح جواب ہے: By the time we arrived they had left"
+      },
+      {
+        "id": 528,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "late",
+          "he",
+          "was",
+          "only",
+          "Not"
+        ],
+        "answer": "Not only was he late",
+        "feedback": "صحیح جواب ہے: Not only was he late"
+      },
+      {
+        "id": 529,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "car",
+          "a",
+          "had",
+          "I",
+          "wish",
+          "I"
+        ],
+        "answer": "I wish I had a car",
+        "feedback": "صحیح جواب ہے: I wish I had a car"
+      },
+      {
+        "id": 530,
+        "type": "Puzzle",
+        "text": "صحیح ترتیب میں ترتیب دیں",
+        "scrambled": [
+          "everything",
+          "knew",
+          "she",
+          "if",
+          "as",
+          "speaks",
+          "She"
+        ],
+        "answer": "She speaks as if she knew everything",
+        "feedback": "صحیح جواب ہے: She speaks as if she knew everything"
+      }
+    ]
+  }
+}

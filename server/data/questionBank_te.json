@@ -1,0 +1,958 @@
+{
+  "Beginner": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "అనువదించండి: Water",
+        "options": [
+          "నీరు",
+          "Fire",
+          "Earth",
+          "Air"
+        ],
+        "answer": "నీరు",
+        "feedback": "సరైన సమాధానం: నీరు"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "అనువదించండి: Food",
+        "options": [
+          "ఆహారం",
+          "Sleep",
+          "Walk",
+          "Run"
+        ],
+        "answer": "ఆహారం",
+        "feedback": "సరైన సమాధానం: ఆహారం"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "అనువదించండి: Sun",
+        "options": [
+          "సూర్యుడు",
+          "Moon",
+          "Star",
+          "Cloud"
+        ],
+        "answer": "సూర్యుడు",
+        "feedback": "సరైన సమాధానం: సూర్యుడు"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "అనువదించండి: House",
+        "options": [
+          "ఇల్లు",
+          "Tree",
+          "Road",
+          "Car"
+        ],
+        "answer": "ఇల్లు",
+        "feedback": "సరైన సమాధానం: ఇల్లు"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "ఖాళీలను పూరించండి: A ___ C",
+        "options": [
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "answer": "B",
+        "feedback": "సరైన సమాధానం: B"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: నాకు ఆపిల్స్ అంటే ఇష్టం.",
+        "word": "నాకు ఆపిల్స్ అంటే ఇష్టం."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: Hello.",
+        "word": "Hello."
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: Thank you.",
+        "word": "Thank you."
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: Good boy.",
+        "word": "Good boy."
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: Welcome.",
+        "word": "Welcome."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: ఆమె ఒక పుస్తకం చదువుతోంది.",
+        "answer": "She is reading a book.",
+        "feedback": "సరైన అనువాదం: She is reading a book."
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: Namaste / Vanakkam / Hello",
+        "answer": "Hello",
+        "feedback": "సరైన అనువాదం: Hello"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: Yes",
+        "answer": "Yes",
+        "feedback": "సరైన అనువాదం: Yes"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: No",
+        "answer": "No",
+        "feedback": "సరైన అనువాదం: No"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: Water",
+        "answer": "Water",
+        "feedback": "సరైన అనువాదం: Water"
+      }
+    ],
+    "Listening": [
+      {
+        "id": 76,
+        "type": "Listening",
+        "audioText": "శుభోదయం",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "Good morning",
+        "feedback": "సరైన సమాధానం: Good morning"
+      },
+      {
+        "id": 77,
+        "type": "Listening",
+        "audioText": "Thank you",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "Thank you",
+        "feedback": "సరైన సమాధానం: Thank you"
+      },
+      {
+        "id": 78,
+        "type": "Listening",
+        "audioText": "Welcome",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "Welcome",
+        "feedback": "సరైన సమాధానం: Welcome"
+      },
+      {
+        "id": 79,
+        "type": "Listening",
+        "audioText": "Yes",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "Yes",
+        "feedback": "సరైన సమాధానం: Yes"
+      },
+      {
+        "id": 80,
+        "type": "Listening",
+        "audioText": "No",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "No",
+        "feedback": "సరైన సమాధానం: No"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 101,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: I ___ a student.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "am",
+        "feedback": "సరైన సమాధానం: am"
+      },
+      {
+        "id": 102,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: He ___ a boy.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "సరైన సమాధానం: is"
+      },
+      {
+        "id": 103,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: They ___ playing.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "సరైన సమాధానం: are"
+      },
+      {
+        "id": 104,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: She ___ reading.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "సరైన సమాధానం: is"
+      },
+      {
+        "id": 105,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: We ___ happy.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "be"
+        ],
+        "answer": "are",
+        "feedback": "సరైన సమాధానం: are"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 126,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "dog",
+          "The",
+          "barks"
+        ],
+        "answer": "The dog barks",
+        "feedback": "సరైన సమాధానం: The dog barks"
+      },
+      {
+        "id": 127,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "boy",
+          "is",
+          "He",
+          "a"
+        ],
+        "answer": "He is a boy",
+        "feedback": "సరైన సమాధానం: He is a boy"
+      },
+      {
+        "id": 128,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "playing",
+          "are",
+          "They"
+        ],
+        "answer": "They are playing",
+        "feedback": "సరైన సమాధానం: They are playing"
+      },
+      {
+        "id": 129,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "reading",
+          "She",
+          "is"
+        ],
+        "answer": "She is reading",
+        "feedback": "సరైన సమాధానం: She is reading"
+      },
+      {
+        "id": 130,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "happy",
+          "We",
+          "are"
+        ],
+        "answer": "We are happy",
+        "feedback": "సరైన సమాధానం: We are happy"
+      }
+    ]
+  },
+  "Intermediate": {
+    "MCQ": [
+      {
+        "id": 201,
+        "type": "MCQ",
+        "text": "అనువదించండి: Beautiful",
+        "options": [
+          "అందమైన",
+          "Ugly",
+          "Fast",
+          "Slow"
+        ],
+        "answer": "అందమైన",
+        "feedback": "సరైన సమాధానం: అందమైన"
+      },
+      {
+        "id": 202,
+        "type": "MCQ",
+        "text": "అనువదించండి: Library",
+        "options": [
+          "గ్రంథాలయం",
+          "School",
+          "Hospital",
+          "Park"
+        ],
+        "answer": "గ్రంథాలయం",
+        "feedback": "సరైన సమాధానం: గ్రంథాలయం"
+      },
+      {
+        "id": 203,
+        "type": "MCQ",
+        "text": "ఖాళీలను పూరించండి: Past tense of 'run' is ___",
+        "options": [
+          "ran",
+          "runned",
+          "running",
+          "runs"
+        ],
+        "answer": "ran",
+        "feedback": "సరైన సమాధానం: ran"
+      },
+      {
+        "id": 204,
+        "type": "MCQ",
+        "text": "ఖాళీలను పూరించండి: Opposite of 'hot' is ___",
+        "options": [
+          "cold",
+          "warm",
+          "boiling",
+          "freezing"
+        ],
+        "answer": "cold",
+        "feedback": "సరైన సమాధానం: cold"
+      },
+      {
+        "id": 205,
+        "type": "MCQ",
+        "text": "ఖాళీలను పూరించండి: Verb is ___",
+        "options": [
+          "Run",
+          "Apple",
+          "Blue",
+          "Quickly"
+        ],
+        "answer": "Run",
+        "feedback": "సరైన సమాధానం: Run"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 226,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: నేను కొత్త భాష నేర్చుకుంటున్నాను.",
+        "word": "నేను కొత్త భాష నేర్చుకుంటున్నాను."
+      },
+      {
+        "id": 227,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: The quick brown fox.",
+        "word": "The quick brown fox."
+      },
+      {
+        "id": 228,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: It is raining outside.",
+        "word": "It is raining outside."
+      },
+      {
+        "id": 229,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: She likes to read books.",
+        "word": "She likes to read books."
+      },
+      {
+        "id": 230,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: I am learning English.",
+        "word": "I am learning English."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 251,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: గ్రంథాలయం ఎక్కడ ఉంది?",
+        "answer": "Where is the library?",
+        "feedback": "సరైన అనువాదం: Where is the library?"
+      },
+      {
+        "id": 252,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: Beautiful",
+        "answer": "Beautiful",
+        "feedback": "సరైన అనువాదం: Beautiful"
+      },
+      {
+        "id": 253,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: Important",
+        "answer": "Important",
+        "feedback": "సరైన అనువాదం: Important"
+      },
+      {
+        "id": 254,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: Because",
+        "answer": "Because",
+        "feedback": "సరైన అనువాదం: Because"
+      },
+      {
+        "id": 255,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: Together",
+        "answer": "Together",
+        "feedback": "సరైన అనువాదం: Together"
+      }
+    ],
+    "Listening": [
+      {
+        "id": 276,
+        "type": "Listening",
+        "audioText": "మీరు ఎలా ఉన్నారు?",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "How are you?",
+        "feedback": "సరైన సమాధానం: How are you?"
+      },
+      {
+        "id": 277,
+        "type": "Listening",
+        "audioText": "Beautiful",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "Beautiful",
+        "feedback": "సరైన సమాధానం: Beautiful"
+      },
+      {
+        "id": 278,
+        "type": "Listening",
+        "audioText": "I am fine",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "I am fine",
+        "feedback": "సరైన సమాధానం: I am fine"
+      },
+      {
+        "id": 279,
+        "type": "Listening",
+        "audioText": "See you later",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "See you later",
+        "feedback": "సరైన సమాధానం: See you later"
+      },
+      {
+        "id": 280,
+        "type": "Listening",
+        "audioText": "Have a good day",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "Have a good day",
+        "feedback": "సరైన సమాధానం: Have a good day"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 301,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: She ___ to the store yesterday.",
+        "options": [
+          "went",
+          "go",
+          "going",
+          "goes"
+        ],
+        "answer": "went",
+        "feedback": "సరైన సమాధానం: went"
+      },
+      {
+        "id": 302,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: I have ___ eaten breakfast.",
+        "options": [
+          "already",
+          "yet",
+          "still",
+          "soon"
+        ],
+        "answer": "already",
+        "feedback": "సరైన సమాధానం: already"
+      },
+      {
+        "id": 303,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: He is taller ___ his brother.",
+        "options": [
+          "than",
+          "then",
+          "that",
+          "there"
+        ],
+        "answer": "than",
+        "feedback": "సరైన సమాధానం: than"
+      },
+      {
+        "id": 304,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: They will arrive ___ Monday.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "by"
+        ],
+        "answer": "on",
+        "feedback": "సరైన సమాధానం: on"
+      },
+      {
+        "id": 305,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: She ___ speaking French.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "సరైన సమాధానం: is"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 326,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "store",
+          "She",
+          "went",
+          "the",
+          "to"
+        ],
+        "answer": "She went to the store",
+        "feedback": "సరైన సమాధానం: She went to the store"
+      },
+      {
+        "id": 327,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "brother",
+          "than",
+          "taller",
+          "He",
+          "is",
+          "his"
+        ],
+        "answer": "He is taller than his brother",
+        "feedback": "సరైన సమాధానం: He is taller than his brother"
+      },
+      {
+        "id": 328,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "Monday",
+          "arrive",
+          "on",
+          "They",
+          "will"
+        ],
+        "answer": "They will arrive on Monday",
+        "feedback": "సరైన సమాధానం: They will arrive on Monday"
+      },
+      {
+        "id": 329,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "already",
+          "have",
+          "I",
+          "eaten"
+        ],
+        "answer": "I have already eaten",
+        "feedback": "సరైన సమాధానం: I have already eaten"
+      },
+      {
+        "id": 330,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "speaking",
+          "is",
+          "She",
+          "French"
+        ],
+        "answer": "She is speaking French",
+        "feedback": "సరైన సమాధానం: She is speaking French"
+      }
+    ]
+  },
+  "Advanced": {
+    "MCQ": [
+      {
+        "id": 401,
+        "type": "MCQ",
+        "text": "అనువదించండి: Environment",
+        "options": [
+          "పర్యావరణం",
+          "Economy",
+          "Society",
+          "Politics"
+        ],
+        "answer": "పర్యావరణం",
+        "feedback": "సరైన సమాధానం: పర్యావరణం"
+      },
+      {
+        "id": 402,
+        "type": "MCQ",
+        "text": "అనువదించండి: Economy",
+        "options": [
+          "ఆర్థిక వ్యవస్థ",
+          "History",
+          "Math",
+          "Science"
+        ],
+        "answer": "ఆర్థిక వ్యవస్థ",
+        "feedback": "సరైన సమాధానం: ఆర్థిక వ్యవస్థ"
+      },
+      {
+        "id": 403,
+        "type": "MCQ",
+        "text": "ఖాళీలను పూరించండి: Synonym for 'meticulous'",
+        "options": [
+          "careful",
+          "careless",
+          "fast",
+          "slow"
+        ],
+        "answer": "careful",
+        "feedback": "సరైన సమాధానం: careful"
+      },
+      {
+        "id": 404,
+        "type": "MCQ",
+        "text": "ఖాళీలను పూరించండి: Meaning of 'ubiquitous'",
+        "options": [
+          "everywhere",
+          "nowhere",
+          "rare",
+          "unique"
+        ],
+        "answer": "everywhere",
+        "feedback": "సరైన సమాధానం: everywhere"
+      },
+      {
+        "id": 405,
+        "type": "MCQ",
+        "text": "ఖాళీలను పూరించండి: Adverb is ___",
+        "options": [
+          "Quickly",
+          "Quick",
+          "Quicker",
+          "Quickest"
+        ],
+        "answer": "Quickly",
+        "feedback": "సరైన సమాధానం: Quickly"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 426,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: స్థిరమైన అభివృద్ధి మన భవిష్యత్తుకు కీలకమైనది.",
+        "word": "స్థిరమైన అభివృద్ధి మన భవిష్యత్తుకు కీలకమైనది."
+      },
+      {
+        "id": 427,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: The hypothesis was confirmed.",
+        "word": "The hypothesis was confirmed."
+      },
+      {
+        "id": 428,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: Significant progress has been made.",
+        "word": "Significant progress has been made."
+      },
+      {
+        "id": 429,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: The implications are profound.",
+        "word": "The implications are profound."
+      },
+      {
+        "id": 430,
+        "type": "Reading",
+        "text": "బిగ్గరగా చదవండి: It is undeniably true.",
+        "word": "It is undeniably true."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 451,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: ఆర్థిక వ్యవస్థ వేగంగా అభివృద్ధి చెందుతోంది.",
+        "answer": "The economy is growing rapidly.",
+        "feedback": "సరైన అనువాదం: The economy is growing rapidly."
+      },
+      {
+        "id": 452,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: Environment",
+        "answer": "Environment",
+        "feedback": "సరైన అనువాదం: Environment"
+      },
+      {
+        "id": 453,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: Sustainable",
+        "answer": "Sustainable",
+        "feedback": "సరైన అనువాదం: Sustainable"
+      },
+      {
+        "id": 454,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: Development",
+        "answer": "Development",
+        "feedback": "సరైన అనువాదం: Development"
+      },
+      {
+        "id": 455,
+        "type": "Writing",
+        "text": "ఇంగ్లీష్ అనువాదం రాయండి: Congratulations",
+        "answer": "Congratulations",
+        "feedback": "సరైన అనువాదం: Congratulations"
+      }
+    ],
+    "Listening": [
+      {
+        "id": 476,
+        "type": "Listening",
+        "audioText": "మీ విజయానికి అభినందనలు.",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "Congratulations on your success.",
+        "feedback": "సరైన సమాధానం: Congratulations on your success."
+      },
+      {
+        "id": 477,
+        "type": "Listening",
+        "audioText": "Environment",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "Environment",
+        "feedback": "సరైన సమాధానం: Environment"
+      },
+      {
+        "id": 478,
+        "type": "Listening",
+        "audioText": "Sustainable",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "Sustainable",
+        "feedback": "సరైన సమాధానం: Sustainable"
+      },
+      {
+        "id": 479,
+        "type": "Listening",
+        "audioText": "Development",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "Development",
+        "feedback": "సరైన సమాధానం: Development"
+      },
+      {
+        "id": 480,
+        "type": "Listening",
+        "audioText": "Hypothesis",
+        "text": "విని ఆంగ్లంలో రాయండి",
+        "answer": "Hypothesis",
+        "feedback": "సరైన సమాధానం: Hypothesis"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 501,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: If I ___ known, I would have come.",
+        "options": [
+          "had",
+          "have",
+          "has",
+          "did"
+        ],
+        "answer": "had",
+        "feedback": "సరైన సమాధానం: had"
+      },
+      {
+        "id": 502,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: By the time we arrived, they ___ left.",
+        "options": [
+          "had",
+          "have",
+          "will have",
+          "are"
+        ],
+        "answer": "had",
+        "feedback": "సరైన సమాధానం: had"
+      },
+      {
+        "id": 503,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: Not only ___ he late, but he also forgot his book.",
+        "options": [
+          "was",
+          "is",
+          "were",
+          "did"
+        ],
+        "answer": "was",
+        "feedback": "సరైన సమాధానం: was"
+      },
+      {
+        "id": 504,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: I wish I ___ a car.",
+        "options": [
+          "had",
+          "have",
+          "will have",
+          "am having"
+        ],
+        "answer": "had",
+        "feedback": "సరైన సమాధానం: had"
+      },
+      {
+        "id": 505,
+        "type": "Grammar",
+        "text": "ఖాళీలను పూరించండి: She speaks as if she ___ everything.",
+        "options": [
+          "knew",
+          "knows",
+          "know",
+          "knowing"
+        ],
+        "answer": "knew",
+        "feedback": "సరైన సమాధానం: knew"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 526,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "come",
+          "have",
+          "would",
+          "I",
+          "known",
+          "had",
+          "If",
+          "I"
+        ],
+        "answer": "If I had known I would have come",
+        "feedback": "సరైన సమాధానం: If I had known I would have come"
+      },
+      {
+        "id": 527,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "arrived",
+          "we",
+          "time",
+          "the",
+          "By",
+          "left",
+          "had",
+          "they"
+        ],
+        "answer": "By the time we arrived they had left",
+        "feedback": "సరైన సమాధానం: By the time we arrived they had left"
+      },
+      {
+        "id": 528,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "late",
+          "he",
+          "was",
+          "only",
+          "Not"
+        ],
+        "answer": "Not only was he late",
+        "feedback": "సరైన సమాధానం: Not only was he late"
+      },
+      {
+        "id": 529,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "car",
+          "a",
+          "had",
+          "I",
+          "wish",
+          "I"
+        ],
+        "answer": "I wish I had a car",
+        "feedback": "సరైన సమాధానం: I wish I had a car"
+      },
+      {
+        "id": 530,
+        "type": "Puzzle",
+        "text": "సరైన క్రమంలో అమర్చండి",
+        "scrambled": [
+          "everything",
+          "knew",
+          "she",
+          "if",
+          "as",
+          "speaks",
+          "She"
+        ],
+        "answer": "She speaks as if she knew everything",
+        "feedback": "సరైన సమాధానం: She speaks as if she knew everything"
+      }
+    ]
+  }
+}

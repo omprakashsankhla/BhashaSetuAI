@@ -1,0 +1,187 @@
+.learn-workspace {
+  background: #f8fafc;
+}
+
+.learn-map-container {
+  padding: 2rem;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.learn-path {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.unit-section {
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.unit-section.current {
+  border-color: #2B58FF;
+  box-shadow: 0 10px 15px -3px rgba(43, 88, 255, 0.1);
+}
+
+.unit-section.locked {
+  opacity: 0.7;
+  background: #f1f5f9;
+}
+
+.unit-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-bottom: 2px dashed #e2e8f0;
+  padding-bottom: 1rem;
+}
+
+.unit-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #1e293b;
+}
+
+.unit-section.locked .unit-header h2 {
+  color: #64748b;
+}
+
+.unit-progress {
+  font-weight: 600;
+  color: #10b981;
+  background: #d1fae5;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+}
+
+.unit-nodes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  position: relative;
+}
+
+.lesson-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  min-height: 120px;
+}
+
+/* Winding path effect */
+.lesson-node:nth-child(even) {
+  align-items: flex-start;
+  padding-left: 20%;
+}
+.lesson-node:nth-child(odd) {
+  align-items: flex-end;
+  padding-right: 20%;
+}
+/* Center the first and last a bit more */
+.lesson-node:first-child, .lesson-node:last-child {
+  align-items: center;
+  padding: 0;
+}
+
+.node-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+}
+
+.node-icon:hover {
+  transform: scale(1.1);
+}
+
+.lesson-node.completed .node-icon {
+  background: #10b981;
+  border: 4px solid #059669;
+}
+
+.lesson-node.active .node-icon {
+  background: #2B58FF;
+  border: 4px solid #1e3fcc;
+  animation: pulse-ring 2s infinite;
+}
+
+.lesson-node.locked .node-icon {
+  background: #e2e8f0;
+  border: 4px solid #cbd5e1;
+  cursor: not-allowed;
+}
+.lesson-node.locked .node-icon:hover {
+  transform: scale(1);
+}
+
+.node-label {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  color: #334155;
+  background: white;
+  padding: 0.2rem 0.8rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  font-size: 0.9rem;
+  z-index: 2;
+}
+
+/* Path Connection Lines */
+.path-line {
+  position: absolute;
+  top: 64px; /* below the icon */
+  width: 4px;
+  height: calc(100% + 1.5rem - 64px);
+  background: #e2e8f0;
+  z-index: 1;
+}
+
+.lesson-node.completed .path-line {
+  background: #10b981;
+}
+
+/* We need slightly different path positioning due to the winding */
+.lesson-node:nth-child(even) .path-line {
+  left: calc(20% + 30px);
+}
+.lesson-node:nth-child(odd) .path-line {
+  right: calc(20% + 30px);
+}
+.lesson-node:first-child .path-line {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(43, 88, 255, 0.4); }
+  70% { box-shadow: 0 0 0 15px rgba(43, 88, 255, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(43, 88, 255, 0); }
+}
+
+@media (max-width: 768px) {
+  .lesson-node:nth-child(even), .lesson-node:nth-child(odd) {
+    align-items: center;
+    padding: 0;
+  }
+  .lesson-node:nth-child(even) .path-line, .lesson-node:nth-child(odd) .path-line {
+    left: 50%;
+    transform: translateX(-50%);
+    right: auto;
+  }
+}

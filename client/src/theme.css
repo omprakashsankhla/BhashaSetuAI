@@ -1,0 +1,125 @@
+/* Basic Dark Mode Implementation */
+body.dark-mode {
+  background-color: #0f172a !important;
+  color: #e2e8f0 !important;
+}
+
+body.dark-mode .dashboard-layout {
+  background-color: #0f172a !important;
+}
+
+body.dark-mode .dashboard-header {
+  background-color: #1e293b !important;
+  border-bottom: 1px solid #334155 !important;
+}
+
+body.dark-mode .dashboard-header h1 {
+  color: #f8fafc !important;
+}
+
+body.dark-mode .stat-card,
+body.dark-mode .learning-column,
+body.dark-mode .lesson-card {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+  color: #f8fafc !important;
+}
+
+body.dark-mode .lesson-card h3 {
+  color: #f8fafc !important;
+}
+
+body.dark-mode .section-title {
+  color: #f8fafc !important;
+}
+
+body.dark-mode .progress-circle-text .pct-number {
+  color: #f8fafc !important;
+}
+
+/* Force ALL text inside stat cards to be visible in dark mode */
+body.dark-mode .stat-card,
+body.dark-mode .stat-card h3,
+body.dark-mode .stat-card h4,
+body.dark-mode .stat-card p,
+body.dark-mode .stat-card span,
+body.dark-mode .stat-card div,
+body.dark-mode .stat-card li {
+  color: #f8fafc !important;
+}
+
+/* Force leaderboard highlight background to dark slate instead of white */
+body.dark-mode .stat-card li[style*="background: #f1f5f9"],
+body.dark-mode .stat-card li[style*="background: rgb(241, 245, 249)"] {
+  background-color: #334155 !important;
+  border-color: #475569 !important;
+}
+
+body.dark-mode .continue-card .primary-btn {
+  background-color: #2B58FF !important;
+  color: white !important;
+}
+
+body.dark-mode .continue-card svg {
+  fill: #f8fafc !important;
+  stroke: #f8fafc !important;
+}
+
+/* Header text fixes */
+body.dark-mode .welcome-text h1,
+body.dark-mode .welcome-text p {
+  color: #f8fafc !important;
+}
+
+body.dark-mode .header-stats .stat-item.xp span,
+body.dark-mode .header-stats .stat-item.streak span,
+body.dark-mode .header-stats .stat-item.coins span,
+body.dark-mode .header-stats .stat-item.hearts span {
+  color: #f8fafc !important;
+}
+
+body.dark-mode .header-stats .stat-item.xp span:last-child {
+  color: #cbd5e1 !important; /* The rank text */
+}
+
+body.dark-mode .action-btn.secondary {
+  background-color: #334155 !important;
+  color: #f8fafc !important;
+  border-color: #475569 !important;
+}
+
+body.dark-mode .avatar-circle {
+  background-color: #eab308 !important;
+  color: #111827 !important;
+}
+
+/* Settings Modal Dark Mode */
+body.dark-mode .settings-modal-content {
+  background-color: #0f172a !important;
+  color: #f8fafc !important;
+}
+
+body.dark-mode .settings-header {
+  background-color: #1e293b !important;
+  border-bottom: 1px solid #334155 !important;
+}
+
+body.dark-mode .settings-header h1 {
+  color: #f8fafc !important;
+}
+
+body.dark-mode .settings-card {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+}
+
+body.dark-mode .setting-info h3 {
+  color: #f8fafc !important;
+}
+
+body.dark-mode .setting-dropdown,
+body.dark-mode .theme-toggle-btn {
+  background-color: #334155 !important;
+  color: #f8fafc !important;
+  border-color: #475569 !important;
+}

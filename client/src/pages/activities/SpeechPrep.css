@@ -1,0 +1,500 @@
+/* SpeechPrep.css — Premium Speech & Debate Prep Activity */
+
+.sp-container {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(145deg, #fef2f2 0%, #f8fafc 40%, #faf5ff 100%);
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}
+
+/* ─── Header ─── */
+.sp-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  z-index: 10;
+}
+
+.sp-header .icon-btn {
+  background: none;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
+  padding: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.sp-header .icon-btn:hover {
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.sp-header-title {
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: #1e293b;
+}
+
+.sp-header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sp-progress-badge {
+  background: #fef2f2;
+  color: #dc2626;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* ─── Main Scrollable ─── */
+.sp-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  overflow-y: auto;
+  gap: 1.5rem;
+}
+
+/* ─── Topic Card ─── */
+.sp-topic-card {
+  width: 100%;
+  max-width: 720px;
+  background: white;
+  border-radius: 24px;
+  padding: 2.5rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f1f5f9;
+}
+
+.sp-topic-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1.25rem;
+}
+
+.sp-topic-text {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1e293b;
+  line-height: 1.5;
+  margin: 0 0 1.5rem 0;
+}
+
+/* ─── Tips ─── */
+.sp-tips-section {
+  background: #fef2f2;
+  border-radius: 16px;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid #fecaca;
+}
+
+.sp-tips-title {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #dc2626;
+  margin: 0 0 0.75rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.sp-tips-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sp-tips-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.6rem;
+  font-size: 0.92rem;
+  color: #7f1d1d;
+  line-height: 1.4;
+}
+
+.sp-tip-bullet {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ef4444;
+  flex-shrink: 0;
+  margin-top: 0.45rem;
+}
+
+/* ─── Recording Section ─── */
+.sp-record-section {
+  width: 100%;
+  max-width: 720px;
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+  border-radius: 24px;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.sp-timer {
+  font-size: 3rem;
+  font-weight: 800;
+  color: white;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 2px;
+}
+
+.sp-timer.recording {
+  color: #ef4444;
+}
+
+.sp-record-btn {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sp-record-btn.idle {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+  box-shadow: 0 8px 25px rgba(239, 68, 68, 0.4);
+}
+
+.sp-record-btn.idle:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 30px rgba(239, 68, 68, 0.5);
+}
+
+.sp-record-btn.active {
+  background: white;
+  color: #ef4444;
+  box-shadow: 0 0 0 6px rgba(239, 68, 68, 0.3);
+  animation: sp-pulse-ring 1.5s ease-in-out infinite;
+}
+
+@keyframes sp-pulse-ring {
+  0%, 100% { box-shadow: 0 0 0 6px rgba(239, 68, 68, 0.3); }
+  50% { box-shadow: 0 0 0 18px rgba(239, 68, 68, 0); }
+}
+
+.sp-record-hint {
+  color: #94a3b8;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Wave animation during recording */
+.sp-wave-container {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 40px;
+}
+
+.sp-wave-bar {
+  width: 4px;
+  background: #ef4444;
+  border-radius: 2px;
+  animation: sp-wave 1.2s ease-in-out infinite;
+}
+
+.sp-wave-bar:nth-child(1) { animation-delay: 0s; height: 10px; }
+.sp-wave-bar:nth-child(2) { animation-delay: 0.1s; height: 20px; }
+.sp-wave-bar:nth-child(3) { animation-delay: 0.2s; height: 32px; }
+.sp-wave-bar:nth-child(4) { animation-delay: 0.3s; height: 24px; }
+.sp-wave-bar:nth-child(5) { animation-delay: 0.15s; height: 36px; }
+.sp-wave-bar:nth-child(6) { animation-delay: 0.25s; height: 18px; }
+.sp-wave-bar:nth-child(7) { animation-delay: 0.35s; height: 28px; }
+.sp-wave-bar:nth-child(8) { animation-delay: 0.05s; height: 14px; }
+.sp-wave-bar:nth-child(9) { animation-delay: 0.2s; height: 22px; }
+
+@keyframes sp-wave {
+  0%, 100% { transform: scaleY(0.3); }
+  50% { transform: scaleY(1); }
+}
+
+/* ─── Transcript Box ─── */
+.sp-transcript-box {
+  width: 100%;
+  max-width: 720px;
+  background: white;
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f1f5f9;
+}
+
+.sp-transcript-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 0.75rem 0;
+}
+
+.sp-transcript-text {
+  font-size: 1.05rem;
+  color: #334155;
+  line-height: 1.7;
+  margin: 0;
+  font-style: italic;
+}
+
+.sp-get-feedback-btn {
+  margin-top: 1.25rem;
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  color: white;
+  border: none;
+  padding: 0.85rem 2.5rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(239, 68, 68, 0.35);
+  transition: all 0.25s;
+  width: 100%;
+}
+
+.sp-get-feedback-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(239, 68, 68, 0.45);
+}
+
+.sp-get-feedback-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+  box-shadow: none;
+}
+
+/* ─── Feedback Card ─── */
+.sp-feedback-card {
+  width: 100%;
+  max-width: 720px;
+  background: white;
+  border-radius: 24px;
+  padding: 2.5rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+  border: 1px solid #f1f5f9;
+  animation: sp-fade-in 0.5s ease;
+}
+
+@keyframes sp-fade-in {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.sp-feedback-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.sp-feedback-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.sp-feedback-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0;
+}
+
+.sp-feedback-body {
+  font-size: 1rem;
+  color: #334155;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+.sp-feedback-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.sp-btn-primary {
+  background: linear-gradient(135deg, #2B58FF 0%, #4B2BFF 100%);
+  color: white;
+  border: none;
+  padding: 0.9rem 2rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(43, 88, 255, 0.35);
+  transition: all 0.25s;
+}
+
+.sp-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(43, 88, 255, 0.45);
+}
+
+.sp-btn-secondary {
+  background: white;
+  color: #2B58FF;
+  border: 2px solid #2B58FF;
+  padding: 0.9rem 2rem;
+  font-size: 1.05rem;
+  font-weight: 700;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.sp-btn-secondary:hover {
+  background: #eff6ff;
+  transform: translateY(-2px);
+}
+
+/* ─── Evaluating Overlay ─── */
+.sp-evaluating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  color: #ef4444;
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.sp-eval-spinner {
+  width: 44px;
+  height: 44px;
+  border: 4px solid #fecaca;
+  border-top-color: #ef4444;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ─── Loading ─── */
+.sp-loading {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: #ef4444;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.sp-spinner {
+  width: 48px;
+  height: 48px;
+  border: 4px solid #fecaca;
+  border-top-color: #ef4444;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+/* ─── Footer Progress ─── */
+.sp-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1.25rem 2rem;
+  background: white;
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.sp-progress-track {
+  flex: 1;
+  max-width: 500px;
+  height: 10px;
+  background: #f1f5f9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.sp-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ef4444 0%, #f87171 100%);
+  border-radius: 5px;
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sp-progress-text {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: #475569;
+  white-space: nowrap;
+}
+
+/* ─── Responsive ─── */
+@media (max-width: 768px) {
+  .sp-main {
+    padding: 1rem;
+  }
+
+  .sp-topic-card,
+  .sp-record-section,
+  .sp-feedback-card {
+    padding: 1.5rem;
+  }
+
+  .sp-timer {
+    font-size: 2.2rem;
+  }
+
+  .sp-record-btn {
+    width: 80px;
+    height: 80px;
+  }
+
+  .sp-feedback-actions {
+    flex-direction: column;
+  }
+}

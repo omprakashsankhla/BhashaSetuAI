@@ -1,0 +1,818 @@
+{
+  "Beginner": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which letter comes after A?",
+        "options": [
+          "पाणी",
+          "Fire",
+          "Earth",
+          "Air"
+        ],
+        "answer": "पाणी",
+        "feedback": "Correct answer is: पाणी"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is a fruit?",
+        "options": [
+          "अन्न",
+          "Sleep",
+          "Walk",
+          "Run"
+        ],
+        "answer": "अन्न",
+        "feedback": "Correct answer is: अन्न"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Which word names an animal?",
+        "options": [
+          "सूर्य",
+          "Moon",
+          "Star",
+          "Cloud"
+        ],
+        "answer": "सूर्य",
+        "feedback": "Correct answer is: सूर्य"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which letter is a vowel?",
+        "options": [
+          "घर",
+          "Tree",
+          "Road",
+          "Car"
+        ],
+        "answer": "घर",
+        "feedback": "Correct answer is: घर"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "Which word means a greeting?",
+        "options": [
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "answer": "B",
+        "feedback": "Correct answer is: B"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: मला सफरचंद आवडतात.",
+        "word": "मला सफरचंद आवडतात."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: हा एक मांजर आहे।",
+        "word": "हा एक मांजर आहे।"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: सूर्य गरम आहे।",
+        "word": "सूर्य गरम आहे।"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: मला दूध आवडते।",
+        "word": "मला दूध आवडते।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: तिच्याकडे एक पेन आहे।",
+        "word": "तिच्याकडे एक पेन आहे।"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Marathi: Apple",
+        "answer": "सफरचंद",
+        "feedback": "Correct translation is: सफरचंद"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Marathi: Good morning",
+        "answer": "शुभ सकाळ",
+        "feedback": "Correct translation is: शुभ सकाळ"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Marathi: Thank you",
+        "answer": "धन्यवाद",
+        "feedback": "Correct translation is: धन्यवाद"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Marathi: My book",
+        "answer": "माझे पुस्तक",
+        "feedback": "Correct translation is: माझे पुस्तक"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Marathi: Blue sky",
+        "answer": "निळे आकाश",
+        "feedback": "Correct translation is: निळे आकाश"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: मी एक विद्यार्थी ___।",
+        "options": [
+          "आहे",
+          "आहेत",
+          "आहेस",
+          "आहोत"
+        ],
+        "answer": "आहे",
+        "feedback": "Correct answer is: आहे"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: ती आनंदी ___।",
+        "options": [
+          "आहे",
+          "आहेत",
+          "आहेस",
+          "आहोत"
+        ],
+        "answer": "आहे",
+        "feedback": "Correct answer is: आहे"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: ते खेळत ___।",
+        "options": [
+          "आहेत",
+          "आहे",
+          "आहेस",
+          "आहोत"
+        ],
+        "answer": "आहेत",
+        "feedback": "Correct answer is: आहेत"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: हे ___ सफरचंद आहे.",
+        "options": [
+          "एक",
+          "अनेक",
+          "काही",
+          "कोणते"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: माझ्याकडे ___ पुस्तक आहे.",
+        "options": [
+          "एक",
+          "अनेक",
+          "काही",
+          "कोणते"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 101,
+        "type": "Puzzle",
+        "text": "कोणता शब्द वेगळा आहे?",
+        "options": [
+          "सफरचंद",
+          "आंबा",
+          "केळी",
+          "खुर्ची"
+        ],
+        "answer": "खुर्ची",
+        "feedback": "Correct answer is: खुर्ची"
+      },
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the pattern: A, B, C, __",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "answer": "D",
+        "feedback": "Correct answer is: D"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Which number comes next? 2, 4, 6, 8, __",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "feedback": "Correct answer is: 10"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "यापैकी कोणते फळ नाही?",
+        "options": [
+          "संत्रे",
+          "सफरचंद",
+          "बटाटा",
+          "आंबा"
+        ],
+        "answer": "बटाटा",
+        "feedback": "Correct answer is: बटाटा"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "वेगळा शब्द शोधा.",
+        "options": [
+          "मांजर",
+          "कुत्रा",
+          "गाय",
+          "टेबल"
+        ],
+        "answer": "टेबल",
+        "feedback": "Correct answer is: टेबल"
+      }
+    ]
+  },
+  "Intermediate": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Choose the correct sentence.",
+        "options": [
+          "सुंदर",
+          "Ugly",
+          "Fast",
+          "Slow"
+        ],
+        "answer": "सुंदर",
+        "feedback": "Correct answer is: सुंदर"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is the opposite of \"happy\"?",
+        "options": [
+          "ग्रंथालय",
+          "School",
+          "Hospital",
+          "Park"
+        ],
+        "answer": "ग्रंथालय",
+        "feedback": "Correct answer is: ग्रंथालय"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Complete the sentence: The birds _____ in the sky.",
+        "options": [
+          "ran",
+          "runned",
+          "running",
+          "runs"
+        ],
+        "answer": "ran",
+        "feedback": "Correct answer is: ran"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which word is a verb?",
+        "options": [
+          "cold",
+          "warm",
+          "boiling",
+          "freezing"
+        ],
+        "answer": "cold",
+        "feedback": "Correct answer is: cold"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "Which sentence is correct?",
+        "options": [
+          "Run",
+          "Apple",
+          "Blue",
+          "Quickly"
+        ],
+        "answer": "Run",
+        "feedback": "Correct answer is: Run"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: मी एक नवीन भाषा शिकत आहे.",
+        "word": "मी एक नवीन भाषा शिकत आहे."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: हा एक मांजर आहे।",
+        "word": "हा एक मांजर आहे।"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: सूर्य गरम आहे।",
+        "word": "सूर्य गरम आहे।"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: मला दूध आवडते।",
+        "word": "मला दूध आवडते।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: तिच्याकडे एक पेन आहे।",
+        "word": "तिच्याकडे एक पेन आहे।"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Marathi: Good afternoon",
+        "answer": "सफरचंद",
+        "feedback": "Correct translation is: सफरचंद"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Marathi: Clean water",
+        "answer": "शुभ सकाळ",
+        "feedback": "Correct translation is: शुभ सकाळ"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Marathi: Healthy food",
+        "answer": "धन्यवाद",
+        "feedback": "Correct translation is: धन्यवाद"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Marathi: Open window",
+        "answer": "माझे पुस्तक",
+        "feedback": "Correct translation is: माझे पुस्तक"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Marathi: Close gate",
+        "answer": "निळे आकाश",
+        "feedback": "Correct translation is: निळे आकाश"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: मी एक विद्यार्थी ___।",
+        "options": [
+          "आहे",
+          "आहेत",
+          "आहेस",
+          "आहोत"
+        ],
+        "answer": "आहे",
+        "feedback": "Correct answer is: आहे"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: ती आनंदी ___।",
+        "options": [
+          "आहे",
+          "आहेत",
+          "आहेस",
+          "आहोत"
+        ],
+        "answer": "आहे",
+        "feedback": "Correct answer is: आहे"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: ते खेळत ___।",
+        "options": [
+          "आहेत",
+          "आहे",
+          "आहेस",
+          "आहोत"
+        ],
+        "answer": "आहेत",
+        "feedback": "Correct answer is: आहेत"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: हे ___ सफरचंद आहे.",
+        "options": [
+          "एक",
+          "अनेक",
+          "काही",
+          "कोणते"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: माझ्याकडे ___ पुस्तक आहे.",
+        "options": [
+          "एक",
+          "अनेक",
+          "काही",
+          "कोणते"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 101,
+        "type": "Puzzle",
+        "text": "कोणता शब्द वेगळा आहे?",
+        "options": [
+          "सफरचंद",
+          "आंबा",
+          "केळी",
+          "खुर्ची"
+        ],
+        "answer": "खुर्ची",
+        "feedback": "Correct answer is: खुर्ची"
+      },
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 5, 10, 15, 20, __",
+        "options": [
+          "22",
+          "25",
+          "30",
+          "35"
+        ],
+        "answer": "25",
+        "feedback": "Correct answer is: 25"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Which word does not belong?",
+        "options": [
+          "Doctor",
+          "Nurse",
+          "Teacher",
+          "Banana"
+        ],
+        "answer": "Banana",
+        "feedback": "Correct answer is: Banana"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "यापैकी कोणते फळ नाही?",
+        "options": [
+          "संत्रे",
+          "सफरचंद",
+          "बटाटा",
+          "आंबा"
+        ],
+        "answer": "बटाटा",
+        "feedback": "Correct answer is: बटाटा"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "वेगळा शब्द शोधा.",
+        "options": [
+          "मांजर",
+          "कुत्रा",
+          "गाय",
+          "टेबल"
+        ],
+        "answer": "टेबल",
+        "feedback": "Correct answer is: टेबल"
+      }
+    ]
+  },
+  "Advanced": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Choose the sentence with the correct grammar.",
+        "options": [
+          "पर्यावरण",
+          "Economy",
+          "Society",
+          "Politics"
+        ],
+        "answer": "पर्यावरण",
+        "feedback": "Correct answer is: पर्यावरण"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is the synonym of \"rapid\"?",
+        "options": [
+          "अर्थव्यवस्था",
+          "History",
+          "Math",
+          "Science"
+        ],
+        "answer": "अर्थव्यवस्था",
+        "feedback": "Correct answer is: अर्थव्यवस्था"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Choose the correct sentence.",
+        "options": [
+          "careful",
+          "careless",
+          "fast",
+          "slow"
+        ],
+        "answer": "careful",
+        "feedback": "Correct answer is: careful"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which word best completes the sentence? The scientist made an important _____ during the experiment.",
+        "options": [
+          "everywhere",
+          "nowhere",
+          "rare",
+          "unique"
+        ],
+        "answer": "everywhere",
+        "feedback": "Correct answer is: everywhere"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "What is the opposite of generous?",
+        "options": [
+          "Quickly",
+          "Quick",
+          "Quicker",
+          "Quickest"
+        ],
+        "answer": "Quickly",
+        "feedback": "Correct answer is: Quickly"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: शाश्वत विकास आपल्या भविष्यासाठी महत्त्वाचा आहे.",
+        "word": "शाश्वत विकास आपल्या भविष्यासाठी महत्त्वाचा आहे."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: हा एक मांजर आहे।",
+        "word": "हा एक मांजर आहे।"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: सूर्य गरम आहे।",
+        "word": "सूर्य गरम आहे।"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: मला दूध आवडते।",
+        "word": "मला दूध आवडते।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: तिच्याकडे एक पेन आहे।",
+        "word": "तिच्याकडे एक पेन आहे।"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Marathi: Critical thinking",
+        "answer": "सफरचंद",
+        "feedback": "Correct translation is: सफरचंद"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Marathi: Team spirit",
+        "answer": "शुभ सकाळ",
+        "feedback": "Correct translation is: शुभ सकाळ"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Marathi: Digital literacy",
+        "answer": "धन्यवाद",
+        "feedback": "Correct translation is: धन्यवाद"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Marathi: Time management",
+        "answer": "माझे पुस्तक",
+        "feedback": "Correct translation is: माझे पुस्तक"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Marathi: Healthy lifestyle",
+        "answer": "निळे आकाश",
+        "feedback": "Correct translation is: निळे आकाश"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: मी एक विद्यार्थी ___।",
+        "options": [
+          "आहे",
+          "आहेत",
+          "आहेस",
+          "आहोत"
+        ],
+        "answer": "आहे",
+        "feedback": "Correct answer is: आहे"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: ती आनंदी ___।",
+        "options": [
+          "आहे",
+          "आहेत",
+          "आहेस",
+          "आहोत"
+        ],
+        "answer": "आहे",
+        "feedback": "Correct answer is: आहे"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: ते खेळत ___।",
+        "options": [
+          "आहेत",
+          "आहे",
+          "आहेस",
+          "आहोत"
+        ],
+        "answer": "आहेत",
+        "feedback": "Correct answer is: आहेत"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: हे ___ सफरचंद आहे.",
+        "options": [
+          "एक",
+          "अनेक",
+          "काही",
+          "कोणते"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: माझ्याकडे ___ पुस्तक आहे.",
+        "options": [
+          "एक",
+          "अनेक",
+          "काही",
+          "कोणते"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 3, 6, 12, 24, __",
+        "options": [
+          "36",
+          "42",
+          "48",
+          "54"
+        ],
+        "answer": "48",
+        "feedback": "Correct answer is: 48"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Find the odd one out.",
+        "options": [
+          "Keyboard",
+          "Monitor",
+          "Printer",
+          "Bicycle"
+        ],
+        "answer": "Bicycle",
+        "feedback": "Correct answer is: Bicycle"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "यापैकी कोणते फळ नाही?",
+        "options": [
+          "संत्रे",
+          "सफरचंद",
+          "बटाटा",
+          "आंबा"
+        ],
+        "answer": "बटाटा",
+        "feedback": "Correct answer is: बटाटा"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "वेगळा शब्द शोधा.",
+        "options": [
+          "मांजर",
+          "कुत्रा",
+          "गाय",
+          "टेबल"
+        ],
+        "answer": "टेबल",
+        "feedback": "Correct answer is: टेबल"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "वेगळा शब्द शोधा.",
+        "options": [
+          "गुलाब",
+          "कमळ",
+          "आंबा",
+          "कमळ"
+        ],
+        "answer": "आंबा",
+        "feedback": "Correct answer is: आंबा"
+      }
+    ]
+  }
+}

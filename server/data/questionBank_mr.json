@@ -1,0 +1,958 @@
+{
+  "Beginner": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "भाषांतर करा: Water",
+        "options": [
+          "पाणी",
+          "Fire",
+          "Earth",
+          "Air"
+        ],
+        "answer": "पाणी",
+        "feedback": "योग्य उत्तर आहे: पाणी"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "भाषांतर करा: Food",
+        "options": [
+          "अन्न",
+          "Sleep",
+          "Walk",
+          "Run"
+        ],
+        "answer": "अन्न",
+        "feedback": "योग्य उत्तर आहे: अन्न"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "भाषांतर करा: Sun",
+        "options": [
+          "सूर्य",
+          "Moon",
+          "Star",
+          "Cloud"
+        ],
+        "answer": "सूर्य",
+        "feedback": "योग्य उत्तर आहे: सूर्य"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "भाषांतर करा: House",
+        "options": [
+          "घर",
+          "Tree",
+          "Road",
+          "Car"
+        ],
+        "answer": "घर",
+        "feedback": "योग्य उत्तर आहे: घर"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "रिकाम्या जागा भरा: A ___ C",
+        "options": [
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "answer": "B",
+        "feedback": "योग्य उत्तर आहे: B"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: मला सफरचंद आवडतात.",
+        "word": "मला सफरचंद आवडतात."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Hello.",
+        "word": "Hello."
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Thank you.",
+        "word": "Thank you."
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Good boy.",
+        "word": "Good boy."
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Welcome.",
+        "word": "Welcome."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: ती एक पुस्तक वाचत आहे.",
+        "answer": "She is reading a book.",
+        "feedback": "योग्य भाषांतर आहे: She is reading a book."
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: Namaste / Vanakkam / Hello",
+        "answer": "Hello",
+        "feedback": "योग्य भाषांतर आहे: Hello"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: Yes",
+        "answer": "Yes",
+        "feedback": "योग्य भाषांतर आहे: Yes"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: No",
+        "answer": "No",
+        "feedback": "योग्य भाषांतर आहे: No"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: Water",
+        "answer": "Water",
+        "feedback": "योग्य भाषांतर आहे: Water"
+      }
+    ],
+    "Listening": [
+      {
+        "id": 76,
+        "type": "Listening",
+        "audioText": "शुभ सकाळ",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "Good morning",
+        "feedback": "योग्य उत्तर आहे: Good morning"
+      },
+      {
+        "id": 77,
+        "type": "Listening",
+        "audioText": "Thank you",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "Thank you",
+        "feedback": "योग्य उत्तर आहे: Thank you"
+      },
+      {
+        "id": 78,
+        "type": "Listening",
+        "audioText": "Welcome",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "Welcome",
+        "feedback": "योग्य उत्तर आहे: Welcome"
+      },
+      {
+        "id": 79,
+        "type": "Listening",
+        "audioText": "Yes",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "Yes",
+        "feedback": "योग्य उत्तर आहे: Yes"
+      },
+      {
+        "id": 80,
+        "type": "Listening",
+        "audioText": "No",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "No",
+        "feedback": "योग्य उत्तर आहे: No"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 101,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: I ___ a student.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "am",
+        "feedback": "योग्य उत्तर आहे: am"
+      },
+      {
+        "id": 102,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: He ___ a boy.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "योग्य उत्तर आहे: is"
+      },
+      {
+        "id": 103,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: They ___ playing.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "योग्य उत्तर आहे: are"
+      },
+      {
+        "id": 104,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: She ___ reading.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "योग्य उत्तर आहे: is"
+      },
+      {
+        "id": 105,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: We ___ happy.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "be"
+        ],
+        "answer": "are",
+        "feedback": "योग्य उत्तर आहे: are"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 126,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "dog",
+          "The",
+          "barks"
+        ],
+        "answer": "The dog barks",
+        "feedback": "योग्य उत्तर आहे: The dog barks"
+      },
+      {
+        "id": 127,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "boy",
+          "is",
+          "He",
+          "a"
+        ],
+        "answer": "He is a boy",
+        "feedback": "योग्य उत्तर आहे: He is a boy"
+      },
+      {
+        "id": 128,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "playing",
+          "are",
+          "They"
+        ],
+        "answer": "They are playing",
+        "feedback": "योग्य उत्तर आहे: They are playing"
+      },
+      {
+        "id": 129,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "reading",
+          "She",
+          "is"
+        ],
+        "answer": "She is reading",
+        "feedback": "योग्य उत्तर आहे: She is reading"
+      },
+      {
+        "id": 130,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "happy",
+          "We",
+          "are"
+        ],
+        "answer": "We are happy",
+        "feedback": "योग्य उत्तर आहे: We are happy"
+      }
+    ]
+  },
+  "Intermediate": {
+    "MCQ": [
+      {
+        "id": 201,
+        "type": "MCQ",
+        "text": "भाषांतर करा: Beautiful",
+        "options": [
+          "सुंदर",
+          "Ugly",
+          "Fast",
+          "Slow"
+        ],
+        "answer": "सुंदर",
+        "feedback": "योग्य उत्तर आहे: सुंदर"
+      },
+      {
+        "id": 202,
+        "type": "MCQ",
+        "text": "भाषांतर करा: Library",
+        "options": [
+          "ग्रंथालय",
+          "School",
+          "Hospital",
+          "Park"
+        ],
+        "answer": "ग्रंथालय",
+        "feedback": "योग्य उत्तर आहे: ग्रंथालय"
+      },
+      {
+        "id": 203,
+        "type": "MCQ",
+        "text": "रिकाम्या जागा भरा: Past tense of 'run' is ___",
+        "options": [
+          "ran",
+          "runned",
+          "running",
+          "runs"
+        ],
+        "answer": "ran",
+        "feedback": "योग्य उत्तर आहे: ran"
+      },
+      {
+        "id": 204,
+        "type": "MCQ",
+        "text": "रिकाम्या जागा भरा: Opposite of 'hot' is ___",
+        "options": [
+          "cold",
+          "warm",
+          "boiling",
+          "freezing"
+        ],
+        "answer": "cold",
+        "feedback": "योग्य उत्तर आहे: cold"
+      },
+      {
+        "id": 205,
+        "type": "MCQ",
+        "text": "रिकाम्या जागा भरा: Verb is ___",
+        "options": [
+          "Run",
+          "Apple",
+          "Blue",
+          "Quickly"
+        ],
+        "answer": "Run",
+        "feedback": "योग्य उत्तर आहे: Run"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 226,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: मी एक नवीन भाषा शिकत आहे.",
+        "word": "मी एक नवीन भाषा शिकत आहे."
+      },
+      {
+        "id": 227,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The quick brown fox.",
+        "word": "The quick brown fox."
+      },
+      {
+        "id": 228,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: It is raining outside.",
+        "word": "It is raining outside."
+      },
+      {
+        "id": 229,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: She likes to read books.",
+        "word": "She likes to read books."
+      },
+      {
+        "id": 230,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: I am learning English.",
+        "word": "I am learning English."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 251,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: ग्रंथालय कुठे आहे?",
+        "answer": "Where is the library?",
+        "feedback": "योग्य भाषांतर आहे: Where is the library?"
+      },
+      {
+        "id": 252,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: Beautiful",
+        "answer": "Beautiful",
+        "feedback": "योग्य भाषांतर आहे: Beautiful"
+      },
+      {
+        "id": 253,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: Important",
+        "answer": "Important",
+        "feedback": "योग्य भाषांतर आहे: Important"
+      },
+      {
+        "id": 254,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: Because",
+        "answer": "Because",
+        "feedback": "योग्य भाषांतर आहे: Because"
+      },
+      {
+        "id": 255,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: Together",
+        "answer": "Together",
+        "feedback": "योग्य भाषांतर आहे: Together"
+      }
+    ],
+    "Listening": [
+      {
+        "id": 276,
+        "type": "Listening",
+        "audioText": "तू कसा आहेस?",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "How are you?",
+        "feedback": "योग्य उत्तर आहे: How are you?"
+      },
+      {
+        "id": 277,
+        "type": "Listening",
+        "audioText": "Beautiful",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "Beautiful",
+        "feedback": "योग्य उत्तर आहे: Beautiful"
+      },
+      {
+        "id": 278,
+        "type": "Listening",
+        "audioText": "I am fine",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "I am fine",
+        "feedback": "योग्य उत्तर आहे: I am fine"
+      },
+      {
+        "id": 279,
+        "type": "Listening",
+        "audioText": "See you later",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "See you later",
+        "feedback": "योग्य उत्तर आहे: See you later"
+      },
+      {
+        "id": 280,
+        "type": "Listening",
+        "audioText": "Have a good day",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "Have a good day",
+        "feedback": "योग्य उत्तर आहे: Have a good day"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 301,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: She ___ to the store yesterday.",
+        "options": [
+          "went",
+          "go",
+          "going",
+          "goes"
+        ],
+        "answer": "went",
+        "feedback": "योग्य उत्तर आहे: went"
+      },
+      {
+        "id": 302,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: I have ___ eaten breakfast.",
+        "options": [
+          "already",
+          "yet",
+          "still",
+          "soon"
+        ],
+        "answer": "already",
+        "feedback": "योग्य उत्तर आहे: already"
+      },
+      {
+        "id": 303,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: He is taller ___ his brother.",
+        "options": [
+          "than",
+          "then",
+          "that",
+          "there"
+        ],
+        "answer": "than",
+        "feedback": "योग्य उत्तर आहे: than"
+      },
+      {
+        "id": 304,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: They will arrive ___ Monday.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "by"
+        ],
+        "answer": "on",
+        "feedback": "योग्य उत्तर आहे: on"
+      },
+      {
+        "id": 305,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: She ___ speaking French.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "योग्य उत्तर आहे: is"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 326,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "store",
+          "She",
+          "went",
+          "the",
+          "to"
+        ],
+        "answer": "She went to the store",
+        "feedback": "योग्य उत्तर आहे: She went to the store"
+      },
+      {
+        "id": 327,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "brother",
+          "than",
+          "taller",
+          "He",
+          "is",
+          "his"
+        ],
+        "answer": "He is taller than his brother",
+        "feedback": "योग्य उत्तर आहे: He is taller than his brother"
+      },
+      {
+        "id": 328,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "Monday",
+          "arrive",
+          "on",
+          "They",
+          "will"
+        ],
+        "answer": "They will arrive on Monday",
+        "feedback": "योग्य उत्तर आहे: They will arrive on Monday"
+      },
+      {
+        "id": 329,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "already",
+          "have",
+          "I",
+          "eaten"
+        ],
+        "answer": "I have already eaten",
+        "feedback": "योग्य उत्तर आहे: I have already eaten"
+      },
+      {
+        "id": 330,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "speaking",
+          "is",
+          "She",
+          "French"
+        ],
+        "answer": "She is speaking French",
+        "feedback": "योग्य उत्तर आहे: She is speaking French"
+      }
+    ]
+  },
+  "Advanced": {
+    "MCQ": [
+      {
+        "id": 401,
+        "type": "MCQ",
+        "text": "भाषांतर करा: Environment",
+        "options": [
+          "पर्यावरण",
+          "Economy",
+          "Society",
+          "Politics"
+        ],
+        "answer": "पर्यावरण",
+        "feedback": "योग्य उत्तर आहे: पर्यावरण"
+      },
+      {
+        "id": 402,
+        "type": "MCQ",
+        "text": "भाषांतर करा: Economy",
+        "options": [
+          "अर्थव्यवस्था",
+          "History",
+          "Math",
+          "Science"
+        ],
+        "answer": "अर्थव्यवस्था",
+        "feedback": "योग्य उत्तर आहे: अर्थव्यवस्था"
+      },
+      {
+        "id": 403,
+        "type": "MCQ",
+        "text": "रिकाम्या जागा भरा: Synonym for 'meticulous'",
+        "options": [
+          "careful",
+          "careless",
+          "fast",
+          "slow"
+        ],
+        "answer": "careful",
+        "feedback": "योग्य उत्तर आहे: careful"
+      },
+      {
+        "id": 404,
+        "type": "MCQ",
+        "text": "रिकाम्या जागा भरा: Meaning of 'ubiquitous'",
+        "options": [
+          "everywhere",
+          "nowhere",
+          "rare",
+          "unique"
+        ],
+        "answer": "everywhere",
+        "feedback": "योग्य उत्तर आहे: everywhere"
+      },
+      {
+        "id": 405,
+        "type": "MCQ",
+        "text": "रिकाम्या जागा भरा: Adverb is ___",
+        "options": [
+          "Quickly",
+          "Quick",
+          "Quicker",
+          "Quickest"
+        ],
+        "answer": "Quickly",
+        "feedback": "योग्य उत्तर आहे: Quickly"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 426,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: शाश्वत विकास आपल्या भविष्यासाठी महत्त्वाचा आहे.",
+        "word": "शाश्वत विकास आपल्या भविष्यासाठी महत्त्वाचा आहे."
+      },
+      {
+        "id": 427,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The hypothesis was confirmed.",
+        "word": "The hypothesis was confirmed."
+      },
+      {
+        "id": 428,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Significant progress has been made.",
+        "word": "Significant progress has been made."
+      },
+      {
+        "id": 429,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The implications are profound.",
+        "word": "The implications are profound."
+      },
+      {
+        "id": 430,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: It is undeniably true.",
+        "word": "It is undeniably true."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 451,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: अर्थव्यवस्था वेगाने वाढत आहे.",
+        "answer": "The economy is growing rapidly.",
+        "feedback": "योग्य भाषांतर आहे: The economy is growing rapidly."
+      },
+      {
+        "id": 452,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: Environment",
+        "answer": "Environment",
+        "feedback": "योग्य भाषांतर आहे: Environment"
+      },
+      {
+        "id": 453,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: Sustainable",
+        "answer": "Sustainable",
+        "feedback": "योग्य भाषांतर आहे: Sustainable"
+      },
+      {
+        "id": 454,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: Development",
+        "answer": "Development",
+        "feedback": "योग्य भाषांतर आहे: Development"
+      },
+      {
+        "id": 455,
+        "type": "Writing",
+        "text": "इंग्रजी भाषांतर लिहा: Congratulations",
+        "answer": "Congratulations",
+        "feedback": "योग्य भाषांतर आहे: Congratulations"
+      }
+    ],
+    "Listening": [
+      {
+        "id": 476,
+        "type": "Listening",
+        "audioText": "तुझ्या यशाबद्दल अभिनंदन.",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "Congratulations on your success.",
+        "feedback": "योग्य उत्तर आहे: Congratulations on your success."
+      },
+      {
+        "id": 477,
+        "type": "Listening",
+        "audioText": "Environment",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "Environment",
+        "feedback": "योग्य उत्तर आहे: Environment"
+      },
+      {
+        "id": 478,
+        "type": "Listening",
+        "audioText": "Sustainable",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "Sustainable",
+        "feedback": "योग्य उत्तर आहे: Sustainable"
+      },
+      {
+        "id": 479,
+        "type": "Listening",
+        "audioText": "Development",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "Development",
+        "feedback": "योग्य उत्तर आहे: Development"
+      },
+      {
+        "id": 480,
+        "type": "Listening",
+        "audioText": "Hypothesis",
+        "text": "ऐका आणि इंग्रजीत लिहा",
+        "answer": "Hypothesis",
+        "feedback": "योग्य उत्तर आहे: Hypothesis"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 501,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: If I ___ known, I would have come.",
+        "options": [
+          "had",
+          "have",
+          "has",
+          "did"
+        ],
+        "answer": "had",
+        "feedback": "योग्य उत्तर आहे: had"
+      },
+      {
+        "id": 502,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: By the time we arrived, they ___ left.",
+        "options": [
+          "had",
+          "have",
+          "will have",
+          "are"
+        ],
+        "answer": "had",
+        "feedback": "योग्य उत्तर आहे: had"
+      },
+      {
+        "id": 503,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: Not only ___ he late, but he also forgot his book.",
+        "options": [
+          "was",
+          "is",
+          "were",
+          "did"
+        ],
+        "answer": "was",
+        "feedback": "योग्य उत्तर आहे: was"
+      },
+      {
+        "id": 504,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: I wish I ___ a car.",
+        "options": [
+          "had",
+          "have",
+          "will have",
+          "am having"
+        ],
+        "answer": "had",
+        "feedback": "योग्य उत्तर आहे: had"
+      },
+      {
+        "id": 505,
+        "type": "Grammar",
+        "text": "रिकाम्या जागा भरा: She speaks as if she ___ everything.",
+        "options": [
+          "knew",
+          "knows",
+          "know",
+          "knowing"
+        ],
+        "answer": "knew",
+        "feedback": "योग्य उत्तर आहे: knew"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 526,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "come",
+          "have",
+          "would",
+          "I",
+          "known",
+          "had",
+          "If",
+          "I"
+        ],
+        "answer": "If I had known I would have come",
+        "feedback": "योग्य उत्तर आहे: If I had known I would have come"
+      },
+      {
+        "id": 527,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "arrived",
+          "we",
+          "time",
+          "the",
+          "By",
+          "left",
+          "had",
+          "they"
+        ],
+        "answer": "By the time we arrived they had left",
+        "feedback": "योग्य उत्तर आहे: By the time we arrived they had left"
+      },
+      {
+        "id": 528,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "late",
+          "he",
+          "was",
+          "only",
+          "Not"
+        ],
+        "answer": "Not only was he late",
+        "feedback": "योग्य उत्तर आहे: Not only was he late"
+      },
+      {
+        "id": 529,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "car",
+          "a",
+          "had",
+          "I",
+          "wish",
+          "I"
+        ],
+        "answer": "I wish I had a car",
+        "feedback": "योग्य उत्तर आहे: I wish I had a car"
+      },
+      {
+        "id": 530,
+        "type": "Puzzle",
+        "text": "योग्य क्रमाने लावा",
+        "scrambled": [
+          "everything",
+          "knew",
+          "she",
+          "if",
+          "as",
+          "speaks",
+          "She"
+        ],
+        "answer": "She speaks as if she knew everything",
+        "feedback": "योग्य उत्तर आहे: She speaks as if she knew everything"
+      }
+    ]
+  }
+}

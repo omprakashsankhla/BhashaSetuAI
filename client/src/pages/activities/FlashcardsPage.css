@@ -1,0 +1,461 @@
+.flashcards-container {
+  min-height: 100vh;
+  width: 100vw;
+  background: #f8fafc;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+}
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  background: white;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}
+
+.progress-bar-container {
+  flex: 1;
+  max-width: 400px;
+  height: 8px;
+  background: #e2e8f0;
+  border-radius: 4px;
+  margin: 0 1.5rem;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #2B58FF;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  font-weight: 600;
+  color: #64748b;
+  font-size: 0.9rem;
+  margin-right: 1rem;
+}
+
+.reset-btn {
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  color: #64748b;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.reset-btn:hover {
+  background: #e2e8f0;
+  color: #1e293b;
+}
+
+.flashcards-scroll-area {
+  flex: 1;
+  overflow-y: auto;
+  padding: 2.5rem 1.5rem;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.flashcards-intro {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.flashcards-intro h2 {
+  font-size: 2rem;
+  color: #1e293b;
+  margin: 0 0 0.5rem 0;
+  font-weight: 800;
+}
+
+.flashcards-intro p {
+  color: #64748b;
+  margin: 0;
+}
+
+/* Row-Column Grid Layout */
+.flashcard-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+  width: 100%;
+  padding-bottom: 3rem;
+}
+
+/* Card General Box Styling */
+.flashcard {
+  width: 100%;
+  height: 280px;
+  background: transparent;
+  cursor: pointer;
+  perspective: 1000px;
+  position: relative;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  border-radius: 20px;
+}
+
+.flashcard.flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front, .flashcard-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  background: white;
+  border: 1px solid #e2e8f0;
+  box-sizing: border-box;
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+  background: #2B58FF;
+  color: white;
+  border: none;
+}
+
+/* Card Header Badges */
+.card-completed-header,
+.card-active-header,
+.card-locked-header {
+  position: absolute;
+  top: 1rem;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.2rem;
+  box-sizing: border-box;
+}
+
+.card-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #64748b;
+  background: #f1f5f9;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+}
+
+.card-badge.active {
+  color: #2b58ff;
+  background: #eff6ff;
+}
+
+.card-badge.locked {
+  color: #94a3b8;
+  background: #f1f5f9;
+}
+
+.status-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #10b981;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  text-transform: uppercase;
+}
+
+.status-badge.active {
+  color: #2b58ff;
+}
+
+.status-badge.locked {
+  color: #94a3b8;
+}
+
+/* Front Card Contents */
+.card-emoji {
+  font-size: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.target-word {
+  font-size: 1.8rem;
+  color: #1e293b;
+  margin: 0 0 0.8rem 0;
+  font-weight: 800;
+  word-break: break-word;
+  max-width: 100%;
+}
+
+.audio-btn {
+  background: #f1f5f9;
+  border: none;
+  color: #2B58FF;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-bottom: 1rem;
+}
+
+.audio-btn:hover {
+  background: #e0e7ff;
+}
+
+.flip-hint {
+  position: absolute;
+  bottom: 0.8rem;
+  color: #94a3b8;
+  font-size: 0.75rem;
+  font-weight: 500;
+}
+
+/* Back Card Contents */
+.romanized {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.85);
+  margin: 0 0 0.4rem 0;
+  font-weight: 500;
+}
+
+.meaning-word {
+  font-size: 1.6rem;
+  margin: 0 0 1.2rem 0;
+  font-weight: 700;
+  line-height: 1.2;
+  word-break: break-word;
+}
+
+.card-action-buttons {
+  display: flex;
+  gap: 0.8rem;
+  width: 100%;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+}
+
+.card-action-btn {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.card-action-btn.gotit {
+  background: #10b981;
+  color: white;
+}
+
+.card-action-btn.gotit:hover {
+  background: #059669;
+}
+
+.card-action-btn.needpractice {
+  background: #ef4444;
+  color: white;
+}
+
+.card-action-btn.needpractice:hover {
+  background: #dc2626;
+}
+
+/* Completed Card (Flat Layout) */
+.completed-card {
+  height: 280px;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 1rem 1.2rem;
+  position: relative;
+  cursor: default;
+}
+
+.card-completed-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+}
+
+.card-completed-details {
+  text-align: center;
+  width: 100%;
+}
+
+.target-word-flat {
+  font-size: 1.5rem;
+  color: #14532d;
+  margin: 0;
+  font-weight: 800;
+  word-break: break-word;
+}
+
+.audio-btn-small {
+  background: #dcfce7;
+  border: none;
+  color: #15803d;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.audio-btn-small:hover {
+  background: #bbf7d0;
+}
+
+.romanized-flat {
+  font-size: 0.8rem;
+  color: #16a34a;
+  margin: 0.2rem 0 0.4rem 0;
+  font-weight: 500;
+}
+
+.meaning-flat {
+  font-size: 1rem;
+  color: #1e293b;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Locked Card Layout */
+.locked-card {
+  height: 280px;
+  background: #f8fafc;
+  border: 2px dashed #cbd5e1;
+  border-radius: 20px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: not-allowed;
+}
+
+.card-locked-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-top: 1.5rem;
+}
+
+.locked-card .lock-icon {
+  color: #cbd5e1;
+}
+
+/* Active Hover Animation */
+.flashcard:not(.locked-card):not(.completed-card):hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+}
+
+/* Completion summary card */
+.flashcards-completed-summary {
+  background: white;
+  border-radius: 24px;
+  padding: 2.5rem;
+  text-align: center;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+  margin: 2rem auto 0 auto;
+  max-width: 440px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.summary-icon {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.flashcards-completed-summary h2 {
+  font-size: 1.8rem;
+  color: #1e293b;
+  margin: 0 0 0.5rem 0;
+  font-weight: 800;
+}
+
+.flashcards-completed-summary p {
+  color: #64748b;
+  margin: 0 0 1rem 0;
+}
+
+.score-badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #2b58ff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin: 1rem 0 2rem 0 !important;
+}
+
+.primary-btn {
+  width: 100%;
+  background: #2B58FF;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.primary-btn:hover {
+  background: #1e3fcc;
+}

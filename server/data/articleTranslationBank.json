@@ -1,0 +1,27 @@
+[
+  {
+    "id": "news-tech",
+    "title": "New Battery Technology",
+    "text": "A leading technology firm announced a revolutionary solid-state battery yesterday. Unlike traditional lithium-ion cells, this new architecture promises to triple the lifespan of consumer electronics while significantly reducing the risk of thermal runaway."
+  },
+  {
+    "id": "science-astronomy",
+    "title": "Exoplanet Atmosphere",
+    "text": "Astronomers analyzing light spectrum data from a distant exoplanet have identified traces of atmospheric water vapor and complex organic compounds. This discovery offers compelling insights into planetary formation mechanics outside our solar system."
+  },
+  {
+    "id": "business-economy",
+    "title": "Central Bank Policy",
+    "text": "Central banks face a delicate balancing act as persistent core inflation clashes with slowing economic growth indicators. Policymakers must decide whether tightening monetary policy will effectively curb price volatility without triggering a broader recessionary downturn."
+  },
+  {
+    "id": "culture-preservation",
+    "title": "Indigenous Heritage",
+    "text": "Museum curators are increasingly implementing digital archiving initiatives to preserve endangered indigenous languages and oral traditions. These interactive archives ensure future generations can access rich cultural narratives that might otherwise vanish entirely."
+  },
+  {
+    "id": "news-environment",
+    "title": "Urban Sustainability",
+    "text": "Metropolitan planners worldwide are expanding urban green spaces to mitigate the growing heat island effect. Integrating rooftop gardens and permeable pavements fosters biodiversity while substantially improving local air quality and stormwater management."
+  }
+]

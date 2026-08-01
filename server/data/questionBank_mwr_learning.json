@@ -1,0 +1,818 @@
+{
+  "Beginner": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which letter comes after A?",
+        "options": [
+          "पाणी",
+          "Fire",
+          "Earth",
+          "Air"
+        ],
+        "answer": "पाणी",
+        "feedback": "Correct answer is: पाणी"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is a fruit?",
+        "options": [
+          "खाणो",
+          "Sleep",
+          "Walk",
+          "Run"
+        ],
+        "answer": "खाणो",
+        "feedback": "Correct answer is: खाणो"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Which word names an animal?",
+        "options": [
+          "सूरज",
+          "Moon",
+          "Star",
+          "Cloud"
+        ],
+        "answer": "सूरज",
+        "feedback": "Correct answer is: सूरज"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which letter is a vowel?",
+        "options": [
+          "घर",
+          "Tree",
+          "Road",
+          "Car"
+        ],
+        "answer": "घर",
+        "feedback": "Correct answer is: घर"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "Which word means a greeting?",
+        "options": [
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "answer": "B",
+        "feedback": "Correct answer is: B"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: मने सेव चोखा लागे।",
+        "word": "मने सेव चोखा लागे।"
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: ओ एक बिल्ली है।",
+        "word": "ओ एक बिल्ली है।"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: सूरज तातो है।",
+        "word": "सूरज तातो है।"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: मने दूध भावै।",
+        "word": "मने दूध भावै।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: उणै कन एक पेन है।",
+        "word": "उणै कन एक पेन है।"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Apple",
+        "answer": "सेब",
+        "feedback": "Correct translation is: सेब"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Good morning",
+        "answer": "सुप्रभात",
+        "feedback": "Correct translation is: सुप्रभात"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Thank you",
+        "answer": "धन्यवाद",
+        "feedback": "Correct translation is: धन्यवाद"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Marwadi: My book",
+        "answer": "मारी किताब",
+        "feedback": "Correct translation is: मारी किताब"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Blue sky",
+        "answer": "नीळो आसमान",
+        "feedback": "Correct translation is: नीळो आसमान"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: मैं एक छात्र ___।",
+        "options": [
+          "हूँ",
+          "है",
+          "हैं",
+          "हो"
+        ],
+        "answer": "हूँ",
+        "feedback": "Correct answer is: हूँ"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: वा खुश ___।",
+        "options": [
+          "हूँ",
+          "है",
+          "हैं",
+          "हो"
+        ],
+        "answer": "है",
+        "feedback": "Correct answer is: है"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: वे खेल रिया ___।",
+        "options": [
+          "है",
+          "हैं",
+          "हूँ",
+          "हो"
+        ],
+        "answer": "हैं",
+        "feedback": "Correct answer is: हैं"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: ओ ___ सेब है।",
+        "options": [
+          "एक",
+          "का",
+          "रो",
+          "सूं"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: मारे कन ___ किताब है।",
+        "options": [
+          "एक",
+          "रो",
+          "सूं",
+          "में"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 101,
+        "type": "Puzzle",
+        "text": "कौणसो शब्द न्यारो है?",
+        "options": [
+          "सेब",
+          "आम",
+          "केळो",
+          "कुर्सी"
+        ],
+        "answer": "कुर्सी",
+        "feedback": "Correct answer is: कुर्सी"
+      },
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the pattern: A, B, C, __",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "answer": "D",
+        "feedback": "Correct answer is: D"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Which number comes next? 2, 4, 6, 8, __",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "feedback": "Correct answer is: 10"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "इण में सूं कौणसो फल कोनी?",
+        "options": [
+          "संतरो",
+          "सेब",
+          "आलू",
+          "आम"
+        ],
+        "answer": "आलू",
+        "feedback": "Correct answer is: आलू"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "न्यारो शब्द खोजो।",
+        "options": [
+          "बिल्ली",
+          "कुत्तो",
+          "गाय",
+          "मेज"
+        ],
+        "answer": "मेज",
+        "feedback": "Correct answer is: मेज"
+      }
+    ]
+  },
+  "Intermediate": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Choose the correct sentence.",
+        "options": [
+          "फूटरो",
+          "Ugly",
+          "Fast",
+          "Slow"
+        ],
+        "answer": "फूटरो",
+        "feedback": "Correct answer is: फूटरो"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is the opposite of \"happy\"?",
+        "options": [
+          "पोथीखानो",
+          "School",
+          "Hospital",
+          "Park"
+        ],
+        "answer": "पोथीखानो",
+        "feedback": "Correct answer is: पोथीखानो"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Complete the sentence: The birds _____ in the sky.",
+        "options": [
+          "ran",
+          "runned",
+          "running",
+          "runs"
+        ],
+        "answer": "ran",
+        "feedback": "Correct answer is: ran"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which word is a verb?",
+        "options": [
+          "cold",
+          "warm",
+          "boiling",
+          "freezing"
+        ],
+        "answer": "cold",
+        "feedback": "Correct answer is: cold"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "Which sentence is correct?",
+        "options": [
+          "Run",
+          "Apple",
+          "Blue",
+          "Quickly"
+        ],
+        "answer": "Run",
+        "feedback": "Correct answer is: Run"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: मैं एक नई भाषा सीख रियो हूँ।",
+        "word": "मैं एक नई भाषा सीख रियो हूँ।"
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: ओ एक बिल्ली है।",
+        "word": "ओ एक बिल्ली है।"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: सूरज तातो है।",
+        "word": "सूरज तातो है।"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: मने दूध भावै।",
+        "word": "मने दूध भावै।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: उणै कन एक पेन है।",
+        "word": "उणै कन एक पेन है।"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Good afternoon",
+        "answer": "सेब",
+        "feedback": "Correct translation is: सेब"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Clean water",
+        "answer": "सुप्रभात",
+        "feedback": "Correct translation is: सुप्रभात"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Healthy food",
+        "answer": "धन्यवाद",
+        "feedback": "Correct translation is: धन्यवाद"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Open window",
+        "answer": "मारी किताब",
+        "feedback": "Correct translation is: मारी किताब"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Close gate",
+        "answer": "नीळो आसमान",
+        "feedback": "Correct translation is: नीळो आसमान"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: मैं एक छात्र ___।",
+        "options": [
+          "हूँ",
+          "है",
+          "हैं",
+          "हो"
+        ],
+        "answer": "हूँ",
+        "feedback": "Correct answer is: हूँ"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: वा खुश ___।",
+        "options": [
+          "हूँ",
+          "है",
+          "हैं",
+          "हो"
+        ],
+        "answer": "है",
+        "feedback": "Correct answer is: है"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: वे खेल रिया ___।",
+        "options": [
+          "है",
+          "हैं",
+          "हूँ",
+          "हो"
+        ],
+        "answer": "हैं",
+        "feedback": "Correct answer is: हैं"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: ओ ___ सेब है।",
+        "options": [
+          "एक",
+          "का",
+          "रो",
+          "सूं"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: मारे कन ___ किताब है।",
+        "options": [
+          "एक",
+          "रो",
+          "सूं",
+          "में"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 101,
+        "type": "Puzzle",
+        "text": "कौणसो शब्द न्यारो है?",
+        "options": [
+          "सेब",
+          "आम",
+          "केळो",
+          "कुर्सी"
+        ],
+        "answer": "कुर्सी",
+        "feedback": "Correct answer is: कुर्सी"
+      },
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 5, 10, 15, 20, __",
+        "options": [
+          "22",
+          "25",
+          "30",
+          "35"
+        ],
+        "answer": "25",
+        "feedback": "Correct answer is: 25"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Which word does not belong?",
+        "options": [
+          "Doctor",
+          "Nurse",
+          "Teacher",
+          "Banana"
+        ],
+        "answer": "Banana",
+        "feedback": "Correct answer is: Banana"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "इण में सूं कौणसो फल कोनी?",
+        "options": [
+          "संतरो",
+          "सेब",
+          "आलू",
+          "आम"
+        ],
+        "answer": "आलू",
+        "feedback": "Correct answer is: आलू"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "न्यारो शब्द खोजो।",
+        "options": [
+          "बिल्ली",
+          "कुत्तो",
+          "गाय",
+          "मेज"
+        ],
+        "answer": "मेज",
+        "feedback": "Correct answer is: मेज"
+      }
+    ]
+  },
+  "Advanced": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Choose the sentence with the correct grammar.",
+        "options": [
+          "पर्यावरण",
+          "Economy",
+          "Society",
+          "Politics"
+        ],
+        "answer": "पर्यावरण",
+        "feedback": "Correct answer is: पर्यावरण"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is the synonym of \"rapid\"?",
+        "options": [
+          "अर्थव्यवस्था",
+          "History",
+          "Math",
+          "Science"
+        ],
+        "answer": "अर्थव्यवस्था",
+        "feedback": "Correct answer is: अर्थव्यवस्था"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Choose the correct sentence.",
+        "options": [
+          "careful",
+          "careless",
+          "fast",
+          "slow"
+        ],
+        "answer": "careful",
+        "feedback": "Correct answer is: careful"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which word best completes the sentence? The scientist made an important _____ during the experiment.",
+        "options": [
+          "everywhere",
+          "nowhere",
+          "rare",
+          "unique"
+        ],
+        "answer": "everywhere",
+        "feedback": "Correct answer is: everywhere"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "What is the opposite of generous?",
+        "options": [
+          "Quickly",
+          "Quick",
+          "Quicker",
+          "Quickest"
+        ],
+        "answer": "Quickly",
+        "feedback": "Correct answer is: Quickly"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: सतत विकास म्हाने भविष्य रे वास्ते जरूरी है।",
+        "word": "सतत विकास म्हाने भविष्य रे वास्ते जरूरी है।"
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: ओ एक बिल्ली है।",
+        "word": "ओ एक बिल्ली है।"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: सूरज तातो है।",
+        "word": "सूरज तातो है।"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: मने दूध भावै।",
+        "word": "मने दूध भावै।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: उणै कन एक पेन है।",
+        "word": "उणै कन एक पेन है।"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Critical thinking",
+        "answer": "सेब",
+        "feedback": "Correct translation is: सेब"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Team spirit",
+        "answer": "सुप्रभात",
+        "feedback": "Correct translation is: सुप्रभात"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Digital literacy",
+        "answer": "धन्यवाद",
+        "feedback": "Correct translation is: धन्यवाद"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Time management",
+        "answer": "मारी किताब",
+        "feedback": "Correct translation is: मारी किताब"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Marwadi: Healthy lifestyle",
+        "answer": "नीळो आसमान",
+        "feedback": "Correct translation is: नीळो आसमान"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: मैं एक छात्र ___।",
+        "options": [
+          "हूँ",
+          "है",
+          "हैं",
+          "हो"
+        ],
+        "answer": "हूँ",
+        "feedback": "Correct answer is: हूँ"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: वा खुश ___।",
+        "options": [
+          "हूँ",
+          "है",
+          "हैं",
+          "हो"
+        ],
+        "answer": "है",
+        "feedback": "Correct answer is: है"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: वे खेल रिया ___।",
+        "options": [
+          "है",
+          "हैं",
+          "हूँ",
+          "हो"
+        ],
+        "answer": "हैं",
+        "feedback": "Correct answer is: हैं"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: ओ ___ सेब है।",
+        "options": [
+          "एक",
+          "का",
+          "रो",
+          "सूं"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: मारे कन ___ किताब है।",
+        "options": [
+          "एक",
+          "रो",
+          "सूं",
+          "में"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 3, 6, 12, 24, __",
+        "options": [
+          "36",
+          "42",
+          "48",
+          "54"
+        ],
+        "answer": "48",
+        "feedback": "Correct answer is: 48"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Find the odd one out.",
+        "options": [
+          "Keyboard",
+          "Monitor",
+          "Printer",
+          "Bicycle"
+        ],
+        "answer": "Bicycle",
+        "feedback": "Correct answer is: Bicycle"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "इण में सूं कौणसो फल कोनी?",
+        "options": [
+          "संतरो",
+          "सेब",
+          "आलू",
+          "आम"
+        ],
+        "answer": "आलू",
+        "feedback": "Correct answer is: आलू"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "न्यारो शब्द खोजो।",
+        "options": [
+          "बिल्ली",
+          "कुत्तो",
+          "गाय",
+          "मेज"
+        ],
+        "answer": "मेज",
+        "feedback": "Correct answer is: मेज"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "न्यारो शब्द खोजो।",
+        "options": [
+          "गुलाब",
+          "कमल",
+          "आम",
+          "चमेली"
+        ],
+        "answer": "आम",
+        "feedback": "Correct answer is: आम"
+      }
+    ]
+  }
+}

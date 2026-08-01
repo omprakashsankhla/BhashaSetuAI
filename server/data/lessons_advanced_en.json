@@ -1,0 +1,4478 @@
+[
+  {
+    "title": "Advanced Phonetics and Dialectal Variation",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What does the International Phonetic Alphabet (IPA) symbol /θ/ represent in English pronunciation?",
+        "options": [
+          "Voiced dental fricative (as in 'then')",
+          "Voiceless dental fricative (as in 'thin')",
+          "Alveolar plosive (as in 'tin')",
+          "Glottal stop"
+        ],
+        "answer": "Voiceless dental fricative (as in 'thin')",
+        "feedback": "Correct! /θ/ is the voiceless dental fricative.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which linguistic term describes the variation in vowel sounds across different regional accents (e.g., General American vs. Received Pronunciation)?",
+        "options": [
+          "Phonemic shift",
+          "Vowel reduction",
+          "Morphological derivation",
+          "Syntactic inversion"
+        ],
+        "answer": "Phonemic shift",
+        "feedback": "Spot on! Vowel shifts characterize regional accent differences.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following phonetic sentence aloud with precise articulation:",
+        "options": [],
+        "answer": "The subtle nuances of phonetic transcription require meticulous acoustic analysis.",
+        "feedback": "Excellent phonetic articulation and pacing.",
+        "word": "The subtle nuances of phonetic transcription require meticulous acoustic analysis.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the recording and identify the specific phonetic feature demonstrated.",
+        "options": [
+          "Linking /r/ and intrusive /r/",
+          "Glottal reinforcement",
+          "Elision of unstressed syllables",
+          "Assimilation of nasal consonants"
+        ],
+        "answer": "Linking /r/ and intrusive /r/",
+        "feedback": "Correct, the speaker links words using rhotic features.",
+        "word": "",
+        "audioText": "Far away and drawing ever closer across the open harbor.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the linguistic term for the omission of a sound or syllable in speech starting with 'e'.",
+        "options": [],
+        "answer": "elision",
+        "feedback": "Correct! Elision refers to omitted sounds in connected speech.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is connected speech assimilation?",
+        "options": [
+          "When a speech sound changes to become more similar to a neighboring sound",
+          "Speaking in a monotone pitch",
+          "Translating text between languages",
+          "Writing in shorthand"
+        ],
+        "answer": "When a speech sound changes to become more similar to a neighboring sound",
+        "feedback": "Correct, assimilation adapts adjacent sounds for fluency.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the phonetics term: a, l, v, e, o, l, a, r",
+        "options": [],
+        "answer": "alveolar",
+        "feedback": "Correct, spells 'alveolar'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "a",
+          "l",
+          "v",
+          "e",
+          "o",
+          "l",
+          "a",
+          "r"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the word and identify its primary syllable stress pattern.",
+        "options": [
+          "Primary stress on the second syllable",
+          "Primary stress on the first syllable",
+          "Equal stress across all syllables",
+          "Primary stress on the final syllable"
+        ],
+        "answer": "Primary stress on the second syllable",
+        "feedback": "Correct, the stress falls on the penultimate/second syllable.",
+        "word": "",
+        "audioText": "Phonology",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced phonetic statement aloud:",
+        "options": [],
+        "answer": "Dialectal variations reflect rich cultural heritages and historical migrations.",
+        "feedback": "Superb vocal clarity and projection.",
+        "word": "Dialectal variations reflect rich cultural heritages and historical migrations.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "How does intonation function in advanced spoken discourse?",
+        "options": [
+          "It conveys grammatical structure, speaker attitude, and pragmatic focus",
+          "It only determines volume",
+          "It serves no functional purpose",
+          "It replaces vocabulary entirely"
+        ],
+        "answer": "It conveys grammatical structure, speaker attitude, and pragmatic focus",
+        "feedback": "Correct, intonation carries pragmatic and emotional meaning.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "type": "MCQ",
+        "text": "Choose the word that best fits the abstract context: 'Her arguments were so ___ that the opposition could not find any flaws.'",
+        "options": [
+          "cogent",
+          "redundant",
+          "equivocal",
+          "verbose"
+        ],
+        "answer": "cogent",
+        "feedback": "Correct! 'Cogent' means clear, logical, and convincing.",
+        "word": "",
+        "audioText": "",
+        "words": [],
+        "id": 11
+      },
+      {
+        "type": "MCQ",
+        "text": "Identify the correct usage of the subjunctive mood in the following options.",
+        "options": [
+          "It is crucial that he arrives on time.",
+          "It is crucial that he arrive on time.",
+          "It is crucial that he arrived on time.",
+          "It is crucial that he is arriving on time."
+        ],
+        "answer": "It is crucial that he arrive on time.",
+        "feedback": "Correct! The subjunctive mood uses the base form of the verb ('arrive') after expressions of necessity.",
+        "word": "",
+        "audioText": "",
+        "words": [],
+        "id": 12
+      }
+    ]
+  },
+  {
+    "title": "Advanced Etymology and Lexicology",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is etymology?",
+        "options": [
+          "The study of the origin of words and how their meanings have changed throughout history",
+          "The study of insect behavior",
+          "The rules of sentence punctuation",
+          "The classification of rock formations"
+        ],
+        "answer": "The study of the origin of words and how their meanings have changed throughout history",
+        "feedback": "Correct! Etymology traces historical word origins.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does the Greek root 'chronos' signify in English vocabulary?",
+        "options": [
+          "Time",
+          "Space",
+          "Light",
+          "Sound"
+        ],
+        "answer": "Time",
+        "feedback": "Spot on! 'Chronos' relates to time (e.g., chronology, chronicle).",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following etymological sentence aloud:",
+        "options": [],
+        "answer": "Etymological analysis reveals deep historical connections between Germanic and Romance languages.",
+        "feedback": "Impeccable academic reading.",
+        "word": "Etymological analysis reveals deep historical connections between Germanic and Romance languages.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the word and identify its primary historical root origin.",
+        "options": [
+          "Greek origin",
+          "Latin origin",
+          "Old English / Germanic origin",
+          "Norse origin"
+        ],
+        "answer": "Greek origin",
+        "feedback": "Correct, the root derives from classical Greek.",
+        "word": "",
+        "audioText": "Democracy",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the botanical root word meaning 'tree' derived from Greek starting with 'd'.",
+        "options": [],
+        "answer": "dendron",
+        "feedback": "Correct! Dendron means tree.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is a neologism?",
+        "options": [
+          "A newly coined word, expression, or usage",
+          "An ancient obsolete term",
+          "A direct Latin translation",
+          "A spelling typo"
+        ],
+        "answer": "A newly coined word, expression, or usage",
+        "feedback": "Correct, neologisms represent newly created vocabulary.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the etymological term: m, o, r, p, h, e, m, e",
+        "options": [],
+        "answer": "morpheme",
+        "feedback": "Correct, spells 'morpheme'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "m",
+          "o",
+          "r",
+          "p",
+          "h",
+          "e",
+          "m",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the excerpt and identify the process of word formation.",
+        "options": [
+          "Portmanteau / Blend word",
+          "Acronym formation",
+          "Borrowing loanword",
+          "Archaic revival"
+        ],
+        "answer": "Portmanteau / Blend word",
+        "feedback": "Correct, it blends two words into one new term.",
+        "word": "",
+        "audioText": "The term 'podcast' is a portmanteau blending 'iPod' and 'broadcast'.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following lexicology statement aloud:",
+        "options": [],
+        "answer": "Lexicographers document semantic shifts as languages evolve organically.",
+        "feedback": "Wonderful articulation and pace.",
+        "word": "Lexicographers document semantic shifts as languages evolve organically.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does semantic pejoration refer to in historical linguistics?",
+        "options": [
+          "A word acquiring increasingly negative connotations over time",
+          "A word gaining more prestigious meanings",
+          "A word disappearing completely from dictionaries",
+          "A word splitting into multiple homonyms"
+        ],
+        "answer": "A word acquiring increasingly negative connotations over time",
+        "feedback": "Correct, pejoration is the downward shift in word meaning.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "type": "Reading",
+        "text": "Read this advanced philosophical passage with clear articulation:",
+        "options": [],
+        "answer": "",
+        "feedback": "Superb delivery! Your handling of complex syntactic recursion was highly professional.",
+        "word": "The juxtaposition of traditional ethos and ephemeral modernism creates a unique sociocultural paradox.",
+        "audioText": "",
+        "words": [],
+        "id": 11
+      },
+      {
+        "type": "Reading",
+        "text": "Read this scientific hypothesis aloud:",
+        "options": [],
+        "answer": "",
+        "feedback": "Great job! Advanced technical terms were pronounced flawlessly.",
+        "word": "Photosynthetic organisms convert electromagnetic radiation into chemical energy within chloroplasts.",
+        "audioText": "",
+        "words": [],
+        "id": 12
+      }
+    ]
+  },
+  {
+    "title": "Advanced Syntax and Generative Grammar",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is syntactic ambiguity?",
+        "options": [
+          "When a sentence or phrase can be parsed into multiple syntactic structures with different meanings",
+          "When a word contains a spelling error",
+          "When grammar rules are strictly followed without exception",
+          "When a verb lacks a subject"
+        ],
+        "answer": "When a sentence or phrase can be parsed into multiple syntactic structures with different meanings",
+        "feedback": "Correct! Syntactic ambiguity arises from multiple parse trees.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Whose theory of generative grammar revolutionized modern linguistics by proposing universal innate structures?",
+        "options": [
+          "Noam Chomsky",
+          "Ferdinand de Saussure",
+          "Stephen Krashen",
+          "B.F. Skinner"
+        ],
+        "answer": "Noam Chomsky",
+        "feedback": "Spot on! Noam Chomsky formulated generative grammar.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following syntactically complex sentence aloud:",
+        "options": [],
+        "answer": "The hypothesis that syntactic structures are innate remains a cornerstone of cognitive science.",
+        "feedback": "Excellent reading clarity.",
+        "word": "The hypothesis that syntactic structures are innate remains a cornerstone of cognitive science.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify its syntactic tree structure feature.",
+        "options": [
+          "Embedded relative clause / Subordination",
+          "Simple coordinate structure",
+          "Imperative command",
+          "Interrogative inversion"
+        ],
+        "answer": "Embedded relative clause / Subordination",
+        "feedback": "Correct, the sentence contains deep clause embedding.",
+        "word": "",
+        "audioText": "The software engineer who designed the architecture presented the findings.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the linguistic term for the underlying abstract representation of a sentence starting with 'd'.",
+        "options": [],
+        "answer": "deep",
+        "feedback": "Correct! Deep structure (contrasted with surface structure).",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is recursion in syntax?",
+        "options": [
+          "The capacity to embed phrases within phrases of the same type indefinitely",
+          "Repeating the exact same word twice in a row",
+          "Translating text backward",
+          "Deleting verbs from sentences"
+        ],
+        "answer": "The capacity to embed phrases within phrases of the same type indefinitely",
+        "feedback": "Correct, recursion allows infinite sentence generation.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the syntax term: c, o, n, s, t, i, t, u, e, n, t",
+        "options": [],
+        "answer": "constituent",
+        "feedback": "Correct, spells 'constituent'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "c",
+          "o",
+          "n",
+          "s",
+          "t",
+          "i",
+          "t",
+          "u",
+          "e",
+          "n",
+          "t"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the grammatical transformation applied.",
+        "options": [
+          "Passive voice transformation",
+          "Wh- movement / Interrogative fronting",
+          "Causative shift",
+          "Ellipsis"
+        ],
+        "answer": "Wh- movement / Interrogative fronting",
+        "feedback": "Correct, the question word moved to the front position.",
+        "word": "",
+        "audioText": "What project deliverables did the research committee approve?",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced syntactic statement aloud:",
+        "options": [],
+        "answer": "Syntactic parsing algorithms automatically analyze phrase-structure trees.",
+        "feedback": "Wonderful articulation.",
+        "word": "Syntactic parsing algorithms automatically analyze phrase-structure trees.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does a phrase marker (P-marker) represent in generative grammar?",
+        "options": [
+          "A labeled tree diagram representing the syntactic structure of a sentence",
+          "A punctuation bookmark",
+          "A spelling rule",
+          "A phonetic transcription symbol"
+        ],
+        "answer": "A labeled tree diagram representing the syntactic structure of a sentence",
+        "feedback": "Correct, P-markers visually display phrase structure.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "type": "Listening",
+        "text": "Listen and identify the speaker's tone in the passage.",
+        "options": [
+          "Skeptical",
+          "Optimistic",
+          "Indifferent",
+          "Nostalgic"
+        ],
+        "answer": "Skeptical",
+        "feedback": "Correct! The speaker expressed strong reservations about the feasibility of the project.",
+        "word": "",
+        "audioText": "While the technological capabilities exist, the financial logistics and political inertia make full implementation highly implausible.",
+        "words": [],
+        "id": 11
+      },
+      {
+        "type": "Listening",
+        "text": "Listen and write the vocabulary-dense statement.",
+        "options": [],
+        "answer": "A meticulous approach is required to mitigate substantial risks",
+        "feedback": "Exceptional listening accuracy for advanced business vocabulary!",
+        "word": "",
+        "audioText": "A meticulous approach is required to mitigate substantial risks",
+        "words": [],
+        "id": 12
+      }
+    ]
+  },
+  {
+    "title": "Advanced Discourse Analysis and Textual Cohesion",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is textual cohesion?",
+        "options": [
+          "The grammatical and lexical links that hold a text together and give it unity",
+          "The physical binding of book pages",
+          "The speed at which a person reads",
+          "The font style used in publishing"
+        ],
+        "answer": "The grammatical and lexical links that hold a text together and give it unity",
+        "feedback": "Correct! Cohesion creates unified discourse.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is the difference between textual cohesion and coherence?",
+        "options": [
+          "Cohesion refers to surface-level formal linguistic links, while coherence refers to the underlying conceptual and logical unity of a text",
+          "Cohesion is spoken, coherence is written only",
+          "There is zero difference",
+          "Coherence is only about spelling"
+        ],
+        "answer": "Cohesion refers to surface-level formal linguistic links, while coherence refers to the underlying conceptual and logical unity of a text",
+        "feedback": "Spot on! Cohesion is structural; coherence is conceptual.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following academic discourse sentence aloud:",
+        "options": [],
+        "answer": "Discourse analysis examines how language functions beyond sentence boundaries in social contexts.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Discourse analysis examines how language functions beyond sentence boundaries in social contexts.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the excerpt and identify the cohesive device used (e.g., anaphoric reference).",
+        "options": [
+          "Anaphoric pronoun reference",
+          "Cataphoric reference",
+          "Lexical substitution",
+          "Ellipsis"
+        ],
+        "answer": "Anaphoric pronoun reference",
+        "feedback": "Correct, the pronoun refers backward to a previously mentioned noun.",
+        "word": "",
+        "audioText": "Dr. Henderson completed the research study; she published its findings last week.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the 8-letter term for text omission where words are understood from context starting with 'e'.",
+        "options": [],
+        "answer": "ellipsis",
+        "feedback": "Correct! Ellipsis omits redundant words.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is lexical cohesion achieved through?",
+        "options": [
+          "Reiteration (synonyms, repetition) and collocation",
+          "Random word selection",
+          "Spelling corrections",
+          "Grammatical errors"
+        ],
+        "answer": "Reiteration (synonyms, repetition) and collocation",
+        "feedback": "Correct, lexical cohesion relies on related vocabulary.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the discourse term: c, o, h, e, r, e, n, c, e",
+        "options": [],
+        "answer": "coherence",
+        "feedback": "Correct, spells 'coherence'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "c",
+          "o",
+          "h",
+          "e",
+          "r",
+          "e",
+          "n",
+          "c",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the dialogue and identify the macro-discourse structure.",
+        "options": [
+          "Problem-solution macro-structure",
+          "Chronological narrative",
+          "Biographical timeline",
+          "Descriptive catalog"
+        ],
+        "answer": "Problem-solution macro-structure",
+        "feedback": "Correct, it presents an obstacle and proposes a resolution.",
+        "word": "",
+        "audioText": "System bottlenecks caused processing delays; consequently, engineers deployed optimized algorithms.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced discourse statement aloud:",
+        "options": [],
+        "answer": "Macro-level text structure dictates how readers construct mental models of discourse.",
+        "feedback": "Wonderful rhythm and cadence.",
+        "word": "Macro-level text structure dictates how readers construct mental models of discourse.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does cataphoric reference mean?",
+        "options": [
+          "When a pronoun or word refers forward to a later part of the text",
+          "When a word refers backward",
+          "When a sentence lacks a verb",
+          "When words rhyme"
+        ],
+        "answer": "When a pronoun or word refers forward to a later part of the text",
+        "feedback": "Correct, cataphora points forward.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "type": "Puzzle",
+        "text": "Reconstruct this inversion sentence for formal emphasis:",
+        "options": [],
+        "answer": "Seldom have I witnessed such an extraordinary display of talent",
+        "feedback": "Outstanding structure! Correct handling of negative inversion.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "witnessed",
+          "display",
+          "extraordinary",
+          "Seldom",
+          "have",
+          "I",
+          "such",
+          "an",
+          "of",
+          "talent"
+        ],
+        "id": 11
+      },
+      {
+        "type": "Puzzle",
+        "text": "Assemble this complex academic sentence:",
+        "options": [],
+        "answer": "The findings corroborate the theory of cognitive development",
+        "feedback": "Excellent syntax construction!",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "cognitive",
+          "findings",
+          "corroborate",
+          "development",
+          "the",
+          "theory",
+          "of",
+          "The"
+        ],
+        "id": 12
+      }
+    ]
+  },
+  {
+    "title": "Advanced Cognitive Linguistics and Metaphor Theory",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is conceptual metaphor theory (developed by Lakoff and Johnson)?",
+        "options": [
+          "The idea that human thought processes are largely metaphorical, structuring abstract concepts via concrete domains",
+          "A rule for spelling poetry",
+          "A method of computer programming",
+          "A phonetic transcription system"
+        ],
+        "answer": "The idea that human thought processes are largely metaphorical, structuring abstract concepts via concrete domains",
+        "feedback": "Correct! Conceptual metaphors structure everyday thought.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "In the conceptual metaphor 'TIME IS MONEY', what is the target domain?",
+        "options": [
+          "Time",
+          "Money",
+          "Space",
+          "Distance"
+        ],
+        "answer": "Time",
+        "feedback": "Spot on! Time is the abstract target domain understood via the source domain of money.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following cognitive linguistics sentence aloud:",
+        "options": [],
+        "answer": "Conceptual metaphors shape how humans reason about abstract emotional and temporal experiences.",
+        "feedback": "Clear and insightful delivery.",
+        "word": "Conceptual metaphors shape how humans reason about abstract emotional and temporal experiences.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the utterance and identify the underlying conceptual metaphor.",
+        "options": [
+          "ARGUMENT IS WAR",
+          "HAPPY IS UP",
+          "IDEAS ARE BUILDINGS",
+          "TIME IS A RIVER"
+        ],
+        "answer": "ARGUMENT IS WAR",
+        "feedback": "Correct, the language treats argument as a battle.",
+        "word": "",
+        "audioText": "His criticism demolished her entire theoretical argument point by point.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the cognitive linguistic term for a mental framework or knowledge structure starting with 's'.",
+        "options": [],
+        "answer": "schema",
+        "feedback": "Correct! Schema or frame represents mental knowledge structures.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What does linguistic framing theory examine?",
+        "options": [
+          "How the presentation of information influences how audiences interpret and make decisions about issues",
+          "Picture frames on walls",
+          "Window construction in architecture",
+          "Computer software window layouts"
+        ],
+        "answer": "How the presentation of information influences how audiences interpret and make decisions about issues",
+        "feedback": "Correct, framing dictates cognitive perspective.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the cognitive linguistics term: m, e, t, o, n, y, m, y",
+        "options": [],
+        "answer": "metonymy",
+        "feedback": "Correct, spells 'metonymy'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "m",
+          "e",
+          "t",
+          "o",
+          "n",
+          "y",
+          "m",
+          "y"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and identify the figure of speech (metonymy vs. metaphor).",
+        "options": [
+          "Metonymy (using an associated attribute for the whole)",
+          "Direct metaphor",
+          "Hyperbole",
+          "Oxymoron"
+        ],
+        "answer": "Metonymy (using an associated attribute for the whole)",
+        "feedback": "Correct, 'The White House' stands for the administration.",
+        "word": "",
+        "audioText": "The White House announced new international trade agreements today.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced cognitive sentence aloud:",
+        "options": [],
+        "answer": "Image schemas ground abstract language in embodied human sensorimotor experiences.",
+        "feedback": "Wonderful cadence.",
+        "word": "Image schemas ground abstract language in embodied human sensorimotor experiences.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What is a primary metaphor in cognitive linguistics?",
+        "options": [
+          "A universal, early-learned metaphor grounded in direct bodily experience (e.g., AFFECTION IS WARMTH)",
+          "A complex literary poem",
+          "An outdated grammar rule",
+          "A computer translation error"
+        ],
+        "answer": "A universal, early-learned metaphor grounded in direct bodily experience (e.g., AFFECTION IS WARMTH)",
+        "feedback": "Correct, primary metaphors stem from embodied correlations.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "type": "Writing",
+        "text": "Rewrite this sentence in the passive voice for objective academic reporting: 'The researchers analyzed the samples in triplicate.'",
+        "options": [],
+        "answer": "The samples were analyzed in triplicate by the researchers.",
+        "feedback": "Excellent! Correct passive translation matches formal research standards.",
+        "word": "",
+        "audioText": "",
+        "words": [],
+        "id": 11
+      },
+      {
+        "type": "Writing",
+        "text": "Explain the idiomatic expression 'bite the bullet' in your own words (write a simple sentence definition).",
+        "options": [],
+        "answer": "To face a difficult situation with courage and fortitude.",
+        "feedback": "Correct definition of the idiom!",
+        "word": "",
+        "audioText": "",
+        "words": [],
+        "id": 12
+      }
+    ]
+  },
+  {
+    "title": "Weekly Assessment Advanced 1",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What does the IPA symbol /θ/ represent?",
+        "options": [
+          "Voiceless dental fricative",
+          "Voiced alveolar stop",
+          "Glottal stop",
+          "Velar nasal"
+        ],
+        "answer": "Voiceless dental fricative",
+        "feedback": "Correct, /θ/ is the voiceless dental fricative.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is etymology?",
+        "options": [
+          "The study of word origins and historical meaning shifts",
+          "Insect study",
+          "Sentence punctuation",
+          "Rock formations"
+        ],
+        "answer": "The study of word origins and historical meaning shifts",
+        "feedback": "Correct, etymology examines word history.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following advanced linguistic sentence aloud:",
+        "options": [],
+        "answer": "Phonetic transcription and etymological analysis reveal the deep architecture of language.",
+        "feedback": "Clear and polished reading.",
+        "word": "Phonetic transcription and etymological analysis reveal the deep architecture of language.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the audio and identify the linguistic concept demonstrated.",
+        "options": [
+          "Syntactic recursion / Embedding",
+          "Phonetic elision",
+          "Metonymy",
+          "Lexical blending"
+        ],
+        "answer": "Syntactic recursion / Embedding",
+        "feedback": "Correct, the audio demonstrated syntactic embedding.",
+        "word": "",
+        "audioText": "The report that the committee reviewed highlighted several critical metrics.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for surface-level links in text starting with 'c'.",
+        "options": [],
+        "answer": "cohesion",
+        "feedback": "Correct! Cohesion.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is a conceptual metaphor?",
+        "options": [
+          "Understanding one abstract domain in terms of another concrete domain",
+          "A spelling error",
+          "A poetry rhyme",
+          "A computer command"
+        ],
+        "answer": "Understanding one abstract domain in terms of another concrete domain",
+        "feedback": "Correct, conceptual metaphors structure thought.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the linguistic term: m, o, r, p, h, e, m, e",
+        "options": [],
+        "answer": "morpheme",
+        "feedback": "Correct, spells 'morpheme'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "m",
+          "o",
+          "r",
+          "p",
+          "h",
+          "e",
+          "m",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the conceptual metaphor used.",
+        "options": [
+          "ARGUMENT IS WAR",
+          "TIME IS MONEY",
+          "IDEAS ARE BUILDINGS",
+          "HAPPY IS UP"
+        ],
+        "answer": "ARGUMENT IS WAR",
+        "feedback": "Correct, argument framing.",
+        "word": "",
+        "audioText": "His counter-argument successfully shot down every point.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced statement aloud:",
+        "options": [],
+        "answer": "Discourse coherence bridges surface cohesion with conceptual understanding.",
+        "feedback": "Wonderful articulation.",
+        "word": "Discourse coherence bridges surface cohesion with conceptual understanding.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What milestone does this weekly assessment represent?",
+        "options": [
+          "Advanced Assessment 1",
+          "Beginner Test",
+          "Final Capstone",
+          "Basic Review"
+        ],
+        "answer": "Advanced Assessment 1",
+        "feedback": "Correct, this concludes the first advanced curriculum cluster.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Psycholinguistics and Language Acquisition",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What does psycholinguistics study?",
+        "options": [
+          "The psychological and neurobiological factors that enable humans to acquire, use, comprehend, and produce language",
+          "Animal communication exclusively",
+          "Computer programming syntax",
+          "Historical spelling changes"
+        ],
+        "answer": "The psychological and neurobiological factors that enable humans to acquire, use, comprehend, and produce language",
+        "feedback": "Correct! Psycholinguistics examines the cognitive processing of language.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is the Language Acquisition Device (LAD) hypothesized by Noam Chomsky?",
+        "options": [
+          "An innate mental faculty proposed to explain human children's rapid language acquisition",
+          "A computer software program for translation",
+          "A physical hearing aid device",
+          "A textbook for adults"
+        ],
+        "answer": "An innate mental faculty proposed to explain human children's rapid language acquisition",
+        "feedback": "Spot on! LAD represents the innate biological language capacity.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following psycholinguistic sentence aloud:",
+        "options": [],
+        "answer": "Psycholinguistic research investigates real-time sentence parsing and lexical access in the human brain.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Psycholinguistic research investigates real-time sentence parsing and lexical access in the human brain.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the speech error excerpt and identify the type of slip of the tongue.",
+        "options": [
+          "Spoonerism / Phoneme exchange",
+          "Semantic substitution",
+          "Syntactic truncation",
+          "Grammatical omission"
+        ],
+        "answer": "Spoonerism / Phoneme exchange",
+        "feedback": "Correct, initial consonant sounds were exchanged.",
+        "word": "",
+        "audioText": "You have hissed all my mystery lectures.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for the critical period hypothesis regarding language learning starting with 'c'.",
+        "options": [],
+        "answer": "critical",
+        "feedback": "Correct! Critical period hypothesis.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is lexical ambiguity resolution in language comprehension?",
+        "options": [
+          "How the brain selects the correct meaning of a polysemous word based on contextual clues",
+          "Looking up words in a physical dictionary",
+          "Correcting spelling typos",
+          "Memorizing alphabet lists"
+        ],
+        "answer": "How the brain selects the correct meaning of a polysemous word based on contextual clues",
+        "feedback": "Correct, context resolves multiple word meanings.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the psycholinguistic term: a, p, h, a, s, i, a",
+        "options": [],
+        "answer": "aphasia",
+        "feedback": "Correct, spells 'aphasia'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "a",
+          "p",
+          "h",
+          "a",
+          "s",
+          "i",
+          "a"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the description and identify the brain region associated with speech production.",
+        "options": [
+          "Broca's area",
+          "Wernicke's area",
+          "Occipital lobe",
+          "Cerebellum"
+        ],
+        "answer": "Broca's area",
+        "feedback": "Correct, Broca's area handles speech production.",
+        "word": "",
+        "audioText": "Damage to the left frontal lobe region impairs grammatical speech production while sparing comprehension.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced psycholinguistic statement aloud:",
+        "options": [],
+        "answer": "Event-related potentials (ERPs) reveal millisecond-level cognitive processing during syntactic violations.",
+        "feedback": "Wonderful articulation.",
+        "word": "Event-related potentials (ERPs) reveal millisecond-level cognitive processing during syntactic violations.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does Wernicke's aphasia primarily affect?",
+        "options": [
+          "Language comprehension, resulting in fluent but nonsensical speech output",
+          "Physical motor control of hands",
+          "Vision",
+          "Basic hearing"
+        ],
+        "answer": "Language comprehension, resulting in fluent but nonsensical speech output",
+        "feedback": "Correct, Wernicke's aphasia disrupts comprehension.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Sociolinguistics and Language Variation",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What does sociolinguistics investigate?",
+        "options": [
+          "The relationship between language and society, including cultural norms, social class, gender, and ethnicity",
+          "Strict dictionary spelling rules",
+          "Computer machine learning algorithms",
+          "Ancient stone tablets"
+        ],
+        "answer": "The relationship between language and society, including cultural norms, social class, gender, and ethnicity",
+        "feedback": "Correct! Sociolinguistics studies language in social contexts.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is code-switching in multilingual societies?",
+        "options": [
+          "Alternating between two or more languages or language varieties within a single conversation or interaction",
+          "Writing computer source code in English",
+          "Translating official government documents",
+          "Changing passwords"
+        ],
+        "answer": "Alternating between two or more languages or language varieties within a single conversation or interaction",
+        "feedback": "Spot on! Code-switching is common among bilingual speakers.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following sociolinguistic sentence aloud:",
+        "options": [],
+        "answer": "Sociolinguistic variables reveal how linguistic markers correlate with socioeconomic stratification.",
+        "feedback": "Clear and polished delivery.",
+        "word": "Sociolinguistic variables reveal how linguistic markers correlate with socioeconomic stratification.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the excerpt and identify the sociolinguistic phenomenon.",
+        "options": [
+          "Linguistic prestige / Prestige dialect",
+          "Code-mixing",
+          "Pidgin formation",
+          "Language death"
+        ],
+        "answer": "Linguistic prestige / Prestige dialect",
+        "feedback": "Correct, it reflects socially prestigious language norms.",
+        "word": "",
+        "audioText": "Institutional settings often favor standard prestige dialects in professional communications.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for a stable contact language developed from a pidgin starting with 'c'.",
+        "options": [],
+        "answer": "creole",
+        "feedback": "Correct! Creole languages emerge from pidgins.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is a linguistic idiolect?",
+        "options": [
+          "An individual's unique personal speech habit, vocabulary, and grammar style",
+          "A national language spoken by millions",
+          "An obsolete dead language",
+          "A computer programming language"
+        ],
+        "answer": "An individual's unique personal speech habit, vocabulary, and grammar style",
+        "feedback": "Correct, idiolects are personal language signatures.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the sociolinguistic term: d, i, a, l, e, c, t",
+        "options": [],
+        "answer": "dialect",
+        "feedback": "Correct, spells 'dialect'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "d",
+          "i",
+          "a",
+          "l",
+          "e",
+          "c",
+          "t"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and identify the sociolinguistic concept.",
+        "options": [
+          "Speech accommodation theory",
+          "Language attrition",
+          "Bilingual education policy",
+          "Dialect leveling"
+        ],
+        "answer": "Speech accommodation theory",
+        "feedback": "Correct, speakers adjust speech to match interlocutors.",
+        "word": "",
+        "audioText": "Individuals frequently converge their speech patterns to match the accent of their conversational partner.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced sociolinguistic statement aloud:",
+        "options": [],
+        "answer": "Language endangerment and revitalization efforts shape contemporary linguistic policies worldwide.",
+        "feedback": "Wonderful articulation.",
+        "word": "Language endangerment and revitalization efforts shape contemporary linguistic policies worldwide.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does diglossia describe in sociolinguistics?",
+        "options": [
+          "A situation where two distinct varieties of a language are used under different conditions within a community",
+          "Being able to write with both hands",
+          "Speaking two languages fluently",
+          "Reading two books simultaneously"
+        ],
+        "answer": "A situation where two distinct varieties of a language are used under different conditions within a community",
+        "feedback": "Correct, diglossia involves high and low language varieties.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Corpus Linguistics and Computational Lexicography",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is corpus linguistics?",
+        "options": [
+          "The study of language based on large collections of real-world text data (corpora) stored electronically",
+          "The study of human body anatomy",
+          "The history of ancient manuscripts",
+          "Manual dictionary compiling"
+        ],
+        "answer": "The study of language based on large collections of real-world text data (corpora) stored electronically",
+        "feedback": "Correct! Corpus linguistics uses computational text analysis.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is a linguistic collocation?",
+        "options": [
+          "A series of words that commonly co-occur together with high statistical frequency (e.g., 'heavy rain')",
+          "A spelling typo",
+          "A grammatical error",
+          "A foreign loanword"
+        ],
+        "answer": "A series of words that commonly co-occur together with high statistical frequency (e.g., 'heavy rain')",
+        "feedback": "Spot on! Collocations represent frequent word pairings.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following corpus linguistics sentence aloud:",
+        "options": [],
+        "answer": "Corpus analysis provides empirical evidence of authentic language usage patterns.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Corpus analysis provides empirical evidence of authentic language usage patterns.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the software output description and identify the computational tool feature.",
+        "options": [
+          "Concordance line generator / Keyword in context (KWIC)",
+          "Spell checker",
+          "Grammar parser",
+          "Text translator"
+        ],
+        "answer": "Concordance line generator / Keyword in context (KWIC)",
+        "feedback": "Correct, KWIC displays search terms centered in context lines.",
+        "word": "",
+        "audioText": "The software generated thousand concordance lines displaying target keywords centered in context.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for the frequency of occurrence of a word in a corpus starting with 'f'.",
+        "options": [],
+        "answer": "frequency",
+        "feedback": "Correct! Frequency analysis is core to corpus studies.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What does a semantic prosodia (semantic preference) indicate in corpus analysis?",
+        "options": [
+          "The tendency of a word to co-occur with words that carry positive or negative connotations",
+          "The sound pitch of spoken audio corpora",
+          "The grammatical tense of a verb",
+          "The formatting style of text files"
+        ],
+        "answer": "The tendency of a word to co-occur with words that carry positive or negative connotations",
+        "feedback": "Correct, semantic prosody reveals hidden evaluative meaning.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the corpus term: c, o, n, c, o, r, d, a, n, c, e",
+        "options": [],
+        "answer": "concordance",
+        "feedback": "Correct, spells 'concordance'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "c",
+          "o",
+          "n",
+          "c",
+          "o",
+          "r",
+          "d",
+          "a",
+          "n",
+          "c",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the research excerpt and identify the corpus metric.",
+        "options": [
+          "Mutual Information (MI) score / Statistical association",
+          "Character count",
+          "Syllable weight",
+          "Font size"
+        ],
+        "answer": "Mutual Information (MI) score / Statistical association",
+        "feedback": "Correct, MI measures collocation strength.",
+        "word": "",
+        "audioText": "Mutual information scores confirmed a robust statistical collocation between the adjective and noun.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced computational lexicography statement aloud:",
+        "options": [],
+        "answer": "Computational lexicography utilizes billion-word corpora to update modern dictionary definitions.",
+        "feedback": "Wonderful articulation.",
+        "word": "Computational lexicography utilizes billion-word corpora to update modern dictionary definitions.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What is a part-of-speech (POS) tagged corpus?",
+        "options": [
+          "A text corpus where each word is annotated with its corresponding grammatical word class tag",
+          "A corpus sorted by alphabetical spelling",
+          "A collection of spoken audio files only",
+          "A multilingual translation database"
+        ],
+        "answer": "A text corpus where each word is annotated with its corresponding grammatical word class tag",
+        "feedback": "Correct, POS tagging annotates grammatical categories.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Pragmatics and Speech Act Theory",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Who formulated Speech Act Theory, categorizing utterances into locutionary, illocutionary, and perlocutionary acts?",
+        "options": [
+          "J.L. Austin (later expanded by John Searle)",
+          "Noam Chomsky",
+          "Ferdinand de Saussure",
+          "B.F. Skinner"
+        ],
+        "answer": "J.L. Austin (later expanded by John Searle)",
+        "feedback": "Correct! J.L. Austin pioneered Speech Act Theory.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is an illocutionary act?",
+        "options": [
+          "The real-world communicative intention or force behind an utterance (e.g., promising, warning, commanding)",
+          "The physical sound of speaking",
+          "The listener's psychological reaction",
+          "The literal dictionary definition"
+        ],
+        "answer": "The real-world communicative intention or force behind an utterance (e.g., promising, warning, commanding)",
+        "feedback": "Spot on! Illocutionary force is what the speaker *does* in saying it.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following pragmatic philosophy sentence aloud:",
+        "options": [],
+        "answer": "Pragmatic analysis explores how contextual implicatures transcend literal semantic meanings.",
+        "feedback": "Clear and polished delivery.",
+        "word": "Pragmatic analysis explores how contextual implicatures transcend literal semantic meanings.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the utterance and identify the Gricean Maxim being flouted.",
+        "options": [
+          "Maxim of Quantity (being overly brief or uninformative)",
+          "Maxim of Quality (telling a falsehood)",
+          "Maxim of Manner",
+          "Maxim of Relation"
+        ],
+        "answer": "Maxim of Quantity (being overly brief or uninformative)",
+        "feedback": "Correct, flouting quantity provides less information than required.",
+        "word": "",
+        "audioText": "When asked for a comprehensive review, the expert replied simply: 'The report exists.'",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for an implied meaning derived from context based on cooperative principles starting with 'i'.",
+        "options": [],
+        "answer": "implicature",
+        "feedback": "Correct! Conversational implicature.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is a perlocutionary act?",
+        "options": [
+          "The actual psychological or behavioral effect the utterance has on the listener (e.g., persuading, alarming, amusing)",
+          "The physical pronunciation of words",
+          "The dictionary definition",
+          "The syntactic phrase structure"
+        ],
+        "answer": "The actual psychological or behavioral effect the utterance has on the listener (e.g., persuading, alarming, amusing)",
+        "feedback": "Correct, perlocution is the consequence of the speech act.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the pragmatics term: p, e, r, l, o, c, u, t, i, o, n",
+        "options": [],
+        "answer": "perlocution",
+        "feedback": "Correct, spells 'perlocution'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "p",
+          "e",
+          "r",
+          "l",
+          "o",
+          "c",
+          "u",
+          "t",
+          "i",
+          "o",
+          "n"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and identify the politeness strategy used.",
+        "options": [
+          "Off-record indirect politeness",
+          "Bald-on-record command",
+          "Positive politeness",
+          "Negative politeness"
+        ],
+        "answer": "Off-record indirect politeness",
+        "feedback": "Correct, hinting indirectly avoids imposition.",
+        "word": "",
+        "audioText": "It is getting quite chilly in this room with the window wide open.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced pragmatic statement aloud:",
+        "options": [],
+        "answer": "Politeness theory posits that social interactions constantly negotiate and protect interlocutors' public faces.",
+        "feedback": "Wonderful articulation.",
+        "word": "Politeness theory posits that social interactions constantly negotiate and protect interlocutors' public faces.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What do Grice's Cooperative Principles assume about rational conversationalists?",
+        "options": [
+          "They cooperate by attempting to be truthful, relevant, clear, and appropriately informative",
+          "They always argue aggressively",
+          "They speak in code",
+          "They avoid speaking"
+        ],
+        "answer": "They cooperate by attempting to be truthful, relevant, clear, and appropriately informative",
+        "feedback": "Correct, Grice's maxims govern rational cooperative talk.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Weekly Assessment Advanced 2",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What does psycholinguistics study?",
+        "options": [
+          "The cognitive and neurobiological processing of language acquisition and use",
+          "Insect biology",
+          "Computer hardware",
+          "Stone archaeology"
+        ],
+        "answer": "The cognitive and neurobiological processing of language acquisition and use",
+        "feedback": "Correct, psycholinguistics studies language processing.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is code-switching?",
+        "options": [
+          "Alternating between languages or dialects in conversation",
+          "Writing software code",
+          "Translating texts",
+          "Changing passwords"
+        ],
+        "answer": "Alternating between languages or dialects in conversation",
+        "feedback": "Correct, code-switching occurs in bilingual speech.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following advanced sociolinguistic sentence aloud:",
+        "options": [],
+        "answer": "Corpus linguistics and psycholinguistic experiments provide empirical foundations for modern linguistic theory.",
+        "feedback": "Clear and polished reading.",
+        "word": "Corpus linguistics and psycholinguistic experiments provide empirical foundations for modern linguistic theory.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the audio and identify the speech act category used.",
+        "options": [
+          "Illocutionary act (directive/promise)",
+          "Locutionary sound only",
+          "Perlocutionary failure",
+          "Syntactic ambiguity"
+        ],
+        "answer": "Illocutionary act (directive/promise)",
+        "feedback": "Correct, the audio demonstrated illocutionary force.",
+        "word": "",
+        "audioText": "I solemnly promise to deliver the completed research report by Friday morning.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for frequent word pairings in a corpus starting with 'c'.",
+        "options": [],
+        "answer": "collocation",
+        "feedback": "Correct! Collocation.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is an illocutionary act?",
+        "options": [
+          "The communicative force or intention behind an utterance",
+          "The physical sound",
+          "The listener reaction",
+          "The spelling"
+        ],
+        "answer": "The communicative force or intention behind an utterance",
+        "feedback": "Correct, illocution represents speaker intention.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the corpus term: c, o, n, c, o, r, d, a, n, c, e",
+        "options": [],
+        "answer": "concordance",
+        "feedback": "Correct, spells 'concordance'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "c",
+          "o",
+          "n",
+          "c",
+          "o",
+          "r",
+          "d",
+          "a",
+          "n",
+          "c",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the psycholinguistic brain region.",
+        "options": [
+          "Wernicke's area",
+          "Broca's area",
+          "Occipital lobe",
+          "Cerebellum"
+        ],
+        "answer": "Wernicke's area",
+        "feedback": "Correct, comprehension center.",
+        "word": "",
+        "audioText": "Impairment in language comprehension due to left temporal lobe damage affects semantic processing.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced pragmatic statement aloud:",
+        "options": [],
+        "answer": "Gricean maxims explain how listeners derive pragmatic implicatures from cooperative dialogue.",
+        "feedback": "Wonderful articulation.",
+        "word": "Gricean maxims explain how listeners derive pragmatic implicatures from cooperative dialogue.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which assessment module milestone does this represent?",
+        "options": [
+          "Advanced Assessment 2",
+          "Beginner Assessment",
+          "Final Capstone",
+          "Basic Test"
+        ],
+        "answer": "Advanced Assessment 2",
+        "feedback": "Correct, this concludes the second advanced module cluster.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Computational Linguistics and NLP",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is Natural Language Processing (NLP)?",
+        "options": [
+          "A subfield of artificial intelligence and linguistics focused on enabling computers to understand, interpret, and generate human language",
+          "Handwriting practice for children",
+          "Translating ancient stone carvings manually",
+          "Typing speed tests"
+        ],
+        "answer": "A subfield of artificial intelligence and linguistics focused on enabling computers to understand, interpret, and generate human language",
+        "feedback": "Correct! NLP bridges computer science and linguistics.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is tokenization in NLP text preprocessing?",
+        "options": [
+          "Breaking down a continuous text stream into individual words, subwords, or punctuation tokens",
+          "Encrypting text with security passwords",
+          "Deleting all vowels from a document",
+          "Printing physical currency tokens"
+        ],
+        "answer": "Breaking down a continuous text stream into individual words, subwords, or punctuation tokens",
+        "feedback": "Spot on! Tokenization splits text into workable units.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following computational linguistics sentence aloud:",
+        "options": [],
+        "answer": "Advanced neural language models leverage transformer architectures to generate human-like text.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Advanced neural language models leverage transformer architectures to generate human-like text.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the NLP task description and identify the specific technique.",
+        "options": [
+          "Named Entity Recognition (NER)",
+          "Part-of-speech tagging",
+          "Sentiment analysis",
+          "Syntactic parsing"
+        ],
+        "answer": "Named Entity Recognition (NER)",
+        "feedback": "Correct, NER classifies proper names, organizations, and dates.",
+        "word": "",
+        "audioText": "The algorithm successfully extracted organizations, person names, and geographic locations from the news article.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the NLP term for reducing words to their base root lemma starting with 'l'.",
+        "options": [],
+        "answer": "lemmatization",
+        "feedback": "Correct! Lemmatization reduces words to root lemmas.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is sentiment analysis in computational text processing?",
+        "options": [
+          "Determining whether a text expresses a positive, negative, or neutral emotional attitude or opinion",
+          "Measuring font size in documents",
+          "Checking spelling grammar typos",
+          "Calculating word count length"
+        ],
+        "answer": "Determining whether a text expresses a positive, negative, or neutral emotional attitude or opinion",
+        "feedback": "Correct, sentiment analysis evaluates emotional polarity.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the NLP term: e, m, b, e, d, d, i, n, g",
+        "options": [],
+        "answer": "embedding",
+        "feedback": "Correct, spells 'embedding'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "e",
+          "m",
+          "b",
+          "e",
+          "d",
+          "d",
+          "i",
+          "n",
+          "g"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and identify the machine learning model type.",
+        "options": [
+          "Transformer / Large Language Model (LLM)",
+          "Rule-based expert system",
+          "Finite state automaton",
+          "Linear regression"
+        ],
+        "answer": "Transformer / Large Language Model (LLM)",
+        "feedback": "Correct, attention-based transformers power modern LLMs.",
+        "word": "",
+        "audioText": "Self-attention mechanisms allow transformer models to capture long-range contextual dependencies across sentences.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced computational statement aloud:",
+        "options": [],
+        "answer": "Vector embeddings represent semantic word meanings in high-dimensional mathematical spaces.",
+        "feedback": "Wonderful articulation.",
+        "word": "Vector embeddings represent semantic word meanings in high-dimensional mathematical spaces.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does stemming do in text preprocessing compared to lemmatization?",
+        "options": [
+          "Heuristically chops off word suffixes without necessarily returning a valid dictionary word",
+          "Finds exact dictionary lemmas",
+          "Translates languages",
+          "Check spelling errors"
+        ],
+        "answer": "Heuristically chops off word suffixes without necessarily returning a valid dictionary word",
+        "feedback": "Correct, stemming uses crude suffix stripping.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Forensic Linguistics and Authorship Attribution",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is forensic linguistics?",
+        "options": [
+          "The application of linguistic knowledge, methods, and insights to the forensic context of law, legal disputes, and criminal investigations",
+          "Studying ancient rock languages",
+          "Teaching children how to spell",
+          "Designing computer keyboards"
+        ],
+        "answer": "The application of linguistic knowledge, methods, and insights to the forensic context of law, legal disputes, and criminal investigations",
+        "feedback": "Correct! Forensic linguistics applies language science to legal matters.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is authorship attribution analysis in forensic linguistics?",
+        "options": [
+          "Determining the likely writer of an anonymous or disputed document by analyzing unique stylistic and linguistic fingerprints",
+          "Signing book covers with ink",
+          "Copyright registration formatting",
+          "Translating legal contracts"
+        ],
+        "answer": "Determining the likely writer of an anonymous or disputed document by analyzing unique stylistic and linguistic fingerprints",
+        "feedback": "Spot on! Authorship analysis uncovers stylistic writing fingerprints.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following forensic linguistics sentence aloud:",
+        "options": [],
+        "answer": "Forensic linguists analyze Idiolects and stylistic markers to evaluate disputed authorship in legal cases.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Forensic linguists analyze Idiolects and stylistic markers to evaluate disputed authorship in legal cases.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the case study excerpt and identify the forensic linguistic feature analyzed.",
+        "options": [
+          "Stylometric feature / Idiolectal quirk",
+          "Phonetic accent pitch",
+          "Vocabulary definition",
+          "Syntactic ambiguity"
+        ],
+        "answer": "Stylometric feature / Idiolectal quirk",
+        "feedback": "Correct, unusual spelling and punctuation habits form a stylometric fingerprint.",
+        "word": "",
+        "audioText": "The ransom note exhibited distinctive idiosyncratic spelling errors and punctuation patterns matching the suspect's diary.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for the statistical analysis of literary style starting with 's'.",
+        "options": [],
+        "answer": "stylometry",
+        "feedback": "Correct! Stylometry analyzes writing styles quantitatively.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is trademark linguistics in legal disputes?",
+        "options": [
+          "Analyzing whether brand names are confusingly similar based on phonetic and semantic similarity",
+          "Designing company logos",
+          "Printing product labels",
+          "Registering domain names"
+        ],
+        "answer": "Analyzing whether brand names are confusingly similar based on phonetic and semantic similarity",
+        "feedback": "Correct, trademark linguistics evaluates consumer confusion.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the forensic term: f, o, r, e, n, s, i, c",
+        "options": [],
+        "answer": "forensic",
+        "feedback": "Correct, spells 'forensic'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "f",
+          "o",
+          "r",
+          "e",
+          "n",
+          "s",
+          "i",
+          "c"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the testimony excerpt and identify the forensic analysis type.",
+        "options": [
+          "Speaker voice identification / Acoustic phonetics",
+          "Handwriting graphology",
+          "Corpus collocation",
+          "Syntactic tree parsing"
+        ],
+        "answer": "Speaker voice identification / Acoustic phonetics",
+        "feedback": "Correct, audio recordings are analyzed acoustically.",
+        "word": "",
+        "audioText": "Acoustic spectrogram comparison of the threatening phone call matched the suspect's voice sample.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced forensic statement aloud:",
+        "options": [],
+        "answer": "Language ambiguity in legal statutes frequently necessitates expert linguistic testimony in court.",
+        "feedback": "Wonderful articulation.",
+        "word": "Language ambiguity in legal statutes frequently necessitates expert linguistic testimony in court.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does a linguistic 'plagiarism checker' analyze beyond exact string matching?",
+        "options": [
+          "Paraphrasing patterns, stylistic fingerprints, and structural similarities",
+          "Font color schemes",
+          "Page margin widths",
+          "Paper weight"
+        ],
+        "answer": "Paraphrasing patterns, stylistic fingerprints, and structural similarities",
+        "feedback": "Correct, advanced checks detect structural and stylistic plagiarism.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Language Typology and Universals",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is linguistic typology?",
+        "options": [
+          "The classification of languages according to their structural and grammatical features rather than historical genetic relationship",
+          "Typing speed competitions",
+          "Font design in publishing",
+          "Keyboard layout standardization"
+        ],
+        "answer": "The classification of languages according to their structural and grammatical features rather than historical genetic relationship",
+        "feedback": "Correct! Typology classifies languages by structural traits.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does an SOV (Subject-Object-Verb) word order language feature?",
+        "options": [
+          "Verbs placed at the end of sentences (e.g., Japanese, Turkish)",
+          "Verbs placed in the middle",
+          "Verbs placed at the beginning",
+          "No verbs whatsoever"
+        ],
+        "answer": "Verbs placed at the end of sentences (e.g., Japanese, Turkish)",
+        "feedback": "Spot on! SOV languages place verbs after objects.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following linguistic typology sentence aloud:",
+        "options": [],
+        "answer": "Morphological typology categorizes languages into isolating, agglutinative, and fusional structures.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Morphological typology categorizes languages into isolating, agglutinative, and fusional structures.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the language description and identify its morphological type.",
+        "options": [
+          "Agglutinative language (affixes chained together)",
+          "Isolating analytic language",
+          "Polysynthetic language",
+          "Purely fusional language"
+        ],
+        "answer": "Agglutinative language (affixes chained together)",
+        "feedback": "Correct, agglutinative languages glue distinct morphemes together.",
+        "word": "",
+        "audioText": "Words are formed by stringing together distinct morphemes, each carrying a single grammatical meaning.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the linguistic term for word order patterns like SVO or SOV starting with word order acronym.",
+        "options": [],
+        "answer": "svo",
+        "feedback": "Correct! SVO (Subject-Verb-Object).",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What are Greenberg's linguistic universals?",
+        "options": [
+          "Cross-linguistic structural patterns and tendencies observed across a vast sample of human languages",
+          "Universal spelling rules in English",
+          "Computer programming standards",
+          "Ancient translation codes"
+        ],
+        "answer": "Cross-linguistic structural patterns and tendencies observed across a vast sample of human languages",
+        "feedback": "Correct, Greenberg identified cross-linguistic universals.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the typology term: t, y, p, o, l, o, g, y",
+        "options": [],
+        "answer": "typology",
+        "feedback": "Correct, spells 'typology'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "t",
+          "y",
+          "p",
+          "o",
+          "l",
+          "o",
+          "g",
+          "y"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and identify the typological feature.",
+        "options": [
+          "Ergative-absolutive alignment",
+          "Nominative-accusative alignment",
+          "Tense-aspect system",
+          "Tone marking"
+        ],
+        "answer": "Ergative-absolutive alignment",
+        "feedback": "Correct, intransitive subjects pattern with transitive objects.",
+        "word": "",
+        "audioText": "The language marks the subject of an intransitive verb the same as the direct object of a transitive verb.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced typological statement aloud:",
+        "options": [],
+        "answer": "Absolute and implicational universals constrain the structural diversity of human languages.",
+        "feedback": "Wonderful articulation.",
+        "word": "Absolute and implicational universals constrain the structural diversity of human languages.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does an isolating (analytic) language typologically feature?",
+        "options": [
+          "Words consisting of single, uninflected morphemes with little to no affixation",
+          "Complex word chaining",
+          "Massive inflectional suffixes",
+          "No vocabulary"
+        ],
+        "answer": "Words consisting of single, uninflected morphemes with little to no affixation",
+        "feedback": "Correct, isolating languages have low morpheme-per-word ratios.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Language Evolution and Historical Linguistics",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is historical linguistics (philology)?",
+        "options": [
+          "The study of how languages change over time and how they are genetically related to one another",
+          "The study of current internet slang",
+          "Translating modern user manuals",
+          "Checking spelling errors in newspapers"
+        ],
+        "answer": "The study of how languages change over time and how they are genetically related to one another",
+        "feedback": "Correct! Historical linguistics traces language families and evolution.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does Grimm's Law describe in historical Germanic linguistics?",
+        "options": [
+          "Regular historical sound shifts in proto-Ind-European consonants into Germanic languages",
+          "Sentence punctuation rules",
+          "Copyright laws for dictionaries",
+          "Typing speed standards"
+        ],
+        "answer": "Regular historical sound shifts in proto-Ind-European consonants into Germanic languages",
+        "feedback": "Spot on! Grimm's Law maps regular consonant sound changes.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following historical linguistics sentence aloud:",
+        "options": [],
+        "answer": "Comparative reconstruction allows linguists to deduce unattested proto-languages from cognate sets.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Comparative reconstruction allows linguists to deduce unattested proto-languages from cognate sets.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the language family description and identify the historical concept.",
+        "options": [
+          "Cognates / Genetic language family relationship",
+          "Pidgin borrowing",
+          "Code-switching",
+          "Idiolectal variation"
+        ],
+        "answer": "Cognates / Genetic language family relationship",
+        "feedback": "Correct, words sharing common ancestral descent are cognates.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for a reconstructed ancestral language starting with 'p'.",
+        "options": [],
+        "answer": "proto",
+        "feedback": "Correct! Proto-language (e.g., Proto-Indo-European).",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is semantic broadening (generalization)?",
+        "options": [
+          "When a word's meaning expands over time to encompass a broader range of meanings (e.g., 'dog' from a specific breed to all canines)",
+          "When a word becomes negative",
+          "When a word is deleted from the language",
+          "When spelling becomes longer"
+        ],
+        "answer": "When a word's meaning expands over time to encompass a broader range of meanings (e.g., 'dog' from a specific breed to all canines)",
+        "feedback": "Correct, broadening widens word meaning.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the historical linguistics term: c, o, g, n, a, t, e",
+        "options": [],
+        "answer": "cognate",
+        "feedback": "Correct, spells 'cognate'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "c",
+          "o",
+          "g",
+          "n",
+          "a",
+          "t",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and identify the type of sound change.",
+        "options": [
+          "Metathesis (reordering of sounds)",
+          "Epenthesis (insertion)",
+          "Elision (deletion)",
+          "Assimilation"
+        ],
+        "answer": "Metathesis (reordering of sounds)",
+        "feedback": "Correct, metathesis swaps sounds (e.g., 'brid' to 'bird').",
+        "word": "",
+        "audioText": "Historical phonological evolution frequently involves the transposition of adjacent sounds within a word.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced historical statement aloud:",
+        "options": [],
+        "answer": "Regular sound change exceptions led to Verner's Law and advanced historical phonology.",
+        "feedback": "Wonderful articulation.",
+        "word": "Regular sound change exceptions led to Verner's Law and advanced historical phonology.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What is lexical replacement through language contact called?",
+        "options": [
+          "Borrowing / Loanword adoption",
+          "Internal derivation",
+          "Syntactic inversion",
+          "Phonetic reduction"
+        ],
+        "answer": "Borrowing / Loanword adoption",
+        "feedback": "Correct, languages borrow words from contact languages.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Weekly Assessment Advanced 3",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is Natural Language Processing (NLP)?",
+        "options": [
+          "AI subfield enabling computers to understand and generate human language",
+          "Handwriting practice",
+          "Stone translation",
+          "Typing speed test"
+        ],
+        "answer": "AI subfield enabling computers to understand and generate human language",
+        "feedback": "Correct, NLP bridges AI and linguistics.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is authorship attribution in forensic linguistics?",
+        "options": [
+          "Determining the writer of a disputed document via stylometric fingerprints",
+          "Signing book covers",
+          "Copyright formatting",
+          "Contract translation"
+        ],
+        "answer": "Determining the writer of a disputed document via stylometric fingerprints",
+        "feedback": "Correct, authorship attribution identifies writing styles.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following advanced computational sentence aloud:",
+        "options": [],
+        "answer": "Transformer models and forensic stylometry demonstrate the diverse applications of modern linguistics.",
+        "feedback": "Clear and polished reading.",
+        "word": "Transformer models and forensic stylometry demonstrate the diverse applications of modern linguistics.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the audio and identify the typological word order category.",
+        "options": [
+          "SOV (Subject-Object-Verb)",
+          "SVO",
+          "VSO",
+          "OSV"
+        ],
+        "answer": "SOV (Subject-Object-Verb)",
+        "feedback": "Correct, the audio described SOV typology.",
+        "word": "",
+        "audioText": "In this language typology, the verb consistently occurs at the absolute end of the clause.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the NLP term for reducing words to lemmas starting with 'l'.",
+        "options": [],
+        "answer": "lemmatization",
+        "feedback": "Correct! Lemmatization.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What does linguistic typology classify?",
+        "options": [
+          "Languages by structural and grammatical features",
+          "Typing speeds",
+          "Font families",
+          "Keyboard designs"
+        ],
+        "answer": "Languages by structural and grammatical features",
+        "feedback": "Correct, typology classifies language structures.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the forensic term: f, o, r, e, n, s, i, c",
+        "options": [],
+        "answer": "forensic",
+        "feedback": "Correct, spells 'forensic'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "f",
+          "o",
+          "r",
+          "e",
+          "n",
+          "s",
+          "i",
+          "c"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the historical linguistics concept.",
+        "options": [
+          "Cognate word family descent",
+          "Code-switching",
+          "Pidgin borrowing",
+          "Idiolectal variation"
+        ],
+        "answer": "Cognate word family descent",
+        "feedback": "Correct, cognate descent.",
+        "word": "",
+        "audioText": "Comparative philology proves these words share a common ancestral proto-language descent.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced historical statement aloud:",
+        "options": [],
+        "answer": "Comparative reconstruction allows historical linguists to map ancient language evolution.",
+        "feedback": "Wonderful articulation.",
+        "word": "Comparative reconstruction allows historical linguists to map ancient language evolution.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which assessment module milestone does this represent?",
+        "options": [
+          "Advanced Assessment 3",
+          "Beginner Assessment",
+          "Final Capstone",
+          "Basic Test"
+        ],
+        "answer": "Advanced Assessment 3",
+        "feedback": "Correct, this concludes the third advanced module cluster.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Semiotics and Philosophy of Language",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is semiotics?",
+        "options": [
+          "The study of sign processes (semiosis), communication, sign systems, and meaning-making",
+          "The study of road traffic signals only",
+          "Medical symptom diagnosis",
+          "Computer software debugging"
+        ],
+        "answer": "The study of sign processes (semiosis), communication, sign systems, and meaning-making",
+        "feedback": "Correct! Semiotics studies signs and signification.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "In Ferdinand de Saussure's semiotic model, what are the two components of a sign?",
+        "options": [
+          "Signifier (the sound-image or written mark) and Signified (the conceptual concept)",
+          "Subject and Object",
+          "Active and Passive voice",
+          "Noun and Verb"
+        ],
+        "answer": "Signifier (the sound-image or written mark) and Signified (the conceptual concept)",
+        "feedback": "Spot on! Saussure paired the signifier and signified.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following semiotic philosophy sentence aloud:",
+        "options": [],
+        "answer": "Semiotic analysis examines how cultural artifacts and linguistic signs construct systems of meaning.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Semiotic analysis examines how cultural artifacts and linguistic signs construct systems of meaning.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the sign description and identify C.S. Peirce's sign category (Icon, Index, or Symbol).",
+        "options": [
+          "Indexical sign (direct physical trace or causal link)",
+          "Iconic sign",
+          "Symbolic sign",
+          "Arbitrary sign"
+        ],
+        "answer": "Indexical sign (direct physical trace or causal link)",
+        "feedback": "Correct, smoke is an index of fire.",
+        "word": "",
+        "audioText": "Dark billowing smoke serves as a direct indexical sign indicating the presence of fire.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the semiotic term for the physical form of a sign starting with 's'.",
+        "options": [],
+        "answer": "signifier",
+        "feedback": "Correct! Signifier.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What did Ludwig Wittgenstein argue in his later philosophy of language?",
+        "options": [
+          "The meaning of a word is its use in the language game (ordinary language philosophy)",
+          "Language has no meaning whatsoever",
+          "Grammar is purely mathematical",
+          "Words only name physical objects"
+        ],
+        "answer": "The meaning of a word is its use in the language game (ordinary language philosophy)",
+        "feedback": "Correct, Wittgenstein emphasized language use in social games.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the semiotics term: s, e, m, i, o, t, i, c, s",
+        "options": [],
+        "answer": "semiotics",
+        "feedback": "Correct, spells 'semiotics'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "s",
+          "e",
+          "m",
+          "i",
+          "o",
+          "t",
+          "i",
+          "c",
+          "s"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and identify the Peircean sign category.",
+        "options": [
+          "Symbolic sign (arbitrary social convention)",
+          "Iconic sign",
+          "Indexical sign",
+          "Semantic anomaly"
+        ],
+        "answer": "Symbolic sign (arbitrary social convention)",
+        "feedback": "Correct, linguistic words are arbitrary symbols.",
+        "word": "",
+        "audioText": "Spoken words represent arbitrary symbolic signs linked to concepts purely through social convention.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced philosophical statement aloud:",
+        "options": [],
+        "answer": "Deconstructionist philosophy questions fixed binaries in literary texts and structural linguistics.",
+        "feedback": "Wonderful articulation.",
+        "word": "Deconstructionist philosophy questions fixed binaries in literary texts and structural linguistics.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does linguistic relativity (Sapir-Whorf hypothesis) propose?",
+        "options": [
+          "The structure of a language influences its speakers' cognitive worldview and categorization of reality",
+          "All languages are completely identical",
+          "Animals speak human languages",
+          "Grammar has zero impact on thought"
+        ],
+        "answer": "The structure of a language influences its speakers' cognitive worldview and categorization of reality",
+        "feedback": "Correct, Sapir-Whorf links language structure to thought.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Stylistics and Literary Poetics",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is literary stylistics?",
+        "options": [
+          "The linguistic study of literary texts, examining how linguistic choices create artistic style and aesthetic effect",
+          "Selecting clothing fashion for writers",
+          "Checking spelling typos in novels",
+          "Formatting page margins"
+        ],
+        "answer": "The linguistic study of literary texts, examining how linguistic choices create artistic style and aesthetic effect",
+        "feedback": "Correct! Stylistics bridges linguistics and literary criticism.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is foregrounding in literary stylistics?",
+        "options": [
+          "The deliberate violation or defamiliarization of linguistic norms in literature to draw artistic attention",
+          "Placing title pages in the front of books",
+          "Using bold font for headings",
+          "Speaking in a loud voice"
+        ],
+        "answer": "The deliberate violation or defamiliarization of linguistic norms in literature to draw artistic attention",
+        "feedback": "Spot on! Foregrounding creates artistic prominence via deviation.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following stylistics sentence aloud:",
+        "options": [],
+        "answer": "Stylistic deviation and poetic foregrounding defamiliarize ordinary language to intensify aesthetic impact.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Stylistic deviation and poetic foregrounding defamiliarize ordinary language to intensify aesthetic impact.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the poetic excerpt and identify the stylistic device of parallelism.",
+        "options": [
+          "Syntactic parallelism / Anaphora",
+          "Metonymy",
+          "Dangling modifier",
+          "Comma splice"
+        ],
+        "answer": "Syntactic parallelism / Anaphora",
+        "feedback": "Correct, parallel syntactic structures create rhythmic emphasis.",
+        "word": "",
+        "audioText": "We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the Russian formalist term for making familiar things strange starting with 'd'.",
+        "options": [],
+        "answer": "defamiliarization",
+        "feedback": "Correct! Defamiliarization (Ostranenie).",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is narrative point of view in stylistics?",
+        "options": [
+          "The perspective (first-person, third-person limited, omniscient) from which a narrative story is told",
+          "The physical angle of a book",
+          "The author's political opinion",
+          "The font size of chapters"
+        ],
+        "answer": "The perspective (first-person, third-person limited, omniscient) from which a narrative story is told",
+        "feedback": "Correct, point of view governs narrative perspective.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the stylistics term: p, o, e, t, i, c, s",
+        "options": [],
+        "answer": "poetics",
+        "feedback": "Correct, spells 'poetics'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "p",
+          "o",
+          "e",
+          "t",
+          "i",
+          "c",
+          "s"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the stylistic technique.",
+        "options": [
+          "Free indirect discourse",
+          "Direct quotation",
+          "Passive report",
+          "Imperative command"
+        ],
+        "answer": "Free indirect discourse",
+        "feedback": "Correct, free indirect discourse blends character and narrator voice.",
+        "word": "",
+        "audioText": "She gazed out the stormy window. Why did everything always happen at once?",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced stylistics statement aloud:",
+        "options": [],
+        "answer": "Cognitive stylistics analyzes how readers mentalize fictional worlds through textual cues.",
+        "feedback": "Wonderful articulation.",
+        "word": "Cognitive stylistics analyzes how readers mentalize fictional worlds through textual cues.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does alliteration contribute to poetic verse?",
+        "options": [
+          "Musical rhythm and phonetic texture through repeating initial consonant sounds",
+          "Mathematical precision",
+          "Syntactic ambiguity",
+          "Foreign translation"
+        ],
+        "answer": "Musical rhythm and phonetic texture through repeating initial consonant sounds",
+        "feedback": "Correct, alliteration enhances auditory poetics.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Second Language Acquisition (SLA) Theories",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is Second Language Acquisition (SLA) research?",
+        "options": [
+          "The study of how people learn a language subsequent to their native mother tongue",
+          "Teaching toddlers first words",
+          "Computer programming syntax",
+          "Historical stone translation"
+        ],
+        "answer": "The study of how people learn a language subsequent to their native mother tongue",
+        "feedback": "Correct! SLA studies adult and child non-native language learning.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is Stephen Krashen's Input Hypothesis (i + 1)?",
+        "options": [
+          "Learners acquire language best when exposed to comprehensible input that is slightly above their current level of competence",
+          "Learners must memorize vocabulary lists",
+          "Grammar rules must be studied explicitly before speaking",
+          "Input has zero effect on language acquisition"
+        ],
+        "answer": "Learners acquire language best when exposed to comprehensible input that is slightly above their current level of competence",
+        "feedback": "Spot on! i + 1 represents optimal comprehensible input.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following SLA research sentence aloud:",
+        "options": [],
+        "answer": "SLA theories investigate fossilization, affective filters, and comprehensible output in bilingual learners.",
+        "feedback": "Clear and professional delivery.",
+        "word": "SLA theories investigate fossilization, affective filters, and comprehensible output in bilingual learners.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the classroom excerpt and identify the SLA concept.",
+        "options": [
+          "Affective filter hypothesis (anxiety/motivation barrier)",
+          "Critical period hypothesis",
+          "Universal grammar parameter",
+          "Behaviorist habit formation"
+        ],
+        "answer": "Affective filter hypothesis (anxiety/motivation barrier)",
+        "feedback": "Correct, high anxiety raises the affective filter, blocking acquisition.",
+        "word": "",
+        "audioText": "High classroom anxiety and low learner self-confidence raised the affective filter, hindering language intake.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the SLA term for permanent non-native errors in a learner's interlanguage starting with 'f'.",
+        "options": [],
+        "answer": "fossilization",
+        "feedback": "Correct! Fossilization refers to entrenched interlanguage errors.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is Merrill Swain's Output Hypothesis?",
+        "options": [
+          "Producing target language output forces learners to notice gaps in their linguistic knowledge and test hypotheses",
+          "Output is completely unnecessary for learning",
+          "Only listening input matters",
+          "Grammar study replaces all speaking"
+        ],
+        "answer": "Producing target language output forces learners to notice gaps in their linguistic knowledge and test hypotheses",
+        "feedback": "Correct, output pushes learners toward syntactic precision.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the SLA term: i, n, t, e, r, l, a, n, g, u, a, g, e",
+        "options": [],
+        "answer": "interlanguage",
+        "feedback": "Correct, spells 'interlanguage'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "i",
+          "n",
+          "t",
+          "e",
+          "r",
+          "l",
+          "a",
+          "n",
+          "g",
+          "u",
+          "a",
+          "g",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the interaction and identify the corrective feedback type.",
+        "options": [
+          "Recast (implicitly reforming an error)",
+          "Explicit correction",
+          "Metalinguistic clue",
+          "Clarification request"
+        ],
+        "answer": "Recast (implicitly reforming an error)",
+        "feedback": "Correct, recasts reformulate incorrect utterances without stopping flow.",
+        "word": "",
+        "audioText": "Learner: 'He go to the store.' Teacher: 'Ah, he *went* to the store yesterday.'",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced SLA statement aloud:",
+        "options": [],
+        "answer": "Task-based language teaching promotes communicative fluency through goal-oriented interaction.",
+        "feedback": "Wonderful articulation.",
+        "word": "Task-based language teaching promotes communicative fluency through goal-oriented interaction.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does interlanguage refer to in second language acquisition?",
+        "options": [
+          "The linguistic system constructed by a second language learner that contains elements of both L1 and L2",
+          "A translation software program",
+          "An ancient dead language",
+          "Standard native English"
+        ],
+        "answer": "The linguistic system constructed by a second language learner that contains elements of both L1 and L2",
+        "feedback": "Correct, interlanguage is the learner's independent linguistic system.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Weekly Assessment Advanced 4",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is semiotics?",
+        "options": [
+          "The study of sign systems and meaning-making",
+          "Traffic signals",
+          "Medical symptoms",
+          "Computer debugging"
+        ],
+        "answer": "The study of sign systems and meaning-making",
+        "feedback": "Correct, semiotics studies signs.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is literary foregrounding?",
+        "options": [
+          "Deliberate violation of linguistic norms for artistic effect",
+          "Book title placement",
+          "Bold font headings",
+          "Loud speech"
+        ],
+        "answer": "Deliberate violation of linguistic norms for artistic effect",
+        "feedback": "Correct, foregrounding creates aesthetic prominence.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following advanced semiotic sentence aloud:",
+        "options": [],
+        "answer": "Semiotics, literary stylistics, and SLA theory offer profound insights into human communication.",
+        "feedback": "Clear and polished reading.",
+        "word": "Semiotics, literary stylistics, and SLA theory offer profound insights into human communication.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the audio and identify the SLA concept.",
+        "options": [
+          "Comprehensible input (i + 1)",
+          "Fossilization",
+          "Affective filter",
+          "Recast"
+        ],
+        "answer": "Comprehensible input (i + 1)",
+        "feedback": "Correct, the audio described comprehensible input.",
+        "word": "",
+        "audioText": "Exposing learners to target input slightly above their current proficiency level drives acquisition.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the semiotic term for the physical sign form starting with 's'.",
+        "options": [],
+        "answer": "signifier",
+        "feedback": "Correct! Signifier.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What did Wittgenstein argue regarding word meaning?",
+        "options": [
+          "Meaning is its use in language games",
+          "Words have no meaning",
+          "Grammar is math",
+          "Words only name objects"
+        ],
+        "answer": "Meaning is its use in language games",
+        "feedback": "Correct, meaning stems from language use.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the semiotics term: s, e, m, i, o, t, i, c, s",
+        "options": [],
+        "answer": "semiotics",
+        "feedback": "Correct, spells 'semiotics'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "s",
+          "e",
+          "m",
+          "i",
+          "o",
+          "t",
+          "i",
+          "c",
+          "s"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the Peircean sign type.",
+        "options": [
+          "Indexical sign (causal link)",
+          "Iconic sign",
+          "Symbolic sign",
+          "Arbitrary token"
+        ],
+        "answer": "Indexical sign (causal link)",
+        "feedback": "Correct, indexical sign.",
+        "word": "",
+        "audioText": "Footprints left in the mud serve as an indexical sign of someone walking along the path.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced philosophical statement aloud:",
+        "options": [],
+        "answer": "Interlanguage development requires both comprehensible input and pushed output.",
+        "feedback": "Wonderful articulation.",
+        "word": "Interlanguage development requires both comprehensible input and pushed output.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which assessment module milestone does this represent?",
+        "options": [
+          "Advanced Assessment 4",
+          "Beginner Assessment",
+          "Final Capstone",
+          "Basic Test"
+        ],
+        "answer": "Advanced Assessment 4",
+        "feedback": "Correct, this concludes the fourth advanced module cluster.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Multilingualism and Psycholinguistic Processing",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is bilingual mental lexicon organization in psycholinguistics?",
+        "options": [
+          "How words and concepts from two or more languages are stored, interconnected, and accessed in a bilingual brain",
+          "A bilingual dictionary book",
+          "Computer translation software",
+          "Grammar textbook rules"
+        ],
+        "answer": "How words and concepts from two or more languages are stored, interconnected, and accessed in a bilingual brain",
+        "feedback": "Correct! The mental lexicon organizes bilingual memory networks.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does the 'bilingual advantage' hypothesis suggest regarding cognitive control?",
+        "options": [
+          "Constantly managing two languages enhances executive function, attentional control, and task-switching abilities",
+          "Bilinguals speak faster than monolinguals",
+          "Bilinguals never forget words",
+          "Bilingualism impairs cognitive development"
+        ],
+        "answer": "Constantly managing two languages enhances executive function, attentional control, and task-switching abilities",
+        "feedback": "Spot on! Bilingualism exercises executive control networks.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following psycholinguistic sentence aloud:",
+        "options": [],
+        "answer": "Cross-linguistic lexical activation demonstrates that bilinguals process multiple languages simultaneously.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Cross-linguistic lexical activation demonstrates that bilinguals process multiple languages simultaneously.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the cognitive experiment description and identify the processing effect.",
+        "options": [
+          "Stroop effect / Interference effect",
+          "Primacy effect",
+          "Recency effect",
+          "Halo effect"
+        ],
+        "answer": "Stroop effect / Interference effect",
+        "feedback": "Correct, conflicting linguistic and color stimuli cause processing delays.",
+        "word": "",
+        "audioText": "Naming the ink color while inhibiting the conflicting written word name delayed reaction times.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for mental processing where both languages remain active starting with 'n'.",
+        "options": [],
+        "answer": "nonselective",
+        "feedback": "Correct! Non-selective lexical access.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is language attrition?",
+        "options": [
+          "The gradual loss or decline of proficiency in a first or second language due to lack of use or immersion",
+          "Learning a new language rapidly",
+          "Translating documents quickly",
+          "Improving pronunciation skills"
+        ],
+        "answer": "The gradual loss or decline of proficiency in a first or second language due to lack of use or immersion",
+        "feedback": "Correct, language attrition occurs through disuse.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the psycholinguistic term: l, e, x, i, c, o, n",
+        "options": [],
+        "answer": "lexicon",
+        "feedback": "Correct, spells 'lexicon'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "l",
+          "e",
+          "x",
+          "i",
+          "c",
+          "o",
+          "n"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the dialogue and identify the psycholinguistic phenomenon.",
+        "options": [
+          "Cognate facilitation effect (faster processing of words sharing form and meaning)",
+          "Interference error",
+          "Phonetic elision",
+          "Syntactic ambiguity"
+        ],
+        "answer": "Cognate facilitation effect (faster processing of words sharing form and meaning)",
+        "feedback": "Correct, cognates are processed faster across languages.",
+        "word": "",
+        "audioText": "Bilingual speakers recognized translation-equivalent cognates significantly faster than non-cognate words.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced multilingual statement aloud:",
+        "options": [],
+        "answer": "Inhibitory control mechanisms allow bilinguals to suppress the unintended language during speech production.",
+        "feedback": "Wonderful articulation.",
+        "word": "Inhibitory control mechanisms allow bilinguals to suppress the unintended language during speech production.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does simultaneous bilingualism involve?",
+        "options": [
+          "Acquiring two languages concurrently from infancy or early childhood",
+          "Learning a second language in high school",
+          "Translating simultaneous conference audio",
+          "Studying dead languages"
+        ],
+        "answer": "Acquiring two languages concurrently from infancy or early childhood",
+        "feedback": "Correct, simultaneous bilinguals learn two languages from birth.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Critical Discourse Analysis (CDA)",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is Critical Discourse Analysis (CDA)?",
+        "options": [
+          "An interdisciplinary approach to studying language that views language as a form of social practice and investigates power abuse, dominance, and inequality",
+          "Correcting spelling typos in newspapers",
+          "Translating legal contracts",
+          "Studying ancient rock inscriptions"
+        ],
+        "answer": "An interdisciplinary approach to studying language that views language as a form of social practice and investigates power abuse, dominance, and inequality",
+        "feedback": "Correct! CDA analyzes how language embodies power relations.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does Norman Fairclough's three-dimensional framework for CDA analyze?",
+        "options": [
+          "Text (linguistic features), Discursive Practice (production/consumption), and Social Practice (broader socio-cultural context)",
+          "Phonetics, Syntax, and Semantics",
+          "Input, Output, and Feedback",
+          "Signifier, Signified, and Sign"
+        ],
+        "answer": "Text (linguistic features), Discursive Practice (production/consumption), and Social Practice (broader socio-cultural context)",
+        "feedback": "Spot on! Fairclough integrates text, discourse, and society.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following critical discourse sentence aloud:",
+        "options": [],
+        "answer": "Critical Discourse Analysis unmasks how ideological power structures are naturalized through media language.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Critical Discourse Analysis unmasks how ideological power structures are naturalized through media language.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the news excerpt and identify the CDA ideological framing device.",
+        "options": [
+          "Nominalization (hiding agency by turning verbs into nouns)",
+          "Active voice revelation",
+          "Direct quotation",
+          "Alliteration"
+        ],
+        "answer": "Nominalization (hiding agency by turning verbs into nouns)",
+        "feedback": "Correct, nominalization obscures who performed the action.",
+        "word": "",
+        "audioText": "The official statement reported 'civil unrest management' rather than specifying police actions.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for turning verbs into noun structures to obscure agency starting with 'n'.",
+        "options": [],
+        "answer": "nominalization",
+        "feedback": "Correct! Nominalization obscures actor agency.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is ideological presupposition in discourse?",
+        "options": [
+          "Underlying assumptions embedded in text that present controversial political beliefs as unquestionable common-sense facts",
+          "Grammatical tense marking",
+          "Dictionary definitions",
+          "Spelling corrections"
+        ],
+        "answer": "Underlying assumptions embedded in text that present controversial political beliefs as unquestionable common-sense facts",
+        "feedback": "Correct, presuppositions smuggle ideology into text as fact.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the CDA term: i, d, e, o, l, o, g, y",
+        "options": [],
+        "answer": "ideology",
+        "feedback": "Correct, spells 'ideology'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "i",
+          "d",
+          "e",
+          "o",
+          "l",
+          "o",
+          "g",
+          "y"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the political speech snippet and identify the rhetorical categorization strategy.",
+        "options": [
+          "Other-representation / Out-group polarization (Us vs. Them)",
+          "Cooperative maxim adherence",
+          "Collocational analysis",
+          "Phonetic elision"
+        ],
+        "answer": "Other-representation / Out-group polarization (Us vs. Them)",
+        "feedback": "Correct, polarization divides groups into in-groups and out-groups.",
+        "word": "",
+        "audioText": "Our coalition stands for democratic progress, whereas opposing factions champion bureaucratic stagnation.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced CDA statement aloud:",
+        "options": [],
+        "answer": "Discursive power is exercised when powerful institutions control public access to genre and discourse types.",
+        "feedback": "Wonderful articulation.",
+        "word": "Discursive power is exercised when powerful institutions control public access to genre and discourse types.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What role does passive voice frequently play in ideological media texts according to CDA?",
+        "options": [
+          "Omitting or concealing the agent responsible for an action",
+          "Improving grammatical spelling",
+          "Speeding up reading time",
+          "Creating rhyming poetry"
+        ],
+        "answer": "Omitting or concealing the agent responsible for an action",
+        "feedback": "Correct, passive voice backgrounded agent responsibility.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Human-Computer Interaction (HCI) and Voice AI Linguistics",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is conversational AI linguistics in Human-Computer Interaction (HCI)?",
+        "options": [
+          "The design and linguistic engineering of natural dialogue systems, voice assistants, and chatbots that interact fluidly with humans",
+          "Handwriting practice on touchscreens",
+          "Typing computer code",
+          "Designing keyboard hardware"
+        ],
+        "answer": "The design and linguistic engineering of natural dialogue systems, voice assistants, and chatbots that interact fluidly with humans",
+        "feedback": "Correct! HCI linguistics optimizes voice agent interactions.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is Automatic Speech Recognition (ASR) acoustic-to-text modeling?",
+        "options": [
+          "Translating spoken audio waveforms into textual transcriptions using machine learning and phonetic decoding",
+          "Printing paper transcripts",
+          "Translating languages manually",
+          "Checking spelling typos"
+        ],
+        "answer": "Translating spoken audio waveforms into textual transcriptions using machine learning and phonetic decoding",
+        "feedback": "Spot on! ASR converts acoustic waveforms into text.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following voice AI system sentence aloud:",
+        "options": [],
+        "answer": "Voice-activated learning assistants require robust speech recognition and real-time pronunciation feedback engines.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Voice-activated learning assistants require robust speech recognition and real-time pronunciation feedback engines.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the dialogue state and identify the conversational AI repair mechanism.",
+        "options": [
+          "Dialogue state tracking / Clarification prompt / Repair turn",
+          "System crash",
+          "Infinite loop",
+          "Hard shutdown"
+        ],
+        "answer": "Dialogue state tracking / Clarification prompt / Repair turn",
+        "feedback": "Correct, voice systems use clarification prompts when user intent is ambiguous.",
+        "word": "",
+        "audioText": "System: 'Did you mean Lesson 15 on sentence building or Lesson 16 on reading?'",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the acronym for speech recognition technology starting with 'a'.",
+        "options": [],
+        "answer": "asr",
+        "feedback": "Correct! ASR (Automatic Speech Recognition).",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is Text-to-Speech (TTS) synthesis?",
+        "options": [
+          "Generating artificial human-like spoken voice audio from digital text strings",
+          "Writing essays by hand",
+          "Scanning books into PDF format",
+          "Translating text into Morse code"
+        ],
+        "answer": "Generating artificial human-like spoken voice audio from digital text strings",
+        "feedback": "Correct, TTS synthesizes speech audio from text.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the HCI term: d, i, a, l, o, g, u, e",
+        "options": [],
+        "answer": "dialogue",
+        "feedback": "Correct, spells 'dialogue'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "d",
+          "i",
+          "a",
+          "l",
+          "o",
+          "g",
+          "u",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the user prompt and identify the intent recognition classification.",
+        "options": [
+          "Intent classification / Slot filling",
+          "Sentiment polarity",
+          "Part-of-speech tagging",
+          "Syntactic parsing"
+        ],
+        "answer": "Intent classification / Slot filling",
+        "feedback": "Correct, conversational agents extract user intent and parameters (slots).",
+        "word": "",
+        "audioText": "User: 'Start lesson fifteen on advanced sentence building.' Intent: start_lesson, Slot: lesson_15.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced HCI statement aloud:",
+        "options": [],
+        "answer": "Multimodal conversational interfaces integrate voice, touch, and visual feedback for optimal accessibility.",
+        "feedback": "Wonderful articulation.",
+        "word": "Multimodal conversational interfaces integrate voice, touch, and visual feedback for optimal accessibility.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Why is pronunciation coaching via voice AI particularly valuable for adult first-generation literacy learners?",
+        "options": [
+          "It provides immediate, private, non-judgmental phonetic feedback and adaptive coaching",
+          "It replaces human teachers entirely without computers",
+          "It requires no internet or devices",
+          "It guarantees instant fluency in one second"
+        ],
+        "answer": "It provides immediate, private, non-judgmental phonetic feedback and adaptive coaching",
+        "feedback": "Correct, private AI voice coaching lowers learner anxiety and builds literacy skills.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Research Methodology in Applied Linguistics",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is mixed-methods research in applied linguistics?",
+        "options": [
+          "Combining both qualitative (interviews, observations) and quantitative (statistical surveys, corpus metrics) data collection and analysis",
+          "Using two languages in one sentence",
+          "Mixing poetry with computer code",
+          "Reading two textbooks simultaneously"
+        ],
+        "answer": "Combining both qualitative (interviews, observations) and quantitative (statistical surveys, corpus metrics) data collection and analysis",
+        "feedback": "Correct! Mixed methods integrate qualitative and quantitative data.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is the difference between independent and dependent variables in experimental linguistic studies?",
+        "options": [
+          "The independent variable is manipulated by the researcher, while the dependent variable is measured as the outcome",
+          "The dependent variable manipulates the researcher",
+          "There is no difference",
+          "Independent variables measure spelling typos only"
+        ],
+        "answer": "The independent variable is manipulated by the researcher, while the dependent variable is measured as the outcome",
+        "feedback": "Spot on! Independent variables cause changes measured in dependent variables.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following research methodology sentence aloud:",
+        "options": [],
+        "answer": "Rigorous empirical research designs require statistical validity, controlled variables, and ethical participant consent.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Rigorous empirical research designs require statistical validity, controlled variables, and ethical participant consent.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the study description and identify the research design type.",
+        "options": [
+          "Longitudinal study (tracking participants over extended time periods)",
+          "Cross-sectional snapshot study",
+          "Purely theoretical essay",
+          "Single-session experiment"
+        ],
+        "answer": "Longitudinal study (tracking participants over extended time periods)",
+        "feedback": "Correct, longitudinal designs track development over years.",
+        "word": "",
+        "audioText": "The research team tracked second language acquisition progress across learner cohorts over a five-year period.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the 9-letter statistical term for testing hypotheses against null models starting with 's'.",
+        "options": [],
+        "answer": "significance",
+        "feedback": "Correct! Statistical significance.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What does statistical p-value indicate in empirical linguistics research?",
+        "options": [
+          "The probability that observed experimental results occurred purely by random chance",
+          "The page count of the research paper",
+          "The font size used in statistical charts",
+          "The speed of computer processors"
+        ],
+        "answer": "The probability that observed experimental results occurred purely by random chance",
+        "feedback": "Correct, low p-values indicate statistically significant findings.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the research term: h, y, p, o, t, h, e, s, i, s",
+        "options": [],
+        "answer": "hypothesis",
+        "feedback": "Correct, spells 'hypothesis'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "h",
+          "y",
+          "p",
+          "o",
+          "t",
+          "h",
+          "e",
+          "s",
+          "i",
+          "s"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the methodology critique and identify the research validity issue.",
+        "options": [
+          "Confounding variable / Lack of internal validity",
+          "Perfect experimental design",
+          "Typographical error",
+          "Font formatting issue"
+        ],
+        "answer": "Confounding variable / Lack of internal validity",
+        "feedback": "Correct, uncontrolled confounding variables compromise internal validity.",
+        "word": "",
+        "audioText": "Failure to control for participant prior knowledge introduced confounding variables that threatened internal validity.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced research statement aloud:",
+        "options": [],
+        "answer": "Ethical research protocols mandate informed consent and participant data privacy protection in all applied studies.",
+        "feedback": "Wonderful articulation.",
+        "word": "Ethical research protocols mandate informed consent and participant data privacy protection in all applied studies.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What is triangulation in qualitative and quantitative research?",
+        "options": [
+          "Using multiple independent data sources, methods, or investigators to cross-verify findings and enhance study credibility",
+          "Drawing geometric triangles on graphs",
+          "Measuring angles of speech waves",
+          "Translating texts into three languages"
+        ],
+        "answer": "Using multiple independent data sources, methods, or investigators to cross-verify findings and enhance study credibility",
+        "feedback": "Correct, triangulation strengthens research validity.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Weekly Assessment Advanced 5",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is bilingual mental lexicon organization?",
+        "options": [
+          "How words and concepts from multiple languages are stored and accessed in memory",
+          "A bilingual dictionary",
+          "Computer translation",
+          "Grammar rules"
+        ],
+        "answer": "How words and concepts from multiple languages are stored and accessed in memory",
+        "feedback": "Correct, lexicon organization studies memory storage.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does Critical Discourse Analysis (CDA) investigate?",
+        "options": [
+          "Language as social practice and how it embodies power abuse and dominance",
+          "Spelling typos",
+          "Legal contracts",
+          "Stone inscriptions"
+        ],
+        "answer": "Language as social practice and how it embodies power abuse and dominance",
+        "feedback": "Correct, CDA unmasks power relations in text.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following advanced methodological sentence aloud:",
+        "options": [],
+        "answer": "Multilingual processing, critical discourse analysis, and voice AI represent cutting-edge applied linguistics.",
+        "feedback": "Clear and polished reading.",
+        "word": "Multilingual processing, critical discourse analysis, and voice AI represent cutting-edge applied linguistics.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the audio and identify the research methodology term.",
+        "options": [
+          "Longitudinal cohort study",
+          "Cross-sectional survey",
+          "Pure theory",
+          "Single test"
+        ],
+        "answer": "Longitudinal cohort study",
+        "feedback": "Correct, longitudinal cohort study.",
+        "word": "",
+        "audioText": "Tracking literacy skill acquisition across adult learner cohorts over multiple years constitutes a longitudinal study.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for turning verbs into noun structures starting with 'n'.",
+        "options": [],
+        "answer": "nominalization",
+        "feedback": "Correct! Nominalization.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is ASR in conversational AI systems?",
+        "options": [
+          "Automatic Speech Recognition (audio-to-text)",
+          "Advanced spelling rules",
+          "Audio synthesis",
+          "Application software"
+        ],
+        "answer": "Automatic Speech Recognition (audio-to-text)",
+        "feedback": "Correct, ASR converts speech waveforms to text.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the research term: h, y, p, o, t, h, e, s, i, s",
+        "options": [],
+        "answer": "hypothesis",
+        "feedback": "Correct, spells 'hypothesis'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "h",
+          "y",
+          "p",
+          "o",
+          "t",
+          "h",
+          "e",
+          "s",
+          "i",
+          "s"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the cognitive bilingual processing effect.",
+        "options": [
+          "Non-selective lexical activation",
+          "Phonetic elision",
+          "Syntactic ambiguity",
+          "Cognitive deficit"
+        ],
+        "answer": "Non-selective lexical activation",
+        "feedback": "Correct, non-selective access.",
+        "word": "",
+        "audioText": "Simultaneous activation of translation equivalents across both languages proves non-selective lexical access.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced research statement aloud:",
+        "options": [],
+        "answer": "Mixed-methods research strengthens applied linguistics by integrating qualitative and quantitative rigor.",
+        "feedback": "Wonderful articulation.",
+        "word": "Mixed-methods research strengthens applied linguistics by integrating qualitative and quantitative rigor.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which assessment module milestone does this represent?",
+        "options": [
+          "Advanced Assessment 5",
+          "Beginner Assessment",
+          "Final Capstone",
+          "Basic Test"
+        ],
+        "answer": "Advanced Assessment 5",
+        "feedback": "Correct, this concludes the fifth advanced module cluster.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Linguistic Universals and Biolinguistics",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is biolinguistics?",
+        "options": [
+          "The biological and evolutionary study of the genetic and neurological foundations of human language faculty",
+          "The study of plant leaf structures",
+          "Marine biology communication",
+          "Medical speech therapy exercises"
+        ],
+        "answer": "The biological and evolutionary study of the genetic and neurological foundations of human language faculty",
+        "feedback": "Correct! Biolinguistics investigates the biological basis of language.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does the Faculty of Language in the Broad sense (FLB) include according to Hauser, Chomsky, and Fitch?",
+        "options": [
+          "Sensory-motor and conceptual-intentional systems shared with other animals",
+          "Only recursive syntax unique to humans",
+          "Writing systems only",
+          "Dictionary spelling lists"
+        ],
+        "answer": "Sensory-motor and conceptual-intentional systems shared with other animals",
+        "feedback": "Spot on! FLB encompasses broader sensory and conceptual systems.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following biolinguistics sentence aloud:",
+        "options": [],
+        "answer": "Biolinguistic frameworks examine the genetic mutations and neural substrates underlying human speech faculties.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Biolinguistic frameworks examine the genetic mutations and neural substrates underlying human speech faculties.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the evolutionary description and identify the specific language faculty component.",
+        "options": [
+          "Faculty of Language in the Narrow sense (FLN - recursion)",
+          "Sensory-motor system",
+          "Vocal tract anatomy",
+          "Auditory cortex perception"
+        ],
+        "answer": "Faculty of Language in the Narrow sense (FLN - recursion)",
+        "feedback": "Correct, FLN refers strictly to computational recursion unique to humans.",
+        "word": "",
+        "audioText": "The faculty of language in the narrow sense comprises strictly the core computational mechanism of recursion.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the famous gene associated with human speech and language evolution starting with 'f'.",
+        "options": [],
+        "answer": "foxp2",
+        "feedback": "Correct! FOXP2 gene linked to speech and language development.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is evolutionary adaptationism regarding language origin?",
+        "options": [
+          "The theory that language evolved gradually through natural selection to enhance social communication and survival",
+          "The belief that language appeared overnight by accident",
+          "The study of writing systems",
+          "Grammar textbook evolution"
+        ],
+        "answer": "The theory that language evolved gradually through natural selection to enhance social communication and survival",
+        "feedback": "Correct, adaptationism views language as shaped by natural selection.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the biolinguistics term: g, e, n, e, t, i, c, s",
+        "options": [],
+        "answer": "genetics",
+        "feedback": "Correct, spells 'genetics'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "g",
+          "e",
+          "n",
+          "e",
+          "t",
+          "i",
+          "c",
+          "s"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and identify the evolutionary hypothesis.",
+        "options": [
+          "Musical protolanguage hypothesis ('Musilanguage')",
+          "Gesture-first evolution theory",
+          "Divine creation theory",
+          "Spontaneous generation"
+        ],
+        "answer": "Musical protolanguage hypothesis ('Musilanguage')",
+        "feedback": "Correct, musilanguage proposes music preceded spoken words.",
+        "word": "",
+        "audioText": "Evolutionary models suggest ancestral communication originated from a shared musical protolanguage before grammatical syntax.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced biolinguistic statement aloud:",
+        "options": [],
+        "answer": "Neural plasticity and genetic predispositions jointly configure human linguistic capacity.",
+        "feedback": "Wonderful articulation.",
+        "word": "Neural plasticity and genetic predispositions jointly configure human linguistic capacity.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does the Strong Minimalist Program in modern generative grammar seek to prove?",
+        "options": [
+          "Language design is computationally optimal, driven by minimal necessary conditions for interface systems",
+          "Languages require millions of complex rules",
+          "Grammar has zero biological basis",
+          "Languages are random noise"
+        ],
+        "answer": "Language design is computationally optimal, driven by minimal necessary conditions for interface systems",
+        "feedback": "Correct, minimalism seeks optimal computational design.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Digital Literacies and Multimodal Semiotics",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What are digital literacies in modern educational frameworks?",
+        "options": [
+          "The technical, cognitive, and sociological skills needed to interpret, create, and evaluate digital texts across multimodal platforms",
+          "Typing alphabet letters on paper",
+          "Reading printed novels exclusively",
+          "Checking spelling typos"
+        ],
+        "answer": "The technical, cognitive, and sociological skills needed to interpret, create, and evaluate digital texts across multimodal platforms",
+        "feedback": "Correct! Digital literacies extend beyond traditional print reading.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does multimodal semiotics analyze?",
+        "options": [
+          "How meaning is constructed through the interplay of multiple semiotic modes (visual, audio, spatial, linguistic, gestural)",
+          "Printed text font sizes only",
+          "Spoken audio volume",
+          "Grammar spelling rules"
+        ],
+        "answer": "How meaning is constructed through the interplay of multiple semiotic modes (visual, audio, spatial, linguistic, gestural)",
+        "feedback": "Spot on! Multimodality examines combined text, audio, and visual modes.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following digital literacy sentence aloud:",
+        "options": [],
+        "answer": "Multimodal digital literacies integrate visual, auditory, and textual modes in web-based learning environments.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Multimodal digital literacies integrate visual, auditory, and textual modes in web-based learning environments.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the media description and identify the primary semiotic mode emphasized.",
+        "options": [
+          "Visual-spatial layout mode",
+          "Pure acoustic mode",
+          "Written typography mode",
+          "Tactile braille mode"
+        ],
+        "answer": "Visual-spatial layout mode",
+        "feedback": "Correct, web interface design relies heavily on visual-spatial mode.",
+        "word": "",
+        "audioText": "The web platform dashboard utilized interactive infographics and spatial layout structures to guide learner navigation.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for communication combining multiple modes like text and video starting with 'm'.",
+        "options": [],
+        "answer": "multimodal",
+        "feedback": "Correct! Multimodal communication.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is hyperetextuality in digital text design?",
+        "options": [
+          "Non-linear text linked electronically to other documents or media via hyperlinks",
+          "Printing text in bold uppercase letters",
+          "Reading books in a straight line",
+          "Translating ancient scrolls"
+        ],
+        "answer": "Non-linear text linked electronically to other documents or media via hyperlinks",
+        "feedback": "Correct, hypertext enables non-linear reading pathways.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the digital literacy term: m, o, d, e, l",
+        "options": [],
+        "answer": "model",
+        "feedback": "Correct, spells 'model'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "m",
+          "o",
+          "d",
+          "e",
+          "l"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and identify the digital literacy competence.",
+        "options": [
+          "Critical digital source evaluation / Information literacy",
+          "Keyboard typing speed",
+          "Audio microphone calibration",
+          "Screen brightness adjustment"
+        ],
+        "answer": "Critical digital source evaluation / Information literacy",
+        "feedback": "Correct, critical evaluation assesses online source credibility.",
+        "word": "",
+        "audioText": "Evaluating online information credibility requires critically verifying source authorship, bias, and empirical evidence.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced digital literacy statement aloud:",
+        "options": [],
+        "answer": "Web-based literacy platforms democratize education by delivering accessible multimodal content globally.",
+        "feedback": "Wonderful articulation.",
+        "word": "Web-based literacy platforms democratize education by delivering accessible multimodal content globally.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "How do adaptive learning algorithms personalize digital literacy acquisition?",
+        "options": [
+          "By dynamically evaluating learner proficiency and delivering customized exercises matching individual skill levels",
+          "By giving every student identical worksheets",
+          "By locking the platform after one lesson",
+          "By removing all audio exercises"
+        ],
+        "answer": "By dynamically evaluating learner proficiency and delivering customized exercises matching individual skill levels",
+        "feedback": "Correct, adaptive algorithms tailor learning pathways.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Capstone Project Integration and Evaluation",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is the primary objective of an advanced capstone integration project in language technology platforms?",
+        "options": [
+          "To architect, test, and deploy a fully integrated, scalable web-based platform combining curriculum content engines, voice AI, and adaptive learning",
+          "To memorize basic alphabet spelling",
+          "To take a multiple-choice quiz",
+          "To write a handwritten essay"
+        ],
+        "answer": "To architect, test, and deploy a fully integrated, scalable web-based platform combining curriculum content engines, voice AI, and adaptive learning",
+        "feedback": "Correct! Capstone projects culminate end-to-end platform integration.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which testing methodology validates end-to-end learning workflows across user registration, adaptive pathways, and voice assessment?",
+        "options": [
+          "End-to-end system integration testing",
+          "Single-letter spelling checks",
+          "Manual font formatting",
+          "Paper document printing"
+        ],
+        "answer": "End-to-end system integration testing",
+        "feedback": "Spot on! End-to-end testing validates complete platform workflows.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following capstone defense statement aloud:",
+        "options": [],
+        "answer": "Our AI-powered literacy platform integrates multilingual content repositories with real-time pronunciation coaching.",
+        "feedback": "Eloquent, authoritative, and professional defense delivery.",
+        "word": "Our AI-powered literacy platform integrates multilingual content repositories with real-time pronunciation coaching.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the system validation report and identify the performance metric evaluated.",
+        "options": [
+          "Recommendation quality and speech recognition assessment accuracy",
+          "Keyboard typing speed",
+          "Screen resolution",
+          "Server room temperature"
+        ],
+        "answer": "Recommendation quality and speech recognition assessment accuracy",
+        "feedback": "Correct, validation measures recommendation engines and speech accuracy.",
+        "word": "",
+        "audioText": "System evaluation confirmed high recommendation engine accuracy and robust speech recognition performance across diverse regional dialects.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the 7-letter term for a culminating platform project demonstration starting with 'c'.",
+        "options": [],
+        "answer": "capstone",
+        "feedback": "Correct! Capstone demonstration.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "Why are deployment guides and project documentation critical for system finalization?",
+        "options": [
+          "They ensure reproducibility, smooth maintenance, and seamless platform deployment across web environments",
+          "They increase file download times",
+          "They replace code entirely",
+          "They serve no purpose"
+        ],
+        "answer": "They ensure reproducibility, smooth maintenance, and seamless platform deployment across web environments",
+        "feedback": "Correct, documentation ensures sustainable software deployment.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the capstone term: d, e, p, l, o, y, m, e, n, t",
+        "options": [],
+        "answer": "deployment",
+        "feedback": "Correct, spells 'deployment'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "d",
+          "e",
+          "p",
+          "l",
+          "o",
+          "y",
+          "m",
+          "e",
+          "n",
+          "t"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the final review and identify the overall project milestone achieved.",
+        "options": [
+          "Complete 30-lesson advanced curriculum and platform finalization",
+          "Initial user registration setup",
+          "Weekly test review",
+          "Basic alphabet test"
+        ],
+        "answer": "Complete 30-lesson advanced curriculum and platform finalization",
+        "feedback": "Correct, it marks the successful culmination of all project modules.",
+        "word": "",
+        "audioText": "Having successfully completed all thirty advanced curriculum modules and end-to-end system testing, the platform is ready for deployment.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following final presentation conclusion aloud:",
+        "options": [],
+        "answer": "Empowering learners through AI-driven personalized education bridges foundational literacy gaps globally.",
+        "feedback": "Inspiring, resonant, and professional conclusion.",
+        "word": "Empowering learners through AI-driven personalized education bridges foundational literacy gaps globally.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What milestone does this final 30th advanced lesson represent in your project roadmap?",
+        "options": [
+          "Project Finalization, Demonstration, and Capстоne Completion",
+          "First Lesson on Letters",
+          "Weekly Assessment 1",
+          "Intermediate Checkpoint"
+        ],
+        "answer": "Project Finalization, Demonstration, and Capstone Completion",
+        "feedback": "Correct! This represents the final culmination of the entire project.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  }
+]

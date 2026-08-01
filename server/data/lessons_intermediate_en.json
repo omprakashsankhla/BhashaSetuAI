@@ -1,0 +1,4796 @@
+[
+  {
+    "title": "Complex Sentence Structures",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Choose the correct subordinating conjunction to complete the sentence: 'She went to work ___ she was feeling ill.'",
+        "options": [
+          "although",
+          "because",
+          "unless",
+          "therefore"
+        ],
+        "answer": "although",
+        "feedback": "Correct! 'Although' introduces a contrast clause.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Identify the dependent clause in: 'Because it was raining, the match was postponed.'",
+        "options": [
+          "the match was postponed",
+          "Because it was raining",
+          "It was raining, the match",
+          "None of the above"
+        ],
+        "answer": "Because it was raining",
+        "feedback": "Spot on! This is the dependent clause providing a reason.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following complex sentence aloud with proper phrasing:",
+        "options": [],
+        "answer": "While the presentation was informative, it lacked practical examples.",
+        "feedback": "Great rhythm and clarity on the complex structure.",
+        "word": "While the presentation was informative, it lacked practical examples.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the audio and identify the connector used in the complex sentence.",
+        "options": [
+          "whereas",
+          "since",
+          "unless",
+          "whenever"
+        ],
+        "answer": "whereas",
+        "feedback": "Correct, the audio utilized 'whereas'.",
+        "word": "",
+        "audioText": "Whereas urban areas expanded rapidly, rural populations experienced a steady decline.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type a sentence combining these two ideas using 'despite': 'He studied hard. He passed the exam.'",
+        "options": [],
+        "answer": "Despite studying hard, he passed the exam.",
+        "feedback": "Correct use of 'despite' to form a complex idea.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "Which sentence uses a relative clause correctly?",
+        "options": [
+          "The book which I borrowed was fascinating.",
+          "The book who I borrowed was fascinating.",
+          "The book where I borrowed was fascinating.",
+          "The book what I borrowed was fascinating."
+        ],
+        "answer": "The book which I borrowed was fascinating.",
+        "feedback": "Correct, 'which' is used for things.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the segments to form a coherent complex sentence:",
+        "options": [],
+        "answer": "Even though traffic was heavy, we arrived on time.",
+        "feedback": "Excellent reconstruction of the complex sentence.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "we arrived on time.",
+          "Even though",
+          "traffic was heavy,"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the sentence and determine the relationship it expresses.",
+        "options": [
+          "Condition",
+          "Contrast",
+          "Cause and effect",
+          "Sequence"
+        ],
+        "answer": "Cause and effect",
+        "feedback": "Correct, it establishes a cause-and-effect relationship.",
+        "word": "",
+        "audioText": "Since the laboratory equipment malfunctioned, the experiment had to be delayed.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced conditional statement aloud:",
+        "options": [],
+        "answer": "Had I known about the changes earlier, I would have adjusted the schedule.",
+        "feedback": "Excellent pronunciation of an inverted conditional structure.",
+        "word": "Had I known about the changes earlier, I would have adjusted the schedule.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Identify the sentence with correct punctuation for a non-defining relative clause.",
+        "options": [
+          "My mentor who has published three books is visiting today.",
+          "My mentor, who has published three books, is visiting today.",
+          "My mentor who, has published three books, is visiting today.",
+          "My mentor, who has published three books is visiting today."
+        ],
+        "answer": "My mentor, who has published three books, is visiting today.",
+        "feedback": "Correct, non-defining clauses require commas on both sides.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "type": "MCQ",
+        "text": "Which word best completes the sentence: 'She ___ completed her degree before she joined the firm.'",
+        "options": [
+          "has",
+          "had",
+          "will have",
+          "would"
+        ],
+        "answer": "had",
+        "feedback": "Correct! Past perfect tense is used for an action completed before another past action.",
+        "word": "",
+        "audioText": "",
+        "words": [],
+        "id": 11
+      },
+      {
+        "type": "MCQ",
+        "text": "Identify the correct preposition: 'He was congratulated ___ his outstanding performance.'",
+        "options": [
+          "on",
+          "for",
+          "at",
+          "about"
+        ],
+        "answer": "on",
+        "feedback": "Correct! We congratulate someone 'on' an achievement.",
+        "word": "",
+        "audioText": "",
+        "words": [],
+        "id": 12
+      }
+    ]
+  },
+  {
+    "title": "Advanced Vocabulary",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Choose the synonym for 'ubiquitous'.",
+        "options": [
+          "rare",
+          "omnipresent",
+          "ancient",
+          "hidden"
+        ],
+        "answer": "omnipresent",
+        "feedback": "Correct! 'Ubiquitous' means found everywhere or omnipresent.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does the word 'mitigate' mean in a professional context?",
+        "options": [
+          "to worsen a problem",
+          "to make less severe",
+          "to ignore completely",
+          "to accelerate rapidly"
+        ],
+        "answer": "to make less severe",
+        "feedback": "Spot on! To mitigate means to reduce the severity of something.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following advanced vocabulary word aloud:",
+        "options": [],
+        "answer": "Meticulous",
+        "feedback": "Clear pronunciation of 'meticulous'.",
+        "word": "Meticulous",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the sentence and select the definition of the target vocabulary word.",
+        "options": [
+          "Acting without planning",
+          "Showing deep insight or wisdom",
+          "Being excessively talkative",
+          "Displaying physical strength"
+        ],
+        "answer": "Showing deep insight or wisdom",
+        "feedback": "Correct, 'perspicacious' relates to keen mental perception.",
+        "word": "",
+        "audioText": "Her perspicacious analysis resolved the complex corporate issue.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type an adjective meaning 'fleeting' or 'lasting for a very short time' starting with 'e'.",
+        "options": [],
+        "answer": "ephemeral",
+        "feedback": "Correct! Ephemeral describes short-lived phenomena.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "Select the antonym for 'gregarious'.",
+        "options": [
+          "sociable",
+          "introverted",
+          "friendly",
+          "outgoing"
+        ],
+        "answer": "introverted",
+        "feedback": "Correct, introverted is the opposite of outgoing/gregarious.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the letters to form a word meaning 'abundant or plentiful': p, o, i, c, l, u, f, e, r",
+        "options": [],
+        "answer": "copious",
+        "feedback": "Correct, spells 'copious'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "p",
+          "o",
+          "i",
+          "c",
+          "l",
+          "u",
+          "f",
+          "e",
+          "r"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the word and identify its primary connotation.",
+        "options": [
+          "Positive/Complimentary",
+          "Negative/Critical",
+          "Neutral/Scientific",
+          "Ambiguous"
+        ],
+        "answer": "Positive/Complimentary",
+        "feedback": "Correct, 'laudable' means deserving praise.",
+        "word": "",
+        "audioText": "Laudable",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following sentence featuring advanced vocabulary:",
+        "options": [],
+        "answer": "The statesman's pragmatic approach bypassed ideological deadlocks.",
+        "feedback": "Outstanding reading pace and tone.",
+        "word": "The statesman's pragmatic approach bypassed ideological deadlocks.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does 'ameliorate' mean?",
+        "options": [
+          "to worsen",
+          "to improve",
+          "to destroy",
+          "to obscure"
+        ],
+        "answer": "to improve",
+        "feedback": "Correct, ameliorate means to make something bad better.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "type": "MCQ",
+        "text": "Choose the sentence that correctly expresses a polite request.",
+        "options": [
+          "Open the door for me now.",
+          "Could you please open the door?",
+          "You will open the door, right?",
+          "Open the door, will you?"
+        ],
+        "answer": "Could you please open the door?",
+        "feedback": "Correct! 'Could you please...' is the standard polite request form.",
+        "word": "",
+        "audioText": "",
+        "words": [],
+        "id": 11
+      },
+      {
+        "type": "Reading",
+        "text": "Read the complex statement with proper intonation:",
+        "options": [],
+        "answer": "",
+        "feedback": "Excellent! Your phrasing and emphasis on transitional adverbs were highly accurate.",
+        "word": "Furthermore, the data suggests a significant correlation between lifestyle and wellness.",
+        "audioText": "",
+        "words": [],
+        "id": 12
+      }
+    ]
+  },
+  {
+    "title": "Idiomatic Expressions",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What does the idiom 'bite the bullet' mean?",
+        "options": [
+          "To eat something dangerous",
+          "To face a difficult situation with courage",
+          "To shoot a weapon rapidly",
+          "To make a quick mistake"
+        ],
+        "answer": "To face a difficult situation with courage",
+        "feedback": "Correct! It means enduring an inevitable hardship.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "If someone tells you to 'hit the nail on the head', they mean:",
+        "options": [
+          "You caused structural damage",
+          "You missed the main point",
+          "You described the exact situation accurately",
+          "You are working with tools"
+        ],
+        "answer": "You described the exact situation accurately",
+        "feedback": "Spot on! It means being precisely correct.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read this common idiom aloud:",
+        "options": [],
+        "answer": "Blessing in disguise",
+        "feedback": "Great phrasing and intonation.",
+        "word": "Blessing in disguise",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the dialogue and select the meaning of the idiom used.",
+        "options": [
+          "To reveal a secret unintentionally",
+          "To clean the house completely",
+          "To start a new project",
+          "To win an award unexpectedly"
+        ],
+        "answer": "To reveal a secret unintentionally",
+        "feedback": "Correct, 'let the cat out of the bag' means disclosing a secret.",
+        "word": "",
+        "audioText": "John let the cat out of the bag about the surprise party.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Complete the idiom: 'Break a _'",
+        "options": [],
+        "answer": "leg",
+        "feedback": "Correct! 'Break a leg' is used to wish performers good luck.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What does 'cost an arm and a leg' signify?",
+        "options": [
+          "Physical injury",
+          "Something extremely expensive",
+          "A medical procedure",
+          "A free service"
+        ],
+        "answer": "Something extremely expensive",
+        "feedback": "Correct, it means something is very costly.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the words to form an idiom meaning 'to feel unwell': under the weather",
+        "options": [],
+        "answer": "under the weather",
+        "feedback": "Correct sequence formed.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "weather",
+          "the",
+          "under"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the phrase and select its figurative meaning.",
+        "options": [
+          "To delay a decision until later",
+          "To pass the ball in a game",
+          "To ignore someone's advice",
+          "To share responsibilities equally"
+        ],
+        "answer": "To delay a decision until later",
+        "feedback": "Correct, 'ball is in your court' or 'kick the can down the road' relates to postponing.",
+        "word": "",
+        "audioText": "We will have to kick the can down the road until the board reviews the budget.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following idiomatic sentence aloud:",
+        "options": [],
+        "answer": "The project management role threw me in at the deep end.",
+        "feedback": "Wonderful expression delivery.",
+        "word": "The project management role threw me in at the deep end.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does 'burn the midnight oil' mean?",
+        "options": [
+          "To stay up late working or studying",
+          "To start a fire outdoors",
+          "To waste natural resources",
+          "To sleep early"
+        ],
+        "answer": "To stay up late working or studying",
+        "feedback": "Correct, it refers to late-night productivity.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "type": "Reading",
+        "text": "Read the hypothetical scenario aloud:",
+        "options": [],
+        "answer": "",
+        "feedback": "Perfect tone and pronunciation flow.",
+        "word": "If we had finalized the proposal yesterday, we would have presented it today.",
+        "audioText": "",
+        "words": [],
+        "id": 11
+      },
+      {
+        "type": "Listening",
+        "text": "Listen and identify the key subject of the statement.",
+        "options": [
+          "Renewable energy",
+          "Tax reform",
+          "Urban planning",
+          "Digital security"
+        ],
+        "answer": "Renewable energy",
+        "feedback": "Correct! The audio clip discussed the transition to wind and solar power.",
+        "word": "",
+        "audioText": "Investing in renewable energy resources is essential for reducing carbon emissions globally.",
+        "words": [],
+        "id": 12
+      }
+    ]
+  },
+  {
+    "title": "Professional Communication",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which of the following is the most professional way to start a formal business email?",
+        "options": [
+          "Hey there,",
+          "Dear Mr. Henderson,",
+          "What's up,",
+          "Yo,"
+        ],
+        "answer": "Dear Mr. Henderson,",
+        "feedback": "Correct, this is standard formal salutation.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is the primary purpose of a cover letter?",
+        "options": [
+          "To list every hobby you have",
+          "To summarize your suitability for a specific role and complement your resume",
+          "To complain about previous employers",
+          "To negotiate salary upfront"
+        ],
+        "answer": "To summarize your suitability for a specific role and complement your resume",
+        "feedback": "Spot on! It links your skills directly to the job description.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following professional closing phrase aloud:",
+        "options": [],
+        "answer": "Looking forward to your prompt response.",
+        "feedback": "Professional and clear delivery.",
+        "word": "Looking forward to your prompt response.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the voicemail message and identify its primary objective.",
+        "options": [
+          "Canceling an order",
+          "Requesting a status update on a deliverable",
+          "Inviting someone to a birthday party",
+          "Complaining about customer service"
+        ],
+        "answer": "Requesting a status update on a deliverable",
+        "feedback": "Correct, the speaker is asking for project updates.",
+        "word": "",
+        "audioText": "Hello, this is David calling to check on the progress of the quarterly financial audit report.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type a professional sign-off phrase commonly used before your name in formal emails.",
+        "options": [],
+        "answer": "Sincerely",
+        "feedback": "Correct! 'Sincerely' is a standard formal sign-off.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "How should you respectfully disagree with a colleague in a meeting?",
+        "options": [
+          "You have no idea what you are talking about.",
+          "That is completely wrong.",
+          "I see your point, however, from another perspective...",
+          "Shut up and listen to me."
+        ],
+        "answer": "I see your point, however, from another perspective...",
+        "feedback": "Correct, this maintains professional courtesy.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the business term: t, o, g, e, a, r, i, t, n, o",
+        "options": [],
+        "answer": "negotiation",
+        "feedback": "Correct, spells 'negotiation'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "t",
+          "o",
+          "g",
+          "e",
+          "a",
+          "r",
+          "i",
+          "t",
+          "n",
+          "o"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and choose the appropriate workplace context.",
+        "options": [
+          "Performance review",
+          "Casual coffee break",
+          "Job dismissal notice",
+          "Retirement party"
+        ],
+        "answer": "Performance review",
+        "feedback": "Correct, the phrasing pertains to professional evaluation.",
+        "word": "",
+        "audioText": "Your leadership on this project demonstrated significant growth in milestone execution.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following corporate agenda item aloud:",
+        "options": [],
+        "answer": "We will evaluate cross-functional synergies during the afternoon workshop.",
+        "feedback": "Great command of corporate terminology.",
+        "word": "We will evaluate cross-functional synergies during the afternoon workshop.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does RSVP stand for in formal event invitations?",
+        "options": [
+          "Please respond promptly",
+          "Respondez s'il vous plait",
+          "Review schedule very precisely",
+          "Regular seating verification policy"
+        ],
+        "answer": "Respondez s'il vous plait",
+        "feedback": "Correct, it's a French phrase meaning 'Please respond'.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "type": "Listening",
+        "text": "Listen and transcribe the sentence correctly.",
+        "options": [],
+        "answer": "We must adapt to changing market conditions",
+        "feedback": "Perfect transcription of the business statement.",
+        "word": "",
+        "audioText": "We must adapt to changing market conditions",
+        "words": [],
+        "id": 11
+      },
+      {
+        "type": "Puzzle",
+        "text": "Unscramble the clause parts to form a conditional sentence:",
+        "options": [],
+        "answer": "If it rains tomorrow, we will cancel the trip",
+        "feedback": "Correct conditional syntax!",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "tomorrow,",
+          "rains",
+          "we",
+          "will",
+          "If",
+          "it",
+          "cancel",
+          "the",
+          "trip"
+        ],
+        "id": 12
+      }
+    ]
+  },
+  {
+    "title": "Family and Relationships",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What term describes the extended network of relatives including aunts, uncles, and cousins?",
+        "options": [
+          "Immediate family",
+          "Extended family",
+          "Nuclear family",
+          "Adoptive family"
+        ],
+        "answer": "Extended family",
+        "feedback": "Correct! Extended family includes aunts, uncles, and cousins.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What do you call your spouse's mother?",
+        "options": [
+          "Stepmother",
+          "Mother-in-law",
+          "Godmother",
+          "Foster mother"
+        ],
+        "answer": "Mother-in-law",
+        "feedback": "Spot on! Your spouse's parent is your parent-in-law.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following relationship term aloud:",
+        "options": [],
+        "answer": "Brother-in-law",
+        "feedback": "Excellent articulation.",
+        "word": "Brother-in-law",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the description and identify the correct family relation.",
+        "options": [
+          "Sibling rivalry",
+          "Generational gap",
+          "Household chore",
+          "Family lineage"
+        ],
+        "answer": "Generational gap",
+        "feedback": "Correct, the context refers to differing views across age brackets.",
+        "word": "",
+        "audioText": "The differences in communication styles between parents and teenagers often highlight a generational gap.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the word for a child legally taken into a family as one's own.",
+        "options": [],
+        "answer": "adopted",
+        "feedback": "Correct! An adopted child joins the family legally.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What phrase describes a family where both parents work and share household responsibilities?",
+        "options": [
+          "Single-parent household",
+          "Dual-income household",
+          "Traditional household",
+          "Extended household"
+        ],
+        "answer": "Dual-income household",
+        "feedback": "Correct, dual-income refers to earning parents.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the word for a relative who is related through marriage: affinity",
+        "options": [],
+        "answer": "relative",
+        "feedback": "Correct reconstruction.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "tive",
+          "rela"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and select the type of relationship described.",
+        "options": [
+          "Mentorship",
+          "Kinship",
+          "Partnership",
+          "Colleague"
+        ],
+        "answer": "Kinship",
+        "feedback": "Correct, kinship denotes blood relationship.",
+        "word": "",
+        "audioText": "A strong sense of kinship united the family members during difficult times.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following family milestone sentence aloud:",
+        "options": [],
+        "answer": "They celebrated their golden wedding anniversary with all their descendants.",
+        "feedback": "Wonderful reading rhythm.",
+        "word": "They celebrated their golden wedding anniversary with all their descendants.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Who is your sibling's daughter?",
+        "options": [
+          "Niece",
+          "Nephew",
+          "Cousin",
+          "Aunt"
+        ],
+        "answer": "Niece",
+        "feedback": "Correct, your sibling's daughter is your niece.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "type": "Puzzle",
+        "text": "Arrange to form a compound sentence:",
+        "options": [],
+        "answer": "She studied hard, yet she did not pass the exam",
+        "feedback": "Correct use of the contrast coordinator 'yet'!",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "studied",
+          "yet",
+          "pass",
+          "she",
+          "did",
+          "not",
+          "exam",
+          "She",
+          "hard,",
+          "the"
+        ],
+        "id": 11
+      },
+      {
+        "type": "Writing",
+        "text": "Write a sentence combining these ideas using 'although': 'It was very hot. They went for a run.'",
+        "options": [],
+        "answer": "Although it was very hot, they went for a run.",
+        "feedback": "Perfect concessive clause construction!",
+        "word": "",
+        "audioText": "",
+        "words": [],
+        "id": 12
+      }
+    ]
+  },
+  {
+    "title": "Advanced Colors & Descriptive Adjectives",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which color term refers to a dark shade of blue resembling the deep sea?",
+        "options": [
+          "Turquoise",
+          "Navy",
+          "Lavender",
+          "Crimson"
+        ],
+        "answer": "Navy",
+        "feedback": "Correct! Navy is a dark shade of blue.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does the adjective 'iridescent' mean?",
+        "options": [
+          "Showing luminous colors that change when seen from different angles",
+          "Completely black and light-absorbing",
+          "Rough and abrasive to the touch",
+          "Completely transparent and clear"
+        ],
+        "answer": "Showing luminous colors that change when seen from different angles",
+        "feedback": "Spot on! Iridescent surfaces shift colors with perspective.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following descriptive color term aloud:",
+        "options": [],
+        "answer": "Chartreuse",
+        "feedback": "Pronounced correctly.",
+        "word": "Chartreuse",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the description and select the matching color tone.",
+        "options": [
+          "Muted pastel",
+          "Vibrant neon",
+          "Monochrome grayscale",
+          "Earth tone"
+        ],
+        "answer": "Muted pastel",
+        "feedback": "Correct, the color description indicates a soft, pale tone.",
+        "word": "",
+        "audioText": "The walls were painted in a soft, muted pastel shade of lavender.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type an adjective meaning deep red or purplish-red often associated with wine.",
+        "options": [],
+        "answer": "burgundy",
+        "feedback": "Correct! Burgundy is a deep reddish-purple.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What does 'monochromatic' mean regarding color schemes?",
+        "options": [
+          "Using only variations of a single color",
+          "Using every color of the rainbow",
+          "Using only black and white",
+          "Using opposing complementary colors"
+        ],
+        "answer": "Using only variations of a single color",
+        "feedback": "Correct, monochromatic involves tints and shades of one hue.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the color/descriptor term: m, a, r, i, n, e",
+        "options": [],
+        "answer": "marine",
+        "feedback": "Correct, spells 'marine'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "m",
+          "a",
+          "r",
+          "i",
+          "n",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the visual texture described.",
+        "options": [
+          "Glossy and reflective",
+          "Matte and subdued",
+          "Rough and jagged",
+          "Transparent"
+        ],
+        "answer": "Matte and subdued",
+        "feedback": "Correct, matte indicates a non-reflective finish.",
+        "word": "",
+        "audioText": "The car finish was a sleek, dark matte black.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following descriptive sentence aloud:",
+        "options": [],
+        "answer": "The autumn forest displayed a breathtaking tapestry of amber and ochre hues.",
+        "feedback": "Excellent cadence and vocabulary execution.",
+        "word": "The autumn forest displayed a breathtaking tapestry of amber and ochre hues.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which color combination represents complementary colors on the color wheel?",
+        "options": [
+          "Blue and Orange",
+          "Red and Pink",
+          "Green and Blue",
+          "Yellow and Orange"
+        ],
+        "answer": "Blue and Orange",
+        "feedback": "Correct, complementary colors sit opposite each other.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "type": "Writing",
+        "text": "Translate the Hindi business query to English: 'क्या आप मुझे इस परियोजना का विवरण भेज सकते हैं?'",
+        "options": [],
+        "answer": "Can you send me the details of this project?",
+        "feedback": "Excellent corporate communication translation!",
+        "word": "",
+        "audioText": "",
+        "words": [],
+        "id": 11
+      }
+    ]
+  },
+  {
+    "title": "Weekly Assessment Intermediate 1",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which option demonstrates correct use of a complex sentence with a contrast clause?",
+        "options": [
+          "Although the project was challenging, the team delivered it on schedule.",
+          "Because the project was challenging, the team delivered it on schedule.",
+          "Unless the project was challenging, the team delivered it on schedule.",
+          "If the project was challenging, the team delivered it on schedule."
+        ],
+        "answer": "Although the project was challenging, the team delivered it on schedule.",
+        "feedback": "Correct, 'although' fits the contrast context.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is the closest synonym for 'ameliorate'?",
+        "options": [
+          "Worsen",
+          "Improve",
+          "Complicate",
+          "Ignore"
+        ],
+        "answer": "Improve",
+        "feedback": "Correct, ameliorate means to improve.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following advanced sentence aloud:",
+        "options": [],
+        "answer": "Despite unforeseen delays, the meticulous planner finalized the strategy.",
+        "feedback": "Great reading fluidity.",
+        "word": "Despite unforeseen delays, the meticulous planner finalized the strategy.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the audio and select the idiom used.",
+        "options": [
+          "Bite the bullet",
+          "Hit the nail on the head",
+          "Let the cat out of the bag",
+          "Burn the midnight oil"
+        ],
+        "answer": "Bite the bullet",
+        "feedback": "Correct, the audio referenced 'bite the bullet'.",
+        "word": "",
+        "audioText": "We have no choice but to bite the bullet and complete the audit.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the formal email sign-off word studied in Professional Communication.",
+        "options": [],
+        "answer": "Sincerely",
+        "feedback": "Correct! 'Sincerely' is standard.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What do you call your spouse's mother?",
+        "options": [
+          "Mother-in-law",
+          "Step-mother",
+          "Godmother",
+          "Aunt"
+        ],
+        "answer": "Mother-in-law",
+        "feedback": "Correct, mother-in-law is your spouse's mother.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the color/descriptor term: t, h, a, r, t, c, e, u, s, e",
+        "options": [],
+        "answer": "chartreuse",
+        "feedback": "Correct, spells 'chartreuse'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "t",
+          "h",
+          "a",
+          "r",
+          "t",
+          "c",
+          "e",
+          "u",
+          "s",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the phrase and select its grammatical structure.",
+        "options": [
+          "Complex sentence with relative clause",
+          "Simple sentence",
+          "Imperative command",
+          "Exclamatory phrase"
+        ],
+        "answer": "Complex sentence with relative clause",
+        "feedback": "Correct, it contains a relative clause.",
+        "word": "",
+        "audioText": "The analyst who reviewed the data submitted a comprehensive report.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following professional phrase aloud:",
+        "options": [],
+        "answer": "We appreciate your prompt feedback on this deliverable.",
+        "feedback": "Excellent professional tone.",
+        "word": "We appreciate your prompt feedback on this deliverable.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which assessment module milestone does this weekly test represent?",
+        "options": [
+          "Intermediate Assessment 1",
+          "Beginner Assessment",
+          "Advanced Final",
+          "Basic Letters Test"
+        ],
+        "answer": "Intermediate Assessment 1",
+        "feedback": "Correct, this concludes the first intermediate cluster.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Numeracy and Statistics",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What statistical measure represents the middle value in a sorted dataset?",
+        "options": [
+          "Mean",
+          "Median",
+          "Mode",
+          "Range"
+        ],
+        "answer": "Median",
+        "feedback": "Correct! The median is the middle number.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "How do you express a ratio of 5 parts out of 20 as a percentage?",
+        "options": [
+          "15%",
+          "20%",
+          "25%",
+          "50%"
+        ],
+        "answer": "25%",
+        "feedback": "Spot on! 5 divided by 20 is 0.25, or 25%.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following statistical term aloud:",
+        "options": [],
+        "answer": "Standard deviation",
+        "feedback": "Clear pronunciation.",
+        "word": "Standard deviation",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the data analysis statement and identify the correct statistical term.",
+        "options": [
+          "Correlation",
+          "Variance",
+          "Sample size",
+          "Probability"
+        ],
+        "answer": "Correlation",
+        "feedback": "Correct, it refers to the relationship between variables.",
+        "word": "",
+        "audioText": "The study indicated a strong positive correlation between income and education levels.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the word for the most frequently occurring value in a dataset.",
+        "options": [],
+        "answer": "mode",
+        "feedback": "Correct! The mode is the most frequent value.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What does an exponential growth rate signify?",
+        "options": [
+          "Growth that slows down over time",
+          "Growth whose rate becomes ever more rapid in proportion to the growing total",
+          "Growth at a fixed linear amount",
+          "Zero growth"
+        ],
+        "answer": "Growth whose rate becomes ever more rapid in proportion to the growing total",
+        "feedback": "Correct, exponential growth accelerates rapidly.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the statistical term: p, e, r, c, e, n, t, a, g, e",
+        "options": [],
+        "answer": "percentage",
+        "feedback": "Correct, spells 'percentage'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "p",
+          "e",
+          "r",
+          "c",
+          "e",
+          "n",
+          "t",
+          "a",
+          "g",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and identify the numeric concept.",
+        "options": [
+          "Average / Mean",
+          "Total Sum",
+          "Fractional Division",
+          "Multiplication Factor"
+        ],
+        "answer": "Average / Mean",
+        "feedback": "Correct, it describes calculating the arithmetic mean.",
+        "word": "",
+        "audioText": "To find the average, divide the sum of all values by the total count.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following financial mathematics sentence aloud:",
+        "options": [],
+        "answer": "Compound interest significantly accelerates investment growth over extended periods.",
+        "feedback": "Excellent cadence.",
+        "word": "Compound interest significantly accelerates investment growth over extended periods.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What is the term for the difference between the highest and lowest values in a dataset?",
+        "options": [
+          "Range",
+          "Variance",
+          "Median",
+          "Deviation"
+        ],
+        "answer": "Range",
+        "feedback": "Correct, the range is max minus min.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Calendars, Schedules, and Temporal Clauses",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which temporal conjunction indicates an action happening at the exact same time as another?",
+        "options": [
+          "While",
+          "Before",
+          "After",
+          "Until"
+        ],
+        "answer": "While",
+        "feedback": "Correct! 'While' denotes simultaneous actions.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does 'biennial' mean regarding scheduling?",
+        "options": [
+          "Happening twice a year",
+          "Happening once every two years",
+          "Happening every two weeks",
+          "Happening daily"
+        ],
+        "answer": "Happening once every two years",
+        "feedback": "Spot on! Biennial means every two years.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following scheduling term aloud:",
+        "options": [],
+        "answer": "Synchronized schedule",
+        "feedback": "Clear pronunciation.",
+        "word": "Synchronized schedule",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the announcement and identify the scheduling constraint.",
+        "options": [
+          "Deadline extension",
+          "Meeting postponement",
+          "Time zone difference",
+          "Recurring event conflict"
+        ],
+        "answer": "Time zone difference",
+        "feedback": "Correct, the audio discusses coordinating across time zones.",
+        "word": "",
+        "audioText": "Due to the time zone difference between London and Tokyo, the conference call was set for 8 AM UTC.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type an adjective meaning occurring twice a year starting with 's'.",
+        "options": [],
+        "answer": "semiannual",
+        "feedback": "Correct! Semiannual means twice a year.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What phrase means postponing an event until a future time?",
+        "options": [
+          "Accelerate",
+          "Adjourn / Reschedule",
+          "Finalize",
+          "Initiate"
+        ],
+        "answer": "Adjourn / Reschedule",
+        "feedback": "Correct, rescheduling pushes an event to later.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the temporal term: c, h, r, o, n, o, l, o, g, y",
+        "options": [],
+        "answer": "chronology",
+        "feedback": "Correct, spells 'chronology'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "c",
+          "h",
+          "r",
+          "o",
+          "n",
+          "o",
+          "l",
+          "o",
+          "g",
+          "y"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and select the temporal relationship.",
+        "options": [
+          "Sequential order",
+          "Simultaneous event",
+          "Indefinite delay",
+          "Immediate termination"
+        ],
+        "answer": "Sequential order",
+        "feedback": "Correct, it outlines steps happening in sequence.",
+        "word": "",
+        "audioText": "Once the preliminary review is completed, we will proceed with the final phase.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following calendar management sentence aloud:",
+        "options": [],
+        "answer": "We must finalize the itinerary before publishing the conference schedule.",
+        "feedback": "Excellent cadence.",
+        "word": "We must finalize the itinerary before publishing the conference schedule.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What term describes a calendar that covers quarters rather than standard months?",
+        "options": [
+          "Fiscal calendar",
+          "Lunar calendar",
+          "Perpetual calendar",
+          "Gregorian calendar"
+        ],
+        "answer": "Fiscal calendar",
+        "feedback": "Correct, fiscal calendars are structured by financial quarters.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Fauna and Ecological Systems",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What term describes animals that are active primarily during twilight (dawn and dusk)?",
+        "options": [
+          "Nocturnal",
+          "Diurnal",
+          "Crepuscular",
+          "Hibernating"
+        ],
+        "answer": "Crepuscular",
+        "feedback": "Correct! Crepuscular animals are active at dawn and dusk.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is an animal that eats both plants and other animals called?",
+        "options": [
+          "Herbivore",
+          "Carnivore",
+          "Omnivore",
+          "Detritivore"
+        ],
+        "answer": "Omnivore",
+        "feedback": "Spot on! Omnivores consume plant and animal matter.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following ecological term aloud:",
+        "options": [],
+        "answer": "Biodiversity hotspot",
+        "feedback": "Clear pronunciation.",
+        "word": "Biodiversity hotspot",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the wildlife description and identify the ecological concept.",
+        "options": [
+          "Symbiosis",
+          "Predation",
+          "Migration",
+          "Adaptation"
+        ],
+        "answer": "Symbiosis",
+        "feedback": "Correct, it describes a mutually beneficial relationship.",
+        "word": "",
+        "audioText": "The clownfish and sea anemone exhibit a classic example of mutualistic symbiosis.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the scientific term for animals that sleep through the winter season.",
+        "options": [],
+        "answer": "hibernation",
+        "feedback": "Correct! Hibernation is winter dormancy.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What does 'endemic' mean when applied to a species?",
+        "options": [
+          "Found everywhere across the globe",
+          "Native and restricted to a certain place",
+          "Currently facing extinction worldwide",
+          "Migrating across continents seasonally"
+        ],
+        "answer": "Native and restricted to a certain place",
+        "feedback": "Correct, endemic species are native to a specific region.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the ecological term: e, c, o, s, y, s, t, e, m",
+        "options": [],
+        "answer": "ecosystem",
+        "feedback": "Correct, spells 'ecosystem'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "e",
+          "c",
+          "o",
+          "s",
+          "y",
+          "s",
+          "t",
+          "e",
+          "m"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the audio and identify the animal classification.",
+        "options": [
+          "Marsupial",
+          "Amphibian",
+          "Reptile",
+          "Mammal"
+        ],
+        "answer": "Marsupial",
+        "feedback": "Correct, marsupials raise young in pouches.",
+        "word": "",
+        "audioText": "Kangaroos and koalas belong to the marsupial family native to Australia.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following environmental sentence aloud:",
+        "options": [],
+        "answer": "Habitat fragmentation poses a severe threat to migratory fauna populations.",
+        "feedback": "Wonderful reading pace.",
+        "word": "Habitat fragmentation poses a severe threat to migratory fauna populations.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What term describes a species that has a disproportionately large effect on its ecosystem?",
+        "options": [
+          "Keystone species",
+          "Invasive species",
+          "Prey species",
+          "Producer species"
+        ],
+        "answer": "Keystone species",
+        "feedback": "Correct, keystone species maintain ecosystem balance.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Flora, Agriculture, and Botany",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What botanical term describes plants that shed their leaves annually in autumn?",
+        "options": [
+          "Evergreen",
+          "Deciduous",
+          "Perennial",
+          "Annual"
+        ],
+        "answer": "Deciduous",
+        "feedback": "Correct! Deciduous plants shed leaves seasonally.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is the primary function of chlorophyll in plants?",
+        "options": [
+          "Absorbing light energy for photosynthesis",
+          "Attracting pollinators like bees",
+          "Absorbing water from deep soil",
+          "Providing structural bark support"
+        ],
+        "answer": "Absorbing light energy for photosynthesis",
+        "feedback": "Spot on! Chlorophyll captures light for energy conversion.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following botanical term aloud:",
+        "options": [],
+        "answer": "Photosynthesis",
+        "feedback": "Clear and accurate pronunciation.",
+        "word": "Photosynthesis",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the agricultural description and identify the farming practice.",
+        "options": [
+          "Crop rotation",
+          "Monoculture farming",
+          "Hydroponics",
+          "Deforestation"
+        ],
+        "answer": "Crop rotation",
+        "feedback": "Correct, it describes alternating crops to restore soil health.",
+        "word": "",
+        "audioText": "Farmers practice crop rotation to maintain soil nutrients and prevent pest buildup.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the word for plants that live for more than two years.",
+        "options": [],
+        "answer": "perennials",
+        "feedback": "Correct! Perennials return year after year.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What does 'arable' land refer to?",
+        "options": [
+          "Land suitable for growing crops",
+          "Barren desert land",
+          "Rocky mountainous terrain",
+          "Frozen tundra"
+        ],
+        "answer": "Land suitable for growing crops",
+        "feedback": "Correct, arable land can be farmed.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the botanical term: h, o, r, t, i, c, u, l, t, u, r, e",
+        "options": [],
+        "answer": "horticulture",
+        "feedback": "Correct, spells 'horticulture'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "h",
+          "o",
+          "r",
+          "t",
+          "i",
+          "c",
+          "u",
+          "l",
+          "t",
+          "u",
+          "r",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the plant part mentioned.",
+        "options": [
+          "Xylem / Vascular tissue",
+          "Root system",
+          "Stomata",
+          "Petal"
+        ],
+        "answer": "Stomata",
+        "feedback": "Correct, stomata regulate gas exchange.",
+        "word": "",
+        "audioText": "Plants regulate gas exchange through microscopic pores called stomata on their leaves.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following agricultural sentence aloud:",
+        "options": [],
+        "answer": "Sustainable agriculture integrates modern technology with traditional conservation methods.",
+        "feedback": "Great delivery.",
+        "word": "Sustainable agriculture integrates modern technology with traditional conservation methods.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What is the study of plant life called?",
+        "options": [
+          "Zoology",
+          "Botany",
+          "Geology",
+          "Mycology"
+        ],
+        "answer": "Botany",
+        "feedback": "Correct, botany is the branch of biology dealing with plants.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Culinary Arts and Grocery",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What cooking technique involves cooking food slowly in liquid in a covered pot at low heat?",
+        "options": [
+          "Braising",
+          "Deep-frying",
+          "Broiling",
+          "Flash-searing"
+        ],
+        "answer": "Braising",
+        "feedback": "Correct! Braising combines dry and wet heat for tender results.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does the culinary term 'julienne' mean?",
+        "options": [
+          "Cutting vegetables into thin, matchstick-like strips",
+          "Pureeing food into a smooth soup",
+          "Baking pastry at high temperature",
+          "Marinating meat in acidic citrus juice"
+        ],
+        "answer": "Cutting vegetables into thin, matchstick-like strips",
+        "feedback": "Spot on! Julienne is a fine matchstick cut.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following culinary term aloud:",
+        "options": [],
+        "answer": "Caramelization",
+        "feedback": "Pronounced correctly.",
+        "word": "Caramelization",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the recipe instruction and identify the culinary action.",
+        "options": [
+          "Sautéing",
+          "Whisking / Emulsifying",
+          "Kneading dough",
+          "Simmering"
+        ],
+        "answer": "Whisking / Emulsifying",
+        "feedback": "Correct, it describes blending oil and vinegar into an emulsion.",
+        "word": "",
+        "audioText": "Whisk the olive oil and vinegar vigorously until the vinaigrette emulsifies.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the culinary term for soaking meat or vegetables in seasoned liquid before cooking.",
+        "options": [],
+        "answer": "marinate",
+        "feedback": "Correct! Marinating adds flavor and tenderizes.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is the purpose of adding a leavening agent like yeast to bread dough?",
+        "options": [
+          "To make the dough rise by producing gas bubbles",
+          "To add a salty flavor",
+          "To color the crust dark brown",
+          "To extend shelf life indefinitely"
+        ],
+        "answer": "To make the dough rise by producing gas bubbles",
+        "feedback": "Correct, leavening creates light, airy bread texture.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the culinary term: g, a, s, t, r, o, n, o, m, y",
+        "options": [],
+        "answer": "gastronomy",
+        "feedback": "Correct, spells 'gastronomy'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "g",
+          "a",
+          "s",
+          "t",
+          "r",
+          "o",
+          "n",
+          "o",
+          "m",
+          "y"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the grocery store dialogue and select the department mentioned.",
+        "options": [
+          "Produce section",
+          "Bakery aisle",
+          "Butcher / Meat counter",
+          "Dairy section"
+        ],
+        "answer": "Produce section",
+        "feedback": "Correct, it refers to fresh fruits and vegetables.",
+        "word": "",
+        "audioText": "Fresh organic spinach and avocados are located in the refrigerated produce section.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following gourmet recipe sentence aloud:",
+        "options": [],
+        "answer": "Garnish the dish with freshly chopped herbs just before serving.",
+        "feedback": "Wonderful delivery.",
+        "word": "Garnish the dish with freshly chopped herbs just before serving.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does 'al dente' mean when cooking pasta?",
+        "options": [
+          "Cooked so it is firm to the bite",
+          "Cooked until completely soft and mushy",
+          "Boiled in salted milk instead of water",
+          "Served chilled with cold sauce"
+        ],
+        "answer": "Cooked so it is firm to the bite",
+        "feedback": "Correct, al dente means firm yet cooked.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Discourse and Cohesion",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which transitional phrase indicates a counter-argument or concession?",
+        "options": [
+          "Consequently",
+          "Nevertheless",
+          "Furthermore",
+          "Specifically"
+        ],
+        "answer": "Nevertheless",
+        "feedback": "Correct! 'Nevertheless' introduces a contrast.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is the function of discourse markers like 'conversely' or 'on the other hand'?",
+        "options": [
+          "To show similarity",
+          "To introduce an alternative or opposing point",
+          "To summarize a chronological sequence",
+          "To give a specific numerical example"
+        ],
+        "answer": "To introduce an alternative or opposing point",
+        "feedback": "Spot on! They signal contrast between ideas.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following transitional sentence aloud:",
+        "options": [],
+        "answer": "Subsequent analyses corroborated the initial findings; therefore, the conclusion stands.",
+        "feedback": "Impeccable academic phrasing and delivery.",
+        "word": "Subsequent analyses corroborated the initial findings; therefore, the conclusion stands.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the discourse segment and select the rhetorical function of the transition.",
+        "options": [
+          "Elaboration / Addition",
+          "Causation",
+          "Spatial reference",
+          "Temporal sequence"
+        ],
+        "answer": "Elaboration / Addition",
+        "feedback": "Correct, 'moreover' adds supporting information.",
+        "word": "",
+        "audioText": "The software upgrade enhanced system security; moreover, it improved overall processing speed.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type a transition word meaning 'as a result' starting with 'c'.",
+        "options": [],
+        "answer": "consequently",
+        "feedback": "Correct! Consequently shows cause and effect.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "Which cohesive device is used to avoid repeating the same noun phrase?",
+        "options": [
+          "Pronouns and substitution",
+          "Misspelling",
+          "Random punctuation",
+          "Passive voice inversion"
+        ],
+        "answer": "Pronouns and substitution",
+        "feedback": "Correct, substitution and pronouns maintain textual cohesion.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the discourse term: c, o, h, e, s, i, o, n",
+        "options": [],
+        "answer": "cohesion",
+        "feedback": "Correct, spells 'cohesion'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "c",
+          "o",
+          "h",
+          "e",
+          "s",
+          "i",
+          "o",
+          "n"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the paragraph and identify the overarching organizational pattern.",
+        "options": [
+          "Problem-solution structure",
+          "Narrative storytelling",
+          "Biographical timeline",
+          "Descriptive catalog"
+        ],
+        "answer": "Problem-solution structure",
+        "feedback": "Correct, the text presents an issue and resolves it.",
+        "word": "",
+        "audioText": "Traffic congestion threatened downtown commerce; consequently, city planners introduced congestion pricing.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following academic sentence aloud:",
+        "options": [],
+        "answer": "Notwithstanding these challenges, the research team achieved unprecedented milestones.",
+        "feedback": "Outstanding reading rhythm.",
+        "word": "Notwithstanding these challenges, the research team achieved unprecedented milestones.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does 'thus' signify in argumentative writing?",
+        "options": [
+          "A logical deduction or conclusion",
+          "An accidental error",
+          "A chronological shift",
+          "A hypothetical question"
+        ],
+        "answer": "A logical deduction or conclusion",
+        "feedback": "Correct, 'thus' introduces a logical result.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Weekly Assessment Intermediate 2",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which statistical measure represents the middle value in a dataset?",
+        "options": [
+          "Mean",
+          "Median",
+          "Mode",
+          "Range"
+        ],
+        "answer": "Median",
+        "feedback": "Correct, median is the middle value.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What term describes animals active at dawn and dusk?",
+        "options": [
+          "Nocturnal",
+          "Crepuscular",
+          "Diurnal",
+          "Herbivorous"
+        ],
+        "answer": "Crepuscular",
+        "feedback": "Correct, crepuscular means twilight-active.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following advanced sentence aloud:",
+        "options": [],
+        "answer": "Deciduous forests undergo dramatic ecological transitions during autumn months.",
+        "feedback": "Clear and polished reading.",
+        "word": "Deciduous forests undergo dramatic ecological transitions during autumn months.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the audio and identify the culinary term used.",
+        "options": [
+          "Braising",
+          "Julienne",
+          "Al dente",
+          "Caramelization"
+        ],
+        "answer": "Al dente",
+        "feedback": "Correct, the audio mentioned 'al dente'.",
+        "word": "",
+        "audioText": "Ensure the pasta is cooked al dente before draining.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the discourse transition word meaning 'as a result' starting with 'c'.",
+        "options": [],
+        "answer": "consequently",
+        "feedback": "Correct! Consequently.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What does 'biennial' mean?",
+        "options": [
+          "Twice a year",
+          "Once every two years",
+          "Every two weeks",
+          "Daily"
+        ],
+        "answer": "Once every two years",
+        "feedback": "Correct, biennial is every two years.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the statistical term: v, a, r, i, a, n, c, e",
+        "options": [],
+        "answer": "variance",
+        "feedback": "Correct, spells 'variance'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "v",
+          "a",
+          "r",
+          "i",
+          "a",
+          "n",
+          "c",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the phrase and select its agricultural context.",
+        "options": [
+          "Crop rotation",
+          "Deforestation",
+          "Urban sprawl",
+          "Hydroponics"
+        ],
+        "answer": "Crop rotation",
+        "feedback": "Correct, it refers to rotating crops.",
+        "word": "",
+        "audioText": "Implementing crop rotation preserves soil fertility over multiple seasons.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following transitional sentence aloud:",
+        "options": [],
+        "answer": "Notwithstanding the statistical anomalies, the overall trend remains clear.",
+        "feedback": "Wonderful articulation.",
+        "word": "Notwithstanding the statistical anomalies, the overall trend remains clear.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which assessment module milestone does this represent?",
+        "options": [
+          "Intermediate Assessment 2",
+          "Beginner Check",
+          "Final Exam",
+          "Basic Review"
+        ],
+        "answer": "Intermediate Assessment 2",
+        "feedback": "Correct, this concludes the second intermediate module cluster.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Hypothesis and Conditionals",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which conditional structure expresses a completely counterfactual past situation?",
+        "options": [
+          "If I study, I will pass.",
+          "If I studied, I would pass.",
+          "If I had studied, I would have passed.",
+          "If I study, I pass."
+        ],
+        "answer": "If I had studied, I would have passed.",
+        "feedback": "Correct! The third conditional deals with unfulfilled past conditionals.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does the subjunctive mood typically express in English?",
+        "options": [
+          "Certain factual truths",
+          "Wishes, hypotheses, or counterfactual scenarios",
+          "Past chronological actions",
+          "Direct imperative commands"
+        ],
+        "answer": "Wishes, hypotheses, or counterfactual scenarios",
+        "feedback": "Spot on! The subjunctive expresses non-factual moods.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following subjunctive sentence aloud:",
+        "options": [],
+        "answer": "It is crucial that every stakeholder be present at the board meeting.",
+        "feedback": "Impeccable subjunctive mood delivery.",
+        "word": "It is crucial that every stakeholder be present at the board meeting.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the conditional sentence and identify its conditional type.",
+        "options": [
+          "First conditional (real future)",
+          "Second conditional (hypothetical present)",
+          "Third conditional (past counterfactual)",
+          "Zero conditional (general truth)"
+        ],
+        "answer": "Second conditional (hypothetical present)",
+        "feedback": "Correct, it uses past tense for a hypothetical present scenario.",
+        "word": "",
+        "audioText": "If the corporation invested in renewable energy, its carbon footprint would decrease significantly.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Complete the third conditional sentence: 'If she had known, she _____ attended.'",
+        "options": [],
+        "answer": "would have",
+        "feedback": "Correct! 'would have' completes the third conditional structure.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "Which sentence demonstrates an inverted conditional structure?",
+        "options": [
+          "If you should need assistance, please contact support.",
+          "Should you need assistance, please contact support.",
+          "You should need assistance, please contact support.",
+          "Assistance should you need, please contact support."
+        ],
+        "answer": "Should you need assistance, please contact support.",
+        "feedback": "Correct, inversion replaces 'if' formally.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the grammatical term: s, u, b, j, u, n, c, t, i, v, e",
+        "options": [],
+        "answer": "subjunctive",
+        "feedback": "Correct, spells 'subjunctive'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "s",
+          "u",
+          "b",
+          "j",
+          "u",
+          "n",
+          "c",
+          "t",
+          "i",
+          "v",
+          "e"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and identify the hypothetical nuance.",
+        "options": [
+          "Past regret / Unrealized past",
+          "Future certainty",
+          "Present habit",
+          "Past routine"
+        ],
+        "answer": "Past regret / Unrealized past",
+        "feedback": "Correct, it reflects on a missed past possibility.",
+        "word": "",
+        "audioText": "Had we anticipated the market shift, we would have diversified our portfolio earlier.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following advanced conditional sentence aloud:",
+        "options": [],
+        "answer": "Were the proposal approved, implementation would commence immediately.",
+        "feedback": "Outstanding formal conditional reading.",
+        "word": "Were the proposal approved, implementation would commence immediately.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does 'supposing that' function as in formal discourse?",
+        "options": [
+          "A causal connector",
+          "A conditional hypothesis introducer",
+          "A chronological marker",
+          "A temporal adverb"
+        ],
+        "answer": "A conditional hypothesis introducer",
+        "feedback": "Correct, it introduces a hypothetical condition similar to 'if'.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Rhetoric and Persuasion",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What rhetorical appeal relies on establishing the speaker's credibility and character?",
+        "options": [
+          "Ethos",
+          "Pathos",
+          "Logos",
+          "Chronos"
+        ],
+        "answer": "Ethos",
+        "feedback": "Correct! Ethos refers to credibility and ethics.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which persuasive appeal targets the audience's emotions and sympathies?",
+        "options": [
+          "Logos",
+          "Ethos",
+          "Pathos",
+          "Kairos"
+        ],
+        "answer": "Pathos",
+        "feedback": "Spot on! Pathos appeals to emotion.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following rhetorical term aloud:",
+        "options": [],
+        "answer": "Rhetorical efficacy",
+        "feedback": "Clear pronunciation.",
+        "word": "Rhetorical efficacy",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the speech excerpt and identify the primary rhetorical appeal used.",
+        "options": [
+          "Ethos",
+          "Logos",
+          "Pathos",
+          "Bathos"
+        ],
+        "answer": "Logos",
+        "feedback": "Correct, the speaker relies on logical evidence and statistics.",
+        "word": "",
+        "audioText": "According to peer-reviewed clinical data, renewable energy adoption reduces carbon emissions by 40 percent.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the 5-letter Greek rhetorical term meaning appeal to logic and reason.",
+        "options": [],
+        "answer": "logos",
+        "feedback": "Correct! Logos is the appeal to logic.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is a rhetorical question?",
+        "options": [
+          "A question asked to provoke thought without expecting an answer",
+          "An exam question with multiple choices",
+          "A police interrogation question",
+          "A technical query sent to customer service"
+        ],
+        "answer": "A question asked to provoke thought without expecting an answer",
+        "feedback": "Correct, rhetorical questions make a point rather than seek information.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the rhetorical term: p, e, r, s, u, a, s, i, o, n",
+        "options": [],
+        "answer": "persuasion",
+        "feedback": "Correct, spells 'persuasion'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "p",
+          "e",
+          "r",
+          "s",
+          "u",
+          "a",
+          "s",
+          "i",
+          "o",
+          "n"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the speech opening and identify the persuasive strategy.",
+        "options": [
+          "Establishing ethos through shared values",
+          "Using emotional fear appeal",
+          "Presenting dry financial spreadsheets",
+          "Making direct demands"
+        ],
+        "answer": "Establishing ethos through shared values",
+        "feedback": "Correct, the speaker builds trust and credibility.",
+        "word": "",
+        "audioText": "As lifelong residents of this community, we share a deep commitment to preserving our local heritage.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following persuasive statement aloud:",
+        "options": [],
+        "answer": "Can we truly afford to ignore the mounting evidence of climate degradation?",
+        "feedback": "Excellent delivery of a rhetorical question.",
+        "word": "Can we truly afford to ignore the mounting evidence of climate degradation?",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does 'kairos' refer to in classical rhetoric?",
+        "options": [
+          "The opportune or supreme moment for action or speech",
+          "The physical location of a debate",
+          "The chronological duration of a speech",
+          "The alphabetical order of arguments"
+        ],
+        "answer": "The opportune or supreme moment for action or speech",
+        "feedback": "Correct, kairos emphasizes timing and context.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Synthesis and Technical Writing",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is the primary goal of an executive summary in a technical report?",
+        "options": [
+          "To provide a concise overview of the document's key findings and recommendations for busy readers",
+          "To list every single raw data point and citation",
+          "To act as a personal biography of the author",
+          "To provide copyright and legal disclaimers"
+        ],
+        "answer": "To provide a concise overview of the document's key findings and recommendations for busy readers",
+        "feedback": "Correct! Executive summaries condense complex reports.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "When synthesizing multiple research sources, what should the writer do?",
+        "options": [
+          "Copy each source word-for-word without citation",
+          "Integrate and connect themes across sources to form a cohesive argument",
+          "List sources in reverse chronological order only",
+          "Contradict all previous literature"
+        ],
+        "answer": "Integrate and connect themes across sources to form a cohesive argument",
+        "feedback": "Spot on! Synthesis combines sources into a unified perspective.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following technical writing statement aloud:",
+        "options": [],
+        "answer": "The architectural framework integrates scalable microservices with fault-tolerant cloud infrastructure.",
+        "feedback": "Professional and crisp delivery.",
+        "word": "The architectural framework integrates scalable microservices with fault-tolerant cloud infrastructure.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the report snippet and identify the document section it belongs to.",
+        "options": [
+          "Methodology section",
+          "Title page",
+          "Appendix",
+          "Table of contents"
+        ],
+        "answer": "Methodology section",
+        "feedback": "Correct, it outlines the experimental steps.",
+        "word": "",
+        "audioText": "Data was collected via double-blind trials and analyzed using multivariate regression models.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for combining diverse sources or ideas into a coherent whole starting with 's'.",
+        "options": [],
+        "answer": "synthesis",
+        "feedback": "Correct! Synthesis integrates information.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "Why is objective, passive or neutral tone preferred in technical documentation?",
+        "options": [
+          "To eliminate personal bias and focus purely on empirical facts",
+          "To make the text as long as possible",
+          "To hide the author's identity",
+          "To make reading more difficult"
+        ],
+        "answer": "To eliminate personal bias and focus purely on empirical facts",
+        "feedback": "Correct, technical writing prioritizes objectivity.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the technical writing term: m, e, t, h, o, d, o, l, o, g, y",
+        "options": [],
+        "answer": "methodology",
+        "feedback": "Correct, spells 'methodology'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "m",
+          "e",
+          "t",
+          "h",
+          "o",
+          "d",
+          "o",
+          "l",
+          "o",
+          "g",
+          "y"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the recommendation excerpt and identify its purpose.",
+        "options": [
+          "Actionable corporate recommendation",
+          "Historical background",
+          "Personal anecdote",
+          "Book review"
+        ],
+        "answer": "Actionable corporate recommendation",
+        "feedback": "Correct, it advises specific next steps.",
+        "word": "",
+        "audioText": "Based on these findings, we recommend upgrading server clusters before the third quarter.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following technical abstract sentence aloud:",
+        "options": [],
+        "answer": "This paper evaluates the efficacy of decentralized cryptographic protocols in financial transactions.",
+        "feedback": "Exceptional academic reading.",
+        "word": "This paper evaluates the efficacy of decentralized cryptographic protocols in financial transactions.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What is the primary function of an appendix in a technical report?",
+        "options": [
+          "To provide supplementary data, charts, and raw materials without cluttering the main text",
+          "To list the table of contents",
+          "To thank the publisher",
+          "To state the author's biography"
+        ],
+        "answer": "To provide supplementary data, charts, and raw materials without cluttering the main text",
+        "feedback": "Correct, appendices hold supplementary details.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Public Speaking and Oratory",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What vocal technique involves intentional pausing to emphasize a key point during a speech?",
+        "options": [
+          "Rapid fire delivery",
+          "Dramatic pause / Caesura",
+          "Monotone pitch",
+          "Whispering"
+        ],
+        "answer": "Dramatic pause / Caesura",
+        "feedback": "Correct! Strategic pausing commands attention.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Why is modulation of vocal pitch important in public speaking?",
+        "options": [
+          "It prevents listener fatigue and highlights emotional shifts",
+          "It makes the speech completely uniform",
+          "It lowers microphone volume",
+          "It confuses the audience"
+        ],
+        "answer": "It prevents listener fatigue and highlights emotional shifts",
+        "feedback": "Spot on! Pitch variation maintains audience engagement.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following opening address aloud with confidence:",
+        "options": [],
+        "answer": "Distinguished guests, ladies and gentlemen, welcome to today's historic symposium.",
+        "feedback": "Strong oratory delivery and projection.",
+        "word": "Distinguished guests, ladies and gentlemen, welcome to today's historic symposium.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the speech snippet and identify the speaker's tone.",
+        "options": [
+          "Inspiring and visionary",
+          "Sarcastic and dismissive",
+          "Apologetic and timid",
+          "Monotonous and dull"
+        ],
+        "answer": "Inspiring and visionary",
+        "feedback": "Correct, the tone conveys inspiration and vision.",
+        "word": "",
+        "audioText": "Together, we possess the ingenuity and determination to shape a remarkable future.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for the projection and clarity of voice in public speaking starting with 'a'.",
+        "options": [],
+        "answer": "articulation",
+        "feedback": "Correct! Articulation ensures clear speech.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is non-verbal immediacy in oratory?",
+        "options": [
+          "Using body language, eye contact, and posture to connect with the audience",
+          "Reading straight from a paper without looking up",
+          "Standing completely rigid at the podium",
+          "Speaking as fast as possible"
+        ],
+        "answer": "Using body language, eye contact, and posture to connect with the audience",
+        "feedback": "Correct, non-verbal cues enhance speaker presence.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the oratory term: o, r, a, t, o, r, y",
+        "options": [],
+        "answer": "oratory",
+        "feedback": "Correct, spells 'oratory'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "o",
+          "r",
+          "a",
+          "t",
+          "o",
+          "r",
+          "y"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the transition sentence and identify its structural function.",
+        "options": [
+          "Moving to a new main point",
+          "Concluding the presentation",
+          "Introducing the speaker",
+          "Answering a question"
+        ],
+        "answer": "Moving to a new main point",
+        "feedback": "Correct, it bridges sections smoothly.",
+        "word": "",
+        "audioText": "Having examined the financial data, let us now turn our attention to operational strategy.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following concluding call to action aloud:",
+        "options": [],
+        "answer": "Let us commit today to building a legacy of excellence and innovation.",
+        "feedback": "Powerful and inspiring reading.",
+        "word": "Let us commit today to building a legacy of excellence and innovation.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does extemporaneous speaking involve?",
+        "options": [
+          "Speaking conversationally from prepared notes or outlines rather than memorizing word-for-word",
+          "Reading an essay verbatim without eye contact",
+          "Improvising completely without any preparation whatsoever",
+          "Acting in a theatrical play"
+        ],
+        "answer": "Speaking conversationally from prepared notes or outlines rather than memorizing word-for-word",
+        "feedback": "Correct, extemporaneous delivery is prepared yet natural.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Weekly Assessment Intermediate 3",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which conditional structure expresses an unfulfilled past counterfactual scenario?",
+        "options": [
+          "First conditional",
+          "Second conditional",
+          "Third conditional",
+          "Zero conditional"
+        ],
+        "answer": "Third conditional",
+        "feedback": "Correct, third conditional handles past counterfactuals.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What rhetorical appeal relies on logic and data?",
+        "options": [
+          "Ethos",
+          "Pathos",
+          "Logos",
+          "Kairos"
+        ],
+        "answer": "Logos",
+        "feedback": "Correct, logos is the appeal to logic.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following advanced technical sentence aloud:",
+        "options": [],
+        "answer": "Had the preliminary simulation succeeded, the deployment would have proceeded.",
+        "feedback": "Impeccable reading fluency.",
+        "word": "Had the preliminary simulation succeeded, the deployment would have proceeded.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the audio and identify the rhetorical appeal used.",
+        "options": [
+          "Ethos",
+          "Pathos",
+          "Logos",
+          "Bathos"
+        ],
+        "answer": "Ethos",
+        "feedback": "Correct, the audio established credibility.",
+        "word": "",
+        "audioText": "Drawing upon two decades of meteorological research, our findings are definitive.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for combining diverse sources into a unified whole.",
+        "options": [],
+        "answer": "synthesis",
+        "feedback": "Correct! Synthesis.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is the primary purpose of an executive summary?",
+        "options": [
+          "To provide a concise overview of key findings for busy readers",
+          "To list raw bibliographic data",
+          "To state personal opinions",
+          "To provide legal disclaimers"
+        ],
+        "answer": "To provide a concise overview of key findings for busy readers",
+        "feedback": "Correct, executive summaries summarize reports.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the rhetorical term: r, h, e, t, o, r, i, c",
+        "options": [],
+        "answer": "rhetoric",
+        "feedback": "Correct, spells 'rhetoric'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "r",
+          "h",
+          "e",
+          "t",
+          "o",
+          "r",
+          "i",
+          "c"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the speech opening and identify the public speaking technique.",
+        "options": [
+          "Strategic dramatic pause",
+          "Extemporaneous delivery",
+          "Vocal projection",
+          "Non-verbal immediacy"
+        ],
+        "answer": "Strategic dramatic pause",
+        "feedback": "Correct, it highlights emphasis through pausing.",
+        "word": "",
+        "audioText": "Innovation [pause] is what separates leaders from followers.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following oratory transition aloud:",
+        "options": [],
+        "answer": "Let us now examine the empirical evidence supporting this assertion.",
+        "feedback": "Professional oratory delivery.",
+        "word": "Let us now examine the empirical evidence supporting this assertion.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does extemporaneous speaking mean?",
+        "options": [
+          "Speaking conversationally from prepared outlines rather than memorizing word-for-word",
+          "Reading verbatim",
+          "Improvising without preparation",
+          "Acting in drama"
+        ],
+        "answer": "Speaking conversationally from prepared outlines rather than memorizing word-for-word",
+        "feedback": "Correct, extemporaneous delivery is prepared and natural.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Stylistics and Literary Devices",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What literary device is used in the phrase 'The whispering wind whispered secrets'?",
+        "options": [
+          "Personification",
+          "Onomatopoeia",
+          "Hyperbole",
+          "Oxymoron"
+        ],
+        "answer": "Personification",
+        "feedback": "Correct! Personification gives human traits to non-human things.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is an oxymoron?",
+        "options": [
+          "A figure of speech containing words that seem to contradict each other (e.g., 'deafening silence')",
+          "An extreme exaggeration for effect",
+          "A direct comparison using like or as",
+          "A reference to a historical event"
+        ],
+        "answer": "A figure of speech containing words that seem to contradict each other (e.g., 'deafening silence')",
+        "feedback": "Spot on! Oxymorons combine contradictory terms.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following literary sentence aloud:",
+        "options": [],
+        "answer": "The old mansion stood as a silent witness to decades of forgotten history.",
+        "feedback": "Evocative and expressive reading.",
+        "word": "The old mansion stood as a silent witness to decades of forgotten history.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the literary excerpt and identify the figure of speech.",
+        "options": [
+          "Metaphor",
+          "Simile",
+          "Hyperbole",
+          "Alliteration"
+        ],
+        "answer": "Hyperbole",
+        "feedback": "Correct, it uses extreme exaggeration for rhetorical effect.",
+        "word": "",
+        "audioText": "I have told you to clean your desk a million times.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the literary term for the repetition of the same initial consonant sounds in neighboring words.",
+        "options": [],
+        "answer": "alliteration",
+        "feedback": "Correct! Alliteration repeats consonant sounds.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is the difference between a simile and a metaphor?",
+        "options": [
+          "A simile compares using 'like' or 'as', while a metaphor makes a direct comparison without them",
+          "A metaphor is always longer than a simile",
+          "A simile is only used in poetry",
+          "There is no difference"
+        ],
+        "answer": "A simile compares using 'like' or 'as', while a metaphor makes a direct comparison without them",
+        "feedback": "Correct, similes use 'like/as' whereas metaphors do not.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the literary term: m, e, t, a, p, h, o, r",
+        "options": [],
+        "answer": "metaphor",
+        "feedback": "Correct, spells 'metaphor'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "m",
+          "e",
+          "t",
+          "a",
+          "p",
+          "h",
+          "o",
+          "r"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the line and identify the stylistic device.",
+        "options": [
+          "Onomatopoeia",
+          "Alliteration",
+          "Assonance",
+          "Irony"
+        ],
+        "answer": "Onomatopoeia",
+        "feedback": "Correct, the words imitate natural sounds.",
+        "word": "",
+        "audioText": "The bees buzzed and the thunder crashed across the valley.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following poetic sentence aloud:",
+        "options": [],
+        "answer": "Her smile was as radiant as the morning sun breaking through the mist.",
+        "feedback": "Beautiful poetic delivery.",
+        "word": "Her smile was as radiant as the morning sun breaking through the mist.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does situational irony involve?",
+        "options": [
+          "An outcome that is contrary to what was expected",
+          "Saying something you do not mean",
+          "The audience knowing something characters do not",
+          "A humorous pun"
+        ],
+        "answer": "An outcome that is contrary to what was expected",
+        "feedback": "Correct, situational irony subverts expectations.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Critical Thinking and Argumentation",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is a logical fallacy?",
+        "options": [
+          "A flaw in reasoning that weakens an argument",
+          "An undeniable scientific fact",
+          "A verified mathematical proof",
+          "A direct quotation from a scholar"
+        ],
+        "answer": "A flaw in reasoning that weakens an argument",
+        "feedback": "Correct! Logical fallacies undermine the validity of arguments.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does the 'ad hominem' fallacy involve?",
+        "options": [
+          "Attacking the opponent's character rather than addressing their argument",
+          "Assuming something is true because many people believe it",
+          "Presenting only two extreme alternatives",
+          "Drawing a hasty generalization"
+        ],
+        "answer": "Attacking the opponent's character rather than addressing their argument",
+        "feedback": "Spot on! Ad hominem attacks the person instead of the claim.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following critical reasoning sentence aloud:",
+        "options": [],
+        "answer": "Critical evaluation requires scrutinizing underlying assumptions rather than accepting claims at face value.",
+        "feedback": "Clear and thoughtful delivery.",
+        "word": "Critical evaluation requires scrutinizing underlying assumptions rather than accepting claims at face value.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the argument and identify the logical fallacy committed.",
+        "options": [
+          "Straw man fallacy",
+          "Slippery slope fallacy",
+          "Circular reasoning",
+          "False dilemma"
+        ],
+        "answer": "Slippery slope fallacy",
+        "feedback": "Correct, it assumes an unlikely chain reaction without proof.",
+        "word": "",
+        "audioText": "If we allow students to use calculators in grade school, soon no one will know basic math.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for an argument where the conclusion is assumed in the premises (circular reasoning) starting with 'b'.",
+        "options": [],
+        "answer": "begging",
+        "feedback": "Correct! Begging the question is circular reasoning.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is a 'straw man' fallacy?",
+        "options": [
+          "Misrepresenting an opponent's argument to make it easier to attack",
+          "Building a physical model of an argument",
+          "Using statistical data correctly",
+          "Agreeing with an opponent entirely"
+        ],
+        "answer": "Misrepresenting an opponent's argument to make it easier to attack",
+        "feedback": "Correct, straw man distorts the original argument.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the critical thinking term: f, a, l, l, a, c, y",
+        "options": [],
+        "answer": "fallacy",
+        "feedback": "Correct, spells 'fallacy'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "f",
+          "a",
+          "l",
+          "l",
+          "a",
+          "c",
+          "y"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the statement and identify the logical error.",
+        "options": [
+          "False dilemma / Either-or fallacy",
+          "Appeal to ignorance",
+          "Hasty generalization",
+          "Post hoc ergo propter hoc"
+        ],
+        "answer": "False dilemma / Either-or fallacy",
+        "feedback": "Correct, it falsely limits options to only two choices.",
+        "word": "",
+        "audioText": "Either we eliminate all regulations immediately, or our economy will collapse completely.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following philosophical premise aloud:",
+        "options": [],
+        "answer": "Sound argumentation demands empirical evidence combined with rigorous deductive validity.",
+        "feedback": "Exceptional academic reading.",
+        "word": "Sound argumentation demands empirical evidence combined with rigorous deductive validity.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does deductive reasoning involve?",
+        "options": [
+          "Starting with general premises to reach a logically certain conclusion",
+          "Making broad guesses from a single observation",
+          "Gathering emotional anecdotes",
+          "Ignoring contradictory evidence"
+        ],
+        "answer": "Starting with general premises to reach a logically certain conclusion",
+        "feedback": "Correct, deduction moves from general to specific with certainty.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Global English and Varieties",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What term describes English as a global lingua franca used across international borders?",
+        "options": [
+          "World Englishes / Global English",
+          "Obsolete English",
+          "Regional dialect only",
+          "Monolingual jargon"
+        ],
+        "answer": "World Englishes / Global English",
+        "feedback": "Correct! Global English serves as an international medium.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is the primary difference between American and British English spelling in words like 'color' vs 'colour'?",
+        "options": [
+          "American English simplified certain spellings (dropping 'u'), while British English retained traditional forms",
+          "British English uses numeric codes instead of letters",
+          "There is no difference",
+          "American English uses French spelling exclusively"
+        ],
+        "answer": "American English simplified certain spellings (dropping 'u'), while British English retained traditional forms",
+        "feedback": "Spot on! Noah Webster introduced US spelling reforms.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following sentence featuring cross-cultural vocabulary aloud:",
+        "options": [],
+        "answer": "Whether you refer to the automobile trunk or boot, international communication requires clarity.",
+        "feedback": "Clear and articulate delivery.",
+        "word": "Whether you refer to the automobile trunk or boot, international communication requires clarity.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the lexical variation (UK vs US English).",
+        "options": [
+          "Flat / Apartment",
+          "Elevator / Lift",
+          "Pavement / Sidewalk",
+          "All of the above"
+        ],
+        "answer": "All of the above",
+        "feedback": "Correct, vocabulary varies across English-speaking regions.",
+        "word": "",
+        "audioText": "Parked on the pavement near the apartment building entrance.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for a shared language used by speakers of different native languages starting with 'l'.",
+        "options": [],
+        "answer": "lingua",
+        "feedback": "Correct! Lingua franca is the bridge language.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is code-switching?",
+        "options": [
+          "Alternating between two or more languages or varieties in conversation",
+          "Writing computer programming code in English",
+          "Translating documents using machine software",
+          "Changing passwords frequently"
+        ],
+        "answer": "Alternating between two or more languages or varieties in conversation",
+        "feedback": "Correct, bilinguals frequently code-switch.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the linguistic term: d, i, a, l, e, c, t",
+        "options": [],
+        "answer": "dialect",
+        "feedback": "Correct, spells 'dialect'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "d",
+          "i",
+          "a",
+          "l",
+          "e",
+          "c",
+          "t"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the excerpt and identify the linguistic concept.",
+        "options": [
+          "Phonetic variation / Accent",
+          "Grammatical error",
+          "Vocabulary obsolescence",
+          "Syntax inversion"
+        ],
+        "answer": "Phonetic variation / Accent",
+        "feedback": "Correct, it reflects regional phonetic pronunciation.",
+        "word": "",
+        "audioText": "Regional accents demonstrate the rich phonetic diversity of global English.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following multilingual society sentence aloud:",
+        "options": [],
+        "answer": "Multilingual competence enhances intercultural understanding in our interconnected world.",
+        "feedback": "Wonderful cadence.",
+        "word": "Multilingual competence enhances intercultural understanding in our interconnected world.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What characterizes a pidgin language?",
+        "options": [
+          "A simplified contact language developed to enable communication between groups with different native languages",
+          "An ancient dead language",
+          "A programming language used in artificial intelligence",
+          "A strictly monolingual dialect"
+        ],
+        "answer": "A simplified contact language developed to enable communication between groups with different native languages",
+        "feedback": "Correct, pidgins emerge as trade/contact languages.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Weekly Assessment Intermediate 4",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What literary device is used in 'The wind whispered through the trees'?",
+        "options": [
+          "Personification",
+          "Hyperbole",
+          "Oxymoron",
+          "Onomatopoeia"
+        ],
+        "answer": "Personification",
+        "feedback": "Correct, personification gives human traits.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is an 'ad hominem' logical fallacy?",
+        "options": [
+          "Attacking the person instead of the argument",
+          "Circular reasoning",
+          "False dilemma",
+          "Slippery slope"
+        ],
+        "answer": "Attacking the person instead of the argument",
+        "feedback": "Correct, ad hominem targets the individual.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following critical analysis sentence aloud:",
+        "options": [],
+        "answer": "Recognizing logical fallacies is essential for rigorous critical thinking.",
+        "feedback": "Clear and polished reading.",
+        "word": "Recognizing logical fallacies is essential for rigorous critical thinking.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the audio and identify the literary device used.",
+        "options": [
+          "Hyperbole",
+          "Simile",
+          "Metaphor",
+          "Alliteration"
+        ],
+        "answer": "Hyperbole",
+        "feedback": "Correct, the audio used exaggeration.",
+        "word": "",
+        "audioText": "I have waited in this queue for an eternity.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for a shared global bridge language starting with 'l'.",
+        "options": [],
+        "answer": "lingua",
+        "feedback": "Correct! Lingua franca.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is code-switching?",
+        "options": [
+          "Alternating between languages or dialects in conversation",
+          "Writing software code",
+          "Translating texts",
+          "Changing passwords"
+        ],
+        "answer": "Alternating between languages or dialects in conversation",
+        "feedback": "Correct, switching between language varieties.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the literary term: o, x, y, m, o, r, o, n",
+        "options": [],
+        "answer": "oxymoron",
+        "feedback": "Correct, spells 'oxymoron'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "o",
+          "x",
+          "y",
+          "m",
+          "o",
+          "r",
+          "o",
+          "n"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the premise and identify the logical fallacy.",
+        "options": [
+          "False dilemma",
+          "Ad hominem",
+          "Straw man",
+          "Slippery slope"
+        ],
+        "answer": "False dilemma",
+        "feedback": "Correct, it presents only two extremes.",
+        "word": "",
+        "audioText": "Either you support our exact policy, or you are entirely against progress.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following global English sentence aloud:",
+        "options": [],
+        "answer": "Global Englishes reflect the vibrant linguistic diversity of our modern world.",
+        "feedback": "Wonderful articulation.",
+        "word": "Global Englishes reflect the vibrant linguistic diversity of our modern world.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which assessment module milestone does this represent?",
+        "options": [
+          "Intermediate Assessment 4",
+          "Beginner Test",
+          "Final Exam",
+          "Basic Review"
+        ],
+        "answer": "Intermediate Assessment 4",
+        "feedback": "Correct, this concludes the fourth intermediate module cluster.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Editing and Proofreading",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is the primary difference between editing and proofreading?",
+        "options": [
+          "Editing focuses on content, structure, and flow, while proofreading focuses on surface-level grammar, spelling, and punctuation errors",
+          "Proofreading is done before writing the draft",
+          "Editing only checks for spelling typos",
+          "There is no difference"
+        ],
+        "answer": "Editing focuses on content, structure, and flow, while proofreading focuses on surface-level grammar, spelling, and punctuation errors",
+        "feedback": "Correct! Editing deals with substance, proofreading with final polish.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does a dangling modifier cause in a sentence?",
+        "options": [
+          "Grammatical ambiguity because the modifier does not logically connect to the intended subject",
+          "Improved sentence flow and clarity",
+          "A correct passive voice construction",
+          "Proper punctuation formatting"
+        ],
+        "answer": "Grammatical ambiguity because the modifier does not logically connect to the intended subject",
+        "feedback": "Spot on! Dangling modifiers detach from their subjects.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following corrected sentence aloud:",
+        "options": [],
+        "answer": "Thorough proofreading ensures absolute accuracy before manuscript publication.",
+        "feedback": "Clear and professional delivery.",
+        "word": "Thorough proofreading ensures absolute accuracy before manuscript publication.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the grammatical error present.",
+        "options": [
+          "Dangling modifier",
+          "Subject-verb agreement error",
+          "Run-on sentence",
+          "Incorrect tense"
+        ],
+        "answer": "Subject-verb agreement error",
+        "feedback": "Correct, the plural subject mismatched with the singular verb.",
+        "word": "",
+        "audioText": "The list of qualified candidates were reviewed by the hiring committee.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for checking final text for typos and punctuation errors starting with 'p'.",
+        "options": [],
+        "answer": "proofreading",
+        "feedback": "Correct! Proofreading.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "How do you fix a comma splice error?",
+        "options": [
+          "By replacing the comma with a semicolon, period, or adding a coordinating conjunction",
+          "By adding more commas",
+          "By removing all punctuation",
+          "By capitalizing every word"
+        ],
+        "answer": "By replacing the comma with a semicolon, period, or adding a coordinating conjunction",
+        "feedback": "Correct, comma splices improperly join independent clauses.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the editing term: p, u, n, c, t, u, a, t, i, o, n",
+        "options": [],
+        "answer": "punctuation",
+        "feedback": "Correct, spells 'punctuation'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "p",
+          "u",
+          "n",
+          "c",
+          "t",
+          "u",
+          "a",
+          "t",
+          "i",
+          "o",
+          "n"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the stylistic improvement needed.",
+        "options": [
+          "Eliminating wordiness / Redundancy",
+          "Fixing a spelling typo",
+          "Adding a comma splice",
+          "Changing active to passive"
+        ],
+        "answer": "Eliminating wordiness / Redundancy",
+        "feedback": "Correct, the sentence contains unnecessary repetition.",
+        "word": "",
+        "audioText": "The consensus of opinion among the committee members was unanimous agreement.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following editorial sentence aloud:",
+        "options": [],
+        "answer": "Eliminating redundancy enhances both clarity and brevity in professional prose.",
+        "feedback": "Wonderful reading pace.",
+        "word": "Eliminating redundancy enhances both clarity and brevity in professional prose.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What is passive voice and when is it typically discouraged?",
+        "options": [
+          "When the object receives the action, often discouraged in favor of active voice for directness and vigor",
+          "When the subject performs the action directly",
+          "When writing poetry",
+          "When using exclamation marks"
+        ],
+        "answer": "When the object receives the action, often discouraged in favor of active voice for directness and vigor",
+        "feedback": "Correct, active voice is usually more direct.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Cross-Cultural Pragmatics",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What does 'pragmatics' study in linguistics?",
+        "options": [
+          "How context contributes to meaning and how language is used in social interactions",
+          "Strict dictionary definitions only",
+          "Grammatical spelling rules",
+          "Phonetic sound waves"
+        ],
+        "answer": "How context contributes to meaning and how language is used in social interactions",
+        "feedback": "Correct! Pragmatics examines context-dependent meaning.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is the difference between high-context and low-context cultures in communication?",
+        "options": [
+          "High-context cultures rely on shared background and non-verbal cues, while low-context cultures rely on explicit, direct verbal communication",
+          "High-context cultures speak only in writing",
+          "Low-context cultures avoid speaking entirely",
+          "There is no difference"
+        ],
+        "answer": "High-context cultures rely on shared background and non-verbal cues, while low-context cultures rely on explicit, direct verbal communication",
+        "feedback": "Spot on! Context levels dictate explicitness.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following cross-cultural communication sentence aloud:",
+        "options": [],
+        "answer": "Intercultural competence requires sensitivity to differing pragmatic norms and social expectations.",
+        "feedback": "Clear and thoughtful delivery.",
+        "word": "Intercultural competence requires sensitivity to differing pragmatic norms and social expectations.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the interaction and identify the pragmatic failure or nuance.",
+        "options": [
+          "Directness perceived as rudeness across cultural norms",
+          "Grammatical spelling typo",
+          "Mathematical miscalculation",
+          "Pronunciation accent"
+        ],
+        "answer": "Directness perceived as rudeness across cultural norms",
+        "feedback": "Correct, differing directness norms cause miscommunication.",
+        "word": "",
+        "audioText": "Giving blunt feedback in a high-context business environment can unintentionally cause offense.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the 9-letter term for the study of language in social context starting with 'p'.",
+        "options": [],
+        "answer": "pragmatics",
+        "feedback": "Correct! Pragmatics studies contextual meaning.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What are speech acts in pragmatics?",
+        "options": [
+          "Utterances that perform an action, such as promising, apologizing, or requesting",
+          "Theatrical performances on stage",
+          "Grammatical verb conjugations",
+          "Dictionary definitions"
+        ],
+        "answer": "Utterances that perform an action, such as promising, apologizing, or requesting",
+        "feedback": "Correct, speech acts perform social functions.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the pragmatics term: c, o, n, t, e, x, t",
+        "options": [],
+        "answer": "context",
+        "feedback": "Correct, spells 'context'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "c",
+          "o",
+          "n",
+          "t",
+          "e",
+          "x",
+          "t"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the polite request and identify its indirect pragmatic strategy.",
+        "options": [
+          "Mitigated request / Politeness marker",
+          "Direct command",
+          "Rude demand",
+          "Threat"
+        ],
+        "answer": "Mitigated request / Politeness marker",
+        "feedback": "Correct, indirect phrasing softens requests for politeness.",
+        "word": "",
+        "audioText": "I wonder if you might possibly be able to review this report by tomorrow?",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following pragmatic politeness sentence aloud:",
+        "options": [],
+        "answer": "Politeness strategies vary significantly across different linguistic and cultural communities.",
+        "feedback": "Wonderful reading pace.",
+        "word": "Politeness strategies vary significantly across different linguistic and cultural communities.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does 'face' refer to in sociolinguistics and pragmatics?",
+        "options": [
+          "A person's self-esteem, public image, and social standing in interactions",
+          "Facial expressions during speech",
+          "The cover page of a book",
+          "Physical anatomy"
+        ],
+        "answer": "A person's self-esteem, public image, and social standing in interactions",
+        "feedback": "Correct, face-saving is vital in interpersonal communication.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Professional Networking and Negotiation",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is a 'win-win' negotiation strategy?",
+        "options": [
+          "An approach where both parties collaborate to find a mutually beneficial outcome",
+          "An approach where one party crushes the opponent completely",
+          "Walking away from the table immediately",
+          "Allowing the other party to take all concessions"
+        ],
+        "answer": "An approach where both parties collaborate to find a mutually beneficial outcome",
+        "feedback": "Correct! Win-win creates sustainable agreements.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does BATNA stand for in negotiation theory?",
+        "options": [
+          "Best Alternative To a Negotiated Agreement",
+          "Basic Technical Negotiation Assessment",
+          "Business Agreement Tracking Network Authority",
+          "Broad Trade Negotiation Alliance"
+        ],
+        "answer": "Best Alternative To a Negotiated Agreement",
+        "feedback": "Spot on! BATNA represents your fallback option.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following professional negotiation statement aloud:",
+        "options": [],
+        "answer": "Effective networking requires building genuine relationships rather than merely collecting contacts.",
+        "feedback": "Professional and confident delivery.",
+        "word": "Effective networking requires building genuine relationships rather than merely collecting contacts.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the negotiation excerpt and identify the tactic used.",
+        "options": [
+          "Concession trade-off / Compromise",
+          "Aggressive ultimatum",
+          "Abrupt walkout",
+          "Total surrender"
+        ],
+        "answer": "Concession trade-off / Compromise",
+        "feedback": "Correct, it proposes trading concessions.",
+        "word": "",
+        "audioText": "If you can adjust the delivery timeline, we are prepared to increase our volume commitment.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the 5-letter business networking term for building mutually beneficial professional relationships.",
+        "options": [],
+        "answer": "value",
+        "feedback": "Correct! Providing value is key to networking.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is an 'elevator pitch' in professional networking?",
+        "options": [
+          "A brief, persuasive introduction summarizing who you are and what you offer within 30 seconds",
+          "A speech given inside an elevator shaft",
+          "A detailed two-hour corporate presentation",
+          "A financial budget report"
+        ],
+        "answer": "A brief, persuasive introduction summarizing who you are and what you offer within 30 seconds",
+        "feedback": "Correct, elevator pitches are concise self-introductions.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the negotiation term: c, o, n, c, e, s, s, i, o, n",
+        "options": [],
+        "answer": "concession",
+        "feedback": "Correct, spells 'concession'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "c",
+          "o",
+          "n",
+          "c",
+          "e",
+          "s",
+          "s",
+          "i",
+          "o",
+          "n"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the networking introduction and evaluate its effectiveness.",
+        "options": [
+          "Concise, engaging, and clear value proposition",
+          "Overly verbose and confusing",
+          "Rude and demanding",
+          "Irrelevant and off-topic"
+        ],
+        "answer": "Concise, engaging, and clear value proposition",
+        "feedback": "Correct, it effectively communicates professional value.",
+        "word": "",
+        "audioText": "Hi, I'm Elena; I help tech startups scale their engineering teams through streamlined recruitment strategies.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following contract negotiation sentence aloud:",
+        "options": [],
+        "answer": "Establishing clear boundaries and identifying our BATNA strengthened our negotiating position.",
+        "feedback": "Excellent professional tone.",
+        "word": "Establishing clear boundaries and identifying our BATNA strengthened our negotiating position.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What is the primary danger of anchoring in negotiation?",
+        "options": [
+          "Allowing an initial extreme offer to unfairly skew the negotiation baseline",
+          "Throwing an anchor into the water",
+          "Forgetting to sign the contract",
+          "Speaking too quietly"
+        ],
+        "answer": "Allowing an initial extreme offer to unfairly skew the negotiation baseline",
+        "feedback": "Correct, anchoring sets psychological price bounds.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Weekly Assessment Intermediate 5",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is the primary difference between editing and proofreading?",
+        "options": [
+          "Editing focuses on structure and flow, proofreading on surface-level grammar and typos",
+          "Proofreading is done first",
+          "Editing only checks spelling",
+          "No difference"
+        ],
+        "answer": "Editing focuses on structure and flow, proofreading on surface-level grammar and typos",
+        "feedback": "Correct, editing deals with substance and proofreading with polish.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What does pragmatics study in linguistics?",
+        "options": [
+          "Context-dependent meaning and language use in social interaction",
+          "Spelling rules",
+          "Dictionary definitions",
+          "Phonetics"
+        ],
+        "answer": "Context-dependent meaning and language use in social interaction",
+        "feedback": "Correct, pragmatics studies context in language.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following advanced editing sentence aloud:",
+        "options": [],
+        "answer": "Rigorous proofreading and cross-cultural pragmatics ensure flawless professional communication.",
+        "feedback": "Clear and polished reading.",
+        "word": "Rigorous proofreading and cross-cultural pragmatics ensure flawless professional communication.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the audio and identify the negotiation concept used.",
+        "options": [
+          "BATNA",
+          "Elevator pitch",
+          "Comma splice",
+          "Dangling modifier"
+        ],
+        "answer": "BATNA",
+        "feedback": "Correct, the audio mentioned BATNA.",
+        "word": "",
+        "audioText": "Knowing our BATNA gave us leverage during the contract negotiations.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for checking final text for typos starting with 'p'.",
+        "options": [],
+        "answer": "proofreading",
+        "feedback": "Correct! Proofreading.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What does BATNA stand for?",
+        "options": [
+          "Best Alternative To a Negotiated Agreement",
+          "Basic Technical Network Agreement",
+          "Business Trade Negotiation Alliance",
+          "Broad Task Network Analysis"
+        ],
+        "answer": "Best Alternative To a Negotiated Agreement",
+        "feedback": "Correct, BATNA is your fallback option.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the pragmatics term: p, r, a, g, m, a, t, i, c, s",
+        "options": [],
+        "answer": "pragmatics",
+        "feedback": "Correct, spells 'pragmatics'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "p",
+          "r",
+          "a",
+          "g",
+          "m",
+          "a",
+          "t",
+          "i",
+          "c",
+          "s"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the sentence and identify the error type corrected.",
+        "options": [
+          "Dangling modifier",
+          "Comma splice",
+          "Subject-verb disagreement",
+          "Spelling typo"
+        ],
+        "answer": "Dangling modifier",
+        "feedback": "Correct, modifier attachment was corrected.",
+        "word": "",
+        "audioText": "Walking into the office, the presentation files were immediately reviewed.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following networking sentence aloud:",
+        "options": [],
+        "answer": "An effective elevator pitch establishes immediate professional value.",
+        "feedback": "Wonderful articulation.",
+        "word": "An effective elevator pitch establishes immediate professional value.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which assessment module milestone does this represent?",
+        "options": [
+          "Intermediate Assessment 5",
+          "Beginner Assessment",
+          "Final Exam",
+          "Basic Test"
+        ],
+        "answer": "Intermediate Assessment 5",
+        "feedback": "Correct, this concludes the fifth intermediate module cluster.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Leadership and Crisis Communication",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is the primary objective of crisis communication in an organization?",
+        "options": [
+          "To provide transparent, timely, and reassuring information to stakeholders while mitigating reputational damage",
+          "To hide all information from the public indefinitely",
+          "To blame subordinates for the crisis",
+          "To ignore media inquiries completely"
+        ],
+        "answer": "To provide transparent, timely, and reassuring information to stakeholders while mitigating reputational damage",
+        "feedback": "Correct! Transparency and timeliness are vital during crises.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What distinguishes transformational leadership from transactional leadership?",
+        "options": [
+          "Transformational leadership inspires and motivates followers through a shared vision, whereas transactional leadership focuses on supervision, rewards, and punishments",
+          "Transformational leadership only uses financial incentives",
+          "Transactional leadership is focused exclusively on artistic creativity",
+          "There is no difference"
+        ],
+        "answer": "Transformational leadership inspires and motivates followers through a shared vision, whereas transactional leadership focuses on supervision, rewards, and punishments",
+        "feedback": "Spot on! Transformational leaders inspire higher purpose.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following leadership statement aloud:",
+        "options": [],
+        "answer": "Effective crisis communication demands empathy, clarity, and decisive action from leadership.",
+        "feedback": "Strong and authoritative delivery.",
+        "word": "Effective crisis communication demands empathy, clarity, and decisive action from leadership.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the executive statement and identify its tone.",
+        "options": [
+          "Reassuring and accountable",
+          "Defensive and evasive",
+          "Indifferent and cold",
+          "Aggressive and hostile"
+        ],
+        "answer": "Reassuring and accountable",
+        "feedback": "Correct, the tone accepts responsibility and offers reassurance.",
+        "word": "",
+        "audioText": "We take full responsibility for this operational disruption, and our containment team is actively resolving the issue.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the term for leadership that inspires followers through vision starting with 't'.",
+        "options": [],
+        "answer": "transformational",
+        "feedback": "Correct! Transformational leadership.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is stakeholder mapping in corporate communications?",
+        "options": [
+          "Identifying and categorizing individuals or groups affected by or having an impact on the organization",
+          "Drawing physical geographic maps of office buildings",
+          "Charting employee seating arrangements",
+          "Tracking stock market fluctuations"
+        ],
+        "answer": "Identifying and categorizing individuals or groups affected by or having an impact on the organization",
+        "feedback": "Correct, stakeholder mapping targets key audiences.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the leadership term: l, e, a, d, e, r, s, h, i, p",
+        "options": [],
+        "answer": "leadership",
+        "feedback": "Correct, spells 'leadership'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "l",
+          "e",
+          "a",
+          "d",
+          "e",
+          "r",
+          "s",
+          "h",
+          "i",
+          "p"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the press release excerpt and evaluate its transparency level.",
+        "options": [
+          "High transparency and immediate action plan",
+          "Low transparency and vague promises",
+          "Complete denial of facts",
+          "Irrelevant commentary"
+        ],
+        "answer": "High transparency and immediate action plan",
+        "feedback": "Correct, it transparently outlines immediate remediation steps.",
+        "word": "",
+        "audioText": "We are releasing all audit findings immediately and partnering with independent experts to ensure non-recurrence.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following strategic leadership sentence aloud:",
+        "options": [],
+        "answer": "Resilient organizations navigate turbulence by maintaining open communication channels with all stakeholders.",
+        "feedback": "Wonderful reading pace.",
+        "word": "Resilient organizations navigate turbulence by maintaining open communication channels with all stakeholders.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What is the 'golden hour' in crisis public relations?",
+        "options": [
+          "The crucial initial window of time after a crisis breaks when a prompt, accurate response prevents rumors",
+          "The last hour of the workday",
+          "An hour of relaxation for executives",
+          "The final hour before a product launch"
+        ],
+        "answer": "The crucial initial window of time after a crisis breaks when a prompt, accurate response prevents rumors",
+        "feedback": "Correct, the golden hour dictates rapid initial PR response.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Innovation and Future Trends",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What does disruptive innovation refer to?",
+        "options": [
+          "An innovation that creates a new market and value network, eventually disrupting an existing market",
+          "A minor tweak to an obsolete product",
+          "An accidental technological failure",
+          "A government ban on new technology"
+        ],
+        "answer": "An innovation that creates a new market and value network, eventually disrupting an existing market",
+        "feedback": "Correct! Disruptive innovation reshapes industries.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "What is artificial intelligence (AI) machine learning?",
+        "options": [
+          "Systems that learn and improve from experience without being explicitly programmed",
+          "Computers powered solely by mechanical gears",
+          "Fixed databases with static spreadsheets",
+          "Manual data entry by human operators"
+        ],
+        "answer": "Systems that learn and improve from experience without being explicitly programmed",
+        "feedback": "Spot on! Machine learning adapts through data experience.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following technological innovation statement aloud:",
+        "options": [],
+        "answer": "Emerging technologies such as artificial intelligence and quantum computing are redefining global industries.",
+        "feedback": "Clear and polished delivery.",
+        "word": "Emerging technologies such as artificial intelligence and quantum computing are redefining global industries.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the trend analysis and identify the core technology discussed.",
+        "options": [
+          "Natural Language Processing / AI",
+          "Blockchain cryptography",
+          "Quantum computing",
+          "Renewable solar grids"
+        ],
+        "answer": "Natural Language Processing / AI",
+        "feedback": "Correct, it highlights language models and NLP.",
+        "word": "",
+        "audioText": "Recent breakthroughs in natural language processing enable seamless human-AI collaboration across multilingual platforms.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the 10-letter term for learning applications powered by neural networks starting with 'a'.",
+        "options": [],
+        "answer": "algorithms",
+        "feedback": "Correct! Algorithms drive computational models.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "What is the primary characteristic of the Internet of Things (IoT)?",
+        "options": [
+          "Interconnection of everyday physical objects embedded with sensors and internet connectivity",
+          "Strictly wired desktop computers in office cubicles",
+          "Disconnected offline archives",
+          "Paper-based library catalogs"
+        ],
+        "answer": "Interconnection of everyday physical objects embedded with sensors and internet connectivity",
+        "feedback": "Correct, IoT connects smart devices globally.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the future tech term: i, n, n, o, v, a, t, i, o, n",
+        "options": [],
+        "answer": "innovation",
+        "feedback": "Correct, spells 'innovation'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "i",
+          "n",
+          "n",
+          "o",
+          "v",
+          "a",
+          "t",
+          "i",
+          "o",
+          "n"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the forecast and identify the future trend category.",
+        "options": [
+          "Digital transformation / Automation",
+          "Environmental conservation",
+          "Historical retrospection",
+          "Traditional manufacturing"
+        ],
+        "answer": "Digital transformation / Automation",
+        "feedback": "Correct, it forecasts workplace automation trends.",
+        "word": "",
+        "audioText": "Future workplace automation will augment human productivity while shifting routine tasks to algorithms.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following futuristic vision sentence aloud:",
+        "options": [],
+        "answer": "Embracing adaptive digital learning platforms accelerates foundational literacy and skill acquisition.",
+        "feedback": "Wonderful reading pace.",
+        "word": "Embracing adaptive digital learning platforms accelerates foundational literacy and skill acquisition.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What does scalability mean in technological system design?",
+        "options": [
+          "The capability of a system to handle a growing amount of work or its potential to be enlarged",
+          "The physical weight of computer hardware",
+          "The cost of printing paper reports",
+          "The color theme of a user interface"
+        ],
+        "answer": "The capability of a system to handle a growing amount of work or its potential to be enlarged",
+        "feedback": "Correct, scalability ensures systems handle growth.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  },
+  {
+    "title": "Advanced Mastery and Capstone Preparation",
+    "activities": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "What is the primary purpose of a capstone project in an advanced learning curriculum?",
+        "options": [
+          "To synthesize and demonstrate comprehensive mastery of all acquired skills through a substantial independent deliverable",
+          "To memorize vocabulary lists",
+          "To take a simple multiple-choice quiz",
+          "To practice handwriting alphabet letters"
+        ],
+        "answer": "To synthesize and demonstrate comprehensive mastery of all acquired skills through a substantial independent deliverable",
+        "feedback": "Correct! Capstone projects culminate advanced learning.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which component is essential for a successful project demonstration?",
+        "options": [
+          "Clear articulation of the problem, innovative solution architecture, live demonstration, and impact assessment",
+          "Reading a dictionary aloud for two hours",
+          "Apologizing for system errors",
+          "Avoiding audience questions entirely"
+        ],
+        "answer": "Clear articulation of the problem, innovative solution architecture, live demonstration, and impact assessment",
+        "feedback": "Spot on! Comprehensive demonstrations cover problem, solution, and impact.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 3,
+        "type": "Reading",
+        "text": "Read the following capstone defense statement aloud:",
+        "options": [],
+        "answer": "This AI-powered platform successfully integrates multilingual speech recognition with personalized adaptive learning pathways.",
+        "feedback": "Eloquent and authoritative capstone delivery.",
+        "word": "This AI-powered platform successfully integrates multilingual speech recognition with personalized adaptive learning pathways.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 4,
+        "type": "Listening",
+        "text": "Listen to the final review excerpt and identify the primary outcome evaluated.",
+        "options": [
+          "End-to-end system validation and learning efficacy",
+          "Initial alphabet recognition",
+          "Basic greeting etiquette",
+          "Menu spelling typos"
+        ],
+        "answer": "End-to-end system validation and learning efficacy",
+        "feedback": "Correct, it validates the complete integrated platform.",
+        "word": "",
+        "audioText": "End-to-end testing confirmed robust performance across all recommendation engines and voice assessment modules.",
+        "words": []
+      },
+      {
+        "id": 5,
+        "type": "Writing",
+        "text": "Type the 7-letter term for a culminating final project or academic presentation starting with 'c'.",
+        "options": [],
+        "answer": "capstone",
+        "feedback": "Correct! Capstone project.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "Why is peer review and iterative testing critical before final project deployment?",
+        "options": [
+          "To identify bugs, validate user experience, and ensure robust system reliability under real-world conditions",
+          "To delay project deadlines indefinitely",
+          "To increase document file size",
+          "To confuse developers"
+        ],
+        "answer": "To identify bugs, validate user experience, and ensure robust system reliability under real-world conditions",
+        "feedback": "Correct, testing ensures production-grade reliability.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 7,
+        "type": "Puzzle",
+        "text": "Unscramble the mastery term: m, a, s, t, e, r, y",
+        "options": [],
+        "answer": "mastery",
+        "feedback": "Correct, spells 'mastery'.",
+        "word": "",
+        "audioText": "",
+        "words": [
+          "m",
+          "a",
+          "s",
+          "t",
+          "e",
+          "r",
+          "y"
+        ]
+      },
+      {
+        "id": 8,
+        "type": "Listening",
+        "text": "Listen to the closing statement and identify the overall learning milestone achieved.",
+        "options": [
+          "Advanced curriculum completion and platform readiness",
+          "Basic beginner registration",
+          "Intermediate module introduction",
+          "Weekly test review"
+        ],
+        "answer": "Advanced curriculum completion and platform readiness",
+        "feedback": "Correct, it marks final mastery and readiness.",
+        "word": "",
+        "audioText": "Having completed all thirty rigorous modules, learners achieve full proficiency and platform mastery.",
+        "words": []
+      },
+      {
+        "id": 9,
+        "type": "Reading",
+        "text": "Read the following final graduation sentence aloud:",
+        "options": [],
+        "answer": "Lifelong learning and continuous skill adaptation are the hallmarks of true educational mastery.",
+        "feedback": "Inspiring and resonant reading.",
+        "word": "Lifelong learning and continuous skill adaptation are the hallmarks of true educational mastery.",
+        "audioText": "",
+        "words": []
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "What milestone does this 30th lesson represent in your AI-powered learning assistant project?",
+        "options": [
+          "Final Assessment and Capstone Demonstration",
+          "First Lesson on Letters",
+          "Weekly Assessment 1",
+          "Intermediate Checkpoint"
+        ],
+        "answer": "Final Assessment and Capstone Demonstration",
+        "feedback": "Correct! This is the culmination of the entire 30-lesson curriculum.",
+        "word": "",
+        "audioText": "",
+        "words": []
+      }
+    ]
+  }
+]

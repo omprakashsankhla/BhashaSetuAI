@@ -1,0 +1,137 @@
+[
+  {
+    "id": "train-announcement",
+    "title": "Train Station Announcement",
+    "transcript": "Attention passengers, the express train to Paris has been delayed due to maintenance work on the tracks. It is now expected to arrive on platform number 4 in twenty minutes. Please stand behind the yellow line for your safety.",
+    "questions": [
+      {
+        "question": "Why has the train been delayed?",
+        "options": [
+          "Bad weather conditions",
+          "Maintenance work on the tracks",
+          "A short staff shortage",
+          "Traffic on the main roads"
+        ],
+        "answer": "Maintenance work on the tracks"
+      },
+      {
+        "question": "Which platform will the train arrive on?",
+        "options": [
+          "Platform 2",
+          "Platform 4",
+          "Platform 10",
+          "Platform 20"
+        ],
+        "answer": "Platform 4"
+      }
+    ]
+  },
+  {
+    "id": "weather-forecast",
+    "title": "Local Weather Forecast",
+    "transcript": "Good morning! Expect heavy rainfall throughout the morning, so don't forget to take an umbrella with you. The weather will clear up by mid-afternoon with pleasant sunshine for the rest of the day.",
+    "questions": [
+      {
+        "question": "What item should listeners bring with them in the morning?",
+        "options": [
+          "Sunglasses",
+          "An umbrella",
+          "A heavy winter coat",
+          "A sun hat"
+        ],
+        "answer": "An umbrella"
+      },
+      {
+        "question": "When is the weather expected to clear up?",
+        "options": [
+          "Early in the morning",
+          "Late at night",
+          "By mid-afternoon",
+          "The following morning"
+        ],
+        "answer": "By mid-afternoon"
+      }
+    ]
+  },
+  {
+    "id": "voicemail-reschedule",
+    "title": "Rescheduling an Appointment",
+    "transcript": "Hi Sarah, this is Dr. Miller's office calling to confirm your dental checkup tomorrow at 2:00 PM. If you need to reschedule your appointment, please call us back before 5:00 PM today. Thank you and have a great day!",
+    "questions": [
+      {
+        "question": "What type of appointment does Sarah have tomorrow?",
+        "options": [
+          "An eye examination",
+          "A dental checkup",
+          "A job interview",
+          "A hair appointment"
+        ],
+        "answer": "A dental checkup"
+      },
+      {
+        "question": "By what time must Sarah call back if she wants to reschedule?",
+        "options": [
+          "2:00 PM today",
+          "5:00 PM today",
+          "2:00 PM tomorrow",
+          "5:00 PM tomorrow"
+        ],
+        "answer": "5:00 PM today"
+      }
+    ]
+  },
+  {
+    "id": "store-opening",
+    "title": "New Bakery Announcement",
+    "transcript": "We are excited to announce the grand opening of our new downtown bakery this Saturday at 8:00 AM! The first fifty customers will receive a complimentary fresh pastry and coffee with their order. We look forward to seeing you there!",
+    "questions": [
+      {
+        "question": "When is the grand opening taking place?",
+        "options": [
+          "This Friday at 8:00 AM",
+          "This Saturday at 8:00 AM",
+          "This Sunday at 9:00 AM",
+          "Next Saturday at 8:00 AM"
+        ],
+        "answer": "This Saturday at 8:00 AM"
+      },
+      {
+        "question": "Who will receive a complimentary pastry and coffee?",
+        "options": [
+          "All customers who visit on Saturday",
+          "The first fifty customers",
+          "Only customers who buy a cake",
+          "Children under twelve years old"
+        ],
+        "answer": "The first fifty customers"
+      }
+    ]
+  },
+  {
+    "id": "flight-boarding",
+    "title": "Airport Boarding Call",
+    "transcript": "This is a final boarding call for flight AC302 to Toronto, now boarding at Gate 12. All remaining passengers should present their passports and boarding passes at the desk immediately. Final doors will close in five minutes.",
+    "questions": [
+      {
+        "question": "Where is flight AC302 flying to?",
+        "options": [
+          "Vancouver",
+          "Montreal",
+          "Toronto",
+          "Ottawa"
+        ],
+        "answer": "Toronto"
+      },
+      {
+        "question": "How much time is left before the final doors close?",
+        "options": [
+          "Five minutes",
+          "Ten minutes",
+          "Twelve minutes",
+          "Fifteen minutes"
+        ],
+        "answer": "Five minutes"
+      }
+    ]
+  }
+]

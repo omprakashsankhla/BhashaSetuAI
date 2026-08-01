@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "word_target": "बिल्ली",
+    "word_english": "Cat",
+    "category": "Animals",
+    "image_keyword": "cat illustration"
+  },
+  {
+    "id": 2,
+    "word_target": "कुत्ता",
+    "word_english": "Dog",
+    "category": "Animals",
+    "image_keyword": "dog illustration"
+  },
+  {
+    "id": 3,
+    "word_target": "गाय",
+    "word_english": "Cow",
+    "category": "Animals",
+    "image_keyword": "cow illustration"
+  },
+  {
+    "id": 4,
+    "word_target": "हाथी",
+    "word_english": "Elephant",
+    "category": "Animals",
+    "image_keyword": "elephant illustration"
+  },
+  {
+    "id": 5,
+    "word_target": "पक्षियों",
+    "word_english": "Bird",
+    "category": "Animals",
+    "image_keyword": "bird illustration"
+  },
+  {
+    "id": 6,
+    "word_target": "मछली",
+    "word_english": "Fish",
+    "category": "Animals",
+    "image_keyword": "fish illustration"
+  },
+  {
+    "id": 7,
+    "word_target": "घोड़ा",
+    "word_english": "Horse",
+    "category": "Animals",
+    "image_keyword": "horse illustration"
+  },
+  {
+    "id": 8,
+    "word_target": "शेर",
+    "word_english": "Lion",
+    "category": "Animals",
+    "image_keyword": "lion illustration"
+  },
+  {
+    "id": 9,
+    "word_target": "पानी",
+    "word_english": "Water",
+    "category": "Food",
+    "image_keyword": "water glass illustration"
+  },
+  {
+    "id": 10,
+    "word_target": "रोटी",
+    "word_english": "Bread",
+    "category": "Food",
+    "image_keyword": "flatbread illustration"
+  },
+  {
+    "id": 11,
+    "word_target": "दूध",
+    "word_english": "Milk",
+    "category": "Food",
+    "image_keyword": "milk glass illustration"
+  },
+  {
+    "id": 12,
+    "word_target": "चावल",
+    "word_english": "Rice",
+    "category": "Food",
+    "image_keyword": "rice bowl illustration"
+  },
+  {
+    "id": 13,
+    "word_target": "सेव",
+    "word_english": "Apple",
+    "category": "Food",
+    "image_keyword": "apple illustration"
+  },
+  {
+    "id": 14,
+    "word_target": "केला",
+    "word_english": "Banana",
+    "category": "Food",
+    "image_keyword": "banana illustration"
+  },
+  {
+    "id": 15,
+    "word_target": "चाय",
+    "word_english": "Tea",
+    "category": "Food",
+    "image_keyword": "tea cup illustration"
+  },
+  {
+    "id": 16,
+    "word_target": "फल",
+    "word_english": "Fruit",
+    "category": "Food",
+    "image_keyword": "fruit basket illustration"
+  },
+  {
+    "id": 17,
+    "word_target": "लाल",
+    "word_english": "Red",
+    "category": "Colors",
+    "image_keyword": "red splash illustration"
+  },
+  {
+    "id": 18,
+    "word_target": "नीला",
+    "word_english": "Blue",
+    "category": "Colors",
+    "image_keyword": "blue splash illustration"
+  },
+  {
+    "id": 19,
+    "word_target": "हरा",
+    "word_english": "Green",
+    "category": "Colors",
+    "image_keyword": "green splash illustration"
+  },
+  {
+    "id": 20,
+    "word_target": "पीला",
+    "word_english": "Yellow",
+    "category": "Colors",
+    "image_keyword": "yellow splash illustration"
+  },
+  {
+    "id": 21,
+    "word_target": "काला",
+    "word_english": "Black",
+    "category": "Colors",
+    "image_keyword": "black splash illustration"
+  },
+  {
+    "id": 22,
+    "word_target": "सफेद",
+    "word_english": "White",
+    "category": "Colors",
+    "image_keyword": "white splash illustration"
+  },
+  {
+    "id": 23,
+    "word_target": "किताब",
+    "word_english": "Book",
+    "category": "Everyday Objects",
+    "image_keyword": "book illustration"
+  },
+  {
+    "id": 24,
+    "word_target": "कलम",
+    "word_english": "Pen",
+    "category": "Everyday Objects",
+    "image_keyword": "pen illustration"
+  },
+  {
+    "id": 25,
+    "word_target": "मेज़",
+    "word_english": "Table",
+    "category": "Everyday Objects",
+    "image_keyword": "table illustration"
+  },
+  {
+    "id": 26,
+    "word_target": "कुर्सी",
+    "word_english": "Chair",
+    "category": "Everyday Objects",
+    "image_keyword": "chair illustration"
+  },
+  {
+    "id": 27,
+    "word_target": "फोन",
+    "word_english": "Phone",
+    "category": "Everyday Objects",
+    "image_keyword": "smartphone illustration"
+  },
+  {
+    "id": 28,
+    "word_target": "घर",
+    "word_english": "House",
+    "category": "Everyday Objects",
+    "image_keyword": "house illustration"
+  },
+  {
+    "id": 29,
+    "word_target": "दरवाज़ा",
+    "word_english": "Door",
+    "category": "Everyday Objects",
+    "image_keyword": "door illustration"
+  },
+  {
+    "id": 30,
+    "word_target": "चाबी",
+    "word_english": "Key",
+    "category": "Everyday Objects",
+    "image_keyword": "key illustration"
+  }
+]

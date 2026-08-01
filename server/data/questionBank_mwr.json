@@ -1,0 +1,958 @@
+{
+  "Beginner": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "अनुवाद करो: Water",
+        "options": [
+          "पाणी",
+          "Fire",
+          "Earth",
+          "Air"
+        ],
+        "answer": "पाणी",
+        "feedback": "सही उत्तर है: पाणी"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "अनुवाद करो: Food",
+        "options": [
+          "खाणो",
+          "Sleep",
+          "Walk",
+          "Run"
+        ],
+        "answer": "खाणो",
+        "feedback": "सही उत्तर है: खाणो"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "अनुवाद करो: Sun",
+        "options": [
+          "सूरज",
+          "Moon",
+          "Star",
+          "Cloud"
+        ],
+        "answer": "सूरज",
+        "feedback": "सही उत्तर है: सूरज"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "अनुवाद करो: House",
+        "options": [
+          "घर",
+          "Tree",
+          "Road",
+          "Car"
+        ],
+        "answer": "घर",
+        "feedback": "सही उत्तर है: घर"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "खाली जगह भरो: A ___ C",
+        "options": [
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "answer": "B",
+        "feedback": "सही उत्तर है: B"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: मने सेव चोखा लागे।",
+        "word": "मने सेव चोखा लागे।"
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: Hello.",
+        "word": "Hello."
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: Thank you.",
+        "word": "Thank you."
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: Good boy.",
+        "word": "Good boy."
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: Welcome.",
+        "word": "Welcome."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: वा एक किताब पढ़ री है।",
+        "answer": "She is reading a book.",
+        "feedback": "सही अनुवाद है: She is reading a book."
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: Namaste / Vanakkam / Hello",
+        "answer": "Hello",
+        "feedback": "सही अनुवाद है: Hello"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: Yes",
+        "answer": "Yes",
+        "feedback": "सही अनुवाद है: Yes"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: No",
+        "answer": "No",
+        "feedback": "सही अनुवाद है: No"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: Water",
+        "answer": "Water",
+        "feedback": "सही अनुवाद है: Water"
+      }
+    ],
+    "Listening": [
+      {
+        "id": 76,
+        "type": "Listening",
+        "audioText": "सुप्रभात",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "Good morning",
+        "feedback": "सही उत्तर है: Good morning"
+      },
+      {
+        "id": 77,
+        "type": "Listening",
+        "audioText": "Thank you",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "Thank you",
+        "feedback": "सही उत्तर है: Thank you"
+      },
+      {
+        "id": 78,
+        "type": "Listening",
+        "audioText": "Welcome",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "Welcome",
+        "feedback": "सही उत्तर है: Welcome"
+      },
+      {
+        "id": 79,
+        "type": "Listening",
+        "audioText": "Yes",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "Yes",
+        "feedback": "सही उत्तर है: Yes"
+      },
+      {
+        "id": 80,
+        "type": "Listening",
+        "audioText": "No",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "No",
+        "feedback": "सही उत्तर है: No"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 101,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: I ___ a student.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "am",
+        "feedback": "सही उत्तर है: am"
+      },
+      {
+        "id": 102,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: He ___ a boy.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "सही उत्तर है: is"
+      },
+      {
+        "id": 103,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: They ___ playing.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "सही उत्तर है: are"
+      },
+      {
+        "id": 104,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: She ___ reading.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "सही उत्तर है: is"
+      },
+      {
+        "id": 105,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: We ___ happy.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "be"
+        ],
+        "answer": "are",
+        "feedback": "सही उत्तर है: are"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 126,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "dog",
+          "The",
+          "barks"
+        ],
+        "answer": "The dog barks",
+        "feedback": "सही उत्तर है: The dog barks"
+      },
+      {
+        "id": 127,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "boy",
+          "is",
+          "He",
+          "a"
+        ],
+        "answer": "He is a boy",
+        "feedback": "सही उत्तर है: He is a boy"
+      },
+      {
+        "id": 128,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "playing",
+          "are",
+          "They"
+        ],
+        "answer": "They are playing",
+        "feedback": "सही उत्तर है: They are playing"
+      },
+      {
+        "id": 129,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "reading",
+          "She",
+          "is"
+        ],
+        "answer": "She is reading",
+        "feedback": "सही उत्तर है: She is reading"
+      },
+      {
+        "id": 130,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "happy",
+          "We",
+          "are"
+        ],
+        "answer": "We are happy",
+        "feedback": "सही उत्तर है: We are happy"
+      }
+    ]
+  },
+  "Intermediate": {
+    "MCQ": [
+      {
+        "id": 201,
+        "type": "MCQ",
+        "text": "अनुवाद करो: Beautiful",
+        "options": [
+          "फूटरो",
+          "Ugly",
+          "Fast",
+          "Slow"
+        ],
+        "answer": "फूटरो",
+        "feedback": "सही उत्तर है: फूटरो"
+      },
+      {
+        "id": 202,
+        "type": "MCQ",
+        "text": "अनुवाद करो: Library",
+        "options": [
+          "पोथीखानो",
+          "School",
+          "Hospital",
+          "Park"
+        ],
+        "answer": "पोथीखानो",
+        "feedback": "सही उत्तर है: पोथीखानो"
+      },
+      {
+        "id": 203,
+        "type": "MCQ",
+        "text": "खाली जगह भरो: Past tense of 'run' is ___",
+        "options": [
+          "ran",
+          "runned",
+          "running",
+          "runs"
+        ],
+        "answer": "ran",
+        "feedback": "सही उत्तर है: ran"
+      },
+      {
+        "id": 204,
+        "type": "MCQ",
+        "text": "खाली जगह भरो: Opposite of 'hot' is ___",
+        "options": [
+          "cold",
+          "warm",
+          "boiling",
+          "freezing"
+        ],
+        "answer": "cold",
+        "feedback": "सही उत्तर है: cold"
+      },
+      {
+        "id": 205,
+        "type": "MCQ",
+        "text": "खाली जगह भरो: Verb is ___",
+        "options": [
+          "Run",
+          "Apple",
+          "Blue",
+          "Quickly"
+        ],
+        "answer": "Run",
+        "feedback": "सही उत्तर है: Run"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 226,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: मैं एक नई भाषा सीख रियो हूँ।",
+        "word": "मैं एक नई भाषा सीख रियो हूँ।"
+      },
+      {
+        "id": 227,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: The quick brown fox.",
+        "word": "The quick brown fox."
+      },
+      {
+        "id": 228,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: It is raining outside.",
+        "word": "It is raining outside."
+      },
+      {
+        "id": 229,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: She likes to read books.",
+        "word": "She likes to read books."
+      },
+      {
+        "id": 230,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: I am learning English.",
+        "word": "I am learning English."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 251,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: पोथीखानो कठे है?",
+        "answer": "Where is the library?",
+        "feedback": "सही अनुवाद है: Where is the library?"
+      },
+      {
+        "id": 252,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: Beautiful",
+        "answer": "Beautiful",
+        "feedback": "सही अनुवाद है: Beautiful"
+      },
+      {
+        "id": 253,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: Important",
+        "answer": "Important",
+        "feedback": "सही अनुवाद है: Important"
+      },
+      {
+        "id": 254,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: Because",
+        "answer": "Because",
+        "feedback": "सही अनुवाद है: Because"
+      },
+      {
+        "id": 255,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: Together",
+        "answer": "Together",
+        "feedback": "सही अनुवाद है: Together"
+      }
+    ],
+    "Listening": [
+      {
+        "id": 276,
+        "type": "Listening",
+        "audioText": "थे कियाँ हो?",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "How are you?",
+        "feedback": "सही उत्तर है: How are you?"
+      },
+      {
+        "id": 277,
+        "type": "Listening",
+        "audioText": "Beautiful",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "Beautiful",
+        "feedback": "सही उत्तर है: Beautiful"
+      },
+      {
+        "id": 278,
+        "type": "Listening",
+        "audioText": "I am fine",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "I am fine",
+        "feedback": "सही उत्तर है: I am fine"
+      },
+      {
+        "id": 279,
+        "type": "Listening",
+        "audioText": "See you later",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "See you later",
+        "feedback": "सही उत्तर है: See you later"
+      },
+      {
+        "id": 280,
+        "type": "Listening",
+        "audioText": "Have a good day",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "Have a good day",
+        "feedback": "सही उत्तर है: Have a good day"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 301,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: She ___ to the store yesterday.",
+        "options": [
+          "went",
+          "go",
+          "going",
+          "goes"
+        ],
+        "answer": "went",
+        "feedback": "सही उत्तर है: went"
+      },
+      {
+        "id": 302,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: I have ___ eaten breakfast.",
+        "options": [
+          "already",
+          "yet",
+          "still",
+          "soon"
+        ],
+        "answer": "already",
+        "feedback": "सही उत्तर है: already"
+      },
+      {
+        "id": 303,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: He is taller ___ his brother.",
+        "options": [
+          "than",
+          "then",
+          "that",
+          "there"
+        ],
+        "answer": "than",
+        "feedback": "सही उत्तर है: than"
+      },
+      {
+        "id": 304,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: They will arrive ___ Monday.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "by"
+        ],
+        "answer": "on",
+        "feedback": "सही उत्तर है: on"
+      },
+      {
+        "id": 305,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: She ___ speaking French.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "सही उत्तर है: is"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 326,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "store",
+          "She",
+          "went",
+          "the",
+          "to"
+        ],
+        "answer": "She went to the store",
+        "feedback": "सही उत्तर है: She went to the store"
+      },
+      {
+        "id": 327,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "brother",
+          "than",
+          "taller",
+          "He",
+          "is",
+          "his"
+        ],
+        "answer": "He is taller than his brother",
+        "feedback": "सही उत्तर है: He is taller than his brother"
+      },
+      {
+        "id": 328,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "Monday",
+          "arrive",
+          "on",
+          "They",
+          "will"
+        ],
+        "answer": "They will arrive on Monday",
+        "feedback": "सही उत्तर है: They will arrive on Monday"
+      },
+      {
+        "id": 329,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "already",
+          "have",
+          "I",
+          "eaten"
+        ],
+        "answer": "I have already eaten",
+        "feedback": "सही उत्तर है: I have already eaten"
+      },
+      {
+        "id": 330,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "speaking",
+          "is",
+          "She",
+          "French"
+        ],
+        "answer": "She is speaking French",
+        "feedback": "सही उत्तर है: She is speaking French"
+      }
+    ]
+  },
+  "Advanced": {
+    "MCQ": [
+      {
+        "id": 401,
+        "type": "MCQ",
+        "text": "अनुवाद करो: Environment",
+        "options": [
+          "पर्यावरण",
+          "Economy",
+          "Society",
+          "Politics"
+        ],
+        "answer": "पर्यावरण",
+        "feedback": "सही उत्तर है: पर्यावरण"
+      },
+      {
+        "id": 402,
+        "type": "MCQ",
+        "text": "अनुवाद करो: Economy",
+        "options": [
+          "अर्थव्यवस्था",
+          "History",
+          "Math",
+          "Science"
+        ],
+        "answer": "अर्थव्यवस्था",
+        "feedback": "सही उत्तर है: अर्थव्यवस्था"
+      },
+      {
+        "id": 403,
+        "type": "MCQ",
+        "text": "खाली जगह भरो: Synonym for 'meticulous'",
+        "options": [
+          "careful",
+          "careless",
+          "fast",
+          "slow"
+        ],
+        "answer": "careful",
+        "feedback": "सही उत्तर है: careful"
+      },
+      {
+        "id": 404,
+        "type": "MCQ",
+        "text": "खाली जगह भरो: Meaning of 'ubiquitous'",
+        "options": [
+          "everywhere",
+          "nowhere",
+          "rare",
+          "unique"
+        ],
+        "answer": "everywhere",
+        "feedback": "सही उत्तर है: everywhere"
+      },
+      {
+        "id": 405,
+        "type": "MCQ",
+        "text": "खाली जगह भरो: Adverb is ___",
+        "options": [
+          "Quickly",
+          "Quick",
+          "Quicker",
+          "Quickest"
+        ],
+        "answer": "Quickly",
+        "feedback": "सही उत्तर है: Quickly"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 426,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: सतत विकास म्हाने भविष्य रे वास्ते जरूरी है।",
+        "word": "सतत विकास म्हाने भविष्य रे वास्ते जरूरी है।"
+      },
+      {
+        "id": 427,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: The hypothesis was confirmed.",
+        "word": "The hypothesis was confirmed."
+      },
+      {
+        "id": 428,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: Significant progress has been made.",
+        "word": "Significant progress has been made."
+      },
+      {
+        "id": 429,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: The implications are profound.",
+        "word": "The implications are profound."
+      },
+      {
+        "id": 430,
+        "type": "Reading",
+        "text": "जोर सूं पढ़ो: It is undeniably true.",
+        "word": "It is undeniably true."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 451,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: अर्थव्यवस्था तेजी सूं बढ़ री है।",
+        "answer": "The economy is growing rapidly.",
+        "feedback": "सही अनुवाद है: The economy is growing rapidly."
+      },
+      {
+        "id": 452,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: Environment",
+        "answer": "Environment",
+        "feedback": "सही अनुवाद है: Environment"
+      },
+      {
+        "id": 453,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: Sustainable",
+        "answer": "Sustainable",
+        "feedback": "सही अनुवाद है: Sustainable"
+      },
+      {
+        "id": 454,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: Development",
+        "answer": "Development",
+        "feedback": "सही अनुवाद है: Development"
+      },
+      {
+        "id": 455,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद लिखो: Congratulations",
+        "answer": "Congratulations",
+        "feedback": "सही अनुवाद है: Congratulations"
+      }
+    ],
+    "Listening": [
+      {
+        "id": 476,
+        "type": "Listening",
+        "audioText": "थारी सफलता माते बधाई।",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "Congratulations on your success.",
+        "feedback": "सही उत्तर है: Congratulations on your success."
+      },
+      {
+        "id": 477,
+        "type": "Listening",
+        "audioText": "Environment",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "Environment",
+        "feedback": "सही उत्तर है: Environment"
+      },
+      {
+        "id": 478,
+        "type": "Listening",
+        "audioText": "Sustainable",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "Sustainable",
+        "feedback": "सही उत्तर है: Sustainable"
+      },
+      {
+        "id": 479,
+        "type": "Listening",
+        "audioText": "Development",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "Development",
+        "feedback": "सही उत्तर है: Development"
+      },
+      {
+        "id": 480,
+        "type": "Listening",
+        "audioText": "Hypothesis",
+        "text": "सुणो और अंग्रेजी में लिखो",
+        "answer": "Hypothesis",
+        "feedback": "सही उत्तर है: Hypothesis"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 501,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: If I ___ known, I would have come.",
+        "options": [
+          "had",
+          "have",
+          "has",
+          "did"
+        ],
+        "answer": "had",
+        "feedback": "सही उत्तर है: had"
+      },
+      {
+        "id": 502,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: By the time we arrived, they ___ left.",
+        "options": [
+          "had",
+          "have",
+          "will have",
+          "are"
+        ],
+        "answer": "had",
+        "feedback": "सही उत्तर है: had"
+      },
+      {
+        "id": 503,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: Not only ___ he late, but he also forgot his book.",
+        "options": [
+          "was",
+          "is",
+          "were",
+          "did"
+        ],
+        "answer": "was",
+        "feedback": "सही उत्तर है: was"
+      },
+      {
+        "id": 504,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: I wish I ___ a car.",
+        "options": [
+          "had",
+          "have",
+          "will have",
+          "am having"
+        ],
+        "answer": "had",
+        "feedback": "सही उत्तर है: had"
+      },
+      {
+        "id": 505,
+        "type": "Grammar",
+        "text": "खाली जगह भरो: She speaks as if she ___ everything.",
+        "options": [
+          "knew",
+          "knows",
+          "know",
+          "knowing"
+        ],
+        "answer": "knew",
+        "feedback": "सही उत्तर है: knew"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 526,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "come",
+          "have",
+          "would",
+          "I",
+          "known",
+          "had",
+          "If",
+          "I"
+        ],
+        "answer": "If I had known I would have come",
+        "feedback": "सही उत्तर है: If I had known I would have come"
+      },
+      {
+        "id": 527,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "arrived",
+          "we",
+          "time",
+          "the",
+          "By",
+          "left",
+          "had",
+          "they"
+        ],
+        "answer": "By the time we arrived they had left",
+        "feedback": "सही उत्तर है: By the time we arrived they had left"
+      },
+      {
+        "id": 528,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "late",
+          "he",
+          "was",
+          "only",
+          "Not"
+        ],
+        "answer": "Not only was he late",
+        "feedback": "सही उत्तर है: Not only was he late"
+      },
+      {
+        "id": 529,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "car",
+          "a",
+          "had",
+          "I",
+          "wish",
+          "I"
+        ],
+        "answer": "I wish I had a car",
+        "feedback": "सही उत्तर है: I wish I had a car"
+      },
+      {
+        "id": 530,
+        "type": "Puzzle",
+        "text": "सही क्रम में जमाओ",
+        "scrambled": [
+          "everything",
+          "knew",
+          "she",
+          "if",
+          "as",
+          "speaks",
+          "She"
+        ],
+        "answer": "She speaks as if she knew everything",
+        "feedback": "सही उत्तर है: She speaks as if she knew everything"
+      }
+    ]
+  }
+}

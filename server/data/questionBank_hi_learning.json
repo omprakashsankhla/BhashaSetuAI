@@ -1,0 +1,1644 @@
+{
+  "Beginner": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which letter comes after A?",
+        "options": [
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "answer": "B",
+        "feedback": "Correct answer is B"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is a fruit?",
+        "options": [
+          "Apple",
+          "Chair",
+          "Table",
+          "Book"
+        ],
+        "answer": "Apple",
+        "feedback": "Correct answer is Apple"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Which word names an animal?",
+        "options": [
+          "Dog",
+          "Pen",
+          "Cup",
+          "Fan"
+        ],
+        "answer": "Dog",
+        "feedback": "Correct answer is Dog"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which letter is a vowel?",
+        "options": [
+          "B",
+          "C",
+          "A",
+          "D"
+        ],
+        "answer": "A",
+        "feedback": "Correct answer is A"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "Which word means a greeting?",
+        "options": [
+          "Hello",
+          "Sleep",
+          "Eat",
+          "Jump"
+        ],
+        "answer": "Hello",
+        "feedback": "Correct answer is Hello"
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "Which number comes after 9?",
+        "options": [
+          "8",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "feedback": "Correct answer is 10"
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "Which object is used for writing?",
+        "options": [
+          "Pencil",
+          "Plate",
+          "Spoon",
+          "Bottle"
+        ],
+        "answer": "Pencil",
+        "feedback": "Correct answer is Pencil"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "Which word is a color?",
+        "options": [
+          "Red",
+          "Ball",
+          "Mango",
+          "Bird"
+        ],
+        "answer": "Red",
+        "feedback": "Correct answer is Red"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "Which sentence is correct?",
+        "options": [
+          "I am happy.",
+          "Happy I am.",
+          "Am I happy.",
+          "Happy am."
+        ],
+        "answer": "I am happy.",
+        "feedback": "Correct answer is I am happy."
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which one is a body part?",
+        "options": [
+          "Hand",
+          "Chair",
+          "Cup",
+          "Bag"
+        ],
+        "answer": "Hand",
+        "feedback": "Correct answer is Hand"
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "Which word is opposite of big?",
+        "options": [
+          "Small",
+          "Long",
+          "Fast",
+          "Tall"
+        ],
+        "answer": "Small",
+        "feedback": "Correct answer is Small"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "Which is a day of the week?",
+        "options": [
+          "Monday",
+          "January",
+          "Morning",
+          "Summer"
+        ],
+        "answer": "Monday",
+        "feedback": "Correct answer is Monday"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "Which one is a vegetable?",
+        "options": [
+          "Carrot",
+          "Mango",
+          "Banana",
+          "Orange"
+        ],
+        "answer": "Carrot",
+        "feedback": "Correct answer is Carrot"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "Which animal says \"Meow\"?",
+        "options": [
+          "Cat",
+          "Dog",
+          "Cow",
+          "Goat"
+        ],
+        "answer": "Cat",
+        "feedback": "Correct answer is Cat"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "Which word is a drink?",
+        "options": [
+          "Milk",
+          "Rice",
+          "Bread",
+          "Apple"
+        ],
+        "answer": "Milk",
+        "feedback": "Correct answer is Milk"
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "Which letter comes before G?",
+        "options": [
+          "F",
+          "E",
+          "H",
+          "I"
+        ],
+        "answer": "F",
+        "feedback": "Correct answer is F"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "Which one flies?",
+        "options": [
+          "Bird",
+          "Fish",
+          "Dog",
+          "Cow"
+        ],
+        "answer": "Bird",
+        "feedback": "Correct answer is Bird"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "Which word is used in school?",
+        "options": [
+          "Book",
+          "Pillow",
+          "Stove",
+          "Bucket"
+        ],
+        "answer": "Book",
+        "feedback": "Correct answer is Book"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "Which season is the hottest?",
+        "options": [
+          "Summer",
+          "Winter",
+          "Rainy",
+          "Autumn"
+        ],
+        "answer": "Summer",
+        "feedback": "Correct answer is Summer"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "Which word is opposite of up?",
+        "options": [
+          "Down",
+          "Left",
+          "Right",
+          "Near"
+        ],
+        "answer": "Down",
+        "feedback": "Correct answer is Down"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "Which sentence is polite?",
+        "options": [
+          "Thank you.",
+          "Go away.",
+          "Be quiet.",
+          "No."
+        ],
+        "answer": "Thank you.",
+        "feedback": "Correct answer is Thank you."
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "Which shape has three sides?",
+        "options": [
+          "Triangle",
+          "Square",
+          "Circle",
+          "Rectangle"
+        ],
+        "answer": "Triangle",
+        "feedback": "Correct answer is Triangle"
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "Which is used to tell time?",
+        "options": [
+          "Clock",
+          "Plate",
+          "Pencil",
+          "Bag"
+        ],
+        "answer": "Clock",
+        "feedback": "Correct answer is Clock"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "Which one is a family member?",
+        "options": [
+          "Mother",
+          "Teacher",
+          "Doctor",
+          "Driver"
+        ],
+        "answer": "Mother",
+        "feedback": "Correct answer is Mother"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "Which word completes the sentence? The sky is _____.",
+        "options": [
+          "Blue",
+          "Sweet",
+          "Hot",
+          "Soft"
+        ],
+        "answer": "Blue",
+        "feedback": "Correct answer is Blue"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: I am Sam.",
+        "word": "I am Sam."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: This is a cat.",
+        "word": "This is a cat."
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: The sun is hot.",
+        "word": "The sun is hot."
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: I like milk.",
+        "word": "I like milk."
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: She has a pen.",
+        "word": "She has a pen."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "Read aloud: We play daily.",
+        "word": "We play daily."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "Read aloud: The bird can fly.",
+        "word": "The bird can fly."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "Read aloud: My bag is blue.",
+        "word": "My bag is blue."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "Read aloud: He is my friend.",
+        "word": "He is my friend."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "Read aloud: Open the door.",
+        "word": "Open the door."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "Read aloud: The dog is running.",
+        "word": "The dog is running."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "Read aloud: I wash my hands.",
+        "word": "I wash my hands."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "Read aloud: The flowers smell nice.",
+        "word": "The flowers smell nice."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "Read aloud: My school is nearby.",
+        "word": "My school is nearby."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "Read aloud: We drink clean water.",
+        "word": "We drink clean water."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "Read aloud: The moon shines at night.",
+        "word": "The moon shines at night."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "Read aloud: Please close the window.",
+        "word": "Please close the window."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "Read aloud: Children are playing happily.",
+        "word": "Children are playing happily."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "Read aloud: The farmer grows vegetables.",
+        "word": "The farmer grows vegetables."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "Read aloud: I enjoy reading books.",
+        "word": "I enjoy reading books."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "Read aloud: My family eats dinner together.",
+        "word": "My family eats dinner together."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "Read aloud: Always speak with kindness.",
+        "word": "Always speak with kindness."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "Read aloud: Practice makes us better.",
+        "word": "Practice makes us better."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "Read aloud: Every day is a new beginning.",
+        "word": "Every day is a new beginning."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "Read aloud: Learning opens many opportunities.",
+        "word": "Learning opens many opportunities."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Apple",
+        "answer": "Apple",
+        "feedback": "The phrase was: Apple"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Good morning",
+        "answer": "Good morning",
+        "feedback": "The phrase was: Good morning"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Thank you",
+        "answer": "Thank you",
+        "feedback": "The phrase was: Thank you"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "My book",
+        "answer": "My book",
+        "feedback": "The phrase was: My book"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Blue sky",
+        "answer": "Blue sky",
+        "feedback": "The phrase was: Blue sky"
+      },
+      {
+        "id": 56,
+        "type": "Writing",
+        "text": "Red ball",
+        "answer": "Red ball",
+        "feedback": "The phrase was: Red ball"
+      },
+      {
+        "id": 57,
+        "type": "Writing",
+        "text": "Green tree",
+        "answer": "Green tree",
+        "feedback": "The phrase was: Green tree"
+      },
+      {
+        "id": 58,
+        "type": "Writing",
+        "text": "Drink water",
+        "answer": "Drink water",
+        "feedback": "The phrase was: Drink water"
+      },
+      {
+        "id": 59,
+        "type": "Writing",
+        "text": "Open door",
+        "answer": "Open door",
+        "feedback": "The phrase was: Open door"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "Close window",
+        "answer": "Close window",
+        "feedback": "The phrase was: Close window"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "Happy child",
+        "answer": "Happy child",
+        "feedback": "The phrase was: Happy child"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "Fast car",
+        "answer": "Fast car",
+        "feedback": "The phrase was: Fast car"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "Small cat",
+        "answer": "Small cat",
+        "feedback": "The phrase was: Small cat"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "Big house",
+        "answer": "Big house",
+        "feedback": "The phrase was: Big house"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "Yellow flower",
+        "answer": "Yellow flower",
+        "feedback": "The phrase was: Yellow flower"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "Read book",
+        "answer": "Read book",
+        "feedback": "The phrase was: Read book"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "Clean hands",
+        "answer": "Clean hands",
+        "feedback": "The phrase was: Clean hands"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "Eat food",
+        "answer": "Eat food",
+        "feedback": "The phrase was: Eat food"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "Nice day",
+        "answer": "Nice day",
+        "feedback": "The phrase was: Nice day"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "Go home",
+        "answer": "Go home",
+        "feedback": "The phrase was: Go home"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "Good friend",
+        "answer": "Good friend",
+        "feedback": "The phrase was: Good friend"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "My school",
+        "answer": "My school",
+        "feedback": "The phrase was: My school"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "Sweet mango",
+        "answer": "Sweet mango",
+        "feedback": "The phrase was: Sweet mango"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "Happy learning",
+        "answer": "Happy learning",
+        "feedback": "The phrase was: Happy learning"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "Well done",
+        "answer": "Well done",
+        "feedback": "The phrase was: Well done"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "I ___ a student.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "am",
+        "feedback": "Correct answer is am"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "She ___ happy.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "Correct answer is is"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "They ___ playing.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "Correct answer is are"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "This is ___ apple.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "Correct answer is an"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "I have ___ book.",
+        "options": [
+          "an",
+          "a",
+          "the",
+          "no article"
+        ],
+        "answer": "a",
+        "feedback": "Correct answer is a"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "___ sun rises in the east.",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "No article"
+        ],
+        "answer": "The",
+        "feedback": "Correct answer is The"
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "We ___ friends.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "are",
+        "feedback": "Correct answer is are"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "He ___ my brother.",
+        "options": [
+          "am",
+          "are",
+          "is",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "Correct answer is is"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "The birds ___ flying.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "Correct answer is are"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "She has two ___.",
+        "options": [
+          "book",
+          "books",
+          "bookes",
+          "bookses"
+        ],
+        "answer": "books",
+        "feedback": "Correct answer is books"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "I eat ___ banana every day.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "a",
+        "feedback": "Correct answer is a"
+      },
+      {
+        "id": 87,
+        "type": "Grammar",
+        "text": "Ravi ___ a doctor.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "Correct answer is is"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "We ___ to school.",
+        "options": [
+          "goes",
+          "go",
+          "going",
+          "gone"
+        ],
+        "answer": "go",
+        "feedback": "Correct answer is go"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "She ___ water.",
+        "options": [
+          "drink",
+          "drinks",
+          "drinking",
+          "drank"
+        ],
+        "answer": "drinks",
+        "feedback": "Correct answer is drinks"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "They ___ football.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "answer": "play",
+        "feedback": "Correct answer is play"
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "This ___ my bag.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "be"
+        ],
+        "answer": "is",
+        "feedback": "Correct answer is is"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "I ___ my homework.",
+        "options": [
+          "do",
+          "does",
+          "dids",
+          "doing"
+        ],
+        "answer": "do",
+        "feedback": "Correct answer is do"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "He ___ his homework.",
+        "options": [
+          "do",
+          "does",
+          "doing",
+          "done"
+        ],
+        "answer": "does",
+        "feedback": "Correct answer is does"
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "We have three ___.",
+        "options": [
+          "pen",
+          "pens",
+          "penes",
+          "penc"
+        ],
+        "answer": "pens",
+        "feedback": "Correct answer is pens"
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "The child ___ smiling.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "Correct answer is is"
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "___ is my teacher.",
+        "options": [
+          "He",
+          "Him",
+          "His",
+          "Himself"
+        ],
+        "answer": "He",
+        "feedback": "Correct answer is He"
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "This is ___ pencil.",
+        "options": [
+          "my",
+          "me",
+          "I",
+          "mine"
+        ],
+        "answer": "my",
+        "feedback": "Correct answer is my"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "They live ___ India.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "from"
+        ],
+        "answer": "in",
+        "feedback": "Correct answer is in"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "The cat is ___ the table.",
+        "options": [
+          "on",
+          "in",
+          "under",
+          "from"
+        ],
+        "answer": "on",
+        "feedback": "Correct answer is on"
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "We ___ English every day.",
+        "options": [
+          "learns",
+          "learn",
+          "learning",
+          "learned"
+        ],
+        "answer": "learn",
+        "feedback": "Correct answer is learn"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 101,
+        "type": "Puzzle",
+        "text": "Which word is different?",
+        "options": [
+          "Apple",
+          "Mango",
+          "Banana",
+          "Chair"
+        ],
+        "answer": "Chair",
+        "feedback": "Correct answer is Chair"
+      },
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the pattern: A, B, C, __",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "answer": "D",
+        "feedback": "Correct answer is D"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Which number comes next? 2, 4, 6, 8, __",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "feedback": "Correct answer is 10"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "Which one is not a fruit?",
+        "options": [
+          "Orange",
+          "Apple",
+          "Potato",
+          "Mango"
+        ],
+        "answer": "Potato",
+        "feedback": "Correct answer is Potato"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "Find the odd one.",
+        "options": [
+          "Cat",
+          "Dog",
+          "Cow",
+          "Table"
+        ],
+        "answer": "Table",
+        "feedback": "Correct answer is Table"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "Which shape has no corners?",
+        "options": [
+          "Square",
+          "Rectangle",
+          "Circle",
+          "Triangle"
+        ],
+        "answer": "Circle",
+        "feedback": "Correct answer is Circle"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "Which comes first?",
+        "options": [
+          "Evening",
+          "Morning",
+          "Night",
+          "Midnight"
+        ],
+        "answer": "Morning",
+        "feedback": "Correct answer is Morning"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "Complete the word: C _ T",
+        "options": [
+          "A",
+          "O",
+          "E",
+          "U"
+        ],
+        "answer": "A",
+        "feedback": "Correct answer is A"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "Which is the largest?",
+        "options": [
+          "Ant",
+          "Elephant",
+          "Rat",
+          "Cat"
+        ],
+        "answer": "Elephant",
+        "feedback": "Correct answer is Elephant"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "Which one belongs in a classroom?",
+        "options": [
+          "Blackboard",
+          "Pillow",
+          "Stove",
+          "Shower"
+        ],
+        "answer": "Blackboard",
+        "feedback": "Correct answer is Blackboard"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "Find the next letter: M, N, O, __",
+        "options": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ],
+        "answer": "P",
+        "feedback": "Correct answer is P"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "Which is used for cooking?",
+        "options": [
+          "Pan",
+          "Book",
+          "Ball",
+          "Pencil"
+        ],
+        "answer": "Pan",
+        "feedback": "Correct answer is Pan"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "Which is the smallest number?",
+        "options": [
+          "7",
+          "2",
+          "5",
+          "9"
+        ],
+        "answer": "2",
+        "feedback": "Correct answer is 2"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "Which animal lives in water?",
+        "options": [
+          "Lion",
+          "Fish",
+          "Goat",
+          "Horse"
+        ],
+        "answer": "Fish",
+        "feedback": "Correct answer is Fish"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "Which one is a transport vehicle?",
+        "options": [
+          "Bus",
+          "Tree",
+          "Chair",
+          "Fan"
+        ],
+        "answer": "Bus",
+        "feedback": "Correct answer is Bus"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "Complete the sequence: 10, 20, 30, __",
+        "options": [
+          "35",
+          "40",
+          "45",
+          "50"
+        ],
+        "answer": "40",
+        "feedback": "Correct answer is 40"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "Which one is used to tell time?",
+        "options": [
+          "Clock",
+          "Spoon",
+          "Plate",
+          "Bottle"
+        ],
+        "answer": "Clock",
+        "feedback": "Correct answer is Clock"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "Which comes after Friday?",
+        "options": [
+          "Thursday",
+          "Saturday",
+          "Sunday",
+          "Monday"
+        ],
+        "answer": "Saturday",
+        "feedback": "Correct answer is Saturday"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "Which word has the most letters?",
+        "options": [
+          "Cat",
+          "Elephant",
+          "Dog",
+          "Cow"
+        ],
+        "answer": "Elephant",
+        "feedback": "Correct answer is Elephant"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "Which object gives light?",
+        "options": [
+          "Lamp",
+          "Chair",
+          "Bag",
+          "Shoe"
+        ],
+        "answer": "Lamp",
+        "feedback": "Correct answer is Lamp"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "Which is the opposite of \"Open\"?",
+        "options": [
+          "Start",
+          "Close",
+          "Run",
+          "Walk"
+        ],
+        "answer": "Close",
+        "feedback": "Correct answer is Close"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "Which number is missing? 5, 10, __, 20",
+        "options": [
+          "12",
+          "15",
+          "18",
+          "25"
+        ],
+        "answer": "15",
+        "feedback": "Correct answer is 15"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "Which one is a bird?",
+        "options": [
+          "Sparrow",
+          "Tiger",
+          "Horse",
+          "Cow"
+        ],
+        "answer": "Sparrow",
+        "feedback": "Correct answer is Sparrow"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "Which letter comes before K?",
+        "options": [
+          "H",
+          "I",
+          "J",
+          "L"
+        ],
+        "answer": "J",
+        "feedback": "Correct answer is J"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "Which object is used for reading?",
+        "options": [
+          "Book",
+          "Plate",
+          "Shoe",
+          "Cup"
+        ],
+        "answer": "Book",
+        "feedback": "Correct answer is Book"
+      }
+    ]
+  },
+  "Intermediate": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Choose the correct sentence.",
+        "options": [
+          "She go to school.",
+          "She goes to school.",
+          "She going school.",
+          "She gone school."
+        ],
+        "answer": "She goes to school.",
+        "feedback": "Correct answer is She goes to school."
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is the opposite of \"happy\"?",
+        "options": [
+          "Joyful",
+          "Sad",
+          "Excited",
+          "Bright"
+        ],
+        "answer": "Sad",
+        "feedback": "Correct answer is Sad"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Complete the sentence: The birds _____ in the sky.",
+        "options": [
+          "swim",
+          "fly",
+          "walk",
+          "crawl"
+        ],
+        "answer": "fly",
+        "feedback": "Correct answer is fly"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which word is a verb?",
+        "options": [
+          "Teacher",
+          "Running",
+          "School",
+          "Table"
+        ],
+        "answer": "Running",
+        "feedback": "Correct answer is Running"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "Which sentence is correct?",
+        "options": [
+          "They is playing.",
+          "They are playing.",
+          "They am playing.",
+          "They be playing."
+        ],
+        "answer": "They are playing.",
+        "feedback": "Correct answer is They are playing."
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "Which word is a synonym of quick?",
+        "options": [
+          "Slow",
+          "Fast",
+          "Late",
+          "Quiet"
+        ],
+        "answer": "Fast",
+        "feedback": "Correct answer is Fast"
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "Choose the correct spelling.",
+        "options": [
+          "Beautifull",
+          "Beautiful",
+          "Beautifal",
+          "Beutiful"
+        ],
+        "answer": "Beautiful",
+        "feedback": "Correct answer is Beautiful"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "Which sentence ends with a question mark?",
+        "options": [
+          "I like apples.",
+          "Where are you?",
+          "She is happy.",
+          "Open the door."
+        ],
+        "answer": "Where are you?",
+        "feedback": "Correct answer is Where are you?"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "Which word is a noun?",
+        "options": [
+          "Dance",
+          "House",
+          "Quickly",
+          "Happy"
+        ],
+        "answer": "House",
+        "feedback": "Correct answer is House"
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which sentence is polite?",
+        "options": [
+          "Move away!",
+          "Please help me.",
+          "Give me that.",
+          "Be quiet."
+        ],
+        "answer": "Please help me.",
+        "feedback": "Correct answer is Please help me."
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "Complete the sentence: Water is _____ for life.",
+        "options": [
+          "important",
+          "noisy",
+          "expensive",
+          "dirty"
+        ],
+        "answer": "important",
+        "feedback": "Correct answer is important"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "Which word belongs to the group? Rose, Lily, Lotus, _____",
+        "options": [
+          "Mango",
+          "Jasmine",
+          "Potato",
+          "Rice"
+        ],
+        "answer": "Jasmine",
+        "feedback": "Correct answer is Jasmine"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "Choose the correct article. I saw _____ elephant.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "Correct answer is an"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "Which word is an adjective?",
+        "options": [
+          "Tall",
+          "Walk",
+          "School",
+          "Friend"
+        ],
+        "answer": "Tall",
+        "feedback": "Correct answer is Tall"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "Which sentence is in the past tense?",
+        "options": [
+          "I play football.",
+          "I played football.",
+          "I am playing football.",
+          "I will play football."
+        ],
+        "answer": "I played football.",
+        "feedback": "Correct answer is I played football."
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "Which one is used in a hospital?",
+        "options": [
+          "Stethoscope",
+          "Hammer",
+          "Spade",
+          "Eraser"
+        ],
+        "answer": "Stethoscope",
+        "feedback": "Correct answer is Stethoscope"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "Which word completes the sentence? The train arrived _____ time.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "over"
+        ],
+        "answer": "on",
+        "feedback": "Correct answer is on"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "Which is the correct plural?",
+        "options": [
+          "Childs",
+          "Children",
+          "Childes",
+          "Childrens"
+        ],
+        "answer": "Children",
+        "feedback": "Correct answer is Children"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "Which sentence has the correct capitalization?",
+        "options": [
+          "india is my country.",
+          "India is my country.",
+          "india Is my country.",
+          "India is My country."
+        ],
+        "answer": "India is my country.",
+        "feedback": "Correct answer is India is my country."
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "Which word is related to farming?",
+        "options": [
+          "Tractor",
+          "Laptop",
+          "Television",
+          "Printer"
+        ],
+        "answer": "Tractor",
+        "feedback": "Correct answer is Tractor"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "Choose the correct word. The baby is _____ loudly.",
+        "options": [
+          "cry",
+          "crying",
+          "cried",
+          "cries"
+        ],
+        "answer": "crying",
+        "feedback": "Correct answer is crying"
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "Which sentence makes the most sense?",
+        "options": [
+          "The fish climbed a tree.",
+          "The fish swims in water.",
+          "The fish drives a car.",
+          "The fish writes a letter."
+        ],
+        "answer": "The fish swims in water.",
+        "feedback": "Correct answer is The fish swims in water."
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "Which word is an antonym of strong?",
+        "options": [
+          "Powerful",
+          "Weak",
+          "Healthy",
+          "Brave"
+        ],
+        "answer": "Weak",
+        "feedback": "Correct answer is Weak"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "Which punctuation mark ends an exclamatory sentence?",
+        "options": [
+          ".",
+          ",",
+          "!",
+          "?"
+        ],
+        "answer": "!",
+        "feedback": "Correct answer is !"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "Complete the sentence. We should always _____ the truth.",
+        "options": [
+          "tell",
+          "hide",
+          "forget",
+          "break"
+        ],
+        "answer": "tell",
+        "feedback": "Correct answer is tell"
+      }
+    ]
+  },
+  "Advanced": {}
+}

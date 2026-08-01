@@ -1,0 +1,818 @@
+{
+  "Beginner": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which letter comes after A?",
+        "options": [
+          "پانی",
+          "Fire",
+          "Earth",
+          "Air"
+        ],
+        "answer": "پانی",
+        "feedback": "Correct answer is: پانی"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is a fruit?",
+        "options": [
+          "کھانا",
+          "Sleep",
+          "Walk",
+          "Run"
+        ],
+        "answer": "کھانا",
+        "feedback": "Correct answer is: کھانا"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Which word names an animal?",
+        "options": [
+          "سورج",
+          "Moon",
+          "Star",
+          "Cloud"
+        ],
+        "answer": "سورج",
+        "feedback": "Correct answer is: سورج"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which letter is a vowel?",
+        "options": [
+          "گھر",
+          "Tree",
+          "Road",
+          "Car"
+        ],
+        "answer": "گھر",
+        "feedback": "Correct answer is: گھر"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "Which word means a greeting?",
+        "options": [
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "answer": "B",
+        "feedback": "Correct answer is: B"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: مجھے سیب پسند ہیں۔",
+        "word": "مجھے سیب پسند ہیں۔"
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: یہ ایک بلی ہے۔",
+        "word": "یہ ایک بلی ہے۔"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: سورج گرم ہے۔",
+        "word": "سورج گرم ہے۔"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: मुझे दूध पसंद है।",
+        "word": "मुझे दूध पसंद है।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: اس کے پاس ایک قلم ہے۔",
+        "word": "اس کے پاس ایک قلم ہے۔"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Urdu: Apple",
+        "answer": "سیب",
+        "feedback": "Correct translation is: سیب"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Urdu: Good morning",
+        "answer": "صبح بخیر",
+        "feedback": "Correct translation is: صبح بخیر"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Urdu: Thank you",
+        "answer": "شکریہ",
+        "feedback": "Correct translation is: شکریہ"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Urdu: My book",
+        "answer": "میری کتاب",
+        "feedback": "Correct translation is: میری کتاب"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Urdu: Blue sky",
+        "answer": "نیلا آسمان",
+        "feedback": "Correct translation is: نیلا آسمان"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: میں ایک طالب علم ___۔",
+        "options": [
+          "ہوں",
+          "ہے",
+          "ہیں",
+          "ہو"
+        ],
+        "answer": "ہوں",
+        "feedback": "Correct answer is: ہوں"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: وہ خوش ___۔",
+        "options": [
+          "ہوں",
+          "ہے",
+          "ہیں",
+          "ہو"
+        ],
+        "answer": "ہے",
+        "feedback": "Correct answer is: ہے"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: وہ کھیل رہے ___۔",
+        "options": [
+          "ہوں",
+          "ہے",
+          "ہیں",
+          "ہو"
+        ],
+        "answer": "ہیں",
+        "feedback": "Correct answer is: ہیں"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: یہ ___ سیب ہے۔",
+        "options": [
+          "ایک",
+          "کا",
+          "کو",
+          "پر"
+        ],
+        "answer": "ایک",
+        "feedback": "Correct answer is: ایک"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: میرے پاس ___ کتاب ہے۔",
+        "options": [
+          "ایک",
+          "کا",
+          "کو",
+          "پر"
+        ],
+        "answer": "ایک",
+        "feedback": "Correct answer is: ایک"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 101,
+        "type": "Puzzle",
+        "text": "کون سا لفظ مختلف ہے؟",
+        "options": [
+          "سیب",
+          "آم",
+          "کیلا",
+          "کرسی"
+        ],
+        "answer": "کرسی",
+        "feedback": "Correct answer is: کرسی"
+      },
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the pattern: A, B, C, __",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "answer": "D",
+        "feedback": "Correct answer is: D"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Which number comes next? 2, 4, 6, 8, __",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "feedback": "Correct answer is: 10"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "ان میں سے کون سا پھل نہیں ہے؟",
+        "options": [
+          "سنترا",
+          "سیب",
+          "آلو",
+          "آم"
+        ],
+        "answer": "آلو",
+        "feedback": "Correct answer is: آلو"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "مختلف لفظ تلاش کریں۔",
+        "options": [
+          "بلی",
+          "کتا",
+          "گائے",
+          "میز"
+        ],
+        "answer": "میز",
+        "feedback": "Correct answer is: میز"
+      }
+    ]
+  },
+  "Intermediate": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Choose the correct sentence.",
+        "options": [
+          "خوبصورت",
+          "Ugly",
+          "Fast",
+          "Slow"
+        ],
+        "answer": "خوبصورت",
+        "feedback": "Correct answer is: خوبصورت"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is the opposite of \"happy\"?",
+        "options": [
+          "لائبریری",
+          "School",
+          "Hospital",
+          "Park"
+        ],
+        "answer": "لائبریری",
+        "feedback": "Correct answer is: لائبریری"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Complete the sentence: The birds _____ in the sky.",
+        "options": [
+          "ran",
+          "runned",
+          "running",
+          "runs"
+        ],
+        "answer": "ran",
+        "feedback": "Correct answer is: ran"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which word is a verb?",
+        "options": [
+          "cold",
+          "warm",
+          "boiling",
+          "freezing"
+        ],
+        "answer": "cold",
+        "feedback": "Correct answer is: cold"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "Which sentence is correct?",
+        "options": [
+          "Run",
+          "Apple",
+          "Blue",
+          "Quickly"
+        ],
+        "answer": "Run",
+        "feedback": "Correct answer is: Run"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: میں ایک نئی زبان سیکھ رہا ہوں۔",
+        "word": "میں ایک نئی زبان سیکھ رہا ہوں۔"
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: یہ ایک بلی ہے۔",
+        "word": "یہ ایک بلی ہے۔"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: سورج گرم ہے۔",
+        "word": "سورج گرم ہے۔"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: मुझे दूध पसंद है।",
+        "word": "मुझे दूध पसंद है।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: اس کے پاس ایک قلم ہے۔",
+        "word": "اس کے پاس ایک قلم ہے۔"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Urdu: Good afternoon",
+        "answer": "سیب",
+        "feedback": "Correct translation is: سیب"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Urdu: Clean water",
+        "answer": "صبح بخیر",
+        "feedback": "Correct translation is: صبح بخیر"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Urdu: Healthy food",
+        "answer": "شکریہ",
+        "feedback": "Correct translation is: شکریہ"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Urdu: Open window",
+        "answer": "میری کتاب",
+        "feedback": "Correct translation is: میری کتاب"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Urdu: Close gate",
+        "answer": "نیلا آسمان",
+        "feedback": "Correct translation is: نیلا آسمان"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: میں ایک طالب علم ___۔",
+        "options": [
+          "ہوں",
+          "ہے",
+          "ہیں",
+          "ہو"
+        ],
+        "answer": "ہوں",
+        "feedback": "Correct answer is: ہوں"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: وہ خوش ___۔",
+        "options": [
+          "ہوں",
+          "ہے",
+          "ہیں",
+          "ہو"
+        ],
+        "answer": "ہے",
+        "feedback": "Correct answer is: ہے"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: وہ کھیل رہے ___۔",
+        "options": [
+          "ہوں",
+          "ہے",
+          "ہیں",
+          "ہو"
+        ],
+        "answer": "ہیں",
+        "feedback": "Correct answer is: ہیں"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: یہ ___ سیب ہے۔",
+        "options": [
+          "ایک",
+          "کا",
+          "کو",
+          "پر"
+        ],
+        "answer": "ایک",
+        "feedback": "Correct answer is: ایک"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: میرے پاس ___ کتاب ہے۔",
+        "options": [
+          "ایک",
+          "کا",
+          "کو",
+          "پر"
+        ],
+        "answer": "ایک",
+        "feedback": "Correct answer is: ایک"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 101,
+        "type": "Puzzle",
+        "text": "کون سا لفظ مختلف ہے؟",
+        "options": [
+          "سیب",
+          "آم",
+          "کیلا",
+          "کرسی"
+        ],
+        "answer": "کرسی",
+        "feedback": "Correct answer is: کرسی"
+      },
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 5, 10, 15, 20, __",
+        "options": [
+          "22",
+          "25",
+          "30",
+          "35"
+        ],
+        "answer": "25",
+        "feedback": "Correct answer is: 25"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Which word does not belong?",
+        "options": [
+          "Doctor",
+          "Nurse",
+          "Teacher",
+          "Banana"
+        ],
+        "answer": "Banana",
+        "feedback": "Correct answer is: Banana"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "ان میں سے کون سا پھل نہیں ہے؟",
+        "options": [
+          "سنترا",
+          "سیب",
+          "آلو",
+          "آم"
+        ],
+        "answer": "آلو",
+        "feedback": "Correct answer is: آلو"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "مختلف لفظ تلاش کریں۔",
+        "options": [
+          "بلی",
+          "کتا",
+          "گائے",
+          "میز"
+        ],
+        "answer": "میز",
+        "feedback": "Correct answer is: میز"
+      }
+    ]
+  },
+  "Advanced": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Choose the sentence with the correct grammar.",
+        "options": [
+          "ماحول",
+          "Economy",
+          "Society",
+          "Politics"
+        ],
+        "answer": "ماحول",
+        "feedback": "Correct answer is: ماحول"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is the synonym of \"rapid\"?",
+        "options": [
+          "معیشت",
+          "History",
+          "Math",
+          "Science"
+        ],
+        "answer": "معیشت",
+        "feedback": "Correct answer is: معیشت"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Choose the correct sentence.",
+        "options": [
+          "careful",
+          "careless",
+          "fast",
+          "slow"
+        ],
+        "answer": "careful",
+        "feedback": "Correct answer is: careful"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which word best completes the sentence? The scientist made an important _____ during the experiment.",
+        "options": [
+          "everywhere",
+          "nowhere",
+          "rare",
+          "unique"
+        ],
+        "answer": "everywhere",
+        "feedback": "Correct answer is: everywhere"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "What is the opposite of generous?",
+        "options": [
+          "Quickly",
+          "Quick",
+          "Quicker",
+          "Quickest"
+        ],
+        "answer": "Quickly",
+        "feedback": "Correct answer is: Quickly"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: پائیدار ترقی ہمارے مستقبل کے لیے اہم ہے۔",
+        "word": "پائیدار ترقی ہمارے مستقبل کے لیے اہم ہے۔"
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: یہ ایک بلی ہے۔",
+        "word": "یہ ایک بلی ہے۔"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: سورج گرم ہے۔",
+        "word": "سورج گرم ہے۔"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: मुझे दूध पसंद है।",
+        "word": "मुझे दूध पसंद है।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: اس کے پاس ایک قلم ہے۔",
+        "word": "اس کے پاس ایک قلم ہے۔"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Urdu: Critical thinking",
+        "answer": "سیب",
+        "feedback": "Correct translation is: سیب"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Urdu: Team spirit",
+        "answer": "صبح بخیر",
+        "feedback": "Correct translation is: صبح بخیر"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Urdu: Digital literacy",
+        "answer": "شکریہ",
+        "feedback": "Correct translation is: شکریہ"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Urdu: Time management",
+        "answer": "میری کتاب",
+        "feedback": "Correct translation is: میری کتاب"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Urdu: Healthy lifestyle",
+        "answer": "نیلا آسمان",
+        "feedback": "Correct translation is: نیلا آسمان"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: میں ایک طالب علم ___۔",
+        "options": [
+          "ہوں",
+          "ہے",
+          "ہیں",
+          "ہو"
+        ],
+        "answer": "ہوں",
+        "feedback": "Correct answer is: ہوں"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: وہ خوش ___۔",
+        "options": [
+          "ہوں",
+          "ہے",
+          "ہیں",
+          "ہو"
+        ],
+        "answer": "ہے",
+        "feedback": "Correct answer is: ہے"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: وہ کھیل رہے ___۔",
+        "options": [
+          "ہوں",
+          "ہے",
+          "ہیں",
+          "ہو"
+        ],
+        "answer": "ہیں",
+        "feedback": "Correct answer is: ہیں"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: یہ ___ سیب ہے۔",
+        "options": [
+          "ایک",
+          "کا",
+          "کو",
+          "پر"
+        ],
+        "answer": "ایک",
+        "feedback": "Correct answer is: ایک"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: میرے پاس ___ کتاب ہے۔",
+        "options": [
+          "ایک",
+          "کا",
+          "کو",
+          "پر"
+        ],
+        "answer": "ایک",
+        "feedback": "Correct answer is: ایک"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 3, 6, 12, 24, __",
+        "options": [
+          "36",
+          "42",
+          "48",
+          "54"
+        ],
+        "answer": "48",
+        "feedback": "Correct answer is: 48"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Find the odd one out.",
+        "options": [
+          "Keyboard",
+          "Monitor",
+          "Printer",
+          "Bicycle"
+        ],
+        "answer": "Bicycle",
+        "feedback": "Correct answer is: Bicycle"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "ان میں سے کون سا پھل نہیں ہے؟",
+        "options": [
+          "سنترا",
+          "سیب",
+          "آلو",
+          "آم"
+        ],
+        "answer": "آلو",
+        "feedback": "Correct answer is: آلو"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "مختلف لفظ تلاش کریں۔",
+        "options": [
+          "بلی",
+          "کتا",
+          "گائے",
+          "میز"
+        ],
+        "answer": "میز",
+        "feedback": "Correct answer is: میز"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "مختلف لفظ تلاش کریں۔",
+        "options": [
+          "گلاب",
+          "کنول",
+          "آم",
+          "چمبیلی"
+        ],
+        "answer": "آم",
+        "feedback": "Correct answer is: آم"
+      }
+    ]
+  }
+}

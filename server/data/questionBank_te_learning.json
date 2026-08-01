@@ -1,0 +1,818 @@
+{
+  "Beginner": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Which letter comes after A?",
+        "options": [
+          "నీరు",
+          "Fire",
+          "Earth",
+          "Air"
+        ],
+        "answer": "నీరు",
+        "feedback": "Correct answer is: నీరు"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is a fruit?",
+        "options": [
+          "ఆహారం",
+          "Sleep",
+          "Walk",
+          "Run"
+        ],
+        "answer": "ఆహారం",
+        "feedback": "Correct answer is: ఆహారం"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Which word names an animal?",
+        "options": [
+          "సూర్యుడు",
+          "Moon",
+          "Star",
+          "Cloud"
+        ],
+        "answer": "సూర్యుడు",
+        "feedback": "Correct answer is: సూర్యుడు"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which letter is a vowel?",
+        "options": [
+          "ఇల్లు",
+          "Tree",
+          "Road",
+          "Car"
+        ],
+        "answer": "ఇల్లు",
+        "feedback": "Correct answer is: ఇల్లు"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "Which word means a greeting?",
+        "options": [
+          "B",
+          "D",
+          "E",
+          "F"
+        ],
+        "answer": "B",
+        "feedback": "Correct answer is: B"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: నాకు ఆపిల్స్ అంటే ఇష్టం.",
+        "word": "నాకు ఆపిల్స్ అంటే ఇష్టం."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: ఇది ఒక పిల్లి।",
+        "word": "ఇది ఒక పిల్లి।"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: సూర్యుడు వేడిగా ఉన్నాడు।",
+        "word": "సూర్యుడు వేడిగా ఉన్నాడు।"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: నాకు పాలు ఇష్టం।",
+        "word": "నాకు పాలు ఇష్టం।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: ఆమె వద్ద ఒక పెన్ను ఉంది।",
+        "word": "ఆమె వద్ద ఒక పెన్ను ఉంది।"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Telugu: Apple",
+        "answer": "ఆపిల్",
+        "feedback": "Correct translation is: ఆపిల్"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Telugu: Good morning",
+        "answer": "శుభోదయం",
+        "feedback": "Correct translation is: శుభోదయం"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Telugu: Thank you",
+        "answer": "ధన్యవాదాలు",
+        "feedback": "Correct translation is: ధన్యవాదాలు"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Telugu: My book",
+        "answer": "నా పుస్తకం",
+        "feedback": "Correct translation is: నా పుస్తకం"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Telugu: Blue sky",
+        "answer": "నీలి ఆకాశం",
+        "feedback": "Correct translation is: నీలి ఆకాశం"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: నేను ఒక విద్యార్థిని ___।",
+        "options": [
+          "ఉన్నాను",
+          "ఉన్నాడు",
+          "ఉన్నారు",
+          "ఉన్నావు"
+        ],
+        "answer": "ఉన్నాను",
+        "feedback": "Correct answer is: ఉన్నాను"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: ఆమె సంతోషంగా ___।",
+        "options": [
+          "ఉన్నాను",
+          "ఉంది",
+          "ఉన్నారు",
+          "ఉన్నావు"
+        ],
+        "answer": "ఉంది",
+        "feedback": "Correct answer is: ఉంది"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: వారు ఆడుకుంటున్నారు ___।",
+        "options": [
+          "ఉన్నారు",
+          "ఉన్నాను",
+          "ఉన్నాడు",
+          "ఉన్నావు"
+        ],
+        "answer": "ఉన్నారు",
+        "feedback": "Correct answer is: ఉన్నారు"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: ఇది ___ ఆపిల్.",
+        "options": [
+          "ఒక",
+          "అనేక",
+          "కొన్ని",
+          "ఏదైనా"
+        ],
+        "answer": "ఒక",
+        "feedback": "Correct answer is: ఒక"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: నా వద్ద ___ పుస్తకం ఉంది.",
+        "options": [
+          "ఒక",
+          "అనేక",
+          "కొన్ని",
+          "ఏదైనా"
+        ],
+        "answer": "ఒక",
+        "feedback": "Correct answer is: ఒక"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 101,
+        "type": "Puzzle",
+        "text": "ఏ పదం భిన్నంగా ఉంది?",
+        "options": [
+          "ఆపిల్",
+          "మామిడి",
+          "అరటి",
+          "కుర్చీ"
+        ],
+        "answer": "కుర్చీ",
+        "feedback": "Correct answer is: కుర్చీ"
+      },
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the pattern: A, B, C, __",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "answer": "D",
+        "feedback": "Correct answer is: D"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Which number comes next? 2, 4, 6, 8, __",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "feedback": "Correct answer is: 10"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "వీటిలో ఏది పండు కాదు?",
+        "options": [
+          "నారింజ",
+          "ఆపిల్",
+          "బంగాళాదుంప",
+          "మామిడి"
+        ],
+        "answer": "బంగాళాదుంప",
+        "feedback": "Correct answer is: బంగాళాదుంప"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "భిన్నమైనదాన్ని కనుగొనండి.",
+        "options": [
+          "పిల్లి",
+          "కుక్క",
+          "ఆవు",
+          "బల్ల"
+        ],
+        "answer": "బల్ల",
+        "feedback": "Correct answer is: బల్ల"
+      }
+    ]
+  },
+  "Intermediate": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Choose the correct sentence.",
+        "options": [
+          "అందమైన",
+          "Ugly",
+          "Fast",
+          "Slow"
+        ],
+        "answer": "అందమైన",
+        "feedback": "Correct answer is: అందమైన"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is the opposite of \"happy\"?",
+        "options": [
+          "గ్రంథాలయం",
+          "School",
+          "Hospital",
+          "Park"
+        ],
+        "answer": "గ్రంథాలయం",
+        "feedback": "Correct answer is: గ్రంథాలయం"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Complete the sentence: The birds _____ in the sky.",
+        "options": [
+          "ran",
+          "runned",
+          "running",
+          "runs"
+        ],
+        "answer": "ran",
+        "feedback": "Correct answer is: ran"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which word is a verb?",
+        "options": [
+          "cold",
+          "warm",
+          "boiling",
+          "freezing"
+        ],
+        "answer": "cold",
+        "feedback": "Correct answer is: cold"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "Which sentence is correct?",
+        "options": [
+          "Run",
+          "Apple",
+          "Blue",
+          "Quickly"
+        ],
+        "answer": "Run",
+        "feedback": "Correct answer is: Run"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: నేను కొత్త భాష నేర్చుకుంటున్నాను.",
+        "word": "నేను కొత్త భాష నేర్చుకుంటున్నాను."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: ఇది ఒక పిల్లి।",
+        "word": "ఇది ఒక పిల్లి।"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: సూర్యుడు వేడిగా ఉన్నాడు।",
+        "word": "సూర్యుడు వేడిగా ఉన్నాడు।"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: నాకు పాలు ఇష్టం।",
+        "word": "నాకు పాలు ఇష్టం।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: ఆమె వద్ద ఒక పెన్ను ఉంది।",
+        "word": "ఆమె వద్ద ఒక పెన్ను ఉంది।"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Telugu: Good afternoon",
+        "answer": "ఆపిల్",
+        "feedback": "Correct translation is: ఆపిల్"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Telugu: Clean water",
+        "answer": "శుభోదయం",
+        "feedback": "Correct translation is: శుభోదయం"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Telugu: Healthy food",
+        "answer": "ధన్యవాదాలు",
+        "feedback": "Correct translation is: ధన్యవాదాలు"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Telugu: Open window",
+        "answer": "నా పుస్తకం",
+        "feedback": "Correct translation is: నా పుస్తకం"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Telugu: Close gate",
+        "answer": "నీలి ఆకాశం",
+        "feedback": "Correct translation is: నీలి ఆకాశం"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: నేను ఒక విద్యార్థిని ___।",
+        "options": [
+          "ఉన్నాను",
+          "ఉన్నాడు",
+          "ఉన్నారు",
+          "ఉన్నావు"
+        ],
+        "answer": "ఉన్నాను",
+        "feedback": "Correct answer is: ఉన్నాను"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: ఆమె సంతోషంగా ___।",
+        "options": [
+          "ఉన్నాను",
+          "ఉంది",
+          "ఉన్నారు",
+          "ఉన్నావు"
+        ],
+        "answer": "ఉంది",
+        "feedback": "Correct answer is: ఉంది"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: వారు ఆడుకుంటున్నారు ___।",
+        "options": [
+          "ఉన్నారు",
+          "ఉన్నాను",
+          "ఉన్నాడు",
+          "ఉన్నావు"
+        ],
+        "answer": "ఉన్నారు",
+        "feedback": "Correct answer is: ఉన్నారు"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: ఇది ___ ఆపిల్.",
+        "options": [
+          "ఒక",
+          "అనేక",
+          "కొన్ని",
+          "ఏదైనా"
+        ],
+        "answer": "ఒక",
+        "feedback": "Correct answer is: ఒక"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: నా వద్ద ___ పుస్తకం ఉంది.",
+        "options": [
+          "ఒక",
+          "అనేక",
+          "కొన్ని",
+          "ఏదైనా"
+        ],
+        "answer": "ఒక",
+        "feedback": "Correct answer is: ఒక"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 101,
+        "type": "Puzzle",
+        "text": "ఏ పదం భిన్నంగా ఉంది?",
+        "options": [
+          "ఆపిల్",
+          "మామిడి",
+          "అరటి",
+          "కుర్చీ"
+        ],
+        "answer": "కుర్చీ",
+        "feedback": "Correct answer is: కుర్చీ"
+      },
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 5, 10, 15, 20, __",
+        "options": [
+          "22",
+          "25",
+          "30",
+          "35"
+        ],
+        "answer": "25",
+        "feedback": "Correct answer is: 25"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Which word does not belong?",
+        "options": [
+          "Doctor",
+          "Nurse",
+          "Teacher",
+          "Banana"
+        ],
+        "answer": "Banana",
+        "feedback": "Correct answer is: Banana"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "వీటిలో ఏది పండు కాదు?",
+        "options": [
+          "నారింజ",
+          "ఆపిల్",
+          "బంగాళాదుంప",
+          "మామిడి"
+        ],
+        "answer": "బంగాళాదుంప",
+        "feedback": "Correct answer is: బంగాళాదుంప"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "భిన్నమైనదాన్ని కనుగొనండి.",
+        "options": [
+          "పిల్లి",
+          "కుక్క",
+          "ఆవు",
+          "బల్ల"
+        ],
+        "answer": "బల్ల",
+        "feedback": "Correct answer is: బల్ల"
+      }
+    ]
+  },
+  "Advanced": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Choose the sentence with the correct grammar.",
+        "options": [
+          "పర్యావరణం",
+          "Economy",
+          "Society",
+          "Politics"
+        ],
+        "answer": "పర్యావరణం",
+        "feedback": "Correct answer is: పర్యావరణం"
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is the synonym of \"rapid\"?",
+        "options": [
+          "ఆర్థిక వ్యవస్థ",
+          "History",
+          "Math",
+          "Science"
+        ],
+        "answer": "ఆర్థిక వ్యవస్థ",
+        "feedback": "Correct answer is: ఆర్థిక వ్యవస్థ"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Choose the correct sentence.",
+        "options": [
+          "careful",
+          "careless",
+          "fast",
+          "slow"
+        ],
+        "answer": "careful",
+        "feedback": "Correct answer is: careful"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which word best completes the sentence? The scientist made an important _____ during the experiment.",
+        "options": [
+          "everywhere",
+          "nowhere",
+          "rare",
+          "unique"
+        ],
+        "answer": "everywhere",
+        "feedback": "Correct answer is: everywhere"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "What is the opposite of generous?",
+        "options": [
+          "Quickly",
+          "Quick",
+          "Quicker",
+          "Quickest"
+        ],
+        "answer": "Quickly",
+        "feedback": "Correct answer is: Quickly"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: స్థిరమైన అభివృద్ధి మన భవిష్యత్తుకు కీలకమైనది.",
+        "word": "స్థిరమైన అభివృద్ధి మన భవిష్యత్తుకు కీలకమైనది."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: ఇది ఒక పిల్లి।",
+        "word": "ఇది ఒక పిల్లి।"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: సూర్యుడు వేడిగా ఉన్నాడు।",
+        "word": "సూర్యుడు వేడిగా ఉన్నాడు।"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: నాకు పాలు ఇష్టం।",
+        "word": "నాకు పాలు ఇష్టం।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: ఆమె వద్ద ఒక పెన్ను ఉంది।",
+        "word": "ఆమె వద్ద ఒక పెన్ను ఉంది।"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Telugu: Critical thinking",
+        "answer": "ఆపిల్",
+        "feedback": "Correct translation is: ఆపిల్"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Telugu: Team spirit",
+        "answer": "శుభోదయం",
+        "feedback": "Correct translation is: శుభోదయం"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Telugu: Digital literacy",
+        "answer": "ధన్యవాదాలు",
+        "feedback": "Correct translation is: ధన్యవాదాలు"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Telugu: Time management",
+        "answer": "నా పుస్తకం",
+        "feedback": "Correct translation is: నా పుస్తకం"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Telugu: Healthy lifestyle",
+        "answer": "నీలి ఆకాశం",
+        "feedback": "Correct translation is: నీలి ఆకాశం"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: నేను ఒక విద్యార్థిని ___।",
+        "options": [
+          "ఉన్నాను",
+          "ఉన్నాడు",
+          "ఉన్నారు",
+          "ఉన్నావు"
+        ],
+        "answer": "ఉన్నాను",
+        "feedback": "Correct answer is: ఉన్నాను"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: ఆమె సంతోషంగా ___।",
+        "options": [
+          "ఉన్నాను",
+          "ఉంది",
+          "ఉన్నారు",
+          "ఉన్నావు"
+        ],
+        "answer": "ఉంది",
+        "feedback": "Correct answer is: ఉంది"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: వారు ఆడుకుంటున్నారు ___।",
+        "options": [
+          "ఉన్నారు",
+          "ఉన్నాను",
+          "ఉన్నాడు",
+          "ఉన్నావు"
+        ],
+        "answer": "ఉన్నారు",
+        "feedback": "Correct answer is: ఉన్నారు"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: ఇది ___ ఆపిల్.",
+        "options": [
+          "ఒక",
+          "అనేక",
+          "కొన్ని",
+          "ఏదైనా"
+        ],
+        "answer": "ఒక",
+        "feedback": "Correct answer is: ఒక"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: నా వద్ద ___ పుస్తకం ఉంది.",
+        "options": [
+          "ఒక",
+          "అనేక",
+          "కొన్ని",
+          "ఏదైనా"
+        ],
+        "answer": "ఒక",
+        "feedback": "Correct answer is: ఒక"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 3, 6, 12, 24, __",
+        "options": [
+          "36",
+          "42",
+          "48",
+          "54"
+        ],
+        "answer": "48",
+        "feedback": "Correct answer is: 48"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Find the odd one out.",
+        "options": [
+          "Keyboard",
+          "Monitor",
+          "Printer",
+          "Bicycle"
+        ],
+        "answer": "Bicycle",
+        "feedback": "Correct answer is: Bicycle"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "వీటిలో ఏది పండు కాదు?",
+        "options": [
+          "నారింజ",
+          "ఆపిల్",
+          "బంగాళాదుంప",
+          "మామిడి"
+        ],
+        "answer": "బంగాళాదుంప",
+        "feedback": "Correct answer is: బంగాళాదుంప"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "భిన్నమైనదాన్ని కనుగొనండి.",
+        "options": [
+          "పిల్లి",
+          "కుక్క",
+          "ఆవు",
+          "బల్ల"
+        ],
+        "answer": "బల్ల",
+        "feedback": "Correct answer is: బల్ల"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "భిన్నమైనదాన్ని కనుగొనండి.",
+        "options": [
+          "గులాబీ",
+          "తామర",
+          "మామిడి",
+          "కలువ"
+        ],
+        "answer": "మామిడి",
+        "feedback": "Correct answer is: మామిడి"
+      }
+    ]
+  }
+}
