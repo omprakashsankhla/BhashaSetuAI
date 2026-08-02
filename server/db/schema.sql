@@ -103,3 +103,14 @@ CREATE TABLE IF NOT EXISTS Assignments (
   INDEX idx_assignments_user_id (user_id),
   INDEX idx_assignments_lesson_id (lesson_id)
 );
+
+CREATE TABLE IF NOT EXISTS PushSubscriptions (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT,
+  endpoint TEXT NOT NULL,
+  p256dh VARCHAR(255) NOT NULL,
+  auth VARCHAR(255) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE,
+  INDEX idx_push_user_id (user_id)
+);

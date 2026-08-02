@@ -16,7 +16,7 @@ async function verifyDatabase() {
   const requiredTables = [
     'Users', 'Assessments', 'Lessons', 'Progress', 
     'Voice_Assessments', 'Recommendations', 'Announcements', 
-    'Platform_Settings', 'Assignments'
+    'Platform_Settings', 'Assignments', 'PushSubscriptions'
   ];
 
   try {
