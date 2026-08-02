@@ -22,7 +22,7 @@ services:
       - DB_PASSWORD=${DB_PASSWORD:-supersecret}
       - DB_NAME=bhashasetu
       - FRONTEND_URL=${FRONTEND_URL:-https://bhashasetu.com}
-      - JWT_SECRET=${JWT_SECRET:-default_secret_for_jwt}
+      - JWT_SECRET=${JWT_SECRET}
       - OPENAI_API_KEY=${OPENAI_API_KEY}
       - GEMINI_API_KEY=${GEMINI_API_KEY}
     depends_on:

@@ -64,9 +64,6 @@ app.use(cors({
 
 // Initialize Database
 const db = require('./db');
-db.verifyDatabase().then(() => {
-  logger.info('Database Verification Hook Completed.');
-});
 
 const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
@@ -94,6 +91,11 @@ app.get('/api/health', (req, res) => {
   res.status(200).json({ status: 'ok', message: 'BhashaSetu Backend is running' });
 });
 
+// Root endpoint for platform health checks
+app.get('/', (req, res) => {
+  res.status(200).send('BhashaSetu API is up and running');
+});
+
 const { startReminderJob } = require('./PushReminders');
 
 const PORT = process.env.PORT || 5000;
@@ -102,6 +104,13 @@ if (require.main === module) {
   app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
     startReminderJob();
+    
+    // Run verification after binding port so healthchecks don't timeout
+    db.verifyDatabase().then(() => {
+      logger.info('Database Verification Hook Completed.');
+    }).catch(err => {
+      logger.error('Database Verification Hook Failed: ' + err.message);
+    });
   });
 }
 

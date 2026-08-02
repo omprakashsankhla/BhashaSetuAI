@@ -78,7 +78,7 @@ router.post('/register', async (req, res) => {
     // 4. Generate JWT Token
     const token = jwt.sign(
       { user_id: result.insertId, email, role: 'Student' }, 
-      process.env.JWT_SECRET || 'fallback_secret_key',
+      process.env.JWT_SECRET,
       { expiresIn: '7d' }
     );
 
@@ -123,7 +123,7 @@ router.post('/login', async (req, res) => {
     // 3. Generate JWT Token
     const token = jwt.sign(
       { user_id: user.user_id, email: user.email, role: user.role }, 
-      process.env.JWT_SECRET || 'fallback_secret_key',
+      process.env.JWT_SECRET,
       { expiresIn: '7d' }
     );
 
@@ -231,7 +231,7 @@ router.post('/google', async (req, res) => {
     // Generate JWT Token
     const jwtToken = jwt.sign(
       { user_id: user.user_id, email: user.email, role: user.role }, 
-      process.env.JWT_SECRET || 'fallback_secret_key',
+      process.env.JWT_SECRET,
       { expiresIn: '7d' }
     );
 

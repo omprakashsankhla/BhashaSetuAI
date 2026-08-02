@@ -10,7 +10,7 @@ const verifyAdminToken = (req, res, next) => {
 
   const token = authHeader.split(' ')[1];
   
-  jwt.verify(token, process.env.JWT_SECRET || 'fallback_secret_key', (err, decoded) => {
+  jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
     if (err) return res.status(401).json({ message: 'Unauthorized!' });
     if (decoded.role !== 'Admin') return res.status(403).json({ message: 'Forbidden! Admin access only.' });
     req.userId = decoded.user_id;
