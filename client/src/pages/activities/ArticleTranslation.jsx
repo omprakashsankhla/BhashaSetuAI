@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { ArrowLeft, Star, Volume2, CheckCircle, ChevronRight, RotateCcw, Trophy } from 'lucide-react';
 import { speakText as ttsSpeak } from '../../utils/ttsHelper';
 import './ArticleTranslation.css';
+import { API_BASE_URL } from '../../config/api';
 
 const TRANSLATION_LANG_DATA = {
   hi: {
@@ -115,7 +116,7 @@ const ArticleTranslation = () => {
         const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
         const targetLang = storedUser.preferred_language || 'hi';
         const interfaceLang = i18n.language || 'en';
-        const res = await fetch(`http://localhost:5000/api/activities/article-translation?lang=${targetLang}&interfaceLang=${interfaceLang}`);
+        const res = await fetch(`${API_BASE_URL}/api/activities/article-translation?lang=${targetLang}&interfaceLang=${interfaceLang}`);
         if (res.ok) {
           const resData = await res.json();
           setArticles(resData.items || []);
@@ -167,7 +168,7 @@ Provide feedback in the following structured format:
 
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch('http://localhost:5000/api/activities/chat', {
+      const res = await fetch(`${API_BASE_URL}/api/activities/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

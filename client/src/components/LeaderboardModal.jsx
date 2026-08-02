@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { X, Award, Medal, Crown } from 'lucide-react';
 import './LeaderboardModal.css';
+import { API_BASE_URL } from '../config/api';
 
 const LeaderboardModal = ({ onClose }) => {
   const { t } = useTranslation();
@@ -16,7 +17,7 @@ const LeaderboardModal = ({ onClose }) => {
   const fetchLeaderboard = async () => {
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch('http://localhost:5000/api/dashboard/leaderboard', {
+      const res = await fetch(`${API_BASE_URL}/api/dashboard/leaderboard`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       if (res.ok) {

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Users, Search, Play, Activity, Settings, LogOut, MessageSquare, ChevronRight, CheckCircle, BookOpen, Award, BarChart2, Filter, Trash2, Edit3, Plus, X, User, Calendar, Book, Megaphone, Gamepad2, Download, Save, Bell, ArrowLeft, ArrowRight, ArrowUp, ArrowDown, Target, Zap, Trophy, AlertTriangle, BrainCircuit, Lightbulb, Menu } from 'lucide-react';
 import './AdminDashboard.css';
+import { API_BASE_URL } from '../config/api';
 
 const AdminDashboard = () => {
   const navigate = useNavigate();
@@ -16,6 +17,11 @@ const AdminDashboard = () => {
   const [activityLogs, setActivityLogs] = useState([]);
   const [announcements, setAnnouncements] = useState([]);
   const [platformSettings, setPlatformSettings] = useState({});
+
+  // Pagination States
+  const [currentPage, setCurrentPage] = useState(1);
+  const [totalPages, setTotalPages] = useState(1);
+  const limit = 50;
 
   // Filter & Search States
   const [searchQuery, setSearchQuery] = useState('');
@@ -56,23 +62,28 @@ const AdminDashboard = () => {
     };
   };
 
-  const fetchData = async (silent = false) => {
+  const fetchData = async (silent = false, page = currentPage) => {
     if (!silent) setLoading(true);
     try {
       const headers = getHeaders();
       const [analyticsRes, studentsRes, lessonsRes, logsRes, annRes, setRes] = await Promise.all([
-        fetch('http://localhost:5000/api/admin/analytics', { headers }),
-        fetch('http://localhost:5000/api/admin/students', { headers }),
-        fetch('http://localhost:5000/api/admin/lessons', { headers }),
-        fetch('http://localhost:5000/api/admin/activity-logs', { headers }),
-        fetch('http://localhost:5000/api/admin/announcements', { headers }),
-        fetch('http://localhost:5000/api/admin/settings', { headers })
+        fetch(`${API_BASE_URL}/api/admin/analytics`, { headers }),
+        fetch(`${API_BASE_URL}/api/admin/students?page=${page}&limit=${limit}`, { headers }),
+        fetch(`${API_BASE_URL}/api/admin/lessons`, { headers }),
+        fetch(`${API_BASE_URL}/api/admin/activity-logs`, { headers }),
+        fetch(`${API_BASE_URL}/api/admin/announcements`, { headers }),
+        fetch(`${API_BASE_URL}/api/admin/settings`, { headers })
       ]);
 
       if (!analyticsRes.ok) throw new Error('Unauthorized');
 
       setAnalytics(await analyticsRes.json());
-      setStudents((await studentsRes.json()).students);
+      const studentsData = await studentsRes.json();
+      setStudents(studentsData.students);
+      if (studentsData.pagination) {
+        setCurrentPage(studentsData.pagination.page);
+        setTotalPages(studentsData.pagination.totalPages);
+      }
       setLessons((await lessonsRes.json()).lessons);
       setActivityLogs((await logsRes.json()).logs);
       setAnnouncements((await annRes.json()).announcements);
@@ -96,7 +107,7 @@ const AdminDashboard = () => {
     setShowStudentModal(true);
     setLoadingDetails(true);
     try {
-      const res = await fetch(`http://localhost:5000/api/admin/students/${studentId}/details`, { headers: getHeaders() });
+      const res = await fetch(`${API_BASE_URL}/api/admin/students/${studentId}/details`, { headers: getHeaders() });
       const data = await res.json();
       setStudentDetails(data);
     } catch (err) {
@@ -116,7 +127,7 @@ const AdminDashboard = () => {
     
     try {
       if (type === 'student') {
-        const res = await fetch(`http://localhost:5000/api/admin/students/${id}`, { method: 'DELETE', headers: getHeaders() });
+        const res = await fetch(`${API_BASE_URL}/api/admin/students/${id}`, { method: 'DELETE', headers: getHeaders() });
         if (res.ok) {
           setStudents(prev => prev.filter(s => s.user_id != id));
           fetchData(true);
@@ -127,7 +138,7 @@ const AdminDashboard = () => {
           alert(`Error deleting student: ${errData.message}`);
         }
       } else if (type === 'lesson') {
-        const res = await fetch(`http://localhost:5000/api/admin/lessons/${id}`, { method: 'DELETE', headers: getHeaders() });
+        const res = await fetch(`${API_BASE_URL}/api/admin/lessons/${id}`, { method: 'DELETE', headers: getHeaders() });
         if (res.ok) {
           setLessons(prev => prev.filter(l => l.lesson_id != id));
           fetchData(true);
@@ -149,7 +160,7 @@ const AdminDashboard = () => {
   const handleAddStudent = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:5000/api/admin/students', {
+      const res = await fetch(`${API_BASE_URL}/api/admin/students`, {
         method: 'POST',
         headers: getHeaders(),
         body: JSON.stringify(newStudentFormData)
@@ -205,8 +216,8 @@ const AdminDashboard = () => {
     e.preventDefault();
     try {
       const url = editingLesson 
-        ? `http://localhost:5000/api/admin/lessons/${editingLesson.lesson_id}`
-        : 'http://localhost:5000/api/admin/lessons';
+        ? `${API_BASE_URL}/api/admin/lessons/${editingLesson.lesson_id}`
+        : `${API_BASE_URL}/api/admin/lessons`;
       
       const res = await fetch(url, {
         method: editingLesson ? 'PUT' : 'POST',
@@ -243,7 +254,7 @@ const AdminDashboard = () => {
     }));
 
     try {
-      await fetch(`http://localhost:5000/api/admin/lessons/action/reorder`, {
+      await fetch(`${API_BASE_URL}/api/admin/lessons/action/reorder`, {
         method: 'PUT',
         headers: getHeaders(),
         body: JSON.stringify({ updates })
@@ -263,7 +274,7 @@ const AdminDashboard = () => {
     setShowAssignModal(true);
     setLessonStudents([]); 
     try {
-      const res = await fetch(`http://localhost:5000/api/admin/lessons/${lesson.lesson_id}/completion`, { headers: getHeaders() });
+      const res = await fetch(`${API_BASE_URL}/api/admin/lessons/${lesson.lesson_id}/completion`, { headers: getHeaders() });
       if (res.ok) {
         const data = await res.json();
         setLessonStudents(data.students);
@@ -275,7 +286,7 @@ const AdminDashboard = () => {
 
   const handleAssignLesson = async (userId) => {
     try {
-      const res = await fetch(`http://localhost:5000/api/admin/lessons/${assignLesson.lesson_id}/assign`, {
+      const res = await fetch(`${API_BASE_URL}/api/admin/lessons/${assignLesson.lesson_id}/assign`, {
         method: 'POST',
         headers: getHeaders(),
         body: JSON.stringify({ user_id: userId })
@@ -292,7 +303,7 @@ const AdminDashboard = () => {
   const handleSendAnnouncement = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch('http://localhost:5000/api/admin/announcements', {
+      const res = await fetch(`${API_BASE_URL}/api/admin/announcements`, {
         method: 'POST',
         headers: getHeaders(),
         body: JSON.stringify({
@@ -315,7 +326,7 @@ const AdminDashboard = () => {
   const handleDeleteAnnouncement = async (id) => {
     if (!window.confirm('Are you sure you want to delete this announcement?')) return;
     try {
-      const res = await fetch(`http://localhost:5000/api/admin/announcements/${id}`, {
+      const res = await fetch(`${API_BASE_URL}/api/admin/announcements/${id}`, {
         method: 'DELETE',
         headers: getHeaders()
       });
@@ -340,7 +351,7 @@ const AdminDashboard = () => {
 
   const handleSaveSettings = async () => {
     try {
-      const res = await fetch('http://localhost:5000/api/admin/settings', {
+      const res = await fetch(`${API_BASE_URL}/api/admin/settings`, {
         method: 'PUT',
         headers: getHeaders(),
         body: JSON.stringify({ settings: platformSettings })
@@ -658,6 +669,25 @@ const AdminDashboard = () => {
                   </tbody>
                 </table>
               </div>
+              {totalPages > 1 && (
+                <div className="pagination-controls" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '1rem', marginTop: '1rem' }}>
+                  <button 
+                    disabled={currentPage === 1}
+                    onClick={() => fetchData(true, currentPage - 1)}
+                    className="btn-secondary"
+                  >
+                    Previous
+                  </button>
+                  <span style={{ fontWeight: '500' }}>Page {currentPage} of {totalPages}</span>
+                  <button 
+                    disabled={currentPage === totalPages}
+                    onClick={() => fetchData(true, currentPage + 1)}
+                    className="btn-secondary"
+                  >
+                    Next
+                  </button>
+                </div>
+              )}
             </div>
           )}
 

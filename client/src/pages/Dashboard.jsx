@@ -12,6 +12,7 @@ import ShopModal from '../components/ShopModal';
 import AnnouncementsModal from '../components/AnnouncementsModal';
 import LessonPage from './LessonPage';
 import './Dashboard.css';
+import { API_BASE_URL } from '../config/api';
 
 // Helper: get time-of-day greeting key
 function getGreetingKey() {
@@ -53,7 +54,7 @@ const Dashboard = () => {
         return;
       }
       
-      const res = await fetch(`http://localhost:5000/api/dashboard/data?interfaceLang=${i18n.language || 'en'}`, {
+      const res = await fetch(`${API_BASE_URL}/api/dashboard/data?interfaceLang=${i18n.language || 'en'}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       
@@ -76,7 +77,7 @@ const Dashboard = () => {
       const token = localStorage.getItem('token');
       if (!token) return;
       
-      const res = await fetch('http://localhost:5000/api/dashboard/ai-insight', {
+      const res = await fetch(`${API_BASE_URL}/api/dashboard/ai-insight`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       
@@ -152,7 +153,7 @@ const Dashboard = () => {
         
         {/* Top Header */}
         <header className="dashboard-header">
-          <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
+          <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)} aria-label="Toggle Sidebar">
             {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
           <div className="welcome-text">
@@ -170,7 +171,7 @@ const Dashboard = () => {
                   const newLang = e.target.value;
                   try {
                     const token = localStorage.getItem('token');
-                    await fetch('http://localhost:5000/api/profile', {
+                    await fetch(`${API_BASE_URL}/api/profile`, {
                       method: 'PUT',
                       headers: {
                         'Authorization': `Bearer ${token}`,

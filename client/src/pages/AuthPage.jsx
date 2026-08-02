@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { useGoogleLogin } from '@react-oauth/google';
 import { Bot, Eye, EyeOff, BookOpen, Mic, Brain, Check } from 'lucide-react';
 import './AuthPage.css';
+import { API_BASE_URL } from '../config/api';
 
 const AuthPage = () => {
   const { t, i18n } = useTranslation();
@@ -39,7 +40,7 @@ const AuthPage = () => {
         ? { email: formData.email, password: formData.password }
         : { ...formData };
 
-      const response = await fetch(`http://localhost:5000${endpoint}`, {
+      const response = await fetch(`${API_BASE_URL}${endpoint}`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(body)
@@ -74,7 +75,7 @@ const AuthPage = () => {
     onSuccess: async (tokenResponse) => {
       setErrorMsg('');
       try {
-        const res = await fetch('http://localhost:5000/api/auth/google', {
+        const res = await fetch(`${API_BASE_URL}/api/auth/google`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({

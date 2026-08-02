@@ -13,6 +13,7 @@ import ShopModal from '../components/ShopModal';
 import AnnouncementsModal from '../components/AnnouncementsModal';
 import './Dashboard.css';
 import './LearnPage.css';
+import { API_BASE_URL } from '../config/api';
 
 const LearnPage = () => {
   const { t, i18n } = useTranslation();
@@ -43,7 +44,7 @@ const LearnPage = () => {
         return;
       }
       
-      const res = await fetch(`http://localhost:5000/api/dashboard/data?interfaceLang=${i18n.language || 'en'}`, {
+      const res = await fetch(`${API_BASE_URL}/api/dashboard/data?interfaceLang=${i18n.language || 'en'}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       
@@ -120,7 +121,7 @@ const LearnPage = () => {
                   const newLang = e.target.value;
                   try {
                     const token = localStorage.getItem('token');
-                    await fetch('http://localhost:5000/api/profile', {
+                    await fetch(`${API_BASE_URL}/api/profile`, {
                       method: 'PUT',
                       headers: {
                         'Authorization': `Bearer ${token}`,

@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import { speakText as ttsSpeak, LANG_REC_MAP } from '../../utils/ttsHelper';
 import './PictureMatch.css';
+import { API_BASE_URL } from '../../config/api';
 
 // Premium Emoji Dictionary mapping vocabulary English keys (lowercased) to illustrations
 const EMOJI_MAP = {
@@ -142,7 +143,7 @@ const PictureMatch = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('http://localhost:5000/api/activities/picture-match?count=30');
+        const res = await fetch(`${API_BASE_URL}/api/activities/picture-match?count=30`);
         if (res.ok) {
           const data = await res.json();
           setAllItems(data.items || []);

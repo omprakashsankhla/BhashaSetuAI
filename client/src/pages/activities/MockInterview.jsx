@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft, Star, Volume2, Trophy, Mic, UserCheck, RefreshCw, Send } from 'lucide-react';
 import { speakText as ttsSpeak } from '../../utils/ttsHelper';
+import { API_BASE_URL } from '../../config/api';
 
 const INTERVIEW_DATA = {
   hi: {
@@ -211,7 +212,7 @@ const MockInterview = () => {
       // Converse with interviewer
       try {
         const token = localStorage.getItem('token');
-        const res = await fetch('http://localhost:5000/api/activities/chat', {
+        const res = await fetch(`${API_BASE_URL}/api/activities/chat`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -254,7 +255,7 @@ Structure your review cleanly:
 3. **Key Suggestions** (प्रमुख सुझाव)
 4. **Rating Score: X/10**`;
 
-        const res = await fetch('http://localhost:5000/api/activities/chat', {
+        const res = await fetch(`${API_BASE_URL}/api/activities/chat`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

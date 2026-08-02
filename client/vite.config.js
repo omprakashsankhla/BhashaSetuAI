@@ -9,7 +9,7 @@ export default defineConfig({
       strategies: 'injectManifest',
       srcDir: '.',
       filename: 'sw.js',
-      registerType: 'prompt',
+      registerType: 'autoUpdate',
       includeAssets: ['favicon.svg', 'logo.png', 'pwa-192x192.png', 'pwa-512x512.png', 'data/*.json'],
       manifest: {
         name: 'BhashaSetu AI',
@@ -43,9 +43,13 @@ export default defineConfig({
       },
       '/uploads': {
         target: 'http://localhost:5000',
-        changeOrigin: true,
-        secure: false
       }
     }
+  },
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: './tests/setup.js',
+    css: false,
   }
 })

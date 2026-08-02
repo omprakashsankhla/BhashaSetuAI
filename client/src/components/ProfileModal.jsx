@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, User, Mail, Award, Calendar, Target, BookOpen, Clock, Loader, X, Camera, Image as ImageIcon } from 'lucide-react';
 import './ProfileModal.css';
+import { API_BASE_URL } from '../config/api';
 
 const PRESET_AVATARS = [
   'https://api.dicebear.com/7.x/avataaars/svg?seed=Felix',
@@ -38,7 +39,7 @@ const ProfileModal = ({ onClose }) => {
       const token = localStorage.getItem('token');
       if (!token) return navigate('/');
 
-      const res = await fetch('http://localhost:5000/api/profile', {
+      const res = await fetch(`${API_BASE_URL}/api/profile`, {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -77,7 +78,7 @@ const ProfileModal = ({ onClose }) => {
 
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch('http://localhost:5000/api/profile', {
+      const res = await fetch(`${API_BASE_URL}/api/profile`, {
         method: 'PUT',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -112,7 +113,7 @@ const ProfileModal = ({ onClose }) => {
     setError(null);
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch('http://localhost:5000/api/profile', {
+      const res = await fetch(`${API_BASE_URL}/api/profile`, {
         method: 'PUT',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -147,7 +148,7 @@ const ProfileModal = ({ onClose }) => {
 
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch('http://localhost:5000/api/profile/upload-avatar', {
+      const res = await fetch(`${API_BASE_URL}/api/profile/upload-avatar`, {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${token}` },
         body: data

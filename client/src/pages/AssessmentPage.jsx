@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { Mic, Square, Loader, CheckCircle, XCircle, Volume2 } from 'lucide-react';
 import './AssessmentPage.css';
+import { API_BASE_URL } from '../config/api';
 
 const AssessmentPage = () => {
   const { t, i18n } = useTranslation();
@@ -60,6 +61,27 @@ const AssessmentPage = () => {
         console.error(e);
       }
     }
+    const cached = localStorage.getItem('assessmentProgress');
+    if (cached && !isRetake) {
+      try {
+        const parsed = JSON.parse(cached);
+        if (parsed.questions && parsed.questions.length > 0) {
+          setQuestions(parsed.questions);
+          setCurrentIndex(parsed.currentIndex || 0);
+          setResults(parsed.results || []);
+          setLoading(false);
+          // Setup cleanup for audio context if we return early
+          return () => {
+            if (audioContextRef.current) {
+              audioContextRef.current.close();
+            }
+          };
+        }
+      } catch(e) {
+        console.error("Failed to parse cached assessment progress", e);
+      }
+    }
+
     fetchQuestions(selectedLevel);
     return () => {
       if (audioContextRef.current) {
@@ -127,11 +149,24 @@ const AssessmentPage = () => {
     }
   }, [currentIndex, questions]);
 
+  // Auto-save progress
+  useEffect(() => {
+    if (isComplete) {
+      localStorage.removeItem('assessmentProgress');
+    } else if (questions && questions.length > 0) {
+      localStorage.setItem('assessmentProgress', JSON.stringify({
+        questions,
+        currentIndex,
+        results
+      }));
+    }
+  }, [questions, currentIndex, results, isComplete]);
+
   const fetchQuestions = async (level) => {
     setLoading(true);
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch(`http://localhost:5000/api/assessment/generate?lang=${i18n.language}&level=${level}`, {
+      const res = await fetch(`${API_BASE_URL}/api/assessment/generate?lang=${i18n.language}&level=${level}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -164,7 +199,7 @@ const AssessmentPage = () => {
         }
         console.log("Sending assessment voice request with browserTranscript:", browserTranscript);
 
-        const res = await fetch('http://localhost:5000/api/assessment/voice', {
+        const res = await fetch(`${API_BASE_URL}/api/assessment/voice`, {
           method: 'POST',
           headers: { 
             'Authorization': `Bearer ${token}`
@@ -219,7 +254,7 @@ const AssessmentPage = () => {
       // Submit all results
       try {
         const token = localStorage.getItem('token');
-        const response = await fetch('http://localhost:5000/api/assessment/submit', {
+        const response = await fetch(`${API_BASE_URL}/api/assessment/submit`, {
           method: 'POST',
           headers: { 
             'Authorization': `Bearer ${token}`,

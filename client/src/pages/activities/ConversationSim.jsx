@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { ArrowLeft, Send, Mic, StopCircle, RotateCcw, Volume2 } from 'lucide-react';
 import { speakText as ttsSpeak } from '../../utils/ttsHelper';
 import './ConversationSim.css';
+import { API_BASE_URL } from '../../config/api';
 
 const LOCAL_SCENARIOS = {
   hi: [
@@ -332,7 +333,7 @@ const ConversationSim = () => {
         const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
         const targetLang = storedUser.preferred_language || 'hi';
         const interfaceLang = i18n.language || 'en';
-        const res = await fetch(`http://localhost:5000/api/activities/conversation-sim?lang=${targetLang}&interfaceLang=${interfaceLang}`);
+        const res = await fetch(`${API_BASE_URL}/api/activities/conversation-sim?lang=${targetLang}&interfaceLang=${interfaceLang}`);
         if (res.ok) {
           const data = await res.json();
           setScenarios(data.items || []);
@@ -409,7 +410,7 @@ const ConversationSim = () => {
 
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch('http://localhost:5000/api/activities/chat', {
+      const res = await fetch(`${API_BASE_URL}/api/activities/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

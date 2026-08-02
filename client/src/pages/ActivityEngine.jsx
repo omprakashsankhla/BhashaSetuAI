@@ -14,6 +14,7 @@ import EchoChamber from '../components/games/EchoChamber';
 import TextDetective from '../components/games/TextDetective';
 import './ActivityEngine.css';
 import { speakText as ttsSpeak, LANG_REC_MAP } from '../utils/ttsHelper';
+import { API_BASE_URL } from '../config/api';
 
 // ─── 8 NEW MINI-GAMES INTERACTIVE SANDBOX ───
 const NewMiniGames = ({ gameType, onGameComplete }) => {
@@ -584,7 +585,7 @@ const ActivityEngine = () => {
       const token = localStorage.getItem('token');
       if (token) {
         // Record skill progress (assume if they complete the game with >50 score, it's mostly correct)
-        fetch('http://localhost:5000/api/learning/progress/skill', {
+        fetch(`${API_BASE_URL}/api/learning/progress/skill`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -594,7 +595,7 @@ const ActivityEngine = () => {
         }).catch(err => console.error('Skill progress update failed', err));
 
         // Award coins
-        fetch('http://localhost:5000/api/dashboard/award-coins', {
+        fetch(`${API_BASE_URL}/api/dashboard/award-coins`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

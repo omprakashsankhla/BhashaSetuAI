@@ -1,0 +1,260 @@
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ multiple files { path: ['.env.local', '.env'] }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:05"}
+{"level":"info","message":"◇ injected env (0) from .env \u001b[2m// tip: ⌘ suppress logs { quiet: true }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:06"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌁ auth for agents [www.vestauth.com]\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ suppress logs { quiet: true }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ override existing { override: true }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ override existing { override: true }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ multiple files { path: ['.env.local', '.env'] }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"Server running on port 5000","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:07"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ suppress logs { quiet: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ enable debugging { debug: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ suppress logs { quiet: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ secrets for agents [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ enable debugging { debug: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ suppress logs { quiet: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ enable debugging { debug: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌁ auth for agents [www.vestauth.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:23:35"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌁ auth for agents [www.vestauth.com]\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:46"}
+{"level":"info","message":"◇ injected env (0) from .env \u001b[2m// tip: ◈ encrypted .env [www.dotenvx.com]\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ suppress logs { quiet: true }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ suppress logs { quiet: true }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌁ auth for agents [www.vestauth.com]\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ◈ secrets for agents [www.dotenvx.com]\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ override existing { override: true }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"Server running on port 5000","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:47"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ enable debugging { debug: true }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:58"}
+{"level":"info","message":"◇ injected env (0) from .env \u001b[2m// tip: ◈ secrets for agents [www.dotenvx.com]\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:58"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ◈ secrets for agents [www.dotenvx.com]\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ◈ secrets for agents [www.dotenvx.com]\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ suppress logs { quiet: true }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ override existing { override: true }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ multiple files { path: ['.env.local', '.env'] }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"Server running on port 5000","service":"bhasha-setu-api","timestamp":"2026-08-02 14:26:59"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ secrets for agents [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ override existing { override: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ encrypted .env [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ override existing { override: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ secrets for agents [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ encrypted .env [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ suppress logs { quiet: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ secrets for agents [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ secrets for agents [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ override existing { override: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:27:13"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ◈ encrypted .env [www.dotenvx.com]\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:15"}
+{"level":"info","message":"◇ injected env (0) from .env \u001b[2m// tip: ◈ encrypted .env [www.dotenvx.com]\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ◈ secrets for agents [www.dotenvx.com]\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ suppress logs { quiet: true }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌁ auth for agents [www.vestauth.com]\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ multiple files { path: ['.env.local', '.env'] }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"◇ injected env (14) from .env \u001b[2m// tip: ⌘ enable debugging { debug: true }\u001b[0m","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"Server running on port 5000","service":"bhasha-setu-api","timestamp":"2026-08-02 14:28:16"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ secrets for agents [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌁ auth for agents [www.vestauth.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ override existing { override: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ override existing { override: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ enable debugging { debug: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ suppress logs { quiet: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ encrypted .env [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ secrets for agents [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ secrets for agents [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 14:31:55"}
+{"level":"info","message":"Running daily reminder push job...","service":"bhasha-setu-api","timestamp":"2026-08-02 14:33:16"}
+{"level":"info","message":"No push subscriptions found. Skipping reminders.","service":"bhasha-setu-api","timestamp":"2026-08-02 14:33:16"}
+{"level":"warn","message":"[RUNTIME CACHE MISS] Translating/Adapting 88 missing items for lesson_meta to Learning: English, Interface: English","service":"bhasha-setu-api","timestamp":"2026-08-02 14:33:24"}
+{"level":"error","message":"AI Translation failed for lesson_meta items: Gemini translation request timed out","service":"bhasha-setu-api","timestamp":"2026-08-02 14:33:29"}
+{"level":"warn","message":"[RUNTIME CACHE MISS] Translating/Adapting 88 missing items for lesson_meta to Learning: English, Interface: English","service":"bhasha-setu-api","timestamp":"2026-08-02 14:53:44"}
+{"level":"error","message":"AI Translation failed for lesson_meta items: Gemini translation request timed out","service":"bhasha-setu-api","timestamp":"2026-08-02 14:53:49"}
+{"level":"warn","message":"[RUNTIME CACHE MISS] Translating/Adapting 88 missing items for lesson_meta to Learning: English, Interface: English","service":"bhasha-setu-api","timestamp":"2026-08-02 14:54:33"}
+{"level":"error","message":"AI Translation failed for lesson_meta items: Gemini translation request timed out","service":"bhasha-setu-api","timestamp":"2026-08-02 14:54:38"}
+{"level":"warn","message":"[RUNTIME CACHE MISS] Translating/Adapting 88 missing items for lesson_meta to Learning: English, Interface: English","service":"bhasha-setu-api","timestamp":"2026-08-02 14:54:46"}
+{"level":"error","message":"AI Translation failed for lesson_meta items: Gemini translation request timed out","service":"bhasha-setu-api","timestamp":"2026-08-02 14:54:51"}
+{"level":"warn","message":"[RUNTIME CACHE MISS] Translating/Adapting 88 missing items for lesson_meta to Learning: English, Interface: English","service":"bhasha-setu-api","timestamp":"2026-08-02 14:55:25"}
+{"level":"error","message":"AI Translation failed for lesson_meta items: Gemini translation request timed out","service":"bhasha-setu-api","timestamp":"2026-08-02 14:55:30"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ suppress logs { quiet: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ override existing { override: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌁ auth for agents [www.vestauth.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌁ auth for agents [www.vestauth.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ encrypted .env [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ encrypted .env [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ override existing { override: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: hi","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: bn","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mr","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: mwr","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ta","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: te","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode A question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"[Assessment] Loaded offline Mode B learning question bank for: ur","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ secrets for agents [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ override existing { override: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ◈ encrypted .env [www.dotenvx.com]","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}
+{"level":"info","message":"◇ injected env (14) from .env // tip: ⌘ enable debugging { debug: true }","service":"bhasha-setu-api","timestamp":"2026-08-02 15:05:12"}

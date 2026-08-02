@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 const { OpenAI } = require('openai');
 const { GoogleGenAI } = require('@google/genai');
 const db = require('../db');
+const { isPromptSafe, GUARDRAIL_SYSTEM_PROMPT } = require('../utils/guardrails');
 require('dotenv').config({ override: true });
 
 const router = express.Router();
@@ -29,6 +30,11 @@ router.post('/chat', verifyToken, async (req, res) => {
   
   if (!message) {
     return res.status(400).json({ message: 'Message is required' });
+  }
+
+  // Layer 1 Protection: Regex-based prompt sanitization
+  if (!isPromptSafe(message)) {
+    return res.json({ reply: 'I can only help with language learning and educational activities.' });
   }
 
   // Fetch user's name and preferred language for personalization
@@ -90,7 +96,9 @@ Your goal is to answer doubts, practice speaking, and explain basic language con
 The student's name is "${userName}". Their native language is '${userLang}'. 
 Try to communicate clearly, providing translation and pronunciation tips when helpful.
 Keep your responses short, supportive, and conversational (max 2-3 sentences per reply).
-If they ask about grammar, vocabulary, or pronunciation, give clear examples.${additionalContext}`;
+If they ask about grammar, vocabulary, or pronunciation, give clear examples.${additionalContext}
+
+${GUARDRAIL_SYSTEM_PROMPT}`;
 
   try {
     const gptRes = await openai.chat.completions.create({

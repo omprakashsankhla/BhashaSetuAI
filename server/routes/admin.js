@@ -100,6 +100,10 @@ router.get('/analytics', verifyAdminToken, async (req, res) => {
 
 router.get('/students', verifyAdminToken, async (req, res) => {
   try {
+    const page = parseInt(req.query.page) || 1;
+    const limit = parseInt(req.query.limit) || 50;
+    const offset = (page - 1) * limit;
+
     const query = `
       SELECT 
         u.user_id, 
@@ -112,9 +116,24 @@ router.get('/students', verifyAdminToken, async (req, res) => {
       FROM Users u
       WHERE u.role = 'Student'
       ORDER BY u.created_at DESC
+      LIMIT ? OFFSET ?
     `;
-    const [students] = await db.query(query);
-    res.status(200).json({ students });
+    const [students] = await db.query(query, [limit, offset]);
+    
+    const countQuery = "SELECT COUNT(*) as count FROM Users WHERE role = 'Student'";
+    const [countRows] = await db.query(countQuery);
+    const totalUsers = countRows[0].count;
+    const totalPages = Math.ceil(totalUsers / limit);
+
+    res.status(200).json({ 
+      students, 
+      pagination: {
+        page,
+        limit,
+        totalUsers,
+        totalPages
+      } 
+    });
   } catch (err) {
     console.error(err);
     res.status(500).json({ message: 'Server error fetching students' });

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Award, RefreshCw, CheckCircle, Plus, Minus } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { API_BASE_URL } from '../../config/api';
 
 const BAZAAR_ITEMS = {
   hi: [
@@ -66,7 +67,7 @@ const ShopKeeper = ({ onGameComplete }) => {
       const interfaceLang = i18n.language || 'en';
       
       const token = localStorage.getItem('token');
-      const res = await fetch(`http://localhost:5000/api/activities/game-data/shopkeeper?lang=${targetLang}&interfaceLang=${interfaceLang}`, {
+      const res = await fetch(`${API_BASE_URL}/api/activities/game-data/shopkeeper?lang=${targetLang}&interfaceLang=${interfaceLang}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       if (res.ok) {

@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { Mic, Square, Volume2, CheckCircle, XCircle, Loader, X, Heart, Flame, Lightbulb, Snail } from 'lucide-react';
 import Confetti from 'react-confetti';
 import './LessonPage.css';
+import { API_BASE_URL } from '../config/api';
 
 const PRACTICE_LAB_LOC = {
   hi: {
@@ -189,7 +190,7 @@ const LessonPage = ({ lessonId: propLessonId, onClose }) => {
       const token = localStorage.getItem('token');
       if (!token) return navigate('/register');
       
-      const res = await fetch(`http://localhost:5000/api/learning/${id}?lang=${learningLang}&interfaceLang=${i18n.language}`, {
+      const res = await fetch(`${API_BASE_URL}/api/learning/${id}?lang=${learningLang}&interfaceLang=${i18n.language}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       
@@ -200,7 +201,7 @@ const LessonPage = ({ lessonId: propLessonId, onClose }) => {
         // If it's practice mode, fetch user's strengths/weaknesses for personalization
         if (id === 'practice') {
           try {
-            const dashRes = await fetch('http://localhost:5000/api/dashboard/data', {
+            const dashRes = await fetch(`${API_BASE_URL}/api/dashboard/data`, {
               headers: { 'Authorization': `Bearer ${token}` }
             });
             if (dashRes.ok) {
@@ -445,7 +446,7 @@ const LessonPage = ({ lessonId: propLessonId, onClose }) => {
         }
         console.log("Sending lesson voice request with browserTranscript:", browserTranscript);
 
-        const res = await fetch('http://localhost:5000/api/assessment/voice', {
+        const res = await fetch(`${API_BASE_URL}/api/assessment/voice`, {
           method: 'POST',
           headers: { 'Authorization': `Bearer ${token}` },
           body: formData
@@ -479,7 +480,7 @@ const LessonPage = ({ lessonId: propLessonId, onClose }) => {
     // Call API to record skill progress
     try {
       const token = localStorage.getItem('token');
-      fetch('http://localhost:5000/api/learning/progress/skill', {
+      fetch(`${API_BASE_URL}/api/learning/progress/skill`, {
         method: 'POST',
         headers: { 
           'Authorization': `Bearer ${token}`,
@@ -536,7 +537,7 @@ const LessonPage = ({ lessonId: propLessonId, onClose }) => {
   const completeLesson = async () => {
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch(`http://localhost:5000/api/learning/${id}/complete`, {
+      const res = await fetch(`${API_BASE_URL}/api/learning/${id}/complete`, {
         method: 'POST',
         headers: { 'Authorization': `Bearer ${token}` }
       });

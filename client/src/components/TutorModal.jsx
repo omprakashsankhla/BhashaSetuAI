@@ -206,7 +206,7 @@ const TutorModal = ({ onClose }) => {
               <p className="online-status">● {t('tutor_online', 'Online')}</p>
             </div>
           </div>
-          <button className="close-btn" onClick={onClose}>
+          <button className="close-btn" onClick={onClose} aria-label="Close AI Tutor">
             <X size={24} />
           </button>
         </header>
@@ -262,6 +262,7 @@ const TutorModal = ({ onClose }) => {
                 className="send-btn" 
                 onClick={() => handleSend()}
                 disabled={!input.trim() || isLoading}
+                aria-label="Send message"
               >
                 <Send size={20} />
               </button>
@@ -284,6 +285,7 @@ const TutorModal = ({ onClose }) => {
               <button 
                 className={`mic-record-btn ${isRecording ? 'recording' : ''}`}
                 onClick={toggleRecording}
+                aria-label={isRecording ? "Stop recording" : "Start recording"}
               >
                 {isRecording ? <StopCircle size={40} color="white" /> : <Mic size={40} color="white" />}
               </button>

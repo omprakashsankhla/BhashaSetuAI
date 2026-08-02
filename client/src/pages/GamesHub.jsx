@@ -9,6 +9,7 @@ import TutorModal from '../components/TutorModal';
 import ProgressModal from '../components/ProgressModal';
 import './Dashboard.css';
 import './ActivitiesPage.css'; // Reuse container styling
+import { API_BASE_URL } from '../config/api';
 
 const GAMES_LIST = [
   // Beginner Games
@@ -401,7 +402,7 @@ const GamesHub = () => {
         navigate('/register');
         return;
       }
-      const res = await fetch(`http://localhost:5000/api/dashboard/data?interfaceLang=${i18n.language || 'en'}`, {
+      const res = await fetch(`${API_BASE_URL}/api/dashboard/data?interfaceLang=${i18n.language || 'en'}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       if (res.ok) {

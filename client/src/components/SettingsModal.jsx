@@ -110,7 +110,7 @@ const SettingsModal = ({ onClose }) => {
       <div className="settings-modal-content">
         <header className="settings-header">
           <h1>Settings</h1>
-          <button className="close-btn" onClick={onClose}>
+          <button className="close-btn" onClick={onClose} aria-label="Close Settings">
             <X size={24} />
           </button>
         </header>

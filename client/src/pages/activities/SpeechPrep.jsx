@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { ArrowLeft, Mic, Square, CheckCircle, RotateCcw, ChevronRight, Volume2 } from 'lucide-react';
 import './SpeechPrep.css';
+import { API_BASE_URL } from '../../config/api';
 
 const SPEECH_LANG_DATA = {
   hi: {
@@ -235,7 +236,7 @@ Structure your feedback:
 
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch('http://localhost:5000/api/activities/chat', {
+      const res = await fetch(`${API_BASE_URL}/api/activities/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
