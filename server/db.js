@@ -31,15 +31,15 @@ async function verifyDatabase() {
     }
 
     if (missingTables.length > 0) {
-      logger.error('CRITICAL ERROR: Database is missing required tables: ' + missingTables.join(', '));
-      logger.error('Please run the schema.sql migration script.');
-      process.exit(1);
+      const msg = 'CRITICAL ERROR: Database is missing required tables: ' + missingTables.join(', ') + '. Please run the schema.sql migration script.';
+      logger.error(msg);
+      throw new Error(msg);
     }
     
     logger.info('Database verification complete: All required tables exist.');
   } catch (err) {
     logger.error('Failed to connect to database or verify tables: ' + err.message);
-    process.exit(1);
+    throw err;
   }
 }
 
