@@ -1,5 +1,6 @@
 require('dotenv').config();
 const mysql = require('mysql2/promise');
+const logger = require('./utils/logger');
 
 const pool = mysql.createPool({
   host: process.env.DB_HOST,
@@ -11,4 +12,36 @@ const pool = mysql.createPool({
   queueLimit: 0
 });
 
+async function verifyDatabase() {
+  const requiredTables = [
+    'Users', 'Assessments', 'Lessons', 'Progress', 
+    'Voice_Assessments', 'Recommendations', 'Announcements', 
+    'Platform_Settings', 'Assignments'
+  ];
+
+  try {
+    const [rows] = await pool.query('SHOW TABLES');
+    const existingTables = rows.map(row => Object.values(row)[0]);
+
+    let missingTables = [];
+    for (const table of requiredTables) {
+      if (!existingTables.includes(table) && !existingTables.includes(table.toLowerCase())) {
+        missingTables.push(table);
+      }
+    }
+
+    if (missingTables.length > 0) {
+      logger.error('CRITICAL ERROR: Database is missing required tables: ' + missingTables.join(', '));
+      logger.error('Please run the schema.sql migration script.');
+      process.exit(1);
+    }
+    
+    logger.info('Database verification complete: All required tables exist.');
+  } catch (err) {
+    logger.error('Failed to connect to database or verify tables: ' + err.message);
+    process.exit(1);
+  }
+}
+
+pool.verifyDatabase = verifyDatabase;
 module.exports = pool;

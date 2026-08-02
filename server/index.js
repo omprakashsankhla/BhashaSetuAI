@@ -1,6 +1,17 @@
 const express = require('express');
 const cors = require('cors');
 const logger = require('./utils/logger');
+require('dotenv').config();
+
+// Environment Variable Validation
+const requiredEnv = ['JWT_SECRET', 'GEMINI_API_KEY', 'DB_HOST', 'DB_USER', 'DB_PASSWORD', 'DB_NAME'];
+const missingEnv = requiredEnv.filter(env => !process.env[env]);
+
+if (missingEnv.length > 0) {
+  logger.error(`CRITICAL ERROR: Missing required environment variables: ${missingEnv.join(', ')}`);
+  logger.error('Startup halted. Please configure your .env file or production environment variables.');
+  process.exit(1);
+}
 
 // Override default console methods to use winston
 const originalConsoleLog = console.log;
@@ -50,6 +61,12 @@ app.use(cors({
   origin: process.env.FRONTEND_URL || 'http://localhost:5173',
   credentials: true
 }));
+
+// Initialize Database
+const db = require('./db');
+db.verifyDatabase().then(() => {
+  logger.info('Database Verification Hook Completed.');
+});
 
 const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes

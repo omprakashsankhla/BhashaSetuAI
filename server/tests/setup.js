@@ -2,6 +2,7 @@ jest.mock('../db.js', () => ({
   query: jest.fn(),
   execute: jest.fn(),
   getConnection: jest.fn(),
+  verifyDatabase: jest.fn().mockResolvedValue(),
 }));
 
 jest.mock('jsonwebtoken', () => ({
