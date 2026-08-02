@@ -1,5 +1,6 @@
 import React, { createContext, useState, useEffect, useContext } from 'react';
 import { useTranslation } from 'react-i18next';
+import { API_BASE_URL } from '../config/api';
 
 export const SettingsContext = createContext();
 
@@ -28,7 +29,7 @@ export const SettingsProvider = ({ children }) => {
       }
       
       try {
-        const res = await fetch('/api/settings', {
+        const res = await fetch(`${API_BASE_URL}/api/settings`, {
           headers: {
             'Authorization': `Bearer ${token}`
           }
@@ -72,7 +73,7 @@ export const SettingsProvider = ({ children }) => {
     if (!token) return;
 
     try {
-      await fetch('/api/settings', {
+      await fetch(`${API_BASE_URL}/api/settings`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

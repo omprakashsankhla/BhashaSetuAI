@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { X, Globe, Moon, Sun, Volume2, Bell, Shield, Key, Trash2 } from 'lucide-react';
 import { useSettings } from '../context/SettingsContext';
+import { API_BASE_URL } from '../config/api';
 import './SettingsModal.css';
 
 const SettingsModal = ({ onClose }) => {
@@ -27,7 +28,7 @@ const SettingsModal = ({ onClose }) => {
   const handlePasswordChange = async () => {
     try {
       const token = localStorage.getItem('token');
-      const res = await fetch('/api/settings/change-password', {
+      const res = await fetch(`${API_BASE_URL}/api/settings/change-password`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -47,7 +48,7 @@ const SettingsModal = ({ onClose }) => {
     if (window.confirm("Are you sure you want to permanently delete your account? This action cannot be undone.")) {
       try {
         const token = localStorage.getItem('token');
-        const res = await fetch('/api/settings/account', {
+        const res = await fetch(`${API_BASE_URL}/api/settings/account`, {
           method: 'DELETE',
           headers: { 'Authorization': `Bearer ${token}` }
         });
@@ -81,7 +82,7 @@ const SettingsModal = ({ onClose }) => {
       const reg = await navigator.serviceWorker.ready;
       
       const token = localStorage.getItem('token');
-      const vapidRes = await fetch('/api/settings/push/vapidPublicKey');
+      const vapidRes = await fetch(`${API_BASE_URL}/api/settings/push/vapidPublicKey`);
       const { publicKey } = await vapidRes.json();
       
       const subscription = await reg.pushManager.subscribe({
@@ -89,7 +90,7 @@ const SettingsModal = ({ onClose }) => {
         applicationServerKey: publicKey
       });
 
-      await fetch('/api/settings/push/subscribe', {
+      await fetch(`${API_BASE_URL}/api/settings/push/subscribe`, {
         method: 'POST',
         body: JSON.stringify(subscription),
         headers: {
