@@ -32,9 +32,25 @@ async function verifyDatabase() {
     }
 
     if (missingTables.length > 0) {
-      const msg = 'CRITICAL ERROR: Database is missing required tables: ' + missingTables.join(', ') + '. Please run the schema.sql migration script.';
-      logger.error(msg);
-      throw new Error(msg);
+      if (missingTables.length === 1 && missingTables[0] === 'PushSubscriptions') {
+        logger.info('Auto-creating missing PushSubscriptions table...');
+        await pool.query(`
+          CREATE TABLE IF NOT EXISTS PushSubscriptions (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            user_id INT,
+            endpoint TEXT NOT NULL,
+            p256dh VARCHAR(255) NOT NULL,
+            auth VARCHAR(255) NOT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+            FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE,
+            INDEX idx_push_user_id (user_id)
+          );
+        `);
+      } else {
+        const msg = 'CRITICAL ERROR: Database is missing required tables: ' + missingTables.join(', ') + '. Please run the schema.sql migration script.';
+        logger.error(msg);
+        throw new Error(msg);
+      }
     }
     
     logger.info('Database verification complete: All required tables exist.');
