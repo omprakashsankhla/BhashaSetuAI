@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import { SettingsProvider } from './context/SettingsContext';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const LanguageSelection = lazy(() => import('./pages/LanguageSelection'));
 const AuthPage = lazy(() => import('./pages/AuthPage'));
@@ -80,6 +81,7 @@ function App() {
             </Routes>
           </Suspense>
         </Router>
+        <SpeedInsights />
       </SettingsProvider>
     </GoogleOAuthProvider>
   );
