@@ -71,6 +71,7 @@ async function verifyDatabase() {
     await addColumnSafely('Users', 'avatar VARCHAR(255) DEFAULT "default_avatar.png"');
     await addColumnSafely('Users', 'skills_progress JSON');
     await addColumnSafely('Progress', 'completed_at TIMESTAMP NULL');
+    await addColumnSafely('Progress', 'created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP');
     
     logger.info('Database verification complete: All required tables exist.');
   } catch (err) {

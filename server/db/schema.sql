@@ -51,6 +51,7 @@ CREATE TABLE IF NOT EXISTS Progress (
   lesson_id INT,
   status ENUM('Not Started', 'In Progress', 'Completed') DEFAULT 'Not Started',
   completed_at TIMESTAMP NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
   last_accessed TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE,
   FOREIGN KEY (lesson_id) REFERENCES Lessons(lesson_id) ON DELETE CASCADE,
