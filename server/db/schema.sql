@@ -1,5 +1,4 @@
-CREATE DATABASE IF NOT EXISTS `bhashasetu_db`;
-USE `bhashasetu_db`;
+
 
 CREATE TABLE IF NOT EXISTS Users (
   user_id INT AUTO_INCREMENT PRIMARY KEY,
