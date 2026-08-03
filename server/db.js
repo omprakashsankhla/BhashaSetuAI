@@ -50,14 +50,30 @@ async function verifyDatabase() {
       }
     }
 
-    // Always patch Users table to ensure new columns exist in case it was created with an old schema
+    // Always patch tables to ensure new columns exist in case they were created with an old schema
     try {
-      await pool.query("ALTER TABLE Users ADD COLUMN streak INT DEFAULT 1, ADD COLUMN last_login TIMESTAMP DEFAULT CURRENT_TIMESTAMP");
-      logger.info('Patched Users table: Added streak and last_login columns.');
+      await pool.query(`
+        ALTER TABLE Users 
+        ADD COLUMN IF NOT EXISTS streak INT DEFAULT 1, 
+        ADD COLUMN IF NOT EXISTS last_login TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        ADD COLUMN IF NOT EXISTS xp INT DEFAULT 0,
+        ADD COLUMN IF NOT EXISTS coins INT DEFAULT 0,
+        ADD COLUMN IF NOT EXISTS hearts INT DEFAULT 5,
+        ADD COLUMN IF NOT EXISTS hearts_last_regen TIMESTAMP NULL,
+        ADD COLUMN IF NOT EXISTS avatar VARCHAR(255) DEFAULT 'default_avatar.png',
+        ADD COLUMN IF NOT EXISTS skills_progress JSON
+      `);
+      
+      await pool.query(`
+        ALTER TABLE Progress
+        ADD COLUMN IF NOT EXISTS completed_at TIMESTAMP NULL
+      `);
+      
+      logger.info('Patched database tables: Added missing tracking and gamification columns.');
     } catch (patchErr) {
-      // 1060 is ER_DUP_FIELDNAME, which means the columns already exist. Ignore it safely.
+      // Ignore dup field name error if MySQL doesn't support IF NOT EXISTS fully
       if (patchErr.errno !== 1060) {
-        logger.error('Failed to patch Users table: ' + patchErr.message);
+        logger.error('Failed to patch tables: ' + patchErr.message);
       }
     }
     
