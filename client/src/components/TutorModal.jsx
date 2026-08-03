@@ -111,7 +111,7 @@ const TutorModal = ({ onClose }) => {
 
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch('/api/tutor/chat', {
+      const response = await fetch(`${API_BASE_URL}/api/tutor/chat`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,
