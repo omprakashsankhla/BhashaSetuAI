@@ -39,7 +39,6 @@ async function verifyDatabase() {
       
       if (fs.existsSync(schemaPath)) {
         const schema = fs.readFileSync(schemaPath, 'utf8');
-        // Split SQL script by semicolons to execute line by line
         const statements = schema.split(';').map(s => s.trim()).filter(s => s.length > 0);
         
         for (const statement of statements) {
@@ -48,6 +47,17 @@ async function verifyDatabase() {
         logger.info('Successfully auto-created all missing tables from schema.sql');
       } else {
         throw new Error('schema.sql not found! Cannot auto-create tables.');
+      }
+    }
+
+    // Always patch Users table to ensure new columns exist in case it was created with an old schema
+    try {
+      await pool.query("ALTER TABLE Users ADD COLUMN streak INT DEFAULT 1, ADD COLUMN last_login TIMESTAMP DEFAULT CURRENT_TIMESTAMP");
+      logger.info('Patched Users table: Added streak and last_login columns.');
+    } catch (patchErr) {
+      // 1060 is ER_DUP_FIELDNAME, which means the columns already exist. Ignore it safely.
+      if (patchErr.errno !== 1060) {
+        logger.error('Failed to patch Users table: ' + patchErr.message);
       }
     }
     

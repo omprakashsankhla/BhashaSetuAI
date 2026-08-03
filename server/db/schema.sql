@@ -13,6 +13,8 @@ CREATE TABLE IF NOT EXISTS Users (
   role ENUM('Student', 'Admin') DEFAULT 'Student',
   settings JSON,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  last_login TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  streak INT DEFAULT 1,
   INDEX idx_users_email (email),
   INDEX idx_users_role (role)
 );
