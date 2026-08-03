@@ -51,31 +51,26 @@ async function verifyDatabase() {
     }
 
     // Always patch tables to ensure new columns exist in case they were created with an old schema
-    try {
-      await pool.query(`
-        ALTER TABLE Users 
-        ADD COLUMN IF NOT EXISTS streak INT DEFAULT 1, 
-        ADD COLUMN IF NOT EXISTS last_login TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-        ADD COLUMN IF NOT EXISTS xp INT DEFAULT 0,
-        ADD COLUMN IF NOT EXISTS coins INT DEFAULT 0,
-        ADD COLUMN IF NOT EXISTS hearts INT DEFAULT 5,
-        ADD COLUMN IF NOT EXISTS hearts_last_regen TIMESTAMP NULL,
-        ADD COLUMN IF NOT EXISTS avatar VARCHAR(255) DEFAULT 'default_avatar.png',
-        ADD COLUMN IF NOT EXISTS skills_progress JSON
-      `);
-      
-      await pool.query(`
-        ALTER TABLE Progress
-        ADD COLUMN IF NOT EXISTS completed_at TIMESTAMP NULL
-      `);
-      
-      logger.info('Patched database tables: Added missing tracking and gamification columns.');
-    } catch (patchErr) {
-      // Ignore dup field name error if MySQL doesn't support IF NOT EXISTS fully
-      if (patchErr.errno !== 1060) {
-        logger.error('Failed to patch tables: ' + patchErr.message);
+    // Note: Standard MySQL doesn't support IF NOT EXISTS on ADD COLUMN, so we must add them one by one and catch 1060.
+    const addColumnSafely = async (table, columnDef) => {
+      try {
+        await pool.query(`ALTER TABLE ${table} ADD COLUMN ${columnDef}`);
+      } catch (e) {
+        if (e.errno !== 1060) {
+          logger.error(`Failed to add column to ${table}: ${e.message}`);
+        }
       }
-    }
+    };
+
+    await addColumnSafely('Users', 'streak INT DEFAULT 1');
+    await addColumnSafely('Users', 'last_login TIMESTAMP DEFAULT CURRENT_TIMESTAMP');
+    await addColumnSafely('Users', 'xp INT DEFAULT 0');
+    await addColumnSafely('Users', 'coins INT DEFAULT 0');
+    await addColumnSafely('Users', 'hearts INT DEFAULT 5');
+    await addColumnSafely('Users', 'hearts_last_regen TIMESTAMP NULL');
+    await addColumnSafely('Users', 'avatar VARCHAR(255) DEFAULT "default_avatar.png"');
+    await addColumnSafely('Users', 'skills_progress JSON');
+    await addColumnSafely('Progress', 'completed_at TIMESTAMP NULL');
     
     logger.info('Database verification complete: All required tables exist.');
   } catch (err) {
