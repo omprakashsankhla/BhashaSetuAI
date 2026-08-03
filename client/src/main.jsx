@@ -17,6 +17,7 @@ import './theme.css'
 import './i18n'
 import App from './App.jsx'
 import { registerSW } from 'virtual:pwa-register'
+import { inject } from '@vercel/analytics'
 
 const updateSW = registerSW({
   onNeedRefresh() {
@@ -28,6 +29,9 @@ const updateSW = registerSW({
     console.log('BhashaSetu is ready to work offline.')
   },
 })
+
+// Initialize Vercel Web Analytics
+inject()
 
 createRoot(document.getElementById('root')).render(
   <App />
