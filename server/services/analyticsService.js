@@ -9,11 +9,12 @@ async function syncUserAnalytics(userId) {
   if (!userId) return;
   try {
     // 1. Fetch current user gamification stats
-    const [rows] = await db.query(
+    const result = await db.query(
       'SELECT xp, coins, streak, last_login FROM Users WHERE user_id = ?',
       [userId]
     );
-    if (rows.length === 0) return;
+    const rows = (Array.isArray(result) && Array.isArray(result[0])) ? result[0] : (Array.isArray(result) ? result : []);
+    if (!rows || rows.length === 0 || !rows[0]) return;
 
     const { xp, coins, streak, last_login } = rows[0];
 

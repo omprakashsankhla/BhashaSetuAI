@@ -21,6 +21,7 @@ jobs:
 
       - name: Run Server Unit/Integration Tests
         env:
+          NODE_ENV: test
           PORT: 5000
           DB_HOST: 127.0.0.1
           DB_USER: root
@@ -29,6 +30,7 @@ jobs:
           REDIS_URL: redis://127.0.0.1:6379
           JWT_SECRET: test_secret_key
           GEMINI_API_KEY: mock_key_for_ci
+          OPENAI_API_KEY: mock_openai_key
         run: cd server && npm run test -- --forceExit --runInBand
 
       - name: Install Client Dependencies
