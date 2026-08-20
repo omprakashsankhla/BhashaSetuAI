@@ -12,14 +12,14 @@ require('dotenv').config({ override: true });
 
 const router = express.Router();
 
-const { rateLimitStore } = require('../services/redisClient');
+const { createRateLimitStore } = require('../services/redisClient');
 
 const chatLimiter = rateLimit({
   windowMs: 60 * 1000,
   max: 15,
   keyGenerator: (req) => req.userId || 'anonymous',
   message: { message: 'Too many messages. Please slow down.' },
-  store: rateLimitStore
+  store: createRateLimitStore('tutor')
 });
 
 const verifyToken = require('../middleware/auth');
