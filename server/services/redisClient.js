@@ -87,7 +87,7 @@ const cacheService = {
  * @returns {RedisStore|undefined} - A new RedisStore instance or undefined (falls back to MemoryStore)
  */
 function createRateLimitStore(prefix = 'global') {
-  if (!redisClient) return undefined;
+  if (process.env.NODE_ENV === 'test' || !redisClient) return undefined;
   try {
     const RedisStore = require('rate-limit-redis').default || require('rate-limit-redis');
     return new RedisStore({
