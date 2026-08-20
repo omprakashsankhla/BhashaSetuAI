@@ -25,3 +25,8 @@ scratch/
 server/logs/
 server/coverage/
 client/coverage/
+
+# Local Agent Files
+agents.md
+tasks.md
+task.md
