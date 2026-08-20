@@ -1,0 +1,141 @@
+/* client/src/styles/tokens.css */
+
+:root {
+  /* =========================================
+     1. COLOR PALETTE
+     ========================================= */
+  
+  /* Brand Colors (Derived from #2B58FF gradient) */
+  --color-primary-50:  #eff2ff;
+  --color-primary-100: #dce4ff;
+  --color-primary-400: #748ffc;
+  --color-primary-500: #4263eb;
+  --color-primary-600: #2B58FF; /* Main Brand */
+  --color-primary-700: #2348db;
+  --color-primary-gradient: linear-gradient(135deg, #2B58FF 0%, #4B2BFF 100%);
+
+  /* Semantic Colors */
+  --color-success-100: #d1fae5;
+  --color-success-400: #34d399;
+  --color-success-500: #10b981;
+  --color-success-600: #059669;
+  --color-success-700: #047857;
+  
+  --color-warning-100: #fef3c7;
+  --color-warning-400: #fbbf24;
+  --color-warning-500: #f59e0b; /* Coins / Accent */
+  --color-warning-600: #d97706;
+  --color-warning-700: #b45309;
+  
+  --color-error-100:   #fee2e2;
+  --color-error-400:   #f87171;
+  --color-error-500:   #ef4444;
+  --color-error-600:   #dc2626;
+  --color-error-700:   #b91c1c;
+  
+  --color-info-100:    #e0e7ff;
+  --color-info-400:    #818cf8;
+  --color-info-500:    #4f46e5; /* Secondary blue */
+  --color-info-600:    #4338ca;
+  --color-info-700:    #3730a3;
+
+  /* Neutral / Slate Scale (Light Mode) */
+  --color-slate-50:  #f8fafc; /* Main App Background */
+  --color-slate-100: #f1f5f9; /* Card Borders */
+  --color-slate-200: #e2e8f0; /* Dividers */
+  --color-slate-400: #94a3b8; /* Disabled text */
+  --color-slate-500: #64748b; /* Secondary text */
+  --color-slate-600: #475569;
+  --color-slate-700: #334155;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a; /* Primary text */
+
+  /* Abstracted Theme Tokens */
+  --bg-app: var(--color-slate-50);
+  --bg-surface: #ffffff;
+  --border-subtle: var(--color-slate-200);
+  --text-main: var(--color-slate-900);
+  --text-muted: var(--color-slate-600);
+  
+  /* Focus / Accessibility */
+  --focus-ring: 0 0 0 3px rgba(66, 99, 235, 0.4); /* color-primary-500 at 40% opacity */
+
+  /* =========================================
+     2. SPACING SCALE (4px increments)
+     ========================================= */
+  --space-1: 4px;   /* 0.25rem */
+  --space-2: 8px;   /* 0.5rem  */
+  --space-3: 12px;  /* 0.75rem */
+  --space-4: 16px;  /* 1rem    */
+  --space-5: 20px;  /* 1.25rem */
+  --space-6: 24px;  /* 1.5rem  */
+  --space-8: 32px;  /* 2rem    */
+  --space-10: 40px; /* 2.5rem  */
+  --space-12: 48px; /* 3rem    */
+
+  /* =========================================
+     3. BORDER RADIUS SCALE
+     ========================================= */
+  --radius-sm: 8px;    /* Badges, tooltips */
+  --radius-md: 12px;   /* Buttons, inputs, small option-btns */
+  --radius-lg: 20px;   /* Standard lesson cards (sweet spot between 16 and 24) */
+  --radius-xl: 24px;   /* Large dashboard metric cards / unit sections */
+  --radius-full: 9999px; /* Avatars, pills */
+
+  /* =========================================
+     4. SHADOW / ELEVATION SCALE
+     ========================================= */
+  /* Subtle depth for static cards */
+  --shadow-sm: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
+  /* Hover lift for interactive cards */
+  --shadow-md: 0 10px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.05);
+  /* Heavy elevation for modals and floating lesson engines */
+  --shadow-lg: 0 25px 50px -12px rgba(0,0,0,0.25);
+  
+  /* Colored glow for active states (e.g. Unit tracking, selected options) */
+  --shadow-glow-primary: 0 4px 12px rgba(43, 88, 255, 0.2);
+  --shadow-glow-success: 0 4px 12px rgba(16, 185, 129, 0.2);
+
+  /* =========================================
+     5. TYPOGRAPHY SCALE
+     ========================================= */
+  --font-sans: 'Inter', sans-serif;
+  
+  --text-xs:   0.75rem; /* 12px */
+  --text-sm:   0.875rem; /* 14px */
+  --text-base: 1rem;    /* 16px */
+  --text-lg:   1.125rem; /* 18px */
+  --text-xl:   1.25rem;  /* 20px - h4 */
+  --text-2xl:  1.5rem;   /* 24px - h3 */
+  --text-3xl:  1.875rem; /* 30px - h2 */
+  --text-4xl:  2.25rem;  /* 36px - h1 */
+
+  /* =========================================
+     6. TRANSITION / MOTION TOKENS
+     ========================================= */
+  --ease-spring: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-smooth: ease-in-out;
+  
+  --duration-fast: 150ms; /* Hover states, color changes */
+  --duration-base: 300ms; /* Card lifts, standard transitions */
+  --duration-slow: 500ms; /* Progress bars filling, modal slides */
+
+  --transition-fast: all var(--duration-fast) var(--ease-smooth);
+  --transition-base: all var(--duration-base) var(--ease-spring);
+}
+
+/* =========================================
+   7. DARK MODE OVERRIDES
+   ========================================= */
+body.dark-mode {
+  --bg-app: var(--color-slate-900);      /* #0f172a */
+  --bg-surface: var(--color-slate-800);  /* #1e293b */
+  --border-subtle: var(--color-slate-700); /* #334155 */
+  --text-main: var(--color-slate-50);    /* #f8fafc */
+  --text-muted: var(--color-slate-400);  /* #94a3b8 */
+  
+  /* Adjusting shadows for dark mode to be less harsh against dark backgrounds */
+  --shadow-sm: 0 4px 6px -1px rgba(0,0,0,0.3);
+  --shadow-md: 0 10px 25px -5px rgba(0,0,0,0.5);
+  --shadow-lg: 0 25px 50px -12px rgba(0,0,0,0.7);
+}

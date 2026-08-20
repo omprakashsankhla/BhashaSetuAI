@@ -1,0 +1,28 @@
+{
+  "words": [
+    {
+      "target": "नमस्ते",
+      "translation": "hello"
+    },
+    {
+      "target": "पानी",
+      "translation": "water"
+    },
+    {
+      "target": "किताब",
+      "translation": "book"
+    },
+    {
+      "target": "घर",
+      "translation": "house"
+    },
+    {
+      "target": "खाना",
+      "translation": "food"
+    },
+    {
+      "target": "कल",
+      "translation": "tomorrow"
+    }
+  ]
+}

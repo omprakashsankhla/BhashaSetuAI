@@ -46,9 +46,10 @@ const WordSprint = ({ onGameComplete }) => {
   const timerRef = useRef();
 
   const fetchGameData = async () => {
+    let targetLang = 'hi';
     try {
       const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-      const targetLang = storedUser.preferred_language || 'hi';
+      targetLang = storedUser.learning_language || 'hi';
       const interfaceLang = i18n.language || 'en';
       
       const token = localStorage.getItem('token');
@@ -63,13 +64,24 @@ const WordSprint = ({ onGameComplete }) => {
           setActiveWord(next);
           setWordX(320);
           setTyped('');
+          setLoading(false);
+          return;
         }
       }
     } catch (e) {
       console.error('Error fetching wordsprint data:', e);
-    } finally {
-      setLoading(false);
     }
+    
+    // Fallback to local offline data
+    const fallbackWords = getSprintWords(targetLang);
+    setVocab(fallbackWords);
+    if (fallbackWords.length > 0) {
+      const next = fallbackWords[Math.floor(Math.random() * fallbackWords.length)];
+      setActiveWord(next);
+      setWordX(320);
+      setTyped('');
+    }
+    setLoading(false);
   };
 
   // Load random word

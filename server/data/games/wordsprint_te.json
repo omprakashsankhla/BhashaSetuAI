@@ -1,0 +1,28 @@
+{
+  "words": [
+    {
+      "target": "నమస్కారం",
+      "translation": "hello"
+    },
+    {
+      "target": "నీరు",
+      "translation": "water"
+    },
+    {
+      "target": "పుస్తకం",
+      "translation": "book"
+    },
+    {
+      "target": "ఇల్లు",
+      "translation": "house"
+    },
+    {
+      "target": "ఆహారం",
+      "translation": "food"
+    },
+    {
+      "target": "రేపు",
+      "translation": "tomorrow"
+    }
+  ]
+}

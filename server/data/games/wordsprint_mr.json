@@ -1,0 +1,28 @@
+{
+  "words": [
+    {
+      "target": "नमस्कार",
+      "translation": "hello"
+    },
+    {
+      "target": "पाणी",
+      "translation": "water"
+    },
+    {
+      "target": "पुस्तक",
+      "translation": "book"
+    },
+    {
+      "target": "घर",
+      "translation": "house"
+    },
+    {
+      "target": "अन्न",
+      "translation": "food"
+    },
+    {
+      "target": "उद्या",
+      "translation": "tomorrow"
+    }
+  ]
+}

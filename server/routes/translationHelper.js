@@ -1,46 +1,76 @@
+const { OpenAI } = require('openai');
 const { GoogleGenAI } = require('@google/genai');
+const cacheService = require('../services/redisClient');
 require('dotenv').config({ override: true });
 
-const apiKey = process.env.GEMINI_API_KEY || 'MISSING_API_KEY';
-const ai = new GoogleGenAI({ apiKey });
+const apiKey = process.env.OPENAI_API_KEY || 'MISSING_API_KEY';
+const openai = new OpenAI({ apiKey });
+
+const geminiApiKey = process.env.GEMINI_API_KEY || 'MISSING_API_KEY';
+const gemini = new GoogleGenAI({ apiKey: geminiApiKey });
 
 const fs = require('fs');
 const path = require('path');
 
 async function generateContentWithRetry(options, maxRetries = 6) {
+  const modelName = options.model || 'gpt-4o-mini';
+  const isGemini = modelName.startsWith('gemini');
   let attempt = 0;
   let useFallbackKey = false;
+  
   while (attempt < maxRetries) {
     try {
-      let currentAi = ai;
-      if (useFallbackKey && process.env.GEMINI_TUTOR_FALLBACK_API_KEY) {
-        currentAi = new GoogleGenAI({ apiKey: process.env.GEMINI_TUTOR_FALLBACK_API_KEY });
+      if (isGemini) {
+        let currentGemini = gemini;
+        if (useFallbackKey && process.env.GEMINI_FALLBACK_API_KEY) {
+          currentGemini = new GoogleGenAI({ apiKey: process.env.GEMINI_FALLBACK_API_KEY });
+        }
+        
+        const response = await currentGemini.models.generateContent({
+          model: modelName,
+          contents: options.contents,
+          config: options.config || {}
+        });
+        
+        return {
+          text: response.text
+        };
+      } else {
+        let currentAi = openai;
+        if (useFallbackKey && process.env.OPENAI_FALLBACK_API_KEY) {
+          currentAi = new OpenAI({ apiKey: process.env.OPENAI_FALLBACK_API_KEY });
+        }
+        const response = await currentAi.chat.completions.create({
+          model: modelName,
+          messages: [{ role: 'user', content: options.contents }],
+          response_format: options.config && options.config.responseMimeType === 'application/json' ? { type: 'json_object' } : undefined
+        });
+        return {
+          text: response.choices[0].message.content
+        };
       }
-      return await currentAi.models.generateContent(options);
     } catch (err) {
       attempt++;
       const msg = err.message || '';
-      const isRateLimitOrUnavailable = msg.includes('503') || msg.includes('429') || msg.includes('UNAVAILABLE') || msg.includes('high demand') || msg.includes('quota');
+      const isRateLimitOrUnavailable = msg.includes('429') || msg.includes('503') || msg.includes('quota') || msg.includes('Too Many Requests') || msg.includes('exhausted') || msg.includes('demand');
       
       if (isRateLimitOrUnavailable && attempt < maxRetries) {
-        if (!useFallbackKey && process.env.GEMINI_TUTOR_FALLBACK_API_KEY) {
-          console.warn(`[API Demand Limit] Rate limit hit on primary key. Swapping to fallback key...`);
-          useFallbackKey = true;
-          continue; // retry immediately
-        }
-
-        let delay = Math.pow(2, attempt) * 1000 + Math.random() * 1000; // default backoff
-        
-        // Extract exact retry seconds if present in error message
-        const match = msg.match(/Please retry in ([\d\.]+)s/i);
-        if (match) {
-          const seconds = parseFloat(match[1]);
-          if (!isNaN(seconds)) {
-            delay = (seconds + 2) * 1000; // wait seconds + 2s buffer
+        if (isGemini) {
+          if (!useFallbackKey && process.env.GEMINI_FALLBACK_API_KEY) {
+            console.warn(`[API Demand Limit] Rate limit hit on primary Gemini key. Swapping to fallback key...`);
+            useFallbackKey = true;
+            continue; // retry immediately
+          }
+        } else {
+          if (!useFallbackKey && process.env.OPENAI_FALLBACK_API_KEY) {
+            console.warn(`[API Demand Limit] Rate limit hit on primary OpenAI key. Swapping to fallback key...`);
+            useFallbackKey = true;
+            continue; // retry immediately
           }
         }
-        
-        console.warn(`[API Demand Limit] Rate limit hit on fallback key. Waiting ${Math.round(delay)}ms before retry... (Attempt ${attempt}/${maxRetries})`);
+
+        let delay = Math.pow(2, attempt) * 1000 + Math.random() * 1000;
+        console.warn(`[API Demand Limit] Rate limit hit. Waiting ${Math.round(delay)}ms before retry... (Attempt ${attempt}/${maxRetries})`);
         await new Promise(resolve => setTimeout(resolve, delay));
       } else {
         throw err;
@@ -71,6 +101,14 @@ if (fs.existsSync(cachePath)) {
 }
 const cache = new Map(Object.entries(initialCache));
 
+function saveCache() {
+  try {
+    fs.writeFileSync(cachePath, JSON.stringify(Object.fromEntries(cache), null, 2), 'utf8');
+  } catch (err) {
+    console.error('Failed to save translation cache:', err);
+  }
+}
+
 const activeTranslations = new Map();
 
 async function translateOrAdaptContent(content, targetLang, interfaceLang, type, isOffline = false) {
@@ -84,8 +122,23 @@ async function translateOrAdaptContent(content, targetLang, interfaceLang, type,
     for (const item of content) {
       const itemStr = JSON.stringify(item);
       const cacheKey = `${type}_item_${targetLang}_${interfaceLang}_${itemStr}`;
-      if (cache.has(cacheKey)) {
-        cachedResults.push({ item, translated: cache.get(cacheKey) });
+      
+      let cachedVal = cache.get(cacheKey);
+      if (!cachedVal) {
+        cachedVal = await cacheService.get(cacheKey);
+        if (cachedVal) {
+          try {
+            const parsed = typeof cachedVal === 'string' ? JSON.parse(cachedVal) : cachedVal;
+            cache.set(cacheKey, parsed);
+            cachedVal = parsed;
+          } catch (e) {
+            cachedVal = null;
+          }
+        }
+      }
+
+      if (cachedVal) {
+        cachedResults.push({ item, translated: cachedVal });
       } else {
         toTranslate.push({ item, cacheKey });
       }
@@ -101,6 +154,10 @@ async function translateOrAdaptContent(content, targetLang, interfaceLang, type,
         promise = activeTranslations.get(batchKey);
       } else {
         promise = (async () => {
+          if (!isOffline && process.env.ALLOW_RUNTIME_TRANSLATION !== 'true') {
+            console.warn(`[RUNTIME CACHE MISS] Missing translations for ${type} (${targetLang} -> ${interfaceLang}). Runtime AI translation is disabled to prevent rate-limiting. Falling back to original.`);
+            return itemsToTranslate;
+          }
           console.warn(`[RUNTIME CACHE MISS] Translating/Adapting ${toTranslate.length} missing items for ${type} to Learning: ${targetLangName}, Interface: ${interfaceLangName}`);
           
           let prompt = '';
@@ -128,6 +185,77 @@ Do NOT change the JSON structure or keys.
 Output strictly valid JSON matching the input schema. No markdown formatting.
 JSON:
 ${JSON.stringify(itemsToTranslate, null, 2)}`;
+          } else if (type === 'conversation-sim') {
+            prompt = `You are a professional language teacher. Translate and adapt this JSON array containing conversation simulation scenarios.
+Target Learning Language (which the user is learning and MUST practice speaking): ${targetLangName}
+User's Interface/Instruction Language (which the user understands and uses to read scenario descriptions): ${interfaceLangName}
+
+Ensure that:
+1. Translate "title" into ${interfaceLangName} (so the user knows the scenario in their native language).
+2. Translate "initialMessage" into ${targetLangName} (the chatbot MUST start the conversation speaking in ${targetLangName}).
+3. Adapt "systemPrompt" (the instructions to the AI chatbot) so that it says in English: "You are [role]. You MUST converse ONLY in ${targetLangName}. Help the user... keep your responses concise, and use natural B1-level ${targetLangName} vocabulary and sentence structures."
+4. Do NOT change the JSON structure, keys, number of items, or types.
+5. Output strictly valid JSON matching the input schema. Output ONLY raw JSON.
+
+JSON:
+${JSON.stringify(itemsToTranslate, null, 2)}`;
+          } else if (type === 'audio-comp') {
+            prompt = `You are a professional language teacher. Translate and adapt this JSON array of audio comprehension tasks.
+Target Learning Language (which the user is learning to listen to): ${targetLangName}
+User's Interface/Instruction Language (which the user uses to read questions and options): ${interfaceLangName}
+
+Ensure that:
+1. Translate "title" into ${interfaceLangName}.
+2. Translate "transcript" into ${targetLangName} (since the user will hear/read the listening announcement in ${targetLangName}).
+3. In "questions" array, for each question object:
+   - Translate "question" into ${interfaceLangName}.
+   - Translate all options in the "options" array into ${interfaceLangName}.
+   - Translate "answer" into ${interfaceLangName} (matching the correct option).
+4. Do NOT change the JSON structure, keys, number of items, or types.
+5. Output strictly valid JSON matching the input schema. Output ONLY raw JSON.
+
+JSON:
+${JSON.stringify(itemsToTranslate, null, 2)}`;
+          } else if (type === 'speech-prep') {
+            prompt = `You are a professional language teacher. Translate and adapt this JSON array of speech preparation tasks.
+Target Learning Language (the language the user is learning to speak): ${targetLangName}
+User's Interface/Instruction Language (the language of the instructions and tips): ${interfaceLangName}
+
+Ensure that:
+1. Translate "topic" into ${interfaceLangName} (so the user understands what to speak about).
+2. Translate all items in the "tips" array into ${interfaceLangName} (so the user gets instructions and suggestions in their native language).
+3. Do NOT change the JSON structure, keys, number of items, or types.
+4. Output strictly valid JSON matching the input schema. Output ONLY raw JSON.
+
+JSON:
+${JSON.stringify(itemsToTranslate, null, 2)}`;
+          } else if (type === 'article-translation') {
+            prompt = `You are a professional language teacher. Translate and adapt this JSON array of article translation tasks.
+Target Learning Language (the language of the article to be translated): ${targetLangName}
+User's Interface/Instruction Language: ${interfaceLangName}
+
+Ensure that:
+1. Translate "title" into ${targetLangName} (the article title).
+2. Translate "text" into ${targetLangName} (the article content which the user will read and translate).
+3. Do NOT change the JSON structure, keys, number of items, or types.
+4. Output strictly valid JSON matching the input schema. Output ONLY raw JSON.
+
+JSON:
+${JSON.stringify(itemsToTranslate, null, 2)}`;
+          } else if (type === 'picture-match') {
+            prompt = `You are a professional language teacher. Translate and adapt this vocabulary match bank.
+Target Learning Language: ${targetLangName}
+User's Interface/Instruction Language: ${interfaceLangName}
+
+Ensure that:
+1. "word_target" must be translated/written in ${targetLangName}.
+2. "word_english" must be translated/written in ${interfaceLangName}.
+3. "category" must be written in ${interfaceLangName}.
+4. Maintain the exact JSON array structure.
+5. Output ONLY the raw JSON. No markdown blocks.
+
+JSON:
+${JSON.stringify(itemsToTranslate, null, 2)}`;
           } else {
             prompt = `Translate and adapt the following JSON array.
 Target Learning Language: ${targetLangName}
@@ -147,7 +275,7 @@ ${JSON.stringify(itemsToTranslate, null, 2)}`;
             );
 
             const apiPromise = generateContentWithRetry({
-              model: 'gemini-3.6-flash',
+              model: 'gemini-3.5-flash',
               contents: prompt,
               config: { responseMimeType: 'application/json' }
             }, maxRetries);
@@ -170,6 +298,7 @@ ${JSON.stringify(itemsToTranslate, null, 2)}`;
             if (Array.isArray(parsedArray) && parsedArray.length === itemsToTranslate.length) {
               for (let i = 0; i < toTranslate.length; i++) {
                 cache.set(toTranslate[i].cacheKey, parsedArray[i]);
+                await cacheService.set(toTranslate[i].cacheKey, JSON.stringify(parsedArray[i]), 30 * 24 * 3600);
               }
               saveCache();
               return parsedArray;
@@ -211,6 +340,11 @@ ${JSON.stringify(itemsToTranslate, null, 2)}`;
     return cache.get(cacheKey);
   }
 
+  if (!isOffline && process.env.ALLOW_RUNTIME_TRANSLATION !== 'true') {
+    console.warn(`[RUNTIME CACHE MISS] Runtime AI translation is disabled. Falling back to original content for ${type}.`);
+    return content;
+  }
+
   console.log(`[Cache Miss] Translating/Adapting ${type} content to Learning: ${targetLangName}, Interface: ${interfaceLangName}`);
 
   let prompt = '';
@@ -244,6 +378,63 @@ Ensure that:
 
 JSON to translate:
 ${JSON.stringify(content, null, 2)}`;
+  } else if (type === 'conversation-sim') {
+    prompt = `You are a professional language teacher. Translate and adapt this JSON object containing conversation simulation scenarios.
+Target Learning Language (which the user is learning and MUST practice speaking): ${targetLangName}
+User's Interface/Instruction Language (which the user understands and uses to read scenario descriptions): ${interfaceLangName}
+
+Ensure that:
+1. Translate "title" into ${interfaceLangName}.
+2. Translate "initialMessage" into ${targetLangName}.
+3. Adapt "systemPrompt" (the instructions to the AI chatbot) so that it says in English: "You are [role]. You MUST converse ONLY in ${targetLangName}. Help the user... keep your responses concise, and use natural B1-level ${targetLangName} vocabulary and sentence structures."
+4. Do NOT change the JSON structure or keys.
+5. Output strictly valid JSON.
+
+JSON:
+${JSON.stringify(content, null, 2)}`;
+  } else if (type === 'audio-comp') {
+    prompt = `You are a professional language teacher. Translate and adapt this JSON object of audio comprehension tasks.
+Target Learning Language (which the user is learning to listen to): ${targetLangName}
+User's Interface/Instruction Language (which the user uses to read questions and options): ${interfaceLangName}
+
+Ensure that:
+1. Translate "title" into ${interfaceLangName}.
+2. Translate "transcript" into ${targetLangName}.
+3. In "questions" array, for each question object:
+   - Translate "question" into ${interfaceLangName}.
+   - Translate all options in the "options" array into ${interfaceLangName}.
+   - Translate "answer" into ${interfaceLangName} (matching the correct option).
+4. Do NOT change the JSON structure or keys.
+5. Output strictly valid JSON.
+
+JSON:
+${JSON.stringify(content, null, 2)}`;
+  } else if (type === 'speech-prep') {
+    prompt = `You are a professional language teacher. Translate and adapt this JSON object of speech preparation tasks.
+Target Learning Language (the language the user is learning to speak): ${targetLangName}
+User's Interface/Instruction Language (the language of the instructions and tips): ${interfaceLangName}
+
+Ensure that:
+1. Translate "topic" into ${interfaceLangName}.
+2. Translate all items in the "tips" array into ${interfaceLangName}.
+3. Do NOT change the JSON structure or keys.
+4. Output strictly valid JSON.
+
+JSON:
+${JSON.stringify(content, null, 2)}`;
+  } else if (type === 'article-translation') {
+    prompt = `You are a professional language teacher. Translate and adapt this JSON object of article translation tasks.
+Target Learning Language (the language of the article to be translated): ${targetLangName}
+User's Interface/Instruction Language: ${interfaceLangName}
+
+Ensure that:
+1. Translate "title" into ${targetLangName}.
+2. Translate "text" into ${targetLangName}.
+3. Do NOT change the JSON structure or keys.
+4. Output strictly valid JSON.
+
+JSON:
+${JSON.stringify(content, null, 2)}`;
   } else {
     // Generic fallback prompt
     prompt = `Translate and adapt the following JSON data.
@@ -257,7 +448,7 @@ ${JSON.stringify(content, null, 2)}`;
 
   try {
     const response = await generateContentWithRetry({
-      model: 'gemini-3.6-flash',
+      model: 'gemini-3.5-flash',
       contents: prompt,
       config: {
         responseMimeType: 'application/json'
@@ -279,6 +470,8 @@ ${JSON.stringify(content, null, 2)}`;
 
     const parsed = JSON.parse(rawText);
     cache.set(cacheKey, parsed);
+    await cacheService.set(cacheKey, JSON.stringify(parsed), 30 * 24 * 3600);
+    saveCache();
     return parsed;
   } catch (err) {
     console.error(`AI Translation failed for ${type}:`, err.message);
@@ -296,6 +489,8 @@ async function generateGameData(gameType, targetLang, interfaceLang) {
   if (cache.has(cacheKey)) {
     return cache.get(cacheKey);
   }
+
+
 
   console.log(`[Cache Miss] Generating game data for ${gameType} (Learning: ${targetLangName}, Interface: ${interfaceLangName})`);
 
@@ -342,7 +537,7 @@ Example JSON output structure:
   ]
 }`;
   } else if (gameType === 'signreader') {
-    prompt = `Generate a JSON object containing a list of 5 common public/road signs in ${targetLangName} for a sign reading game.
+    prompt = `Generate a JSON object containing a list of 10 common public/road signs in ${targetLangName} for a sign reading game.
 The user is learning ${targetLangName} and speaks ${interfaceLangName}.
 Each item should have:
 - "sign": A sign board text written in ${targetLangName}'s native script (e.g., "प्रवेश निषेध", "धूम्रपान वर्जित").
@@ -357,7 +552,7 @@ Example JSON output structure:
   ]
 }`;
   } else if (gameType === 'textdetective') {
-    prompt = `Generate a JSON object containing a list of 4 sentence correction puzzles in ${targetLangName} for a grammar game.
+    prompt = `Generate a JSON object containing a list of 10 sentence correction puzzles in ${targetLangName} for a grammar game.
 The user is learning ${targetLangName} and speaks ${interfaceLangName}.
 Each item should have:
 - "sentenceParts": An array of strings splitting the sentence, where one of the parts contains a grammar/spelling mistake (e.g. ["यह ", "मेरे ", "किताब है।"]).
@@ -377,7 +572,7 @@ Example JSON output structure:
 
   try {
     const response = await generateContentWithRetry({
-      model: 'gemini-3.6-flash',
+      model: 'gemini-3.5-flash',
       contents: prompt,
       config: {
         responseMimeType: 'application/json'
@@ -399,6 +594,7 @@ Example JSON output structure:
 
     const parsed = JSON.parse(rawText);
     cache.set(cacheKey, parsed);
+    await cacheService.set(cacheKey, JSON.stringify(parsed), 30 * 24 * 3600);
     saveCache();
     return parsed;
   } catch (err) {

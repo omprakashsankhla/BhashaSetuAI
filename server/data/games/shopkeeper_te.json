@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "name": "టమోటాలు",
+      "price": 20,
+      "emoji": "🍅"
+    },
+    {
+      "name": "బంగాళాదుంపలు",
+      "price": 10,
+      "emoji": "🥔"
+    },
+    {
+      "name": "ఉల్లిపాయలు",
+      "price": 15,
+      "emoji": "🧅"
+    }
+  ],
+  "customers": [
+    {
+      "dialogue": "నమస్కారం! నాకు 2 కిలోల టమోటాలు మరియు 1 కిలో బంగాళాదుంపలు కావాలి.",
+      "targetTomatoes": 2,
+      "targetPotatoes": 1,
+      "targetOnions": 0,
+      "bill": 50
+    },
+    {
+      "dialogue": "నాకు 1 కిలో టమోటా మరియు 2 కిలోల ఉల్లిపాయలు ఇవ్వండి.",
+      "targetTomatoes": 1,
+      "targetPotatoes": 0,
+      "targetOnions": 2,
+      "bill": 50
+    },
+    {
+      "dialogue": "నా కోసం 3 కిలోల బంగాళాదుంపలు మరియు 1 కిలో ఉల్లిపాయలు తూకం వేయండి.",
+      "targetTomatoes": 0,
+      "targetPotatoes": 3,
+      "targetOnions": 1,
+      "bill": 45
+    }
+  ]
+}

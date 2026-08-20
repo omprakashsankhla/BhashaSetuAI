@@ -17,7 +17,10 @@ async function verifyDatabase() {
   const requiredTables = [
     'Users', 'Assessments', 'Lessons', 'Progress', 
     'Voice_Assessments', 'Recommendations', 'Announcements', 
-    'Platform_Settings', 'Assignments', 'PushSubscriptions'
+    'Platform_Settings', 'Assignments', 'PushSubscriptions', 'lesson_translations',
+    'Learning_Profiles', 'Achievements', 'User_Achievements', 'Streaks', 'Tutor_Memory',
+    'Skill_Analytics', 'Weak_Areas', 'Review_Queue',
+    'User_Settings', 'User_Skills', 'User_Analytics', 'Audit_Logs'
   ];
 
   try {
@@ -70,8 +73,27 @@ async function verifyDatabase() {
     await addColumnSafely('Users', 'hearts_last_regen TIMESTAMP NULL');
     await addColumnSafely('Users', 'avatar VARCHAR(255) DEFAULT "default_avatar.png"');
     await addColumnSafely('Users', 'skills_progress JSON');
+    await addColumnSafely('Users', 'interface_language VARCHAR(10) DEFAULT "en"');
+    await addColumnSafely('Users', 'learning_language VARCHAR(10) DEFAULT "en"');
     await addColumnSafely('Progress', 'completed_at TIMESTAMP NULL');
     await addColumnSafely('Progress', 'created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP');
+    
+    // Auto-patch lesson_translations table for generalized multilingual support
+    await addColumnSafely('lesson_translations', "interface_language VARCHAR(10) NOT NULL DEFAULT 'en'");
+    
+    try {
+      await pool.query('ALTER TABLE lesson_translations DROP INDEX lesson_lang_unique');
+    } catch (e) {
+      // Ignore if index doesn't exist
+    }
+    
+    try {
+      await pool.query('ALTER TABLE lesson_translations ADD UNIQUE KEY lesson_lang_unique (lesson_id, language_code, interface_language)');
+    } catch (e) {
+      if (e.errno !== 1061) {
+        logger.error(`Failed to add unique key to lesson_translations: ${e.message}`);
+      }
+    }
     
     logger.info('Database verification complete: All required tables exist.');
   } catch (err) {

@@ -150,7 +150,23 @@ const PronunciationPage = () => {
   const { i18n } = useTranslation();
   const navigate = useNavigate();
   
-  const [vocab, setVocab] = useState(() => WORDS_BY_LANG[JSON.parse(localStorage.getItem('user') || '{}').preferred_language || 'hi'] || WORDS_BY_LANG['hi']);
+  const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
+  const learningLang = storedUser.learning_language || 'hi';
+  const interfaceLang = i18n.language?.split('-')[0] || learningLang;
+
+  const UI_TEXT = {
+    hi: { mastered: 'सफल', of: '/', lab: '🎙️ उच्चारण प्रयोगशाला', wordList: 'शब्द सूची', practice: 'उच्चारण अभ्यास करें', hear: 'मूल वक्ता सुनें', example: 'उदाहरण:', listening: 'सुन रहे हैं... स्पष्ट बोलें!', tapMic: 'शब्द बोलने के लिए माइक दबाएं', youSaid: 'आपने कहा', great: '🎉 उत्कृष्ट! मूल उच्चारण!', tryAgain: '🔄 दोबारा उच्चारण करें।', nextWord: 'अगला शब्द →', word: 'शब्द', phonics: 'ध्वनिक प्रयोगशाला', meaning: 'अर्थ' },
+    en: { mastered: 'Mastered', of: '/', lab: '🎙️ Pronunciation Lab', wordList: 'Word List', practice: 'Practice Pronouncing', hear: 'Hear Native Speaker', example: 'Example Use Case:', listening: 'Listening... Speak Word clearly!', tapMic: 'Tap Mic to Speak Word', youSaid: 'You said', great: '🎉 Excellent! Native Pronunciation!', tryAgain: '🔄 Oops! Try pronouncing it again.', nextWord: 'Practice Next Word →', word: 'Word', phonics: 'Phonics Lab', meaning: 'meaning' },
+    bn: { mastered: 'সফল', of: '/', lab: '🎙️ উচ্চারণ ল্যাব', wordList: 'শব্দ তালিকা', practice: 'উচ্চারণ অভ্যাস করুন', hear: 'মূল বক্তা শুনুন', example: 'উদাহরণ:', listening: 'শুনছি... স্পষ্ট বলুন!', tapMic: 'শব্দ বলতে মাইকে ট্যাপ করুন', youSaid: 'আপনি বললেন', great: '🎉 চমৎকার উচ্চারণ!', tryAgain: '🔄 আবার চেষ্টা করুন।', nextWord: 'পরবর্তী শব্দ →', word: 'শব্দ', phonics: 'ধ্বনিতত্ত্ব ল্যাব', meaning: 'অর্থ' },
+    mr: { mastered: 'सफल', of: '/', lab: '🎙️ उच्चारण प्रयोगशाळा', wordList: 'शब्द सूची', practice: 'उच्चारण सराव करा', hear: 'मूळ भाषिक ऐका', example: 'उदाहरण:', listening: 'ऐकतोय... स्पष्ट बोला!', tapMic: 'शब्द बोलण्यासाठी माइक दाबा', youSaid: 'तुम्ही म्हणालात', great: '🎉 उत्कृष्ट उच्चारण!', tryAgain: '🔄 पुन्हा प्रयत्न करा.', nextWord: 'पुढील शब्द →', word: 'शब्द', phonics: 'ध्वनी लॅब', meaning: 'अर्थ' },
+    mwr: { mastered: 'सफल', of: '/', lab: '🎙️ उच्चारण प्रयोगशाला', wordList: 'शब्द री सूची', practice: 'उच्चारण रो अभ्यास करो', hear: 'मूल बोलणवाला सुणो', example: 'उदाहरण:', listening: 'सुण रह्या हां... साफ़ बोलो!', tapMic: 'शब्द बोलबा सारू माइक दबाओ', youSaid: 'थांने कह्यो', great: '🎉 घणो चोखो उच्चारण!', tryAgain: '🔄 फेर सू बोलो।', nextWord: 'अगलो शब्द →', word: 'शब्द', phonics: 'ध्वनि लैब', meaning: 'अर्थ' },
+    ta: { mastered: 'தேர்ச்சி', of: '/', lab: '🎙️ உச்சரிப்பு ஆய்வகம்', wordList: 'சொல் பட்டியல்', practice: 'உச்சரிப்பு பயிற்சி', hear: 'தாய்மொழி பேச்சாளர் கேளுங்கள்', example: 'எடுத்துக்காட்டு:', listening: 'கேட்கிறேன்... தெளிவாக பேசுங்கள்!', tapMic: 'சொல்ல மைக்கைத் தட்டுங்கள்', youSaid: 'நீங்கள் சொன்னது', great: '🎉 அருமையான உச்சரிப்பு!', tryAgain: '🔄 மீண்டும் முயற்சிக்கவும்.', nextWord: 'அடுத்த சொல் →', word: 'சொல்', phonics: 'ஒலியியல் ஆய்வகம்', meaning: 'பொருள்' },
+    te: { mastered: 'నేర్చుకున్నది', of: '/', lab: '🎙️ ఉచ్ఛారణ ల్యాబ్', wordList: 'పదాల జాబితా', practice: 'ఉచ్ఛారణ సాధన', hear: 'మాతృభాషా వక్తను వినండి', example: 'ఉదాహరణ:', listening: 'వింటున్నాను... స్పష్టంగా చెప్పండి!', tapMic: 'మాట్లాడటానికి మైక్ నొక్కండి', youSaid: 'మీరు చెప్పింది', great: '🎉 అద్భుతమైన ఉచ్ఛారణ!', tryAgain: '🔄 మళ్ళీ ప్రయత్నించండి.', nextWord: 'తదుపరి పదం →', word: 'పదం', phonics: 'ధ్వని ల్యాబ్', meaning: 'అర్థం' },
+    ur: { mastered: 'مکمل', of: '/', lab: '🎙️ تلفظ لیب', wordList: 'الفاظ کی فہرست', practice: 'تلفظ کی مشق کریں', hear: 'مادری بولنے والا سنیں', example: 'مثال:', listening: 'سن رہے ہیں... واضح بولیں!', tapMic: 'بولنے کے لیے مائک دبائیں', youSaid: 'آپ نے کہا', great: '🎉 بہترین تلفظ!', tryAgain: '🔄 دوبارہ کوشش کریں۔', nextWord: 'اگلا لفظ ←', word: 'لفظ', phonics: 'صوتیات لیب', meaning: 'معنی' }
+  };
+  const ut = UI_TEXT[interfaceLang] || UI_TEXT['en'];
+
+  const [vocab, setVocab] = useState(() => WORDS_BY_LANG[learningLang] || WORDS_BY_LANG['hi']);
   const [currentIdx, setCurrentIdx] = useState(0);
   const [isRecording, setIsRecording] = useState(false);
   const [result, setResult] = useState(null); // 'great' | 'try-again'
@@ -162,7 +178,7 @@ const PronunciationPage = () => {
   const recognitionRef = useRef(null);
 
   useEffect(() => {
-    const list = WORDS_BY_LANG[JSON.parse(localStorage.getItem('user') || '{}').preferred_language || 'hi'] || WORDS_BY_LANG['hi'];
+    const list = WORDS_BY_LANG[learningLang] || WORDS_BY_LANG['hi'];
     setVocab(list);
     setCurrentIdx(0);
     setResult(null);
@@ -171,7 +187,7 @@ const PronunciationPage = () => {
       acc[word.id] = 'pending';
       return acc;
     }, {}));
-  }, [i18n.language]);
+  }, [i18n.language, learningLang]);
 
   const activeWord = vocab[currentIdx];
 
@@ -185,7 +201,7 @@ const PronunciationPage = () => {
     }
 
     const recognition = new SpeechRecognition();
-    recognition.lang = LANG_REC_MAP[JSON.parse(localStorage.getItem('user') || '{}').preferred_language || 'hi'] || 'hi-IN';
+    recognition.lang = LANG_REC_MAP[JSON.parse(localStorage.getItem('user') || '{}').learning_language || 'hi'] || 'hi-IN';
     recognition.interimResults = false;
     recognition.maxAlternatives = 5;
 
@@ -277,10 +293,10 @@ const PronunciationPage = () => {
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
           <Award size={20} color="#eab308" />
           <span style={{ fontWeight: 700, color: '#334155' }}>
-            Mastered: {masteredCount} / {vocab.length}
+            {ut.mastered}: {masteredCount} / {vocab.length}
           </span>
         </div>
-        <h2 style={{ fontSize: '1.2rem', margin: 0, color: '#1e293b', fontWeight: 800 }}>🎙️ Pronunciation Lab</h2>
+        <h2 style={{ fontSize: '1.2rem', margin: 0, color: '#1e293b', fontWeight: 800 }}>{ut.lab}</h2>
       </div>
 
       {/* Main Two-Column Layout */}
@@ -289,7 +305,7 @@ const PronunciationPage = () => {
         {/* Left Column: Word Sidebar Selector */}
         <div style={{ width: '300px', borderRight: '1px solid #e2e8f0', background: 'white', display: 'flex', flexDirection: 'column', height: '100%' }}>
           <div style={{ padding: '1rem', borderBottom: '1px solid #f1f5f9' }}>
-            <h4 style={{ margin: 0, color: '#64748b', fontSize: '0.8rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>Word List</h4>
+            <h4 style={{ margin: 0, color: '#64748b', fontSize: '0.8rem', letterSpacing: '0.05em', textTransform: 'uppercase' }}>{ut.wordList}</h4>
           </div>
           <div style={{ flex: 1, overflowY: 'auto', padding: '0.5rem' }}>
             {vocab.map((item, idx) => {
@@ -342,13 +358,13 @@ const PronunciationPage = () => {
             {/* Header Badge info */}
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
               <span style={{ background: pal.badge, color: 'white', fontWeight: 700, padding: '0.3rem 0.8rem', borderRadius: '12px', fontSize: '0.8rem' }}>
-                Word {currentIdx + 1} of {vocab.length}
+                {ut.word} {currentIdx + 1} / {vocab.length}
               </span>
-              <span style={{ fontSize: '0.85rem', color: pal.accent, fontWeight: 700 }}>Phonics Lab</span>
+              <span style={{ fontSize: '0.85rem', color: pal.accent, fontWeight: 700 }}>{ut.phonics}</span>
             </div>
 
             {/* Pronunciation Target Area */}
-            <p style={{ color: '#475569', margin: '0 0 0.2rem 0', fontSize: '0.85rem', letterSpacing: '0.05em', textTransform: 'uppercase', fontWeight: 700 }}>Practice Pronouncing</p>
+            <p style={{ color: '#475569', margin: '0 0 0.2rem 0', fontSize: '0.85rem', letterSpacing: '0.05em', textTransform: 'uppercase', fontWeight: 700 }}>{ut.practice}</p>
             <h1 style={{ fontSize: '3.6rem', color: pal.accent, margin: '0 0 0.2rem 0', fontWeight: 900, letterSpacing: '-0.02em', lineHeight: 1.1 }}>
               {activeWord.word}
             </h1>
@@ -356,7 +372,7 @@ const PronunciationPage = () => {
               "{activeWord.romanized}"
             </p>
             <p style={{ color: '#475569', fontSize: '0.95rem', margin: '0 0 1.2rem 0', fontStyle: 'italic' }}>
-              meaning: {activeWord.meaning}
+              {ut.meaning}: {activeWord.meaning}
             </p>
 
             {/* Speak Aloud synthesis trigger */}
@@ -364,12 +380,12 @@ const PronunciationPage = () => {
               onClick={speak} 
               style={{ background: 'white', border: `1px solid ${pal.border}`, color: '#1e293b', padding: '0.5rem 1.2rem', borderRadius: '20px', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.4rem', fontSize: '0.85rem', fontWeight: 700, marginBottom: '1.5rem', boxShadow: '0 2px 5px rgba(0,0,0,0.05)' }}
             >
-              <Volume2 size={16} color={pal.accent} /> Hear Native Speaker
+              <Volume2 size={16} color={pal.accent} /> {ut.hear}
             </button>
 
             {/* Interactive Phonics Sentence Example Use Case */}
             <div style={{ background: 'white', border: `1px solid ${pal.border}`, borderRadius: '16px', padding: '1.2rem', marginBottom: '1.5rem', textAlign: 'left', boxShadow: '0 4px 10px rgba(0,0,0,0.02)' }}>
-              <h5 style={{ margin: '0 0 0.5rem 0', color: pal.accent, fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 700 }}>Example Use Case:</h5>
+              <h5 style={{ margin: '0 0 0.5rem 0', color: pal.accent, fontSize: '0.75rem', textTransform: 'uppercase', letterSpacing: '0.05em', fontWeight: 700 }}>{ut.example}</h5>
               <p style={{ fontSize: '1.2rem', fontWeight: 800, color: '#1e293b', margin: '0 0 0.4rem 0', lineHeight: 1.4 }}>
                 {activeWord.example}
               </p>
@@ -387,14 +403,14 @@ const PronunciationPage = () => {
                 {isRecording ? <MicOff size={30} color="white" /> : <Mic size={30} color="white" />}
               </button>
               <p style={{ color: isRecording ? '#ef4444' : '#475569', marginTop: '0.8rem', fontSize: '0.85rem', fontWeight: 700 }}>
-                {isRecording ? 'Listening... Speak Word clearly!' : 'Tap Mic to Speak Word'}
+                {isRecording ? ut.listening : ut.tapMic}
               </p>
             </div>
 
             {/* Realtime User Transcript */}
             {transcript && (
               <p style={{ color: '#475569', fontSize: '0.85rem', margin: '0.5rem 0' }}>
-                You said: <strong style={{ color: '#1e293b' }}>"{transcript}"</strong>
+                {ut.youSaid}: <strong style={{ color: '#1e293b' }}>"{transcript}"</strong>
               </p>
             )}
 
@@ -408,7 +424,7 @@ const PronunciationPage = () => {
                     ? <CheckCircle size={20} color="#10b981" /> 
                     : <AlertCircle size={20} color="#ef4444" />}
                   <span style={{ color: result === 'great' ? '#14532d' : '#7f1d1d', fontWeight: 800, fontSize: '0.95rem' }}>
-                    {result === 'great' ? '🎉 Excellent! Native Pronunciation!' : '🔄 Oops! Try pronouncing it again.'}
+                    {result === 'great' ? ut.great : ut.tryAgain}
                   </span>
                 </div>
                 {result === 'great' && currentIdx < vocab.length - 1 && (
@@ -416,7 +432,7 @@ const PronunciationPage = () => {
                     onClick={handleNextWord} 
                     style={{ background: '#10b981', color: 'white', border: 'none', padding: '0.5rem 1.5rem', borderRadius: '8px', cursor: 'pointer', fontSize: '0.85rem', fontWeight: 700 }}
                   >
-                    Practice Next Word →
+                    {ut.nextWord}
                   </button>
                 )}
               </div>

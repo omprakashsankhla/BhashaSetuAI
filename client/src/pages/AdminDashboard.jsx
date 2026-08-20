@@ -41,7 +41,7 @@ const AdminDashboard = () => {
 
   const [showAddStudentModal, setShowAddStudentModal] = useState(false);
   const [newStudentFormData, setNewStudentFormData] = useState({
-    name: '', email: '', password: '', age: '', preferred_language: 'en', education_level: '', proficiency_level: 'Beginner'
+    name: '', email: '', password: '', age: '', interface_language: 'en', learning_language: 'hi', education_level: '', proficiency_level: 'Beginner'
   });
 
   const [deleteConfirm, setDeleteConfirm] = useState({ isOpen: false, type: null, id: null });
@@ -167,7 +167,7 @@ const AdminDashboard = () => {
       });
       if (res.ok) {
         setShowAddStudentModal(false);
-        setNewStudentFormData({ name: '', email: '', password: '', age: '', preferred_language: 'en', education_level: '', proficiency_level: 'Beginner' });
+        setNewStudentFormData({ name: '', email: '', password: '', age: '', interface_language: 'en', learning_language: 'hi', education_level: '', proficiency_level: 'Beginner' });
         fetchData(true); // Refresh list silently
       } else {
         const data = await res.json();
@@ -179,25 +179,28 @@ const AdminDashboard = () => {
     }
   };
 
-  const handleExportCSV = () => {
-    const header = ['User ID', 'Name', 'Email', 'Language Preference', 'Lessons Completed', 'Avg Score', 'Joined Date'];
-    const rows = filteredStudents.map(s => [
-      s.user_id, s.name, s.email, s.preferred_language, s.lessons_completed || 0, s.avg_score || 0, new Date(s.created_at).toLocaleDateString()
-    ]);
-    
-    const csvContent = [
-      header.join(','),
-      ...rows.map(e => e.join(','))
-    ].join('\n');
-
-    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement('a');
-    link.href = url;
-    link.setAttribute('download', 'students_export.csv');
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+  const handleExportCSV = async () => {
+    try {
+      const token = localStorage.getItem('token');
+      const res = await fetch(`${API_BASE_URL}/api/analytics/export`, {
+        headers: { 'Authorization': `Bearer ${token}` }
+      });
+      if (res.ok) {
+        const blob = await res.blob();
+        const url = URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.setAttribute('download', 'students_export.csv');
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      } else {
+        alert('Failed to export CSV from server');
+      }
+    } catch (e) {
+      console.error(e);
+      alert('Error exporting CSV');
+    }
   };
 
   // --- Lesson Actions ---
@@ -367,7 +370,7 @@ const AdminDashboard = () => {
   // --- Render Helpers ---
   const filteredStudents = students.filter(s => {
     const matchesSearch = s.name.toLowerCase().includes(searchQuery.toLowerCase()) || s.email.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesLang = languageFilter === 'all' || s.preferred_language === languageFilter;
+    const matchesLang = languageFilter === 'all' || s.learning_language === languageFilter;
     return matchesSearch && matchesLang;
   });
 
@@ -610,7 +613,7 @@ const AdminDashboard = () => {
                   <Filter size={18} />
                   <select value={languageFilter} onChange={(e) => setLanguageFilter(e.target.value)}>
                     <option value="all">All Languages</option>
-                    {[...new Set(students.map(s => s.preferred_language))].map(lang => (
+                    {[...new Set(students.map(s => s.learning_language))].map(lang => (
                       <option key={lang} value={lang}>{lang}</option>
                     ))}
                   </select>
@@ -649,12 +652,14 @@ const AdminDashboard = () => {
                             </div>
                           </div>
                         </td>
-                        <td><span className="status-pill">{student.preferred_language}</span></td>
+                        <td><span className="status-pill">{student.learning_language}</span></td>
                         <td>{student.lessons_completed || 0}</td>
                         <td>
-                          <div className="score-indicator">
-                            <div className="score-dot" style={{background: student.avg_score > 80 ? '#10b981' : student.avg_score > 50 ? '#f59e0b' : '#ef4444'}}></div>
-                            {student.avg_score ? parseFloat(student.avg_score).toFixed(1) + '%' : 'N/A'}
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <div style={{ flex: 1, minWidth: '60px', height: '6px', background: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
+                              <div style={{ width: `${student.avg_score || 0}%`, height: '100%', background: student.avg_score > 80 ? 'linear-gradient(90deg, #34d399, #10b981)' : student.avg_score > 50 ? 'linear-gradient(90deg, #fbbf24, #f59e0b)' : 'linear-gradient(90deg, #f87171, #ef4444)' }} />
+                            </div>
+                            <span style={{ fontSize: '0.8rem', fontWeight: 700, color: '#334155' }}>{student.avg_score ? parseFloat(student.avg_score).toFixed(0) + '%' : '0%'}</span>
                           </div>
                         </td>
                         <td>{new Date(student.created_at).toLocaleDateString()}</td>
@@ -711,13 +716,14 @@ const AdminDashboard = () => {
                       <span className={`level-badge ${level.toLowerCase()}`}>{level}</span> Track
                     </h3>
                     
-                    {[
-                      { name: 'Unit 1', range: [0, 7] },
-                      { name: 'Unit 2', range: [7, 14] },
-                      { name: 'Unit 3', range: [14, 21] },
-                      { name: 'Unit 4', range: [21, 100] }
-                    ].map((unit) => {
-                      const unitLessons = levelLessons.slice(unit.range[0], unit.range[1]);
+                    {(() => {
+                      const numUnits = Math.ceil(levelLessons.length / 7) || 1;
+                      const units = Array.from({ length: numUnits }, (_, i) => ({
+                        name: `Unit ${i + 1}`,
+                        range: [i * 7, Math.min((i + 1) * 7, levelLessons.length)]
+                      }));
+                      return units.map((unit) => {
+                        const unitLessons = levelLessons.slice(unit.range[0], unit.range[1]);
                       if (unitLessons.length === 0) return null;
                       
                       return (
@@ -731,10 +737,10 @@ const AdminDashboard = () => {
                                   <div className="lesson-card-header">
                                     <span style={{ fontSize: '0.8rem', color: '#6b7280', fontWeight: '500' }}>#{globalIdx + 1}</span>
                                     <div className="lesson-actions">
-                                      <button onClick={() => handleReorderLesson(level, globalIdx, 'left')} title="Move Earlier" disabled={globalIdx === 0}><ArrowLeft size={16} /></button>
-                                      <button onClick={() => handleReorderLesson(level, globalIdx, 'right')} title="Move Later" disabled={globalIdx === levelLessons.length - 1}><ArrowRight size={16} /></button>
-                                      <button onClick={() => handleOpenAssignModal(lesson)} title="Track & Assign" style={{ color: '#8b5cf6' }}><BookOpen size={16} /></button>
-                                      <button onClick={() => handleDeleteLesson(lesson.lesson_id)} className="text-danger" title="Delete"><Trash2 size={16} /></button>
+                                      <button className="btn-icon" onClick={() => handleReorderLesson(level, globalIdx, 'left')} title="Move Earlier" disabled={globalIdx === 0}><ArrowLeft size={16} /></button>
+                                      <button className="btn-icon" onClick={() => handleReorderLesson(level, globalIdx, 'right')} title="Move Later" disabled={globalIdx === levelLessons.length - 1}><ArrowRight size={16} /></button>
+                                      <button className="btn-icon" onClick={() => handleOpenAssignModal(lesson)} title="Track & Assign" style={{ color: '#8b5cf6' }}><BookOpen size={16} /></button>
+                                      <button className="btn-icon danger" onClick={() => handleDeleteLesson(lesson.lesson_id)} title="Delete"><Trash2 size={16} /></button>
                                     </div>
                                   </div>
                                   <h3>{lesson.title}</h3>
@@ -747,7 +753,8 @@ const AdminDashboard = () => {
                           </div>
                         </div>
                       )
-                    })}
+                      });
+                    })()}
                   </div>
                 );
               })}
@@ -931,7 +938,8 @@ const AdminDashboard = () => {
                     <h3>{studentDetails.profile.name}</h3>
                     <p>{studentDetails.profile.email}</p>
                     <div className="profile-tags">
-                      <span className="tag">{studentDetails.profile.preferred_language}</span>
+                      <span className="tag" title="Interface">UI: {studentDetails.profile.interface_language}</span>
+                      <span className="tag" title="Learning">Learn: {studentDetails.profile.learning_language}</span>
                       <span className="tag">{studentDetails.profile.proficiency_level}</span>
                     </div>
                     <p className="joined-date"><Calendar size={14}/> Joined {new Date(studentDetails.profile.created_at).toLocaleDateString()}</p>
@@ -991,18 +999,31 @@ const AdminDashboard = () => {
                 <label>Password</label>
                 <input required type="password" value={newStudentFormData.password} onChange={e => setNewStudentFormData({...newStudentFormData, password: e.target.value})} placeholder="Temporary Password" />
               </div>
-              <div className="form-group">
-                <label>Preferred Language</label>
-                <select value={newStudentFormData.preferred_language} onChange={e => setNewStudentFormData({...newStudentFormData, preferred_language: e.target.value})}>
-                  <option value="en">English</option>
-                  <option value="hi">Hindi</option>
-                  <option value="mwr">Marwadi</option>
-                  <option value="ta">Tamil</option>
-                  <option value="te">Telugu</option>
-                  <option value="bn">Bengali</option>
-                  <option value="mr">Marathi</option>
-                  <option value="ur">Urdu</option>
-                </select>
+              <div className="form-row" style={{display: 'flex', gap: '1rem'}}>
+                <div className="form-group" style={{flex: 1}}>
+                  <label>Interface Language</label>
+                  <select value={newStudentFormData.interface_language} onChange={e => setNewStudentFormData({...newStudentFormData, interface_language: e.target.value})}>
+                    <option value="en">English</option>
+                    <option value="hi">Hindi</option>
+                    <option value="ta">Tamil</option>
+                    <option value="te">Telugu</option>
+                    <option value="bn">Bengali</option>
+                    <option value="mr">Marathi</option>
+                    <option value="ur">Urdu</option>
+                  </select>
+                </div>
+                <div className="form-group" style={{flex: 1}}>
+                  <label>Learning Language</label>
+                  <select value={newStudentFormData.learning_language} onChange={e => setNewStudentFormData({...newStudentFormData, learning_language: e.target.value})}>
+                    <option value="hi">Hindi</option>
+                    <option value="ta">Tamil</option>
+                    <option value="te">Telugu</option>
+                    <option value="bn">Bengali</option>
+                    <option value="mr">Marathi</option>
+                    <option value="ur">Urdu</option>
+                    <option value="en">English</option>
+                  </select>
+                </div>
               </div>
               <div className="modal-actions">
                 <button type="button" className="btn-secondary" onClick={() => setShowAddStudentModal(false)}>Cancel</button>

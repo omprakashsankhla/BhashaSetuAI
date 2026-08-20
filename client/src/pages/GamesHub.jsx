@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { Home, BookOpen, Target, Gamepad2, Edit3, Award, BarChart2, User, Settings, LogOut, Bot, Play, ShieldAlert, Zap, Flame, Trophy, Menu, X } from 'lucide-react';
 import ProfileModal from '../components/ProfileModal';
 import SettingsModal from '../components/SettingsModal';
+import Button from '../components/ui/Button';
+import Badge from '../components/ui/Badge';
 import LeaderboardModal from '../components/LeaderboardModal';
 import TutorModal from '../components/TutorModal';
 import ProgressModal from '../components/ProgressModal';
@@ -481,36 +483,34 @@ const GamesHub = () => {
 
       <div className="dashboard-workspace activities-workspace">
         <header className="dashboard-header activities-header">
-          <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
-            {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-          <div className="welcome-text">
-            <h1>🎮 {loc.hubTitle}</h1>
-            <p>{loc.hubDesc}</p>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
+              {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+            <h1 style={{ margin: 0, fontSize: '1.5rem', color: '#1e293b', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <Gamepad2 size={28} color="#6366f1" /> {loc.hubTitle}
+            </h1>
           </div>
         </header>
 
         {/* Level tabs selector */}
         <div className="activity-tabs" style={{ display: 'flex', gap: '1rem', padding: '0 2.5rem', marginBottom: '2rem' }}>
           {['Beginner', 'Intermediate', 'Advanced'].map(level => (
-            <button
+            <Button
+              variant="primary"
               key={level}
-              className={`activity-tab ${activeLevel === level ? 'active' : ''}`}
+              className={`activity-tab track-btn track-btn-${level.toLowerCase()} ${activeLevel === level ? 'active' : ''}`}
               onClick={() => setActiveLevel(level)}
               style={{
                 padding: '0.75rem 1.5rem',
                 borderRadius: '8px',
-                border: 'none',
                 fontWeight: '600',
                 fontSize: '1rem',
-                cursor: 'pointer',
-                background: activeLevel === level ? '#2b58ff' : '#f1f5f9',
-                color: activeLevel === level ? 'white' : '#64748b',
-                transition: 'all 0.2s'
+                flex: '0 1 auto'
               }}
             >
               {loc.tabs[level]}
-            </button>
+            </Button>
           ))}
         </div>
 
@@ -525,18 +525,40 @@ const GamesHub = () => {
                   key={game.id} 
                   className={`activity-card ${!isUnlocked ? 'locked-card-hub' : ''}`}
                   onClick={() => handlePlayGame(game.id, isUnlocked)}
+                  role="button"
+                  tabIndex={0}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault();
+                      handlePlayGame(game.id, isUnlocked);
+                    }
+                  }}
                   style={{ 
                     position: 'relative', 
                     cursor: isUnlocked ? 'pointer' : 'not-allowed',
                     opacity: isUnlocked ? 1 : 0.65,
-                    border: '1px solid #e2e8f0',
-                    borderRadius: '20px',
+                    border: '2px solid #e2e8f0',
+                    borderRadius: '24px',
                     padding: '1.5rem',
                     background: 'white',
                     display: 'flex',
                     flexDirection: 'column',
                     justifyContent: 'space-between',
-                    minHeight: '220px'
+                    minHeight: '220px',
+                    transition: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
+                    boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05)'
+                  }}
+                  onMouseEnter={(e) => {
+                    if (isUnlocked) {
+                      e.currentTarget.style.transform = 'translateY(-4px)';
+                      e.currentTarget.style.boxShadow = '0 12px 20px -5px rgba(0, 0, 0, 0.1)';
+                    }
+                  }}
+                  onMouseLeave={(e) => {
+                    if (isUnlocked) {
+                      e.currentTarget.style.transform = 'translateY(0)';
+                      e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.05)';
+                    }
                   }}
                 >
                   <div>
@@ -557,29 +579,26 @@ const GamesHub = () => {
                       >
                         {game.icon}
                       </div>
-                      <span 
-                        style={{ 
-                          fontSize: '0.75rem', 
-                          fontWeight: 700, 
-                          color: isUnlocked ? '#10b981' : '#94a3b8',
-                          background: isUnlocked ? '#dcfce7' : '#f1f5f9',
-                          padding: '0.2rem 0.6rem',
-                          borderRadius: '20px'
-                        }}
-                      >
+                      <Badge variant={isUnlocked ? 'success' : 'neutral'}>
                         {isUnlocked ? loc.ready : loc.locked}
-                      </span>
+                      </Badge>
                     </div>
 
                     <h3 style={{ margin: '0 0 0.5rem 0', fontSize: '1.2rem', color: '#1e293b', fontWeight: 800 }}>{gameLoc.title}</h3>
                     <p style={{ margin: 0, fontSize: '0.85rem', color: '#64748b', lineHeight: 1.4 }}>{gameLoc.desc}</p>
                   </div>
 
-                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '1.5rem', paddingTop: '1rem', borderTop: '1px solid #f1f5f9', fontSize: '0.8rem', color: '#94a3b8', fontWeight: 600 }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginTop: '1.5rem', paddingTop: '1rem', borderTop: '1px solid #f1f5f9', fontSize: '0.85rem', color: '#64748b', fontWeight: 600 }}>
                     <span>⏱️ {loc.timeEst} {game.timeEst}</span>
-                    <span style={{ color: '#2b58ff', display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
-                      {isUnlocked ? <>{loc.play} <Play size={12} fill="#2b58ff" /></> : <>🔒 {loc.locked}</>}
-                    </span>
+                    {isUnlocked ? (
+                      <Button variant="primary" size="sm" iconRight={<Play size={14} />} tabIndex={-1} aria-hidden="true">
+                        {loc.play}
+                      </Button>
+                    ) : (
+                      <span style={{ color: '#94a3b8', display: 'flex', alignItems: 'center', gap: '0.2rem' }}>
+                        🔒 {loc.locked}
+                      </span>
+                    )}
                   </div>
                 </div>
               );

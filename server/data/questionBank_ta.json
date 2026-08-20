@@ -4,185 +4,663 @@
       {
         "id": 1,
         "type": "MCQ",
-        "text": "மொழிபெயர்க்க: Water",
+        "text": "A-க்குப் பிறகு வரும் எழுத்து எது?",
         "options": [
-          "நீர்",
-          "Fire",
-          "Earth",
-          "Air"
+          "B",
+          "C",
+          "D",
+          "E"
         ],
-        "answer": "நீர்",
-        "feedback": "சரியான பதில்: நீர்"
+        "answer": "B",
+        "feedback": "சரியான பதில் பி"
       },
       {
         "id": 2,
         "type": "MCQ",
-        "text": "மொழிபெயர்க்க: Food",
+        "text": "பழம் என்பது எந்த வார்த்தை?",
         "options": [
-          "உணவு",
-          "Sleep",
-          "Walk",
-          "Run"
+          "Apple",
+          "Chair",
+          "Table",
+          "Book"
         ],
-        "answer": "உணவு",
-        "feedback": "சரியான பதில்: உணவு"
+        "answer": "Apple",
+        "feedback": "சரியான பதில் ஆப்பிள்"
       },
       {
         "id": 3,
         "type": "MCQ",
-        "text": "மொழிபெயர்க்க: Sun",
+        "text": "எந்த வார்த்தை ஒரு விலங்குக்கு பெயரிடுகிறது?",
         "options": [
-          "சூரியன்",
-          "Moon",
-          "Star",
-          "Cloud"
+          "Dog",
+          "Pen",
+          "Cup",
+          "Fan"
         ],
-        "answer": "சூரியன்",
-        "feedback": "சரியான பதில்: சூரியன்"
+        "answer": "Dog",
+        "feedback": "சரியான பதில் நாய்"
       },
       {
         "id": 4,
         "type": "MCQ",
-        "text": "மொழிபெயர்க்க: House",
+        "text": "எந்த எழுத்து உயிரெழுத்து?",
         "options": [
-          "வீடு",
-          "Tree",
-          "Road",
-          "Car"
+          "B",
+          "C",
+          "A",
+          "D"
         ],
-        "answer": "வீடு",
-        "feedback": "சரியான பதில்: வீடு"
+        "answer": "A",
+        "feedback": "சரியான பதில் ஏ"
       },
       {
         "id": 5,
         "type": "MCQ",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: A ___ C",
+        "text": "எந்த வார்த்தைக்கு வாழ்த்து என்று அர்த்தம்?",
         "options": [
-          "B",
-          "D",
-          "E",
-          "F"
+          "Hello",
+          "Sleep",
+          "Eat",
+          "Jump"
         ],
-        "answer": "B",
-        "feedback": "சரியான பதில்: B"
+        "answer": "Hello",
+        "feedback": "சரியான பதில் வணக்கம்"
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "9க்கு பிறகு வரும் எண் எது?",
+        "options": [
+          "8",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "feedback": "சரியான பதில் 10"
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "எந்தப் பொருள் எழுதப் பயன்படுகிறது?",
+        "options": [
+          "Pencil",
+          "Plate",
+          "Spoon",
+          "Bottle"
+        ],
+        "answer": "Pencil",
+        "feedback": "சரியான பதில் பென்சில்"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "நிறம் என்பது எந்த வார்த்தை?",
+        "options": [
+          "Red",
+          "Ball",
+          "Mango",
+          "Bird"
+        ],
+        "answer": "Red",
+        "feedback": "சரியான பதில் சிவப்பு"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "எந்த வாக்கியம் சரியானது?",
+        "options": [
+          "I am happy.",
+          "Happy I am.",
+          "Am I happy.",
+          "Happy am."
+        ],
+        "answer": "I am happy.",
+        "feedback": "நான் மகிழ்ச்சியாக இருக்கிறேன் என்பதே சரியான பதில்."
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "உடல் உறுப்பு எது?",
+        "options": [
+          "Hand",
+          "Chair",
+          "Cup",
+          "Bag"
+        ],
+        "answer": "Hand",
+        "feedback": "சரியான பதில் கை"
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "பெரிய வார்த்தைக்கு எதிரான வார்த்தை எது?",
+        "options": [
+          "Small",
+          "Long",
+          "Fast",
+          "Tall"
+        ],
+        "answer": "Small",
+        "feedback": "சரியான பதில் சிறியது"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "வாரத்தின் ஒரு நாள் எது?",
+        "options": [
+          "Monday",
+          "January",
+          "Morning",
+          "Summer"
+        ],
+        "answer": "Monday",
+        "feedback": "சரியான பதில் திங்கட்கிழமை"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "காய்கறி எது?",
+        "options": [
+          "Carrot",
+          "Mango",
+          "Banana",
+          "Orange"
+        ],
+        "answer": "Carrot",
+        "feedback": "சரியான பதில் கேரட்"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "எந்த விலங்கு \"மியாவ்\" என்று சொல்கிறது?",
+        "options": [
+          "Cat",
+          "Dog",
+          "Cow",
+          "Goat"
+        ],
+        "answer": "Cat",
+        "feedback": "சரியான பதில் பூனை"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "பானம் என்பது எந்த வார்த்தை?",
+        "options": [
+          "Milk",
+          "Rice",
+          "Bread",
+          "Apple"
+        ],
+        "answer": "Milk",
+        "feedback": "சரியான பதில் பால்"
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "ஜிக்கு முன் வரும் எழுத்து எது?",
+        "options": [
+          "F",
+          "E",
+          "H",
+          "I"
+        ],
+        "answer": "F",
+        "feedback": "சரியான பதில் எஃப்"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "எது பறக்கிறது?",
+        "options": [
+          "Bird",
+          "Fish",
+          "Dog",
+          "Cow"
+        ],
+        "answer": "Bird",
+        "feedback": "சரியான பதில் பறவை"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "பள்ளியில் எந்த வார்த்தை பயன்படுத்தப்படுகிறது?",
+        "options": [
+          "Book",
+          "Pillow",
+          "Stove",
+          "Bucket"
+        ],
+        "answer": "Book",
+        "feedback": "சரியான பதில் புத்தகம்"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "எந்த பருவத்தில் வெப்பம் அதிகம்?",
+        "options": [
+          "Summer",
+          "Winter",
+          "Rainy",
+          "Autumn"
+        ],
+        "answer": "Summer",
+        "feedback": "சரியான பதில் கோடைக்காலம்"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "அப் என்பதற்கு எதிரான வார்த்தை எது?",
+        "options": [
+          "Down",
+          "Left",
+          "Right",
+          "Near"
+        ],
+        "answer": "Down",
+        "feedback": "சரியான பதில் கீழே உள்ளது"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "எந்த வாக்கியம் கண்ணியமானது?",
+        "options": [
+          "Thank you.",
+          "Go away.",
+          "Be quiet.",
+          "No."
+        ],
+        "answer": "Thank you.",
+        "feedback": "சரியான பதில் நன்றி."
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "எந்த வடிவத்தில் மூன்று பக்கங்கள் உள்ளன?",
+        "options": [
+          "Triangle",
+          "Square",
+          "Circle",
+          "Rectangle"
+        ],
+        "answer": "Triangle",
+        "feedback": "சரியான பதில் முக்கோணம்"
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "நேரத்தைக் கூற எது பயன்படுகிறது?",
+        "options": [
+          "Clock",
+          "Plate",
+          "Pencil",
+          "Bag"
+        ],
+        "answer": "Clock",
+        "feedback": "சரியான பதில் கடிகாரம்"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "குடும்ப உறுப்பினர் யார்?",
+        "options": [
+          "Mother",
+          "Teacher",
+          "Doctor",
+          "Driver"
+        ],
+        "answer": "Mother",
+        "feedback": "சரியான பதில் அம்மா"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "எந்த வார்த்தை வாக்கியத்தை நிறைவு செய்கிறது? வானம் _____.",
+        "options": [
+          "Blue",
+          "Sweet",
+          "Hot",
+          "Soft"
+        ],
+        "answer": "Blue",
+        "feedback": "சரியான பதில் நீலம்"
       }
     ],
     "Reading": [
       {
         "id": 26,
         "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: எனக்கு ஆப்பிள் பிடிக்கும்.",
-        "word": "எனக்கு ஆப்பிள் பிடிக்கும்."
+        "text": "சத்தமாக வாசிக்கவும்: I am Sam.",
+        "word": "I am Sam."
       },
       {
         "id": 27,
         "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: Hello.",
-        "word": "Hello."
+        "text": "சத்தமாக வாசிக்கவும்: This is a cat.",
+        "word": "This is a cat."
       },
       {
         "id": 28,
         "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: Thank you.",
-        "word": "Thank you."
+        "text": "சத்தமாக வாசிக்கவும்: The sun is hot.",
+        "word": "The sun is hot."
       },
       {
         "id": 29,
         "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: Good boy.",
-        "word": "Good boy."
+        "text": "சத்தமாக வாசிக்கவும்: I like milk.",
+        "word": "I like milk."
       },
       {
         "id": 30,
         "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: Welcome.",
-        "word": "Welcome."
+        "text": "சத்தமாக வாசிக்கவும்: She has a pen.",
+        "word": "She has a pen."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: We play daily.",
+        "word": "We play daily."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The bird can fly.",
+        "word": "The bird can fly."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: My bag is blue.",
+        "word": "My bag is blue."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: He is my friend.",
+        "word": "He is my friend."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Open the door.",
+        "word": "Open the door."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The dog is running.",
+        "word": "The dog is running."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: I wash my hands.",
+        "word": "I wash my hands."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The flowers smell nice.",
+        "word": "The flowers smell nice."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: My school is nearby.",
+        "word": "My school is nearby."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: We drink clean water.",
+        "word": "We drink clean water."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The moon shines at night.",
+        "word": "The moon shines at night."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Please close the window.",
+        "word": "Please close the window."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Children are playing happily.",
+        "word": "Children are playing happily."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The farmer grows vegetables.",
+        "word": "The farmer grows vegetables."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: I enjoy reading books.",
+        "word": "I enjoy reading books."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: My family eats dinner together.",
+        "word": "My family eats dinner together."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Always speak with kindness.",
+        "word": "Always speak with kindness."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Practice makes us better.",
+        "word": "Practice makes us better."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Every day is a new beginning.",
+        "word": "Every day is a new beginning."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Learning opens many opportunities.",
+        "word": "Learning opens many opportunities."
       }
     ],
     "Writing": [
       {
         "id": 51,
         "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: அவள் ஒரு புத்தகம் படிக்கிறாள்.",
-        "answer": "She is reading a book.",
-        "feedback": "சரியான மொழிபெயர்ப்பு: She is reading a book."
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: ஆப்பிள்",
+        "answer": "Apple",
+        "feedback": "சொற்றொடர்: Apple"
       },
       {
         "id": 52,
         "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: Namaste / Vanakkam / Hello",
-        "answer": "Hello",
-        "feedback": "சரியான மொழிபெயர்ப்பு: Hello"
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: காலை வணக்கம்",
+        "answer": "Good morning",
+        "feedback": "சொற்றொடர்: Good morning"
       },
       {
         "id": 53,
         "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: Yes",
-        "answer": "Yes",
-        "feedback": "சரியான மொழிபெயர்ப்பு: Yes"
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: நன்றி",
+        "answer": "Thank you",
+        "feedback": "சொற்றொடர்: Thank you"
       },
       {
         "id": 54,
         "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: No",
-        "answer": "No",
-        "feedback": "சரியான மொழிபெயர்ப்பு: No"
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: என் புத்தகம்",
+        "answer": "My book",
+        "feedback": "சொற்றொடர்: My book"
       },
       {
         "id": 55,
         "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: Water",
-        "answer": "Water",
-        "feedback": "சரியான மொழிபெயர்ப்பு: Water"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 76,
-        "type": "Listening",
-        "audioText": "காலை வணக்கம்",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "Good morning",
-        "feedback": "சரியான பதில்: Good morning"
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: நீல வானம்",
+        "answer": "Blue sky",
+        "feedback": "சொற்றொடர்: Blue sky"
       },
       {
-        "id": 77,
-        "type": "Listening",
-        "audioText": "Thank you",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "Thank you",
-        "feedback": "சரியான பதில்: Thank you"
+        "id": 56,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: சிவப்பு பந்து",
+        "answer": "Red ball",
+        "feedback": "சொற்றொடர்: Red ball"
       },
       {
-        "id": 78,
-        "type": "Listening",
-        "audioText": "Welcome",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "Welcome",
-        "feedback": "சரியான பதில்: Welcome"
+        "id": 57,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: பச்சை மரம்",
+        "answer": "Green tree",
+        "feedback": "சொற்றொடர்: Green tree"
       },
       {
-        "id": 79,
-        "type": "Listening",
-        "audioText": "Yes",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "Yes",
-        "feedback": "சரியான பதில்: Yes"
+        "id": 58,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: தண்ணீர் குடிக்கவும்",
+        "answer": "Drink water",
+        "feedback": "சொற்றொடர்: Drink water"
       },
       {
-        "id": 80,
-        "type": "Listening",
-        "audioText": "No",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "No",
-        "feedback": "சரியான பதில்: No"
+        "id": 59,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: திறந்த கதவு",
+        "answer": "Open door",
+        "feedback": "சொற்றொடர்: Open door"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: சாளரத்தை மூடு",
+        "answer": "Close window",
+        "feedback": "சொற்றொடர்: Close window"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: மகிழ்ச்சியான குழந்தை",
+        "answer": "Happy child",
+        "feedback": "சொற்றொடர்: Happy child"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: வேகமான கார்",
+        "answer": "Fast car",
+        "feedback": "சொற்றொடர்: Fast car"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: சிறிய பூனை",
+        "answer": "Small cat",
+        "feedback": "சொற்றொடர்: Small cat"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: பெரிய வீடு",
+        "answer": "Big house",
+        "feedback": "சொற்றொடர்: Big house"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: மஞ்சள் பூ",
+        "answer": "Yellow flower",
+        "feedback": "சொற்றொடர்: Yellow flower"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: புத்தகம் படியுங்கள்",
+        "answer": "Read book",
+        "feedback": "சொற்றொடர்: Read book"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: சுத்தமான கைகள்",
+        "answer": "Clean hands",
+        "feedback": "சொற்றொடர்: Clean hands"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: உணவு உண்ணுங்கள்",
+        "answer": "Eat food",
+        "feedback": "சொற்றொடர்: Eat food"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: நல்ல நாள்",
+        "answer": "Nice day",
+        "feedback": "சொற்றொடர்: Nice day"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: வீட்டுக்கு போ",
+        "answer": "Go home",
+        "feedback": "சொற்றொடர்: Go home"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: நல்ல நண்பர்",
+        "answer": "Good friend",
+        "feedback": "சொற்றொடர்: Good friend"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: என் பள்ளி",
+        "answer": "My school",
+        "feedback": "சொற்றொடர்: My school"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: இனிப்பு மாம்பழம்",
+        "answer": "Sweet mango",
+        "feedback": "சொற்றொடர்: Sweet mango"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: மகிழ்ச்சியான கற்றல்",
+        "answer": "Happy learning",
+        "feedback": "சொற்றொடர்: Happy learning"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: நன்றாக முடிந்தது",
+        "answer": "Well done",
+        "feedback": "சொற்றொடர்: Well done"
       }
     ],
     "Grammar": [
       {
-        "id": 101,
+        "id": 76,
         "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: I ___ a student.",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: I ___ a student.",
         "options": [
           "am",
           "is",
@@ -193,12 +671,12 @@
         "feedback": "சரியான பதில்: am"
       },
       {
-        "id": 102,
+        "id": 77,
         "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: He ___ a boy.",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: She ___ happy.",
         "options": [
-          "is",
           "am",
+          "is",
           "are",
           "be"
         ],
@@ -206,12 +684,90 @@
         "feedback": "சரியான பதில்: is"
       },
       {
-        "id": 103,
+        "id": 78,
         "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: They ___ playing.",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: They ___ playing.",
         "options": [
+          "am",
+          "is",
+          "are",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "சரியான பதில்: are"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: This is ___ apple.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "சரியான பதில்: an"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: I have ___ book.",
+        "options": [
+          "an",
+          "a",
+          "the",
+          "no article"
+        ],
+        "answer": "a",
+        "feedback": "சரியான பதில்: a"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: ___ sun rises in the east.",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "No article"
+        ],
+        "answer": "The",
+        "feedback": "சரியான பதில்: The"
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: We ___ friends.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "are",
+        "feedback": "சரியான பதில்: are"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: He ___ my brother.",
+        "options": [
+          "am",
           "are",
           "is",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "சரியான பதில்: is"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: The birds ___ flying.",
+        "options": [
+          "is",
+          "are",
           "am",
           "was"
         ],
@@ -219,739 +775,3163 @@
         "feedback": "சரியான பதில்: are"
       },
       {
-        "id": 104,
+        "id": 85,
         "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: She ___ reading.",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: She has two ___.",
         "options": [
+          "book",
+          "books",
+          "bookes",
+          "bookses"
+        ],
+        "answer": "books",
+        "feedback": "சரியான பதில்: books"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: I eat ___ banana every day.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "a",
+        "feedback": "சரியான பதில்: a"
+      },
+      {
+        "id": 87,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Ravi ___ a doctor.",
+        "options": [
+          "are",
           "is",
           "am",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "சரியான பதில்: is"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: We ___ to school.",
+        "options": [
+          "goes",
+          "go",
+          "going",
+          "gone"
+        ],
+        "answer": "go",
+        "feedback": "சரியான பதில்: go"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: She ___ water.",
+        "options": [
+          "drink",
+          "drinks",
+          "drinking",
+          "drank"
+        ],
+        "answer": "drinks",
+        "feedback": "சரியான பதில்: drinks"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: They ___ football.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "answer": "play",
+        "feedback": "சரியான பதில்: play"
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: This ___ my bag.",
+        "options": [
           "are",
+          "is",
+          "am",
           "be"
         ],
         "answer": "is",
         "feedback": "சரியான பதில்: is"
       },
       {
-        "id": 105,
+        "id": 92,
         "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: We ___ happy.",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: I ___ my homework.",
         "options": [
-          "are",
-          "is",
-          "am",
-          "be"
+          "do",
+          "does",
+          "dids",
+          "doing"
         ],
-        "answer": "are",
-        "feedback": "சரியான பதில்: are"
+        "answer": "do",
+        "feedback": "சரியான பதில்: do"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: He ___ his homework.",
+        "options": [
+          "do",
+          "does",
+          "doing",
+          "done"
+        ],
+        "answer": "does",
+        "feedback": "சரியான பதில்: does"
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: We have three ___.",
+        "options": [
+          "pen",
+          "pens",
+          "penes",
+          "penc"
+        ],
+        "answer": "pens",
+        "feedback": "சரியான பதில்: pens"
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: The child ___ smiling.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "சரியான பதில்: is"
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: ___ is my teacher.",
+        "options": [
+          "He",
+          "Him",
+          "His",
+          "Himself"
+        ],
+        "answer": "He",
+        "feedback": "சரியான பதில்: He"
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: This is ___ pencil.",
+        "options": [
+          "my",
+          "me",
+          "I",
+          "mine"
+        ],
+        "answer": "my",
+        "feedback": "சரியான பதில்: my"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: They live ___ India.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "from"
+        ],
+        "answer": "in",
+        "feedback": "சரியான பதில்: in"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: The cat is ___ the table.",
+        "options": [
+          "on",
+          "in",
+          "under",
+          "from"
+        ],
+        "answer": "on",
+        "feedback": "சரியான பதில்: on"
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: We ___ English every day.",
+        "options": [
+          "learns",
+          "learn",
+          "learning",
+          "learned"
+        ],
+        "answer": "learn",
+        "feedback": "சரியான பதில்: learn"
       }
     ],
     "Puzzle": [
       {
-        "id": 126,
+        "id": 101,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "dog",
-          "The",
-          "barks"
+        "text": "எந்த வார்த்தை வித்தியாசமானது?",
+        "options": [
+          "Apple",
+          "Mango",
+          "Banana",
+          "Chair"
         ],
-        "answer": "The dog barks",
-        "feedback": "சரியான பதில்: The dog barks"
+        "answer": "Chair",
+        "feedback": "சரியான பதில்: Chair"
       },
       {
-        "id": 127,
+        "id": 102,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "boy",
-          "is",
-          "He",
-          "a"
+        "text": "வடிவத்தை முடிக்கவும்: A, B, C, __",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "G"
         ],
-        "answer": "He is a boy",
-        "feedback": "சரியான பதில்: He is a boy"
+        "answer": "D",
+        "feedback": "சரியான பதில்: D"
       },
       {
-        "id": 128,
+        "id": 103,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "playing",
-          "are",
-          "They"
+        "text": "அடுத்து வரும் எண் எது? 2, 4, 6, 8, __",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
         ],
-        "answer": "They are playing",
-        "feedback": "சரியான பதில்: They are playing"
+        "answer": "10",
+        "feedback": "சரியான பதில்: 10"
       },
       {
-        "id": 129,
+        "id": 104,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "reading",
-          "She",
-          "is"
+        "text": "எது பழம் அல்ல?",
+        "options": [
+          "Orange",
+          "Apple",
+          "Potato",
+          "Mango"
         ],
-        "answer": "She is reading",
-        "feedback": "சரியான பதில்: She is reading"
+        "answer": "Potato",
+        "feedback": "சரியான பதில்: Potato"
       },
       {
-        "id": 130,
+        "id": 105,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "happy",
-          "We",
-          "are"
+        "text": "ஒற்றைப்படை ஒன்றைக் கண்டுபிடி.",
+        "options": [
+          "Cat",
+          "Dog",
+          "Cow",
+          "Table"
         ],
-        "answer": "We are happy",
-        "feedback": "சரியான பதில்: We are happy"
+        "answer": "Table",
+        "feedback": "சரியான பதில்: Table"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "எந்த வடிவத்தில் மூலைகள் இல்லை?",
+        "options": [
+          "Square",
+          "Rectangle",
+          "Circle",
+          "Triangle"
+        ],
+        "answer": "Circle",
+        "feedback": "சரியான பதில்: Circle"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "எது முதலில் வரும்?",
+        "options": [
+          "Evening",
+          "Morning",
+          "Night",
+          "Midnight"
+        ],
+        "answer": "Morning",
+        "feedback": "சரியான பதில்: Morning"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "வார்த்தையை முடிக்கவும்: C_T",
+        "options": [
+          "A",
+          "O",
+          "E",
+          "U"
+        ],
+        "answer": "A",
+        "feedback": "சரியான பதில்: A"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "எது பெரியது?",
+        "options": [
+          "Ant",
+          "Elephant",
+          "Rat",
+          "Cat"
+        ],
+        "answer": "Elephant",
+        "feedback": "சரியான பதில்: Elephant"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "வகுப்பறையில் எது சொந்தமானது?",
+        "options": [
+          "Blackboard",
+          "Pillow",
+          "Stove",
+          "Shower"
+        ],
+        "answer": "Blackboard",
+        "feedback": "சரியான பதில்: Blackboard"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "அடுத்த எழுத்தைக் கண்டறியவும்: M, N, O, __",
+        "options": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ],
+        "answer": "P",
+        "feedback": "சரியான பதில்: P"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "சமையலுக்குப் பயன்படுவது எது?",
+        "options": [
+          "Pan",
+          "Book",
+          "Ball",
+          "Pencil"
+        ],
+        "answer": "Pan",
+        "feedback": "சரியான பதில்: Pan"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "மிகச்சிறிய எண் எது?",
+        "options": [
+          "7",
+          "2",
+          "5",
+          "9"
+        ],
+        "answer": "2",
+        "feedback": "சரியான பதில்: 2"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "தண்ணீரில் வாழும் விலங்கு எது?",
+        "options": [
+          "Lion",
+          "Fish",
+          "Goat",
+          "Horse"
+        ],
+        "answer": "Fish",
+        "feedback": "சரியான பதில்: Fish"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "போக்குவரத்து வாகனம் எது?",
+        "options": [
+          "Bus",
+          "Tree",
+          "Chair",
+          "Fan"
+        ],
+        "answer": "Bus",
+        "feedback": "சரியான பதில்: Bus"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "வரிசையை முடிக்கவும்: 10, 20, 30, __",
+        "options": [
+          "35",
+          "40",
+          "45",
+          "50"
+        ],
+        "answer": "40",
+        "feedback": "சரியான பதில்: 40"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "நேரத்தைக் கூற எது பயன்படுகிறது?",
+        "options": [
+          "Clock",
+          "Spoon",
+          "Plate",
+          "Bottle"
+        ],
+        "answer": "Clock",
+        "feedback": "சரியான பதில்: Clock"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "வெள்ளிக்கிழமைக்குப் பிறகு எது வரும்?",
+        "options": [
+          "Thursday",
+          "Saturday",
+          "Sunday",
+          "Monday"
+        ],
+        "answer": "Saturday",
+        "feedback": "சரியான பதில்: Saturday"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "எந்த வார்த்தையில் அதிக எழுத்துக்கள் உள்ளன?",
+        "options": [
+          "Cat",
+          "Elephant",
+          "Dog",
+          "Cow"
+        ],
+        "answer": "Elephant",
+        "feedback": "சரியான பதில்: Elephant"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "எந்தப் பொருள் ஒளியைக் கொடுக்கிறது?",
+        "options": [
+          "Lamp",
+          "Chair",
+          "Bag",
+          "Shoe"
+        ],
+        "answer": "Lamp",
+        "feedback": "சரியான பதில்: Lamp"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "\"திறந்த\" என்பதற்கு எதிரானது எது?",
+        "options": [
+          "Start",
+          "Close",
+          "Run",
+          "Walk"
+        ],
+        "answer": "Close",
+        "feedback": "சரியான பதில்: Close"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "எந்த எண் இல்லை? 5, 10, __, 20",
+        "options": [
+          "12",
+          "15",
+          "18",
+          "25"
+        ],
+        "answer": "15",
+        "feedback": "சரியான பதில்: 15"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "பறவை எது?",
+        "options": [
+          "Sparrow",
+          "Tiger",
+          "Horse",
+          "Cow"
+        ],
+        "answer": "Sparrow",
+        "feedback": "சரியான பதில்: Sparrow"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "K-க்கு முன் வரும் எழுத்து எது?",
+        "options": [
+          "H",
+          "I",
+          "J",
+          "L"
+        ],
+        "answer": "J",
+        "feedback": "சரியான பதில்: J"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "படிக்கப் பயன்படும் பொருள் எது?",
+        "options": [
+          "Book",
+          "Plate",
+          "Shoe",
+          "Cup"
+        ],
+        "answer": "Book",
+        "feedback": "சரியான பதில்: Book"
       }
     ]
   },
   "Intermediate": {
     "MCQ": [
       {
-        "id": 201,
+        "id": 1,
         "type": "MCQ",
-        "text": "மொழிபெயர்க்க: Beautiful",
+        "text": "சரியான வாக்கியத்தைத் தேர்ந்தெடுங்கள்.",
         "options": [
-          "அழகான",
-          "Ugly",
-          "Fast",
-          "Slow"
+          "She go to school.",
+          "She goes to school.",
+          "She going school.",
+          "She gone school."
         ],
-        "answer": "அழகான",
-        "feedback": "சரியான பதில்: அழகான"
+        "answer": "She goes to school.",
+        "feedback": "அவள் பள்ளிக்குச் செல்கிறாள் என்பதே சரியான பதில்."
       },
       {
-        "id": 202,
+        "id": 2,
         "type": "MCQ",
-        "text": "மொழிபெயர்க்க: Library",
+        "text": "\"மகிழ்ச்சி\" என்பதற்கு எதிரான வார்த்தை எது?",
         "options": [
-          "நூலகம்",
+          "Joyful",
+          "Sad",
+          "Excited",
+          "Bright"
+        ],
+        "answer": "Sad",
+        "feedback": "சரியான பதில் சோகம்"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "வாக்கியத்தை முடிக்கவும்: பறவைகள் _____ வானத்தில்.",
+        "options": [
+          "swim",
+          "fly",
+          "walk",
+          "crawl"
+        ],
+        "answer": "fly",
+        "feedback": "சரியான பதில் ஈ"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "எந்த வார்த்தை வினைச்சொல்?",
+        "options": [
+          "Teacher",
+          "Running",
           "School",
-          "Hospital",
-          "Park"
+          "Table"
         ],
-        "answer": "நூலகம்",
-        "feedback": "சரியான பதில்: நூலகம்"
+        "answer": "Running",
+        "feedback": "சரியான பதில் ஓடுகிறது"
       },
       {
-        "id": 203,
+        "id": 5,
         "type": "MCQ",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: Past tense of 'run' is ___",
+        "text": "எந்த வாக்கியம் சரியானது?",
         "options": [
-          "ran",
-          "runned",
-          "running",
-          "runs"
+          "They is playing.",
+          "They are playing.",
+          "They am playing.",
+          "They be playing."
         ],
-        "answer": "ran",
-        "feedback": "சரியான பதில்: ran"
+        "answer": "They are playing.",
+        "feedback": "அவர்கள் விளையாடுகிறார்கள் என்பதே சரியான பதில்."
       },
       {
-        "id": 204,
+        "id": 6,
         "type": "MCQ",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: Opposite of 'hot' is ___",
+        "text": "விரைவு என்பதற்கு இணையான வார்த்தை எது?",
         "options": [
-          "cold",
-          "warm",
-          "boiling",
-          "freezing"
+          "Slow",
+          "Fast",
+          "Late",
+          "Quiet"
         ],
-        "answer": "cold",
-        "feedback": "சரியான பதில்: cold"
+        "answer": "Fast",
+        "feedback": "சரியான பதில் விரைவானது"
       },
       {
-        "id": 205,
+        "id": 7,
         "type": "MCQ",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: Verb is ___",
+        "text": "சரியான எழுத்துப்பிழையைத் தேர்ந்தெடுக்கவும்.",
         "options": [
-          "Run",
-          "Apple",
-          "Blue",
-          "Quickly"
+          "Beautifull",
+          "Beautiful",
+          "Beautifal",
+          "Beutiful"
         ],
-        "answer": "Run",
-        "feedback": "சரியான பதில்: Run"
-      }
-    ],
-    "Reading": [
-      {
-        "id": 226,
-        "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: நான் ஒரு புதிய மொழியை கற்றுக்கொள்கிறேன்.",
-        "word": "நான் ஒரு புதிய மொழியை கற்றுக்கொள்கிறேன்."
-      },
-      {
-        "id": 227,
-        "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: The quick brown fox.",
-        "word": "The quick brown fox."
-      },
-      {
-        "id": 228,
-        "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: It is raining outside.",
-        "word": "It is raining outside."
-      },
-      {
-        "id": 229,
-        "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: She likes to read books.",
-        "word": "She likes to read books."
-      },
-      {
-        "id": 230,
-        "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: I am learning English.",
-        "word": "I am learning English."
-      }
-    ],
-    "Writing": [
-      {
-        "id": 251,
-        "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: நூலகம் எங்கே இருக்கிறது?",
-        "answer": "Where is the library?",
-        "feedback": "சரியான மொழிபெயர்ப்பு: Where is the library?"
-      },
-      {
-        "id": 252,
-        "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: Beautiful",
         "answer": "Beautiful",
-        "feedback": "சரியான மொழிபெயர்ப்பு: Beautiful"
+        "feedback": "சரியான பதில் அழகு"
       },
       {
-        "id": 253,
-        "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: Important",
-        "answer": "Important",
-        "feedback": "சரியான மொழிபெயர்ப்பு: Important"
-      },
-      {
-        "id": 254,
-        "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: Because",
-        "answer": "Because",
-        "feedback": "சரியான மொழிபெயர்ப்பு: Because"
-      },
-      {
-        "id": 255,
-        "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: Together",
-        "answer": "Together",
-        "feedback": "சரியான மொழிபெயர்ப்பு: Together"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 276,
-        "type": "Listening",
-        "audioText": "நீங்கள் எப்படி இருக்கிறீர்கள்?",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "How are you?",
-        "feedback": "சரியான பதில்: How are you?"
-      },
-      {
-        "id": 277,
-        "type": "Listening",
-        "audioText": "Beautiful",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "Beautiful",
-        "feedback": "சரியான பதில்: Beautiful"
-      },
-      {
-        "id": 278,
-        "type": "Listening",
-        "audioText": "I am fine",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "I am fine",
-        "feedback": "சரியான பதில்: I am fine"
-      },
-      {
-        "id": 279,
-        "type": "Listening",
-        "audioText": "See you later",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "See you later",
-        "feedback": "சரியான பதில்: See you later"
-      },
-      {
-        "id": 280,
-        "type": "Listening",
-        "audioText": "Have a good day",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "Have a good day",
-        "feedback": "சரியான பதில்: Have a good day"
-      }
-    ],
-    "Grammar": [
-      {
-        "id": 301,
-        "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: She ___ to the store yesterday.",
+        "id": 8,
+        "type": "MCQ",
+        "text": "எந்த வாக்கியம் கேள்விக்குறியுடன் முடிகிறது?",
         "options": [
-          "went",
-          "go",
-          "going",
-          "goes"
+          "I like apples.",
+          "Where are you?",
+          "She is happy.",
+          "Open the door."
         ],
-        "answer": "went",
-        "feedback": "சரியான பதில்: went"
+        "answer": "Where are you?",
+        "feedback": "சரியான பதில் நீங்கள் எங்கே?"
       },
       {
-        "id": 302,
-        "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: I have ___ eaten breakfast.",
+        "id": 9,
+        "type": "MCQ",
+        "text": "பெயர்ச்சொல் எது?",
         "options": [
-          "already",
-          "yet",
-          "still",
-          "soon"
+          "Dance",
+          "House",
+          "Quickly",
+          "Happy"
         ],
-        "answer": "already",
-        "feedback": "சரியான பதில்: already"
+        "answer": "House",
+        "feedback": "சரியான பதில் வீடு"
       },
       {
-        "id": 303,
-        "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: He is taller ___ his brother.",
+        "id": 10,
+        "type": "MCQ",
+        "text": "எந்த வாக்கியம் கண்ணியமானது?",
         "options": [
-          "than",
-          "then",
-          "that",
-          "there"
+          "Move away!",
+          "Please help me.",
+          "Give me that.",
+          "Be quiet."
         ],
-        "answer": "than",
-        "feedback": "சரியான பதில்: than"
+        "answer": "Please help me.",
+        "feedback": "சரியான பதில் தயவுசெய்து எனக்கு உதவுங்கள்."
       },
       {
-        "id": 304,
-        "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: They will arrive ___ Monday.",
+        "id": 11,
+        "type": "MCQ",
+        "text": "வாக்கியத்தை முடிக்கவும்: வாழ்க்கைக்கு தண்ணீர் _____.",
+        "options": [
+          "important",
+          "noisy",
+          "expensive",
+          "dirty"
+        ],
+        "answer": "important",
+        "feedback": "சரியான பதில் முக்கியம்"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "எந்த வார்த்தை குழுவிற்கு சொந்தமானது? ரோஜா, லில்லி, தாமரை, _____",
+        "options": [
+          "Mango",
+          "Jasmine",
+          "Potato",
+          "Rice"
+        ],
+        "answer": "Jasmine",
+        "feedback": "சரியான பதில் ஜாஸ்மின்"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "சரியான கட்டுரையைத் தேர்ந்தெடுக்கவும். நான் _____ யானையைப் பார்த்தேன்.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "சரியான பதில் ஒரு"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "பெயர்ச்சொல் எது?",
+        "options": [
+          "Tall",
+          "Walk",
+          "School",
+          "Friend"
+        ],
+        "answer": "Tall",
+        "feedback": "சரியான பதில் உயரமானது"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "கடந்த காலத்தில் எந்த வாக்கியம் உள்ளது?",
+        "options": [
+          "I play football.",
+          "I played football.",
+          "I am playing football.",
+          "I will play football."
+        ],
+        "answer": "I played football.",
+        "feedback": "நான் கால்பந்து விளையாடினேன் என்பதே சரியான பதில்."
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "மருத்துவமனையில் எது பயன்படுத்தப்படுகிறது?",
+        "options": [
+          "Stethoscope",
+          "Hammer",
+          "Spade",
+          "Eraser"
+        ],
+        "answer": "Stethoscope",
+        "feedback": "சரியான பதில் ஸ்டெதாஸ்கோப்"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "எந்த வார்த்தை வாக்கியத்தை நிறைவு செய்கிறது? ரயில் _____ நேரம் வந்தது.",
         "options": [
           "on",
           "in",
           "at",
-          "by"
+          "over"
+        ],
+        "answer": "on",
+        "feedback": "சரியான பதில் இயக்கத்தில் உள்ளது"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "எது சரியான பன்மை?",
+        "options": [
+          "Childs",
+          "Children",
+          "Childes",
+          "Childrens"
+        ],
+        "answer": "Children",
+        "feedback": "சரியான பதில் குழந்தைகள்"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "எந்த வாக்கியத்தில் சரியான பெரிய எழுத்து உள்ளது?",
+        "options": [
+          "india is my country.",
+          "India is my country.",
+          "india Is my country.",
+          "India is My country."
+        ],
+        "answer": "India is my country.",
+        "feedback": "சரியான பதில் இந்தியா என் நாடு."
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "எந்த வார்த்தை விவசாயத்துடன் தொடர்புடையது?",
+        "options": [
+          "Tractor",
+          "Laptop",
+          "Television",
+          "Printer"
+        ],
+        "answer": "Tractor",
+        "feedback": "சரியான பதில் டிராக்டர்"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "சரியான வார்த்தையை தேர்வு செய்யவும். குழந்தை _____ சத்தமாக உள்ளது.",
+        "options": [
+          "cry",
+          "crying",
+          "cried",
+          "cries"
+        ],
+        "answer": "crying",
+        "feedback": "அழுகைதான் சரியான பதில்"
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "எந்த வாக்கியம் மிகவும் அர்த்தமுள்ளதாக இருக்கிறது?",
+        "options": [
+          "The fish climbed a tree.",
+          "The fish swims in water.",
+          "The fish drives a car.",
+          "The fish writes a letter."
+        ],
+        "answer": "The fish swims in water.",
+        "feedback": "மீன் தண்ணீரில் நீந்துகிறது என்பதே சரியான பதில்."
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "வலிமையின் எதிர்ச்சொல் எது?",
+        "options": [
+          "Powerful",
+          "Weak",
+          "Healthy",
+          "Brave"
+        ],
+        "answer": "Weak",
+        "feedback": "சரியான பதில் பலவீனமானது"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "ஆச்சரியமூட்டும் வாக்கியத்தை முடிக்கும் நிறுத்தற்குறி எது?",
+        "options": [
+          ".",
+          ",",
+          "!",
+          "?"
+        ],
+        "answer": "!",
+        "feedback": "சரியான பதில்!"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "வாக்கியத்தை முடிக்கவும். நாம் எப்போதும் _____ உண்மையாக இருக்க வேண்டும்.",
+        "options": [
+          "tell",
+          "hide",
+          "forget",
+          "break"
+        ],
+        "answer": "tell",
+        "feedback": "சரியான பதில் சொல்லுங்கள்"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: My name is Rahul. I enjoy reading books every evening.",
+        "word": "My name is Rahul. I enjoy reading books every evening."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The children are playing football in the school playground.",
+        "word": "The children are playing football in the school playground."
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: My mother prepares healthy food for our family every day.",
+        "word": "My mother prepares healthy food for our family every day."
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The bus arrived on time, so everyone reached school early.",
+        "word": "The bus arrived on time, so everyone reached school early."
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: We should drink clean water to stay healthy and active.",
+        "word": "We should drink clean water to stay healthy and active."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The farmer works hard to grow fresh fruits and vegetables.",
+        "word": "The farmer works hard to grow fresh fruits and vegetables."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Rita helped her grandmother carry groceries from the market.",
+        "word": "Rita helped her grandmother carry groceries from the market."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The weather is pleasant today, so we decided to visit the park.",
+        "word": "The weather is pleasant today, so we decided to visit the park."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: My teacher encourages us to ask questions and learn new things.",
+        "word": "My teacher encourages us to ask questions and learn new things."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Trees provide fresh air, shade, and homes for many birds.",
+        "word": "Trees provide fresh air, shade, and homes for many birds."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Every morning, I wake up early and exercise for thirty minutes.",
+        "word": "Every morning, I wake up early and exercise for thirty minutes."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The doctor advised the patient to eat healthy food and rest well.",
+        "word": "The doctor advised the patient to eat healthy food and rest well."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Our library has many interesting books about science, history, and nature.",
+        "word": "Our library has many interesting books about science, history, and nature."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Always wear a helmet while riding a bicycle to stay safe.",
+        "word": "Always wear a helmet while riding a bicycle to stay safe."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The train was delayed because of heavy rainfall during the night.",
+        "word": "The train was delayed because of heavy rainfall during the night."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Students should complete their homework before watching television.",
+        "word": "Students should complete their homework before watching television."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The shopkeeper greeted every customer with a warm smile.",
+        "word": "The shopkeeper greeted every customer with a warm smile."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Saving electricity helps protect the environment and reduces electricity bills.",
+        "word": "Saving electricity helps protect the environment and reduces electricity bills."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Our school organized a tree plantation drive on Environment Day.",
+        "word": "Our school organized a tree plantation drive on Environment Day."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Honesty and kindness help us build strong friendships with others.",
+        "word": "Honesty and kindness help us build strong friendships with others."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The computer helps us learn, communicate, and solve many problems.",
+        "word": "The computer helps us learn, communicate, and solve many problems."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Reading newspapers every day improves vocabulary and general knowledge.",
+        "word": "Reading newspapers every day improves vocabulary and general knowledge."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Good communication skills help people succeed in school and at work.",
+        "word": "Good communication skills help people succeed in school and at work."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Learning a new language helps us understand different cultures and traditions.",
+        "word": "Learning a new language helps us understand different cultures and traditions."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Regular practice and determination help every learner achieve success.",
+        "word": "Regular practice and determination help every learner achieve success."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: நல்ல மதியம்",
+        "answer": "Good afternoon",
+        "feedback": "சொற்றொடர்: Good afternoon"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: சுத்தமான தண்ணீர்",
+        "answer": "Clean water",
+        "feedback": "சொற்றொடர்: Clean water"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: ஆரோக்கியமான உணவு",
+        "answer": "Healthy food",
+        "feedback": "சொற்றொடர்: Healthy food"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: சாளரத்தைத் திற",
+        "answer": "Open window",
+        "feedback": "சொற்றொடர்: Open window"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: வாயிலை மூடு",
+        "answer": "Close gate",
+        "feedback": "சொற்றொடர்: Close gate"
+      },
+      {
+        "id": 56,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: கவனமாகப் படியுங்கள்",
+        "answer": "Read carefully",
+        "feedback": "சொற்றொடர்: Read carefully"
+      },
+      {
+        "id": 57,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: தெளிவாகப் பேசுங்கள்",
+        "answer": "Speak clearly",
+        "feedback": "சொற்றொடர்: Speak clearly"
+      },
+      {
+        "id": 58,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: ஒன்றாக வேலை செய்யுங்கள்",
+        "answer": "Work together",
+        "feedback": "சொற்றொடர்: Work together"
+      },
+      {
+        "id": 59,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: மின்சாரத்தை சேமிக்கவும்",
+        "answer": "Save electricity",
+        "feedback": "சொற்றொடர்: Save electricity"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: மரங்களை நடவும்",
+        "answer": "Plant trees",
+        "feedback": "சொற்றொடர்: Plant trees"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: மற்றவர்களுக்கு உதவுங்கள்",
+        "answer": "Help others",
+        "feedback": "சொற்றொடர்: Help others"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: விதிகளைப் பின்பற்றவும்",
+        "answer": "Follow rules",
+        "feedback": "சொற்றொடர்: Follow rules"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: சிரித்துக் கொண்டே இரு",
+        "answer": "Keep smiling",
+        "feedback": "சொற்றொடர்: Keep smiling"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: தொடர்ந்து படிக்கவும்",
+        "answer": "Study regularly",
+        "feedback": "சொற்றொடர்: Study regularly"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: நேர்மறையாக சிந்தியுங்கள்",
+        "answer": "Think positively",
+        "feedback": "சொற்றொடர்: Think positively"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: சீக்கிரம் வந்துவிடு",
+        "answer": "Arrive early",
+        "feedback": "சொற்றொடர்: Arrive early"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: காய்கறிகளை கழுவவும்",
+        "answer": "Wash vegetables",
+        "feedback": "சொற்றொடர்: Wash vegetables"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: பெரியவர்களை மதிக்கவும்",
+        "answer": "Respect elders",
+        "feedback": "சொற்றொடர்: Respect elders"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: ஹெல்மெட் பயன்படுத்தவும்",
+        "answer": "Use helmet",
+        "feedback": "சொற்றொடர்: Use helmet"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: கவனத்துடன் இருங்கள்",
+        "answer": "Stay focused",
+        "feedback": "சொற்றொடர்: Stay focused"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: தினமும் கற்றுக்கொள்ளுங்கள்",
+        "answer": "Learn daily",
+        "feedback": "சொற்றொடர்: Learn daily"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: வீட்டுப்பாடத்தை முடிக்கவும்",
+        "answer": "Finish homework",
+        "feedback": "சொற்றொடர்: Finish homework"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: அறிவைப் பகிர்ந்து கொள்ளுங்கள்",
+        "answer": "Share knowledge",
+        "feedback": "சொற்றொடர்: Share knowledge"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: பேசப் பழகுங்கள்",
+        "answer": "Practice speaking",
+        "feedback": "சொற்றொடர்: Practice speaking"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: உங்களை நம்புங்கள்",
+        "answer": "Believe yourself",
+        "feedback": "சொற்றொடர்: Believe yourself"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: She _____ to school every day.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "gone"
+        ],
+        "answer": "goes",
+        "feedback": "சரியான பதில்: goes"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: They _____ football yesterday.",
+        "options": [
+          "play",
+          "played",
+          "plays",
+          "playing"
+        ],
+        "answer": "played",
+        "feedback": "சரியான பதில்: played"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: I _____ my homework every evening.",
+        "options": [
+          "do",
+          "does",
+          "did",
+          "doing"
+        ],
+        "answer": "do",
+        "feedback": "சரியான பதில்: do"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: We _____ going to the market tomorrow.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "சரியான பதில்: are"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Choose the correct article. I saw _____ owl in the tree.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "சரியான பதில்: an"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: The books are _____ the table.",
+        "options": [
+          "in",
+          "on",
+          "under",
+          "between"
         ],
         "answer": "on",
         "feedback": "சரியான பதில்: on"
       },
       {
-        "id": 305,
+        "id": 82,
         "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: She ___ speaking French.",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: My father _____ a car.",
+        "options": [
+          "drive",
+          "drives",
+          "driving",
+          "driven"
+        ],
+        "answer": "drives",
+        "feedback": "சரியான பதில்: drives"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: We _____ lunch at 1 p.m.",
+        "options": [
+          "eat",
+          "eats",
+          "eating",
+          "ate"
+        ],
+        "answer": "eat",
+        "feedback": "சரியான பதில்: eat"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Choose the correct pronoun. Riya is absent. _____ is sick.",
+        "options": [
+          "He",
+          "She",
+          "They",
+          "It"
+        ],
+        "answer": "She",
+        "feedback": "சரியான பதில்: She"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: I _____ a movie last night.",
+        "options": [
+          "watch",
+          "watched",
+          "watches",
+          "watching"
+        ],
+        "answer": "watched",
+        "feedback": "சரியான பதில்: watched"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Which sentence is correct?",
+        "options": [
+          "He don't like tea.",
+          "He doesn't like tea.",
+          "He not like tea.",
+          "He didn't likes tea."
+        ],
+        "answer": "He doesn't like tea.",
+        "feedback": "சரியான பதில்: He doesn't like tea."
+      },
+      {
+        "id": 87,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Choose the correct conjunction. I was tired, _____ I finished my work.",
+        "options": [
+          "but",
+          "or",
+          "because",
+          "if"
+        ],
+        "answer": "but",
+        "feedback": "சரியான பதில்: but"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: They _____ in Jaipur.",
+        "options": [
+          "lives",
+          "live",
+          "living",
+          "lived"
+        ],
+        "answer": "live",
+        "feedback": "சரியான பதில்: live"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: My sister is _____ engineer.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "சரியான பதில்: an"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: We should _____ honest.",
         "options": [
           "is",
-          "am",
+          "be",
           "are",
-          "be"
+          "being"
         ],
-        "answer": "is",
-        "feedback": "சரியான பதில்: is"
+        "answer": "be",
+        "feedback": "சரியான பதில்: be"
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: The children _____ happily in the park.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "answer": "play",
+        "feedback": "சரியான பதில்: play"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Which word correctly completes the sentence? Please sit _____ me.",
+        "options": [
+          "beside",
+          "inside",
+          "above",
+          "behind"
+        ],
+        "answer": "beside",
+        "feedback": "சரியான பதில்: beside"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: She _____ English very well.",
+        "options": [
+          "speak",
+          "speaks",
+          "speaking",
+          "spoken"
+        ],
+        "answer": "speaks",
+        "feedback": "சரியான பதில்: speaks"
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Choose the correct sentence.",
+        "options": [
+          "There are five apples.",
+          "There is five apples.",
+          "There am five apples.",
+          "There be five apples."
+        ],
+        "answer": "There are five apples.",
+        "feedback": "சரியான பதில்: There are five apples."
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: I _____ to visit my grandparents next week.",
+        "options": [
+          "am going",
+          "was going",
+          "going",
+          "goes"
+        ],
+        "answer": "am going",
+        "feedback": "சரியான பதில்: am going"
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Which sentence is in the future tense?",
+        "options": [
+          "I play cricket.",
+          "I played cricket.",
+          "I will play cricket.",
+          "I am played cricket."
+        ],
+        "answer": "I will play cricket.",
+        "feedback": "சரியான பதில்: I will play cricket."
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Fill in the blank. The teacher gave _____ homework.",
+        "options": [
+          "us",
+          "we",
+          "our",
+          "ours"
+        ],
+        "answer": "us",
+        "feedback": "சரியான பதில்: us"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Choose the correct punctuation. _____ are you today?",
+        "options": [
+          "!",
+          ".",
+          "?",
+          ","
+        ],
+        "answer": "?",
+        "feedback": "சரியான பதில்: ?"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Which sentence is grammatically correct?",
+        "options": [
+          "She can sings.",
+          "She can sing.",
+          "She can singing.",
+          "She can sang."
+        ],
+        "answer": "She can sing.",
+        "feedback": "சரியான பதில்: She can sing."
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Complete the sentence. Everyone should _____ the environment.",
+        "options": [
+          "protect",
+          "protects",
+          "protected",
+          "protecting"
+        ],
+        "answer": "protect",
+        "feedback": "சரியான பதில்: protect"
       }
     ],
     "Puzzle": [
       {
-        "id": 326,
+        "id": 101,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "store",
-          "She",
-          "went",
-          "the",
-          "to"
+        "text": "ஒற்றைப்படை ஒன்றைக் கண்டுபிடி.",
+        "options": [
+          "Rose",
+          "Lotus",
+          "Mango",
+          "Lily"
         ],
-        "answer": "She went to the store",
-        "feedback": "சரியான பதில்: She went to the store"
+        "answer": "Mango",
+        "feedback": "சரியான பதில்: Mango"
       },
       {
-        "id": 327,
+        "id": 102,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "brother",
-          "than",
-          "taller",
-          "He",
-          "is",
-          "his"
+        "text": "வரிசையை முடிக்கவும். 5, 10, 15, 20, __",
+        "options": [
+          "22",
+          "25",
+          "30",
+          "35"
         ],
-        "answer": "He is taller than his brother",
-        "feedback": "சரியான பதில்: He is taller than his brother"
+        "answer": "25",
+        "feedback": "சரியான பதில்: 25"
       },
       {
-        "id": 328,
+        "id": 103,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "Monday",
-          "arrive",
-          "on",
-          "They",
-          "will"
+        "text": "எந்த வார்த்தைக்கு சொந்தமில்லை?",
+        "options": [
+          "Doctor",
+          "Nurse",
+          "Teacher",
+          "Banana"
         ],
-        "answer": "They will arrive on Monday",
-        "feedback": "சரியான பதில்: They will arrive on Monday"
+        "answer": "Banana",
+        "feedback": "சரியான பதில்: Banana"
       },
       {
-        "id": 329,
+        "id": 104,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "already",
-          "have",
+        "text": "விடுபட்ட கடிதத்தைக் கண்டறியவும். ஏ, சி, ஈ, ஜி, __",
+        "options": [
+          "H",
           "I",
-          "eaten"
+          "J",
+          "K"
         ],
-        "answer": "I have already eaten",
-        "feedback": "சரியான பதில்: I have already eaten"
+        "answer": "I",
+        "feedback": "சரியான பதில்: I"
       },
       {
-        "id": 330,
+        "id": 105,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "speaking",
-          "is",
-          "She",
-          "French"
+        "text": "இன்று திங்கட்கிழமை என்றால், இரண்டு நாட்களுக்குப் பிறகு எந்த நாள் வரும்?",
+        "options": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
         ],
-        "answer": "She is speaking French",
-        "feedback": "சரியான பதில்: She is speaking French"
+        "answer": "Thursday",
+        "feedback": "சரியான பதில்: Thursday"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "எந்த எண் மிகப்பெரியது?",
+        "options": [
+          "48",
+          "62",
+          "79",
+          "57"
+        ],
+        "answer": "79",
+        "feedback": "சரியான பதில்: 79"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "ஒற்றைப்படை ஒன்றைக் கண்டுபிடி.",
+        "options": [
+          "Bus",
+          "Train",
+          "Bicycle",
+          "Refrigerator"
+        ],
+        "answer": "Refrigerator",
+        "feedback": "சரியான பதில்: Refrigerator"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "வடிவத்தை முடிக்கவும். 2, 6, 10, 14, __",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
+        "answer": "18",
+        "feedback": "சரியான பதில்: 18"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "நேரத்தை அளவிட எந்த பொருள் பயன்படுகிறது?",
+        "options": [
+          "Scale",
+          "Clock",
+          "Thermometer",
+          "Compass"
+        ],
+        "answer": "Clock",
+        "feedback": "சரியான பதில்: Clock"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "எந்த வார்த்தைக்கு ஆரம்பம் என்பதற்கு ஒரே அர்த்தம் உள்ளது?",
+        "options": [
+          "End",
+          "Start",
+          "Stop",
+          "Finish"
+        ],
+        "answer": "Start",
+        "feedback": "சரியான பதில்: Start"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "எழுத்துக்களின் வடிவத்தை முடிக்கவும். Z, X, V, T, __",
+        "options": [
+          "R",
+          "Q",
+          "P",
+          "S"
+        ],
+        "answer": "R",
+        "feedback": "சரியான பதில்: R"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "எது சிறியது?",
+        "options": [
+          "Kilogram",
+          "Gram",
+          "Ton",
+          "Quintal"
+        ],
+        "answer": "Gram",
+        "feedback": "சரியான பதில்: Gram"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "எந்த ஜோடி தொடர்புடையது?",
+        "options": [
+          "Pen : Write",
+          "Chair : Eat",
+          "Book : Drive",
+          "Spoon : Read"
+        ],
+        "answer": "Pen : Write",
+        "feedback": "சரியான பதில்: Pen : Write"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "அடுத்த எண்ணைக் கண்டறியவும். 3, 6, 9, 12, __",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "15",
+        "feedback": "சரியான பதில்: 15"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "முட்டையிடும் விலங்கு எது?",
+        "options": [
+          "Cow",
+          "Hen",
+          "Goat",
+          "Dog"
+        ],
+        "answer": "Hen",
+        "feedback": "சரியான பதில்: Hen"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "ஒற்றைப்படை ஒன்றைக் கண்டுபிடி.",
+        "options": [
+          "January",
+          "March",
+          "Friday",
+          "June"
+        ],
+        "answer": "Friday",
+        "feedback": "சரியான பதில்: Friday"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "எந்த வார்த்தை ஒப்புமையை நிறைவு செய்கிறது? பறவை : கூடு :: தேனீ : _____",
+        "options": [
+          "Hive",
+          "Tree",
+          "River",
+          "House"
+        ],
+        "answer": "Hive",
+        "feedback": "சரியான பதில்: Hive"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "எந்த வடிவத்தில் நான்கு சம பக்கங்கள் உள்ளன?",
+        "options": [
+          "Circle",
+          "Triangle",
+          "Square",
+          "Oval"
+        ],
+        "answer": "Square",
+        "feedback": "சரியான பதில்: Square"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "வரிசையை முடிக்கவும். 100, 90, 80, 70, __",
+        "options": [
+          "65",
+          "60",
+          "55",
+          "50"
+        ],
+        "answer": "60",
+        "feedback": "சரியான பதில்: 60"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "எந்த வார்த்தை வித்தியாசமானது?",
+        "options": [
+          "Apple",
+          "Orange",
+          "Carrot",
+          "Grapes"
+        ],
+        "answer": "Carrot",
+        "feedback": "சரியான பதில்: Carrot"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "ஒரு கடிகாரம் 3:00ஐக் காட்டினால், நிமிடக் கை எங்கே சுட்டிக்காட்டும்?",
+        "options": [
+          "3",
+          "6",
+          "12",
+          "9"
+        ],
+        "answer": "12",
+        "feedback": "சரியான பதில்: 12"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "அடுத்து எது வரும்? சிவப்பு, ஆரஞ்சு, மஞ்சள், __",
+        "options": [
+          "Blue",
+          "Green",
+          "Black",
+          "White"
+        ],
+        "answer": "Green",
+        "feedback": "சரியான பதில்: Green"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "எந்த பொருள் தொடர்புக்கு பயன்படுகிறது?",
+        "options": [
+          "Mobile Phone",
+          "Plate",
+          "Pillow",
+          "Shoe"
+        ],
+        "answer": "Mobile Phone",
+        "feedback": "சரியான பதில்: Mobile Phone"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "விடுபட்ட எண்ணைக் கண்டறியவும். 4, 8, 12, 16, __",
+        "options": [
+          "18",
+          "20",
+          "22",
+          "24"
+        ],
+        "answer": "20",
+        "feedback": "சரியான பதில்: 20"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "எந்த வார்த்தை ஒப்புமையை நிறைவு செய்கிறது? ஆசிரியர் : பள்ளி :: மருத்துவர் : _____",
+        "options": [
+          "Market",
+          "Hospital",
+          "Library",
+          "Office"
+        ],
+        "answer": "Hospital",
+        "feedback": "சரியான பதில்: Hospital"
       }
     ]
   },
   "Advanced": {
     "MCQ": [
       {
-        "id": 401,
+        "id": 1,
         "type": "MCQ",
-        "text": "மொழிபெயர்க்க: Environment",
+        "text": "சரியான இலக்கணத்துடன் வாக்கியத்தைத் தேர்ந்தெடுக்கவும்.",
         "options": [
-          "சுற்றுச்சூழல்",
-          "Economy",
-          "Society",
-          "Politics"
+          "She don't like coffee.",
+          "She doesn't like coffee.",
+          "She not likes coffee.",
+          "She isn't like coffee."
         ],
-        "answer": "சுற்றுச்சூழல்",
-        "feedback": "சரியான பதில்: சுற்றுச்சூழல்"
+        "answer": "She doesn't like coffee.",
+        "feedback": "அவளுக்கு காபி பிடிக்காது என்பதே சரியான பதில்."
       },
       {
-        "id": 402,
+        "id": 2,
         "type": "MCQ",
-        "text": "மொழிபெயர்க்க: Economy",
+        "text": "\"விரைவு\" என்பதற்கு இணையான வார்த்தை எது?",
         "options": [
-          "பொருளாதாரம்",
-          "History",
-          "Math",
-          "Science"
+          "Slow",
+          "Fast",
+          "Weak",
+          "Quiet"
         ],
-        "answer": "பொருளாதாரம்",
-        "feedback": "சரியான பதில்: பொருளாதாரம்"
+        "answer": "Fast",
+        "feedback": "சரியான பதில் விரைவானது"
       },
       {
-        "id": 403,
+        "id": 3,
         "type": "MCQ",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: Synonym for 'meticulous'",
+        "text": "சரியான வாக்கியத்தைத் தேர்ந்தெடுங்கள்.",
         "options": [
-          "careful",
-          "careless",
-          "fast",
-          "slow"
+          "The children was playing.",
+          "The children were playing.",
+          "The children is playing.",
+          "The children am playing."
         ],
-        "answer": "careful",
-        "feedback": "சரியான பதில்: careful"
+        "answer": "The children were playing.",
+        "feedback": "குழந்தைகள் விளையாடிக் கொண்டிருந்தார்கள் என்பதே சரியான பதில்."
       },
       {
-        "id": 404,
+        "id": 4,
         "type": "MCQ",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: Meaning of 'ubiquitous'",
+        "text": "எந்த வார்த்தை வாக்கியத்தை சிறப்பாக நிறைவு செய்கிறது? சோதனையின் போது விஞ்ஞானி ஒரு முக்கியமான _____ செய்தார்.",
         "options": [
-          "everywhere",
-          "nowhere",
-          "rare",
-          "unique"
+          "discovery",
+          "dinner",
+          "journey",
+          "holiday"
         ],
-        "answer": "everywhere",
-        "feedback": "சரியான பதில்: everywhere"
+        "answer": "discovery",
+        "feedback": "சரியான பதில் கண்டுபிடிப்பு"
       },
       {
-        "id": 405,
+        "id": 5,
         "type": "MCQ",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: Adverb is ___",
+        "text": "தாராள மனப்பான்மைக்கு எதிரானது என்ன?",
         "options": [
+          "Kind",
+          "Selfish",
+          "Friendly",
+          "Helpful"
+        ],
+        "answer": "Selfish",
+        "feedback": "சரியான பதில் சுயநலம்"
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "எதிர்காலத்தில் எந்த வாக்கியம் உள்ளது?",
+        "options": [
+          "I completed my work.",
+          "I am completing my work.",
+          "I will complete my work.",
+          "I complete my work."
+        ],
+        "answer": "I will complete my work.",
+        "feedback": "நான் என் வேலையை முடிப்பேன் என்பதே சரியான பதில்."
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "சரியாக எழுதப்பட்ட வார்த்தையைத் தேர்ந்தெடுக்கவும்.",
+        "options": [
+          "Environment",
+          "Enviroment",
+          "Envirnment",
+          "Environmant"
+        ],
+        "answer": "Environment",
+        "feedback": "சரியான பதில் சுற்றுச்சூழல்"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "பெயர்ச்சொல் எது?",
+        "options": [
+          "Beautiful",
+          "Beauty",
+          "Beautify",
+          "Beautifully"
+        ],
+        "answer": "Beautiful",
+        "feedback": "சரியான பதில் அழகு"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "வாக்கியத்தைப் படியுங்கள். ராகுல் கடினமாக படித்ததால் தேர்வில் தேர்ச்சி பெற்றார். ராகுல் ஏன் தேர்ச்சி பெற்றார்?",
+        "options": [
+          "He was lucky.",
+          "He studied hard.",
+          "He copied answers.",
+          "He missed the exam."
+        ],
+        "answer": "He studied hard.",
+        "feedback": "அவர் கடினமாக படித்தார் என்பதே சரியான பதில்."
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "எந்த வாக்கியம் நிறுத்தற்குறிகளை சரியாகப் பயன்படுத்துகிறது?",
+        "options": [
+          "What is your name?",
+          "What is your name.",
+          "What is your name!",
+          "What is your name,"
+        ],
+        "answer": "What is your name?",
+        "feedback": "சரியான பதில் உங்கள் பெயர் என்ன?"
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "\"நேர்மையான\" என்பதன் சரியான பொருளைத் தேர்வுசெய்க.",
+        "options": [
+          "Always tells the truth.",
+          "Speaks loudly.",
+          "Runs quickly.",
+          "Works slowly."
+        ],
+        "answer": "Always tells the truth.",
+        "feedback": "எப்போதும் உண்மையைச் சொல்வதே சரியான பதில்."
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "எந்த வார்த்தை வாக்கியத்தை நிறைவு செய்கிறது? வானிலை மிகவும் _____ ஆக இருந்தது, எல்லோரும் வீட்டிற்குள்ளேயே இருந்தார்கள்.",
+        "options": [
+          "pleasant",
+          "severe",
+          "peaceful",
+          "colorful"
+        ],
+        "answer": "severe",
+        "feedback": "சரியான பதில் கடுமையானது"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "எந்த வாக்கியம் செயலற்ற குரல்?",
+        "options": [
+          "The teacher praised the student.",
+          "The student was praised by the teacher.",
+          "The student praises the teacher.",
+          "The teacher is praising the student."
+        ],
+        "answer": "The student was praised by the teacher.",
+        "feedback": "சரியான பதில் மாணவர் ஆசிரியரால் பாராட்டப்பட்டார்."
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "எந்த வார்த்தை ஒரு இணைப்பு?",
+        "options": [
+          "Because",
           "Quickly",
-          "Quick",
-          "Quicker",
-          "Quickest"
+          "House",
+          "Happy"
         ],
-        "answer": "Quickly",
-        "feedback": "சரியான பதில்: Quickly"
+        "answer": "Because",
+        "feedback": "காரணம் என்பதே சரியான பதில்"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "எந்த வாக்கியம் சரியானது?",
+        "options": [
+          "Everyone have finished.",
+          "Everyone has finished.",
+          "Everyone are finished.",
+          "Everyone were finished."
+        ],
+        "answer": "Everyone has finished.",
+        "feedback": "எல்லோரும் முடித்துவிட்டார்கள் என்பதே சரியான பதில்."
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "உதவி என்பதற்கு எந்த வார்த்தை மிக நெருக்கமானது?",
+        "options": [
+          "Help",
+          "Refuse",
+          "Ignore",
+          "Forget"
+        ],
+        "answer": "Help",
+        "feedback": "சரியான பதில் உதவி"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "வாக்கியத்தை முடிக்கவும். நீங்கள் தொடர்ந்து உடற்பயிற்சி செய்தால், நீங்கள் _____ ஆரோக்கியமாக இருப்பீர்கள்.",
+        "options": [
+          "become",
+          "became",
+          "becoming",
+          "becomes"
+        ],
+        "answer": "become",
+        "feedback": "சரியான பதில் ஆகிவிட்டது"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "எந்த வாக்கியம் ஒரு கேள்வி?",
+        "options": [
+          "Please sit down.",
+          "Where do you live?",
+          "I live in Jaipur.",
+          "Close the door."
+        ],
+        "answer": "Where do you live?",
+        "feedback": "சரியான பதில் நீங்கள் எங்கு வசிக்கிறீர்கள்?"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "சரியான கட்டுரையைத் தேர்ந்தெடுக்கவும். அவர் _____ நேர்மையான மனிதர்.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "சரியான பதில் ஒரு"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "பெயர்ச்சொல் எது?",
+        "options": [
+          "Courage",
+          "Courageous",
+          "Courageously",
+          "Encourage"
+        ],
+        "answer": "Courage",
+        "feedback": "தைரியம் என்பதே சரியான பதில்"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "வாக்கியத்தைப் படியுங்கள். நிறுவனம் ஆண்டு முழுவதும் விடாமுயற்சியுடன் பணியாற்றிய ஊழியர்களுக்கு வெகுமதி அளித்தது. ஊழியர்களுக்கு ஏன் வெகுமதி வழங்கப்பட்டது?",
+        "options": [
+          "They worked diligently.",
+          "They were absent.",
+          "They resigned.",
+          "They arrived late."
+        ],
+        "answer": "They worked diligently.",
+        "feedback": "சரியான பதில் அவர்கள் விடாமுயற்சியுடன் வேலை செய்தார்கள்."
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "இலக்கணப்படி எந்த வாக்கியம் சரியானது?",
+        "options": [
+          "Neither of the boys are present.",
+          "Neither of the boys is present.",
+          "Neither of the boys were present.",
+          "Neither boys is present."
+        ],
+        "answer": "Neither of the boys is present.",
+        "feedback": "சிறுவர்கள் இருவரும் இல்லை என்பதே சரியான பதில்."
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "விரிவாக்கத்தின் எதிர்ச்சொல் எது?",
+        "options": [
+          "Increase",
+          "Extend",
+          "Reduce",
+          "Improve"
+        ],
+        "answer": "Reduce",
+        "feedback": "குறைத்தல் என்பதே சரியான பதில்"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "எந்த வாக்கியம் அறிவுரையை வெளிப்படுத்துகிறது?",
+        "options": [
+          "You should drink enough water.",
+          "I drank enough water.",
+          "Drinking water.",
+          "Water is important."
+        ],
+        "answer": "You should drink enough water.",
+        "feedback": "சரியான பதில் நீங்கள் போதுமான அளவு தண்ணீர் குடிக்க வேண்டும்."
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "வாக்கியத்தை முடிக்கவும். தொடர்ந்து படிப்பது உங்கள் _____ மற்றும் தகவல் தொடர்பு திறன்களை மேம்படுத்துகிறது.",
+        "options": [
+          "vocabulary",
+          "furniture",
+          "journey",
+          "transport"
+        ],
+        "answer": "vocabulary",
+        "feedback": "சரியான பதில் சொல்லகராதி"
       }
     ],
     "Reading": [
       {
-        "id": 426,
+        "id": 26,
         "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: நிலையான வளர்ச்சி நமது எதிர்காலத்திற்கு முக்கியமானது.",
-        "word": "நிலையான வளர்ச்சி நமது எதிர்காலத்திற்கு முக்கியமானது."
+        "text": "சத்தமாக வாசிக்கவும்: Every morning, I wake up early, exercise for thirty minutes, and then prepare for my day with a healthy breakfast.",
+        "word": "Every morning, I wake up early, exercise for thirty minutes, and then prepare for my day with a healthy breakfast."
       },
       {
-        "id": 427,
+        "id": 27,
         "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: The hypothesis was confirmed.",
-        "word": "The hypothesis was confirmed."
+        "text": "சத்தமாக வாசிக்கவும்: Learning a new language improves communication skills, builds confidence, and helps people connect with different cultures.",
+        "word": "Learning a new language improves communication skills, builds confidence, and helps people connect with different cultures."
       },
       {
-        "id": 428,
+        "id": 28,
         "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: Significant progress has been made.",
-        "word": "Significant progress has been made."
+        "text": "சத்தமாக வாசிக்கவும்: Technology has transformed education by providing students with access to digital resources, online courses, and interactive learning experiences.",
+        "word": "Technology has transformed education by providing students with access to digital resources, online courses, and interactive learning experiences."
       },
       {
-        "id": 429,
+        "id": 29,
         "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: The implications are profound.",
-        "word": "The implications are profound."
+        "text": "சத்தமாக வாசிக்கவும்: Regular exercise, a balanced diet, and adequate sleep are essential for maintaining both physical and mental well-being.",
+        "word": "Regular exercise, a balanced diet, and adequate sleep are essential for maintaining both physical and mental well-being."
       },
       {
-        "id": 430,
+        "id": 30,
         "type": "Reading",
-        "text": "சத்தமாக படிக்கவும்: It is undeniably true.",
-        "word": "It is undeniably true."
+        "text": "சத்தமாக வாசிக்கவும்: The librarian encouraged students to borrow books because reading regularly improves vocabulary, imagination, and critical thinking.",
+        "word": "The librarian encouraged students to borrow books because reading regularly improves vocabulary, imagination, and critical thinking."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: During the science exhibition, students confidently explained their innovative projects to teachers, parents, and visitors.",
+        "word": "During the science exhibition, students confidently explained their innovative projects to teachers, parents, and visitors."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The farmer adopted modern agricultural techniques to increase crop production while protecting the environment.",
+        "word": "The farmer adopted modern agricultural techniques to increase crop production while protecting the environment."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Although the weather forecast predicted heavy rain, the event continued because suitable arrangements had already been made.",
+        "word": "Although the weather forecast predicted heavy rain, the event continued because suitable arrangements had already been made."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Good leaders listen carefully, communicate clearly, and inspire others through their actions rather than only their words.",
+        "word": "Good leaders listen carefully, communicate clearly, and inspire others through their actions rather than only their words."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The healthcare team worked tirelessly throughout the night to provide timely treatment and ensure every patient received proper care.",
+        "word": "The healthcare team worked tirelessly throughout the night to provide timely treatment and ensure every patient received proper care."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Environmental conservation requires individuals, communities, and governments to work together toward sustainable development.",
+        "word": "Environmental conservation requires individuals, communities, and governments to work together toward sustainable development."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The museum displayed historical artifacts that helped visitors understand the rich cultural heritage of the country.",
+        "word": "The museum displayed historical artifacts that helped visitors understand the rich cultural heritage of the country."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Reading newspapers and reliable online articles every day helps people stay informed about current events around the world.",
+        "word": "Reading newspapers and reliable online articles every day helps people stay informed about current events around the world."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The software engineer solved a complex programming problem by carefully analyzing each step before writing the solution.",
+        "word": "The software engineer solved a complex programming problem by carefully analyzing each step before writing the solution."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Honesty, discipline, and perseverance are qualities that contribute significantly to long-term personal and professional success.",
+        "word": "Honesty, discipline, and perseverance are qualities that contribute significantly to long-term personal and professional success."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The teacher appreciated students who actively participated in classroom discussions and respected different opinions.",
+        "word": "The teacher appreciated students who actively participated in classroom discussions and respected different opinions."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Artificial intelligence is transforming education by creating personalized learning experiences for students with different abilities.",
+        "word": "Artificial intelligence is transforming education by creating personalized learning experiences for students with different abilities."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Public transportation helps reduce traffic congestion, saves fuel, and lowers environmental pollution in crowded cities.",
+        "word": "Public transportation helps reduce traffic congestion, saves fuel, and lowers environmental pollution in crowded cities."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Effective communication involves not only speaking clearly but also listening carefully and responding thoughtfully.",
+        "word": "Effective communication involves not only speaking clearly but also listening carefully and responding thoughtfully."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: The research team collected accurate data before drawing conclusions and presenting their findings to the audience.",
+        "word": "The research team collected accurate data before drawing conclusions and presenting their findings to the audience."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Volunteering in community service activities teaches responsibility, teamwork, empathy, and leadership skills.",
+        "word": "Volunteering in community service activities teaches responsibility, teamwork, empathy, and leadership skills."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: People who continuously learn new skills are often better prepared to adapt to changing technologies and workplace demands.",
+        "word": "People who continuously learn new skills are often better prepared to adapt to changing technologies and workplace demands."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Financial planning helps families manage expenses, save money for future goals, and prepare for unexpected situations.",
+        "word": "Financial planning helps families manage expenses, save money for future goals, and prepare for unexpected situations."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Despite facing several challenges, the young entrepreneur remained determined and eventually built a successful business.",
+        "word": "Despite facing several challenges, the young entrepreneur remained determined and eventually built a successful business."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "சத்தமாக வாசிக்கவும்: Education empowers individuals to make informed decisions, contribute positively to society, and improve their overall quality of life.",
+        "word": "Education empowers individuals to make informed decisions, contribute positively to society, and improve their overall quality of life."
       }
     ],
     "Writing": [
       {
-        "id": 451,
+        "id": 51,
         "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: பொருளாதாரம் வேகமாக வளர்ந்து வருகிறது.",
-        "answer": "The economy is growing rapidly.",
-        "feedback": "சரியான மொழிபெயர்ப்பு: The economy is growing rapidly."
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: விமர்சன சிந்தனை",
+        "answer": "Critical thinking",
+        "feedback": "சொற்றொடர்: Critical thinking"
       },
       {
-        "id": 452,
+        "id": 52,
         "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: Environment",
-        "answer": "Environment",
-        "feedback": "சரியான மொழிபெயர்ப்பு: Environment"
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: குழு ஆவி",
+        "answer": "Team spirit",
+        "feedback": "சொற்றொடர்: Team spirit"
       },
       {
-        "id": 453,
+        "id": 53,
         "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: Sustainable",
-        "answer": "Sustainable",
-        "feedback": "சரியான மொழிபெயர்ப்பு: Sustainable"
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: டிஜிட்டல் கல்வியறிவு",
+        "answer": "Digital literacy",
+        "feedback": "சொற்றொடர்: Digital literacy"
       },
       {
-        "id": 454,
+        "id": 54,
         "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: Development",
-        "answer": "Development",
-        "feedback": "சரியான மொழிபெயர்ப்பு: Development"
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: நேர மேலாண்மை",
+        "answer": "Time management",
+        "feedback": "சொற்றொடர்: Time management"
       },
       {
-        "id": 455,
+        "id": 55,
         "type": "Writing",
-        "text": "ஆங்கில மொழிபெயர்ப்பை எழுதவும்: Congratulations",
-        "answer": "Congratulations",
-        "feedback": "சரியான மொழிபெயர்ப்பு: Congratulations"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 476,
-        "type": "Listening",
-        "audioText": "உங்கள் வெற்றிக்கு வாழ்த்துக்கள்.",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "Congratulations on your success.",
-        "feedback": "சரியான பதில்: Congratulations on your success."
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: ஆரோக்கியமான வாழ்க்கை முறை",
+        "answer": "Healthy lifestyle",
+        "feedback": "சொற்றொடர்: Healthy lifestyle"
       },
       {
-        "id": 477,
-        "type": "Listening",
-        "audioText": "Environment",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "Environment",
-        "feedback": "சரியான பதில்: Environment"
+        "id": 56,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: காலநிலை மாற்றம்",
+        "answer": "Climate change",
+        "feedback": "சொற்றொடர்: Climate change"
       },
       {
-        "id": 478,
-        "type": "Listening",
-        "audioText": "Sustainable",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "Sustainable",
-        "feedback": "சரியான பதில்: Sustainable"
+        "id": 57,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: நிதி திட்டமிடல்",
+        "answer": "Financial planning",
+        "feedback": "சொற்றொடர்: Financial planning"
       },
       {
-        "id": 479,
-        "type": "Listening",
-        "audioText": "Development",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "Development",
-        "feedback": "சரியான பதில்: Development"
+        "id": 58,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: சிக்கல் தீர்க்கும்",
+        "answer": "Problem solving",
+        "feedback": "சொற்றொடர்: Problem solving"
       },
       {
-        "id": 480,
-        "type": "Listening",
-        "audioText": "Hypothesis",
-        "text": "கேட்டு ஆங்கிலத்தில் எழுதவும்",
-        "answer": "Hypothesis",
-        "feedback": "சரியான பதில்: Hypothesis"
+        "id": 59,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: செயற்கை நுண்ணறிவு",
+        "answer": "Artificial intelligence",
+        "feedback": "சொற்றொடர்: Artificial intelligence"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: நேர்மறையான அணுகுமுறை",
+        "answer": "Positive attitude",
+        "feedback": "சொற்றொடர்: Positive attitude"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: தொழில் வளர்ச்சி",
+        "answer": "Career growth",
+        "feedback": "சொற்றொடர்: Career growth"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: தலைமைத்துவ திறன்கள்",
+        "answer": "Leadership skills",
+        "feedback": "சொற்றொடர்: Leadership skills"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: சமூக சேவை",
+        "answer": "Community service",
+        "feedback": "சொற்றொடர்: Community service"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: பொதுப் பேச்சு",
+        "answer": "Public speaking",
+        "feedback": "சொற்றொடர்: Public speaking"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: உணர்ச்சி நுண்ணறிவு",
+        "answer": "Emotional intelligence",
+        "feedback": "சொற்றொடர்: Emotional intelligence"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: தரவு பகுப்பாய்வு",
+        "answer": "Data analysis",
+        "feedback": "சொற்றொடர்: Data analysis"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: ஆன்லைன் கற்றல்",
+        "answer": "Online learning",
+        "feedback": "சொற்றொடர்: Online learning"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: முடிவெடுத்தல்",
+        "answer": "Decision making",
+        "feedback": "சொற்றொடர்: Decision making"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: சுற்றுச்சூழல் பாதுகாப்பு",
+        "answer": "Environmental protection",
+        "feedback": "சொற்றொடர்: Environmental protection"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: அறிவுப் பகிர்வு",
+        "answer": "Knowledge sharing",
+        "feedback": "சொற்றொடர்: Knowledge sharing"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: சுய ஒழுக்கம்",
+        "answer": "Self discipline",
+        "feedback": "சொற்றொடர்: Self discipline"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: இலக்கு அமைத்தல்",
+        "answer": "Goal setting",
+        "feedback": "சொற்றொடர்: Goal setting"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: படைப்பு மனப்பான்மை",
+        "answer": "Creative mindset",
+        "feedback": "சொற்றொடர்: Creative mindset"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: வாழ்நாள் முழுவதும் கற்றல்",
+        "answer": "Lifelong learning",
+        "feedback": "சொற்றொடர்: Lifelong learning"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "ஆங்கிலத்தில் மொழிபெயர்க்கவும்: தொழில்முறை நெறிமுறைகள்",
+        "answer": "Professional ethics",
+        "feedback": "சொற்றொடர்: Professional ethics"
       }
     ],
     "Grammar": [
       {
-        "id": 501,
+        "id": 76,
         "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: If I ___ known, I would have come.",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: By next year, she _____ her degree.",
         "options": [
-          "had",
-          "have",
-          "has",
-          "did"
+          "completes",
+          "completed",
+          "will complete",
+          "will have completed"
         ],
-        "answer": "had",
-        "feedback": "சரியான பதில்: had"
+        "answer": "will have completed",
+        "feedback": "சரியான பதில்: will have completed"
       },
       {
-        "id": 502,
+        "id": 77,
         "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: By the time we arrived, they ___ left.",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Neither of the students _____ absent today.",
         "options": [
-          "had",
-          "have",
-          "will have",
-          "are"
-        ],
-        "answer": "had",
-        "feedback": "சரியான பதில்: had"
-      },
-      {
-        "id": 503,
-        "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: Not only ___ he late, but he also forgot his book.",
-        "options": [
-          "was",
-          "is",
+          "are",
           "were",
-          "did"
+          "is",
+          "have"
         ],
-        "answer": "was",
-        "feedback": "சரியான பதில்: was"
+        "answer": "is",
+        "feedback": "சரியான பதில்: is"
       },
       {
-        "id": 504,
+        "id": 78,
         "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: I wish I ___ a car.",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: If I _____ enough money, I would buy a laptop.",
         "options": [
-          "had",
           "have",
-          "will have",
-          "am having"
+          "had",
+          "has",
+          "having"
         ],
         "answer": "had",
         "feedback": "சரியான பதில்: had"
       },
       {
-        "id": 505,
+        "id": 79,
         "type": "Grammar",
-        "text": "கோடிட்ட இடத்தை நிரப்புக: She speaks as if she ___ everything.",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: The meeting _____ by the manager yesterday.",
         "options": [
-          "knew",
-          "knows",
-          "know",
-          "knowing"
+          "conducts",
+          "conducted",
+          "was conducted",
+          "is conducting"
         ],
-        "answer": "knew",
-        "feedback": "சரியான பதில்: knew"
+        "answer": "was conducted",
+        "feedback": "சரியான பதில்: was conducted"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: She speaks English _____ than her brother.",
+        "options": [
+          "good",
+          "well",
+          "better",
+          "best"
+        ],
+        "answer": "better",
+        "feedback": "சரியான பதில்: better"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Choose the correct sentence.",
+        "options": [
+          "Everyone have submitted the report.",
+          "Everyone has submitted the report.",
+          "Everyone are submitting the report.",
+          "Everyone were submitting the report."
+        ],
+        "answer": "Everyone has submitted the report.",
+        "feedback": "சரியான பதில்: Everyone has submitted the report."
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: The teacher asked the students _____ quietly.",
+        "options": [
+          "sit",
+          "to sit",
+          "sitting",
+          "sat"
+        ],
+        "answer": "to sit",
+        "feedback": "சரியான பதில்: to sit"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Which sentence is in passive voice?",
+        "options": [
+          "The chef prepared the meal.",
+          "The meal was prepared by the chef.",
+          "The chef is preparing the meal.",
+          "The chef prepares meals."
+        ],
+        "answer": "The meal was prepared by the chef.",
+        "feedback": "சரியான பதில்: The meal was prepared by the chef."
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: If it rains tomorrow, we _____ at home.",
+        "options": [
+          "stayed",
+          "stay",
+          "will stay",
+          "staying"
+        ],
+        "answer": "will stay",
+        "feedback": "சரியான பதில்: will stay"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: The project must _____ before Friday.",
+        "options": [
+          "complete",
+          "be completed",
+          "completed",
+          "completing"
+        ],
+        "answer": "be completed",
+        "feedback": "சரியான பதில்: be completed"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: She has lived here _____ 2010.",
+        "options": [
+          "for",
+          "since",
+          "from",
+          "by"
+        ],
+        "answer": "since",
+        "feedback": "சரியான பதில்:  since"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: I am interested _____ learning new languages.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "with"
+        ],
+        "answer": "in",
+        "feedback": "சரியான பதில்: in"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: He is one of the best players _____ the team.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "over"
+        ],
+        "answer": "in",
+        "feedback": "சரியான பதில்: in"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Which sentence is correct?",
+        "options": [
+          "She enjoys to read.",
+          "She enjoys reading.",
+          "She enjoy reading.",
+          "She enjoyed read."
+        ],
+        "answer": "She enjoys reading.",
+        "feedback": "சரியான பதில்: She enjoys reading."
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: The train had already left before we _____ the station.",
+        "options": [
+          "reach",
+          "reached",
+          "reaches",
+          "reaching"
+        ],
+        "answer": "reached",
+        "feedback": "சரியான பதில்: reached"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Which modal verb expresses advice?",
+        "options": [
+          "Can",
+          "Should",
+          "May",
+          "Must"
+        ],
+        "answer": "Should",
+        "feedback": "சரியான பதில்: Should"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: \"I am busy,\" she said. Choose the correct indirect speech.",
+        "options": [
+          "She said that she was busy.",
+          "She said she is busy.",
+          "She says she was busy.",
+          "She told I am busy."
+        ],
+        "answer": "She said that she was busy.",
+        "feedback": "சரியான பதில்: She said that she was busy."
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: The students _____ preparing for the examination since morning.",
+        "options": [
+          "has been",
+          "have been",
+          "was",
+          "is"
+        ],
+        "answer": "have been",
+        "feedback": "சரியான பதில்: have been"
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Which sentence is grammatically correct?",
+        "options": [
+          "The news are interesting.",
+          "The news is interesting.",
+          "The news were interesting.",
+          "The news have interesting."
+        ],
+        "answer": "The news is interesting.",
+        "feedback": "சரியான பதில்: The news is interesting."
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: We look forward _____ you soon.",
+        "options": [
+          "meet",
+          "meeting",
+          "met",
+          "to meet"
+        ],
+        "answer": "meeting",
+        "feedback": "சரியான பதில்: meeting"
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Which sentence contains a relative pronoun?",
+        "options": [
+          "The boy who won the race is my cousin.",
+          "The boy runs fast.",
+          "The race was exciting.",
+          "My cousin is here."
+        ],
+        "answer": "The boy who won the race is my cousin.",
+        "feedback": "சரியான பதில்: The boy who won the race is my cousin."
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Hardly had the match started _____ it began to rain.",
+        "options": [
+          "when",
+          "than",
+          "then",
+          "while"
+        ],
+        "answer": "when",
+        "feedback": "சரியான பதில்: when"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Which word correctly completes the sentence? The manager spoke _____ during the presentation.",
+        "options": [
+          "confidence",
+          "confidently",
+          "confident",
+          "confidences"
+        ],
+        "answer": "confidently",
+        "feedback": "சரியான பதில்: confidently"
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Choose the correctly punctuated sentence.",
+        "options": [
+          "Yes I agree.",
+          "Yes, I agree.",
+          "Yes I, agree.",
+          "Yes; I agree"
+        ],
+        "answer": "Yes, I agree.",
+        "feedback": "சரியான பதில்: Yes, I agree."
+      },
+      {
+        "id": 101,
+        "type": "Grammar",
+        "text": "கோடிட்ட இடங்களை நிரப்புக: Select the correct sentence.",
+        "options": [
+          "Each of the participants has received a certificate.",
+          "Each of the participants have received a certificate.",
+          "Each participants has received a certificate.",
+          "Each participant have received certificates."
+        ],
+        "answer": "Each of the participants has received a certificate.",
+        "feedback": "சரியான பதில்: Each of the participants has received a certificate."
       }
     ],
     "Puzzle": [
       {
-        "id": 526,
+        "id": 102,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "come",
-          "have",
-          "would",
-          "I",
-          "known",
-          "had",
-          "If",
-          "I"
+        "text": "வரிசையை முடிக்கவும். 3, 6, 12, 24, __",
+        "options": [
+          "36",
+          "42",
+          "48",
+          "54"
         ],
-        "answer": "If I had known I would have come",
-        "feedback": "சரியான பதில்: If I had known I would have come"
+        "answer": "48",
+        "feedback": "சரியான பதில்: 48"
       },
       {
-        "id": 527,
+        "id": 103,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "arrived",
-          "we",
-          "time",
-          "the",
-          "By",
-          "left",
-          "had",
-          "they"
+        "text": "ஒற்றைப்படை ஒன்றைக் கண்டுபிடி.",
+        "options": [
+          "Keyboard",
+          "Monitor",
+          "Printer",
+          "Bicycle"
         ],
-        "answer": "By the time we arrived they had left",
-        "feedback": "சரியான பதில்: By the time we arrived they had left"
+        "answer": "Bicycle",
+        "feedback": "சரியான பதில்: Bicycle"
       },
       {
-        "id": 528,
+        "id": 104,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "late",
-          "he",
-          "was",
-          "only",
-          "Not"
+        "text": "புத்தகம் என்பது வாசிப்புக்கு பேனா என்பது _____.",
+        "options": [
+          "Sleeping",
+          "Writing",
+          "Running",
+          "Cooking"
         ],
-        "answer": "Not only was he late",
-        "feedback": "சரியான பதில்: Not only was he late"
+        "answer": "Writing",
+        "feedback": "சரியான பதில்: Writing"
       },
       {
-        "id": 529,
+        "id": 105,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "car",
-          "a",
-          "had",
-          "I",
-          "wish",
-          "I"
+        "text": "எழுத்துக்களின் வடிவத்தை முடிக்கவும். ஏ, டி, ஜி, ஜே, __",
+        "options": [
+          "K",
+          "L",
+          "M",
+          "N"
         ],
-        "answer": "I wish I had a car",
-        "feedback": "சரியான பதில்: I wish I had a car"
+        "answer": "M",
+        "feedback": "சரியான பதில்: M"
       },
       {
-        "id": 530,
+        "id": 106,
         "type": "Puzzle",
-        "text": "சரியான வரிசையில் அமைக்கவும்",
-        "scrambled": [
-          "everything",
-          "knew",
-          "she",
-          "if",
-          "as",
-          "speaks",
-          "She"
+        "text": "எந்த எண் இல்லை? 5, 10, 20, 40, __",
+        "options": [
+          "50",
+          "60",
+          "70",
+          "80"
         ],
-        "answer": "She speaks as if she knew everything",
-        "feedback": "சரியான பதில்: She speaks as if she knew everything"
+        "answer": "80",
+        "feedback": "சரியான பதில்: 80"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "எந்த வார்த்தை வித்தியாசமானது?",
+        "options": [
+          "Rose",
+          "Lotus",
+          "Tulip",
+          "Banana"
+        ],
+        "answer": "Banana",
+        "feedback": "சரியான பதில்: Banana"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "அனைத்து ரோஜாக்கள் பூக்கள் மற்றும் அனைத்து பூக்கள் தாவரங்கள் என்றால், ஒரு ரோஜா ஒரு _____ ஆகும்.",
+        "options": [
+          "Fruit",
+          "Plant",
+          "Tree",
+          "Vegetable"
+        ],
+        "answer": "Plant",
+        "feedback": "சரியான பதில்: Plant"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "அடுத்த எழுத்தைக் கண்டுபிடி. Z, W, T, Q, __",
+        "options": [
+          "O",
+          "N",
+          "M",
+          "L"
+        ],
+        "answer": "N",
+        "feedback": "சரியான பதில்: N"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "எந்த எண் சேராது?",
+        "options": [
+          "16",
+          "25",
+          "36",
+          "38"
+        ],
+        "answer": "38",
+        "feedback": "சரியான பதில்: 38"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "_____க்கு ஆசிரியர் இருப்பது போல் மருத்துவர் மருத்துவமனைக்குச் செல்கிறார்.",
+        "options": [
+          "Library",
+          "School",
+          "Market",
+          "Office"
+        ],
+        "answer": "School",
+        "feedback": "சரியான பதில்: School"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "வடிவத்தை முடிக்கவும். 2, 5, 10, 17, 26, __",
+        "options": [
+          "35",
+          "37",
+          "39",
+          "41"
+        ],
+        "answer": "37",
+        "feedback": "சரியான பதில்: 37"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "ஒற்றைப்படை ஒன்றைக் கண்டுபிடி.",
+        "options": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Moon"
+        ],
+        "answer": "Moon",
+        "feedback": "சரியான பதில்: Moon"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "எந்த ஜோடி ஒரே உறவைக் கொண்டுள்ளது? கத்தி: வெட்டு",
+        "options": [
+          "Spoon : Drink",
+          "Brush : Paint",
+          "Chair : Sit",
+          "Fan : Air"
+        ],
+        "answer": "Brush : Paint",
+        "feedback": "சரியான பதில்: Brush : Paint"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "எந்த வார்த்தை ஒப்புமையை நிறைவு செய்கிறது? பறவை : ஈ :: மீன் : _____",
+        "options": [
+          "Swim",
+          "Walk",
+          "Jump",
+          "Crawl"
+        ],
+        "answer": "Swim",
+        "feedback": "சரியான பதில்: Swim"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "அடுத்து எது வரும்? திங்கள், புதன், வெள்ளி, _____",
+        "options": [
+          "Saturday",
+          "Sunday",
+          "Tuesday",
+          "Thursday"
+        ],
+        "answer": "Sunday",
+        "feedback": "சரியான பதில்: Sunday"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "எழுத்துக்களை மறுசீரமைக்கவும். LEPAP",
+        "options": [
+          "Apple",
+          "Pepla",
+          "Pleap",
+          "Lapep"
+        ],
+        "answer": "Apple",
+        "feedback": "சரியான பதில்: Apple"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "சிறிய பின்னம் எது?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5"
+        ],
+        "answer": "1/5",
+        "feedback": "சரியான பதில்: 1/5"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "நேற்று செவ்வாய் என்றால் நாளை என்ன நாள்?",
+        "options": [
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "answer": "Thursday",
+        "feedback": "சரியான பதில்: Thursday"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "வரிசையை முடிக்கவும். 100, 95, 90, 85, __",
+        "options": [
+          "75",
+          "80",
+          "82",
+          "78"
+        ],
+        "answer": "80",
+        "feedback": "சரியான பதில்: 80"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "கிலோகிராமில் அளவிடப்படும் பொருள் எது?",
+        "options": [
+          "Milk",
+          "Rice",
+          "Water",
+          "Juice"
+        ],
+        "answer": "Rice",
+        "feedback": "சரியான பதில்: Rice"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "விடுபட்ட எண்ணைக் கண்டறியவும். 7, 14, 21, __, 35",
+        "options": [
+          "24",
+          "28",
+          "30",
+          "32"
+        ],
+        "answer": "28",
+        "feedback": "சரியான பதில்: 28"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "புதுப்பிக்கத்தக்க எரிசக்தி ஆதாரம் எது?",
+        "options": [
+          "Coal",
+          "Petrol",
+          "Solar Energy",
+          "Diesel"
+        ],
+        "answer": "Solar Energy",
+        "feedback": "சரியான பதில்: Solar Energy"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "பழங்காலத்துக்கு மிக நெருக்கமான பொருள் கொண்ட வார்த்தை எது?",
+        "options": [
+          "Modern",
+          "Old",
+          "Young",
+          "Future"
+        ],
+        "answer": "Old",
+        "feedback": "சரியான பதில்: Old"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "எது சரியான வரிசை?",
+        "options": [
+          "Seed -> Tree -> Plant",
+          "Seed -> Plant -> Tree",
+          "Plant -> Seed -> Tree",
+          "Tree -> Seed -> Plant"
+        ],
+        "answer": "Seed -> Plant -> Tree",
+        "feedback": "சரியான பதில்: Seed -> Plant -> Tree"
+      },
+      {
+        "id": 126,
+        "type": "Puzzle",
+        "text": "ஒரு விவசாயியிடம் 10 மாம்பழங்கள் உள்ளன. அவர் தனது நண்பரிடம் 4 கொடுத்து மேலும் 6 வாங்குகிறார். அவரிடம் இப்போது எத்தனை மாம்பழங்கள் உள்ளன?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "14"
+        ],
+        "answer": "12",
+        "feedback": "சரியான பதில்: 12"
       }
     ]
   }

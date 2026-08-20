@@ -1,0 +1,28 @@
+{
+  "words": [
+    {
+      "target": "নমস্কার",
+      "translation": "hello"
+    },
+    {
+      "target": "জল",
+      "translation": "water"
+    },
+    {
+      "target": "বই",
+      "translation": "book"
+    },
+    {
+      "target": "বাড়ি",
+      "translation": "house"
+    },
+    {
+      "target": "খাবার",
+      "translation": "food"
+    },
+    {
+      "target": "আগামীকাল",
+      "translation": "tomorrow"
+    }
+  ]
+}

@@ -81,12 +81,12 @@ const ProgressModal = ({ data, onClose }) => {
             <section className="progress-section">
               <h2 className="section-title"><Award size={20} /> {t('progress_achievements', 'Earned Achievements')}</h2>
               <div className="progress-card">
-                {achievements && achievements.length > 0 ? (
+                {achievements && achievements.filter(ach => ach.unlocked).length > 0 ? (
                   <div className="achievements-grid">
-                    {achievements.map((ach, idx) => (
+                    {achievements.filter(ach => ach.unlocked).map((ach, idx) => (
                       <div key={idx} className="achievement-badge">
                         <span className="badge-icon">{ach.icon}</span>
-                        <span className="badge-label">{ach.label}</span>
+                        <span className="badge-label">{ach.title}</span>
                       </div>
                     ))}
                   </div>

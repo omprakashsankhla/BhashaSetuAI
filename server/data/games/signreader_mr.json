@@ -1,0 +1,114 @@
+{
+  "signs": [
+    {
+      "sign": "प्रवेश निषिद्ध",
+      "type": "danger",
+      "options": [
+        "No Entry",
+        "Hospital Ahead",
+        "One Way",
+        "Speed Limit"
+      ],
+      "answer": "No Entry"
+    },
+    {
+      "sign": "धूम्रपान वर्ज्य",
+      "type": "warning",
+      "options": [
+        "Wet Floor",
+        "No Smoking",
+        "Toxic Danger",
+        "Keep Left"
+      ],
+      "answer": "No Smoking"
+    },
+    {
+      "sign": "धोका",
+      "type": "danger",
+      "options": [
+        "Danger",
+        "Exit",
+        "Restaurant",
+        "Free Parking"
+      ],
+      "answer": "Danger"
+    },
+    {
+      "sign": "शांतता क्षेत्र",
+      "type": "info",
+      "options": [
+        "Construction Zone",
+        "Quiet Zone / Silent Zone",
+        "Speed Breaker",
+        "No Parking"
+      ],
+      "answer": "Quiet Zone / Silent Zone"
+    },
+    {
+      "sign": "कचरा करू नये",
+      "type": "info",
+      "options": [
+        "Keep Left",
+        "No Littering",
+        "Do Not Touch",
+        "Emergency Exit"
+      ],
+      "answer": "No Littering"
+    },
+    {
+      "sign": "थांबा",
+      "type": "danger",
+      "options": [
+        "Stop",
+        "Go",
+        "Yield",
+        "Slow Down"
+      ],
+      "answer": "Stop"
+    },
+    {
+      "sign": "वेग मर्यादा",
+      "type": "info",
+      "options": [
+        "Speed Limit",
+        "No Entry",
+        "Stop",
+        "Hospital"
+      ],
+      "answer": "Speed Limit"
+    },
+    {
+      "sign": "एकेरी मार्ग",
+      "type": "warning",
+      "options": [
+        "One Way",
+        "Two Way",
+        "U-Turn",
+        "Stop"
+      ],
+      "answer": "One Way"
+    },
+    {
+      "sign": "पुढे रुग्णालय आहे",
+      "type": "info",
+      "options": [
+        "Hospital Ahead",
+        "School Ahead",
+        "Market",
+        "Bus Stop"
+      ],
+      "answer": "Hospital Ahead"
+    },
+    {
+      "sign": "पुढे शाळा आहे",
+      "type": "warning",
+      "options": [
+        "School Ahead",
+        "Hospital",
+        "No Entry",
+        "Stop"
+      ],
+      "answer": "School Ahead"
+    }
+  ]
+}

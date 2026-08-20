@@ -3414,15 +3414,7 @@
       {
         "id": 86,
         "type": "Grammar",
-        "text": "She has lived here _____",
-        "options": [],
-        "answer": "",
-        "feedback": "Correct answer is "
-      },
-      {
-        "id": 87,
-        "type": "Grammar",
-        "text": " 8.",
+        "text": "She has lived here _____ 2010.",
         "options": [
           "for",
           "since",

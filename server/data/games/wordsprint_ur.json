@@ -1,0 +1,28 @@
+{
+  "words": [
+    {
+      "target": "سلام",
+      "translation": "hello"
+    },
+    {
+      "target": "پانی",
+      "translation": "water"
+    },
+    {
+      "target": "کتاب",
+      "translation": "book"
+    },
+    {
+      "target": "گھر",
+      "translation": "house"
+    },
+    {
+      "target": "کھانا",
+      "translation": "food"
+    },
+    {
+      "target": "کل",
+      "translation": "tomorrow"
+    }
+  ]
+}

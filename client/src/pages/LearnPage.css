@@ -1,5 +1,5 @@
 .learn-workspace {
-  background: #f8fafc;
+  background: var(--bg-app);
 }
 
 .learn-map-container {
@@ -18,14 +18,14 @@
   display: flex;
   gap: var(--spacing-sm);
   margin-bottom: var(--spacing-2xl);
-  background: var(--surface-color);
+  background: var(--bg-surface);
   padding: var(--spacing-sm);
   border-radius: var(--radius-lg);
   max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: var(--shadow-sm);
-  border: 1px solid #E5E7EB;
+  border: 1px solid var(--border-subtle);
 }
 
 .track-btn {
@@ -36,39 +36,62 @@
   font-weight: 700;
   cursor: pointer;
   background: transparent;
-  color: var(--text-secondary);
+  color: var(--text-muted);
   transition: all 0.2s;
 }
 
 .track-btn.active {
-  background: var(--text-primary);
+  background: var(--text-main);
   color: white;
   box-shadow: var(--shadow-sm);
 }
 
+.track-btn:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
 .track-btn:hover:not(.active) {
-  background: #f1f5f9;
-  color: var(--text-primary);
+  background: var(--bg-app);
+  color: var(--text-main);
+}
+
+/* Custom gradients for track selector buttons */
+.track-btn-beginner.active {
+  background: linear-gradient(135deg, #cd7f32, #b87333);
+  color: white;
+  box-shadow: var(--shadow-sm);
+}
+.track-btn-intermediate.active {
+  background: linear-gradient(135deg, #94a3b8, #64748b);
+  color: white;
+  box-shadow: var(--shadow-sm);
+}
+.track-btn-advanced.active {
+  background: linear-gradient(135deg, #fbbf24, #d97706);
+  color: white;
+  box-shadow: var(--shadow-sm);
 }
 
 .unit-section {
-  background: var(--surface-color);
-  border-radius: var(--radius-lg);
-  padding: var(--spacing-2xl);
-  margin-bottom: var(--spacing-2xl);
+  background: var(--bg-surface);
+  border-radius: var(--radius-2xl);
+  padding: 2.5rem;
+  margin-bottom: 3rem;
   box-shadow: var(--shadow-sm);
-  border: 2px solid transparent;
-  transition: all 0.3s ease;
+  border: 2px solid var(--border-subtle);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .unit-section.current {
-  border-color: var(--primary-color);
-  box-shadow: var(--shadow-md);
+  border-color: var(--color-primary-500);
+  box-shadow: var(--shadow-glow-primary);
 }
 
 .unit-section.locked {
-  opacity: 0.7;
-  background: #f1f5f9;
+  opacity: 0.75;
+  background: var(--bg-app);
+  border-color: var(--border-subtle);
 }
 
 .unit-header {
@@ -76,27 +99,28 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 2rem;
-  border-bottom: 2px dashed #e2e8f0;
+  border-bottom: 2px dashed var(--border-subtle);
   padding-bottom: 1rem;
 }
 
 .unit-header h2 {
   margin: 0;
   font-size: var(--text-2xl);
-  color: var(--text-primary);
+  color: var(--text-main);
   font-weight: 800;
 }
 
 .unit-section.locked .unit-header h2 {
-  color: #64748b;
+  color: var(--text-muted);
 }
 
 .unit-progress {
   font-weight: 600;
-  color: #10b981;
-  background: #d1fae5;
+  color: var(--color-success-500);
+  background: var(--bg-app);
+  border: 1px solid var(--color-success-500);
   padding: 0.4rem 1rem;
-  border-radius: 20px;
+  border-radius: var(--radius-full);
 }
 
 .unit-nodes {
@@ -138,72 +162,91 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+
   z-index: 2;
   cursor: pointer;
   transition: transform 0.2s, box-shadow 0.2s;
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+  box-shadow: var(--shadow-md);
 }
 
 .node-icon:hover {
   transform: scale(1.1);
 }
+.node-icon:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
 
 .lesson-node.completed .node-icon {
-  background: #10b981;
-  border: 4px solid #059669;
+  background: var(--bg-surface);
+  color: var(--color-success-500);
+  border: 3px solid var(--color-success-500);
+  box-shadow: var(--shadow-glow-success);
 }
 
 .lesson-node.active .node-icon {
-  background: var(--primary-color);
-  border: 4px solid var(--primary-light);
+  background: var(--bg-surface);
+  color: var(--color-primary-500);
+  border: 3px solid var(--color-primary-500);
   animation: pulse-ring 2s infinite;
 }
 
 .lesson-node.locked .node-icon {
-  background: #e2e8f0;
-  border: 4px solid #cbd5e1;
+  background: var(--bg-app);
+  color: var(--text-muted);
+  border: 3px solid var(--border-subtle);
   cursor: not-allowed;
 }
-.lesson-node.locked .node-icon:hover {
-  transform: scale(1);
+
+.node-badge {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--bg-surface);
+}
+
+.node-badge.completed {
+  background: var(--color-success-500);
+  color: white;
+}
+
+.node-badge.locked {
+  background: var(--border-subtle);
+  color: white;
+}
+
+.node-badge.active {
+  background: var(--color-primary-500);
+  color: white;
 }
 
 .node-label {
   margin-top: 0.5rem;
   font-weight: 600;
-  color: #334155;
-  background: white;
+  color: var(--text-main);
+  background: var(--bg-surface);
   padding: 0.2rem 0.8rem;
-  border-radius: 12px;
-  border: 1px solid #e2e8f0;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
   font-size: 0.9rem;
   z-index: 2;
 }
 
-/* Path Connection Lines */
-.path-line {
+/* Path Connection Lines SVG */
+.path-svg {
   position: absolute;
   top: 64px; /* below the icon */
-  width: 4px;
+  left: 0;
+  width: 100%;
   height: calc(100% + 1.5rem - 64px);
-  background: #e2e8f0;
   z-index: 1;
-}
-
-.lesson-node.completed .path-line {
-  background: #10b981;
-}
-
-/* We need slightly different path positioning due to the winding */
-.lesson-node:nth-child(even) .path-line {
-  left: calc(20% + 30px);
-}
-.lesson-node:nth-child(odd) .path-line {
-  right: calc(20% + 30px);
-}
-.lesson-node:first-child .path-line {
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 @keyframes pulse-ring {

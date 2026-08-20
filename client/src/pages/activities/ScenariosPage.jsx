@@ -132,7 +132,7 @@ const ScenariosPage = () => {
     let currentLang = 'hi';
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    currentLang = storedUser.preferred_language || 'hi';
+    currentLang = storedUser.learning_language || 'hi';
   } catch (e) {}
   const data = SCENARIOS_LANG_DATA[currentLang] || SCENARIOS_LANG_DATA['hi'];
 

@@ -324,16 +324,19 @@ const ConversationSim = () => {
   let currentLang = 'hi';
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    currentLang = storedUser.preferred_language || 'hi';
+    currentLang = storedUser.learning_language || 'hi';
   } catch (e) {}
 
   useEffect(() => {
     const fetchScenarios = async () => {
       try {
+        const token = localStorage.getItem('token');
         const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-        const targetLang = storedUser.preferred_language || 'hi';
+        const targetLang = storedUser.learning_language || 'hi';
         const interfaceLang = i18n.language || 'en';
-        const res = await fetch(`${API_BASE_URL}/api/activities/conversation-sim?lang=${targetLang}&interfaceLang=${interfaceLang}`);
+        const res = await fetch(`${API_BASE_URL}/api/activities/conversation-sim?lang=${targetLang}&interfaceLang=${interfaceLang}`, {
+          headers: { 'Authorization': `Bearer ${token}` }
+        });
         if (res.ok) {
           const data = await res.json();
           setScenarios(data.items || []);
@@ -345,7 +348,7 @@ const ConversationSim = () => {
       }
     };
     fetchScenarios();
-  }, []);
+  }, [i18n.language]);
 
   const [isRecording, setIsRecording] = useState(false);
   const recognitionRef = useRef(null);

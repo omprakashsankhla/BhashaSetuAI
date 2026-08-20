@@ -1,17 +1,28 @@
 import React from 'react';
 import { X, Megaphone, Clock } from 'lucide-react';
 import './AnnouncementsModal.css';
+import { useFocusTrap } from '../hooks/useFocusTrap';
 
 const AnnouncementsModal = ({ announcements, onClose }) => {
+  const modalRef = useFocusTrap(true, onClose);
+
   return (
     <div className="modal-overlay" onClick={onClose}>
-      <div className="modal-content" onClick={e => e.stopPropagation()} style={{ maxWidth: '500px' }}>
+      <div 
+        className="modal-content" 
+        onClick={e => e.stopPropagation()} 
+        style={{ maxWidth: '500px' }}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="announcements-modal-title"
+        ref={modalRef}
+      >
         <div className="modal-header">
-          <h2 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <h2 id="announcements-modal-title" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <Megaphone size={24} color="#3b82f6" /> 
             Announcements
           </h2>
-          <button className="close-btn" onClick={onClose}><X size={24} /></button>
+          <button className="close-btn" onClick={onClose} aria-label="Close Announcements"><X size={24} /></button>
         </div>
         <div className="modal-body" style={{ maxHeight: '400px', overflowY: 'auto' }}>
           {(!announcements || announcements.length === 0) ? (

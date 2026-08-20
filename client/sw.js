@@ -31,7 +31,7 @@ registerRoute(
 
 // OTHER CACHING STRATEGIES (Carried over from our previous config)
 registerRoute(
-  /\/api\/(profile|dashboard|leaderboard|learning\/progress)/i,
+  /\/api\/(profile|dashboard|leaderboard|learning\/progress|learning\/(\d+|practice))/i,
   new NetworkFirst({
     cacheName: 'dynamic-user-data',
     plugins: [

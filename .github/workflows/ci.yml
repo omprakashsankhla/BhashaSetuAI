@@ -1,0 +1,34 @@
+name: BhashaSetu Enterprise CI/CD Pipeline
+on: [push, pull_request]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      - name: Install Server Dependencies
+        run: cd server && npm install
+
+      - name: Run Server Unit/Integration Tests
+        env:
+          PORT: 5000
+          DB_HOST: 127.0.0.1
+          DB_USER: root
+          DB_PASS: root
+          DB_NAME: bhashasetu_test
+          REDIS_URL: redis://127.0.0.1:6379
+          JWT_SECRET: test_secret_key
+        run: cd server && npm run test -- --forceExit
+
+      - name: Install Client Dependencies
+        run: cd client && npm install
+
+      - name: Run Client Lint & Build Check
+        run: cd client && npm run build

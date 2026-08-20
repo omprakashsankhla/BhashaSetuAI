@@ -60,7 +60,7 @@
     "dash_good_afternoon": "শুভ দুপুর",
     "dash_good_evening": "শুভ সন্ধ্যা",
     "dash_retake_assessment": "অ্যাসেসমেন্ট পুনরায় নিন",
-    "dash_day_streak": "{{count}} দিনের স্ট্রিক",
+    "dash_day_streak": "দিনের স্ট্রিক",
     "dash_rank": "র্যাঙ্ক: {{rank}}",
     "dash_todays_goal": "আজকের লক্ষ্য",
     "dash_ai_recommendation": "AI সুপারিশ",
@@ -229,6 +229,62 @@
     "ach_coins_500_title": "কয়েন সংগ্রাহক",
     "ach_coins_500_desc": "৫০০ ভাষা সেতু কয়েন সংগ্রহ করুন",
     "ach_course_complete_title": "কোর্স স্নাতক",
-    "ach_course_complete_desc": "৩০টি পাঠ সম্পন্ন করুন"
+    "ach_course_complete_desc": "৩০টি পাঠ সম্পন্ন করুন",
+    "practice_lab": {
+      "title": "व्यक्तिगत अभ्यास लैब",
+      "desc": "कमज़ोरियों को सुधारने के लिए विशिष्ट अभ्यासों का चयन करें या मिश्रित अभ्यास सत्र शुरू करें।",
+      "strengthsTitle": "कौशल विश्लेषण (Skill Levels)",
+      "focusArea": "विशेष ध्यान दें",
+      "modes": {
+        "reading": {
+          "title": "पठन अभ्यास (Reading)",
+          "desc": "पढ़ने और समझने की क्षमता में सुधार करें।"
+        },
+        "writing": {
+          "title": "लेखन और व्याकरण (Writing)",
+          "desc": "वाक्य संरचना और अनुवाद का अभ्यास करें।"
+        },
+        "speaking": {
+          "title": "उच्चारण और बोलना (Speaking)",
+          "desc": "बोलने की सटीकता और लय को बढ़ाएं।"
+        },
+        "listening": {
+          "title": "श्रवण अभ्यास (Listening)",
+          "desc": "सुनकर समझने और लिखने का अभ्यास करें।"
+        },
+        "mixed": {
+          "title": "मिश्रित अभ्यास (Personalized Mixed)",
+          "desc": "आपकी कमज़ोरियों पर आधारित विशेष मिश्रित सत्र।"
+        }
+      },
+      "backBtn": "वापस जाएं"
+    },
+    "game_titles": {
+      "balloon-pop": "गुब्बारा पोड़ो",
+      "trace-letters": "वर्ण लेखन",
+      "sound-match": "ध्वनि मिलान",
+      "fruit-catch": "फल पकड़ने वाला",
+      "pic-bingo": "चित्र बींगो",
+      "memory-flip": "स्मृति कार्ड मिलान",
+      "sentence-builder": "वाक्य क्रमबद्धता",
+      "sign-reader": "सड़क संकेत वाचक",
+      "shop-keeper": "बाज़ार दुकानदार",
+      "crossword-clue": "संकेत पहेली",
+      "tense-shift": "काल परिवर्तन मिलान",
+      "dialogue-puzzler": "संवाद पहेली",
+      "word-sprint": "शब्द गति टाइपिंग",
+      "echo-chamber": "ध्वनि प्रतिध्वनि",
+      "text-detective": "व्याकरण जासूस",
+      "speed-editor": "संपादन गति ड्राफ्ट",
+      "debate-builder": "वाद-विवाद तर्क निर्माता",
+      "idiom-connect": "मुहावरा मिलान"
+    },
+    "game_engine": {
+      "wellPlayed": "शानदार खेल!",
+      "syncMsg": "आपका स्कोर और अर्जित सिक्के सिंक हो गए हैं।",
+      "score": "स्कोर",
+      "coins": "अर्जित सिक्के",
+      "backBtn": "खेल हब पर वापस जाएं"
+    }
   }
 }

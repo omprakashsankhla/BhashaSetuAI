@@ -2,31 +2,11 @@ import React, { useState, useEffect } from 'react';
 import { Award, RefreshCw, AlertTriangle, ShieldAlert } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { API_BASE_URL } from '../../config/api';
+import { SIGN_DATA } from '../../data/games/coreGamesData';
 
-const SIGN_DATA = {
-  hi: [
-    { sign: 'प्रवेश निषेध', type: 'danger', options: ['No Entry', 'Hospital Ahead', 'One Way', 'Speed Limit'], answer: 'No Entry' },
-    { sign: 'धूम्रपान वर्जित', type: 'warning', options: ['Wet Floor', 'No Smoking', 'Toxic Danger', 'Keep Left'], answer: 'No Smoking' },
-    { sign: 'खतरा', type: 'danger', options: ['Danger', 'Exit', 'Restaurant', 'Free Parking'], answer: 'Danger' },
-    { sign: 'शांत क्षेत्र', type: 'info', options: ['Construction Zone', 'Quiet Zone / Silent Zone', 'Speed Breaker', 'No Parking'], answer: 'Quiet Zone / Silent Zone' },
-    { sign: 'कृपया कचरा पात्र में डालें', type: 'info', options: ['Keep Left', 'No Littering / Throw Trash in Bin', 'Do Not Touch', 'Emergency Exit'], answer: 'No Littering / Throw Trash in Bin' }
-  ],
-  ur: [
-    { sign: 'داخلہ ممنوع', type: 'danger', options: ['No Entry', 'Hospital Ahead', 'One Way', 'Speed Limit'], answer: 'No Entry' },
-    { sign: 'تمباکو نوشی منع ہے', type: 'warning', options: ['Wet Floor', 'No Smoking', 'Toxic Danger', 'Keep Left'], answer: 'No Smoking' },
-    { sign: 'خطرہ', type: 'danger', options: ['Danger', 'Exit', 'Restaurant', 'Free Parking'], answer: 'Danger' },
-    { sign: 'خاموش علاقہ', type: 'info', options: ['Construction Zone', 'Quiet Zone / Silent Zone', 'Speed Breaker', 'No Parking'], answer: 'Quiet Zone / Silent Zone' },
-    { sign: 'کوڑا دان استعمال کریں', type: 'info', options: ['Keep Left', 'No Littering / Throw Trash in Bin', 'Do Not Touch', 'Emergency Exit'], answer: 'No Littering / Throw Trash in Bin' }
-  ],
-  en: [
-    { sign: 'NO ENTRY', type: 'danger', options: ['No Entry', 'Hospital Ahead', 'One Way', 'Speed Limit'], answer: 'No Entry' },
-    { sign: 'NO SMOKING', type: 'warning', options: ['Wet Floor', 'No Smoking', 'Toxic Danger', 'Keep Left'], answer: 'No Smoking' },
-    { sign: 'DANGER', type: 'danger', options: ['Danger', 'Exit', 'Restaurant', 'Free Parking'], answer: 'Danger' },
-    { sign: 'SILENCE ZONE', type: 'info', options: ['Construction Zone', 'Quiet Zone / Silent Zone', 'Speed Breaker', 'No Parking'], answer: 'Quiet Zone / Silent Zone' }
-  ]
-};
+const getSignData = (lang) => SIGN_DATA[lang] || SIGN_DATA['hi'];
 
-const getSignData = (lang) => SIGN_DATA[lang] || SIGN_DATA['hi'] || SIGN_DATA['en'];
+
 
 const SignReader = ({ onGameComplete }) => {
   const { i18n } = useTranslation();
@@ -41,10 +21,267 @@ const SignReader = ({ onGameComplete }) => {
   const [timeLeft, setTimeLeft] = useState(15); // 15 seconds per sign quiz
   const [gameOver, setGameOver] = useState(false);
 
+  const renderActualSign = (activeSign) => {
+    const answer = activeSign?.answer;
+
+    if (answer === 'No Entry') {
+      return (
+        <div style={{
+          width: '160px',
+          height: '160px',
+          borderRadius: '50%',
+          backgroundColor: '#dc2626',
+          border: '6px solid #ffffff',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          boxShadow: '0 8px 16px rgba(0,0,0,0.15)'
+        }}>
+          <div style={{ width: '100px', height: '22px', backgroundColor: '#ffffff', borderRadius: '4px' }} />
+        </div>
+      );
+    }
+
+    if (answer === 'No Smoking') {
+      return (
+        <div style={{
+          width: '160px',
+          height: '160px',
+          borderRadius: '50%',
+          backgroundColor: '#ffffff',
+          border: '12px solid #dc2626',
+          position: 'relative',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          boxShadow: '0 8px 16px rgba(0,0,0,0.15)'
+        }}>
+          <span style={{ fontSize: '5rem' }}>🚬</span>
+          <div style={{
+            position: 'absolute',
+            width: '120px',
+            height: '10px',
+            backgroundColor: '#dc2626',
+            transform: 'rotate(-45deg)',
+            borderRadius: '4px'
+          }} />
+        </div>
+      );
+    }
+
+    if (answer === 'Danger') {
+      return (
+        <div style={{
+          width: '170px',
+          height: '170px',
+          backgroundColor: '#dc2626',
+          clipPath: 'polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          boxShadow: '0 8px 16px rgba(0,0,0,0.15)',
+          position: 'relative'
+        }}>
+          <div style={{
+            position: 'absolute',
+            top: '6px',
+            left: '6px',
+            right: '6px',
+            bottom: '6px',
+            border: '3px solid #ffffff',
+            clipPath: 'polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)',
+            pointerEvents: 'none'
+          }} />
+          <span style={{ fontSize: '4.5rem', color: '#ffffff', zIndex: 2 }}>💀</span>
+        </div>
+      );
+    }
+
+    if (answer === 'Quiet Zone / Silent Zone') {
+      return (
+        <div style={{
+          width: '160px',
+          height: '160px',
+          borderRadius: '50%',
+          backgroundColor: '#ffffff',
+          border: '12px solid #dc2626',
+          position: 'relative',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          boxShadow: '0 8px 16px rgba(0,0,0,0.15)'
+        }}>
+          <span style={{ fontSize: '4.5rem' }}>📯</span>
+          <div style={{
+            position: 'absolute',
+            width: '120px',
+            height: '10px',
+            backgroundColor: '#dc2626',
+            transform: 'rotate(-45deg)',
+            borderRadius: '4px'
+          }} />
+        </div>
+      );
+    }
+
+    if (answer === 'No Littering') {
+      return (
+        <div style={{
+          width: '160px',
+          height: '160px',
+          borderRadius: '50%',
+          backgroundColor: '#ffffff',
+          border: '12px solid #dc2626',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          boxShadow: '0 8px 16px rgba(0,0,0,0.15)'
+        }}>
+          <span style={{ fontSize: '6rem' }}>🚯</span>
+        </div>
+      );
+    }
+
+    if (answer === 'Stop') {
+      return (
+        <div style={{
+          width: '170px',
+          height: '170px',
+          backgroundColor: '#dc2626',
+          clipPath: 'polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          boxShadow: '0 8px 16px rgba(0,0,0,0.15)',
+          position: 'relative'
+        }}>
+          <div style={{
+            position: 'absolute',
+            top: '6px',
+            left: '6px',
+            right: '6px',
+            bottom: '6px',
+            border: '3px solid #ffffff',
+            clipPath: 'polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%)',
+            pointerEvents: 'none'
+          }} />
+          <span style={{ color: '#ffffff', fontSize: '2.5rem', fontWeight: 900, fontFamily: 'system-ui, sans-serif', zIndex: 2 }}>STOP</span>
+        </div>
+      );
+    }
+
+    if (answer === 'Speed Limit') {
+      return (
+        <div style={{
+          width: '160px',
+          height: '160px',
+          borderRadius: '50%',
+          backgroundColor: '#ffffff',
+          border: '12px solid #dc2626',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          boxShadow: '0 8px 16px rgba(0,0,0,0.15)'
+        }}>
+          <span style={{ color: '#000000', fontSize: '3.2rem', fontWeight: 900, fontFamily: 'system-ui, sans-serif' }}>50</span>
+        </div>
+      );
+    }
+
+    if (answer === 'One Way') {
+      return (
+        <div style={{
+          width: '110px',
+          height: '160px',
+          backgroundColor: '#2563eb',
+          borderRadius: '12px',
+          border: '5px solid #ffffff',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          boxShadow: '0 8px 16px rgba(0,0,0,0.15)'
+        }}>
+          <span style={{ color: '#ffffff', fontSize: '5rem', fontWeight: 900 }}>↑</span>
+        </div>
+      );
+    }
+
+    if (answer === 'Hospital Ahead') {
+      return (
+        <div style={{
+          width: '150px',
+          height: '150px',
+          backgroundColor: '#2563eb',
+          borderRadius: '16px',
+          border: '6px solid #ffffff',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          boxShadow: '0 8px 16px rgba(0,0,0,0.15)'
+        }}>
+          <span style={{ color: '#ffffff', fontSize: '5rem', fontWeight: 900, fontFamily: 'sans-serif' }}>H</span>
+        </div>
+      );
+    }
+
+    if (answer === 'School Ahead') {
+      return (
+        <div style={{
+          width: '150px',
+          height: '150px',
+          backgroundColor: '#f59e0b',
+          transform: 'rotate(45deg)',
+          display: 'flex',
+          justifyContent: 'center',
+          alignItems: 'center',
+          boxShadow: '4px 4px 12px rgba(0,0,0,0.15)',
+          border: '4px solid #1e293b',
+          position: 'relative'
+        }}>
+          <div style={{
+            position: 'absolute',
+            top: '6px',
+            left: '6px',
+            right: '6px',
+            bottom: '6px',
+            border: '2px solid #1e293b',
+            pointerEvents: 'none'
+          }} />
+          <div style={{
+            transform: 'rotate(-45deg)',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
+          }}>
+            <span style={{ fontSize: '5.5rem' }}>🚸</span>
+          </div>
+        </div>
+      );
+    }
+
+    // Default fallback
+    return (
+      <div style={{
+        width: '160px',
+        height: '160px',
+        borderRadius: '16px',
+        backgroundColor: '#2563eb',
+        border: '6px solid #ffffff',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        boxShadow: '0 8px 16px rgba(0,0,0,0.15)'
+      }}>
+        <span style={{ color: '#ffffff', fontSize: '4rem' }}>⚠️</span>
+      </div>
+    );
+  };
+
   const fetchGameData = async () => {
+    let targetLang = 'hi';
     try {
       const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-      const targetLang = storedUser.preferred_language || 'hi';
+      targetLang = storedUser.learning_language || 'hi';
       const interfaceLang = i18n.language || 'en';
       
       const token = localStorage.getItem('token');
@@ -53,15 +290,19 @@ const SignReader = ({ onGameComplete }) => {
       });
       if (res.ok) {
         const data = await res.json();
-        if (data && data.signs) {
+        if (data && data.signs && data.signs.length > 0) {
           setSigns(data.signs);
+          setLoading(false);
+          return;
         }
       }
     } catch (e) {
       console.error('Error fetching signreader data:', e);
-    } finally {
-      setLoading(false);
     }
+    
+    // Fallback to local data if API fails or returns empty results
+    setSigns(getSignData(targetLang));
+    setLoading(false);
   };
 
   useEffect(() => {
@@ -173,34 +414,14 @@ const SignReader = ({ onGameComplete }) => {
           </p>
 
           {/* Graphical Sign Display */}
-          <div 
-            style={{ 
-              background: signBg, 
-              border: `4px solid ${signBorder}`, 
-              borderRadius: '24px', 
-              padding: '2.5rem 1.5rem', 
-              marginBottom: '2rem', 
-              display: 'flex', 
-              flexDirection: 'column', 
-              alignItems: 'center', 
-              gap: '1rem',
-              boxShadow: '0 8px 16px rgba(0,0,0,0.05)'
-            }}
-          >
-            {icon}
-            <h1 
-              style={{ 
-                margin: 0, 
-                color: signText, 
-                fontSize: '2.4rem', 
-                fontWeight: 900, 
-                letterSpacing: '1px',
-                textTransform: 'uppercase',
-                fontFamily: 'system-ui, sans-serif'
-              }}
-            >
-              {activeSign?.sign}
-            </h1>
+          <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            padding: '1.5rem 0',
+            marginBottom: '1.8rem'
+          }}>
+            {renderActualSign(activeSign)}
           </div>
 
           {/* Option Multiple Choices */}

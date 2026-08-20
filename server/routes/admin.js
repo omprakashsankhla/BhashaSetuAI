@@ -1,6 +1,7 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
 const db = require('../db');
+const { logAuditEvent } = require('../services/auditLogger');
 
 const router = express.Router();
 
@@ -52,7 +53,7 @@ router.get('/analytics', verifyAdminToken, async (req, res) => {
     const lessonsCompleted = progressRows[0].count;
 
     // Language Distribution
-    const [langRows] = await db.query("SELECT preferred_language as language, COUNT(*) as count FROM Users WHERE role = 'Student' GROUP BY preferred_language");
+    const [langRows] = await db.query("SELECT learning_language as language, COUNT(*) as count FROM Users WHERE role = 'Student' GROUP BY learning_language");
     
     // Skill averages
     const [skillRows] = await db.query("SELECT type as skill, AVG(score) as avgScore FROM Assessments GROUP BY type");
@@ -109,7 +110,8 @@ router.get('/students', verifyAdminToken, async (req, res) => {
         u.user_id, 
         u.name, 
         u.email, 
-        u.preferred_language,
+        u.interface_language,
+        u.learning_language,
         u.created_at,
         (SELECT COUNT(*) FROM Progress p WHERE p.user_id = u.user_id AND p.status = 'Completed') as lessons_completed,
         (SELECT AVG(score) FROM Assessments a WHERE a.user_id = u.user_id) as avg_score
@@ -143,7 +145,7 @@ router.get('/students', verifyAdminToken, async (req, res) => {
 router.get('/students/:id/details', verifyAdminToken, async (req, res) => {
   try {
     const userId = req.params.id;
-    const [user] = await db.query("SELECT user_id, name, email, preferred_language, proficiency_level, created_at FROM Users WHERE user_id = ?", [userId]);
+    const [user] = await db.query("SELECT user_id, name, email, interface_language, learning_language, proficiency_level, created_at FROM Users WHERE user_id = ?", [userId]);
     if (!user.length) return res.status(404).json({ message: 'Student not found' });
     
     const [completedLessons] = await db.query(`
@@ -173,6 +175,7 @@ router.get('/students/:id/details', verifyAdminToken, async (req, res) => {
 router.delete('/students/:id', verifyAdminToken, async (req, res) => {
   try {
     await db.query("DELETE FROM Users WHERE user_id = ? AND role = 'Student'", [req.params.id]);
+    await logAuditEvent(req.userId, 'DELETE_STUDENT', { studentId: req.params.id }, req.ip);
     res.status(200).json({ message: 'Student deleted successfully' });
   } catch (err) {
     console.error(err);
@@ -183,7 +186,7 @@ router.delete('/students/:id', verifyAdminToken, async (req, res) => {
 const bcrypt = require('bcrypt');
 router.post('/students', verifyAdminToken, async (req, res) => {
   try {
-    const { name, email, password, age, preferred_language, education_level, proficiency_level } = req.body;
+    const { name, email, password, age, preferred_language, interface_language, learning_language, education_level, proficiency_level } = req.body;
     
     // Check if email already exists
     const [existing] = await db.query("SELECT email FROM Users WHERE email = ?", [email]);
@@ -194,11 +197,13 @@ router.post('/students', verifyAdminToken, async (req, res) => {
     const salt = await bcrypt.genSalt(10);
     const hashedPassword = await bcrypt.hash(password, salt);
 
-    await db.query(
-      `INSERT INTO Users (name, email, password_hash, age, preferred_language, education_level, proficiency_level, role) 
-       VALUES (?, ?, ?, ?, ?, ?, ?, 'Student')`,
-      [name, email, hashedPassword, age || null, preferred_language || 'English', education_level || '', proficiency_level || 'Beginner']
+    const [result] = await db.query(
+      `INSERT INTO Users (name, email, password_hash, age, preferred_language, interface_language, learning_language, education_level, proficiency_level, role) 
+       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'Student')`,
+      [name, email, hashedPassword, age || null, interface_language || preferred_language || 'en', interface_language || preferred_language || 'en', learning_language || preferred_language || 'hi', education_level || '', proficiency_level || 'Beginner']
     );
+
+    await logAuditEvent(req.userId, 'ADD_STUDENT', { name, email, studentId: result.insertId }, req.ip);
 
     res.status(201).json({ message: 'Student added successfully' });
   } catch (err) {

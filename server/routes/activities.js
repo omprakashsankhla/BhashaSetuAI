@@ -9,16 +9,7 @@ require('dotenv').config({ override: true });
 
 const router = express.Router();
 
-const verifyToken = (req, res, next) => {
-  const authHeader = req.headers['authorization'];
-  if (!authHeader) return res.status(403).json({ message: 'No token provided.' });
-  const token = authHeader.split(' ')[1];
-  jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
-    if (err) return res.status(401).json({ message: 'Unauthorized!' });
-    req.userId = decoded.user_id;
-    next();
-  });
-};
+const verifyToken = require('../middleware/auth');
 
 // Load all activity data banks
 const loadBank = (filename) => {
@@ -39,33 +30,80 @@ const banks = {
   'article-translation': loadBank('articleTranslationBank.json')
 };
 
-// GET /api/activities/game-data/:game
-// Returns dynamically generated game vocab / dialogues using Gemini
-router.get('/game-data/:game', async (req, res) => {
-  const { game } = req.params;
-  const targetLang = req.query.lang || 'hi';
-  const interfaceLang = req.query.interfaceLang || 'en';
+const languageContext = require('../middleware/languageContext');
 
-  const data = await generateGameData(game, targetLang, interfaceLang);
-  if (!data) {
-    return res.status(500).json({ message: `Failed to generate game data for ${game}` });
+// GET /api/activities/game-data/:game
+// Returns game vocab — first checks a local file, then falls back to AI-generated + cached data
+router.get('/game-data/:game', verifyToken, languageContext, async (req, res) => {
+  const { game } = req.params;
+  const targetLang = req.learningLanguage;
+  const interfaceLang = req.interfaceLanguage;
+
+  // 1. Try loading a pre-built local dataset file first (preserves existing files)
+  const datasetPath = path.join(__dirname, '../data/games', `${game}_${targetLang}.json`);
+  if (fs.existsSync(datasetPath)) {
+    try {
+      const data = JSON.parse(fs.readFileSync(datasetPath, 'utf8'));
+      return res.json(data);
+    } catch (e) {
+      console.warn(`[Game Data] Failed to parse ${datasetPath}:`, e.message);
+    }
   }
 
-  return res.json(data);
+  // 2. Use the cache-aware AI generator from translationHelper
+  try {
+    const data = await generateGameData(game, targetLang, interfaceLang);
+    if (data) {
+      return res.json(data);
+    }
+  } catch (err) {
+    console.error(`[Game Data] generateGameData failed for ${game}/${targetLang}:`, err.message);
+  }
+
+  // 3. Final fallback: English dataset
+  const fallbackPath = path.join(__dirname, '../data/games', `${game}_en.json`);
+  if (fs.existsSync(fallbackPath)) {
+    try {
+      const data = JSON.parse(fs.readFileSync(fallbackPath, 'utf8'));
+      return res.json(data);
+    } catch (e) {
+      console.warn(`[Game Data] Failed to parse English fallback:`, e.message);
+    }
+  }
+
+  return res.status(500).json({ message: `Missing game dataset for ${game}` });
 });
 
 // GET /api/activities/:type
-// Returns data for a specific activity type
-router.get('/:type', async (req, res) => {
+// Returns data for a specific activity type translated and adapted dynamically
+router.get('/:type', verifyToken, languageContext, async (req, res) => {
   const { type } = req.params;
-  const data = banks[type];
+  const targetLang = req.learningLanguage;
+  const interfaceLang = req.interfaceLanguage;
+
+  // Try to load the localized bank if it exists (for backward compatibility / override),
+  // otherwise load the master English bank and translate dynamically.
+  const localizedBankName = `${type}Bank_${targetLang}.json`;
+  let data = loadBank(localizedBankName);
+
+  if (!data || data.length === 0) {
+    data = loadBank(`${type}Bank.json`);
+  }
 
   if (!data || data.length === 0) {
     return res.status(404).json({ message: `No data found for activity type: ${type}` });
   }
 
-  const targetLang = req.query.lang || 'hi';
-  const interfaceLang = req.query.interfaceLang || 'en';
+  // Only translate dynamically if we loaded the default English bank, and target/interface are not both English
+  const isMasterBank = !fs.existsSync(path.join(__dirname, '../data', localizedBankName));
+  if (isMasterBank && (targetLang !== 'en' || interfaceLang !== 'en')) {
+    try {
+      console.log(`[Activities] Translating activity: ${type} to Learning: ${targetLang}, Interface: ${interfaceLang}`);
+      data = await translateOrAdaptContent(data, targetLang, interfaceLang, type);
+    } catch (err) {
+      console.error(`AI Activity Translation failed for ${type}:`, err.message);
+    }
+  }
 
   let items = data;
   if (type === 'picture-match') {
@@ -74,9 +112,7 @@ router.get('/:type', async (req, res) => {
     items = shuffled.slice(0, count);
   }
 
-  const translatedItems = await translateOrAdaptContent(items, targetLang, interfaceLang, type);
-
-  return res.json({ items: translatedItems });
+  return res.json({ items });
 });
 
 // POST /api/activities/chat
@@ -109,7 +145,7 @@ router.post('/chat', verifyToken, async (req, res) => {
     try {
       const prompt = `System instructions: ${systemPrompt}\n\nConversation:\n${messages.map(m => `${m.role}: ${m.content}`).join('\n')}`;
       const geminiRes = await fallbackAi.models.generateContent({
-        model: 'gemini-3.6-flash',
+        model: 'gemini-3.5-flash',
         contents: [{ role: 'user', parts: [{ text: prompt }] }]
       });
       return res.json({ reply: geminiRes.text });

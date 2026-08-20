@@ -143,7 +143,13 @@ const PictureMatch = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch(`${API_BASE_URL}/api/activities/picture-match?count=30`);
+        const token = localStorage.getItem('token');
+        const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
+        const targetLang = storedUser.learning_language || 'hi';
+        const interfaceLang = i18n.language || 'en';
+        const res = await fetch(`${API_BASE_URL}/api/activities/picture-match?count=30&lang=${targetLang}&interfaceLang=${interfaceLang}`, {
+          headers: { 'Authorization': `Bearer ${token}` }
+        });
         if (res.ok) {
           const data = await res.json();
           setAllItems(data.items || []);
@@ -157,7 +163,7 @@ const PictureMatch = () => {
       }
     };
     fetchData();
-  }, []);
+  }, [i18n.language]);
 
   const getEmoji = (item) => {
     const key = item.word_english.toLowerCase();
@@ -169,7 +175,7 @@ const PictureMatch = () => {
       let currentLang = 'hi';
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    currentLang = storedUser.preferred_language || 'hi';
+    currentLang = storedUser.learning_language || 'hi';
   } catch (e) {}
     const key = item.word_english.toLowerCase();
     const langDict = LANG_VOCAB_MAP[currentLang] || LANG_VOCAB_MAP['hi'];

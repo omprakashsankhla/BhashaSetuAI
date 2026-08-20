@@ -30,23 +30,13 @@ const upload = multer({
 });
 
 // Middleware to verify token
-const verifyToken = (req, res, next) => {
-  const authHeader = req.headers['authorization'];
-  if (!authHeader) return res.status(403).json({ message: 'No token provided.' });
-  const token = authHeader.split(' ')[1];
-  
-  jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
-    if (err) return res.status(401).json({ message: 'Unauthorized!' });
-    req.userId = decoded.user_id;
-    next();
-  });
-};
+const verifyToken = require('../middleware/auth');
 
 // GET user profile
 router.get('/', verifyToken, async (req, res) => {
   try {
     const [users] = await db.query(
-      'SELECT name, email, age, preferred_language, education_level, proficiency_level, xp, coins, streak, role, avatar, created_at FROM Users WHERE user_id = ?',
+      'SELECT name, email, age, preferred_language, interface_language, learning_language, education_level, proficiency_level, xp, coins, streak, role, avatar, created_at FROM Users WHERE user_id = ?',
       [req.userId]
     );
 
@@ -64,11 +54,11 @@ router.get('/', verifyToken, async (req, res) => {
 // PUT update user profile (except email)
 router.put('/', verifyToken, async (req, res) => {
   try {
-    const { name, age, preferred_language, education_level, proficiency_level, avatar } = req.body;
+    const { name, age, preferred_language, interface_language, learning_language, education_level, proficiency_level, avatar } = req.body;
 
     // Fetch existing user to preserve values if they are undefined in PUT body
     const [existing] = await db.query(
-      'SELECT name, age, preferred_language, education_level, proficiency_level, avatar FROM Users WHERE user_id = ?',
+      'SELECT name, age, preferred_language, interface_language, learning_language, education_level, proficiency_level, avatar FROM Users WHERE user_id = ?',
       [req.userId]
     );
 
@@ -81,13 +71,15 @@ router.put('/', verifyToken, async (req, res) => {
     const updatedName = name !== undefined ? name : current.name;
     const updatedAge = age !== undefined ? age : current.age;
     const updatedLang = preferred_language !== undefined ? preferred_language : current.preferred_language;
+    const updatedInterface = interface_language !== undefined ? interface_language : current.interface_language;
+    const updatedLearning = learning_language !== undefined ? learning_language : current.learning_language;
     const updatedEdu = education_level !== undefined ? education_level : current.education_level;
     const updatedProf = proficiency_level !== undefined ? proficiency_level : current.proficiency_level;
     const updatedAvatar = avatar !== undefined ? avatar : current.avatar;
 
     const query = `
       UPDATE Users 
-      SET name = ?, age = ?, preferred_language = ?, education_level = ?, proficiency_level = ?, avatar = ?
+      SET name = ?, age = ?, preferred_language = ?, interface_language = ?, learning_language = ?, education_level = ?, proficiency_level = ?, avatar = ?
       WHERE user_id = ?
     `;
 
@@ -95,6 +87,8 @@ router.put('/', verifyToken, async (req, res) => {
       updatedName,
       updatedAge,
       updatedLang,
+      updatedInterface,
+      updatedLearning,
       updatedEdu,
       updatedProf,
       updatedAvatar,

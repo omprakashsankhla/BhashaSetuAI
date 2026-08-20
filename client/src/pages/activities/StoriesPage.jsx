@@ -235,7 +235,7 @@ const StoriesPage = () => {
   let learningLang = 'hi';
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    learningLang = storedUser.preferred_language || 'hi';
+    learningLang = storedUser.learning_language || 'hi';
   } catch (e) {}
 
   const [stories, setStories] = useState(() => getStoriesForLanguage(learningLang));
@@ -278,13 +278,13 @@ const StoriesPage = () => {
   });
 
   useEffect(() => {
-    let learningLang = 'hi';
+    let currentLearningLang = 'hi';
     try {
       const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-      learningLang = storedUser.preferred_language || 'hi';
+      currentLearningLang = storedUser.learning_language || 'hi';
     } catch (e) {}
 
-    setStories(getStoriesForLanguage(learningLang));
+    setStories(getStoriesForLanguage(currentLearningLang));
     setSelected(null);
     setCurrentQIndex(0);
     setSelectedOption(null);
@@ -295,7 +295,7 @@ const StoriesPage = () => {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
     }
-  }, [getStoriesForLanguage]);
+  }, [getStoriesForLanguage, learningLang]);
 
   // Mark story as completed in local storage
   const markStoryAsCompleted = (storyId) => {
@@ -345,7 +345,7 @@ const StoriesPage = () => {
     let learningLang = 'hi';
     try {
       const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-      learningLang = storedUser.preferred_language || 'hi';
+      learningLang = storedUser.learning_language || 'hi';
     } catch (e) {}
     ttsSpeak(text, { lang: learningLang, rate: 0.85 });
   };

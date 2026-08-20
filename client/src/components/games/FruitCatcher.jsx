@@ -27,7 +27,7 @@ const getCatcherData = (lang) => CATCHER_DATA[lang] || CATCHER_DATA['hi'] || CAT
 
 const FruitCatcher = ({ onGameComplete }) => {
   const { i18n } = useTranslation();
-  const gameRounds = getCatcherData((JSON.parse(localStorage.getItem('user') || '{}').preferred_language || 'hi'));
+  const gameRounds = getCatcherData((JSON.parse(localStorage.getItem('user') || '{}').learning_language || 'hi'));
 
   const [roundIdx, setRoundIdx] = useState(0);
   const [basketX, setBasketX] = useState(150); // Basket horizontal position (0 to 300)

@@ -1,0 +1,28 @@
+{
+  "words": [
+    {
+      "target": "hello",
+      "translation": "hello"
+    },
+    {
+      "target": "water",
+      "translation": "water"
+    },
+    {
+      "target": "book",
+      "translation": "book"
+    },
+    {
+      "target": "house",
+      "translation": "house"
+    },
+    {
+      "target": "food",
+      "translation": "food"
+    },
+    {
+      "target": "tomorrow",
+      "translation": "tomorrow"
+    }
+  ]
+}

@@ -3,12 +3,15 @@ import { useTranslation } from 'react-i18next';
 import { X, Award, Medal, Crown } from 'lucide-react';
 import './LeaderboardModal.css';
 import { API_BASE_URL } from '../config/api';
+import { useFocusTrap } from '../hooks/useFocusTrap';
 
 const LeaderboardModal = ({ onClose }) => {
   const { t } = useTranslation();
   const [leaderboard, setLeaderboard] = useState([]);
   const [currentUser, setCurrentUser] = useState(null);
   const [loading, setLoading] = useState(true);
+
+  const modalRef = useFocusTrap(true, onClose);
 
   useEffect(() => {
     fetchLeaderboard();
@@ -54,13 +57,19 @@ const LeaderboardModal = ({ onClose }) => {
 
   return (
     <div className="leaderboard-modal-overlay">
-      <div className="leaderboard-modal-content">
+      <div 
+        className="leaderboard-modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="leaderboard-modal-title"
+        ref={modalRef}
+      >
         <header className="leaderboard-header">
           <div className="header-title">
             <Award size={28} className="header-icon" />
-            <h1>{t('dash_nav_leaderboard', 'Leaderboard')}</h1>
+            <h1 id="leaderboard-modal-title">{t('dash_nav_leaderboard', 'Leaderboard')}</h1>
           </div>
-          <button className="close-btn" onClick={onClose}>
+          <button className="close-btn" onClick={onClose} aria-label="Close Leaderboard">
             <X size={24} />
           </button>
         </header>
@@ -98,24 +107,26 @@ const LeaderboardModal = ({ onClose }) => {
           )}
 
           {/* List */}
-          <div className="leaderboard-list">
-            {listUsers.map((user) => (
-              <div key={user.rank} className={`list-item ${user.isCurrentUser ? 'current-user-item' : ''}`}>
-                <div className="rank-number">{user.rank}</div>
-                <div className="list-avatar" style={{ padding: (user.avatar && user.avatar !== '/default-avatar.png') ? 0 : '', overflow: 'hidden' }}>
-                  {user.avatar && user.avatar !== '/default-avatar.png' ? (
-                    <img src={user.avatar} alt={user.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
-                  ) : (
-                    user.name.charAt(0).toUpperCase()
-                  )}
+          <div className="leaderboard-list" style={{ minHeight: '300px', maxHeight: '300px', overflowY: 'auto' }}>
+            {listUsers.length > 0 ? (
+              listUsers.map((user) => (
+                <div key={user.rank} className={`list-item ${user.isCurrentUser ? 'current-user-item' : ''}`} style={{ height: '60px' }}>
+                  <div className="rank-number">{user.rank}</div>
+                  <div className="list-avatar" style={{ padding: (user.avatar && user.avatar !== '/default-avatar.png') ? 0 : '', overflow: 'hidden' }}>
+                    {user.avatar && user.avatar !== '/default-avatar.png' ? (
+                      <img src={user.avatar} alt={user.name} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+                    ) : (
+                      user.name.charAt(0).toUpperCase()
+                    )}
+                  </div>
+                  <div className="list-name">{user.name}</div>
+                  <div className="list-xp">{user.xp} XP</div>
                 </div>
-                <div className="list-name">{user.name}</div>
-                <div className="list-xp">{user.xp} XP</div>
-              </div>
-            ))}
-            
-            {leaderboard.length === 0 && (
-              <div className="empty-state">No users in leaderboard yet.</div>
+              ))
+            ) : (
+              leaderboard.length === 0 && (
+                <div className="empty-state">No users in leaderboard yet.</div>
+              )
             )}
           </div>
         </div>

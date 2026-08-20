@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "name": "टमाटर",
+      "price": 20,
+      "emoji": "🍅"
+    },
+    {
+      "name": "आलू",
+      "price": 10,
+      "emoji": "🥔"
+    },
+    {
+      "name": "प्याज़",
+      "price": 15,
+      "emoji": "🧅"
+    }
+  ],
+  "customers": [
+    {
+      "dialogue": "रामराम! मने २ किलो टमाटर और १ किलो आलू चाईजै।",
+      "targetTomatoes": 2,
+      "targetPotatoes": 1,
+      "targetOnions": 0,
+      "bill": 50
+    },
+    {
+      "dialogue": "सुणो, मने १ किलो टमाटर और २ किलो प्याज़ दे देवो।",
+      "targetTomatoes": 1,
+      "targetPotatoes": 0,
+      "targetOnions": 2,
+      "bill": 50
+    },
+    {
+      "dialogue": "भाईजी, मने ३ किलो आलू और १ किलो प्याज़ तोल देवो।",
+      "targetTomatoes": 0,
+      "targetPotatoes": 3,
+      "targetOnions": 1,
+      "bill": 45
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+/* Base Button */
+.ui-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-sm);
+  border: none;
+  border-radius: var(--radius-md);
+  font-family: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast) ease-in-out;
+  outline: none;
+}
+
+/* Ensure focus ring is baked in automatically on focus-visible */
+.ui-btn:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
+/* Sizes */
+.ui-btn-sm {
+  padding: 0.4rem var(--spacing-sm);
+  font-size: var(--text-sm);
+}
+
+.ui-btn-md {
+  padding: 0.75rem var(--spacing-md);
+  font-size: var(--text-base);
+}
+
+.ui-btn-lg {
+  padding: 1rem var(--spacing-lg);
+  font-size: var(--text-lg);
+  border-radius: var(--radius-lg);
+}
+
+/* Variants */
+.ui-btn-primary {
+  background: var(--color-primary-500);
+  color: var(--color-slate-50);
+  box-shadow: var(--shadow-sm);
+}
+
+.ui-btn-primary:hover:not(.ui-btn-disabled) {
+  background: var(--color-primary-600);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.ui-btn-secondary {
+  background: var(--bg-surface);
+  color: var(--text-main);
+  border: 1px solid var(--border-subtle);
+}
+
+.ui-btn-secondary:hover:not(.ui-btn-disabled) {
+  border-color: var(--color-primary-400);
+  color: var(--color-primary-600);
+  transform: translateY(-1px);
+}
+
+.ui-btn-danger {
+  background: var(--color-error-500);
+  color: white;
+}
+
+.ui-btn-danger:hover:not(.ui-btn-disabled) {
+  background: var(--color-error-600);
+  transform: translateY(-2px);
+}
+
+.ui-btn-ghost {
+  background: transparent;
+  color: var(--text-secondary);
+}
+
+.ui-btn-ghost:hover:not(.ui-btn-disabled) {
+  background: var(--bg-app);
+  color: var(--text-main);
+}
+
+.ui-btn-outline {
+  background: transparent;
+  color: var(--color-primary-500);
+  border: 2px solid var(--color-primary-500);
+}
+
+.ui-btn-outline:hover:not(.ui-btn-disabled) {
+  background: var(--color-primary-50);
+}
+
+/* Disabled & Loading States */
+.ui-btn-disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.ui-btn-loading {
+  cursor: wait;
+}
+
+.ui-btn-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: ui-btn-spin 0.75s linear infinite;
+}
+
+@keyframes ui-btn-spin {
+  to { transform: rotate(360deg); }
+}

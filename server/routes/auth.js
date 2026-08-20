@@ -2,6 +2,8 @@ const express = require('express');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const db = require('../db');
+const { logAuditEvent } = require('../services/auditLogger');
+const { syncUserAnalytics } = require('../services/analyticsService');
 
 const router = express.Router();
 
@@ -42,7 +44,7 @@ function determineProficiency(age, educationLevel, requestedLevel) {
 // Registration Endpoint
 router.post('/register', async (req, res) => {
   try {
-    const { name, email, password, age, education_level, preferred_language, proficiency_level } = req.body;
+    const { name, email, password, age, education_level, preferred_language, interface_language, learning_language, proficiency_level } = req.body;
 
     // 1. Check if user already exists
     const [existingUsers] = await db.query('SELECT * FROM Users WHERE email = ?', [email]);
@@ -59,8 +61,8 @@ router.post('/register', async (req, res) => {
 
     // 3. Insert into database
     const insertQuery = `
-      INSERT INTO Users (name, email, password_hash, age, education_level, preferred_language, proficiency_level, role)
-      VALUES (?, ?, ?, ?, ?, ?, ?, 'Student')
+      INSERT INTO Users (name, email, password_hash, age, education_level, preferred_language, interface_language, learning_language, proficiency_level, role)
+      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, 'Student')
     `;
     const [result] = await db.query(insertQuery, [
       name, 
@@ -68,12 +70,17 @@ router.post('/register', async (req, res) => {
       password_hash, 
       age || null, 
       education_level || null,
-      preferred_language || 'en',
+      interface_language || preferred_language || 'en',
+      interface_language || preferred_language || 'en',
+      learning_language || preferred_language || 'hi',
       finalProficiency
     ]);
 
     // Set initial streak
     await db.query('UPDATE Users SET streak = 1, last_login = CURDATE() WHERE user_id = ?', [result.insertId]);
+    await syncUserAnalytics(result.insertId);
+
+    await logAuditEvent(result.insertId, 'REGISTER', { email }, req.ip);
 
     // 4. Generate JWT Token
     const token = jwt.sign(
@@ -91,7 +98,11 @@ router.post('/register', async (req, res) => {
         email,
         role: 'Student',
         proficiency_level: finalProficiency,
-        has_completed_assessment: false
+        has_completed_assessment: false,
+        interface_language: interface_language || preferred_language || 'en',
+        learning_language: learning_language || preferred_language || 'hi',
+        preferred_language: interface_language || preferred_language || 'en',
+        settings: {}
       }
     });
 
@@ -151,6 +162,9 @@ router.post('/login', async (req, res) => {
     }
 
     await db.query('UPDATE Users SET streak = ?, last_login = CURDATE() WHERE user_id = ?', [newStreak, user.user_id]);
+    await syncUserAnalytics(user.user_id);
+
+    await logAuditEvent(user.user_id, 'LOGIN', { email: user.email }, req.ip);
 
     let has_completed = false;
     if (user.settings) {
@@ -170,7 +184,11 @@ router.post('/login', async (req, res) => {
         email: user.email,
         role: user.role,
         proficiency_level: user.proficiency_level || 'Beginner',
-        has_completed_assessment: has_completed
+        has_completed_assessment: has_completed,
+        interface_language: user.interface_language,
+        learning_language: user.learning_language,
+        preferred_language: user.preferred_language,
+        settings: typeof user.settings === 'string' ? JSON.parse(user.settings || '{}') : (user.settings || {})
       }
     });
 
@@ -183,7 +201,7 @@ router.post('/login', async (req, res) => {
 // Google Login Endpoint
 router.post('/google', async (req, res) => {
   try {
-    const { token, preferred_language } = req.body;
+    const { token, interface_language, preferred_language } = req.body;
     
     // Verify Google Access Token by fetching user info
     const googleResponse = await fetch('https://www.googleapis.com/oauth2/v3/userinfo', {
@@ -208,21 +226,28 @@ router.post('/google', async (req, res) => {
       const password_hash = await bcrypt.hash(dummyPassword, 10);
       
       const insertQuery = `
-        INSERT INTO Users (name, email, password_hash, preferred_language, role)
-        VALUES (?, ?, ?, ?, 'Student')
+        INSERT INTO Users (name, email, password_hash, preferred_language, interface_language, learning_language, role, settings)
+        VALUES (?, ?, ?, ?, ?, 'hi', 'Student', ?)
       `;
+      const newSettings = JSON.stringify({ needs_language_confirmation: true });
       const [result] = await db.query(insertQuery, [
         name, 
         email, 
         password_hash, 
-        preferred_language || 'en'
+        interface_language || preferred_language || 'en',
+        interface_language || preferred_language || 'en',
+        newSettings
       ]);
       
       user = {
         user_id: result.insertId,
         name,
         email,
-        role: 'Student'
+        role: 'Student',
+        interface_language: interface_language || preferred_language || 'en',
+        learning_language: 'hi',
+        preferred_language: interface_language || preferred_language || 'en',
+        settings: newSettings
       };
     } else {
       user = users[0];
@@ -235,11 +260,14 @@ router.post('/google', async (req, res) => {
       { expiresIn: '7d' }
     );
 
+    let settingsObj = {};
     let has_completed = false;
     if (user.settings) {
       if (typeof user.settings === 'string') {
+        settingsObj = JSON.parse(user.settings);
         has_completed = user.settings.includes('ai_insights');
       } else {
+        settingsObj = user.settings;
         has_completed = !!user.settings.ai_insights;
       }
     }
@@ -252,7 +280,11 @@ router.post('/google', async (req, res) => {
         name: user.name,
         email: user.email,
         role: user.role,
-        has_completed_assessment: has_completed
+        has_completed_assessment: has_completed,
+        interface_language: user.interface_language,
+        learning_language: user.learning_language,
+        preferred_language: user.preferred_language,
+        settings: settingsObj
       }
     });
 

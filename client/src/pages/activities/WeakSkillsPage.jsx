@@ -215,7 +215,7 @@ const WeakSkillsPage = () => {
   let learningLang = 'hi';
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    learningLang = storedUser.preferred_language || 'hi';
+    learningLang = storedUser.learning_language || 'hi';
   } catch (e) {}
 
   const currentLang = learningLang;

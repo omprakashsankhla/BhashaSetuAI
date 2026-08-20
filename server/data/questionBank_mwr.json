@@ -4,185 +4,663 @@
       {
         "id": 1,
         "type": "MCQ",
-        "text": "अनुवाद करो: Water",
+        "text": "A ke pache kayo akhar aavey hai?",
         "options": [
-          "पाणी",
-          "Fire",
-          "Earth",
-          "Air"
+          "B",
+          "C",
+          "D",
+          "E"
         ],
-        "answer": "पाणी",
-        "feedback": "सही उत्तर है: पाणी"
+        "answer": "B",
+        "feedback": "Sahi jawab B hai"
       },
       {
         "id": 2,
         "type": "MCQ",
-        "text": "अनुवाद करो: Food",
+        "text": "Kayi sabad fal hai?",
         "options": [
-          "खाणो",
-          "Sleep",
-          "Walk",
-          "Run"
+          "Apple",
+          "Chair",
+          "Table",
+          "Book"
         ],
-        "answer": "खाणो",
-        "feedback": "सही उत्तर है: खाणो"
+        "answer": "Apple",
+        "feedback": "Sahi jawab Seb hai"
       },
       {
         "id": 3,
         "type": "MCQ",
-        "text": "अनुवाद करो: Sun",
+        "text": "Kayi sabad janvar ro nam hai?",
         "options": [
-          "सूरज",
-          "Moon",
-          "Star",
-          "Cloud"
+          "Dog",
+          "Pen",
+          "Cup",
+          "Fan"
         ],
-        "answer": "सूरज",
-        "feedback": "सही उत्तर है: सूरज"
+        "answer": "Dog",
+        "feedback": "Sahi jawab Kutto hai"
       },
       {
         "id": 4,
         "type": "MCQ",
-        "text": "अनुवाद करो: House",
+        "text": "Kayi akhar swar hai?",
         "options": [
-          "घर",
-          "Tree",
-          "Road",
-          "Car"
+          "B",
+          "C",
+          "A",
+          "D"
         ],
-        "answer": "घर",
-        "feedback": "सही उत्तर है: घर"
+        "answer": "A",
+        "feedback": "Sahi jawab A hai"
       },
       {
         "id": 5,
         "type": "MCQ",
-        "text": "खाली जगह भरो: A ___ C",
+        "text": "Kayi sabad ro matlab ram-ram ya hello hai?",
         "options": [
-          "B",
-          "D",
-          "E",
-          "F"
+          "Hello",
+          "Sleep",
+          "Eat",
+          "Jump"
         ],
-        "answer": "B",
-        "feedback": "सही उत्तर है: B"
+        "answer": "Hello",
+        "feedback": "Sahi jawab Hello hai"
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "9 पाछै कठणौ आवे?",
+        "options": [
+          "8",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "feedback": "सही उत्तर 10 है"
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "लिखण रे सारू कठौ उपयोग मे लेयोज्या है?",
+        "options": [
+          "Pencil",
+          "Plate",
+          "Spoon",
+          "Bottle"
+        ],
+        "answer": "Pencil",
+        "feedback": "सही उत्तर पैंसिल है"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "कठौ शब्द रंग है?",
+        "options": [
+          "Red",
+          "Ball",
+          "Mango",
+          "Bird"
+        ],
+        "answer": "Red",
+        "feedback": "सही उत्तर लाल है"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "कठौ वाक्य सही है?",
+        "options": [
+          "I am happy.",
+          "Happy I am.",
+          "Am I happy.",
+          "Happy am."
+        ],
+        "answer": "I am happy.",
+        "feedback": "सही उत्तर मैं खुस हां।"
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "कौणसो एक शरीर रो अङ्ग है?",
+        "options": [
+          "Hand",
+          "Chair",
+          "Cup",
+          "Bag"
+        ],
+        "answer": "Hand",
+        "feedback": "सही उत्तर हाथ है"
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "बड़ो रो उल्टो शब्द कौणसो है?",
+        "options": [
+          "Small",
+          "Long",
+          "Fast",
+          "Tall"
+        ],
+        "answer": "Small",
+        "feedback": "सही उत्तर छोटौ है"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "वार रो एक दिन कौणसो है?",
+        "options": [
+          "Monday",
+          "January",
+          "Morning",
+          "Summer"
+        ],
+        "answer": "Monday",
+        "feedback": "सही उत्तर सोमवार है"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "कौणसो एक साग-सब्जी है?",
+        "options": [
+          "Carrot",
+          "Mango",
+          "Banana",
+          "Orange"
+        ],
+        "answer": "Carrot",
+        "feedback": "सही उत्तर गाजर है"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "कौणसा जानवर \"म्याऊँ\" बोले है?",
+        "options": [
+          "Cat",
+          "Dog",
+          "Cow",
+          "Goat"
+        ],
+        "answer": "Cat",
+        "feedback": "सही उत्तर बिल्ली है"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "कौण सा सबद पीने की चीज है?",
+        "options": [
+          "Milk",
+          "Rice",
+          "Bread",
+          "Apple"
+        ],
+        "answer": "Milk",
+        "feedback": "सही उत्तर दूध है"
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "जी (G) सु पेली कौण सा अक्षर आवे है?",
+        "options": [
+          "F",
+          "E",
+          "H",
+          "I"
+        ],
+        "answer": "F",
+        "feedback": "सही उत्तर एफ (F) है"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "कौण उड़े है?",
+        "options": [
+          "Bird",
+          "Fish",
+          "Dog",
+          "Cow"
+        ],
+        "answer": "Bird",
+        "feedback": "सही उत्तर पक्षी है"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "कौण सा सबद इसकूल में काम आवे है?",
+        "options": [
+          "Book",
+          "Pillow",
+          "Stove",
+          "Bucket"
+        ],
+        "answer": "Book",
+        "feedback": "सही उत्तर किताब है"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "कौण सी रुत सबा सूत गरम होवे है?",
+        "options": [
+          "Summer",
+          "Winter",
+          "Rainy",
+          "Autumn"
+        ],
+        "answer": "Summer",
+        "feedback": "सही उत्तर उणियाळो (गर्मी) है"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "ऊपर रो उल्टो शब्द कौन सो है?",
+        "options": [
+          "Down",
+          "Left",
+          "Right",
+          "Near"
+        ],
+        "answer": "Down",
+        "feedback": "सही जवाब है नीचे"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "कौण सी बात शाईज मूँ बोलीजी है?",
+        "options": [
+          "Thank you.",
+          "Go away.",
+          "Be quiet.",
+          "No."
+        ],
+        "answer": "Thank you.",
+        "feedback": "सही जवाब है धन्यवाद।"
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "कौण सी आकृति रा तीन किनारा होवे है?",
+        "options": [
+          "Triangle",
+          "Square",
+          "Circle",
+          "Rectangle"
+        ],
+        "answer": "Triangle",
+        "feedback": "सही जवाब है त्रिभुज"
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "समय देखण वास्ते कौण सी चीज काम आवे है?",
+        "options": [
+          "Clock",
+          "Plate",
+          "Pencil",
+          "Bag"
+        ],
+        "answer": "Clock",
+        "feedback": "सही जवाब है घड़ी"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "इन मूँ परिवार रो सदस्य कौण है?",
+        "options": [
+          "Mother",
+          "Teacher",
+          "Doctor",
+          "Driver"
+        ],
+        "answer": "Mother",
+        "feedback": "सही जवाब है माँ"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "वाक्य ने पूरो करणा वास्ते कीनू सबद सही है? आसमान _____ है।",
+        "options": [
+          "Blue",
+          "Sweet",
+          "Hot",
+          "Soft"
+        ],
+        "answer": "Blue",
+        "feedback": "सही जवाब नीलो है"
       }
     ],
     "Reading": [
       {
         "id": 26,
         "type": "Reading",
-        "text": "जोर सूं पढ़ो: मने सेव चोखा लागे।",
-        "word": "मने सेव चोखा लागे।"
+        "text": "ज़ोर से पढ़ें: I am Sam.",
+        "word": "I am Sam."
       },
       {
         "id": 27,
         "type": "Reading",
-        "text": "जोर सूं पढ़ो: Hello.",
-        "word": "Hello."
+        "text": "ज़ोर से पढ़ें: This is a cat.",
+        "word": "This is a cat."
       },
       {
         "id": 28,
         "type": "Reading",
-        "text": "जोर सूं पढ़ो: Thank you.",
-        "word": "Thank you."
+        "text": "ज़ोर से पढ़ें: The sun is hot.",
+        "word": "The sun is hot."
       },
       {
         "id": 29,
         "type": "Reading",
-        "text": "जोर सूं पढ़ो: Good boy.",
-        "word": "Good boy."
+        "text": "ज़ोर से पढ़ें: I like milk.",
+        "word": "I like milk."
       },
       {
         "id": 30,
         "type": "Reading",
-        "text": "जोर सूं पढ़ो: Welcome.",
-        "word": "Welcome."
+        "text": "ज़ोर से पढ़ें: She has a pen.",
+        "word": "She has a pen."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: We play daily.",
+        "word": "We play daily."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The bird can fly.",
+        "word": "The bird can fly."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: My bag is blue.",
+        "word": "My bag is blue."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: He is my friend.",
+        "word": "He is my friend."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Open the door.",
+        "word": "Open the door."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The dog is running.",
+        "word": "The dog is running."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: I wash my hands.",
+        "word": "I wash my hands."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The flowers smell nice.",
+        "word": "The flowers smell nice."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: My school is nearby.",
+        "word": "My school is nearby."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: We drink clean water.",
+        "word": "We drink clean water."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The moon shines at night.",
+        "word": "The moon shines at night."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Please close the window.",
+        "word": "Please close the window."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Children are playing happily.",
+        "word": "Children are playing happily."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The farmer grows vegetables.",
+        "word": "The farmer grows vegetables."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: I enjoy reading books.",
+        "word": "I enjoy reading books."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: My family eats dinner together.",
+        "word": "My family eats dinner together."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Always speak with kindness.",
+        "word": "Always speak with kindness."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Practice makes us better.",
+        "word": "Practice makes us better."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Every day is a new beginning.",
+        "word": "Every day is a new beginning."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Learning opens many opportunities.",
+        "word": "Learning opens many opportunities."
       }
     ],
     "Writing": [
       {
         "id": 51,
         "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: वा एक किताब पढ़ री है।",
-        "answer": "She is reading a book.",
-        "feedback": "सही अनुवाद है: She is reading a book."
+        "text": "अंग्रेजी में अनुवाद करें: Seb",
+        "answer": "Apple",
+        "feedback": "वाक्यांश था: Apple"
       },
       {
         "id": 52,
         "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: Namaste / Vanakkam / Hello",
-        "answer": "Hello",
-        "feedback": "सही अनुवाद है: Hello"
+        "text": "अंग्रेजी में अनुवाद करें: राम-राम सा",
+        "answer": "Good morning",
+        "feedback": "वाक्यांश था: Good morning"
       },
       {
         "id": 53,
         "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: Yes",
-        "answer": "Yes",
-        "feedback": "सही अनुवाद है: Yes"
+        "text": "अंग्रेजी में अनुवाद करें: धन्वाद",
+        "answer": "Thank you",
+        "feedback": "वाक्यांश था: Thank you"
       },
       {
         "id": 54,
         "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: No",
-        "answer": "No",
-        "feedback": "सही अनुवाद है: No"
+        "text": "अंग्रेजी में अनुवाद करें: म्हारी किताब",
+        "answer": "My book",
+        "feedback": "वाक्यांश था: My book"
       },
       {
         "id": 55,
         "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: Water",
-        "answer": "Water",
-        "feedback": "सही अनुवाद है: Water"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 76,
-        "type": "Listening",
-        "audioText": "सुप्रभात",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "Good morning",
-        "feedback": "सही उत्तर है: Good morning"
+        "text": "अंग्रेजी में अनुवाद करें: नीलो आसमान",
+        "answer": "Blue sky",
+        "feedback": "वाक्यांश था: Blue sky"
       },
       {
-        "id": 77,
-        "type": "Listening",
-        "audioText": "Thank you",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "Thank you",
-        "feedback": "सही उत्तर है: Thank you"
+        "id": 56,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: लाल दफ्तर",
+        "answer": "Red ball",
+        "feedback": "वाक्यांश था: Red ball"
       },
       {
-        "id": 78,
-        "type": "Listening",
-        "audioText": "Welcome",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "Welcome",
-        "feedback": "सही उत्तर है: Welcome"
+        "id": 57,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: हर्यो पेड़",
+        "answer": "Green tree",
+        "feedback": "वाक्यांश था: Green tree"
       },
       {
-        "id": 79,
-        "type": "Listening",
-        "audioText": "Yes",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "Yes",
-        "feedback": "सही उत्तर है: Yes"
+        "id": 58,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: पाणी पीओ",
+        "answer": "Drink water",
+        "feedback": "वाक्यांश था: Drink water"
       },
       {
-        "id": 80,
-        "type": "Listening",
-        "audioText": "No",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "No",
-        "feedback": "सही उत्तर है: No"
+        "id": 59,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: दरवाजो खोलो",
+        "answer": "Open door",
+        "feedback": "वाक्यांश था: Open door"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: खिड़की बंद करो",
+        "answer": "Close window",
+        "feedback": "वाक्यांश था: Close window"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: खुश बालक",
+        "answer": "Happy child",
+        "feedback": "वाक्यांश था: Happy child"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: तेज गाड़ी",
+        "answer": "Fast car",
+        "feedback": "वाक्यांश था: Fast car"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: छोटो बिलाव",
+        "answer": "Small cat",
+        "feedback": "वाक्यांश था: Small cat"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: मोठो घर",
+        "answer": "Big house",
+        "feedback": "वाक्यांश था: Big house"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: पीळो फूल",
+        "answer": "Yellow flower",
+        "feedback": "वाक्यांश था: Yellow flower"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: किताब पढ़ो",
+        "answer": "Read book",
+        "feedback": "वाक्यांश था: Read book"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: साफ हाथ",
+        "answer": "Clean hands",
+        "feedback": "वाक्यांश था: Clean hands"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: जमण खाव",
+        "answer": "Eat food",
+        "feedback": "वाक्यांश था: Eat food"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: छणो दिन",
+        "answer": "Nice day",
+        "feedback": "वाक्यांश था: Nice day"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: घर जाओ",
+        "answer": "Go home",
+        "feedback": "वाक्यांश था: Go home"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: सारो यार",
+        "answer": "Good friend",
+        "feedback": "वाक्यांश था: Good friend"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: म्हारी स्कूल",
+        "answer": "My school",
+        "feedback": "वाक्यांश था: My school"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: मीठो आंम्बो",
+        "answer": "Sweet mango",
+        "feedback": "वाक्यांश था: Sweet mango"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: खुशी सू सीखो",
+        "answer": "Happy learning",
+        "feedback": "वाक्यांश था: Happy learning"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: शाबाश",
+        "answer": "Well done",
+        "feedback": "वाक्यांश था: Well done"
       }
     ],
     "Grammar": [
       {
-        "id": 101,
+        "id": 76,
         "type": "Grammar",
-        "text": "खाली जगह भरो: I ___ a student.",
+        "text": "रिक्त स्थान भरें: I ___ a student.",
         "options": [
           "am",
           "is",
@@ -193,12 +671,12 @@
         "feedback": "सही उत्तर है: am"
       },
       {
-        "id": 102,
+        "id": 77,
         "type": "Grammar",
-        "text": "खाली जगह भरो: He ___ a boy.",
+        "text": "रिक्त स्थान भरें: She ___ happy.",
         "options": [
-          "is",
           "am",
+          "is",
           "are",
           "be"
         ],
@@ -206,12 +684,90 @@
         "feedback": "सही उत्तर है: is"
       },
       {
-        "id": 103,
+        "id": 78,
         "type": "Grammar",
-        "text": "खाली जगह भरो: They ___ playing.",
+        "text": "रिक्त स्थान भरें: They ___ playing.",
         "options": [
+          "am",
+          "is",
+          "are",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "सही उत्तर है: are"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: This is ___ apple.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "सही उत्तर है: an"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: I have ___ book.",
+        "options": [
+          "an",
+          "a",
+          "the",
+          "no article"
+        ],
+        "answer": "a",
+        "feedback": "सही उत्तर है: a"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: ___ sun rises in the east.",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "No article"
+        ],
+        "answer": "The",
+        "feedback": "सही उत्तर है: The"
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: We ___ friends.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "are",
+        "feedback": "सही उत्तर है: are"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: He ___ my brother.",
+        "options": [
+          "am",
           "are",
           "is",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "सही उत्तर है: is"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: The birds ___ flying.",
+        "options": [
+          "is",
+          "are",
           "am",
           "was"
         ],
@@ -219,739 +775,3163 @@
         "feedback": "सही उत्तर है: are"
       },
       {
-        "id": 104,
+        "id": 85,
         "type": "Grammar",
-        "text": "खाली जगह भरो: She ___ reading.",
+        "text": "रिक्त स्थान भरें: She has two ___.",
         "options": [
+          "book",
+          "books",
+          "bookes",
+          "bookses"
+        ],
+        "answer": "books",
+        "feedback": "सही उत्तर है: books"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: I eat ___ banana every day.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "a",
+        "feedback": "सही उत्तर है: a"
+      },
+      {
+        "id": 87,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Ravi ___ a doctor.",
+        "options": [
+          "are",
           "is",
           "am",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "सही उत्तर है: is"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: We ___ to school.",
+        "options": [
+          "goes",
+          "go",
+          "going",
+          "gone"
+        ],
+        "answer": "go",
+        "feedback": "सही उत्तर है: go"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: She ___ water.",
+        "options": [
+          "drink",
+          "drinks",
+          "drinking",
+          "drank"
+        ],
+        "answer": "drinks",
+        "feedback": "सही उत्तर है: drinks"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: They ___ football.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "answer": "play",
+        "feedback": "सही उत्तर है: play"
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: This ___ my bag.",
+        "options": [
           "are",
+          "is",
+          "am",
           "be"
         ],
         "answer": "is",
         "feedback": "सही उत्तर है: is"
       },
       {
-        "id": 105,
+        "id": 92,
         "type": "Grammar",
-        "text": "खाली जगह भरो: We ___ happy.",
+        "text": "रिक्त स्थान भरें: I ___ my homework.",
         "options": [
-          "are",
-          "is",
-          "am",
-          "be"
+          "do",
+          "does",
+          "dids",
+          "doing"
         ],
-        "answer": "are",
-        "feedback": "सही उत्तर है: are"
+        "answer": "do",
+        "feedback": "सही उत्तर है: do"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: He ___ his homework.",
+        "options": [
+          "do",
+          "does",
+          "doing",
+          "done"
+        ],
+        "answer": "does",
+        "feedback": "सही उत्तर है: does"
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: We have three ___.",
+        "options": [
+          "pen",
+          "pens",
+          "penes",
+          "penc"
+        ],
+        "answer": "pens",
+        "feedback": "सही उत्तर है: pens"
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: The child ___ smiling.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "सही उत्तर है: is"
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: ___ is my teacher.",
+        "options": [
+          "He",
+          "Him",
+          "His",
+          "Himself"
+        ],
+        "answer": "He",
+        "feedback": "सही उत्तर है: He"
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: This is ___ pencil.",
+        "options": [
+          "my",
+          "me",
+          "I",
+          "mine"
+        ],
+        "answer": "my",
+        "feedback": "सही उत्तर है: my"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: They live ___ India.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "from"
+        ],
+        "answer": "in",
+        "feedback": "सही उत्तर है: in"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: The cat is ___ the table.",
+        "options": [
+          "on",
+          "in",
+          "under",
+          "from"
+        ],
+        "answer": "on",
+        "feedback": "सही उत्तर है: on"
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: We ___ English every day.",
+        "options": [
+          "learns",
+          "learn",
+          "learning",
+          "learned"
+        ],
+        "answer": "learn",
+        "feedback": "सही उत्तर है: learn"
       }
     ],
     "Puzzle": [
       {
-        "id": 126,
+        "id": 101,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "dog",
-          "The",
-          "barks"
+        "text": "कौण सो सबद अलग है?",
+        "options": [
+          "Apple",
+          "Mango",
+          "Banana",
+          "Chair"
         ],
-        "answer": "The dog barks",
-        "feedback": "सही उत्तर है: The dog barks"
+        "answer": "Chair",
+        "feedback": "सही उत्तर है: Chair"
       },
       {
-        "id": 127,
+        "id": 102,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "boy",
-          "is",
-          "He",
-          "a"
+        "text": "पैटर्न पूरा करो: A, B, C, __",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "G"
         ],
-        "answer": "He is a boy",
-        "feedback": "सही उत्तर है: He is a boy"
+        "answer": "D",
+        "feedback": "सही उत्तर है: D"
       },
       {
-        "id": 128,
+        "id": 103,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "playing",
-          "are",
-          "They"
+        "text": "आगो कै नंबर आवे? 2, 4, 6, 8, __",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
         ],
-        "answer": "They are playing",
-        "feedback": "सही उत्तर है: They are playing"
+        "answer": "10",
+        "feedback": "सही उत्तर है: 10"
       },
       {
-        "id": 129,
+        "id": 104,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "reading",
-          "She",
-          "is"
+        "text": "इन में सूं कौण सो फल नी है?",
+        "options": [
+          "Orange",
+          "Apple",
+          "Potato",
+          "Mango"
         ],
-        "answer": "She is reading",
-        "feedback": "सही उत्तर है: She is reading"
+        "answer": "Potato",
+        "feedback": "सही उत्तर है: Potato"
       },
       {
-        "id": 130,
+        "id": 105,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "happy",
-          "We",
-          "are"
+        "text": "अलग सबद ढूंढो।",
+        "options": [
+          "Cat",
+          "Dog",
+          "Cow",
+          "Table"
         ],
-        "answer": "We are happy",
-        "feedback": "सही उत्तर है: We are happy"
+        "answer": "Table",
+        "feedback": "सही उत्तर है: Table"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "कौण सी आकृति के कोई कोना नी है?",
+        "options": [
+          "Square",
+          "Rectangle",
+          "Circle",
+          "Triangle"
+        ],
+        "answer": "Circle",
+        "feedback": "सही उत्तर है: Circle"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "पैहले कै आवे?",
+        "options": [
+          "Evening",
+          "Morning",
+          "Night",
+          "Midnight"
+        ],
+        "answer": "Morning",
+        "feedback": "सही उत्तर है: Morning"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "सबद पूरा करो: C _ T",
+        "options": [
+          "A",
+          "O",
+          "E",
+          "U"
+        ],
+        "answer": "A",
+        "feedback": "सही उत्तर है: A"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "सगळांत बडो कूण सा है?",
+        "options": [
+          "Ant",
+          "Elephant",
+          "Rat",
+          "Cat"
+        ],
+        "answer": "Elephant",
+        "feedback": "सही उत्तर है: Elephant"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "कक्षा में काई काम आवे है?",
+        "options": [
+          "Blackboard",
+          "Pillow",
+          "Stove",
+          "Shower"
+        ],
+        "answer": "Blackboard",
+        "feedback": "सही उत्तर है: Blackboard"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "अगलो अक्षर ढूँढो: M, N, O, __",
+        "options": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ],
+        "answer": "P",
+        "feedback": "सही उत्तर है: P"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "रँधण वास्ते काई काम आवे है?",
+        "options": [
+          "Pan",
+          "Book",
+          "Ball",
+          "Pencil"
+        ],
+        "answer": "Pan",
+        "feedback": "सही उत्तर है: Pan"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "सगळांत छोटौ नंबर कूण सा है?",
+        "options": [
+          "7",
+          "2",
+          "5",
+          "9"
+        ],
+        "answer": "2",
+        "feedback": "सही उत्तर है: 2"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "कौणसो जानवर पाणी में रैवे है?",
+        "options": [
+          "Lion",
+          "Fish",
+          "Goat",
+          "Horse"
+        ],
+        "answer": "Fish",
+        "feedback": "सही उत्तर है: Fish"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "कौणसो एक यातायात रो साधन है?",
+        "options": [
+          "Bus",
+          "Tree",
+          "Chair",
+          "Fan"
+        ],
+        "answer": "Bus",
+        "feedback": "सही उत्तर है: Bus"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "लड़ी पूरी करो: 10, 20, 30, __",
+        "options": [
+          "35",
+          "40",
+          "45",
+          "50"
+        ],
+        "answer": "40",
+        "feedback": "सही उत्तर है: 40"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "टाइम देखण वास्ते कौणसो काम में आवे है?",
+        "options": [
+          "Clock",
+          "Spoon",
+          "Plate",
+          "Bottle"
+        ],
+        "answer": "Clock",
+        "feedback": "सही उत्तर है: Clock"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "शुक्रवार के पाछै कै आवे है?",
+        "options": [
+          "Thursday",
+          "Saturday",
+          "Sunday",
+          "Monday"
+        ],
+        "answer": "Saturday",
+        "feedback": "सही उत्तर है: Saturday"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "कौणसा शब्द में सब्तू ज्यादा अक्षर है?",
+        "options": [
+          "Cat",
+          "Elephant",
+          "Dog",
+          "Cow"
+        ],
+        "answer": "Elephant",
+        "feedback": "सही उत्तर है: Elephant"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "कौणसी चीज प्रकाश देवे है?",
+        "options": [
+          "Lamp",
+          "Chair",
+          "Bag",
+          "Shoe"
+        ],
+        "answer": "Lamp",
+        "feedback": "सही उत्तर है: Lamp"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "\"खुलो\" रो उल्टी कौणसो है?",
+        "options": [
+          "Start",
+          "Close",
+          "Run",
+          "Walk"
+        ],
+        "answer": "Close",
+        "feedback": "सही उत्तर है: Close"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "कण सी संख्या गायब है? 5, 10, __, 20",
+        "options": [
+          "12",
+          "15",
+          "18",
+          "25"
+        ],
+        "answer": "15",
+        "feedback": "सही उत्तर है: 15"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "कण सो एक पक्षी है?",
+        "options": [
+          "Sparrow",
+          "Tiger",
+          "Horse",
+          "Cow"
+        ],
+        "answer": "Sparrow",
+        "feedback": "सही उत्तर है: Sparrow"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "K सूं पैली कण सो अक्षर आवे?",
+        "options": [
+          "H",
+          "I",
+          "J",
+          "L"
+        ],
+        "answer": "J",
+        "feedback": "सही उत्तर है: J"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "पढ़ण वास्ते कण सी चीज काम में ली जावे है?",
+        "options": [
+          "Book",
+          "Plate",
+          "Shoe",
+          "Cup"
+        ],
+        "answer": "Book",
+        "feedback": "सही उत्तर है: Book"
       }
     ]
   },
   "Intermediate": {
     "MCQ": [
       {
-        "id": 201,
+        "id": 1,
         "type": "MCQ",
-        "text": "अनुवाद करो: Beautiful",
+        "text": "सही वाक्य चुणो।",
         "options": [
-          "फूटरो",
-          "Ugly",
-          "Fast",
-          "Slow"
+          "She go to school.",
+          "She goes to school.",
+          "She going school.",
+          "She gone school."
         ],
-        "answer": "फूटरो",
-        "feedback": "सही उत्तर है: फूटरो"
+        "answer": "She goes to school.",
+        "feedback": "सही उत्तर वो स्कूल जावे है।"
       },
       {
-        "id": 202,
+        "id": 2,
         "type": "MCQ",
-        "text": "अनुवाद करो: Library",
+        "text": "\"खुश\" रो उल्टो शब्द कूण सो है?",
         "options": [
-          "पोथीखानो",
+          "Joyful",
+          "Sad",
+          "Excited",
+          "Bright"
+        ],
+        "answer": "Sad",
+        "feedback": "सही उत्तर उदास है"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "वाक्य पूरा करो: पंछी आसमान में _____।",
+        "options": [
+          "swim",
+          "fly",
+          "walk",
+          "crawl"
+        ],
+        "answer": "fly",
+        "feedback": "सही उत्तर उड़ना है"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "कूण सो शब्द क्रिया है?",
+        "options": [
+          "Teacher",
+          "Running",
           "School",
-          "Hospital",
-          "Park"
+          "Table"
         ],
-        "answer": "पोथीखानो",
-        "feedback": "सही उत्तर है: पोथीखानो"
+        "answer": "Running",
+        "feedback": "सही उत्तर भागणो है"
       },
       {
-        "id": 203,
+        "id": 5,
         "type": "MCQ",
-        "text": "खाली जगह भरो: Past tense of 'run' is ___",
+        "text": "कठौ वाक्य सही है?",
         "options": [
-          "ran",
-          "runned",
-          "running",
-          "runs"
+          "They is playing.",
+          "They are playing.",
+          "They am playing.",
+          "They be playing."
         ],
-        "answer": "ran",
-        "feedback": "सही उत्तर है: ran"
+        "answer": "They are playing.",
+        "feedback": "सही उत्तर They are playing. है"
       },
       {
-        "id": 204,
+        "id": 6,
         "type": "MCQ",
-        "text": "खाली जगह भरो: Opposite of 'hot' is ___",
+        "text": "\"तेज\" रो पर्यायवाची कूण सो है?",
         "options": [
-          "cold",
-          "warm",
-          "boiling",
-          "freezing"
+          "Slow",
+          "Fast",
+          "Late",
+          "Quiet"
         ],
-        "answer": "cold",
-        "feedback": "सही उत्तर है: cold"
+        "answer": "Fast",
+        "feedback": "सही उत्तर तेज है"
       },
       {
-        "id": 205,
+        "id": 7,
         "type": "MCQ",
-        "text": "खाली जगह भरो: Verb is ___",
+        "text": "सही स्पेलिंग चुणो।",
         "options": [
-          "Run",
-          "Apple",
-          "Blue",
-          "Quickly"
+          "Beautifull",
+          "Beautiful",
+          "Beautifal",
+          "Beutiful"
         ],
-        "answer": "Run",
-        "feedback": "सही उत्तर है: Run"
-      }
-    ],
-    "Reading": [
-      {
-        "id": 226,
-        "type": "Reading",
-        "text": "जोर सूं पढ़ो: मैं एक नई भाषा सीख रियो हूँ।",
-        "word": "मैं एक नई भाषा सीख रियो हूँ।"
-      },
-      {
-        "id": 227,
-        "type": "Reading",
-        "text": "जोर सूं पढ़ो: The quick brown fox.",
-        "word": "The quick brown fox."
-      },
-      {
-        "id": 228,
-        "type": "Reading",
-        "text": "जोर सूं पढ़ो: It is raining outside.",
-        "word": "It is raining outside."
-      },
-      {
-        "id": 229,
-        "type": "Reading",
-        "text": "जोर सूं पढ़ो: She likes to read books.",
-        "word": "She likes to read books."
-      },
-      {
-        "id": 230,
-        "type": "Reading",
-        "text": "जोर सूं पढ़ो: I am learning English.",
-        "word": "I am learning English."
-      }
-    ],
-    "Writing": [
-      {
-        "id": 251,
-        "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: पोथीखानो कठे है?",
-        "answer": "Where is the library?",
-        "feedback": "सही अनुवाद है: Where is the library?"
-      },
-      {
-        "id": 252,
-        "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: Beautiful",
         "answer": "Beautiful",
-        "feedback": "सही अनुवाद है: Beautiful"
+        "feedback": "सही उत्तर सुंदर है"
       },
       {
-        "id": 253,
-        "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: Important",
-        "answer": "Important",
-        "feedback": "सही अनुवाद है: Important"
-      },
-      {
-        "id": 254,
-        "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: Because",
-        "answer": "Because",
-        "feedback": "सही अनुवाद है: Because"
-      },
-      {
-        "id": 255,
-        "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: Together",
-        "answer": "Together",
-        "feedback": "सही अनुवाद है: Together"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 276,
-        "type": "Listening",
-        "audioText": "थे कियाँ हो?",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "How are you?",
-        "feedback": "सही उत्तर है: How are you?"
-      },
-      {
-        "id": 277,
-        "type": "Listening",
-        "audioText": "Beautiful",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "Beautiful",
-        "feedback": "सही उत्तर है: Beautiful"
-      },
-      {
-        "id": 278,
-        "type": "Listening",
-        "audioText": "I am fine",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "I am fine",
-        "feedback": "सही उत्तर है: I am fine"
-      },
-      {
-        "id": 279,
-        "type": "Listening",
-        "audioText": "See you later",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "See you later",
-        "feedback": "सही उत्तर है: See you later"
-      },
-      {
-        "id": 280,
-        "type": "Listening",
-        "audioText": "Have a good day",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "Have a good day",
-        "feedback": "सही उत्तर है: Have a good day"
-      }
-    ],
-    "Grammar": [
-      {
-        "id": 301,
-        "type": "Grammar",
-        "text": "खाली जगह भरो: She ___ to the store yesterday.",
+        "id": 8,
+        "type": "MCQ",
+        "text": "कौण सा वाक्य प्रश्नसूचक चिन्ह सागे खत्म व्हेवे है?",
         "options": [
-          "went",
-          "go",
-          "going",
-          "goes"
+          "I like apples.",
+          "Where are you?",
+          "She is happy.",
+          "Open the door."
         ],
-        "answer": "went",
-        "feedback": "सही उत्तर है: went"
+        "answer": "Where are you?",
+        "feedback": "सही उत्तर थे कठे हो?"
       },
       {
-        "id": 302,
-        "type": "Grammar",
-        "text": "खाली जगह भरो: I have ___ eaten breakfast.",
+        "id": 9,
+        "type": "MCQ",
+        "text": "कौण सा शब्द संज्ञा है?",
         "options": [
-          "already",
-          "yet",
-          "still",
-          "soon"
+          "Dance",
+          "House",
+          "Quickly",
+          "Happy"
         ],
-        "answer": "already",
-        "feedback": "सही उत्तर है: already"
+        "answer": "House",
+        "feedback": "सही उत्तर घर है"
       },
       {
-        "id": 303,
-        "type": "Grammar",
-        "text": "खाली जगह भरो: He is taller ___ his brother.",
+        "id": 10,
+        "type": "MCQ",
+        "text": "कौण सी बात शाईज मूँ बोलीजी है?",
         "options": [
-          "than",
-          "then",
-          "that",
-          "there"
+          "Move away!",
+          "Please help me.",
+          "Give me that.",
+          "Be quiet."
         ],
-        "answer": "than",
-        "feedback": "सही उत्तर है: than"
+        "answer": "Please help me.",
+        "feedback": "सही उत्तर मन्ने मदद करो।"
       },
       {
-        "id": 304,
-        "type": "Grammar",
-        "text": "खाली जगह भरो: They will arrive ___ Monday.",
+        "id": 11,
+        "type": "MCQ",
+        "text": "वाक्य पूरा करो: पाणी जीवन खातिर _____ है।",
+        "options": [
+          "important",
+          "noisy",
+          "expensive",
+          "dirty"
+        ],
+        "answer": "important",
+        "feedback": "सही उत्तर जरूरी है"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "कौणसो सबद इण समूह मँ आवे है? गुलाब, कमल, चमेली, _____",
+        "options": [
+          "Mango",
+          "Jasmine",
+          "Potato",
+          "Rice"
+        ],
+        "answer": "Jasmine",
+        "feedback": "सही उत्तर चमेली है"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "सही आर्टिकल चुणो। मँ एक _____ हाथी देखियो।",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "सही उत्तर 'an' है"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "कौणसो सबद विशेषण है?",
+        "options": [
+          "Tall",
+          "Walk",
+          "School",
+          "Friend"
+        ],
+        "answer": "Tall",
+        "feedback": "सही उत्तर लांबो है"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "कौणसो वाक्य भूतकाल मँ है?",
+        "options": [
+          "I play football.",
+          "I played football.",
+          "I am playing football.",
+          "I will play football."
+        ],
+        "answer": "I played football.",
+        "feedback": "सही उत्तर है: मँ फुटबॉल खेलियो हो।"
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "अस्पताल मँ कौणसो काम आवे है?",
+        "options": [
+          "Stethoscope",
+          "Hammer",
+          "Spade",
+          "Eraser"
+        ],
+        "answer": "Stethoscope",
+        "feedback": "सही उत्तर स्टेथोस्कोप है"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "कौणसो सबद वाक्य पूरा करे है? रेलगाड़ी _____ बखत पर आई।",
         "options": [
           "on",
           "in",
           "at",
-          "by"
+          "over"
+        ],
+        "answer": "on",
+        "feedback": "सही उत्तर है on"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "कौणसो बहुवचन सही है?",
+        "options": [
+          "Childs",
+          "Children",
+          "Childes",
+          "Childrens"
+        ],
+        "answer": "Children",
+        "feedback": "सही उत्तर बाळकां है"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "कण कै सेंटेंस में कैपिटलाइजेशन (बड़ी एबीसीडी) सही है?",
+        "options": [
+          "india is my country.",
+          "India is my country.",
+          "india Is my country.",
+          "India is My country."
+        ],
+        "answer": "India is my country.",
+        "feedback": "सही उत्तर भारत म्हारो देश है।"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "खेती सू जुड़्योड़ो शब्द कण सा है?",
+        "options": [
+          "Tractor",
+          "Laptop",
+          "Television",
+          "Printer"
+        ],
+        "answer": "Tractor",
+        "feedback": "सही उत्तर ट्रैक्टर"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "सही शब्द चुणो। बाळको जोर-जोर सू _____ रयो है।",
+        "options": [
+          "cry",
+          "crying",
+          "cried",
+          "cries"
+        ],
+        "answer": "crying",
+        "feedback": "सही उत्तर रो रयो है"
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "कण कै सेंटेंस को मतलब सब सू अच्छो निकळै है?",
+        "options": [
+          "The fish climbed a tree.",
+          "The fish swims in water.",
+          "The fish drives a car.",
+          "The fish writes a letter."
+        ],
+        "answer": "The fish swims in water.",
+        "feedback": "सही उत्तर माछी पाणी में तैरे है।"
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "मजबूत को विलोम शब्द कौन सो है?",
+        "options": [
+          "Powerful",
+          "Weak",
+          "Healthy",
+          "Brave"
+        ],
+        "answer": "Weak",
+        "feedback": "सही उत्तर है कमजोर"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "विस्मयादिबोधक वाक्य के अंत में कौन सा विराम चिन्ह आवे है?",
+        "options": [
+          ".",
+          ",",
+          "!",
+          "?"
+        ],
+        "answer": "!",
+        "feedback": "सही उत्तर है !"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "वाक्य पूरा करो। म्हाने हमेसा सच _____ चाहीये।",
+        "options": [
+          "tell",
+          "hide",
+          "forget",
+          "break"
+        ],
+        "answer": "tell",
+        "feedback": "सही उत्तर है बोलनो"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: My name is Rahul. I enjoy reading books every evening.",
+        "word": "My name is Rahul. I enjoy reading books every evening."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The children are playing football in the school playground.",
+        "word": "The children are playing football in the school playground."
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: My mother prepares healthy food for our family every day.",
+        "word": "My mother prepares healthy food for our family every day."
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The bus arrived on time, so everyone reached school early.",
+        "word": "The bus arrived on time, so everyone reached school early."
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: We should drink clean water to stay healthy and active.",
+        "word": "We should drink clean water to stay healthy and active."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The farmer works hard to grow fresh fruits and vegetables.",
+        "word": "The farmer works hard to grow fresh fruits and vegetables."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Rita helped her grandmother carry groceries from the market.",
+        "word": "Rita helped her grandmother carry groceries from the market."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The weather is pleasant today, so we decided to visit the park.",
+        "word": "The weather is pleasant today, so we decided to visit the park."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: My teacher encourages us to ask questions and learn new things.",
+        "word": "My teacher encourages us to ask questions and learn new things."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Trees provide fresh air, shade, and homes for many birds.",
+        "word": "Trees provide fresh air, shade, and homes for many birds."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Every morning, I wake up early and exercise for thirty minutes.",
+        "word": "Every morning, I wake up early and exercise for thirty minutes."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The doctor advised the patient to eat healthy food and rest well.",
+        "word": "The doctor advised the patient to eat healthy food and rest well."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Our library has many interesting books about science, history, and nature.",
+        "word": "Our library has many interesting books about science, history, and nature."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Always wear a helmet while riding a bicycle to stay safe.",
+        "word": "Always wear a helmet while riding a bicycle to stay safe."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The train was delayed because of heavy rainfall during the night.",
+        "word": "The train was delayed because of heavy rainfall during the night."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Students should complete their homework before watching television.",
+        "word": "Students should complete their homework before watching television."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The shopkeeper greeted every customer with a warm smile.",
+        "word": "The shopkeeper greeted every customer with a warm smile."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Saving electricity helps protect the environment and reduces electricity bills.",
+        "word": "Saving electricity helps protect the environment and reduces electricity bills."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Our school organized a tree plantation drive on Environment Day.",
+        "word": "Our school organized a tree plantation drive on Environment Day."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Honesty and kindness help us build strong friendships with others.",
+        "word": "Honesty and kindness help us build strong friendships with others."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The computer helps us learn, communicate, and solve many problems.",
+        "word": "The computer helps us learn, communicate, and solve many problems."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Reading newspapers every day improves vocabulary and general knowledge.",
+        "word": "Reading newspapers every day improves vocabulary and general knowledge."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Good communication skills help people succeed in school and at work.",
+        "word": "Good communication skills help people succeed in school and at work."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Learning a new language helps us understand different cultures and traditions.",
+        "word": "Learning a new language helps us understand different cultures and traditions."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Regular practice and determination help every learner achieve success.",
+        "word": "Regular practice and determination help every learner achieve success."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: राम-राम सा",
+        "answer": "Good afternoon",
+        "feedback": "वाक्यांश था: Good afternoon"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: चौखा पाणी",
+        "answer": "Clean water",
+        "feedback": "वाक्यांश था: Clean water"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: तयार भोजन",
+        "answer": "Healthy food",
+        "feedback": "वाक्यांश था: Healthy food"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: उघाड़ी खिड़की",
+        "answer": "Open window",
+        "feedback": "वाक्यांश था: Open window"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: दरवाजो बंद करो",
+        "answer": "Close gate",
+        "feedback": "वाक्यांश था: Close gate"
+      },
+      {
+        "id": 56,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: ध्यान सू पढ़ो",
+        "answer": "Read carefully",
+        "feedback": "वाक्यांश था: Read carefully"
+      },
+      {
+        "id": 57,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: साफ-साफ बोलो",
+        "answer": "Speak clearly",
+        "feedback": "वाक्यांश था: Speak clearly"
+      },
+      {
+        "id": 58,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: मिल-जुल कर काम करो",
+        "answer": "Work together",
+        "feedback": "वाक्यांश था: Work together"
+      },
+      {
+        "id": 59,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: बिजली बचाओ",
+        "answer": "Save electricity",
+        "feedback": "वाक्यांश था: Save electricity"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: पेड़ लगाओ",
+        "answer": "Plant trees",
+        "feedback": "वाक्यांश था: Plant trees"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: दूसरां री मदद करो",
+        "answer": "Help others",
+        "feedback": "वाक्यांश था: Help others"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: नियम पालना करो",
+        "answer": "Follow rules",
+        "feedback": "वाक्यांश था: Follow rules"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: हंसता रहो",
+        "answer": "Keep smiling",
+        "feedback": "वाक्यांश था: Keep smiling"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: रोज पढ़ाई करो",
+        "answer": "Study regularly",
+        "feedback": "वाक्यांश था: Study regularly"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: सकारात्मक सोचो",
+        "answer": "Think positively",
+        "feedback": "वाक्यांश था: Think positively"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: जल्दी पहुँचो",
+        "answer": "Arrive early",
+        "feedback": "वाक्यांश था: Arrive early"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: सब्जियाँ धोओ",
+        "answer": "Wash vegetables",
+        "feedback": "वाक्यांश था: Wash vegetables"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: बड़ों का आदर करो",
+        "answer": "Respect elders",
+        "feedback": "वाक्यांश था: Respect elders"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: हेलमेट पहनो",
+        "answer": "Use helmet",
+        "feedback": "वाक्यांश था: Use helmet"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: ध्यान केंद्रित रखो",
+        "answer": "Stay focused",
+        "feedback": "वाक्यांश था: Stay focused"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: रोज़ कुछ सीखो",
+        "answer": "Learn daily",
+        "feedback": "वाक्यांश था: Learn daily"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: अपना गृहकार्य पूरा करो",
+        "answer": "Finish homework",
+        "feedback": "वाक्यांश था: Finish homework"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: ज्ञान बाँटो",
+        "answer": "Share knowledge",
+        "feedback": "वाक्यांश था: Share knowledge"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: बोलने का अभ्यास करो",
+        "answer": "Practice speaking",
+        "feedback": "वाक्यांश था: Practice speaking"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: खुद पर भरोसा रखो",
+        "answer": "Believe yourself",
+        "feedback": "वाक्यांश था: Believe yourself"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: She _____ to school every day.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "gone"
+        ],
+        "answer": "goes",
+        "feedback": "सही उत्तर है: goes"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: They _____ football yesterday.",
+        "options": [
+          "play",
+          "played",
+          "plays",
+          "playing"
+        ],
+        "answer": "played",
+        "feedback": "सही उत्तर है: played"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: I _____ my homework every evening.",
+        "options": [
+          "do",
+          "does",
+          "did",
+          "doing"
+        ],
+        "answer": "do",
+        "feedback": "सही उत्तर है: do"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: We _____ going to the market tomorrow.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "सही उत्तर है: are"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Choose the correct article. I saw _____ owl in the tree.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "सही उत्तर है: an"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: The books are _____ the table.",
+        "options": [
+          "in",
+          "on",
+          "under",
+          "between"
         ],
         "answer": "on",
         "feedback": "सही उत्तर है: on"
       },
       {
-        "id": 305,
+        "id": 82,
         "type": "Grammar",
-        "text": "खाली जगह भरो: She ___ speaking French.",
+        "text": "रिक्त स्थान भरें: My father _____ a car.",
+        "options": [
+          "drive",
+          "drives",
+          "driving",
+          "driven"
+        ],
+        "answer": "drives",
+        "feedback": "सही उत्तर है: drives"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: We _____ lunch at 1 p.m.",
+        "options": [
+          "eat",
+          "eats",
+          "eating",
+          "ate"
+        ],
+        "answer": "eat",
+        "feedback": "सही उत्तर है: eat"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Choose the correct pronoun. Riya is absent. _____ is sick.",
+        "options": [
+          "He",
+          "She",
+          "They",
+          "It"
+        ],
+        "answer": "She",
+        "feedback": "सही उत्तर है: She"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: I _____ a movie last night.",
+        "options": [
+          "watch",
+          "watched",
+          "watches",
+          "watching"
+        ],
+        "answer": "watched",
+        "feedback": "सही उत्तर है: watched"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Which sentence is correct?",
+        "options": [
+          "He don't like tea.",
+          "He doesn't like tea.",
+          "He not like tea.",
+          "He didn't likes tea."
+        ],
+        "answer": "He doesn't like tea.",
+        "feedback": "सही उत्तर है: He doesn't like tea."
+      },
+      {
+        "id": 87,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Choose the correct conjunction. I was tired, _____ I finished my work.",
+        "options": [
+          "but",
+          "or",
+          "because",
+          "if"
+        ],
+        "answer": "but",
+        "feedback": "सही उत्तर है: but"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: They _____ in Jaipur.",
+        "options": [
+          "lives",
+          "live",
+          "living",
+          "lived"
+        ],
+        "answer": "live",
+        "feedback": "सही उत्तर है: live"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: My sister is _____ engineer.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "सही उत्तर है: an"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: We should _____ honest.",
         "options": [
           "is",
-          "am",
+          "be",
           "are",
-          "be"
+          "being"
         ],
-        "answer": "is",
-        "feedback": "सही उत्तर है: is"
+        "answer": "be",
+        "feedback": "सही उत्तर है: be"
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: The children _____ happily in the park.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "answer": "play",
+        "feedback": "सही उत्तर है: play"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Which word correctly completes the sentence? Please sit _____ me.",
+        "options": [
+          "beside",
+          "inside",
+          "above",
+          "behind"
+        ],
+        "answer": "beside",
+        "feedback": "सही उत्तर है: beside"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: She _____ English very well.",
+        "options": [
+          "speak",
+          "speaks",
+          "speaking",
+          "spoken"
+        ],
+        "answer": "speaks",
+        "feedback": "सही उत्तर है: speaks"
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Choose the correct sentence.",
+        "options": [
+          "There are five apples.",
+          "There is five apples.",
+          "There am five apples.",
+          "There be five apples."
+        ],
+        "answer": "There are five apples.",
+        "feedback": "सही उत्तर है: There are five apples."
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: I _____ to visit my grandparents next week.",
+        "options": [
+          "am going",
+          "was going",
+          "going",
+          "goes"
+        ],
+        "answer": "am going",
+        "feedback": "सही उत्तर है: am going"
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Which sentence is in the future tense?",
+        "options": [
+          "I play cricket.",
+          "I played cricket.",
+          "I will play cricket.",
+          "I am played cricket."
+        ],
+        "answer": "I will play cricket.",
+        "feedback": "सही उत्तर है: I will play cricket."
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Fill in the blank. The teacher gave _____ homework.",
+        "options": [
+          "us",
+          "we",
+          "our",
+          "ours"
+        ],
+        "answer": "us",
+        "feedback": "सही उत्तर है: us"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Choose the correct punctuation. _____ are you today?",
+        "options": [
+          "!",
+          ".",
+          "?",
+          ","
+        ],
+        "answer": "?",
+        "feedback": "सही उत्तर है: ?"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Which sentence is grammatically correct?",
+        "options": [
+          "She can sings.",
+          "She can sing.",
+          "She can singing.",
+          "She can sang."
+        ],
+        "answer": "She can sing.",
+        "feedback": "सही उत्तर है: She can sing."
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Complete the sentence. Everyone should _____ the environment.",
+        "options": [
+          "protect",
+          "protects",
+          "protected",
+          "protecting"
+        ],
+        "answer": "protect",
+        "feedback": "सही उत्तर है: protect"
       }
     ],
     "Puzzle": [
       {
-        "id": 326,
+        "id": 101,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "store",
-          "She",
-          "went",
-          "the",
-          "to"
+        "text": "अलग पड़तो पद चुणो।",
+        "options": [
+          "Rose",
+          "Lotus",
+          "Mango",
+          "Lily"
         ],
-        "answer": "She went to the store",
-        "feedback": "सही उत्तर है: She went to the store"
+        "answer": "Mango",
+        "feedback": "सही उत्तर है: Mango"
       },
       {
-        "id": 327,
+        "id": 102,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "brother",
-          "than",
-          "taller",
-          "He",
-          "is",
-          "his"
+        "text": "क्रम पूरा करो। ५, १०, १५, २०, __",
+        "options": [
+          "22",
+          "25",
+          "30",
+          "35"
         ],
-        "answer": "He is taller than his brother",
-        "feedback": "सही उत्तर है: He is taller than his brother"
+        "answer": "25",
+        "feedback": "सही उत्तर है: 25"
       },
       {
-        "id": 328,
+        "id": 103,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "Monday",
-          "arrive",
-          "on",
-          "They",
-          "will"
+        "text": "कण सा शब्द मेल नी खावे?",
+        "options": [
+          "Doctor",
+          "Nurse",
+          "Teacher",
+          "Banana"
         ],
-        "answer": "They will arrive on Monday",
-        "feedback": "सही उत्तर है: They will arrive on Monday"
+        "answer": "Banana",
+        "feedback": "सही उत्तर है: Banana"
       },
       {
-        "id": 329,
+        "id": 104,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "already",
-          "have",
+        "text": "गुम होयो अक्षर ढूंढो। ए, सी, ई, जी, __",
+        "options": [
+          "H",
           "I",
-          "eaten"
+          "J",
+          "K"
         ],
-        "answer": "I have already eaten",
-        "feedback": "सही उत्तर है: I have already eaten"
+        "answer": "I",
+        "feedback": "सही उत्तर है: I"
       },
       {
-        "id": 330,
+        "id": 105,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "speaking",
-          "is",
-          "She",
-          "French"
+        "text": "जे आज सोमवार है, तौ पछै दो दिना पछे कण सो वार आवे?",
+        "options": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
         ],
-        "answer": "She is speaking French",
-        "feedback": "सही उत्तर है: She is speaking French"
+        "answer": "Thursday",
+        "feedback": "सही उत्तर है: Thursday"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "कण सो नंबर सब ऊंचो है?",
+        "options": [
+          "48",
+          "62",
+          "79",
+          "57"
+        ],
+        "answer": "79",
+        "feedback": "सही उत्तर है: 79"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "अलग पड़तो पद चुणो।",
+        "options": [
+          "Bus",
+          "Train",
+          "Bicycle",
+          "Refrigerator"
+        ],
+        "answer": "Refrigerator",
+        "feedback": "सही उत्तर है: Refrigerator"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "पैटर्न पूरा करो। 2, 6, 10, 14, __",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
+        "answer": "18",
+        "feedback": "सही उत्तर है: 18"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "समय नापने के लिए किस चीज़ को काम में लिया जावे है?",
+        "options": [
+          "Scale",
+          "Clock",
+          "Thermometer",
+          "Compass"
+        ],
+        "answer": "Clock",
+        "feedback": "सही उत्तर है: Clock"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "कौन्सा शब्द रो मतलब शुरू करण जिओ ही है?",
+        "options": [
+          "End",
+          "Start",
+          "Stop",
+          "Finish"
+        ],
+        "answer": "Start",
+        "feedback": "सही उत्तर है: Start"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "वर्णमाला पैटर्न पूरा करो। Z, X, V, T, __",
+        "options": [
+          "R",
+          "Q",
+          "P",
+          "S"
+        ],
+        "answer": "R",
+        "feedback": "सही उत्तर है: R"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "कौन्सो सब सू ननो है?",
+        "options": [
+          "Kilogram",
+          "Gram",
+          "Ton",
+          "Quintal"
+        ],
+        "answer": "Gram",
+        "feedback": "सही उत्तर है: Gram"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "कौण सो जोडो संबंधित है?",
+        "options": [
+          "Pen : Write",
+          "Chair : Eat",
+          "Book : Drive",
+          "Spoon : Read"
+        ],
+        "answer": "Pen : Write",
+        "feedback": "सही उत्तर है: Pen : Write"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "अगली संख्या बताओ। 3, 6, 9, 12, __",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "15",
+        "feedback": "सही उत्तर है: 15"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "कौण सो जानवर अंडा देवै?",
+        "options": [
+          "Cow",
+          "Hen",
+          "Goat",
+          "Dog"
+        ],
+        "answer": "Hen",
+        "feedback": "सही उत्तर है: Hen"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "अलग पड़तो पद चुणो।",
+        "options": [
+          "January",
+          "March",
+          "Friday",
+          "June"
+        ],
+        "answer": "Friday",
+        "feedback": "सही उत्तर है: Friday"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "कौण सा शब्द संबंध ने पूरो करै? पक्षी : घोंसलो :: मधुमक्खी : _____",
+        "options": [
+          "Hive",
+          "Tree",
+          "River",
+          "House"
+        ],
+        "answer": "Hive",
+        "feedback": "सही उत्तर है: Hive"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "कौण सी आकृति की चार एक जैसी भुजा होवै?",
+        "options": [
+          "Circle",
+          "Triangle",
+          "Square",
+          "Oval"
+        ],
+        "answer": "Square",
+        "feedback": "सही उत्तर है: Square"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "क्रम ने पूरो करो। 100, 90, 80, 70, __",
+        "options": [
+          "65",
+          "60",
+          "55",
+          "50"
+        ],
+        "answer": "60",
+        "feedback": "सही उत्तर है: 60"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "कौण सो सबद अलग है?",
+        "options": [
+          "Apple",
+          "Orange",
+          "Carrot",
+          "Grapes"
+        ],
+        "answer": "Carrot",
+        "feedback": "सही उत्तर है: Carrot"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "जे घड़ी में 3:00 बज्या है, तो मिनट वाली सुई किण आड़े जावेगी?",
+        "options": [
+          "3",
+          "6",
+          "12",
+          "9"
+        ],
+        "answer": "12",
+        "feedback": "सही उत्तर है: 12"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "इण के बाद काई आवेला? लाल, नारंगी, पीलो, __",
+        "options": [
+          "Blue",
+          "Green",
+          "Black",
+          "White"
+        ],
+        "answer": "Green",
+        "feedback": "सही उत्तर है: Green"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "बातचीत करण वास्ते किण चीज को उपयोग करियो जावे है?",
+        "options": [
+          "Mobile Phone",
+          "Plate",
+          "Pillow",
+          "Shoe"
+        ],
+        "answer": "Mobile Phone",
+        "feedback": "सही उत्तर है: Mobile Phone"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "छूट्योडो अंक ढूंडो। 4, 8, 12, 16, __",
+        "options": [
+          "18",
+          "20",
+          "22",
+          "24"
+        ],
+        "answer": "20",
+        "feedback": "सही उत्तर है: 20"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "इण संबंध ने कुणसो शब्द पूरो करे है? शिक्षक : स्कूल :: डॉक्टर : _____",
+        "options": [
+          "Market",
+          "Hospital",
+          "Library",
+          "Office"
+        ],
+        "answer": "Hospital",
+        "feedback": "सही उत्तर है: Hospital"
       }
     ]
   },
   "Advanced": {
     "MCQ": [
       {
-        "id": 401,
+        "id": 1,
         "type": "MCQ",
-        "text": "अनुवाद करो: Environment",
+        "text": "सही व्याकरण वालो वाक्य चुणो।",
         "options": [
-          "पर्यावरण",
-          "Economy",
-          "Society",
-          "Politics"
+          "She don't like coffee.",
+          "She doesn't like coffee.",
+          "She not likes coffee.",
+          "She isn't like coffee."
         ],
-        "answer": "पर्यावरण",
-        "feedback": "सही उत्तर है: पर्यावरण"
+        "answer": "She doesn't like coffee.",
+        "feedback": "Sahi jawab hai Voh coffee pasand nahi kare hai."
       },
       {
-        "id": 402,
+        "id": 2,
         "type": "MCQ",
-        "text": "अनुवाद करो: Economy",
+        "text": "\"Rapid\" (tej) ro samarthak shabd (synonym) kounso hai?",
         "options": [
-          "अर्थव्यवस्था",
-          "History",
-          "Math",
-          "Science"
+          "Slow",
+          "Fast",
+          "Weak",
+          "Quiet"
         ],
-        "answer": "अर्थव्यवस्था",
-        "feedback": "सही उत्तर है: अर्थव्यवस्था"
+        "answer": "Fast",
+        "feedback": "सही उत्तर तेज है"
       },
       {
-        "id": 403,
+        "id": 3,
         "type": "MCQ",
-        "text": "खाली जगह भरो: Synonym for 'meticulous'",
+        "text": "सही वाक्य चुणो।",
         "options": [
-          "careful",
-          "careless",
-          "fast",
-          "slow"
+          "The children was playing.",
+          "The children were playing.",
+          "The children is playing.",
+          "The children am playing."
         ],
-        "answer": "careful",
-        "feedback": "सही उत्तर है: careful"
+        "answer": "The children were playing.",
+        "feedback": "Sahi jawab hai Bachha khel raiyaa haa."
       },
       {
-        "id": 404,
+        "id": 4,
         "type": "MCQ",
-        "text": "खाली जगह भरो: Meaning of 'ubiquitous'",
+        "text": "Kounso shabd vaakya ne pooro kare hai? Scientific ne experiment ke vaghat ek mahatvapurna _____ kiyo.",
         "options": [
-          "everywhere",
-          "nowhere",
-          "rare",
-          "unique"
+          "discovery",
+          "dinner",
+          "journey",
+          "holiday"
         ],
-        "answer": "everywhere",
-        "feedback": "सही उत्तर है: everywhere"
+        "answer": "discovery",
+        "feedback": "Sahi jawab hai khoj (discovery)"
       },
       {
-        "id": 405,
+        "id": 5,
         "type": "MCQ",
-        "text": "खाली जगह भरो: Adverb is ___",
+        "text": "Generous (udar) ro virodhi shabd kounso hai?",
         "options": [
+          "Kind",
+          "Selfish",
+          "Friendly",
+          "Helpful"
+        ],
+        "answer": "Selfish",
+        "feedback": "Sahi jawab hai Matlabi (Selfish)"
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "कोनसो बाक्य भविष्य काल में है?",
+        "options": [
+          "I completed my work.",
+          "I am completing my work.",
+          "I will complete my work.",
+          "I complete my work."
+        ],
+        "answer": "I will complete my work.",
+        "feedback": "Sahi jawab hai Main maro kaam pooro kar lola."
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "सही स्पेलिंग वालो शब्द चुणो।",
+        "options": [
+          "Environment",
+          "Enviroment",
+          "Envirnment",
+          "Environmant"
+        ],
+        "answer": "Environment",
+        "feedback": "सही उत्तर पर्यावरण है"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "कौणसो सबद विशेषण है?",
+        "options": [
+          "Beautiful",
+          "Beauty",
+          "Beautify",
+          "Beautifully"
+        ],
+        "answer": "Beautiful",
+        "feedback": "सही उत्तर सुंदर है"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "वाक्य पढ़ो। राहुल घनी मेहनत करी, इण वास्ते वा इम्तिहान पास कर लीयो। राहुल क्यों पास हुयो?",
+        "options": [
+          "He was lucky.",
+          "He studied hard.",
+          "He copied answers.",
+          "He missed the exam."
+        ],
+        "answer": "He studied hard.",
+        "feedback": "सही उत्तर है वा घनी मेहनत करी।"
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "कौण सा वाक्य में विराम चिन्ह सही लाग्यो है?",
+        "options": [
+          "What is your name?",
+          "What is your name.",
+          "What is your name!",
+          "What is your name,"
+        ],
+        "answer": "What is your name?",
+        "feedback": "सही उत्तर है थारो नाम काई है?"
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "\"ईमानदार\" को सही मतलब चुणो।",
+        "options": [
+          "Always tells the truth.",
+          "Speaks loudly.",
+          "Runs quickly.",
+          "Works slowly."
+        ],
+        "answer": "Always tells the truth.",
+        "feedback": "सही उत्तर हमेशा सच बोलता है।"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "कौण सा शब्द वाक्य ने पूरा करे है? मौसम इत्तो _____ हो के सब जणा घर में ही रिया।",
+        "options": [
+          "pleasant",
+          "severe",
+          "peaceful",
+          "colorful"
+        ],
+        "answer": "severe",
+        "feedback": "सही उत्तर भयंकर है"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "कौण सो वाक्य कर्मवाच्य (पैसिव वॉइस) में है?",
+        "options": [
+          "The teacher praised the student.",
+          "The student was praised by the teacher.",
+          "The student praises the teacher.",
+          "The teacher is praising the student."
+        ],
+        "answer": "The student was praised by the teacher.",
+        "feedback": "सही उत्तर मास्टर जी स छात्र की तारीफ करी गई।"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "कौण सा शब्द योजक (कंजंक्शन) है?",
+        "options": [
+          "Because",
           "Quickly",
-          "Quick",
-          "Quicker",
-          "Quickest"
+          "House",
+          "Happy"
         ],
-        "answer": "Quickly",
-        "feedback": "सही उत्तर है: Quickly"
+        "answer": "Because",
+        "feedback": "सही उत्तर क्यूंकी"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "कठौ वाक्य सही है?",
+        "options": [
+          "Everyone have finished.",
+          "Everyone has finished.",
+          "Everyone are finished.",
+          "Everyone were finished."
+        ],
+        "answer": "Everyone has finished.",
+        "feedback": "सही उत्तर सब जणा पूरा कर लिया है।"
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "madad karvabhe kaunsai shabad sachi juda hai?",
+        "options": [
+          "Help",
+          "Refuse",
+          "Ignore",
+          "Forget"
+        ],
+        "answer": "Help",
+        "feedback": "Sahi javab Madad hai"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "Vak pura karo. Je tme roj kaysrat karo cho, to tme _____ saro thase.",
+        "options": [
+          "become",
+          "became",
+          "becoming",
+          "becomes"
+        ],
+        "answer": "become",
+        "feedback": "Sahi javab thase hai"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "Kaunsai vak saval hai?",
+        "options": [
+          "Please sit down.",
+          "Where do you live?",
+          "I live in Jaipur.",
+          "Close the door."
+        ],
+        "answer": "Where do you live?",
+        "feedback": "Sahi javab Tme kyathe raho cho? hai"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "Sahi shabad chunyo. Vu ek _____ imandar manus hai.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "सही उत्तर 'an' है"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "कौण सा शब्द संज्ञा है?",
+        "options": [
+          "Courage",
+          "Courageous",
+          "Courageously",
+          "Encourage"
+        ],
+        "answer": "Courage",
+        "feedback": "Sahi javab Himmat hai"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "Vak padho. Company e ekhla karmachariyo ne inaam diyo jo pura varas me man lagaine kaam karyo. Karmachariyo ne shu mate inaam diyo?",
+        "options": [
+          "They worked diligently.",
+          "They were absent.",
+          "They resigned.",
+          "They arrived late."
+        ],
+        "answer": "They worked diligently.",
+        "feedback": "सही उत्तर वे मन लगाकर काम किया।"
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "कण सा वाक्य व्याकरण के हिसाब सूँ सही है?",
+        "options": [
+          "Neither of the boys are present.",
+          "Neither of the boys is present.",
+          "Neither of the boys were present.",
+          "Neither boys is present."
+        ],
+        "answer": "Neither of the boys is present.",
+        "feedback": "सही उत्तर है दोनों लड़कों में से कोई भी उपस्थित नहीं है।"
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "बढ़ाना (expand) को विलोम शब्द के हो?",
+        "options": [
+          "Increase",
+          "Extend",
+          "Reduce",
+          "Improve"
+        ],
+        "answer": "Reduce",
+        "feedback": "सही उत्तर है घटाना"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "कौण सा वाक्य सलाह बतावे है?",
+        "options": [
+          "You should drink enough water.",
+          "I drank enough water.",
+          "Drinking water.",
+          "Water is important."
+        ],
+        "answer": "You should drink enough water.",
+        "feedback": "सही उत्तर है थाने पर्य़ाप्त पाणी पीणो चाहीये।"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "वाक्य पूरा करो। नियमित पढ़बा सू थारो _____ अर बातचीत करबा री कला सुधरे है।",
+        "options": [
+          "vocabulary",
+          "furniture",
+          "journey",
+          "transport"
+        ],
+        "answer": "vocabulary",
+        "feedback": "सही उत्तर है शब्दावली"
       }
     ],
     "Reading": [
       {
-        "id": 426,
+        "id": 26,
         "type": "Reading",
-        "text": "जोर सूं पढ़ो: सतत विकास म्हाने भविष्य रे वास्ते जरूरी है।",
-        "word": "सतत विकास म्हाने भविष्य रे वास्ते जरूरी है।"
+        "text": "ज़ोर से पढ़ें: Every morning, I wake up early, exercise for thirty minutes, and then prepare for my day with a healthy breakfast.",
+        "word": "Every morning, I wake up early, exercise for thirty minutes, and then prepare for my day with a healthy breakfast."
       },
       {
-        "id": 427,
+        "id": 27,
         "type": "Reading",
-        "text": "जोर सूं पढ़ो: The hypothesis was confirmed.",
-        "word": "The hypothesis was confirmed."
+        "text": "ज़ोर से पढ़ें: Learning a new language improves communication skills, builds confidence, and helps people connect with different cultures.",
+        "word": "Learning a new language improves communication skills, builds confidence, and helps people connect with different cultures."
       },
       {
-        "id": 428,
+        "id": 28,
         "type": "Reading",
-        "text": "जोर सूं पढ़ो: Significant progress has been made.",
-        "word": "Significant progress has been made."
+        "text": "ज़ोर से पढ़ें: Technology has transformed education by providing students with access to digital resources, online courses, and interactive learning experiences.",
+        "word": "Technology has transformed education by providing students with access to digital resources, online courses, and interactive learning experiences."
       },
       {
-        "id": 429,
+        "id": 29,
         "type": "Reading",
-        "text": "जोर सूं पढ़ो: The implications are profound.",
-        "word": "The implications are profound."
+        "text": "ज़ोर से पढ़ें: Regular exercise, a balanced diet, and adequate sleep are essential for maintaining both physical and mental well-being.",
+        "word": "Regular exercise, a balanced diet, and adequate sleep are essential for maintaining both physical and mental well-being."
       },
       {
-        "id": 430,
+        "id": 30,
         "type": "Reading",
-        "text": "जोर सूं पढ़ो: It is undeniably true.",
-        "word": "It is undeniably true."
+        "text": "ज़ोर से पढ़ें: The librarian encouraged students to borrow books because reading regularly improves vocabulary, imagination, and critical thinking.",
+        "word": "The librarian encouraged students to borrow books because reading regularly improves vocabulary, imagination, and critical thinking."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: During the science exhibition, students confidently explained their innovative projects to teachers, parents, and visitors.",
+        "word": "During the science exhibition, students confidently explained their innovative projects to teachers, parents, and visitors."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The farmer adopted modern agricultural techniques to increase crop production while protecting the environment.",
+        "word": "The farmer adopted modern agricultural techniques to increase crop production while protecting the environment."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Although the weather forecast predicted heavy rain, the event continued because suitable arrangements had already been made.",
+        "word": "Although the weather forecast predicted heavy rain, the event continued because suitable arrangements had already been made."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Good leaders listen carefully, communicate clearly, and inspire others through their actions rather than only their words.",
+        "word": "Good leaders listen carefully, communicate clearly, and inspire others through their actions rather than only their words."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The healthcare team worked tirelessly throughout the night to provide timely treatment and ensure every patient received proper care.",
+        "word": "The healthcare team worked tirelessly throughout the night to provide timely treatment and ensure every patient received proper care."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Environmental conservation requires individuals, communities, and governments to work together toward sustainable development.",
+        "word": "Environmental conservation requires individuals, communities, and governments to work together toward sustainable development."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The museum displayed historical artifacts that helped visitors understand the rich cultural heritage of the country.",
+        "word": "The museum displayed historical artifacts that helped visitors understand the rich cultural heritage of the country."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Reading newspapers and reliable online articles every day helps people stay informed about current events around the world.",
+        "word": "Reading newspapers and reliable online articles every day helps people stay informed about current events around the world."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The software engineer solved a complex programming problem by carefully analyzing each step before writing the solution.",
+        "word": "The software engineer solved a complex programming problem by carefully analyzing each step before writing the solution."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Honesty, discipline, and perseverance are qualities that contribute significantly to long-term personal and professional success.",
+        "word": "Honesty, discipline, and perseverance are qualities that contribute significantly to long-term personal and professional success."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The teacher appreciated students who actively participated in classroom discussions and respected different opinions.",
+        "word": "The teacher appreciated students who actively participated in classroom discussions and respected different opinions."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Artificial intelligence is transforming education by creating personalized learning experiences for students with different abilities.",
+        "word": "Artificial intelligence is transforming education by creating personalized learning experiences for students with different abilities."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Public transportation helps reduce traffic congestion, saves fuel, and lowers environmental pollution in crowded cities.",
+        "word": "Public transportation helps reduce traffic congestion, saves fuel, and lowers environmental pollution in crowded cities."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Effective communication involves not only speaking clearly but also listening carefully and responding thoughtfully.",
+        "word": "Effective communication involves not only speaking clearly but also listening carefully and responding thoughtfully."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: The research team collected accurate data before drawing conclusions and presenting their findings to the audience.",
+        "word": "The research team collected accurate data before drawing conclusions and presenting their findings to the audience."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Volunteering in community service activities teaches responsibility, teamwork, empathy, and leadership skills.",
+        "word": "Volunteering in community service activities teaches responsibility, teamwork, empathy, and leadership skills."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: People who continuously learn new skills are often better prepared to adapt to changing technologies and workplace demands.",
+        "word": "People who continuously learn new skills are often better prepared to adapt to changing technologies and workplace demands."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Financial planning helps families manage expenses, save money for future goals, and prepare for unexpected situations.",
+        "word": "Financial planning helps families manage expenses, save money for future goals, and prepare for unexpected situations."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Despite facing several challenges, the young entrepreneur remained determined and eventually built a successful business.",
+        "word": "Despite facing several challenges, the young entrepreneur remained determined and eventually built a successful business."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "ज़ोर से पढ़ें: Education empowers individuals to make informed decisions, contribute positively to society, and improve their overall quality of life.",
+        "word": "Education empowers individuals to make informed decisions, contribute positively to society, and improve their overall quality of life."
       }
     ],
     "Writing": [
       {
-        "id": 451,
+        "id": 51,
         "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: अर्थव्यवस्था तेजी सूं बढ़ री है।",
-        "answer": "The economy is growing rapidly.",
-        "feedback": "सही अनुवाद है: The economy is growing rapidly."
+        "text": "अंग्रेजी में अनुवाद करें: गहरी सोच",
+        "answer": "Critical thinking",
+        "feedback": "वाक्यांश था: Critical thinking"
       },
       {
-        "id": 452,
+        "id": 52,
         "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: Environment",
-        "answer": "Environment",
-        "feedback": "सही अनुवाद है: Environment"
+        "text": "अंग्रेजी में अनुवाद करें: मिल-जुल काम करबो",
+        "answer": "Team spirit",
+        "feedback": "वाक्यांश था: Team spirit"
       },
       {
-        "id": 453,
+        "id": 53,
         "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: Sustainable",
-        "answer": "Sustainable",
-        "feedback": "सही अनुवाद है: Sustainable"
+        "text": "अंग्रेजी में अनुवाद करें: कम्प्यूटर-ज्ञान",
+        "answer": "Digital literacy",
+        "feedback": "वाक्यांश था: Digital literacy"
       },
       {
-        "id": 454,
+        "id": 54,
         "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: Development",
-        "answer": "Development",
-        "feedback": "सही अनुवाद है: Development"
+        "text": "अंग्रेजी में अनुवाद करें: समै रा प्रबंध",
+        "answer": "Time management",
+        "feedback": "वाक्यांश था: Time management"
       },
       {
-        "id": 455,
+        "id": 55,
         "type": "Writing",
-        "text": "अंग्रेजी में अनुवाद लिखो: Congratulations",
-        "answer": "Congratulations",
-        "feedback": "सही अनुवाद है: Congratulations"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 476,
-        "type": "Listening",
-        "audioText": "थारी सफलता माते बधाई।",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "Congratulations on your success.",
-        "feedback": "सही उत्तर है: Congratulations on your success."
+        "text": "अंग्रेजी में अनुवाद करें: सेहत भरी जिंदगी",
+        "answer": "Healthy lifestyle",
+        "feedback": "वाक्यांश था: Healthy lifestyle"
       },
       {
-        "id": 477,
-        "type": "Listening",
-        "audioText": "Environment",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "Environment",
-        "feedback": "सही उत्तर है: Environment"
+        "id": 56,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: मौसम मे बदलाव",
+        "answer": "Climate change",
+        "feedback": "वाक्यांश था: Climate change"
       },
       {
-        "id": 478,
-        "type": "Listening",
-        "audioText": "Sustainable",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "Sustainable",
-        "feedback": "सही उत्तर है: Sustainable"
+        "id": 57,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: रुपया-पैसा री योजना",
+        "answer": "Financial planning",
+        "feedback": "वाक्यांश था: Financial planning"
       },
       {
-        "id": 479,
-        "type": "Listening",
-        "audioText": "Development",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "Development",
-        "feedback": "सही उत्तर है: Development"
+        "id": 58,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: मुसीबत रो हल",
+        "answer": "Problem solving",
+        "feedback": "वाक्यांश था: Problem solving"
       },
       {
-        "id": 480,
-        "type": "Listening",
-        "audioText": "Hypothesis",
-        "text": "सुणो और अंग्रेजी में लिखो",
-        "answer": "Hypothesis",
-        "feedback": "सही उत्तर है: Hypothesis"
+        "id": 59,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: कम्प्यूटर री बुद्धी",
+        "answer": "Artificial intelligence",
+        "feedback": "वाक्यांश था: Artificial intelligence"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: चोखो नजरियो",
+        "answer": "Positive attitude",
+        "feedback": "वाक्यांश था: Positive attitude"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: काम मे तरक्की",
+        "answer": "Career growth",
+        "feedback": "वाक्यांश था: Career growth"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: नेता बणबा रा गुण",
+        "answer": "Leadership skills",
+        "feedback": "वाक्यांश था: Leadership skills"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: समाज सेवा",
+        "answer": "Community service",
+        "feedback": "वाक्यांश था: Community service"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: पब्लिक स्पीकिंग",
+        "answer": "Public speaking",
+        "feedback": "वाक्यांश था: Public speaking"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: इमोशनल इंटेलिजेंस",
+        "answer": "Emotional intelligence",
+        "feedback": "वाक्यांश था: Emotional intelligence"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: डाटा एनालिसिस",
+        "answer": "Data analysis",
+        "feedback": "वाक्यांश था: Data analysis"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: ऑनलाइन लर्निंग",
+        "answer": "Online learning",
+        "feedback": "वाक्यांश था: Online learning"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: फैसला लेण",
+        "answer": "Decision making",
+        "feedback": "वाक्यांश था: Decision making"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: पर्यावरण सरंक्षण",
+        "answer": "Environmental protection",
+        "feedback": "वाक्यांश था: Environmental protection"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: ज्ञान बांटणो",
+        "answer": "Knowledge sharing",
+        "feedback": "वाक्यांश था: Knowledge sharing"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: खुद पर अनुशासन",
+        "answer": "Self discipline",
+        "feedback": "वाक्यांश था: Self discipline"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: लक्ष्य तय करणा",
+        "answer": "Goal setting",
+        "feedback": "वाक्यांश था: Goal setting"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: सृजनात्मक सोच",
+        "answer": "Creative mindset",
+        "feedback": "वाक्यांश था: Creative mindset"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: जिंदगीभर सीखणो",
+        "answer": "Lifelong learning",
+        "feedback": "वाक्यांश था: Lifelong learning"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "अंग्रेजी में अनुवाद करें: व्यावसायिक नैतिकता",
+        "answer": "Professional ethics",
+        "feedback": "वाक्यांश था: Professional ethics"
       }
     ],
     "Grammar": [
       {
-        "id": 501,
+        "id": 76,
         "type": "Grammar",
-        "text": "खाली जगह भरो: If I ___ known, I would have come.",
+        "text": "रिक्त स्थान भरें: By next year, she _____ her degree.",
         "options": [
-          "had",
-          "have",
-          "has",
-          "did"
+          "completes",
+          "completed",
+          "will complete",
+          "will have completed"
         ],
-        "answer": "had",
-        "feedback": "सही उत्तर है: had"
+        "answer": "will have completed",
+        "feedback": "सही उत्तर है: will have completed"
       },
       {
-        "id": 502,
+        "id": 77,
         "type": "Grammar",
-        "text": "खाली जगह भरो: By the time we arrived, they ___ left.",
+        "text": "रिक्त स्थान भरें: Neither of the students _____ absent today.",
         "options": [
-          "had",
-          "have",
-          "will have",
-          "are"
-        ],
-        "answer": "had",
-        "feedback": "सही उत्तर है: had"
-      },
-      {
-        "id": 503,
-        "type": "Grammar",
-        "text": "खाली जगह भरो: Not only ___ he late, but he also forgot his book.",
-        "options": [
-          "was",
-          "is",
+          "are",
           "were",
-          "did"
+          "is",
+          "have"
         ],
-        "answer": "was",
-        "feedback": "सही उत्तर है: was"
+        "answer": "is",
+        "feedback": "सही उत्तर है: is"
       },
       {
-        "id": 504,
+        "id": 78,
         "type": "Grammar",
-        "text": "खाली जगह भरो: I wish I ___ a car.",
+        "text": "रिक्त स्थान भरें: If I _____ enough money, I would buy a laptop.",
         "options": [
-          "had",
           "have",
-          "will have",
-          "am having"
+          "had",
+          "has",
+          "having"
         ],
         "answer": "had",
         "feedback": "सही उत्तर है: had"
       },
       {
-        "id": 505,
+        "id": 79,
         "type": "Grammar",
-        "text": "खाली जगह भरो: She speaks as if she ___ everything.",
+        "text": "रिक्त स्थान भरें: The meeting _____ by the manager yesterday.",
         "options": [
-          "knew",
-          "knows",
-          "know",
-          "knowing"
+          "conducts",
+          "conducted",
+          "was conducted",
+          "is conducting"
         ],
-        "answer": "knew",
-        "feedback": "सही उत्तर है: knew"
+        "answer": "was conducted",
+        "feedback": "सही उत्तर है: was conducted"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: She speaks English _____ than her brother.",
+        "options": [
+          "good",
+          "well",
+          "better",
+          "best"
+        ],
+        "answer": "better",
+        "feedback": "सही उत्तर है: better"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Choose the correct sentence.",
+        "options": [
+          "Everyone have submitted the report.",
+          "Everyone has submitted the report.",
+          "Everyone are submitting the report.",
+          "Everyone were submitting the report."
+        ],
+        "answer": "Everyone has submitted the report.",
+        "feedback": "सही उत्तर है: Everyone has submitted the report."
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: The teacher asked the students _____ quietly.",
+        "options": [
+          "sit",
+          "to sit",
+          "sitting",
+          "sat"
+        ],
+        "answer": "to sit",
+        "feedback": "सही उत्तर है: to sit"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Which sentence is in passive voice?",
+        "options": [
+          "The chef prepared the meal.",
+          "The meal was prepared by the chef.",
+          "The chef is preparing the meal.",
+          "The chef prepares meals."
+        ],
+        "answer": "The meal was prepared by the chef.",
+        "feedback": "सही उत्तर है: The meal was prepared by the chef."
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: If it rains tomorrow, we _____ at home.",
+        "options": [
+          "stayed",
+          "stay",
+          "will stay",
+          "staying"
+        ],
+        "answer": "will stay",
+        "feedback": "सही उत्तर है: will stay"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: The project must _____ before Friday.",
+        "options": [
+          "complete",
+          "be completed",
+          "completed",
+          "completing"
+        ],
+        "answer": "be completed",
+        "feedback": "सही उत्तर है: be completed"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: She has lived here _____ 2010.",
+        "options": [
+          "for",
+          "since",
+          "from",
+          "by"
+        ],
+        "answer": "since",
+        "feedback": "सही उत्तर है:  since"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: I am interested _____ learning new languages.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "with"
+        ],
+        "answer": "in",
+        "feedback": "सही उत्तर है: in"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: He is one of the best players _____ the team.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "over"
+        ],
+        "answer": "in",
+        "feedback": "सही उत्तर है: in"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Which sentence is correct?",
+        "options": [
+          "She enjoys to read.",
+          "She enjoys reading.",
+          "She enjoy reading.",
+          "She enjoyed read."
+        ],
+        "answer": "She enjoys reading.",
+        "feedback": "सही उत्तर है: She enjoys reading."
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: The train had already left before we _____ the station.",
+        "options": [
+          "reach",
+          "reached",
+          "reaches",
+          "reaching"
+        ],
+        "answer": "reached",
+        "feedback": "सही उत्तर है: reached"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Which modal verb expresses advice?",
+        "options": [
+          "Can",
+          "Should",
+          "May",
+          "Must"
+        ],
+        "answer": "Should",
+        "feedback": "सही उत्तर है: Should"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: \"I am busy,\" she said. Choose the correct indirect speech.",
+        "options": [
+          "She said that she was busy.",
+          "She said she is busy.",
+          "She says she was busy.",
+          "She told I am busy."
+        ],
+        "answer": "She said that she was busy.",
+        "feedback": "सही उत्तर है: She said that she was busy."
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: The students _____ preparing for the examination since morning.",
+        "options": [
+          "has been",
+          "have been",
+          "was",
+          "is"
+        ],
+        "answer": "have been",
+        "feedback": "सही उत्तर है: have been"
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Which sentence is grammatically correct?",
+        "options": [
+          "The news are interesting.",
+          "The news is interesting.",
+          "The news were interesting.",
+          "The news have interesting."
+        ],
+        "answer": "The news is interesting.",
+        "feedback": "सही उत्तर है: The news is interesting."
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: We look forward _____ you soon.",
+        "options": [
+          "meet",
+          "meeting",
+          "met",
+          "to meet"
+        ],
+        "answer": "meeting",
+        "feedback": "सही उत्तर है: meeting"
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Which sentence contains a relative pronoun?",
+        "options": [
+          "The boy who won the race is my cousin.",
+          "The boy runs fast.",
+          "The race was exciting.",
+          "My cousin is here."
+        ],
+        "answer": "The boy who won the race is my cousin.",
+        "feedback": "सही उत्तर है: The boy who won the race is my cousin."
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Hardly had the match started _____ it began to rain.",
+        "options": [
+          "when",
+          "than",
+          "then",
+          "while"
+        ],
+        "answer": "when",
+        "feedback": "सही उत्तर है: when"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Which word correctly completes the sentence? The manager spoke _____ during the presentation.",
+        "options": [
+          "confidence",
+          "confidently",
+          "confident",
+          "confidences"
+        ],
+        "answer": "confidently",
+        "feedback": "सही उत्तर है: confidently"
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Choose the correctly punctuated sentence.",
+        "options": [
+          "Yes I agree.",
+          "Yes, I agree.",
+          "Yes I, agree.",
+          "Yes; I agree"
+        ],
+        "answer": "Yes, I agree.",
+        "feedback": "सही उत्तर है: Yes, I agree."
+      },
+      {
+        "id": 101,
+        "type": "Grammar",
+        "text": "रिक्त स्थान भरें: Select the correct sentence.",
+        "options": [
+          "Each of the participants has received a certificate.",
+          "Each of the participants have received a certificate.",
+          "Each participants has received a certificate.",
+          "Each participant have received certificates."
+        ],
+        "answer": "Each of the participants has received a certificate.",
+        "feedback": "सही उत्तर है: Each of the participants has received a certificate."
       }
     ],
     "Puzzle": [
       {
-        "id": 526,
+        "id": 102,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "come",
-          "have",
-          "would",
-          "I",
-          "known",
-          "had",
-          "If",
-          "I"
+        "text": "क्रम पूरा करो। 3, 6, 12, 24, __",
+        "options": [
+          "36",
+          "42",
+          "48",
+          "54"
         ],
-        "answer": "If I had known I would have come",
-        "feedback": "सही उत्तर है: If I had known I would have come"
+        "answer": "48",
+        "feedback": "सही उत्तर है: 48"
       },
       {
-        "id": 527,
+        "id": 103,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "arrived",
-          "we",
-          "time",
-          "the",
-          "By",
-          "left",
-          "had",
-          "they"
+        "text": "अलग पड़तो पद चुणो।",
+        "options": [
+          "Keyboard",
+          "Monitor",
+          "Printer",
+          "Bicycle"
         ],
-        "answer": "By the time we arrived they had left",
-        "feedback": "सही उत्तर है: By the time we arrived they had left"
+        "answer": "Bicycle",
+        "feedback": "सही उत्तर है: Bicycle"
       },
       {
-        "id": 528,
+        "id": 104,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "late",
-          "he",
-          "was",
-          "only",
-          "Not"
+        "text": "किताब का संबंध पढ़ने से है वैसे ही पेन का संबंध _____ से है।",
+        "options": [
+          "Sleeping",
+          "Writing",
+          "Running",
+          "Cooking"
         ],
-        "answer": "Not only was he late",
-        "feedback": "सही उत्तर है: Not only was he late"
+        "answer": "Writing",
+        "feedback": "सही उत्तर है: Writing"
       },
       {
-        "id": 529,
+        "id": 105,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "car",
-          "a",
-          "had",
-          "I",
-          "wish",
-          "I"
+        "text": "वर्णमाला पैटर्न पूरा करें। A, D, G, J, __",
+        "options": [
+          "K",
+          "L",
+          "M",
+          "N"
         ],
-        "answer": "I wish I had a car",
-        "feedback": "सही उत्तर है: I wish I had a car"
+        "answer": "M",
+        "feedback": "सही उत्तर है: M"
       },
       {
-        "id": 530,
+        "id": 106,
         "type": "Puzzle",
-        "text": "सही क्रम में जमाओ",
-        "scrambled": [
-          "everything",
-          "knew",
-          "she",
-          "if",
-          "as",
-          "speaks",
-          "She"
+        "text": "कौन सी संख्या कोनी है? 5, 10, 20, 40, __",
+        "options": [
+          "50",
+          "60",
+          "70",
+          "80"
         ],
-        "answer": "She speaks as if she knew everything",
-        "feedback": "सही उत्तर है: She speaks as if she knew everything"
+        "answer": "80",
+        "feedback": "सही उत्तर है: 80"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "कौण सो सबद अलग है?",
+        "options": [
+          "Rose",
+          "Lotus",
+          "Tulip",
+          "Banana"
+        ],
+        "answer": "Banana",
+        "feedback": "सही उत्तर है: Banana"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "जेकर सगळा गुलाब फूल है अर सगळा फूल पौधा है, तो गुलाब एक _____ है।",
+        "options": [
+          "Fruit",
+          "Plant",
+          "Tree",
+          "Vegetable"
+        ],
+        "answer": "Plant",
+        "feedback": "सही उत्तर है: Plant"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "اگلو اکھر వెतको. Z, W, T, Q, __",
+        "options": [
+          "O",
+          "N",
+          "M",
+          "L"
+        ],
+        "answer": "N",
+        "feedback": "सही उत्तर है: N"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "कौण सी संख्या कनी मेल खावे?",
+        "options": [
+          "16",
+          "25",
+          "36",
+          "38"
+        ],
+        "answer": "38",
+        "feedback": "सही उत्तर है: 38"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "डॉक्टर रो सम्बन्ध हॉस्पिटल सूँ है, वेई तरियां टीचर रो सम्बन्ध _____ सूँ है।",
+        "options": [
+          "Library",
+          "School",
+          "Market",
+          "Office"
+        ],
+        "answer": "School",
+        "feedback": "सही उत्तर है: School"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "पैटर्न पूरो करो। 2, 5, 10, 17, 26, __",
+        "options": [
+          "35",
+          "37",
+          "39",
+          "41"
+        ],
+        "answer": "37",
+        "feedback": "सही उत्तर है: 37"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "अलग सबद ढूंढो।",
+        "options": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Moon"
+        ],
+        "answer": "Moon",
+        "feedback": "सही उत्तर है: Moon"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "कौण सा जोड़ा रो सम्बन्ध एक जैसो है? चाकू : काटणो",
+        "options": [
+          "Spoon : Drink",
+          "Brush : Paint",
+          "Chair : Sit",
+          "Fan : Air"
+        ],
+        "answer": "Brush : Paint",
+        "feedback": "सही उत्तर है: Brush : Paint"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "कौण सो शब्द समानता ने पूरी करै है? पक्षी : उड़णो :: मछली : _____",
+        "options": [
+          "Swim",
+          "Walk",
+          "Jump",
+          "Crawl"
+        ],
+        "answer": "Swim",
+        "feedback": "सही उत्तर है: Swim"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "आगे कै आईबै? सोमवार, बुधवार, शुक्रवार, _____",
+        "options": [
+          "Saturday",
+          "Sunday",
+          "Tuesday",
+          "Thursday"
+        ],
+        "answer": "Sunday",
+        "feedback": "सही उत्तर है: Sunday"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "अक्षरा ने दोबारा जमाओ। LEPAP",
+        "options": [
+          "Apple",
+          "Pepla",
+          "Pleap",
+          "Lapep"
+        ],
+        "answer": "Apple",
+        "feedback": "सही उत्तर है: Apple"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "कौण सी भिन्न सब सूं छोटी है?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5"
+        ],
+        "answer": "1/5",
+        "feedback": "सही उत्तर है: 1/5"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "जे काल मंगलवार होयो, तो कल कै दिन होवेलो?",
+        "options": [
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "answer": "Thursday",
+        "feedback": "सही उत्तर है: Thursday"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "क्रम पूरा करो। 100, 95, 90, 85, __",
+        "options": [
+          "75",
+          "80",
+          "82",
+          "78"
+        ],
+        "answer": "80",
+        "feedback": "सही उत्तर है: 80"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "कौण सी चीज किलोग्राम में मापी जावे है?",
+        "options": [
+          "Milk",
+          "Rice",
+          "Water",
+          "Juice"
+        ],
+        "answer": "Rice",
+        "feedback": "सही उत्तर है: Rice"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "छूटी री संख्या ढूंढो। 7, 14, 21, __, 35",
+        "options": [
+          "24",
+          "28",
+          "30",
+          "32"
+        ],
+        "answer": "28",
+        "feedback": "सही उत्तर है: 28"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "कौण सो एक नवीनीकरण ऊर्जा स्रोत है?",
+        "options": [
+          "Coal",
+          "Petrol",
+          "Solar Energy",
+          "Diesel"
+        ],
+        "answer": "Solar Energy",
+        "feedback": "सही उत्तर है: Solar Energy"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "'एंसिएंट' (ancient) रा सबसू पास को अर्थ कौण सो शब्द रो है?",
+        "options": [
+          "Modern",
+          "Old",
+          "Young",
+          "Future"
+        ],
+        "answer": "Old",
+        "feedback": "सही उत्तर है: Old"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "कौण सो सही क्रम है?",
+        "options": [
+          "Seed -> Tree -> Plant",
+          "Seed -> Plant -> Tree",
+          "Plant -> Seed -> Tree",
+          "Tree -> Seed -> Plant"
+        ],
+        "answer": "Seed -> Plant -> Tree",
+        "feedback": "सही उत्तर है: Seed -> Plant -> Tree"
+      },
+      {
+        "id": 126,
+        "type": "Puzzle",
+        "text": "एक किसान कड़ै 10 आम हैं। वह 4 आपा दोस्त ने देई देवै अर 6 अर ले लेवै। अब उण कड़ै कितरा आम हैं?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "14"
+        ],
+        "answer": "12",
+        "feedback": "सही उत्तर है: 12"
       }
     ]
   }

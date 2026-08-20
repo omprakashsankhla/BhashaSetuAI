@@ -13,11 +13,11 @@
 }
 
 .progress-modal-content {
-  background: #f4f6f8;
+  background: white;
   width: 90%;
   max-width: 800px;
   height: 85vh;
-  border-radius: 20px;
+  border-radius: 24px;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -33,7 +33,7 @@
   justify-content: space-between;
   padding: 1.5rem 2.5rem;
   background: white;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom: 1px solid #f1f5f9;
 }
 
 .progress-header h1 {
@@ -84,10 +84,11 @@
 
 .progress-card {
   background: white;
-  border-radius: 16px;
+  border-radius: 24px;
   box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
   overflow: hidden;
   padding: 1.5rem;
+  border: 1px solid #e2e8f0;
 }
 
 /* Stats Layout */
@@ -197,7 +198,7 @@
 .achievement-badge {
   background: #f8fafc;
   border: 1px solid #e2e8f0;
-  border-radius: 12px;
+  border-radius: 16px;
   padding: 1.2rem;
   display: flex;
   flex-direction: column;

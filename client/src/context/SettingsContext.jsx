@@ -15,9 +15,11 @@ export const SettingsProvider = ({ children }) => {
     autoPlayAudio: true,
     dailyReminders: true,
     weeklyReports: false,
-    appLanguage: 'en'
+    interface_language: 'en',
+    learning_language: 'hi'
   });
   const [loading, setLoading] = useState(true);
+  const [showLanguageModal, setShowLanguageModal] = useState(false);
 
   // Fetch settings from API
   useEffect(() => {
@@ -37,8 +39,13 @@ export const SettingsProvider = ({ children }) => {
         if (res.ok) {
           const data = await res.json();
           setSettings(data);
-          if (data.appLanguage && data.appLanguage !== i18n.language) {
-            i18n.changeLanguage(data.appLanguage);
+          
+          if (data.interface_language && data.interface_language !== i18n.language) {
+            i18n.changeLanguage(data.interface_language);
+          }
+          
+          if (data.needs_language_confirmation) {
+            setShowLanguageModal(true);
           }
         }
       } catch (err) {
@@ -65,7 +72,7 @@ export const SettingsProvider = ({ children }) => {
     const newSettings = { ...settings, [key]: value };
     setSettings(newSettings);
 
-    if (key === 'appLanguage') {
+    if (key === 'interface_language') {
       i18n.changeLanguage(value);
     }
 
@@ -87,7 +94,7 @@ export const SettingsProvider = ({ children }) => {
   };
 
   return (
-    <SettingsContext.Provider value={{ settings, updateSetting, loading }}>
+    <SettingsContext.Provider value={{ settings, updateSetting, loading, showLanguageModal, setShowLanguageModal }}>
       {children}
     </SettingsContext.Provider>
   );

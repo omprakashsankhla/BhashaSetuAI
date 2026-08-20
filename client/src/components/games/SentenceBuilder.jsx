@@ -25,7 +25,7 @@ const getSentenceData = (lang) => SENTENCE_DATA[lang] || SENTENCE_DATA['hi'] || 
 
 const SentenceBuilder = ({ onGameComplete }) => {
   const { i18n } = useTranslation();
-  const sentences = getSentenceData((JSON.parse(localStorage.getItem('user') || '{}').preferred_language || 'hi'));
+  const sentences = getSentenceData((JSON.parse(localStorage.getItem('user') || '{}').learning_language || 'hi'));
 
   const [currentIdx, setCurrentIdx] = useState(0);
   const [selectedWords, setSelectedWords] = useState([]);

@@ -60,7 +60,7 @@
     "dash_good_afternoon": "Good Afternoon",
     "dash_good_evening": "Good Evening",
     "dash_retake_assessment": "Retake Assessment",
-    "dash_day_streak": "{{count}} Day Streak",
+    "dash_day_streak": "Day Streak",
     "dash_rank": "Rank: {{rank}}",
     "dash_todays_goal": "Today's Goal",
     "dash_ai_recommendation": "AI Recommendation",
@@ -229,6 +229,62 @@
     "ach_coins_500_title": "Coin Collector",
     "ach_coins_500_desc": "Collect 500 BhashaSetu coins",
     "ach_course_complete_title": "Course Graduate",
-    "ach_course_complete_desc": "Complete 30 lessons"
+    "ach_course_complete_desc": "Complete 30 lessons",
+    "practice_lab": {
+      "title": "Personalized Practice Lab",
+      "desc": "Select specific focus exercises to strengthen your weak skills or start a mixed session.",
+      "strengthsTitle": "Skill Analysis",
+      "focusArea": "Special Attention Needed",
+      "modes": {
+        "reading": {
+          "title": "Reading Practice",
+          "desc": "Improve your reading comprehension and speed."
+        },
+        "writing": {
+          "title": "Writing & Grammar",
+          "desc": "Practice sentence formation and translation."
+        },
+        "speaking": {
+          "title": "Speaking & Pronunciation",
+          "desc": "Boost speaking accuracy and conversational flow."
+        },
+        "listening": {
+          "title": "Listening Practice",
+          "desc": "Improve auditory comprehension and writing from voice."
+        },
+        "mixed": {
+          "title": "Personalized Mixed Practice",
+          "desc": "Targeted mixed review session tailored to your weaknesses."
+        }
+      },
+      "backBtn": "Go Back"
+    },
+    "game_titles": {
+      "balloon-pop": "Balloon Pop Catcher",
+      "trace-letters": "Trace Master",
+      "sound-match": "Sound Matcher",
+      "fruit-catch": "Fruit Catcher",
+      "pic-bingo": "Picture Bingo",
+      "memory-flip": "Flash Memory Flip",
+      "sentence-builder": "Sentence Scrambler",
+      "sign-reader": "Speed Sign Reader",
+      "shop-keeper": "Bazaar Shopkeeper",
+      "crossword-clue": "Clue Crossword",
+      "tense-shift": "Tense Shift Connect",
+      "dialogue-puzzler": "Dialogue Puzzler",
+      "word-sprint": "Word Sprint Typer",
+      "echo-chamber": "Echo Tongue Twisters",
+      "text-detective": "Grammar Detective",
+      "speed-editor": "Editorial Speed Draft",
+      "debate-builder": "Debate Argument Builder",
+      "idiom-connect": "Idiom Connect"
+    },
+    "game_engine": {
+      "wellPlayed": "Well Played!",
+      "syncMsg": "Your game score and coins have been synchronized.",
+      "score": "SCORE",
+      "coins": "COINS EARNED",
+      "backBtn": "Back to Games Hub"
+    }
   }
 }

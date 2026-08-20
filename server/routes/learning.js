@@ -4,76 +4,36 @@ const db = require('../db');
 const fs = require('fs');
 const path = require('path');
 const { translateOrAdaptContent } = require('./translationHelper');
+const { recordAttempt } = require('../services/adaptiveLearningService');
+const { logAuditEvent } = require('../services/auditLogger');
+const { syncUserAnalytics } = require('../services/analyticsService');
 
 const router = express.Router();
 
-const verifyToken = (req, res, next) => {
-  const authHeader = req.headers['authorization'];
-  if (!authHeader) return res.status(403).json({ message: 'No token provided.' });
-
-  const token = authHeader.split(' ')[1];
-  jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
-    if (err) return res.status(401).json({ message: 'Unauthorized!' });
-    req.userId = decoded.user_id;
-    next();
-  });
-};
+const verifyToken = require('../middleware/auth');
+const languageContext = require('../middleware/languageContext');
+const lessonService = require('../services/lessonService');
 
 // Generate a random practice session
-router.get('/practice', verifyToken, async (req, res) => {
+router.get('/practice', verifyToken, languageContext, async (req, res) => {
   try {
-    const targetLang = req.query.lang || 'hi';
-    const interfaceLang = req.query.interfaceLang || 'en';
+    const targetLang = req.learningLanguage;
+    const lesson = { id: 'practice', title: 'Practice Mode', level: 'Beginner' };
     
-    // Fetch user level to customize the practice content
-    const [userRows] = await db.query('SELECT proficiency_level FROM Users WHERE user_id = ?', [req.userId]);
-    const userLevel = userRows[0]?.proficiency_level || 'Beginner';
-    
-    let levelPrefix = '';
-    if (userLevel === 'Intermediate') levelPrefix = '_intermediate';
-    if (userLevel === 'Advanced') levelPrefix = '_advanced';
+    // Get practice lesson directly from the caching service
+    const translatedData = await lessonService.getTranslatedLesson('practice', targetLang, req.interfaceLanguage);
 
-    const lesson = { id: 'practice', title: 'Practice Mode', level: userLevel };
-
-    // Always load from the master English lessons file
-    let lessonsFilePath = path.join(__dirname, '..', 'data', `lessons${levelPrefix}_en.json`);
-    
-    let activities = [];
-    
-    if (fs.existsSync(lessonsFilePath)) {
-      const allLessonsData = JSON.parse(fs.readFileSync(lessonsFilePath, 'utf8'));
-      // Collect all activities from all lessons
-      let allActivities = [];
-      allLessonsData.forEach(l => {
-        if (l.activities) allActivities = allActivities.concat(l.activities);
-      });
-      
-      // Shuffle and pick 40
-      allActivities = allActivities.sort(() => 0.5 - Math.random());
-      activities = allActivities.slice(0, 40);
-    }
-
-    if (activities.length === 0) {
-      activities = [
-        { id: 1, type: 'MCQ', text: `Identify the correct word in ${targetLang}`, options: ['A', 'B', 'C', 'D'], answer: 'A', feedback: 'Correct!' },
-        { id: 2, type: 'Reading', text: `Read this out loud.`, word: `Practice makes perfect.` }
-      ];
-    }
-
-    const translatedActivities = await translateOrAdaptContent(activities, targetLang, interfaceLang, 'lessons');
-
-    res.status(200).json({ lesson, activities: translatedActivities });
+    res.status(200).json({ lesson, activities: translatedData.activities });
   } catch (error) {
     console.error('Error in Practice Route:', error);
     res.status(500).json({ message: 'Error generating practice session' });
   }
 });
 
-router.get('/:lessonId', verifyToken, async (req, res) => {
+router.get('/:lessonId', verifyToken, languageContext, async (req, res) => {
   try {
     const { lessonId } = req.params;
-    const targetLang = req.query.lang || 'hi';
-    const interfaceLang = req.query.interfaceLang || 'en';
+    const targetLang = req.learningLanguage;
 
     // 1. Fetch the lesson details from the database
     const [lessonRows] = await db.query('SELECT * FROM Lessons WHERE lesson_id = ?', [lessonId]);
@@ -81,51 +41,28 @@ router.get('/:lessonId', verifyToken, async (req, res) => {
       return res.status(404).json({ message: 'Lesson not found' });
     }
     const lesson = lessonRows[0];
+
+    // Find 1-based sequence number of this lesson within its level based on user's progress path
+    const [userProgress] = await db.query(
+      `SELECT p.lesson_id FROM Progress p
+       JOIN Lessons l ON p.lesson_id = l.lesson_id
+       WHERE p.user_id = ? AND l.level = ?
+       ORDER BY p.progress_id ASC`,
+      [req.userId, lesson.level]
+    );
+    const seqIdx = userProgress.findIndex(l => l.lesson_id === lesson.lesson_id);
+    lesson.sequenceNumber = seqIdx !== -1 ? seqIdx + 1 : 1;
+
+    // 2. Fetch cached translation via LessonService
+    const translatedData = await lessonService.getTranslatedLesson(lessonId, targetLang, req.interfaceLanguage);
     
-    // Parse content_data to get the type
-    let lessonType = 'quiz';
-    try {
-      const contentData = JSON.parse(lesson.content_data);
-      if (contentData && contentData.type) lessonType = contentData.type;
-    } catch (e) {}
-
-    // Determine which file prefix to use based on level
-    let levelPrefix = '';
-    if (lesson.level === 'Intermediate') levelPrefix = '_intermediate';
-    if (lesson.level === 'Advanced') levelPrefix = '_advanced';
-
-    // Always load from the master English lessons file
-    let lessonsFilePath = path.join(__dirname, '..', 'data', `lessons${levelPrefix}_en.json`);
-    let activities = [];
-
-    if (fs.existsSync(lessonsFilePath)) {
-      const allLessonsData = JSON.parse(fs.readFileSync(lessonsFilePath, 'utf8'));
-      const lessonData = allLessonsData.find(l => l.title === lesson.title);
-      
-      if (lessonData && lessonData.activities && lessonData.activities.length > 0) {
-        activities = lessonData.activities;
-      }
-    }
+    const activities = translatedData ? translatedData.activities : [];
 
     if (activities.length === 0) {
-      activities = [
-        { id: 1, type: 'MCQ', text: `Question data missing for ${lesson.title}. Please provide JSON.`, options: ['A', 'B', 'C', 'D'], answer: 'A', feedback: 'Missing JSON data.' }
-      ];
+      activities.push({ id: 1, type: 'MCQ', text: `Question data missing.`, options: ['A', 'B'], answer: 'A', feedback: 'Missing JSON data.' });
     }
 
-    const translatedActivities = await translateOrAdaptContent(activities, targetLang, interfaceLang, 'lessons');
-
-    // Translate lesson metadata (title)
-    try {
-      const [translatedLessonMeta] = await translateOrAdaptContent([{ title: lesson.title }], targetLang, interfaceLang, 'lesson_meta');
-      if (translatedLessonMeta) {
-        lesson.title = translatedLessonMeta.title;
-      }
-    } catch (e) {
-      console.error('Failed to translate lesson title in learning.js:', e);
-    }
-
-    res.status(200).json({ lesson, activities: translatedActivities });
+    res.status(200).json({ lesson, activities });
 
   } catch (error) {
     console.error('Error in Learning Route:', error);
@@ -141,6 +78,7 @@ router.post('/:lessonId/complete', verifyToken, async (req, res) => {
     // Practice Completion Logic
     if (lessonId === 'practice') {
       await db.query(`UPDATE Users SET xp = xp + 10 WHERE user_id = ?`, [req.userId]);
+      await syncUserAnalytics(req.userId);
       return res.status(200).json({ message: 'Practice completed successfully', xpEarned: 10, coinsEarned: 0 });
     }
     
@@ -168,18 +106,27 @@ router.post('/:lessonId/complete', verifyToken, async (req, res) => {
       `UPDATE Progress SET status = 'completed', completed_at = NOW() WHERE user_id = ? AND lesson_id = ?`,
       [req.userId, lessonId]
     );
-
     // 2. Find the next sequential lesson for this user that is 'Not Started' and unlock it
     const [progressRows] = await db.query(
-      `SELECT progress_id FROM Progress WHERE user_id = ? AND status = 'Not Started' ORDER BY progress_id ASC LIMIT 1`,
+      `SELECT p.progress_id, l.level 
+       FROM Progress p 
+       JOIN Lessons l ON p.lesson_id = l.lesson_id 
+       WHERE p.user_id = ? AND p.status = 'Not Started' 
+       ORDER BY p.progress_id ASC LIMIT 1`,
       [req.userId]
     );
 
     if (progressRows.length > 0) {
       const nextProgressId = progressRows[0].progress_id;
+      const nextLevel = progressRows[0].level;
       await db.query(
         `UPDATE Progress SET status = 'In Progress' WHERE progress_id = ?`,
         [nextProgressId]
+      );
+      // Auto-update user's proficiency level when transitioning levels
+      await db.query(
+        `UPDATE Users SET proficiency_level = ? WHERE user_id = ?`,
+        [nextLevel, req.userId]
       );
     }
     
@@ -188,6 +135,9 @@ router.post('/:lessonId/complete', verifyToken, async (req, res) => {
       `UPDATE Users SET coins = coins + 10, xp = xp + 20 WHERE user_id = ?`,
       [req.userId]
     );
+    await syncUserAnalytics(req.userId);
+
+    await logAuditEvent(req.userId, 'LESSON_COMPLETE', { lessonId }, req.ip);
 
     res.status(200).json({ message: 'Lesson completed successfully', xpEarned: 20, coinsEarned: 10 });
   } catch (error) {
@@ -249,6 +199,9 @@ router.post('/progress/skill', verifyToken, async (req, res) => {
       'UPDATE Users SET skills_progress = ? WHERE user_id = ?',
       [JSON.stringify(skillsProgress), req.userId]
     );
+
+    // Persist structured attempts in normalized tables
+    await recordAttempt(req.userId, mappedSkill, isCorrect, 'general');
 
     res.status(200).json({ message: 'Skill progress updated', skillsProgress });
   } catch (error) {

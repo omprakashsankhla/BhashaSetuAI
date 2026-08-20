@@ -4,183 +4,661 @@
       {
         "id": 1,
         "type": "MCQ",
-        "text": "অনুবাদ করুন: Water",
+        "text": "A এর পরে কোন বর্ণটি আসে?",
         "options": [
-          "জল",
-          "Fire",
-          "Earth",
-          "Air"
+          "B",
+          "C",
+          "D",
+          "E"
         ],
-        "answer": "জল",
-        "feedback": "সঠিক উত্তর হল: জল"
+        "answer": "B",
+        "feedback": "সঠিক উত্তর হল B"
       },
       {
         "id": 2,
         "type": "MCQ",
-        "text": "অনুবাদ করুন: Food",
+        "text": "কোন শব্দটি ফল?",
         "options": [
-          "খাবার",
-          "Sleep",
-          "Walk",
-          "Run"
+          "Apple",
+          "Chair",
+          "Table",
+          "Book"
         ],
-        "answer": "খাবার",
-        "feedback": "সঠিক উত্তর হল: খাবার"
+        "answer": "Apple",
+        "feedback": "সঠিক উত্তর হল অ্যাপল"
       },
       {
         "id": 3,
         "type": "MCQ",
-        "text": "অনুবাদ করুন: Sun",
+        "text": "কোন শব্দ একটি প্রাণীর নাম?",
         "options": [
-          "সূর্য",
-          "Moon",
-          "Star",
-          "Cloud"
+          "Dog",
+          "Pen",
+          "Cup",
+          "Fan"
         ],
-        "answer": "সূর্য",
-        "feedback": "সঠিক উত্তর হল: সূর্য"
+        "answer": "Dog",
+        "feedback": "সঠিক উত্তর হল কুকুর"
       },
       {
         "id": 4,
         "type": "MCQ",
-        "text": "অনুবাদ করুন: House",
+        "text": "কোন বর্ণটি স্বরবর্ণ?",
         "options": [
-          "বাড়ি",
-          "Tree",
-          "Road",
-          "Car"
+          "B",
+          "C",
+          "A",
+          "D"
         ],
-        "answer": "বাড়ি",
-        "feedback": "সঠিক উত্তর হল: বাড়ি"
+        "answer": "A",
+        "feedback": "সঠিক উত্তর হল A"
       },
       {
         "id": 5,
         "type": "MCQ",
-        "text": "শূন্যস্থান পূরণ করুন: A ___ C",
+        "text": "কোন শব্দের অর্থ অভিবাদন?",
         "options": [
-          "B",
-          "D",
-          "E",
-          "F"
+          "Hello",
+          "Sleep",
+          "Eat",
+          "Jump"
         ],
-        "answer": "B",
-        "feedback": "সঠিক উত্তর হল: B"
+        "answer": "Hello",
+        "feedback": "সঠিক উত্তর হল হ্যালো"
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "9 এর পরে কোন সংখ্যাটি আসে?",
+        "options": [
+          "8",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "feedback": "সঠিক উত্তর হল 10"
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "লেখার জন্য কোন বস্তু ব্যবহার করা হয়?",
+        "options": [
+          "Pencil",
+          "Plate",
+          "Spoon",
+          "Bottle"
+        ],
+        "answer": "Pencil",
+        "feedback": "সঠিক উত্তর হল পেন্সিল"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "কোন শব্দটি একটি রঙ?",
+        "options": [
+          "Red",
+          "Ball",
+          "Mango",
+          "Bird"
+        ],
+        "answer": "Red",
+        "feedback": "সঠিক উত্তর হল লাল"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "কোন বাক্যটি সঠিক?",
+        "options": [
+          "I am happy.",
+          "Happy I am.",
+          "Am I happy.",
+          "Happy am."
+        ],
+        "answer": "I am happy.",
+        "feedback": "সঠিক উত্তর হল আমি খুশি।"
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "কোনটি শরীরের অঙ্গ?",
+        "options": [
+          "Hand",
+          "Chair",
+          "Cup",
+          "Bag"
+        ],
+        "answer": "Hand",
+        "feedback": "সঠিক উত্তর হাত"
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "বড় এর বিপরীত শব্দ কোনটি?",
+        "options": [
+          "Small",
+          "Long",
+          "Fast",
+          "Tall"
+        ],
+        "answer": "Small",
+        "feedback": "সঠিক উত্তর ছোট"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "কোনটি সপ্তাহের একটি দিন?",
+        "options": [
+          "Monday",
+          "January",
+          "Morning",
+          "Summer"
+        ],
+        "answer": "Monday",
+        "feedback": "সঠিক উত্তর সোমবার"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "কোনটি সবজি?",
+        "options": [
+          "Carrot",
+          "Mango",
+          "Banana",
+          "Orange"
+        ],
+        "answer": "Carrot",
+        "feedback": "সঠিক উত্তর হল গাজর"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "কোন প্রাণী \"ম্যাও\" বলে?",
+        "options": [
+          "Cat",
+          "Dog",
+          "Cow",
+          "Goat"
+        ],
+        "answer": "Cat",
+        "feedback": "সঠিক উত্তর হল বিড়াল"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "কোন শব্দ একটি পানীয়?",
+        "options": [
+          "Milk",
+          "Rice",
+          "Bread",
+          "Apple"
+        ],
+        "answer": "Milk",
+        "feedback": "সঠিক উত্তর হল দুধ"
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "জি এর আগে কোন অক্ষর আসে?",
+        "options": [
+          "F",
+          "E",
+          "H",
+          "I"
+        ],
+        "answer": "F",
+        "feedback": "সঠিক উত্তর হল F"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "কোনটি উড়ে যায়?",
+        "options": [
+          "Bird",
+          "Fish",
+          "Dog",
+          "Cow"
+        ],
+        "answer": "Bird",
+        "feedback": "সঠিক উত্তর হল বার্ড"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "স্কুলে কোন শব্দ ব্যবহৃত হয়?",
+        "options": [
+          "Book",
+          "Pillow",
+          "Stove",
+          "Bucket"
+        ],
+        "answer": "Book",
+        "feedback": "সঠিক উত্তর হল বই"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "কোন ঋতু সবচেয়ে উষ্ণ?",
+        "options": [
+          "Summer",
+          "Winter",
+          "Rainy",
+          "Autumn"
+        ],
+        "answer": "Summer",
+        "feedback": "সঠিক উত্তর হল গ্রীষ্ম"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "আপ এর বিপরীত শব্দ কোনটি?",
+        "options": [
+          "Down",
+          "Left",
+          "Right",
+          "Near"
+        ],
+        "answer": "Down",
+        "feedback": "সঠিক উত্তর হল নিচে"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "কোন বাক্যটি ভদ্র?",
+        "options": [
+          "Thank you.",
+          "Go away.",
+          "Be quiet.",
+          "No."
+        ],
+        "answer": "Thank you.",
+        "feedback": "সঠিক উত্তর হল ধন্যবাদ।"
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "কোন আকৃতির তিনটি বাহু আছে?",
+        "options": [
+          "Triangle",
+          "Square",
+          "Circle",
+          "Rectangle"
+        ],
+        "answer": "Triangle",
+        "feedback": "সঠিক উত্তর হল ত্রিভুজ"
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "সময় বলতে কোনটি ব্যবহৃত হয়?",
+        "options": [
+          "Clock",
+          "Plate",
+          "Pencil",
+          "Bag"
+        ],
+        "answer": "Clock",
+        "feedback": "সঠিক উত্তর হল ঘড়ি"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "কোনটি পরিবারের সদস্য?",
+        "options": [
+          "Mother",
+          "Teacher",
+          "Doctor",
+          "Driver"
+        ],
+        "answer": "Mother",
+        "feedback": "সঠিক উত্তর মা"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "কোন শব্দ বাক্যটি সম্পূর্ণ করে? আকাশ _____।",
+        "options": [
+          "Blue",
+          "Sweet",
+          "Hot",
+          "Soft"
+        ],
+        "answer": "Blue",
+        "feedback": "সঠিক উত্তর হল নীল"
       }
     ],
     "Reading": [
       {
         "id": 26,
         "type": "Reading",
-        "text": "জোরে পড়ুন: আমি আপেল পছন্দ করি।",
-        "word": "আমি আপেল পছন্দ করি।"
+        "text": "জোরে পড়ুন: I am Sam.",
+        "word": "I am Sam."
       },
       {
         "id": 27,
         "type": "Reading",
-        "text": "জোরে পড়ুন: Hello.",
-        "word": "Hello."
+        "text": "জোরে পড়ুন: This is a cat.",
+        "word": "This is a cat."
       },
       {
         "id": 28,
         "type": "Reading",
-        "text": "জোরে পড়ুন: Thank you.",
-        "word": "Thank you."
+        "text": "জোরে পড়ুন: The sun is hot.",
+        "word": "The sun is hot."
       },
       {
         "id": 29,
         "type": "Reading",
-        "text": "জোরে পড়ুন: Good boy.",
-        "word": "Good boy."
+        "text": "জোরে পড়ুন: I like milk.",
+        "word": "I like milk."
       },
       {
         "id": 30,
         "type": "Reading",
-        "text": "জোরে পড়ুন: Welcome.",
-        "word": "Welcome."
+        "text": "জোরে পড়ুন: She has a pen.",
+        "word": "She has a pen."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: We play daily.",
+        "word": "We play daily."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The bird can fly.",
+        "word": "The bird can fly."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: My bag is blue.",
+        "word": "My bag is blue."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: He is my friend.",
+        "word": "He is my friend."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Open the door.",
+        "word": "Open the door."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The dog is running.",
+        "word": "The dog is running."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: I wash my hands.",
+        "word": "I wash my hands."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The flowers smell nice.",
+        "word": "The flowers smell nice."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: My school is nearby.",
+        "word": "My school is nearby."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: We drink clean water.",
+        "word": "We drink clean water."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The moon shines at night.",
+        "word": "The moon shines at night."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Please close the window.",
+        "word": "Please close the window."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Children are playing happily.",
+        "word": "Children are playing happily."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The farmer grows vegetables.",
+        "word": "The farmer grows vegetables."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: I enjoy reading books.",
+        "word": "I enjoy reading books."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: My family eats dinner together.",
+        "word": "My family eats dinner together."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Always speak with kindness.",
+        "word": "Always speak with kindness."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Practice makes us better.",
+        "word": "Practice makes us better."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Every day is a new beginning.",
+        "word": "Every day is a new beginning."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Learning opens many opportunities.",
+        "word": "Learning opens many opportunities."
       }
     ],
     "Writing": [
       {
         "id": 51,
         "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: সে একটি বই পড়ছে।",
-        "answer": "She is reading a book.",
-        "feedback": "সঠিক অনুবাদ হল: She is reading a book."
+        "text": "ইংরেজিতে অনুবাদ করুন: আপেল",
+        "answer": "Apple",
+        "feedback": "বাক্যাংশটি ছিল: Apple"
       },
       {
         "id": 52,
         "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: Namaste / Vanakkam / Hello",
-        "answer": "Hello",
-        "feedback": "সঠিক অনুবাদ হল: Hello"
+        "text": "ইংরেজিতে অনুবাদ করুন: শুভ সকাল",
+        "answer": "Good morning",
+        "feedback": "বাক্যাংশটি ছিল: Good morning"
       },
       {
         "id": 53,
         "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: Yes",
-        "answer": "Yes",
-        "feedback": "সঠিক অনুবাদ হল: Yes"
+        "text": "ইংরেজিতে অনুবাদ করুন: ধন্যবাদ",
+        "answer": "Thank you",
+        "feedback": "বাক্যাংশটি ছিল: Thank you"
       },
       {
         "id": 54,
         "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: No",
-        "answer": "No",
-        "feedback": "সঠিক অনুবাদ হল: No"
+        "text": "ইংরেজিতে অনুবাদ করুন: আমার বই",
+        "answer": "My book",
+        "feedback": "বাক্যাংশটি ছিল: My book"
       },
       {
         "id": 55,
         "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: Water",
-        "answer": "Water",
-        "feedback": "সঠিক অনুবাদ হল: Water"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 76,
-        "type": "Listening",
-        "audioText": "শুভ সকাল",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "Good morning",
-        "feedback": "সঠিক উত্তর হল: Good morning"
+        "text": "ইংরেজিতে অনুবাদ করুন: নীল আকাশ",
+        "answer": "Blue sky",
+        "feedback": "বাক্যাংশটি ছিল: Blue sky"
       },
       {
-        "id": 77,
-        "type": "Listening",
-        "audioText": "Thank you",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "Thank you",
-        "feedback": "সঠিক উত্তর হল: Thank you"
+        "id": 56,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: লাল বল",
+        "answer": "Red ball",
+        "feedback": "বাক্যাংশটি ছিল: Red ball"
       },
       {
-        "id": 78,
-        "type": "Listening",
-        "audioText": "Welcome",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "Welcome",
-        "feedback": "সঠিক উত্তর হল: Welcome"
+        "id": 57,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: সবুজ গাছ",
+        "answer": "Green tree",
+        "feedback": "বাক্যাংশটি ছিল: Green tree"
       },
       {
-        "id": 79,
-        "type": "Listening",
-        "audioText": "Yes",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "Yes",
-        "feedback": "সঠিক উত্তর হল: Yes"
+        "id": 58,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: পানি পান করুন",
+        "answer": "Drink water",
+        "feedback": "বাক্যাংশটি ছিল: Drink water"
       },
       {
-        "id": 80,
-        "type": "Listening",
-        "audioText": "No",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "No",
-        "feedback": "সঠিক উত্তর হল: No"
+        "id": 59,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: খোলা দরজা",
+        "answer": "Open door",
+        "feedback": "বাক্যাংশটি ছিল: Open door"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: জানালা বন্ধ করুন",
+        "answer": "Close window",
+        "feedback": "বাক্যাংশটি ছিল: Close window"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: সুখী সন্তান",
+        "answer": "Happy child",
+        "feedback": "বাক্যাংশটি ছিল: Happy child"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: দ্রুত গাড়ি",
+        "answer": "Fast car",
+        "feedback": "বাক্যাংশটি ছিল: Fast car"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: ছোট বিড়াল",
+        "answer": "Small cat",
+        "feedback": "বাক্যাংশটি ছিল: Small cat"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: বড় বাড়ি",
+        "answer": "Big house",
+        "feedback": "বাক্যাংশটি ছিল: Big house"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: হলুদ ফুল",
+        "answer": "Yellow flower",
+        "feedback": "বাক্যাংশটি ছিল: Yellow flower"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: বই পড়ুন",
+        "answer": "Read book",
+        "feedback": "বাক্যাংশটি ছিল: Read book"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: হাত পরিষ্কার করুন",
+        "answer": "Clean hands",
+        "feedback": "বাক্যাংশটি ছিল: Clean hands"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: খাবার খান",
+        "answer": "Eat food",
+        "feedback": "বাক্যাংশটি ছিল: Eat food"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: চমৎকার দিন",
+        "answer": "Nice day",
+        "feedback": "বাক্যাংশটি ছিল: Nice day"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: বাড়ি যাও",
+        "answer": "Go home",
+        "feedback": "বাক্যাংশটি ছিল: Go home"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: ভালো বন্ধু",
+        "answer": "Good friend",
+        "feedback": "বাক্যাংশটি ছিল: Good friend"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: আমার স্কুল",
+        "answer": "My school",
+        "feedback": "বাক্যাংশটি ছিল: My school"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: মিষ্টি আম",
+        "answer": "Sweet mango",
+        "feedback": "বাক্যাংশটি ছিল: Sweet mango"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: সুখী শেখা",
+        "answer": "Happy learning",
+        "feedback": "বাক্যাংশটি ছিল: Happy learning"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: ভালো হয়েছে",
+        "answer": "Well done",
+        "feedback": "বাক্যাংশটি ছিল: Well done"
       }
     ],
     "Grammar": [
       {
-        "id": 101,
+        "id": 76,
         "type": "Grammar",
         "text": "শূন্যস্থান পূরণ করুন: I ___ a student.",
         "options": [
@@ -193,12 +671,12 @@
         "feedback": "সঠিক উত্তর হল: am"
       },
       {
-        "id": 102,
+        "id": 77,
         "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: He ___ a boy.",
+        "text": "শূন্যস্থান পূরণ করুন: She ___ happy.",
         "options": [
-          "is",
           "am",
+          "is",
           "are",
           "be"
         ],
@@ -206,12 +684,90 @@
         "feedback": "সঠিক উত্তর হল: is"
       },
       {
-        "id": 103,
+        "id": 78,
         "type": "Grammar",
         "text": "শূন্যস্থান পূরণ করুন: They ___ playing.",
         "options": [
+          "am",
+          "is",
+          "are",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "সঠিক উত্তর হল: are"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: This is ___ apple.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "সঠিক উত্তর হল: an"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: I have ___ book.",
+        "options": [
+          "an",
+          "a",
+          "the",
+          "no article"
+        ],
+        "answer": "a",
+        "feedback": "সঠিক উত্তর হল: a"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: ___ sun rises in the east.",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "No article"
+        ],
+        "answer": "The",
+        "feedback": "সঠিক উত্তর হল: The"
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: We ___ friends.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "are",
+        "feedback": "সঠিক উত্তর হল: are"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: He ___ my brother.",
+        "options": [
+          "am",
           "are",
           "is",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "সঠিক উত্তর হল: is"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: The birds ___ flying.",
+        "options": [
+          "is",
+          "are",
           "am",
           "was"
         ],
@@ -219,739 +775,3163 @@
         "feedback": "সঠিক উত্তর হল: are"
       },
       {
-        "id": 104,
+        "id": 85,
         "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: She ___ reading.",
+        "text": "শূন্যস্থান পূরণ করুন: She has two ___.",
         "options": [
+          "book",
+          "books",
+          "bookes",
+          "bookses"
+        ],
+        "answer": "books",
+        "feedback": "সঠিক উত্তর হল: books"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: I eat ___ banana every day.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "a",
+        "feedback": "সঠিক উত্তর হল: a"
+      },
+      {
+        "id": 87,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Ravi ___ a doctor.",
+        "options": [
+          "are",
           "is",
           "am",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "সঠিক উত্তর হল: is"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: We ___ to school.",
+        "options": [
+          "goes",
+          "go",
+          "going",
+          "gone"
+        ],
+        "answer": "go",
+        "feedback": "সঠিক উত্তর হল: go"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: She ___ water.",
+        "options": [
+          "drink",
+          "drinks",
+          "drinking",
+          "drank"
+        ],
+        "answer": "drinks",
+        "feedback": "সঠিক উত্তর হল: drinks"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: They ___ football.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "answer": "play",
+        "feedback": "সঠিক উত্তর হল: play"
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: This ___ my bag.",
+        "options": [
           "are",
+          "is",
+          "am",
           "be"
         ],
         "answer": "is",
         "feedback": "সঠিক উত্তর হল: is"
       },
       {
-        "id": 105,
+        "id": 92,
         "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: We ___ happy.",
+        "text": "শূন্যস্থান পূরণ করুন: I ___ my homework.",
         "options": [
-          "are",
-          "is",
-          "am",
-          "be"
+          "do",
+          "does",
+          "dids",
+          "doing"
         ],
-        "answer": "are",
-        "feedback": "সঠিক উত্তর হল: are"
+        "answer": "do",
+        "feedback": "সঠিক উত্তর হল: do"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: He ___ his homework.",
+        "options": [
+          "do",
+          "does",
+          "doing",
+          "done"
+        ],
+        "answer": "does",
+        "feedback": "সঠিক উত্তর হল: does"
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: We have three ___.",
+        "options": [
+          "pen",
+          "pens",
+          "penes",
+          "penc"
+        ],
+        "answer": "pens",
+        "feedback": "সঠিক উত্তর হল: pens"
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: The child ___ smiling.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "সঠিক উত্তর হল: is"
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: ___ is my teacher.",
+        "options": [
+          "He",
+          "Him",
+          "His",
+          "Himself"
+        ],
+        "answer": "He",
+        "feedback": "সঠিক উত্তর হল: He"
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: This is ___ pencil.",
+        "options": [
+          "my",
+          "me",
+          "I",
+          "mine"
+        ],
+        "answer": "my",
+        "feedback": "সঠিক উত্তর হল: my"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: They live ___ India.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "from"
+        ],
+        "answer": "in",
+        "feedback": "সঠিক উত্তর হল: in"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: The cat is ___ the table.",
+        "options": [
+          "on",
+          "in",
+          "under",
+          "from"
+        ],
+        "answer": "on",
+        "feedback": "সঠিক উত্তর হল: on"
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: We ___ English every day.",
+        "options": [
+          "learns",
+          "learn",
+          "learning",
+          "learned"
+        ],
+        "answer": "learn",
+        "feedback": "সঠিক উত্তর হল: learn"
       }
     ],
     "Puzzle": [
       {
-        "id": 126,
+        "id": 101,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "dog",
-          "The",
-          "barks"
+        "text": "কোন শব্দটি ভিন্ন?",
+        "options": [
+          "Apple",
+          "Mango",
+          "Banana",
+          "Chair"
         ],
-        "answer": "The dog barks",
-        "feedback": "সঠিক উত্তর হল: The dog barks"
+        "answer": "Chair",
+        "feedback": "সঠিক উত্তর হল: Chair"
       },
       {
-        "id": 127,
+        "id": 102,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "boy",
-          "is",
-          "He",
-          "a"
+        "text": "প্যাটার্নটি সম্পূর্ণ করুন: A, B, C, __",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "G"
         ],
-        "answer": "He is a boy",
-        "feedback": "সঠিক উত্তর হল: He is a boy"
+        "answer": "D",
+        "feedback": "সঠিক উত্তর হল: D"
       },
       {
-        "id": 128,
+        "id": 103,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "playing",
-          "are",
-          "They"
+        "text": "এরপর কোন সংখ্যাটি আসে? 2, 4, 6, 8, __",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
         ],
-        "answer": "They are playing",
-        "feedback": "সঠিক উত্তর হল: They are playing"
+        "answer": "10",
+        "feedback": "সঠিক উত্তর হল: 10"
       },
       {
-        "id": 129,
+        "id": 104,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "reading",
-          "She",
-          "is"
+        "text": "কোনটি একটি ফল নয়?",
+        "options": [
+          "Orange",
+          "Apple",
+          "Potato",
+          "Mango"
         ],
-        "answer": "She is reading",
-        "feedback": "সঠিক উত্তর হল: She is reading"
+        "answer": "Potato",
+        "feedback": "সঠিক উত্তর হল: Potato"
       },
       {
-        "id": 130,
+        "id": 105,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "happy",
-          "We",
-          "are"
+        "text": "অদ্ভুত এক খুঁজুন.",
+        "options": [
+          "Cat",
+          "Dog",
+          "Cow",
+          "Table"
         ],
-        "answer": "We are happy",
-        "feedback": "সঠিক উত্তর হল: We are happy"
+        "answer": "Table",
+        "feedback": "সঠিক উত্তর হল: Table"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "কোন আকৃতির কোন কোণ নেই?",
+        "options": [
+          "Square",
+          "Rectangle",
+          "Circle",
+          "Triangle"
+        ],
+        "answer": "Circle",
+        "feedback": "সঠিক উত্তর হল: Circle"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "কোনটি প্রথমে আসে?",
+        "options": [
+          "Evening",
+          "Morning",
+          "Night",
+          "Midnight"
+        ],
+        "answer": "Morning",
+        "feedback": "সঠিক উত্তর হল: Morning"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "শব্দটি সম্পূর্ণ করুন: C _ T",
+        "options": [
+          "A",
+          "O",
+          "E",
+          "U"
+        ],
+        "answer": "A",
+        "feedback": "সঠিক উত্তর হল: A"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "সবচেয়ে বড় কোনটি?",
+        "options": [
+          "Ant",
+          "Elephant",
+          "Rat",
+          "Cat"
+        ],
+        "answer": "Elephant",
+        "feedback": "সঠিক উত্তর হল: Elephant"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "কোনটি একটি শ্রেণীকক্ষের অন্তর্গত?",
+        "options": [
+          "Blackboard",
+          "Pillow",
+          "Stove",
+          "Shower"
+        ],
+        "answer": "Blackboard",
+        "feedback": "সঠিক উত্তর হল: Blackboard"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "পরবর্তী অক্ষর খুঁজুন: M, N, O, __",
+        "options": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ],
+        "answer": "P",
+        "feedback": "সঠিক উত্তর হল: P"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "কোনটি রান্নায় ব্যবহৃত হয়?",
+        "options": [
+          "Pan",
+          "Book",
+          "Ball",
+          "Pencil"
+        ],
+        "answer": "Pan",
+        "feedback": "সঠিক উত্তর হল: Pan"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "ক্ষুদ্রতম সংখ্যা কোনটি?",
+        "options": [
+          "7",
+          "2",
+          "5",
+          "9"
+        ],
+        "answer": "2",
+        "feedback": "সঠিক উত্তর হল: 2"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "কোন প্রাণী জলে বাস করে?",
+        "options": [
+          "Lion",
+          "Fish",
+          "Goat",
+          "Horse"
+        ],
+        "answer": "Fish",
+        "feedback": "সঠিক উত্তর হল: Fish"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "কোনটি একটি পরিবহন যান?",
+        "options": [
+          "Bus",
+          "Tree",
+          "Chair",
+          "Fan"
+        ],
+        "answer": "Bus",
+        "feedback": "সঠিক উত্তর হল: Bus"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "ক্রমটি সম্পূর্ণ করুন: 10, 20, 30, __",
+        "options": [
+          "35",
+          "40",
+          "45",
+          "50"
+        ],
+        "answer": "40",
+        "feedback": "সঠিক উত্তর হল: 40"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "কোনটি সময় বলতে ব্যবহৃত হয়?",
+        "options": [
+          "Clock",
+          "Spoon",
+          "Plate",
+          "Bottle"
+        ],
+        "answer": "Clock",
+        "feedback": "সঠিক উত্তর হল: Clock"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "শুক্রবারের পর কোনটি আসে?",
+        "options": [
+          "Thursday",
+          "Saturday",
+          "Sunday",
+          "Monday"
+        ],
+        "answer": "Saturday",
+        "feedback": "সঠিক উত্তর হল: Saturday"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "কোন শব্দে সবচেয়ে বেশি অক্ষর আছে?",
+        "options": [
+          "Cat",
+          "Elephant",
+          "Dog",
+          "Cow"
+        ],
+        "answer": "Elephant",
+        "feedback": "সঠিক উত্তর হল: Elephant"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "কোন বস্তু আলো দেয়?",
+        "options": [
+          "Lamp",
+          "Chair",
+          "Bag",
+          "Shoe"
+        ],
+        "answer": "Lamp",
+        "feedback": "সঠিক উত্তর হল: Lamp"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "কোনটি \"ওপেন\" এর বিপরীত?",
+        "options": [
+          "Start",
+          "Close",
+          "Run",
+          "Walk"
+        ],
+        "answer": "Close",
+        "feedback": "সঠিক উত্তর হল: Close"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "কোন সংখ্যা অনুপস্থিত? 5, 10, __, 20",
+        "options": [
+          "12",
+          "15",
+          "18",
+          "25"
+        ],
+        "answer": "15",
+        "feedback": "সঠিক উত্তর হল: 15"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "কোনটি একটি পাখি?",
+        "options": [
+          "Sparrow",
+          "Tiger",
+          "Horse",
+          "Cow"
+        ],
+        "answer": "Sparrow",
+        "feedback": "সঠিক উত্তর হল: Sparrow"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "K এর আগে কোন বর্ণটি আসে?",
+        "options": [
+          "H",
+          "I",
+          "J",
+          "L"
+        ],
+        "answer": "J",
+        "feedback": "সঠিক উত্তর হল: J"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "পড়ার জন্য কোন বস্তু ব্যবহার করা হয়?",
+        "options": [
+          "Book",
+          "Plate",
+          "Shoe",
+          "Cup"
+        ],
+        "answer": "Book",
+        "feedback": "সঠিক উত্তর হল: Book"
       }
     ]
   },
   "Intermediate": {
     "MCQ": [
       {
-        "id": 201,
+        "id": 1,
         "type": "MCQ",
-        "text": "অনুবাদ করুন: Beautiful",
+        "text": "সঠিক বাক্য চয়ন করুন।",
         "options": [
-          "সুন্দর",
-          "Ugly",
-          "Fast",
-          "Slow"
+          "She go to school.",
+          "She goes to school.",
+          "She going school.",
+          "She gone school."
         ],
-        "answer": "সুন্দর",
-        "feedback": "সঠিক উত্তর হল: সুন্দর"
+        "answer": "She goes to school.",
+        "feedback": "সঠিক উত্তর হল সে স্কুলে যায়।"
       },
       {
-        "id": 202,
+        "id": 2,
         "type": "MCQ",
-        "text": "অনুবাদ করুন: Library",
+        "text": "\"সুখী\" এর বিপরীত শব্দ কোনটি?",
         "options": [
-          "পাঠাগার",
+          "Joyful",
+          "Sad",
+          "Excited",
+          "Bright"
+        ],
+        "answer": "Sad",
+        "feedback": "সঠিক উত্তর দুঃখজনক"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "বাক্যটি সম্পূর্ণ করুন: পাখি _____ আকাশে।",
+        "options": [
+          "swim",
+          "fly",
+          "walk",
+          "crawl"
+        ],
+        "answer": "fly",
+        "feedback": "সঠিক উত্তর হল মাছি"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "কোন শব্দ একটি ক্রিয়া?",
+        "options": [
+          "Teacher",
+          "Running",
           "School",
-          "Hospital",
-          "Park"
+          "Table"
         ],
-        "answer": "পাঠাগার",
-        "feedback": "সঠিক উত্তর হল: পাঠাগার"
+        "answer": "Running",
+        "feedback": "সঠিক উত্তর হচ্ছে রানিং"
       },
       {
-        "id": 203,
+        "id": 5,
         "type": "MCQ",
-        "text": "শূন্যস্থান পূরণ করুন: Past tense of 'run' is ___",
+        "text": "কোন বাক্যটি সঠিক?",
         "options": [
-          "ran",
-          "runned",
-          "running",
-          "runs"
+          "They is playing.",
+          "They are playing.",
+          "They am playing.",
+          "They be playing."
         ],
-        "answer": "ran",
-        "feedback": "সঠিক উত্তর হল: ran"
+        "answer": "They are playing.",
+        "feedback": "সঠিক উত্তর হল তারা খেলছে।"
       },
       {
-        "id": 204,
+        "id": 6,
         "type": "MCQ",
-        "text": "শূন্যস্থান পূরণ করুন: Opposite of 'hot' is ___",
+        "text": "দ্রুত শব্দের সমার্থক শব্দ কোনটি?",
         "options": [
-          "cold",
-          "warm",
-          "boiling",
-          "freezing"
+          "Slow",
+          "Fast",
+          "Late",
+          "Quiet"
         ],
-        "answer": "cold",
-        "feedback": "সঠিক উত্তর হল: cold"
+        "answer": "Fast",
+        "feedback": "সঠিক উত্তর দ্রুত"
       },
       {
-        "id": 205,
+        "id": 7,
         "type": "MCQ",
-        "text": "শূন্যস্থান পূরণ করুন: Verb is ___",
+        "text": "সঠিক বানান নির্বাচন করুন।",
         "options": [
-          "Run",
-          "Apple",
-          "Blue",
-          "Quickly"
+          "Beautifull",
+          "Beautiful",
+          "Beautifal",
+          "Beutiful"
         ],
-        "answer": "Run",
-        "feedback": "সঠিক উত্তর হল: Run"
-      }
-    ],
-    "Reading": [
-      {
-        "id": 226,
-        "type": "Reading",
-        "text": "জোরে পড়ুন: আমি একটি নতুন ভাষা শিখছি।",
-        "word": "আমি একটি নতুন ভাষা শিখছি।"
-      },
-      {
-        "id": 227,
-        "type": "Reading",
-        "text": "জোরে পড়ুন: The quick brown fox.",
-        "word": "The quick brown fox."
-      },
-      {
-        "id": 228,
-        "type": "Reading",
-        "text": "জোরে পড়ুন: It is raining outside.",
-        "word": "It is raining outside."
-      },
-      {
-        "id": 229,
-        "type": "Reading",
-        "text": "জোরে পড়ুন: She likes to read books.",
-        "word": "She likes to read books."
-      },
-      {
-        "id": 230,
-        "type": "Reading",
-        "text": "জোরে পড়ুন: I am learning English.",
-        "word": "I am learning English."
-      }
-    ],
-    "Writing": [
-      {
-        "id": 251,
-        "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: লাইব্রেরিটি কোথায়?",
-        "answer": "Where is the library?",
-        "feedback": "সঠিক অনুবাদ হল: Where is the library?"
-      },
-      {
-        "id": 252,
-        "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: Beautiful",
         "answer": "Beautiful",
-        "feedback": "সঠিক অনুবাদ হল: Beautiful"
+        "feedback": "সঠিক উত্তর সুন্দর"
       },
       {
-        "id": 253,
-        "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: Important",
-        "answer": "Important",
-        "feedback": "সঠিক অনুবাদ হল: Important"
-      },
-      {
-        "id": 254,
-        "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: Because",
-        "answer": "Because",
-        "feedback": "সঠিক অনুবাদ হল: Because"
-      },
-      {
-        "id": 255,
-        "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: Together",
-        "answer": "Together",
-        "feedback": "সঠিক অনুবাদ হল: Together"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 276,
-        "type": "Listening",
-        "audioText": "আপনি কেমন আছেন?",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "How are you?",
-        "feedback": "সঠিক উত্তর হল: How are you?"
-      },
-      {
-        "id": 277,
-        "type": "Listening",
-        "audioText": "Beautiful",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "Beautiful",
-        "feedback": "সঠিক উত্তর হল: Beautiful"
-      },
-      {
-        "id": 278,
-        "type": "Listening",
-        "audioText": "I am fine",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "I am fine",
-        "feedback": "সঠিক উত্তর হল: I am fine"
-      },
-      {
-        "id": 279,
-        "type": "Listening",
-        "audioText": "See you later",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "See you later",
-        "feedback": "সঠিক উত্তর হল: See you later"
-      },
-      {
-        "id": 280,
-        "type": "Listening",
-        "audioText": "Have a good day",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "Have a good day",
-        "feedback": "সঠিক উত্তর হল: Have a good day"
-      }
-    ],
-    "Grammar": [
-      {
-        "id": 301,
-        "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: She ___ to the store yesterday.",
+        "id": 8,
+        "type": "MCQ",
+        "text": "প্রশ্ন চিহ্ন দিয়ে শেষ হয় কোন বাক্য?",
         "options": [
-          "went",
-          "go",
-          "going",
-          "goes"
+          "I like apples.",
+          "Where are you?",
+          "She is happy.",
+          "Open the door."
         ],
-        "answer": "went",
-        "feedback": "সঠিক উত্তর হল: went"
+        "answer": "Where are you?",
+        "feedback": "সঠিক উত্তর হল আপনি কোথায়?"
       },
       {
-        "id": 302,
-        "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: I have ___ eaten breakfast.",
+        "id": 9,
+        "type": "MCQ",
+        "text": "কোন শব্দ একটি বিশেষ্য?",
         "options": [
-          "already",
-          "yet",
-          "still",
-          "soon"
+          "Dance",
+          "House",
+          "Quickly",
+          "Happy"
         ],
-        "answer": "already",
-        "feedback": "সঠিক উত্তর হল: already"
+        "answer": "House",
+        "feedback": "সঠিক উত্তর হল হাউস"
       },
       {
-        "id": 303,
-        "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: He is taller ___ his brother.",
+        "id": 10,
+        "type": "MCQ",
+        "text": "কোন বাক্যটি ভদ্র?",
         "options": [
-          "than",
-          "then",
-          "that",
-          "there"
+          "Move away!",
+          "Please help me.",
+          "Give me that.",
+          "Be quiet."
         ],
-        "answer": "than",
-        "feedback": "সঠিক উত্তর হল: than"
+        "answer": "Please help me.",
+        "feedback": "সঠিক উত্তর দয়া করে আমাকে সাহায্য করুন."
       },
       {
-        "id": 304,
-        "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: They will arrive ___ Monday.",
+        "id": 11,
+        "type": "MCQ",
+        "text": "বাক্যটি সম্পূর্ণ করুন: জল জীবনের জন্য _____।",
+        "options": [
+          "important",
+          "noisy",
+          "expensive",
+          "dirty"
+        ],
+        "answer": "important",
+        "feedback": "সঠিক উত্তর গুরুত্বপূর্ণ"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "কোন শব্দটি দলের অন্তর্গত? গোলাপ, লিলি, পদ্ম, _____",
+        "options": [
+          "Mango",
+          "Jasmine",
+          "Potato",
+          "Rice"
+        ],
+        "answer": "Jasmine",
+        "feedback": "সঠিক উত্তর জেসমিন"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "সঠিক নিবন্ধ নির্বাচন করুন. আমি _____ হাতি দেখেছি।",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "সঠিক উত্তর হল একটি"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "কোন শব্দ একটি বিশেষণ?",
+        "options": [
+          "Tall",
+          "Walk",
+          "School",
+          "Friend"
+        ],
+        "answer": "Tall",
+        "feedback": "সঠিক উত্তর হল লম্বা"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "কোন বাক্যটি অতীত কালের?",
+        "options": [
+          "I play football.",
+          "I played football.",
+          "I am playing football.",
+          "I will play football."
+        ],
+        "answer": "I played football.",
+        "feedback": "সঠিক উত্তর হল আমি ফুটবল খেলেছি।"
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "কোনটি একটি হাসপাতালে ব্যবহৃত হয়?",
+        "options": [
+          "Stethoscope",
+          "Hammer",
+          "Spade",
+          "Eraser"
+        ],
+        "answer": "Stethoscope",
+        "feedback": "সঠিক উত্তর স্টেথোস্কোপ"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "কোন শব্দ বাক্যটি সম্পূর্ণ করে? ট্রেনটি _____ সময় এসেছে।",
         "options": [
           "on",
           "in",
           "at",
-          "by"
+          "over"
+        ],
+        "answer": "on",
+        "feedback": "সঠিক উত্তর চালু আছে"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "সঠিক বহুবচন কোনটি?",
+        "options": [
+          "Childs",
+          "Children",
+          "Childes",
+          "Childrens"
+        ],
+        "answer": "Children",
+        "feedback": "সঠিক উত্তর হল শিশু"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "কোন বাক্যে সঠিক ক্যাপিটালাইজেশন আছে?",
+        "options": [
+          "india is my country.",
+          "India is my country.",
+          "india Is my country.",
+          "India is My country."
+        ],
+        "answer": "India is my country.",
+        "feedback": "সঠিক উত্তর হল ভারত আমার দেশ।"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "কোন শব্দটি কৃষিকাজের সাথে সম্পর্কিত?",
+        "options": [
+          "Tractor",
+          "Laptop",
+          "Television",
+          "Printer"
+        ],
+        "answer": "Tractor",
+        "feedback": "সঠিক উত্তর হল ট্রাক্টর"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "সঠিক শব্দ চয়ন করুন। শিশুটি _____ জোরে জোরে।",
+        "options": [
+          "cry",
+          "crying",
+          "cried",
+          "cries"
+        ],
+        "answer": "crying",
+        "feedback": "সঠিক উত্তর হল কান্না"
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "কোন বাক্যটি সবচেয়ে অর্থপূর্ণ করে তোলে?",
+        "options": [
+          "The fish climbed a tree.",
+          "The fish swims in water.",
+          "The fish drives a car.",
+          "The fish writes a letter."
+        ],
+        "answer": "The fish swims in water.",
+        "feedback": "সঠিক উত্তর হল মাছ জলে সাঁতার কাটে।"
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "শক্তিশালী এর বিপরীতার্থক শব্দ কোনটি?",
+        "options": [
+          "Powerful",
+          "Weak",
+          "Healthy",
+          "Brave"
+        ],
+        "answer": "Weak",
+        "feedback": "সঠিক উত্তর দুর্বল"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "কোন বিরাম চিহ্ন একটি বিস্ময়সূচক বাক্য শেষ করে?",
+        "options": [
+          ".",
+          ",",
+          "!",
+          "?"
+        ],
+        "answer": "!",
+        "feedback": "সঠিক উত্তর হল!"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "বাক্যটি সম্পূর্ণ করুন। আমরা সবসময় সত্য _____ উচিত.",
+        "options": [
+          "tell",
+          "hide",
+          "forget",
+          "break"
+        ],
+        "answer": "tell",
+        "feedback": "সঠিক উত্তর হল বলুন"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: My name is Rahul. I enjoy reading books every evening.",
+        "word": "My name is Rahul. I enjoy reading books every evening."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The children are playing football in the school playground.",
+        "word": "The children are playing football in the school playground."
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: My mother prepares healthy food for our family every day.",
+        "word": "My mother prepares healthy food for our family every day."
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The bus arrived on time, so everyone reached school early.",
+        "word": "The bus arrived on time, so everyone reached school early."
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: We should drink clean water to stay healthy and active.",
+        "word": "We should drink clean water to stay healthy and active."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The farmer works hard to grow fresh fruits and vegetables.",
+        "word": "The farmer works hard to grow fresh fruits and vegetables."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Rita helped her grandmother carry groceries from the market.",
+        "word": "Rita helped her grandmother carry groceries from the market."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The weather is pleasant today, so we decided to visit the park.",
+        "word": "The weather is pleasant today, so we decided to visit the park."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: My teacher encourages us to ask questions and learn new things.",
+        "word": "My teacher encourages us to ask questions and learn new things."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Trees provide fresh air, shade, and homes for many birds.",
+        "word": "Trees provide fresh air, shade, and homes for many birds."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Every morning, I wake up early and exercise for thirty minutes.",
+        "word": "Every morning, I wake up early and exercise for thirty minutes."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The doctor advised the patient to eat healthy food and rest well.",
+        "word": "The doctor advised the patient to eat healthy food and rest well."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Our library has many interesting books about science, history, and nature.",
+        "word": "Our library has many interesting books about science, history, and nature."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Always wear a helmet while riding a bicycle to stay safe.",
+        "word": "Always wear a helmet while riding a bicycle to stay safe."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The train was delayed because of heavy rainfall during the night.",
+        "word": "The train was delayed because of heavy rainfall during the night."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Students should complete their homework before watching television.",
+        "word": "Students should complete their homework before watching television."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The shopkeeper greeted every customer with a warm smile.",
+        "word": "The shopkeeper greeted every customer with a warm smile."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Saving electricity helps protect the environment and reduces electricity bills.",
+        "word": "Saving electricity helps protect the environment and reduces electricity bills."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Our school organized a tree plantation drive on Environment Day.",
+        "word": "Our school organized a tree plantation drive on Environment Day."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Honesty and kindness help us build strong friendships with others.",
+        "word": "Honesty and kindness help us build strong friendships with others."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The computer helps us learn, communicate, and solve many problems.",
+        "word": "The computer helps us learn, communicate, and solve many problems."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Reading newspapers every day improves vocabulary and general knowledge.",
+        "word": "Reading newspapers every day improves vocabulary and general knowledge."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Good communication skills help people succeed in school and at work.",
+        "word": "Good communication skills help people succeed in school and at work."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Learning a new language helps us understand different cultures and traditions.",
+        "word": "Learning a new language helps us understand different cultures and traditions."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Regular practice and determination help every learner achieve success.",
+        "word": "Regular practice and determination help every learner achieve success."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: শুভ বিকাল",
+        "answer": "Good afternoon",
+        "feedback": "বাক্যাংশটি ছিল: Good afternoon"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: পরিষ্কার জল",
+        "answer": "Clean water",
+        "feedback": "বাক্যাংশটি ছিল: Clean water"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: স্বাস্থ্যকর খাবার",
+        "answer": "Healthy food",
+        "feedback": "বাক্যাংশটি ছিল: Healthy food"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: খোলা জানালা",
+        "answer": "Open window",
+        "feedback": "বাক্যাংশটি ছিল: Open window"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: বন্ধ গেট",
+        "answer": "Close gate",
+        "feedback": "বাক্যাংশটি ছিল: Close gate"
+      },
+      {
+        "id": 56,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: মনোযোগ দিয়ে পড়ুন",
+        "answer": "Read carefully",
+        "feedback": "বাক্যাংশটি ছিল: Read carefully"
+      },
+      {
+        "id": 57,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: স্পষ্ট করে কথা বলুন",
+        "answer": "Speak clearly",
+        "feedback": "বাক্যাংশটি ছিল: Speak clearly"
+      },
+      {
+        "id": 58,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: একসাথে কাজ",
+        "answer": "Work together",
+        "feedback": "বাক্যাংশটি ছিল: Work together"
+      },
+      {
+        "id": 59,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: বিদ্যুৎ সাশ্রয় করুন",
+        "answer": "Save electricity",
+        "feedback": "বাক্যাংশটি ছিল: Save electricity"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: গাছ লাগান",
+        "answer": "Plant trees",
+        "feedback": "বাক্যাংশটি ছিল: Plant trees"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: অন্যদের সাহায্য করুন",
+        "answer": "Help others",
+        "feedback": "বাক্যাংশটি ছিল: Help others"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: নিয়ম মেনে চলুন",
+        "answer": "Follow rules",
+        "feedback": "বাক্যাংশটি ছিল: Follow rules"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: হাসতে থাকুন",
+        "answer": "Keep smiling",
+        "feedback": "বাক্যাংশটি ছিল: Keep smiling"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: নিয়মিত পড়াশোনা করুন",
+        "answer": "Study regularly",
+        "feedback": "বাক্যাংশটি ছিল: Study regularly"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: ইতিবাচক চিন্তা করুন",
+        "answer": "Think positively",
+        "feedback": "বাক্যাংশটি ছিল: Think positively"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: তাড়াতাড়ি পৌঁছান",
+        "answer": "Arrive early",
+        "feedback": "বাক্যাংশটি ছিল: Arrive early"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: সবজি ধুয়ে নিন",
+        "answer": "Wash vegetables",
+        "feedback": "বাক্যাংশটি ছিল: Wash vegetables"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: বড়দের সম্মান করুন",
+        "answer": "Respect elders",
+        "feedback": "বাক্যাংশটি ছিল: Respect elders"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: হেলমেট ব্যবহার করুন",
+        "answer": "Use helmet",
+        "feedback": "বাক্যাংশটি ছিল: Use helmet"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: মনোযোগী থাকুন",
+        "answer": "Stay focused",
+        "feedback": "বাক্যাংশটি ছিল: Stay focused"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: প্রতিদিন শিখুন",
+        "answer": "Learn daily",
+        "feedback": "বাক্যাংশটি ছিল: Learn daily"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: বাড়ির কাজ শেষ করুন",
+        "answer": "Finish homework",
+        "feedback": "বাক্যাংশটি ছিল: Finish homework"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: জ্ঞান শেয়ার করুন",
+        "answer": "Share knowledge",
+        "feedback": "বাক্যাংশটি ছিল: Share knowledge"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: কথা বলার অভ্যাস করুন",
+        "answer": "Practice speaking",
+        "feedback": "বাক্যাংশটি ছিল: Practice speaking"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: নিজেকে বিশ্বাস করুন",
+        "answer": "Believe yourself",
+        "feedback": "বাক্যাংশটি ছিল: Believe yourself"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: She _____ to school every day.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "gone"
+        ],
+        "answer": "goes",
+        "feedback": "সঠিক উত্তর হল: goes"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: They _____ football yesterday.",
+        "options": [
+          "play",
+          "played",
+          "plays",
+          "playing"
+        ],
+        "answer": "played",
+        "feedback": "সঠিক উত্তর হল: played"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: I _____ my homework every evening.",
+        "options": [
+          "do",
+          "does",
+          "did",
+          "doing"
+        ],
+        "answer": "do",
+        "feedback": "সঠিক উত্তর হল: do"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: We _____ going to the market tomorrow.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "সঠিক উত্তর হল: are"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Choose the correct article. I saw _____ owl in the tree.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "সঠিক উত্তর হল: an"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: The books are _____ the table.",
+        "options": [
+          "in",
+          "on",
+          "under",
+          "between"
         ],
         "answer": "on",
         "feedback": "সঠিক উত্তর হল: on"
       },
       {
-        "id": 305,
+        "id": 82,
         "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: She ___ speaking French.",
+        "text": "শূন্যস্থান পূরণ করুন: My father _____ a car.",
+        "options": [
+          "drive",
+          "drives",
+          "driving",
+          "driven"
+        ],
+        "answer": "drives",
+        "feedback": "সঠিক উত্তর হল: drives"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: We _____ lunch at 1 p.m.",
+        "options": [
+          "eat",
+          "eats",
+          "eating",
+          "ate"
+        ],
+        "answer": "eat",
+        "feedback": "সঠিক উত্তর হল: eat"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Choose the correct pronoun. Riya is absent. _____ is sick.",
+        "options": [
+          "He",
+          "She",
+          "They",
+          "It"
+        ],
+        "answer": "She",
+        "feedback": "সঠিক উত্তর হল: She"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: I _____ a movie last night.",
+        "options": [
+          "watch",
+          "watched",
+          "watches",
+          "watching"
+        ],
+        "answer": "watched",
+        "feedback": "সঠিক উত্তর হল: watched"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Which sentence is correct?",
+        "options": [
+          "He don't like tea.",
+          "He doesn't like tea.",
+          "He not like tea.",
+          "He didn't likes tea."
+        ],
+        "answer": "He doesn't like tea.",
+        "feedback": "সঠিক উত্তর হল: He doesn't like tea."
+      },
+      {
+        "id": 87,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Choose the correct conjunction. I was tired, _____ I finished my work.",
+        "options": [
+          "but",
+          "or",
+          "because",
+          "if"
+        ],
+        "answer": "but",
+        "feedback": "সঠিক উত্তর হল: but"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: They _____ in Jaipur.",
+        "options": [
+          "lives",
+          "live",
+          "living",
+          "lived"
+        ],
+        "answer": "live",
+        "feedback": "সঠিক উত্তর হল: live"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: My sister is _____ engineer.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "সঠিক উত্তর হল: an"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: We should _____ honest.",
         "options": [
           "is",
-          "am",
+          "be",
           "are",
-          "be"
+          "being"
         ],
-        "answer": "is",
-        "feedback": "সঠিক উত্তর হল: is"
+        "answer": "be",
+        "feedback": "সঠিক উত্তর হল: be"
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: The children _____ happily in the park.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "answer": "play",
+        "feedback": "সঠিক উত্তর হল: play"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Which word correctly completes the sentence? Please sit _____ me.",
+        "options": [
+          "beside",
+          "inside",
+          "above",
+          "behind"
+        ],
+        "answer": "beside",
+        "feedback": "সঠিক উত্তর হল: beside"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: She _____ English very well.",
+        "options": [
+          "speak",
+          "speaks",
+          "speaking",
+          "spoken"
+        ],
+        "answer": "speaks",
+        "feedback": "সঠিক উত্তর হল: speaks"
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Choose the correct sentence.",
+        "options": [
+          "There are five apples.",
+          "There is five apples.",
+          "There am five apples.",
+          "There be five apples."
+        ],
+        "answer": "There are five apples.",
+        "feedback": "সঠিক উত্তর হল: There are five apples."
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: I _____ to visit my grandparents next week.",
+        "options": [
+          "am going",
+          "was going",
+          "going",
+          "goes"
+        ],
+        "answer": "am going",
+        "feedback": "সঠিক উত্তর হল: am going"
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Which sentence is in the future tense?",
+        "options": [
+          "I play cricket.",
+          "I played cricket.",
+          "I will play cricket.",
+          "I am played cricket."
+        ],
+        "answer": "I will play cricket.",
+        "feedback": "সঠিক উত্তর হল: I will play cricket."
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Fill in the blank. The teacher gave _____ homework.",
+        "options": [
+          "us",
+          "we",
+          "our",
+          "ours"
+        ],
+        "answer": "us",
+        "feedback": "সঠিক উত্তর হল: us"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Choose the correct punctuation. _____ are you today?",
+        "options": [
+          "!",
+          ".",
+          "?",
+          ","
+        ],
+        "answer": "?",
+        "feedback": "সঠিক উত্তর হল: ?"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Which sentence is grammatically correct?",
+        "options": [
+          "She can sings.",
+          "She can sing.",
+          "She can singing.",
+          "She can sang."
+        ],
+        "answer": "She can sing.",
+        "feedback": "সঠিক উত্তর হল: She can sing."
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Complete the sentence. Everyone should _____ the environment.",
+        "options": [
+          "protect",
+          "protects",
+          "protected",
+          "protecting"
+        ],
+        "answer": "protect",
+        "feedback": "সঠিক উত্তর হল: protect"
       }
     ],
     "Puzzle": [
       {
-        "id": 326,
+        "id": 101,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "store",
-          "She",
-          "went",
-          "the",
-          "to"
+        "text": "অদ্ভুত এক খুঁজে বের করুন.",
+        "options": [
+          "Rose",
+          "Lotus",
+          "Mango",
+          "Lily"
         ],
-        "answer": "She went to the store",
-        "feedback": "সঠিক উত্তর হল: She went to the store"
+        "answer": "Mango",
+        "feedback": "সঠিক উত্তর হল: Mango"
       },
       {
-        "id": 327,
+        "id": 102,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "brother",
-          "than",
-          "taller",
-          "He",
-          "is",
-          "his"
+        "text": "ক্রমটি সম্পূর্ণ করুন। 5, 10, 15, 20, __",
+        "options": [
+          "22",
+          "25",
+          "30",
+          "35"
         ],
-        "answer": "He is taller than his brother",
-        "feedback": "সঠিক উত্তর হল: He is taller than his brother"
+        "answer": "25",
+        "feedback": "সঠিক উত্তর হল: 25"
       },
       {
-        "id": 328,
+        "id": 103,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "Monday",
-          "arrive",
-          "on",
-          "They",
-          "will"
+        "text": "কোন শব্দের অন্তর্গত নয়?",
+        "options": [
+          "Doctor",
+          "Nurse",
+          "Teacher",
+          "Banana"
         ],
-        "answer": "They will arrive on Monday",
-        "feedback": "সঠিক উত্তর হল: They will arrive on Monday"
+        "answer": "Banana",
+        "feedback": "সঠিক উত্তর হল: Banana"
       },
       {
-        "id": 329,
+        "id": 104,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "already",
-          "have",
+        "text": "অনুপস্থিত চিঠি খুঁজুন. A, C, E, G, __",
+        "options": [
+          "H",
           "I",
-          "eaten"
+          "J",
+          "K"
         ],
-        "answer": "I have already eaten",
-        "feedback": "সঠিক উত্তর হল: I have already eaten"
+        "answer": "I",
+        "feedback": "সঠিক উত্তর হল: I"
       },
       {
-        "id": 330,
+        "id": 105,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "speaking",
-          "is",
-          "She",
-          "French"
+        "text": "আজ সোমবার হলে দুই দিন পর কোন দিন আসে?",
+        "options": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
         ],
-        "answer": "She is speaking French",
-        "feedback": "সঠিক উত্তর হল: She is speaking French"
+        "answer": "Thursday",
+        "feedback": "সঠিক উত্তর হল: Thursday"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "কোন সংখ্যাটি সবচেয়ে বড়?",
+        "options": [
+          "48",
+          "62",
+          "79",
+          "57"
+        ],
+        "answer": "79",
+        "feedback": "সঠিক উত্তর হল: 79"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "অদ্ভুত এক খুঁজে বের করুন.",
+        "options": [
+          "Bus",
+          "Train",
+          "Bicycle",
+          "Refrigerator"
+        ],
+        "answer": "Refrigerator",
+        "feedback": "সঠিক উত্তর হল: Refrigerator"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "প্যাটার্নটি সম্পূর্ণ করুন। 2, 6, 10, 14, __",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
+        "answer": "18",
+        "feedback": "সঠিক উত্তর হল: 18"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "সময় পরিমাপের জন্য কোন বস্তু ব্যবহার করা হয়?",
+        "options": [
+          "Scale",
+          "Clock",
+          "Thermometer",
+          "Compass"
+        ],
+        "answer": "Clock",
+        "feedback": "সঠিক উত্তর হল: Clock"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "কোন শব্দ শুরু হিসাবে একই অর্থ আছে?",
+        "options": [
+          "End",
+          "Start",
+          "Stop",
+          "Finish"
+        ],
+        "answer": "Start",
+        "feedback": "সঠিক উত্তর হল: Start"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "বর্ণমালা প্যাটার্ন সম্পূর্ণ করুন. Z, X, V, T, __",
+        "options": [
+          "R",
+          "Q",
+          "P",
+          "S"
+        ],
+        "answer": "R",
+        "feedback": "সঠিক উত্তর হল: R"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "সবচেয়ে ছোট কোনটি?",
+        "options": [
+          "Kilogram",
+          "Gram",
+          "Ton",
+          "Quintal"
+        ],
+        "answer": "Gram",
+        "feedback": "সঠিক উত্তর হল: Gram"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "কোন জোড়া সম্পর্কিত?",
+        "options": [
+          "Pen : Write",
+          "Chair : Eat",
+          "Book : Drive",
+          "Spoon : Read"
+        ],
+        "answer": "Pen : Write",
+        "feedback": "সঠিক উত্তর হল: Pen : Write"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "পরবর্তী সংখ্যা খুঁজুন। 3, 6, 9, 12, __",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "15",
+        "feedback": "সঠিক উত্তর হল: 15"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "কোন প্রাণী ডিম পাড়ে?",
+        "options": [
+          "Cow",
+          "Hen",
+          "Goat",
+          "Dog"
+        ],
+        "answer": "Hen",
+        "feedback": "সঠিক উত্তর হল: Hen"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "অদ্ভুত এক খুঁজে বের করুন.",
+        "options": [
+          "January",
+          "March",
+          "Friday",
+          "June"
+        ],
+        "answer": "Friday",
+        "feedback": "সঠিক উত্তর হল: Friday"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "কোন শব্দটি উপমা পূর্ণ করে? পাখি : বাসা :: মৌমাছি : _____",
+        "options": [
+          "Hive",
+          "Tree",
+          "River",
+          "House"
+        ],
+        "answer": "Hive",
+        "feedback": "সঠিক উত্তর হল: Hive"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "কোন আকৃতির চারটি সমান বাহু আছে?",
+        "options": [
+          "Circle",
+          "Triangle",
+          "Square",
+          "Oval"
+        ],
+        "answer": "Square",
+        "feedback": "সঠিক উত্তর হল: Square"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "ক্রমটি সম্পূর্ণ করুন। 100, 90, 80, 70, __",
+        "options": [
+          "65",
+          "60",
+          "55",
+          "50"
+        ],
+        "answer": "60",
+        "feedback": "সঠিক উত্তর হল: 60"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "কোন শব্দটি ভিন্ন?",
+        "options": [
+          "Apple",
+          "Orange",
+          "Carrot",
+          "Grapes"
+        ],
+        "answer": "Carrot",
+        "feedback": "সঠিক উত্তর হল: Carrot"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "একটি ঘড়ি যদি 3:00 দেখায়, মিনিটের হাত কোথায় নির্দেশ করবে?",
+        "options": [
+          "3",
+          "6",
+          "12",
+          "9"
+        ],
+        "answer": "12",
+        "feedback": "সঠিক উত্তর হল: 12"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "কোনটি পরবর্তী আসে? লাল, কমলা, হলুদ, __",
+        "options": [
+          "Blue",
+          "Green",
+          "Black",
+          "White"
+        ],
+        "answer": "Green",
+        "feedback": "সঠিক উত্তর হল: Green"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "যোগাযোগের জন্য কোন বস্তু ব্যবহার করা হয়?",
+        "options": [
+          "Mobile Phone",
+          "Plate",
+          "Pillow",
+          "Shoe"
+        ],
+        "answer": "Mobile Phone",
+        "feedback": "সঠিক উত্তর হল: Mobile Phone"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "অনুপস্থিত নম্বর খুঁজুন। 4, 8, 12, 16, __",
+        "options": [
+          "18",
+          "20",
+          "22",
+          "24"
+        ],
+        "answer": "20",
+        "feedback": "সঠিক উত্তর হল: 20"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "কোন শব্দটি উপমা পূর্ণ করে? শিক্ষক : স্কুল :: ডাক্তার : _____",
+        "options": [
+          "Market",
+          "Hospital",
+          "Library",
+          "Office"
+        ],
+        "answer": "Hospital",
+        "feedback": "সঠিক উত্তর হল: Hospital"
       }
     ]
   },
   "Advanced": {
     "MCQ": [
       {
-        "id": 401,
+        "id": 1,
         "type": "MCQ",
-        "text": "অনুবাদ করুন: Environment",
+        "text": "সঠিক ব্যাকরণ সহ বাক্য চয়ন করুন।",
         "options": [
-          "পরিবেশ",
-          "Economy",
-          "Society",
-          "Politics"
+          "She don't like coffee.",
+          "She doesn't like coffee.",
+          "She not likes coffee.",
+          "She isn't like coffee."
         ],
-        "answer": "পরিবেশ",
-        "feedback": "সঠিক উত্তর হল: পরিবেশ"
+        "answer": "She doesn't like coffee.",
+        "feedback": "সঠিক উত্তর হল সে কফি পছন্দ করে না।"
       },
       {
-        "id": 402,
+        "id": 2,
         "type": "MCQ",
-        "text": "অনুবাদ করুন: Economy",
+        "text": "\"দ্রুত\" এর সমার্থক শব্দ কোনটি?",
         "options": [
-          "অর্থনীতি",
-          "History",
-          "Math",
-          "Science"
+          "Slow",
+          "Fast",
+          "Weak",
+          "Quiet"
         ],
-        "answer": "অর্থনীতি",
-        "feedback": "সঠিক উত্তর হল: অর্থনীতি"
+        "answer": "Fast",
+        "feedback": "সঠিক উত্তর দ্রুত"
       },
       {
-        "id": 403,
+        "id": 3,
         "type": "MCQ",
-        "text": "শূন্যস্থান পূরণ করুন: Synonym for 'meticulous'",
+        "text": "সঠিক বাক্য চয়ন করুন।",
         "options": [
-          "careful",
-          "careless",
-          "fast",
-          "slow"
+          "The children was playing.",
+          "The children were playing.",
+          "The children is playing.",
+          "The children am playing."
         ],
-        "answer": "careful",
-        "feedback": "সঠিক উত্তর হল: careful"
+        "answer": "The children were playing.",
+        "feedback": "সঠিক উত্তর হল শিশুরা খেলছিল।"
       },
       {
-        "id": 404,
+        "id": 4,
         "type": "MCQ",
-        "text": "শূন্যস্থান পূরণ করুন: Meaning of 'ubiquitous'",
+        "text": "কোন শব্দটি সর্বোত্তম বাক্যটি সম্পূর্ণ করে? বিজ্ঞানী পরীক্ষার সময় একটি গুরুত্বপূর্ণ _____ করেছেন।",
         "options": [
-          "everywhere",
-          "nowhere",
-          "rare",
-          "unique"
+          "discovery",
+          "dinner",
+          "journey",
+          "holiday"
         ],
-        "answer": "everywhere",
-        "feedback": "সঠিক উত্তর হল: everywhere"
+        "answer": "discovery",
+        "feedback": "সঠিক উত্তর হল আবিষ্কার"
       },
       {
-        "id": 405,
+        "id": 5,
         "type": "MCQ",
-        "text": "শূন্যস্থান পূরণ করুন: Adverb is ___",
+        "text": "উদার বিপরীত কি?",
         "options": [
+          "Kind",
+          "Selfish",
+          "Friendly",
+          "Helpful"
+        ],
+        "answer": "Selfish",
+        "feedback": "সঠিক উত্তর হল স্বার্থপর"
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "কোন বাক্যটি ভবিষ্যৎ কাল?",
+        "options": [
+          "I completed my work.",
+          "I am completing my work.",
+          "I will complete my work.",
+          "I complete my work."
+        ],
+        "answer": "I will complete my work.",
+        "feedback": "সঠিক উত্তর হল আমি আমার কাজ শেষ করব।"
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "সঠিক বানান শব্দ চয়ন করুন.",
+        "options": [
+          "Environment",
+          "Enviroment",
+          "Envirnment",
+          "Environmant"
+        ],
+        "answer": "Environment",
+        "feedback": "সঠিক উত্তর হল পরিবেশ"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "কোন শব্দ একটি বিশেষণ?",
+        "options": [
+          "Beautiful",
+          "Beauty",
+          "Beautify",
+          "Beautifully"
+        ],
+        "answer": "Beautiful",
+        "feedback": "সঠিক উত্তর সুন্দর"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "বাক্যটি পড়ুন। রাহুল কঠোর পড়াশোনা করেছে, তাই সে পরীক্ষায় উত্তীর্ণ হয়েছে। কেন পাস করলেন রাহুল?",
+        "options": [
+          "He was lucky.",
+          "He studied hard.",
+          "He copied answers.",
+          "He missed the exam."
+        ],
+        "answer": "He studied hard.",
+        "feedback": "সঠিক উত্তর হল তিনি কঠোর অধ্যয়ন করেছেন।"
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "কোন বাক্যে বিরাম চিহ্ন সঠিকভাবে ব্যবহার করা হয়েছে?",
+        "options": [
+          "What is your name?",
+          "What is your name.",
+          "What is your name!",
+          "What is your name,"
+        ],
+        "answer": "What is your name?",
+        "feedback": "সঠিক উত্তর হল আপনার নাম কি?"
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "\"সৎ\" এর সঠিক অর্থ চয়ন করুন।",
+        "options": [
+          "Always tells the truth.",
+          "Speaks loudly.",
+          "Runs quickly.",
+          "Works slowly."
+        ],
+        "answer": "Always tells the truth.",
+        "feedback": "সঠিক উত্তর হল সর্বদা সত্য কথা বলা।"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "কোন শব্দ বাক্যটি সম্পূর্ণ করে? আবহাওয়া এতটাই _____ ছিল যে সবাই ঘরের ভিতরেই ছিল।",
+        "options": [
+          "pleasant",
+          "severe",
+          "peaceful",
+          "colorful"
+        ],
+        "answer": "severe",
+        "feedback": "সঠিক উত্তর গুরুতর"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "কোন বাক্যটি প্যাসিভ ভয়েস?",
+        "options": [
+          "The teacher praised the student.",
+          "The student was praised by the teacher.",
+          "The student praises the teacher.",
+          "The teacher is praising the student."
+        ],
+        "answer": "The student was praised by the teacher.",
+        "feedback": "সঠিক উত্তর হল ছাত্র শিক্ষক দ্বারা প্রশংসিত হয়েছিল।"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "কোন শব্দটি সংযোজন?",
+        "options": [
+          "Because",
           "Quickly",
-          "Quick",
-          "Quicker",
-          "Quickest"
+          "House",
+          "Happy"
         ],
-        "answer": "Quickly",
-        "feedback": "সঠিক উত্তর হল: Quickly"
+        "answer": "Because",
+        "feedback": "সঠিক উত্তর কারণ"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "কোন বাক্যটি সঠিক?",
+        "options": [
+          "Everyone have finished.",
+          "Everyone has finished.",
+          "Everyone are finished.",
+          "Everyone were finished."
+        ],
+        "answer": "Everyone has finished.",
+        "feedback": "সঠিক উত্তর সবাই শেষ করেছে।"
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "কোন শব্দটি সাহায্য করার অর্থে সবচেয়ে কাছের?",
+        "options": [
+          "Help",
+          "Refuse",
+          "Ignore",
+          "Forget"
+        ],
+        "answer": "Help",
+        "feedback": "সঠিক উত্তর হল সাহায্য"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "বাক্যটি সম্পূর্ণ করুন। আপনি যদি নিয়মিত ব্যায়াম করেন তবে আপনি _____ সুস্থ থাকবেন।",
+        "options": [
+          "become",
+          "became",
+          "becoming",
+          "becomes"
+        ],
+        "answer": "become",
+        "feedback": "সঠিক উত্তর হয়ে গেছে"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "কোন বাক্য একটি প্রশ্ন?",
+        "options": [
+          "Please sit down.",
+          "Where do you live?",
+          "I live in Jaipur.",
+          "Close the door."
+        ],
+        "answer": "Where do you live?",
+        "feedback": "সঠিক উত্তর হল আপনি কোথায় থাকেন?"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "সঠিক নিবন্ধ নির্বাচন করুন. তিনি _____ সৎ মানুষ।",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "সঠিক উত্তর হল একটি"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "কোন শব্দ একটি বিশেষ্য?",
+        "options": [
+          "Courage",
+          "Courageous",
+          "Courageously",
+          "Encourage"
+        ],
+        "answer": "Courage",
+        "feedback": "সঠিক উত্তর হল সাহস"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "বাক্যটি পড়ুন। কোম্পানি সারা বছর অধ্যবসায়ীভাবে কাজ করা কর্মীদের পুরস্কৃত করেছে। কেন কর্মচারীদের পুরস্কৃত করা হয়েছিল?",
+        "options": [
+          "They worked diligently.",
+          "They were absent.",
+          "They resigned.",
+          "They arrived late."
+        ],
+        "answer": "They worked diligently.",
+        "feedback": "সঠিক উত্তর হল তারা অধ্যবসায়ের সাথে কাজ করেছে।"
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "কোন বাক্যটি ব্যাকরণগতভাবে সঠিক?",
+        "options": [
+          "Neither of the boys are present.",
+          "Neither of the boys is present.",
+          "Neither of the boys were present.",
+          "Neither boys is present."
+        ],
+        "answer": "Neither of the boys is present.",
+        "feedback": "সঠিক উত্তর হল ছেলেদের কেউই উপস্থিত নেই।"
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "কোন শব্দটি প্রসারণের বিপরীত শব্দ?",
+        "options": [
+          "Increase",
+          "Extend",
+          "Reduce",
+          "Improve"
+        ],
+        "answer": "Reduce",
+        "feedback": "সঠিক উত্তর হল Reduce"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "কোন বাক্য উপদেশ প্রকাশ করে?",
+        "options": [
+          "You should drink enough water.",
+          "I drank enough water.",
+          "Drinking water.",
+          "Water is important."
+        ],
+        "answer": "You should drink enough water.",
+        "feedback": "সঠিক উত্তর হল আপনার পর্যাপ্ত পানি পান করা উচিত।"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "বাক্যটি সম্পূর্ণ করুন। নিয়মিত পড়া আপনার _____ এবং যোগাযোগ দক্ষতা উন্নত করে।",
+        "options": [
+          "vocabulary",
+          "furniture",
+          "journey",
+          "transport"
+        ],
+        "answer": "vocabulary",
+        "feedback": "সঠিক উত্তর হল শব্দভান্ডার"
       }
     ],
     "Reading": [
       {
-        "id": 426,
+        "id": 26,
         "type": "Reading",
-        "text": "জোরে পড়ুন: টেকসই উন্নয়ন আমাদের ভবিষ্যতের জন্য গুরুত্বপূর্ণ।",
-        "word": "টেকসই উন্নয়ন আমাদের ভবিষ্যতের জন্য গুরুত্বপূর্ণ।"
+        "text": "জোরে পড়ুন: Every morning, I wake up early, exercise for thirty minutes, and then prepare for my day with a healthy breakfast.",
+        "word": "Every morning, I wake up early, exercise for thirty minutes, and then prepare for my day with a healthy breakfast."
       },
       {
-        "id": 427,
+        "id": 27,
         "type": "Reading",
-        "text": "জোরে পড়ুন: The hypothesis was confirmed.",
-        "word": "The hypothesis was confirmed."
+        "text": "জোরে পড়ুন: Learning a new language improves communication skills, builds confidence, and helps people connect with different cultures.",
+        "word": "Learning a new language improves communication skills, builds confidence, and helps people connect with different cultures."
       },
       {
-        "id": 428,
+        "id": 28,
         "type": "Reading",
-        "text": "জোরে পড়ুন: Significant progress has been made.",
-        "word": "Significant progress has been made."
+        "text": "জোরে পড়ুন: Technology has transformed education by providing students with access to digital resources, online courses, and interactive learning experiences.",
+        "word": "Technology has transformed education by providing students with access to digital resources, online courses, and interactive learning experiences."
       },
       {
-        "id": 429,
+        "id": 29,
         "type": "Reading",
-        "text": "জোরে পড়ুন: The implications are profound.",
-        "word": "The implications are profound."
+        "text": "জোরে পড়ুন: Regular exercise, a balanced diet, and adequate sleep are essential for maintaining both physical and mental well-being.",
+        "word": "Regular exercise, a balanced diet, and adequate sleep are essential for maintaining both physical and mental well-being."
       },
       {
-        "id": 430,
+        "id": 30,
         "type": "Reading",
-        "text": "জোরে পড়ুন: It is undeniably true.",
-        "word": "It is undeniably true."
+        "text": "জোরে পড়ুন: The librarian encouraged students to borrow books because reading regularly improves vocabulary, imagination, and critical thinking.",
+        "word": "The librarian encouraged students to borrow books because reading regularly improves vocabulary, imagination, and critical thinking."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: During the science exhibition, students confidently explained their innovative projects to teachers, parents, and visitors.",
+        "word": "During the science exhibition, students confidently explained their innovative projects to teachers, parents, and visitors."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The farmer adopted modern agricultural techniques to increase crop production while protecting the environment.",
+        "word": "The farmer adopted modern agricultural techniques to increase crop production while protecting the environment."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Although the weather forecast predicted heavy rain, the event continued because suitable arrangements had already been made.",
+        "word": "Although the weather forecast predicted heavy rain, the event continued because suitable arrangements had already been made."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Good leaders listen carefully, communicate clearly, and inspire others through their actions rather than only their words.",
+        "word": "Good leaders listen carefully, communicate clearly, and inspire others through their actions rather than only their words."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The healthcare team worked tirelessly throughout the night to provide timely treatment and ensure every patient received proper care.",
+        "word": "The healthcare team worked tirelessly throughout the night to provide timely treatment and ensure every patient received proper care."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Environmental conservation requires individuals, communities, and governments to work together toward sustainable development.",
+        "word": "Environmental conservation requires individuals, communities, and governments to work together toward sustainable development."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The museum displayed historical artifacts that helped visitors understand the rich cultural heritage of the country.",
+        "word": "The museum displayed historical artifacts that helped visitors understand the rich cultural heritage of the country."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Reading newspapers and reliable online articles every day helps people stay informed about current events around the world.",
+        "word": "Reading newspapers and reliable online articles every day helps people stay informed about current events around the world."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The software engineer solved a complex programming problem by carefully analyzing each step before writing the solution.",
+        "word": "The software engineer solved a complex programming problem by carefully analyzing each step before writing the solution."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Honesty, discipline, and perseverance are qualities that contribute significantly to long-term personal and professional success.",
+        "word": "Honesty, discipline, and perseverance are qualities that contribute significantly to long-term personal and professional success."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The teacher appreciated students who actively participated in classroom discussions and respected different opinions.",
+        "word": "The teacher appreciated students who actively participated in classroom discussions and respected different opinions."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Artificial intelligence is transforming education by creating personalized learning experiences for students with different abilities.",
+        "word": "Artificial intelligence is transforming education by creating personalized learning experiences for students with different abilities."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Public transportation helps reduce traffic congestion, saves fuel, and lowers environmental pollution in crowded cities.",
+        "word": "Public transportation helps reduce traffic congestion, saves fuel, and lowers environmental pollution in crowded cities."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Effective communication involves not only speaking clearly but also listening carefully and responding thoughtfully.",
+        "word": "Effective communication involves not only speaking clearly but also listening carefully and responding thoughtfully."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: The research team collected accurate data before drawing conclusions and presenting their findings to the audience.",
+        "word": "The research team collected accurate data before drawing conclusions and presenting their findings to the audience."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Volunteering in community service activities teaches responsibility, teamwork, empathy, and leadership skills.",
+        "word": "Volunteering in community service activities teaches responsibility, teamwork, empathy, and leadership skills."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: People who continuously learn new skills are often better prepared to adapt to changing technologies and workplace demands.",
+        "word": "People who continuously learn new skills are often better prepared to adapt to changing technologies and workplace demands."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Financial planning helps families manage expenses, save money for future goals, and prepare for unexpected situations.",
+        "word": "Financial planning helps families manage expenses, save money for future goals, and prepare for unexpected situations."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Despite facing several challenges, the young entrepreneur remained determined and eventually built a successful business.",
+        "word": "Despite facing several challenges, the young entrepreneur remained determined and eventually built a successful business."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "জোরে পড়ুন: Education empowers individuals to make informed decisions, contribute positively to society, and improve their overall quality of life.",
+        "word": "Education empowers individuals to make informed decisions, contribute positively to society, and improve their overall quality of life."
       }
     ],
     "Writing": [
       {
-        "id": 451,
+        "id": 51,
         "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: অর্থনীতি দ্রুত বাড়ছে।",
-        "answer": "The economy is growing rapidly.",
-        "feedback": "সঠিক অনুবাদ হল: The economy is growing rapidly."
+        "text": "ইংরেজিতে অনুবাদ করুন: সমালোচনামূলক চিন্তাভাবনা",
+        "answer": "Critical thinking",
+        "feedback": "বাক্যাংশটি ছিল: Critical thinking"
       },
       {
-        "id": 452,
+        "id": 52,
         "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: Environment",
-        "answer": "Environment",
-        "feedback": "সঠিক অনুবাদ হল: Environment"
+        "text": "ইংরেজিতে অনুবাদ করুন: টিম স্পিরিট",
+        "answer": "Team spirit",
+        "feedback": "বাক্যাংশটি ছিল: Team spirit"
       },
       {
-        "id": 453,
+        "id": 53,
         "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: Sustainable",
-        "answer": "Sustainable",
-        "feedback": "সঠিক অনুবাদ হল: Sustainable"
+        "text": "ইংরেজিতে অনুবাদ করুন: ডিজিটাল সাক্ষরতা",
+        "answer": "Digital literacy",
+        "feedback": "বাক্যাংশটি ছিল: Digital literacy"
       },
       {
-        "id": 454,
+        "id": 54,
         "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: Development",
-        "answer": "Development",
-        "feedback": "সঠিক অনুবাদ হল: Development"
+        "text": "ইংরেজিতে অনুবাদ করুন: সময় ব্যবস্থাপনা",
+        "answer": "Time management",
+        "feedback": "বাক্যাংশটি ছিল: Time management"
       },
       {
-        "id": 455,
+        "id": 55,
         "type": "Writing",
-        "text": "ইংরেজি অনুবাদ লিখুন: Congratulations",
-        "answer": "Congratulations",
-        "feedback": "সঠিক অনুবাদ হল: Congratulations"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 476,
-        "type": "Listening",
-        "audioText": "আপনার সাফল্যের জন্য অভিনন্দন।",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "Congratulations on your success.",
-        "feedback": "সঠিক উত্তর হল: Congratulations on your success."
+        "text": "ইংরেজিতে অনুবাদ করুন: স্বাস্থ্যকর জীবনধারা",
+        "answer": "Healthy lifestyle",
+        "feedback": "বাক্যাংশটি ছিল: Healthy lifestyle"
       },
       {
-        "id": 477,
-        "type": "Listening",
-        "audioText": "Environment",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "Environment",
-        "feedback": "সঠিক উত্তর হল: Environment"
+        "id": 56,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: জলবায়ু পরিবর্তন",
+        "answer": "Climate change",
+        "feedback": "বাক্যাংশটি ছিল: Climate change"
       },
       {
-        "id": 478,
-        "type": "Listening",
-        "audioText": "Sustainable",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "Sustainable",
-        "feedback": "সঠিক উত্তর হল: Sustainable"
+        "id": 57,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: আর্থিক পরিকল্পনা",
+        "answer": "Financial planning",
+        "feedback": "বাক্যাংশটি ছিল: Financial planning"
       },
       {
-        "id": 479,
-        "type": "Listening",
-        "audioText": "Development",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "Development",
-        "feedback": "সঠিক উত্তর হল: Development"
+        "id": 58,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: সমস্যা সমাধান",
+        "answer": "Problem solving",
+        "feedback": "বাক্যাংশটি ছিল: Problem solving"
       },
       {
-        "id": 480,
-        "type": "Listening",
-        "audioText": "Hypothesis",
-        "text": "শুনুন এবং ইংরেজিতে লিখুন",
-        "answer": "Hypothesis",
-        "feedback": "সঠিক উত্তর হল: Hypothesis"
+        "id": 59,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: কৃত্রিম বুদ্ধিমত্তা",
+        "answer": "Artificial intelligence",
+        "feedback": "বাক্যাংশটি ছিল: Artificial intelligence"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: ইতিবাচক মনোভাব",
+        "answer": "Positive attitude",
+        "feedback": "বাক্যাংশটি ছিল: Positive attitude"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: ক্যারিয়ার বৃদ্ধি",
+        "answer": "Career growth",
+        "feedback": "বাক্যাংশটি ছিল: Career growth"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: নেতৃত্বের দক্ষতা",
+        "answer": "Leadership skills",
+        "feedback": "বাক্যাংশটি ছিল: Leadership skills"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: সম্প্রদায় সেবা",
+        "answer": "Community service",
+        "feedback": "বাক্যাংশটি ছিল: Community service"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: পাবলিক বক্তৃতা",
+        "answer": "Public speaking",
+        "feedback": "বাক্যাংশটি ছিল: Public speaking"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: আবেগগত বুদ্ধিমত্তা",
+        "answer": "Emotional intelligence",
+        "feedback": "বাক্যাংশটি ছিল: Emotional intelligence"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: ডেটা বিশ্লেষণ",
+        "answer": "Data analysis",
+        "feedback": "বাক্যাংশটি ছিল: Data analysis"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: অনলাইন শিক্ষা",
+        "answer": "Online learning",
+        "feedback": "বাক্যাংশটি ছিল: Online learning"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: সিদ্ধান্ত গ্রহণ",
+        "answer": "Decision making",
+        "feedback": "বাক্যাংশটি ছিল: Decision making"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: পরিবেশ সুরক্ষা",
+        "answer": "Environmental protection",
+        "feedback": "বাক্যাংশটি ছিল: Environmental protection"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: নলেজ শেয়ারিং",
+        "answer": "Knowledge sharing",
+        "feedback": "বাক্যাংশটি ছিল: Knowledge sharing"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: স্ব-শৃঙ্খলা",
+        "answer": "Self discipline",
+        "feedback": "বাক্যাংশটি ছিল: Self discipline"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: লক্ষ্য সেটিং",
+        "answer": "Goal setting",
+        "feedback": "বাক্যাংশটি ছিল: Goal setting"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: সৃজনশীল মানসিকতা",
+        "answer": "Creative mindset",
+        "feedback": "বাক্যাংশটি ছিল: Creative mindset"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: আজীবন শিক্ষা",
+        "answer": "Lifelong learning",
+        "feedback": "বাক্যাংশটি ছিল: Lifelong learning"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "ইংরেজিতে অনুবাদ করুন: পেশাগত নৈতিকতা",
+        "answer": "Professional ethics",
+        "feedback": "বাক্যাংশটি ছিল: Professional ethics"
       }
     ],
     "Grammar": [
       {
-        "id": 501,
+        "id": 76,
         "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: If I ___ known, I would have come.",
+        "text": "শূন্যস্থান পূরণ করুন: By next year, she _____ her degree.",
         "options": [
-          "had",
-          "have",
-          "has",
-          "did"
+          "completes",
+          "completed",
+          "will complete",
+          "will have completed"
         ],
-        "answer": "had",
-        "feedback": "সঠিক উত্তর হল: had"
+        "answer": "will have completed",
+        "feedback": "সঠিক উত্তর হল: will have completed"
       },
       {
-        "id": 502,
+        "id": 77,
         "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: By the time we arrived, they ___ left.",
+        "text": "শূন্যস্থান পূরণ করুন: Neither of the students _____ absent today.",
         "options": [
-          "had",
-          "have",
-          "will have",
-          "are"
-        ],
-        "answer": "had",
-        "feedback": "সঠিক উত্তর হল: had"
-      },
-      {
-        "id": 503,
-        "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: Not only ___ he late, but he also forgot his book.",
-        "options": [
-          "was",
-          "is",
+          "are",
           "were",
-          "did"
+          "is",
+          "have"
         ],
-        "answer": "was",
-        "feedback": "সঠিক উত্তর হল: was"
+        "answer": "is",
+        "feedback": "সঠিক উত্তর হল: is"
       },
       {
-        "id": 504,
+        "id": 78,
         "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: I wish I ___ a car.",
+        "text": "শূন্যস্থান পূরণ করুন: If I _____ enough money, I would buy a laptop.",
         "options": [
-          "had",
           "have",
-          "will have",
-          "am having"
+          "had",
+          "has",
+          "having"
         ],
         "answer": "had",
         "feedback": "সঠিক উত্তর হল: had"
       },
       {
-        "id": 505,
+        "id": 79,
         "type": "Grammar",
-        "text": "শূন্যস্থান পূরণ করুন: She speaks as if she ___ everything.",
+        "text": "শূন্যস্থান পূরণ করুন: The meeting _____ by the manager yesterday.",
         "options": [
-          "knew",
-          "knows",
-          "know",
-          "knowing"
+          "conducts",
+          "conducted",
+          "was conducted",
+          "is conducting"
         ],
-        "answer": "knew",
-        "feedback": "সঠিক উত্তর হল: knew"
+        "answer": "was conducted",
+        "feedback": "সঠিক উত্তর হল: was conducted"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: She speaks English _____ than her brother.",
+        "options": [
+          "good",
+          "well",
+          "better",
+          "best"
+        ],
+        "answer": "better",
+        "feedback": "সঠিক উত্তর হল: better"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Choose the correct sentence.",
+        "options": [
+          "Everyone have submitted the report.",
+          "Everyone has submitted the report.",
+          "Everyone are submitting the report.",
+          "Everyone were submitting the report."
+        ],
+        "answer": "Everyone has submitted the report.",
+        "feedback": "সঠিক উত্তর হল: Everyone has submitted the report."
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: The teacher asked the students _____ quietly.",
+        "options": [
+          "sit",
+          "to sit",
+          "sitting",
+          "sat"
+        ],
+        "answer": "to sit",
+        "feedback": "সঠিক উত্তর হল: to sit"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Which sentence is in passive voice?",
+        "options": [
+          "The chef prepared the meal.",
+          "The meal was prepared by the chef.",
+          "The chef is preparing the meal.",
+          "The chef prepares meals."
+        ],
+        "answer": "The meal was prepared by the chef.",
+        "feedback": "সঠিক উত্তর হল: The meal was prepared by the chef."
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: If it rains tomorrow, we _____ at home.",
+        "options": [
+          "stayed",
+          "stay",
+          "will stay",
+          "staying"
+        ],
+        "answer": "will stay",
+        "feedback": "সঠিক উত্তর হল: will stay"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: The project must _____ before Friday.",
+        "options": [
+          "complete",
+          "be completed",
+          "completed",
+          "completing"
+        ],
+        "answer": "be completed",
+        "feedback": "সঠিক উত্তর হল: be completed"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: She has lived here _____ 2010.",
+        "options": [
+          "for",
+          "since",
+          "from",
+          "by"
+        ],
+        "answer": "since",
+        "feedback": "সঠিক উত্তর হল:  since"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: I am interested _____ learning new languages.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "with"
+        ],
+        "answer": "in",
+        "feedback": "সঠিক উত্তর হল: in"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: He is one of the best players _____ the team.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "over"
+        ],
+        "answer": "in",
+        "feedback": "সঠিক উত্তর হল: in"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Which sentence is correct?",
+        "options": [
+          "She enjoys to read.",
+          "She enjoys reading.",
+          "She enjoy reading.",
+          "She enjoyed read."
+        ],
+        "answer": "She enjoys reading.",
+        "feedback": "সঠিক উত্তর হল: She enjoys reading."
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: The train had already left before we _____ the station.",
+        "options": [
+          "reach",
+          "reached",
+          "reaches",
+          "reaching"
+        ],
+        "answer": "reached",
+        "feedback": "সঠিক উত্তর হল: reached"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Which modal verb expresses advice?",
+        "options": [
+          "Can",
+          "Should",
+          "May",
+          "Must"
+        ],
+        "answer": "Should",
+        "feedback": "সঠিক উত্তর হল: Should"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: \"I am busy,\" she said. Choose the correct indirect speech.",
+        "options": [
+          "She said that she was busy.",
+          "She said she is busy.",
+          "She says she was busy.",
+          "She told I am busy."
+        ],
+        "answer": "She said that she was busy.",
+        "feedback": "সঠিক উত্তর হল: She said that she was busy."
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: The students _____ preparing for the examination since morning.",
+        "options": [
+          "has been",
+          "have been",
+          "was",
+          "is"
+        ],
+        "answer": "have been",
+        "feedback": "সঠিক উত্তর হল: have been"
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Which sentence is grammatically correct?",
+        "options": [
+          "The news are interesting.",
+          "The news is interesting.",
+          "The news were interesting.",
+          "The news have interesting."
+        ],
+        "answer": "The news is interesting.",
+        "feedback": "সঠিক উত্তর হল: The news is interesting."
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: We look forward _____ you soon.",
+        "options": [
+          "meet",
+          "meeting",
+          "met",
+          "to meet"
+        ],
+        "answer": "meeting",
+        "feedback": "সঠিক উত্তর হল: meeting"
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Which sentence contains a relative pronoun?",
+        "options": [
+          "The boy who won the race is my cousin.",
+          "The boy runs fast.",
+          "The race was exciting.",
+          "My cousin is here."
+        ],
+        "answer": "The boy who won the race is my cousin.",
+        "feedback": "সঠিক উত্তর হল: The boy who won the race is my cousin."
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Hardly had the match started _____ it began to rain.",
+        "options": [
+          "when",
+          "than",
+          "then",
+          "while"
+        ],
+        "answer": "when",
+        "feedback": "সঠিক উত্তর হল: when"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Which word correctly completes the sentence? The manager spoke _____ during the presentation.",
+        "options": [
+          "confidence",
+          "confidently",
+          "confident",
+          "confidences"
+        ],
+        "answer": "confidently",
+        "feedback": "সঠিক উত্তর হল: confidently"
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Choose the correctly punctuated sentence.",
+        "options": [
+          "Yes I agree.",
+          "Yes, I agree.",
+          "Yes I, agree.",
+          "Yes; I agree"
+        ],
+        "answer": "Yes, I agree.",
+        "feedback": "সঠিক উত্তর হল: Yes, I agree."
+      },
+      {
+        "id": 101,
+        "type": "Grammar",
+        "text": "শূন্যস্থান পূরণ করুন: Select the correct sentence.",
+        "options": [
+          "Each of the participants has received a certificate.",
+          "Each of the participants have received a certificate.",
+          "Each participants has received a certificate.",
+          "Each participant have received certificates."
+        ],
+        "answer": "Each of the participants has received a certificate.",
+        "feedback": "সঠিক উত্তর হল: Each of the participants has received a certificate."
       }
     ],
     "Puzzle": [
       {
-        "id": 526,
+        "id": 102,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "come",
-          "have",
-          "would",
-          "I",
-          "known",
-          "had",
-          "If",
-          "I"
+        "text": "ক্রমটি সম্পূর্ণ করুন। 3, 6, 12, 24, __",
+        "options": [
+          "36",
+          "42",
+          "48",
+          "54"
         ],
-        "answer": "If I had known I would have come",
-        "feedback": "সঠিক উত্তর হল: If I had known I would have come"
+        "answer": "48",
+        "feedback": "সঠিক উত্তর হল: 48"
       },
       {
-        "id": 527,
+        "id": 103,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "arrived",
-          "we",
-          "time",
-          "the",
-          "By",
-          "left",
-          "had",
-          "they"
+        "text": "অদ্ভুত এক খুঁজে বের করুন.",
+        "options": [
+          "Keyboard",
+          "Monitor",
+          "Printer",
+          "Bicycle"
         ],
-        "answer": "By the time we arrived they had left",
-        "feedback": "সঠিক উত্তর হল: By the time we arrived they had left"
+        "answer": "Bicycle",
+        "feedback": "সঠিক উত্তর হল: Bicycle"
       },
       {
-        "id": 528,
+        "id": 104,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "late",
-          "he",
-          "was",
-          "only",
-          "Not"
+        "text": "বই পড়া লেখা যেমন কলম _____।",
+        "options": [
+          "Sleeping",
+          "Writing",
+          "Running",
+          "Cooking"
         ],
-        "answer": "Not only was he late",
-        "feedback": "সঠিক উত্তর হল: Not only was he late"
+        "answer": "Writing",
+        "feedback": "সঠিক উত্তর হল: Writing"
       },
       {
-        "id": 529,
+        "id": 105,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "car",
-          "a",
-          "had",
-          "I",
-          "wish",
-          "I"
+        "text": "বর্ণমালা প্যাটার্ন সম্পূর্ণ করুন. A, D, G, J, __",
+        "options": [
+          "K",
+          "L",
+          "M",
+          "N"
         ],
-        "answer": "I wish I had a car",
-        "feedback": "সঠিক উত্তর হল: I wish I had a car"
+        "answer": "M",
+        "feedback": "সঠিক উত্তর হল: M"
       },
       {
-        "id": 530,
+        "id": 106,
         "type": "Puzzle",
-        "text": "সঠিক ক্রমে সাজান",
-        "scrambled": [
-          "everything",
-          "knew",
-          "she",
-          "if",
-          "as",
-          "speaks",
-          "She"
+        "text": "কোন সংখ্যা অনুপস্থিত? 5, 10, 20, 40, __",
+        "options": [
+          "50",
+          "60",
+          "70",
+          "80"
         ],
-        "answer": "She speaks as if she knew everything",
-        "feedback": "সঠিক উত্তর হল: She speaks as if she knew everything"
+        "answer": "80",
+        "feedback": "সঠিক উত্তর হল: 80"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "কোন শব্দটি ভিন্ন?",
+        "options": [
+          "Rose",
+          "Lotus",
+          "Tulip",
+          "Banana"
+        ],
+        "answer": "Banana",
+        "feedback": "সঠিক উত্তর হল: Banana"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "যদি সমস্ত গোলাপ ফুল হয় এবং সমস্ত ফুল গাছপালা হয়, তাহলে একটি গোলাপ একটি _____।",
+        "options": [
+          "Fruit",
+          "Plant",
+          "Tree",
+          "Vegetable"
+        ],
+        "answer": "Plant",
+        "feedback": "সঠিক উত্তর হল: Plant"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "পরবর্তী চিঠি খুঁজুন। Z, W, T, Q, __",
+        "options": [
+          "O",
+          "N",
+          "M",
+          "L"
+        ],
+        "answer": "N",
+        "feedback": "সঠিক উত্তর হল: N"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "কোন সংখ্যার অন্তর্গত নয়?",
+        "options": [
+          "16",
+          "25",
+          "36",
+          "38"
+        ],
+        "answer": "38",
+        "feedback": "সঠিক উত্তর হল: 38"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "ডাক্তারকে হাসপাতালে নিয়ে যাওয়া হয় যেমন শিক্ষককে _____।",
+        "options": [
+          "Library",
+          "School",
+          "Market",
+          "Office"
+        ],
+        "answer": "School",
+        "feedback": "সঠিক উত্তর হল: School"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "প্যাটার্নটি সম্পূর্ণ করুন। 2, 5, 10, 17, 26, __",
+        "options": [
+          "35",
+          "37",
+          "39",
+          "41"
+        ],
+        "answer": "37",
+        "feedback": "সঠিক উত্তর হল: 37"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "অদ্ভুত এক খুঁজুন.",
+        "options": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Moon"
+        ],
+        "answer": "Moon",
+        "feedback": "সঠিক উত্তর হল: Moon"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "কোন জোড়া একই সম্পর্ক আছে? ছুরি: কাটা",
+        "options": [
+          "Spoon : Drink",
+          "Brush : Paint",
+          "Chair : Sit",
+          "Fan : Air"
+        ],
+        "answer": "Brush : Paint",
+        "feedback": "সঠিক উত্তর হল: Brush : Paint"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "কোন শব্দটি উপমা পূর্ণ করে? পাখি : মাছি :: মাছ : _____",
+        "options": [
+          "Swim",
+          "Walk",
+          "Jump",
+          "Crawl"
+        ],
+        "answer": "Swim",
+        "feedback": "সঠিক উত্তর হল: Swim"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "কোনটি পরবর্তী আসে? সোমবার, বুধবার, শুক্রবার, _____",
+        "options": [
+          "Saturday",
+          "Sunday",
+          "Tuesday",
+          "Thursday"
+        ],
+        "answer": "Sunday",
+        "feedback": "সঠিক উত্তর হল: Sunday"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "অক্ষরগুলি পুনরায় সাজান। LEPAP",
+        "options": [
+          "Apple",
+          "Pepla",
+          "Pleap",
+          "Lapep"
+        ],
+        "answer": "Apple",
+        "feedback": "সঠিক উত্তর হল: Apple"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "কোনটি ক্ষুদ্রতম ভগ্নাংশ?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5"
+        ],
+        "answer": "1/5",
+        "feedback": "সঠিক উত্তর হল: 1/5"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "গতকাল মঙ্গলবার হলে, আগামীকাল কোন দিন?",
+        "options": [
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "answer": "Thursday",
+        "feedback": "সঠিক উত্তর হল: Thursday"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "ক্রমটি সম্পূর্ণ করুন। 100, 95, 90, 85, __",
+        "options": [
+          "75",
+          "80",
+          "82",
+          "78"
+        ],
+        "answer": "80",
+        "feedback": "সঠিক উত্তর হল: 80"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "কোন বস্তুকে কিলোগ্রামে পরিমাপ করা হয়?",
+        "options": [
+          "Milk",
+          "Rice",
+          "Water",
+          "Juice"
+        ],
+        "answer": "Rice",
+        "feedback": "সঠিক উত্তর হল: Rice"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "অনুপস্থিত নম্বর খুঁজুন। 7, 14, 21, __, 35",
+        "options": [
+          "24",
+          "28",
+          "30",
+          "32"
+        ],
+        "answer": "28",
+        "feedback": "সঠিক উত্তর হল: 28"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "কোনটি নবায়নযোগ্য শক্তির উৎস?",
+        "options": [
+          "Coal",
+          "Petrol",
+          "Solar Energy",
+          "Diesel"
+        ],
+        "answer": "Solar Energy",
+        "feedback": "সঠিক উত্তর হল: Solar Energy"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "কোন শব্দের প্রাচীনতম অর্থ রয়েছে?",
+        "options": [
+          "Modern",
+          "Old",
+          "Young",
+          "Future"
+        ],
+        "answer": "Old",
+        "feedback": "সঠিক উত্তর হল: Old"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "কোনটি সঠিক ক্রম?",
+        "options": [
+          "Seed -> Tree -> Plant",
+          "Seed -> Plant -> Tree",
+          "Plant -> Seed -> Tree",
+          "Tree -> Seed -> Plant"
+        ],
+        "answer": "Seed -> Plant -> Tree",
+        "feedback": "সঠিক উত্তর হল: Seed -> Plant -> Tree"
+      },
+      {
+        "id": 126,
+        "type": "Puzzle",
+        "text": "একজন কৃষকের ১০টি আম আছে। সে তার বন্ধুকে ৪টি দেয় এবং আরো ৬টি কিনে নেয়। তার কাছে এখন কয়টি আম আছে?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "14"
+        ],
+        "answer": "12",
+        "feedback": "সঠিক উত্তর হল: 12"
       }
     ]
   }

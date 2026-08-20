@@ -190,7 +190,7 @@ const GenderClassifier = () => {
     let currentLang = 'hi';
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    currentLang = storedUser.preferred_language || 'hi';
+    currentLang = storedUser.learning_language || 'hi';
   } catch (e) {}
   const data = LANGUAGE_DATA[currentLang] || LANGUAGE_DATA['hi'];
 

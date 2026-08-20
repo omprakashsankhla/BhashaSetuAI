@@ -111,7 +111,7 @@ const SpeechPrep = () => {
     let currentLang = 'hi';
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    currentLang = storedUser.preferred_language || 'hi';
+    currentLang = storedUser.learning_language || 'hi';
   } catch (e) {}
   const data = SPEECH_LANG_DATA[currentLang] || SPEECH_LANG_DATA['hi'];
 

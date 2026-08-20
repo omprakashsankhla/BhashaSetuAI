@@ -91,32 +91,50 @@ const TextDetective = ({ onGameComplete }) => {
   const [score, setScore] = useState(0);
   const [gameOver, setGameOver] = useState(false);
 
+  const storedUser = (() => {
+    try {
+      return JSON.parse(localStorage.getItem('user') || '{}');
+    } catch (e) {
+      return {};
+    }
+  })();
+  const learningLang = storedUser.learning_language || 'hi';
+  const interfaceLang = storedUser.interface_language || i18n.language || 'en';
+
   const fetchGameData = async () => {
     try {
-      const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-      const targetLang = storedUser.preferred_language || 'hi';
-      const interfaceLang = i18n.language || 'en';
-      
       const token = localStorage.getItem('token');
-      const res = await fetch(`${API_BASE_URL}/api/activities/game-data/textdetective?lang=${targetLang}&interfaceLang=${interfaceLang}`, {
+      const res = await fetch(`${API_BASE_URL}/api/activities/game-data/textdetective?lang=${learningLang}&interfaceLang=${interfaceLang}`, {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       if (res.ok) {
         const data = await res.json();
-        if (data && data.puzzles) {
-          setCases(data.puzzles);
+        if (data && data.puzzles && data.puzzles.length > 0) {
+          let puzzles = data.puzzles;
+          while (puzzles.length < 10) {
+            puzzles = [...puzzles, ...puzzles.map(p => ({ ...p }))];
+          }
+          setCases(puzzles.slice(0, 10));
+          setLoading(false);
+          return;
         }
       }
     } catch (e) {
       console.error('Error fetching textdetective data:', e);
-    } finally {
-      setLoading(false);
     }
+    
+    // Fallback to local offline data
+    let localData = getDetectiveData(learningLang);
+    while (localData.length < 10) {
+      localData = [...localData, ...localData.map(p => ({ ...p }))];
+    }
+    setCases(localData.slice(0, 10));
+    setLoading(false);
   };
 
   useEffect(() => {
     fetchGameData();
-  }, []);
+  }, [learningLang, interfaceLang]);
 
   const activeCase = cases[currentIdx];
 

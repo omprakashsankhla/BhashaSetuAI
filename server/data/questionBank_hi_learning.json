@@ -6,65 +6,65 @@
         "type": "MCQ",
         "text": "Which letter comes after A?",
         "options": [
-          "B",
-          "C",
-          "D",
-          "E"
+          "बी",
+          "सी",
+          "डी",
+          "ई"
         ],
-        "answer": "B",
-        "feedback": "Correct answer is B"
+        "answer": "बी",
+        "feedback": "Correct answer is: बी"
       },
       {
         "id": 2,
         "type": "MCQ",
-        "text": "Which word is a fruit?",
+        "text": "Which word is a fruit in Hindi?",
         "options": [
-          "Apple",
-          "Chair",
-          "Table",
-          "Book"
+          "सेब",
+          "कुर्सी",
+          "टेबल",
+          "किताब"
         ],
-        "answer": "Apple",
-        "feedback": "Correct answer is Apple"
+        "answer": "सेब",
+        "feedback": "Correct answer is: सेब"
       },
       {
         "id": 3,
         "type": "MCQ",
-        "text": "Which word names an animal?",
+        "text": "Which word names an animal in Hindi?",
         "options": [
-          "Dog",
-          "Pen",
-          "Cup",
-          "Fan"
+          "कुत्ता",
+          "कलम",
+          "कप",
+          "पंखा"
         ],
-        "answer": "Dog",
-        "feedback": "Correct answer is Dog"
+        "answer": "कुत्ता",
+        "feedback": "Correct answer is: कुत्ता"
       },
       {
         "id": 4,
         "type": "MCQ",
         "text": "Which letter is a vowel?",
         "options": [
-          "B",
-          "C",
-          "A",
-          "D"
+          "बी",
+          "सी",
+          "ए",
+          "डी"
         ],
-        "answer": "A",
-        "feedback": "Correct answer is A"
+        "answer": "ए",
+        "feedback": "Correct answer is: ए"
       },
       {
         "id": 5,
         "type": "MCQ",
         "text": "Which word means a greeting?",
         "options": [
-          "Hello",
-          "Sleep",
-          "Eat",
-          "Jump"
+          "नमस्ते",
+          "सो जाओ",
+          "खाओ",
+          "कूदो"
         ],
-        "answer": "Hello",
-        "feedback": "Correct answer is Hello"
+        "answer": "नमस्ते",
+        "feedback": "Correct answer is: नमस्ते"
       },
       {
         "id": 6,
@@ -77,910 +77,910 @@
           "12"
         ],
         "answer": "10",
-        "feedback": "Correct answer is 10"
+        "feedback": "Correct answer is: 10"
       },
       {
         "id": 7,
         "type": "MCQ",
         "text": "Which object is used for writing?",
         "options": [
-          "Pencil",
-          "Plate",
-          "Spoon",
-          "Bottle"
+          "पेंसिल",
+          "थाली",
+          "चम्मच",
+          "बोतल"
         ],
-        "answer": "Pencil",
-        "feedback": "Correct answer is Pencil"
+        "answer": "पेंसिल",
+        "feedback": "Correct answer is: पेंसिल"
       },
       {
         "id": 8,
         "type": "MCQ",
-        "text": "Which word is a color?",
+        "text": "Which word is a color in Hindi?",
         "options": [
-          "Red",
-          "Ball",
-          "Mango",
-          "Bird"
+          "लाल",
+          "गेंद",
+          "आम",
+          "पक्षी"
         ],
-        "answer": "Red",
-        "feedback": "Correct answer is Red"
+        "answer": "लाल",
+        "feedback": "Correct answer is: लाल"
       },
       {
         "id": 9,
         "type": "MCQ",
         "text": "Which sentence is correct?",
         "options": [
-          "I am happy.",
-          "Happy I am.",
-          "Am I happy.",
-          "Happy am."
+          "मैं खुश हूँ।",
+          "मैं खुश हूं.",
+          "क्या मैं खुश हूँ।",
+          "खुश हूं."
         ],
-        "answer": "I am happy.",
-        "feedback": "Correct answer is I am happy."
+        "answer": "मैं खुश हूँ।",
+        "feedback": "Correct answer is: मैं खुश हूँ।"
       },
       {
         "id": 10,
         "type": "MCQ",
         "text": "Which one is a body part?",
         "options": [
-          "Hand",
-          "Chair",
-          "Cup",
-          "Bag"
+          "हाथ",
+          "कुर्सी",
+          "कप",
+          "बैग"
         ],
-        "answer": "Hand",
-        "feedback": "Correct answer is Hand"
+        "answer": "हाथ",
+        "feedback": "Correct answer is: हाथ"
       },
       {
         "id": 11,
         "type": "MCQ",
         "text": "Which word is opposite of big?",
         "options": [
-          "Small",
-          "Long",
-          "Fast",
-          "Tall"
+          "छोटा",
+          "लंबा",
+          "तेज",
+          "लंबा "
         ],
-        "answer": "Small",
-        "feedback": "Correct answer is Small"
+        "answer": "छोटा",
+        "feedback": "Correct answer is: छोटा"
       },
       {
         "id": 12,
         "type": "MCQ",
-        "text": "Which is a day of the week?",
+        "text": "Which is a day of the week in Hindi?",
         "options": [
-          "Monday",
-          "January",
-          "Morning",
-          "Summer"
+          "सोमवार",
+          "जनवरी",
+          "सुबह",
+          "ग्रीष्म"
         ],
-        "answer": "Monday",
-        "feedback": "Correct answer is Monday"
+        "answer": "सोमवार",
+        "feedback": "Correct answer is: सोमवार"
       },
       {
         "id": 13,
         "type": "MCQ",
-        "text": "Which one is a vegetable?",
+        "text": "Which one is a vegetable in Hindi?",
         "options": [
-          "Carrot",
-          "Mango",
-          "Banana",
-          "Orange"
+          "गाजर",
+          "आम",
+          "केला",
+          "नारंगी"
         ],
-        "answer": "Carrot",
-        "feedback": "Correct answer is Carrot"
+        "answer": "गाजर",
+        "feedback": "Correct answer is: गाजर"
       },
       {
         "id": 14,
         "type": "MCQ",
-        "text": "Which animal says \"Meow\"?",
+        "text": "Which animal in Hindi says \"Meow\"?",
         "options": [
-          "Cat",
-          "Dog",
-          "Cow",
-          "Goat"
+          "बिल्ली",
+          "कुत्ता",
+          "गाय",
+          "बकरी"
         ],
-        "answer": "Cat",
-        "feedback": "Correct answer is Cat"
+        "answer": "बिल्ली",
+        "feedback": "Correct answer is: बिल्ली"
       },
       {
         "id": 15,
         "type": "MCQ",
-        "text": "Which word is a drink?",
+        "text": "Which word is a drink in Hindi?",
         "options": [
-          "Milk",
-          "Rice",
-          "Bread",
-          "Apple"
+          "दूध",
+          "चावल",
+          "रोटी",
+          "सेब"
         ],
-        "answer": "Milk",
-        "feedback": "Correct answer is Milk"
+        "answer": "दूध",
+        "feedback": "Correct answer is: दूध"
       },
       {
         "id": 16,
         "type": "MCQ",
         "text": "Which letter comes before G?",
         "options": [
-          "F",
-          "E",
-          "H",
-          "I"
+          "एफ",
+          "ई",
+          "एच",
+          "मैं"
         ],
-        "answer": "F",
-        "feedback": "Correct answer is F"
+        "answer": "एफ",
+        "feedback": "Correct answer is: एफ"
       },
       {
         "id": 17,
         "type": "MCQ",
         "text": "Which one flies?",
         "options": [
-          "Bird",
-          "Fish",
-          "Dog",
-          "Cow"
+          "पक्षी",
+          "मछली",
+          "कुत्ता",
+          "गाय"
         ],
-        "answer": "Bird",
-        "feedback": "Correct answer is Bird"
+        "answer": "पक्षी",
+        "feedback": "Correct answer is: पक्षी"
       },
       {
         "id": 18,
         "type": "MCQ",
         "text": "Which word is used in school?",
         "options": [
-          "Book",
-          "Pillow",
-          "Stove",
-          "Bucket"
+          "किताब",
+          "तकिया",
+          "चूल्हा",
+          "बाल्टी"
         ],
-        "answer": "Book",
-        "feedback": "Correct answer is Book"
+        "answer": "किताब",
+        "feedback": "Correct answer is: किताब"
       },
       {
         "id": 19,
         "type": "MCQ",
         "text": "Which season is the hottest?",
         "options": [
-          "Summer",
-          "Winter",
-          "Rainy",
-          "Autumn"
+          "ग्रीष्म",
+          "सर्दी",
+          "बरसाती",
+          "पतझड़"
         ],
-        "answer": "Summer",
-        "feedback": "Correct answer is Summer"
+        "answer": "ग्रीष्म",
+        "feedback": "Correct answer is: ग्रीष्म"
       },
       {
         "id": 20,
         "type": "MCQ",
         "text": "Which word is opposite of up?",
         "options": [
-          "Down",
-          "Left",
-          "Right",
-          "Near"
+          "नीचे",
+          "बायां",
+          "ठीक है",
+          "निकट"
         ],
-        "answer": "Down",
-        "feedback": "Correct answer is Down"
+        "answer": "नीचे",
+        "feedback": "Correct answer is: नीचे"
       },
       {
         "id": 21,
         "type": "MCQ",
         "text": "Which sentence is polite?",
         "options": [
-          "Thank you.",
-          "Go away.",
-          "Be quiet.",
-          "No."
+          "धन्यवाद।",
+          "दूर जाओ।",
+          "चुप रहें।",
+          "नहीं."
         ],
-        "answer": "Thank you.",
-        "feedback": "Correct answer is Thank you."
+        "answer": "धन्यवाद।",
+        "feedback": "Correct answer is: धन्यवाद।"
       },
       {
         "id": 22,
         "type": "MCQ",
-        "text": "Which shape has three sides?",
+        "text": "Which shape in Hindi has three sides?",
         "options": [
-          "Triangle",
-          "Square",
-          "Circle",
-          "Rectangle"
+          "त्रिकोण",
+          "चौकोर",
+          "घेरा",
+          "आयत"
         ],
-        "answer": "Triangle",
-        "feedback": "Correct answer is Triangle"
+        "answer": "त्रिकोण",
+        "feedback": "Correct answer is: त्रिकोण"
       },
       {
         "id": 23,
         "type": "MCQ",
         "text": "Which is used to tell time?",
         "options": [
-          "Clock",
-          "Plate",
-          "Pencil",
-          "Bag"
+          "घड़ी",
+          "थाली",
+          "पेंसिल",
+          "बैग"
         ],
-        "answer": "Clock",
-        "feedback": "Correct answer is Clock"
+        "answer": "घड़ी",
+        "feedback": "Correct answer is: घड़ी"
       },
       {
         "id": 24,
         "type": "MCQ",
         "text": "Which one is a family member?",
         "options": [
-          "Mother",
-          "Teacher",
-          "Doctor",
-          "Driver"
+          "माँ",
+          "शिक्षक",
+          "डॉक्टर",
+          "चालक"
         ],
-        "answer": "Mother",
-        "feedback": "Correct answer is Mother"
+        "answer": "माँ",
+        "feedback": "Correct answer is: माँ"
       },
       {
         "id": 25,
         "type": "MCQ",
         "text": "Which word completes the sentence? The sky is _____.",
         "options": [
-          "Blue",
-          "Sweet",
-          "Hot",
-          "Soft"
+          "नीला",
+          "मीठा",
+          "गरम",
+          "मुलायम"
         ],
-        "answer": "Blue",
-        "feedback": "Correct answer is Blue"
+        "answer": "नीला",
+        "feedback": "Correct answer is: नीला"
       }
     ],
     "Reading": [
       {
         "id": 26,
         "type": "Reading",
-        "text": "Read aloud: I am Sam.",
-        "word": "I am Sam."
+        "text": "Read aloud: मैं सैम हूं।",
+        "word": "मैं सैम हूं।"
       },
       {
         "id": 27,
         "type": "Reading",
-        "text": "Read aloud: This is a cat.",
-        "word": "This is a cat."
+        "text": "Read aloud: यह एक बिल्ली है.",
+        "word": "यह एक बिल्ली है."
       },
       {
         "id": 28,
         "type": "Reading",
-        "text": "Read aloud: The sun is hot.",
-        "word": "The sun is hot."
+        "text": "Read aloud: बहुत गर्मी हो रही है।",
+        "word": "बहुत गर्मी हो रही है।"
       },
       {
         "id": 29,
         "type": "Reading",
-        "text": "Read aloud: I like milk.",
-        "word": "I like milk."
+        "text": "Read aloud: मुझे दूध पसन्द है।",
+        "word": "मुझे दूध पसन्द है।"
       },
       {
         "id": 30,
         "type": "Reading",
-        "text": "Read aloud: She has a pen.",
-        "word": "She has a pen."
+        "text": "Read aloud: उसके पास एक कलम है.",
+        "word": "उसके पास एक कलम है."
       },
       {
         "id": 31,
         "type": "Reading",
-        "text": "Read aloud: We play daily.",
-        "word": "We play daily."
+        "text": "Read aloud: हम रोज खेलते हैं.",
+        "word": "हम रोज खेलते हैं."
       },
       {
         "id": 32,
         "type": "Reading",
-        "text": "Read aloud: The bird can fly.",
-        "word": "The bird can fly."
+        "text": "Read aloud: पक्षी उड़ सकता है.",
+        "word": "पक्षी उड़ सकता है."
       },
       {
         "id": 33,
         "type": "Reading",
-        "text": "Read aloud: My bag is blue.",
-        "word": "My bag is blue."
+        "text": "Read aloud: मेरा बैग नीला है.",
+        "word": "मेरा बैग नीला है."
       },
       {
         "id": 34,
         "type": "Reading",
-        "text": "Read aloud: He is my friend.",
-        "word": "He is my friend."
+        "text": "Read aloud: वह मेरा दोस्त है.",
+        "word": "वह मेरा दोस्त है."
       },
       {
         "id": 35,
         "type": "Reading",
-        "text": "Read aloud: Open the door.",
-        "word": "Open the door."
+        "text": "Read aloud: दरवाजा खाेलें।",
+        "word": "दरवाजा खाेलें।"
       },
       {
         "id": 36,
         "type": "Reading",
-        "text": "Read aloud: The dog is running.",
-        "word": "The dog is running."
+        "text": "Read aloud: कुत्ता भाग रहा है।",
+        "word": "कुत्ता भाग रहा है।"
       },
       {
         "id": 37,
         "type": "Reading",
-        "text": "Read aloud: I wash my hands.",
-        "word": "I wash my hands."
+        "text": "Read aloud: मैं अपने हाथ धोता हूं।",
+        "word": "मैं अपने हाथ धोता हूं।"
       },
       {
         "id": 38,
         "type": "Reading",
-        "text": "Read aloud: The flowers smell nice.",
-        "word": "The flowers smell nice."
+        "text": "Read aloud: फूलों से अच्छी खुशबू आती है.",
+        "word": "फूलों से अच्छी खुशबू आती है."
       },
       {
         "id": 39,
         "type": "Reading",
-        "text": "Read aloud: My school is nearby.",
-        "word": "My school is nearby."
+        "text": "Read aloud: मेरा स्कूल पास में ही है.",
+        "word": "मेरा स्कूल पास में ही है."
       },
       {
         "id": 40,
         "type": "Reading",
-        "text": "Read aloud: We drink clean water.",
-        "word": "We drink clean water."
+        "text": "Read aloud: हम साफ पानी पीते हैं.",
+        "word": "हम साफ पानी पीते हैं."
       },
       {
         "id": 41,
         "type": "Reading",
-        "text": "Read aloud: The moon shines at night.",
-        "word": "The moon shines at night."
+        "text": "Read aloud: रात में चाँद चमकता है.",
+        "word": "रात में चाँद चमकता है."
       },
       {
         "id": 42,
         "type": "Reading",
-        "text": "Read aloud: Please close the window.",
-        "word": "Please close the window."
+        "text": "Read aloud: कृपया विंडो बंद करें।",
+        "word": "कृपया विंडो बंद करें।"
       },
       {
         "id": 43,
         "type": "Reading",
-        "text": "Read aloud: Children are playing happily.",
-        "word": "Children are playing happily."
+        "text": "Read aloud: बच्चे खुशी से खेल रहे हैं.",
+        "word": "बच्चे खुशी से खेल रहे हैं."
       },
       {
         "id": 44,
         "type": "Reading",
-        "text": "Read aloud: The farmer grows vegetables.",
-        "word": "The farmer grows vegetables."
+        "text": "Read aloud: किसान सब्जियां उगाता है.",
+        "word": "किसान सब्जियां उगाता है."
       },
       {
         "id": 45,
         "type": "Reading",
-        "text": "Read aloud: I enjoy reading books.",
-        "word": "I enjoy reading books."
+        "text": "Read aloud: मुझे किताबें पढ़ने में मजा आता है.",
+        "word": "मुझे किताबें पढ़ने में मजा आता है."
       },
       {
         "id": 46,
         "type": "Reading",
-        "text": "Read aloud: My family eats dinner together.",
-        "word": "My family eats dinner together."
+        "text": "Read aloud: मेरा परिवार एक साथ रात का खाना खाता है।",
+        "word": "मेरा परिवार एक साथ रात का खाना खाता है।"
       },
       {
         "id": 47,
         "type": "Reading",
-        "text": "Read aloud: Always speak with kindness.",
-        "word": "Always speak with kindness."
+        "text": "Read aloud: हमेशा दयालुता से बोलें.",
+        "word": "हमेशा दयालुता से बोलें."
       },
       {
         "id": 48,
         "type": "Reading",
-        "text": "Read aloud: Practice makes us better.",
-        "word": "Practice makes us better."
+        "text": "Read aloud: अभ्यास हमें बेहतर बनाता है।",
+        "word": "अभ्यास हमें बेहतर बनाता है।"
       },
       {
         "id": 49,
         "type": "Reading",
-        "text": "Read aloud: Every day is a new beginning.",
-        "word": "Every day is a new beginning."
+        "text": "Read aloud: हर दिन एक नयी शुरुआत होती हैं।",
+        "word": "हर दिन एक नयी शुरुआत होती हैं।"
       },
       {
         "id": 50,
         "type": "Reading",
-        "text": "Read aloud: Learning opens many opportunities.",
-        "word": "Learning opens many opportunities."
+        "text": "Read aloud: सीखने से कई अवसर खुलते हैं।",
+        "word": "सीखने से कई अवसर खुलते हैं।"
       }
     ],
     "Writing": [
       {
         "id": 51,
         "type": "Writing",
-        "text": "Apple",
-        "answer": "Apple",
-        "feedback": "The phrase was: Apple"
+        "text": "Translate into Hindi: Apple",
+        "answer": "सेब",
+        "feedback": "Correct translation is: सेब"
       },
       {
         "id": 52,
         "type": "Writing",
-        "text": "Good morning",
-        "answer": "Good morning",
-        "feedback": "The phrase was: Good morning"
+        "text": "Translate into Hindi: Good morning",
+        "answer": "सुप्रभात",
+        "feedback": "Correct translation is: सुप्रभात"
       },
       {
         "id": 53,
         "type": "Writing",
-        "text": "Thank you",
-        "answer": "Thank you",
-        "feedback": "The phrase was: Thank you"
+        "text": "Translate into Hindi: Thank you",
+        "answer": "धन्यवाद",
+        "feedback": "Correct translation is: धन्यवाद"
       },
       {
         "id": 54,
         "type": "Writing",
-        "text": "My book",
-        "answer": "My book",
-        "feedback": "The phrase was: My book"
+        "text": "Translate into Hindi: My book",
+        "answer": "मेरी किताब",
+        "feedback": "Correct translation is: मेरी किताब"
       },
       {
         "id": 55,
         "type": "Writing",
-        "text": "Blue sky",
-        "answer": "Blue sky",
-        "feedback": "The phrase was: Blue sky"
+        "text": "Translate into Hindi: Blue sky",
+        "answer": "नीला आकाश",
+        "feedback": "Correct translation is: नीला आकाश"
       },
       {
         "id": 56,
         "type": "Writing",
-        "text": "Red ball",
-        "answer": "Red ball",
-        "feedback": "The phrase was: Red ball"
+        "text": "Translate into Hindi: Red ball",
+        "answer": "लाल गेंद",
+        "feedback": "Correct translation is: लाल गेंद"
       },
       {
         "id": 57,
         "type": "Writing",
-        "text": "Green tree",
-        "answer": "Green tree",
-        "feedback": "The phrase was: Green tree"
+        "text": "Translate into Hindi: Green tree",
+        "answer": "हरा पेड़",
+        "feedback": "Correct translation is: हरा पेड़"
       },
       {
         "id": 58,
         "type": "Writing",
-        "text": "Drink water",
-        "answer": "Drink water",
-        "feedback": "The phrase was: Drink water"
+        "text": "Translate into Hindi: Drink water",
+        "answer": "पानी पियें",
+        "feedback": "Correct translation is: पानी पियें"
       },
       {
         "id": 59,
         "type": "Writing",
-        "text": "Open door",
-        "answer": "Open door",
-        "feedback": "The phrase was: Open door"
+        "text": "Translate into Hindi: Open door",
+        "answer": "दरवाजा खोलो",
+        "feedback": "Correct translation is: दरवाजा खोलो"
       },
       {
         "id": 60,
         "type": "Writing",
-        "text": "Close window",
-        "answer": "Close window",
-        "feedback": "The phrase was: Close window"
+        "text": "Translate into Hindi: Close window",
+        "answer": "विंडो बंद करें",
+        "feedback": "Correct translation is: विंडो बंद करें"
       },
       {
         "id": 61,
         "type": "Writing",
-        "text": "Happy child",
-        "answer": "Happy child",
-        "feedback": "The phrase was: Happy child"
+        "text": "Translate into Hindi: Happy child",
+        "answer": "खुश बच्चा",
+        "feedback": "Correct translation is: खुश बच्चा"
       },
       {
         "id": 62,
         "type": "Writing",
-        "text": "Fast car",
-        "answer": "Fast car",
-        "feedback": "The phrase was: Fast car"
+        "text": "Translate into Hindi: Fast car",
+        "answer": "तेज़ कार",
+        "feedback": "Correct translation is: तेज़ कार"
       },
       {
         "id": 63,
         "type": "Writing",
-        "text": "Small cat",
-        "answer": "Small cat",
-        "feedback": "The phrase was: Small cat"
+        "text": "Translate into Hindi: Small cat",
+        "answer": "छोटी बिल्ली",
+        "feedback": "Correct translation is: छोटी बिल्ली"
       },
       {
         "id": 64,
         "type": "Writing",
-        "text": "Big house",
-        "answer": "Big house",
-        "feedback": "The phrase was: Big house"
+        "text": "Translate into Hindi: Big house",
+        "answer": "बड़ा घर",
+        "feedback": "Correct translation is: बड़ा घर"
       },
       {
         "id": 65,
         "type": "Writing",
-        "text": "Yellow flower",
-        "answer": "Yellow flower",
-        "feedback": "The phrase was: Yellow flower"
+        "text": "Translate into Hindi: Yellow flower",
+        "answer": "पीला फूल",
+        "feedback": "Correct translation is: पीला फूल"
       },
       {
         "id": 66,
         "type": "Writing",
-        "text": "Read book",
-        "answer": "Read book",
-        "feedback": "The phrase was: Read book"
+        "text": "Translate into Hindi: Read book",
+        "answer": "किताब पढ़ें",
+        "feedback": "Correct translation is: किताब पढ़ें"
       },
       {
         "id": 67,
         "type": "Writing",
-        "text": "Clean hands",
-        "answer": "Clean hands",
-        "feedback": "The phrase was: Clean hands"
+        "text": "Translate into Hindi: Clean hands",
+        "answer": "हाथ साफ करो",
+        "feedback": "Correct translation is: हाथ साफ करो"
       },
       {
         "id": 68,
         "type": "Writing",
-        "text": "Eat food",
-        "answer": "Eat food",
-        "feedback": "The phrase was: Eat food"
+        "text": "Translate into Hindi: Eat food",
+        "answer": "खाना खाओ",
+        "feedback": "Correct translation is: खाना खाओ"
       },
       {
         "id": 69,
         "type": "Writing",
-        "text": "Nice day",
-        "answer": "Nice day",
-        "feedback": "The phrase was: Nice day"
+        "text": "Translate into Hindi: Nice day",
+        "answer": "अच्छा दिन",
+        "feedback": "Correct translation is: अच्छा दिन"
       },
       {
         "id": 70,
         "type": "Writing",
-        "text": "Go home",
-        "answer": "Go home",
-        "feedback": "The phrase was: Go home"
+        "text": "Translate into Hindi: Go home",
+        "answer": "घर जाओ",
+        "feedback": "Correct translation is: घर जाओ"
       },
       {
         "id": 71,
         "type": "Writing",
-        "text": "Good friend",
-        "answer": "Good friend",
-        "feedback": "The phrase was: Good friend"
+        "text": "Translate into Hindi: Good friend",
+        "answer": "अच्छा दोस्त",
+        "feedback": "Correct translation is: अच्छा दोस्त"
       },
       {
         "id": 72,
         "type": "Writing",
-        "text": "My school",
-        "answer": "My school",
-        "feedback": "The phrase was: My school"
+        "text": "Translate into Hindi: My school",
+        "answer": "मेरा स्कूल",
+        "feedback": "Correct translation is: मेरा स्कूल"
       },
       {
         "id": 73,
         "type": "Writing",
-        "text": "Sweet mango",
-        "answer": "Sweet mango",
-        "feedback": "The phrase was: Sweet mango"
+        "text": "Translate into Hindi: Sweet mango",
+        "answer": "मीठा आम",
+        "feedback": "Correct translation is: मीठा आम"
       },
       {
         "id": 74,
         "type": "Writing",
-        "text": "Happy learning",
-        "answer": "Happy learning",
-        "feedback": "The phrase was: Happy learning"
+        "text": "Translate into Hindi: Happy learning",
+        "answer": "सुखद सीख",
+        "feedback": "Correct translation is: सुखद सीख"
       },
       {
         "id": 75,
         "type": "Writing",
-        "text": "Well done",
-        "answer": "Well done",
-        "feedback": "The phrase was: Well done"
+        "text": "Translate into Hindi: Well done",
+        "answer": "शाबाश",
+        "feedback": "Correct translation is: शाबाश"
       }
     ],
     "Grammar": [
       {
         "id": 76,
         "type": "Grammar",
-        "text": "I ___ a student.",
+        "text": "Fill in the blank: I am a student.",
         "options": [
-          "am",
-          "is",
-          "are",
-          "be"
+          "हूँ",
+          "है",
+          "हैं",
+          "हो"
         ],
-        "answer": "am",
-        "feedback": "Correct answer is am"
+        "answer": "हूँ",
+        "feedback": "Correct answer is: हूँ"
       },
       {
         "id": 77,
         "type": "Grammar",
-        "text": "She ___ happy.",
+        "text": "Fill in the blank: वह खुश ___.",
         "options": [
-          "am",
-          "is",
-          "are",
-          "be"
+          "हूँ",
+          "है",
+          "हैं",
+          "हो"
         ],
-        "answer": "is",
-        "feedback": "Correct answer is is"
+        "answer": "है",
+        "feedback": "Correct answer is: है"
       },
       {
         "id": 78,
         "type": "Grammar",
-        "text": "They ___ playing.",
+        "text": "Fill in the blank: वे खेल रहे ___.",
         "options": [
-          "am",
-          "is",
-          "are",
-          "was"
+          "हूँ",
+          "है",
+          "हैं",
+          "था"
         ],
-        "answer": "are",
-        "feedback": "Correct answer is are"
+        "answer": "हैं",
+        "feedback": "Correct answer is: हैं"
       },
       {
         "id": 79,
         "type": "Grammar",
-        "text": "This is ___ apple.",
+        "text": "Fill in the blank: This is an apple.",
         "options": [
-          "a",
-          "an",
-          "the",
-          "no article"
+          "ए",
+          "एक",
+          "द",
+          "कोई लेख नहीं"
         ],
-        "answer": "an",
-        "feedback": "Correct answer is an"
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
       },
       {
         "id": 80,
         "type": "Grammar",
-        "text": "I have ___ book.",
+        "text": "Fill in the blank: I have a book.",
         "options": [
-          "an",
-          "a",
-          "the",
-          "no article"
+          "एक",
+          "ए",
+          "द",
+          "कोई लेख नहीं"
         ],
-        "answer": "a",
-        "feedback": "Correct answer is a"
+        "answer": "ए",
+        "feedback": "Correct answer is: ए"
       },
       {
         "id": 81,
         "type": "Grammar",
-        "text": "___ sun rises in the east.",
+        "text": "Fill in the blank: The sun rises in the east.",
         "options": [
-          "A",
-          "An",
-          "The",
-          "No article"
+          "ए",
+          "एक",
+          "द",
+          "कोई लेख नहीं"
         ],
-        "answer": "The",
-        "feedback": "Correct answer is The"
+        "answer": "द",
+        "feedback": "Correct answer is: द"
       },
       {
         "id": 82,
         "type": "Grammar",
-        "text": "We ___ friends.",
+        "text": "Fill in the blank: We are friends.",
         "options": [
-          "am",
-          "is",
-          "are",
-          "be"
+          "हूँ",
+          "है",
+          "हैं",
+          "हो"
         ],
-        "answer": "are",
-        "feedback": "Correct answer is are"
+        "answer": "हैं",
+        "feedback": "Correct answer is: हैं"
       },
       {
         "id": 83,
         "type": "Grammar",
-        "text": "He ___ my brother.",
+        "text": "Fill in the blank: He is my brother.",
         "options": [
-          "am",
-          "are",
-          "is",
-          "were"
+          "हूँ",
+          "हैं",
+          "है",
+          "थे"
         ],
-        "answer": "is",
-        "feedback": "Correct answer is is"
+        "answer": "है",
+        "feedback": "Correct answer is: है"
       },
       {
         "id": 84,
         "type": "Grammar",
-        "text": "The birds ___ flying.",
+        "text": "Fill in the blank: The birds are flying.",
         "options": [
-          "is",
-          "are",
-          "am",
-          "was"
+          "है",
+          "हैं",
+          "हूँ",
+          "था"
         ],
-        "answer": "are",
-        "feedback": "Correct answer is are"
+        "answer": "हैं",
+        "feedback": "Correct answer is: हैं"
       },
       {
         "id": 85,
         "type": "Grammar",
-        "text": "She has two ___.",
+        "text": "Fill in the blank: She has two books.",
         "options": [
-          "book",
-          "books",
-          "bookes",
-          "bookses"
+          "किताब",
+          "किताबें",
+          "किताबें ",
+          "किताबें  "
         ],
-        "answer": "books",
-        "feedback": "Correct answer is books"
+        "answer": "किताबें",
+        "feedback": "Correct answer is: किताबें"
       },
       {
         "id": 86,
         "type": "Grammar",
-        "text": "I eat ___ banana every day.",
+        "text": "Fill in the blank: I eat a banana every day.",
         "options": [
-          "a",
-          "an",
-          "the",
-          "no article"
+          "ए",
+          "एक",
+          "द",
+          "कोई लेख नहीं"
         ],
-        "answer": "a",
-        "feedback": "Correct answer is a"
+        "answer": "ए",
+        "feedback": "Correct answer is: ए"
       },
       {
         "id": 87,
         "type": "Grammar",
-        "text": "Ravi ___ a doctor.",
+        "text": "Fill in the blank: Ravi is a doctor.",
         "options": [
-          "are",
-          "is",
-          "am",
-          "were"
+          "हैं",
+          "है",
+          "हूँ",
+          "थे"
         ],
-        "answer": "is",
-        "feedback": "Correct answer is is"
+        "answer": "है",
+        "feedback": "Correct answer is: है"
       },
       {
         "id": 88,
         "type": "Grammar",
-        "text": "We ___ to school.",
+        "text": "Fill in the blank: We go to school.",
         "options": [
-          "goes",
-          "go",
-          "going",
-          "gone"
+          "जाता है",
+          "जाओ",
+          "जा रहा हूँ",
+          "चला गया"
         ],
-        "answer": "go",
-        "feedback": "Correct answer is go"
+        "answer": "जाओ",
+        "feedback": "Correct answer is: जाओ"
       },
       {
         "id": 89,
         "type": "Grammar",
-        "text": "She ___ water.",
+        "text": "Fill in the blank: She drinks water.",
         "options": [
-          "drink",
-          "drinks",
-          "drinking",
-          "drank"
+          "पीना",
+          "पेय",
+          "पीना ",
+          "पिया"
         ],
-        "answer": "drinks",
-        "feedback": "Correct answer is drinks"
+        "answer": "पेय",
+        "feedback": "Correct answer is: पेय"
       },
       {
         "id": 90,
         "type": "Grammar",
-        "text": "They ___ football.",
+        "text": "Fill in the blank: They play football.",
         "options": [
-          "plays",
-          "play",
-          "playing",
-          "played"
+          "खेलता है",
+          "खेलो",
+          "खेल रहे हैं",
+          "खेला"
         ],
-        "answer": "play",
-        "feedback": "Correct answer is play"
+        "answer": "खेलो",
+        "feedback": "Correct answer is: खेलो"
       },
       {
         "id": 91,
         "type": "Grammar",
-        "text": "This ___ my bag.",
+        "text": "Fill in the blank: This is my bag.",
         "options": [
-          "are",
-          "is",
-          "am",
-          "be"
+          "हैं",
+          "है",
+          "हूँ",
+          "हो"
         ],
-        "answer": "is",
-        "feedback": "Correct answer is is"
+        "answer": "है",
+        "feedback": "Correct answer is: है"
       },
       {
         "id": 92,
         "type": "Grammar",
-        "text": "I ___ my homework.",
+        "text": "Fill in the blank: I do my homework.",
         "options": [
-          "do",
-          "does",
-          "dids",
-          "doing"
+          "करो",
+          "करता है",
+          "किया",
+          "कर रहा हूँ"
         ],
-        "answer": "do",
-        "feedback": "Correct answer is do"
+        "answer": "करो",
+        "feedback": "Correct answer is: करो"
       },
       {
         "id": 93,
         "type": "Grammar",
-        "text": "He ___ his homework.",
+        "text": "Fill in the blank: He does his homework.",
         "options": [
-          "do",
-          "does",
-          "doing",
-          "done"
+          "करो",
+          "करता है",
+          "कर रहा हूँ",
+          "किया"
         ],
-        "answer": "does",
-        "feedback": "Correct answer is does"
+        "answer": "करता है",
+        "feedback": "Correct answer is: करता है"
       },
       {
         "id": 94,
         "type": "Grammar",
-        "text": "We have three ___.",
+        "text": "Fill in the blank: We have three pens.",
         "options": [
-          "pen",
-          "pens",
-          "penes",
-          "penc"
+          "कलम",
+          "कलम ",
+          "लिंग",
+          "पेन्क"
         ],
-        "answer": "pens",
-        "feedback": "Correct answer is pens"
+        "answer": "कलम",
+        "feedback": "Correct answer is: कलम"
       },
       {
         "id": 95,
         "type": "Grammar",
-        "text": "The child ___ smiling.",
+        "text": "Fill in the blank: The child is smiling.",
         "options": [
-          "is",
-          "are",
-          "am",
-          "were"
+          "है",
+          "हैं",
+          "हूँ",
+          "थे"
         ],
-        "answer": "is",
-        "feedback": "Correct answer is is"
+        "answer": "है",
+        "feedback": "Correct answer is: है"
       },
       {
         "id": 96,
         "type": "Grammar",
-        "text": "___ is my teacher.",
+        "text": "Fill in the blank: He is my teacher.",
         "options": [
-          "He",
-          "Him",
-          "His",
-          "Himself"
+          "वह",
+          "उसे",
+          "उसका",
+          "स्वयं"
         ],
-        "answer": "He",
-        "feedback": "Correct answer is He"
+        "answer": "वह",
+        "feedback": "Correct answer is: वह"
       },
       {
         "id": 97,
         "type": "Grammar",
-        "text": "This is ___ pencil.",
+        "text": "Fill in the blank: This is my pencil.",
         "options": [
-          "my",
-          "me",
-          "I",
-          "mine"
+          "मेरा",
+          "मैं",
+          "मैं ",
+          "मेरा "
         ],
-        "answer": "my",
-        "feedback": "Correct answer is my"
+        "answer": "मेरा",
+        "feedback": "Correct answer is: मेरा"
       },
       {
         "id": 98,
         "type": "Grammar",
-        "text": "They live ___ India.",
+        "text": "Fill in the blank: They live in India.",
         "options": [
-          "on",
-          "in",
-          "at",
-          "from"
+          "पर",
+          "में",
+          "पर ",
+          "से"
         ],
-        "answer": "in",
-        "feedback": "Correct answer is in"
+        "answer": "में",
+        "feedback": "Correct answer is: में"
       },
       {
         "id": 99,
         "type": "Grammar",
-        "text": "The cat is ___ the table.",
+        "text": "Fill in the blank: The cat is on the table.",
         "options": [
-          "on",
-          "in",
-          "under",
-          "from"
+          "पर",
+          "में",
+          "के अंतर्गत",
+          "से"
         ],
-        "answer": "on",
-        "feedback": "Correct answer is on"
+        "answer": "पर",
+        "feedback": "Correct answer is: पर"
       },
       {
         "id": 100,
         "type": "Grammar",
-        "text": "We ___ English every day.",
+        "text": "Fill in the blank: We learn English every day.",
         "options": [
-          "learns",
-          "learn",
-          "learning",
-          "learned"
+          "सीखता है",
+          "सीखो",
+          "सीखना",
+          "सीखा"
         ],
-        "answer": "learn",
-        "feedback": "Correct answer is learn"
+        "answer": "सीखो",
+        "feedback": "Correct answer is: सीखो"
       }
     ],
     "Puzzle": [
@@ -989,26 +989,26 @@
         "type": "Puzzle",
         "text": "Which word is different?",
         "options": [
-          "Apple",
-          "Mango",
-          "Banana",
-          "Chair"
+          "सेब",
+          "आम",
+          "केला",
+          "कुर्सी"
         ],
-        "answer": "Chair",
-        "feedback": "Correct answer is Chair"
+        "answer": "कुर्सी",
+        "feedback": "Correct answer is: कुर्सी"
       },
       {
         "id": 102,
         "type": "Puzzle",
         "text": "Complete the pattern: A, B, C, __",
         "options": [
-          "D",
-          "E",
-          "F",
-          "G"
+          "डी",
+          "ई",
+          "एफ",
+          "जी"
         ],
-        "answer": "D",
-        "feedback": "Correct answer is D"
+        "answer": "डी",
+        "feedback": "Correct answer is: डी"
       },
       {
         "id": 103,
@@ -1021,124 +1021,124 @@
           "12"
         ],
         "answer": "10",
-        "feedback": "Correct answer is 10"
+        "feedback": "Correct answer is: 10"
       },
       {
         "id": 104,
         "type": "Puzzle",
         "text": "Which one is not a fruit?",
         "options": [
-          "Orange",
-          "Apple",
-          "Potato",
-          "Mango"
+          "नारंगी",
+          "सेब",
+          "आलू",
+          "आम"
         ],
-        "answer": "Potato",
-        "feedback": "Correct answer is Potato"
+        "answer": "आलू",
+        "feedback": "Correct answer is: आलू"
       },
       {
         "id": 105,
         "type": "Puzzle",
         "text": "Find the odd one.",
         "options": [
-          "Cat",
-          "Dog",
-          "Cow",
-          "Table"
+          "बिल्ली",
+          "कुत्ता",
+          "गाय",
+          "टेबल"
         ],
-        "answer": "Table",
-        "feedback": "Correct answer is Table"
+        "answer": "टेबल",
+        "feedback": "Correct answer is: टेबल"
       },
       {
         "id": 106,
         "type": "Puzzle",
         "text": "Which shape has no corners?",
         "options": [
-          "Square",
-          "Rectangle",
-          "Circle",
-          "Triangle"
+          "चौकोर",
+          "आयत",
+          "घेरा",
+          "त्रिकोण"
         ],
-        "answer": "Circle",
-        "feedback": "Correct answer is Circle"
+        "answer": "घेरा",
+        "feedback": "Correct answer is: घेरा"
       },
       {
         "id": 107,
         "type": "Puzzle",
         "text": "Which comes first?",
         "options": [
-          "Evening",
-          "Morning",
-          "Night",
-          "Midnight"
+          "शाम",
+          "सुबह",
+          "रात",
+          "आधी रात"
         ],
-        "answer": "Morning",
-        "feedback": "Correct answer is Morning"
+        "answer": "सुबह",
+        "feedback": "Correct answer is: सुबह"
       },
       {
         "id": 108,
         "type": "Puzzle",
         "text": "Complete the word: C _ T",
         "options": [
-          "A",
-          "O",
-          "E",
-          "U"
+          "ए",
+          "ओ",
+          "ई",
+          "यू"
         ],
-        "answer": "A",
-        "feedback": "Correct answer is A"
+        "answer": "ए",
+        "feedback": "Correct answer is: ए"
       },
       {
         "id": 109,
         "type": "Puzzle",
         "text": "Which is the largest?",
         "options": [
-          "Ant",
-          "Elephant",
-          "Rat",
-          "Cat"
+          "चींटी",
+          "हाथी",
+          "चूहा",
+          "बिल्ली"
         ],
-        "answer": "Elephant",
-        "feedback": "Correct answer is Elephant"
+        "answer": "हाथी",
+        "feedback": "Correct answer is: हाथी"
       },
       {
         "id": 110,
         "type": "Puzzle",
         "text": "Which one belongs in a classroom?",
         "options": [
-          "Blackboard",
-          "Pillow",
-          "Stove",
-          "Shower"
+          "ब्लैकबोर्ड",
+          "तकिया",
+          "चूल्हा",
+          "फव्वारा"
         ],
-        "answer": "Blackboard",
-        "feedback": "Correct answer is Blackboard"
+        "answer": "ब्लैकबोर्ड",
+        "feedback": "Correct answer is: ब्लैकबोर्ड"
       },
       {
         "id": 111,
         "type": "Puzzle",
         "text": "Find the next letter: M, N, O, __",
         "options": [
-          "P",
-          "Q",
-          "R",
-          "S"
+          "पी",
+          "प्र",
+          "आर",
+          "एस"
         ],
-        "answer": "P",
-        "feedback": "Correct answer is P"
+        "answer": "पी",
+        "feedback": "Correct answer is: पी"
       },
       {
         "id": 112,
         "type": "Puzzle",
         "text": "Which is used for cooking?",
         "options": [
-          "Pan",
-          "Book",
-          "Ball",
-          "Pencil"
+          "पैन",
+          "किताब",
+          "गेंद",
+          "पेंसिल"
         ],
-        "answer": "Pan",
-        "feedback": "Correct answer is Pan"
+        "answer": "पैन",
+        "feedback": "Correct answer is: पैन"
       },
       {
         "id": 113,
@@ -1151,33 +1151,33 @@
           "9"
         ],
         "answer": "2",
-        "feedback": "Correct answer is 2"
+        "feedback": "Correct answer is: 2"
       },
       {
         "id": 114,
         "type": "Puzzle",
         "text": "Which animal lives in water?",
         "options": [
-          "Lion",
-          "Fish",
-          "Goat",
-          "Horse"
+          "सिंह",
+          "मछली",
+          "बकरी",
+          "घोड़ा"
         ],
-        "answer": "Fish",
-        "feedback": "Correct answer is Fish"
+        "answer": "मछली",
+        "feedback": "Correct answer is: मछली"
       },
       {
         "id": 115,
         "type": "Puzzle",
         "text": "Which one is a transport vehicle?",
         "options": [
-          "Bus",
-          "Tree",
-          "Chair",
-          "Fan"
+          "बस",
+          "पेड़",
+          "कुर्सी",
+          "पंखा"
         ],
-        "answer": "Bus",
-        "feedback": "Correct answer is Bus"
+        "answer": "बस",
+        "feedback": "Correct answer is: बस"
       },
       {
         "id": 116,
@@ -1190,72 +1190,72 @@
           "50"
         ],
         "answer": "40",
-        "feedback": "Correct answer is 40"
+        "feedback": "Correct answer is: 40"
       },
       {
         "id": 117,
         "type": "Puzzle",
         "text": "Which one is used to tell time?",
         "options": [
-          "Clock",
-          "Spoon",
-          "Plate",
-          "Bottle"
+          "घड़ी",
+          "चम्मच",
+          "थाली",
+          "बोतल"
         ],
-        "answer": "Clock",
-        "feedback": "Correct answer is Clock"
+        "answer": "घड़ी",
+        "feedback": "Correct answer is: घड़ी"
       },
       {
         "id": 118,
         "type": "Puzzle",
         "text": "Which comes after Friday?",
         "options": [
-          "Thursday",
-          "Saturday",
-          "Sunday",
-          "Monday"
+          "गुरुवार",
+          "शनिवार",
+          "रविवार",
+          "सोमवार"
         ],
-        "answer": "Saturday",
-        "feedback": "Correct answer is Saturday"
+        "answer": "शनिवार",
+        "feedback": "Correct answer is: शनिवार"
       },
       {
         "id": 119,
         "type": "Puzzle",
         "text": "Which word has the most letters?",
         "options": [
-          "Cat",
-          "Elephant",
-          "Dog",
-          "Cow"
+          "बिल्ली",
+          "हाथी",
+          "कुत्ता",
+          "गाय"
         ],
-        "answer": "Elephant",
-        "feedback": "Correct answer is Elephant"
+        "answer": "हाथी",
+        "feedback": "Correct answer is: हाथी"
       },
       {
         "id": 120,
         "type": "Puzzle",
         "text": "Which object gives light?",
         "options": [
-          "Lamp",
-          "Chair",
-          "Bag",
-          "Shoe"
+          "दीपक",
+          "कुर्सी",
+          "बैग",
+          "जूता"
         ],
-        "answer": "Lamp",
-        "feedback": "Correct answer is Lamp"
+        "answer": "दीपक",
+        "feedback": "Correct answer is: दीपक"
       },
       {
         "id": 121,
         "type": "Puzzle",
         "text": "Which is the opposite of \"Open\"?",
         "options": [
-          "Start",
-          "Close",
-          "Run",
-          "Walk"
+          "प्रारंभ करें",
+          "बंद करें",
+          "भागो",
+          "चलो"
         ],
-        "answer": "Close",
-        "feedback": "Correct answer is Close"
+        "answer": "बंद करें",
+        "feedback": "Correct answer is: बंद करें"
       },
       {
         "id": 122,
@@ -1268,46 +1268,46 @@
           "25"
         ],
         "answer": "15",
-        "feedback": "Correct answer is 15"
+        "feedback": "Correct answer is: 15"
       },
       {
         "id": 123,
         "type": "Puzzle",
         "text": "Which one is a bird?",
         "options": [
-          "Sparrow",
-          "Tiger",
-          "Horse",
-          "Cow"
+          "गौरैया",
+          "बाघ",
+          "घोड़ा",
+          "गाय"
         ],
-        "answer": "Sparrow",
-        "feedback": "Correct answer is Sparrow"
+        "answer": "गौरैया",
+        "feedback": "Correct answer is: गौरैया"
       },
       {
         "id": 124,
         "type": "Puzzle",
         "text": "Which letter comes before K?",
         "options": [
-          "H",
-          "I",
-          "J",
-          "L"
+          "एच",
+          "मैं",
+          "जे",
+          "एल"
         ],
-        "answer": "J",
-        "feedback": "Correct answer is J"
+        "answer": "जे",
+        "feedback": "Correct answer is: जे"
       },
       {
         "id": 125,
         "type": "Puzzle",
         "text": "Which object is used for reading?",
         "options": [
-          "Book",
-          "Plate",
-          "Shoe",
-          "Cup"
+          "किताब",
+          "थाली",
+          "जूता",
+          "कप"
         ],
-        "answer": "Book",
-        "feedback": "Correct answer is Book"
+        "answer": "किताब",
+        "feedback": "Correct answer is: किताब"
       }
     ]
   },
@@ -1318,299 +1318,299 @@
         "type": "MCQ",
         "text": "Choose the correct sentence.",
         "options": [
-          "She go to school.",
-          "She goes to school.",
-          "She going school.",
-          "She gone school."
+          "वह स्कूल जाती है।",
+          "वह स्कूल जाती है। ",
+          "वह स्कूल जा रही है.",
+          "वह स्कूल गई."
         ],
-        "answer": "She goes to school.",
-        "feedback": "Correct answer is She goes to school."
+        "answer": "वह स्कूल जाती है।",
+        "feedback": "Correct answer is: वह स्कूल जाती है।"
       },
       {
         "id": 2,
         "type": "MCQ",
         "text": "Which word is the opposite of \"happy\"?",
         "options": [
-          "Joyful",
-          "Sad",
-          "Excited",
-          "Bright"
+          "हर्षित",
+          "दुखद",
+          "उत्साहित",
+          "उज्ज्वल"
         ],
-        "answer": "Sad",
-        "feedback": "Correct answer is Sad"
+        "answer": "दुखद",
+        "feedback": "Correct answer is: दुखद"
       },
       {
         "id": 3,
         "type": "MCQ",
         "text": "Complete the sentence: The birds _____ in the sky.",
         "options": [
-          "swim",
-          "fly",
-          "walk",
-          "crawl"
+          "तैरना",
+          "उड़ना",
+          "चलना",
+          "रेंगना"
         ],
-        "answer": "fly",
-        "feedback": "Correct answer is fly"
+        "answer": "उड़ना",
+        "feedback": "Correct answer is: उड़ना"
       },
       {
         "id": 4,
         "type": "MCQ",
         "text": "Which word is a verb?",
         "options": [
-          "Teacher",
-          "Running",
-          "School",
-          "Table"
+          "शिक्षक",
+          "दौड़ना",
+          "स्कूल",
+          "टेबल"
         ],
-        "answer": "Running",
-        "feedback": "Correct answer is Running"
+        "answer": "दौड़ना",
+        "feedback": "Correct answer is: दौड़ना"
       },
       {
         "id": 5,
         "type": "MCQ",
         "text": "Which sentence is correct?",
         "options": [
-          "They is playing.",
-          "They are playing.",
-          "They am playing.",
-          "They be playing."
+          "वे खेल रहे हैं.",
+          "वे खेल रहे हैं. ",
+          "वे खेल रहे हैं.  ",
+          "वे खेल रहे होंगे."
         ],
-        "answer": "They are playing.",
-        "feedback": "Correct answer is They are playing."
+        "answer": "वे खेल रहे हैं.",
+        "feedback": "Correct answer is: वे खेल रहे हैं."
       },
       {
         "id": 6,
         "type": "MCQ",
         "text": "Which word is a synonym of quick?",
         "options": [
-          "Slow",
-          "Fast",
-          "Late",
-          "Quiet"
+          "धीरे",
+          "तेज",
+          "देर से",
+          "शांत"
         ],
-        "answer": "Fast",
-        "feedback": "Correct answer is Fast"
+        "answer": "तेज",
+        "feedback": "Correct answer is: तेज"
       },
       {
         "id": 7,
         "type": "MCQ",
         "text": "Choose the correct spelling.",
         "options": [
-          "Beautifull",
-          "Beautiful",
-          "Beautifal",
-          "Beutiful"
+          "सुन्दर",
+          "सुंदर",
+          "सुन्दर ",
+          "सुन्दर  "
         ],
-        "answer": "Beautiful",
-        "feedback": "Correct answer is Beautiful"
+        "answer": "सुंदर",
+        "feedback": "Correct answer is: सुंदर"
       },
       {
         "id": 8,
         "type": "MCQ",
         "text": "Which sentence ends with a question mark?",
         "options": [
-          "I like apples.",
-          "Where are you?",
-          "She is happy.",
-          "Open the door."
+          "मुझे सेब पसन्द है।",
+          "आप कहां हैं?",
+          "वह खुश है.",
+          "दरवाजा खाेलें।"
         ],
-        "answer": "Where are you?",
-        "feedback": "Correct answer is Where are you?"
+        "answer": "आप कहां हैं?",
+        "feedback": "Correct answer is: आप कहां हैं?"
       },
       {
         "id": 9,
         "type": "MCQ",
         "text": "Which word is a noun?",
         "options": [
-          "Dance",
-          "House",
-          "Quickly",
-          "Happy"
+          "नृत्य",
+          "मकान",
+          "जल्दी",
+          "खुश"
         ],
-        "answer": "House",
-        "feedback": "Correct answer is House"
+        "answer": "मकान",
+        "feedback": "Correct answer is: मकान"
       },
       {
         "id": 10,
         "type": "MCQ",
         "text": "Which sentence is polite?",
         "options": [
-          "Move away!",
-          "Please help me.",
-          "Give me that.",
-          "Be quiet."
+          "टलना!",
+          "कृपया मेरी मदद करें।",
+          "कि मुझे दे।",
+          "चुप रहें।"
         ],
-        "answer": "Please help me.",
-        "feedback": "Correct answer is Please help me."
+        "answer": "कृपया मेरी मदद करें।",
+        "feedback": "Correct answer is: कृपया मेरी मदद करें।"
       },
       {
         "id": 11,
         "type": "MCQ",
         "text": "Complete the sentence: Water is _____ for life.",
         "options": [
-          "important",
-          "noisy",
-          "expensive",
-          "dirty"
+          "महत्वपूर्ण",
+          "शोरगुल वाला",
+          "महँगा",
+          "गंदा"
         ],
-        "answer": "important",
-        "feedback": "Correct answer is important"
+        "answer": "महत्वपूर्ण",
+        "feedback": "Correct answer is: महत्वपूर्ण"
       },
       {
         "id": 12,
         "type": "MCQ",
         "text": "Which word belongs to the group? Rose, Lily, Lotus, _____",
         "options": [
-          "Mango",
-          "Jasmine",
-          "Potato",
-          "Rice"
+          "आम",
+          "चमेली",
+          "आलू",
+          "चावल"
         ],
-        "answer": "Jasmine",
-        "feedback": "Correct answer is Jasmine"
+        "answer": "चमेली",
+        "feedback": "Correct answer is: चमेली"
       },
       {
         "id": 13,
         "type": "MCQ",
         "text": "Choose the correct article. I saw _____ elephant.",
         "options": [
-          "a",
-          "an",
-          "the",
-          "no article"
+          "ए",
+          "एक",
+          "द",
+          "कोई लेख नहीं"
         ],
-        "answer": "an",
-        "feedback": "Correct answer is an"
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
       },
       {
         "id": 14,
         "type": "MCQ",
         "text": "Which word is an adjective?",
         "options": [
-          "Tall",
-          "Walk",
-          "School",
-          "Friend"
+          "लंबा",
+          "चलो",
+          "स्कूल",
+          "मित्र"
         ],
-        "answer": "Tall",
-        "feedback": "Correct answer is Tall"
+        "answer": "लंबा",
+        "feedback": "Correct answer is: लंबा"
       },
       {
         "id": 15,
         "type": "MCQ",
         "text": "Which sentence is in the past tense?",
         "options": [
-          "I play football.",
-          "I played football.",
-          "I am playing football.",
-          "I will play football."
+          "मैं फुटबॉल खेलता हूं।",
+          "मैं फुटबॉल खेलता हूँ।",
+          "मैं फुटबॉल खेल रहा हूं.",
+          "मैं फुटबॉल खेलूंगा."
         ],
-        "answer": "I played football.",
-        "feedback": "Correct answer is I played football."
+        "answer": "मैं फुटबॉल खेलता हूँ।",
+        "feedback": "Correct answer is: मैं फुटबॉल खेलता हूँ।"
       },
       {
         "id": 16,
         "type": "MCQ",
         "text": "Which one is used in a hospital?",
         "options": [
-          "Stethoscope",
-          "Hammer",
-          "Spade",
-          "Eraser"
+          "स्टेथोस्कोप",
+          "हथौड़ा",
+          "कुदाल",
+          "मिटाने वाला"
         ],
-        "answer": "Stethoscope",
-        "feedback": "Correct answer is Stethoscope"
+        "answer": "स्टेथोस्कोप",
+        "feedback": "Correct answer is: स्टेथोस्कोप"
       },
       {
         "id": 17,
         "type": "MCQ",
         "text": "Which word completes the sentence? The train arrived _____ time.",
         "options": [
-          "on",
-          "in",
-          "at",
-          "over"
+          "पर",
+          "में",
+          "पर ",
+          "खत्म"
         ],
-        "answer": "on",
-        "feedback": "Correct answer is on"
+        "answer": "पर",
+        "feedback": "Correct answer is: पर"
       },
       {
         "id": 18,
         "type": "MCQ",
         "text": "Which is the correct plural?",
         "options": [
-          "Childs",
-          "Children",
-          "Childes",
-          "Childrens"
+          "बच्चे",
+          "बच्चे ",
+          "बच्चों",
+          "बच्चों "
         ],
-        "answer": "Children",
-        "feedback": "Correct answer is Children"
+        "answer": "बच्चे",
+        "feedback": "Correct answer is: बच्चे"
       },
       {
         "id": 19,
         "type": "MCQ",
         "text": "Which sentence has the correct capitalization?",
         "options": [
-          "india is my country.",
-          "India is my country.",
-          "india Is my country.",
-          "India is My country."
+          "भारत मेरा देश है.",
+          "भारत मेरा देश है. ",
+          "भारत मेरा देश है.  ",
+          "भारत मेरा देश है.   "
         ],
-        "answer": "India is my country.",
-        "feedback": "Correct answer is India is my country."
+        "answer": "भारत मेरा देश है.",
+        "feedback": "Correct answer is: भारत मेरा देश है."
       },
       {
         "id": 20,
         "type": "MCQ",
         "text": "Which word is related to farming?",
         "options": [
-          "Tractor",
-          "Laptop",
-          "Television",
-          "Printer"
+          "ट्रैक्टर",
+          "लैपटॉप",
+          "टेलीविजन",
+          "मुद्रक"
         ],
-        "answer": "Tractor",
-        "feedback": "Correct answer is Tractor"
+        "answer": "ट्रैक्टर",
+        "feedback": "Correct answer is: ट्रैक्टर"
       },
       {
         "id": 21,
         "type": "MCQ",
         "text": "Choose the correct word. The baby is _____ loudly.",
         "options": [
-          "cry",
-          "crying",
-          "cried",
-          "cries"
+          "रोना",
+          "रोना ",
+          "रोया",
+          "रोता है"
         ],
-        "answer": "crying",
-        "feedback": "Correct answer is crying"
+        "answer": "रोना",
+        "feedback": "Correct answer is: रोना"
       },
       {
         "id": 22,
         "type": "MCQ",
         "text": "Which sentence makes the most sense?",
         "options": [
-          "The fish climbed a tree.",
-          "The fish swims in water.",
-          "The fish drives a car.",
-          "The fish writes a letter."
+          "मछली एक पेड़ पर चढ़ गयी.",
+          "मछली पानी में तैरती है.",
+          "मछली कार चलाती है.",
+          "मछली एक पत्र लिखती है."
         ],
-        "answer": "The fish swims in water.",
-        "feedback": "Correct answer is The fish swims in water."
+        "answer": "मछली पानी में तैरती है.",
+        "feedback": "Correct answer is: मछली पानी में तैरती है."
       },
       {
         "id": 23,
         "type": "MCQ",
         "text": "Which word is an antonym of strong?",
         "options": [
-          "Powerful",
-          "Weak",
-          "Healthy",
-          "Brave"
+          "शक्तिशाली",
+          "कमजोर",
+          "स्वस्थ",
+          "बहादुर"
         ],
-        "answer": "Weak",
-        "feedback": "Correct answer is Weak"
+        "answer": "कमजोर",
+        "feedback": "Correct answer is: कमजोर"
       },
       {
         "id": 24,
@@ -1623,22 +1623,2316 @@
           "?"
         ],
         "answer": "!",
-        "feedback": "Correct answer is !"
+        "feedback": "Correct answer is: !"
       },
       {
         "id": 25,
         "type": "MCQ",
         "text": "Complete the sentence. We should always _____ the truth.",
         "options": [
-          "tell",
-          "hide",
-          "forget",
-          "break"
+          "बताओ",
+          "छिपाओ",
+          "भूल जाओ",
+          "तोड़ना"
         ],
-        "answer": "tell",
-        "feedback": "Correct answer is tell"
+        "answer": "बताओ",
+        "feedback": "Correct answer is: बताओ"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: मेरा नाम राहुल है. मुझे हर शाम किताबें पढ़ने में मजा आता है।",
+        "word": "मेरा नाम राहुल है. मुझे हर शाम किताबें पढ़ने में मजा आता है।"
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: बच्चे स्कूल के खेल के मैदान में फुटबॉल खेल रहे हैं।",
+        "word": "बच्चे स्कूल के खेल के मैदान में फुटबॉल खेल रहे हैं।"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: मेरी मां हर दिन हमारे परिवार के लिए स्वस्थ भोजन तैयार करती हैं।",
+        "word": "मेरी मां हर दिन हमारे परिवार के लिए स्वस्थ भोजन तैयार करती हैं।"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: बस समय पर आ गई इसलिए सभी लोग जल्दी स्कूल पहुँच गए।",
+        "word": "बस समय पर आ गई इसलिए सभी लोग जल्दी स्कूल पहुँच गए।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: स्वस्थ और सक्रिय रहने के लिए हमें साफ पानी पीना चाहिए।",
+        "word": "स्वस्थ और सक्रिय रहने के लिए हमें साफ पानी पीना चाहिए।"
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "Read aloud: किसान ताजे फल और सब्जियां उगाने के लिए कड़ी मेहनत करता है।",
+        "word": "किसान ताजे फल और सब्जियां उगाने के लिए कड़ी मेहनत करता है।"
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "Read aloud: रीता ने अपनी दादी को बाज़ार से किराने का सामान लाने में मदद की।",
+        "word": "रीता ने अपनी दादी को बाज़ार से किराने का सामान लाने में मदद की।"
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "Read aloud: आज मौसम सुहावना है, इसलिए हमने पार्क घूमने का फैसला किया।",
+        "word": "आज मौसम सुहावना है, इसलिए हमने पार्क घूमने का फैसला किया।"
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "Read aloud: मेरे शिक्षक हमें प्रश्न पूछने और नई चीजें सीखने के लिए प्रोत्साहित करते हैं।",
+        "word": "मेरे शिक्षक हमें प्रश्न पूछने और नई चीजें सीखने के लिए प्रोत्साहित करते हैं।"
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "Read aloud: पेड़ कई पक्षियों को ताज़ी हवा, छाया और घर प्रदान करते हैं।",
+        "word": "पेड़ कई पक्षियों को ताज़ी हवा, छाया और घर प्रदान करते हैं।"
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "Read aloud: हर सुबह, मैं जल्दी उठता हूं और तीस मिनट तक व्यायाम करता हूं।",
+        "word": "हर सुबह, मैं जल्दी उठता हूं और तीस मिनट तक व्यायाम करता हूं।"
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "Read aloud: डॉक्टर ने मरीज को स्वस्थ भोजन खाने और अच्छा आराम करने की सलाह दी।",
+        "word": "डॉक्टर ने मरीज को स्वस्थ भोजन खाने और अच्छा आराम करने की सलाह दी।"
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "Read aloud: हमारी लाइब्रेरी में विज्ञान, इतिहास और प्रकृति के बारे में कई दिलचस्प किताबें हैं।",
+        "word": "हमारी लाइब्रेरी में विज्ञान, इतिहास और प्रकृति के बारे में कई दिलचस्प किताबें हैं।"
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "Read aloud: सुरक्षित रहने के लिए साइकिल चलाते समय हमेशा हेलमेट पहनें।",
+        "word": "सुरक्षित रहने के लिए साइकिल चलाते समय हमेशा हेलमेट पहनें।"
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "Read aloud: रात में भारी बारिश के कारण ट्रेन लेट हो गयी.",
+        "word": "रात में भारी बारिश के कारण ट्रेन लेट हो गयी."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "Read aloud: विद्यार्थियों को टेलीविजन देखने से पहले अपना होमवर्क पूरा कर लेना चाहिए।",
+        "word": "विद्यार्थियों को टेलीविजन देखने से पहले अपना होमवर्क पूरा कर लेना चाहिए।"
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "Read aloud: दुकानदार ने हर ग्राहक का गर्मजोशी भरी मुस्कान के साथ स्वागत किया।",
+        "word": "दुकानदार ने हर ग्राहक का गर्मजोशी भरी मुस्कान के साथ स्वागत किया।"
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "Read aloud: बिजली बचाने से पर्यावरण की रक्षा होती है और बिजली का बिल भी कम आता है।",
+        "word": "बिजली बचाने से पर्यावरण की रक्षा होती है और बिजली का बिल भी कम आता है।"
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "Read aloud: हमारे विद्यालय ने पर्यावरण दिवस पर वृक्षारोपण अभियान का आयोजन किया।",
+        "word": "हमारे विद्यालय ने पर्यावरण दिवस पर वृक्षारोपण अभियान का आयोजन किया।"
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "Read aloud: ईमानदारी और दयालुता हमें दूसरों के साथ मजबूत दोस्ती बनाने में मदद करती है।",
+        "word": "ईमानदारी और दयालुता हमें दूसरों के साथ मजबूत दोस्ती बनाने में मदद करती है।"
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "Read aloud: कंप्यूटर हमें सीखने, संचार करने और कई समस्याओं को हल करने में मदद करता है।",
+        "word": "कंप्यूटर हमें सीखने, संचार करने और कई समस्याओं को हल करने में मदद करता है।"
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "Read aloud: प्रतिदिन समाचार पत्र पढ़ने से शब्दावली और सामान्य ज्ञान में सुधार होता है।",
+        "word": "प्रतिदिन समाचार पत्र पढ़ने से शब्दावली और सामान्य ज्ञान में सुधार होता है।"
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "Read aloud: अच्छे संचार कौशल लोगों को स्कूल और काम में सफल होने में मदद करते हैं।",
+        "word": "अच्छे संचार कौशल लोगों को स्कूल और काम में सफल होने में मदद करते हैं।"
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "Read aloud: एक नई भाषा सीखने से हमें विभिन्न संस्कृतियों और परंपराओं को समझने में मदद मिलती है।",
+        "word": "एक नई भाषा सीखने से हमें विभिन्न संस्कृतियों और परंपराओं को समझने में मदद मिलती है।"
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "Read aloud: नियमित अभ्यास और दृढ़ संकल्प प्रत्येक शिक्षार्थी को सफलता प्राप्त करने में मदद करते हैं।",
+        "word": "नियमित अभ्यास और दृढ़ संकल्प प्रत्येक शिक्षार्थी को सफलता प्राप्त करने में मदद करते हैं।"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Hindi: Good afternoon",
+        "answer": "शुभ दोपहर",
+        "feedback": "Correct translation is: शुभ दोपहर"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Hindi: Clean water",
+        "answer": "साफ पानी",
+        "feedback": "Correct translation is: साफ पानी"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Hindi: Healthy food",
+        "answer": "स्वस्थ भोजन",
+        "feedback": "Correct translation is: स्वस्थ भोजन"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Hindi: Open window",
+        "answer": "खिड़की खोलो",
+        "feedback": "Correct translation is: खिड़की खोलो"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Hindi: Close gate",
+        "answer": "गेट बंद करो",
+        "feedback": "Correct translation is: गेट बंद करो"
+      },
+      {
+        "id": 56,
+        "type": "Writing",
+        "text": "Translate into Hindi: Read carefully",
+        "answer": "ध्यान से पढ़ें",
+        "feedback": "Correct translation is: ध्यान से पढ़ें"
+      },
+      {
+        "id": 57,
+        "type": "Writing",
+        "text": "Translate into Hindi: Speak clearly",
+        "answer": "स्पष्ट बोलो",
+        "feedback": "Correct translation is: स्पष्ट बोलो"
+      },
+      {
+        "id": 58,
+        "type": "Writing",
+        "text": "Translate into Hindi: Work together",
+        "answer": "मिलकर काम करें",
+        "feedback": "Correct translation is: मिलकर काम करें"
+      },
+      {
+        "id": 59,
+        "type": "Writing",
+        "text": "Translate into Hindi: Save electricity",
+        "answer": "बिजली बचाएं",
+        "feedback": "Correct translation is: बिजली बचाएं"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "Translate into Hindi: Plant trees",
+        "answer": "पेड़ लगाओ",
+        "feedback": "Correct translation is: पेड़ लगाओ"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "Translate into Hindi: Help others",
+        "answer": "दूसरों की मदद करें",
+        "feedback": "Correct translation is: दूसरों की मदद करें"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "Translate into Hindi: Follow rules",
+        "answer": "नियमों का पालन करें",
+        "feedback": "Correct translation is: नियमों का पालन करें"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "Translate into Hindi: Keep smiling",
+        "answer": "मुस्कुराते रहो",
+        "feedback": "Correct translation is: मुस्कुराते रहो"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "Translate into Hindi: Study regularly",
+        "answer": "नियमित अध्ययन करें",
+        "feedback": "Correct translation is: नियमित अध्ययन करें"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "Translate into Hindi: Think positively",
+        "answer": "सकारात्मक सोचें",
+        "feedback": "Correct translation is: सकारात्मक सोचें"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "Translate into Hindi: Arrive early",
+        "answer": "जल्दी पहुंचें",
+        "feedback": "Correct translation is: जल्दी पहुंचें"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "Translate into Hindi: Wash vegetables",
+        "answer": "सब्जियां धोएं",
+        "feedback": "Correct translation is: सब्जियां धोएं"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "Translate into Hindi: Respect elders",
+        "answer": "बड़ों का सम्मान करें",
+        "feedback": "Correct translation is: बड़ों का सम्मान करें"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "Translate into Hindi: Use helmet",
+        "answer": "हेलमेट का प्रयोग करें",
+        "feedback": "Correct translation is: हेलमेट का प्रयोग करें"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "Translate into Hindi: Stay focused",
+        "answer": "केंद्रित रहें",
+        "feedback": "Correct translation is: केंद्रित रहें"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "Translate into Hindi: Learn daily",
+        "answer": "प्रतिदिन सीखें",
+        "feedback": "Correct translation is: प्रतिदिन सीखें"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "Translate into Hindi: Finish homework",
+        "answer": "होमवर्क ख़त्म करो",
+        "feedback": "Correct translation is: होमवर्क ख़त्म करो"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "Translate into Hindi: Share knowledge",
+        "answer": "ज्ञान साझा करें",
+        "feedback": "Correct translation is: ज्ञान साझा करें"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "Translate into Hindi: Practice speaking",
+        "answer": "बोलने का अभ्यास करें",
+        "feedback": "Correct translation is: बोलने का अभ्यास करें"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "Translate into Hindi: Believe yourself",
+        "answer": "अपने आप पर विश्वास रखें",
+        "feedback": "Correct translation is: अपने आप पर विश्वास रखें"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: She goes to school every day.",
+        "options": [
+          "जाओ",
+          "जाता है",
+          "जा रहा हूँ",
+          "चला गया"
+        ],
+        "answer": "जाता है",
+        "feedback": "Correct answer is: जाता है"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: They played football yesterday.",
+        "options": [
+          "खेलो",
+          "खेला",
+          "खेलता है",
+          "खेल रहे हैं"
+        ],
+        "answer": "खेला",
+        "feedback": "Correct answer is: खेला"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: I do my homework every evening.",
+        "options": [
+          "करो",
+          "करता है",
+          "किया",
+          "कर रहा हूँ"
+        ],
+        "answer": "करो",
+        "feedback": "Correct answer is: करो"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: We are going to the market tomorrow.",
+        "options": [
+          "है",
+          "हैं",
+          "हूँ",
+          "था"
+        ],
+        "answer": "हैं",
+        "feedback": "Correct answer is: हैं"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: Choose the correct article. I saw an owl in the tree.",
+        "options": [
+          "ए",
+          "एक",
+          "द",
+          "कोई लेख नहीं"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "Fill in the blank: The books are on the table.",
+        "options": [
+          "में",
+          "पर",
+          "के अंतर्गत",
+          "के बीच"
+        ],
+        "answer": "पर",
+        "feedback": "Correct answer is: पर"
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "Fill in the blank: My father drives a car.",
+        "options": [
+          "चलाना",
+          "चलाती है",
+          "ड्राइविंग",
+          "चालित"
+        ],
+        "answer": "चलाती है",
+        "feedback": "Correct answer is: चलाती है"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "Fill in the blank: We eat lunch at 1 p.m.",
+        "options": [
+          "खाओ",
+          "खाता है",
+          "खाना",
+          "खा लिया"
+        ],
+        "answer": "खाओ",
+        "feedback": "Correct answer is: खाओ"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "Fill in the blank: Choose the correct pronoun. Riya is absent. She is sick.",
+        "options": [
+          "वह",
+          "वह ",
+          "वे",
+          "यह"
+        ],
+        "answer": "वह",
+        "feedback": "Correct answer is: वह"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "Fill in the blank: I watched a movie last night.",
+        "options": [
+          "देखो",
+          "देखा",
+          "घड़ियाँ",
+          "देख रहे"
+        ],
+        "answer": "देखा",
+        "feedback": "Correct answer is: देखा"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "Fill in the blank: कौनसा वाक्य ठीक है?",
+        "options": [
+          "उसे चाय पसंद नहीं है.",
+          "उसे चाय पसंद नहीं है. ",
+          "उसे चाय पसंद नहीं है.  ",
+          "उसे चाय पसंद नहीं थी."
+        ],
+        "answer": "उसे चाय पसंद नहीं है.",
+        "feedback": "Correct answer is: उसे चाय पसंद नहीं है."
+      },
+      {
+        "id": 87,
+        "type": "Grammar",
+        "text": "Fill in the blank: Choose the correct conjunction. I was tired, but I finished my work.",
+        "options": [
+          "लेकिन",
+          "या",
+          "क्योंकि",
+          "यदि"
+        ],
+        "answer": "लेकिन",
+        "feedback": "Correct answer is: लेकिन"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "Fill in the blank: They live in Jaipur.",
+        "options": [
+          "रहता है",
+          "जीना",
+          "जीवित",
+          "रहते थे"
+        ],
+        "answer": "जीना",
+        "feedback": "Correct answer is: जीना"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "Fill in the blank: My sister is an engineer.",
+        "options": [
+          "ए",
+          "एक",
+          "द",
+          "कोई लेख नहीं"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "Fill in the blank: We should be honest.",
+        "options": [
+          "है",
+          "हो",
+          "हैं",
+          "किया जा रहा है"
+        ],
+        "answer": "हो",
+        "feedback": "Correct answer is: हो"
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "Fill in the blank: The children play happily in the park.",
+        "options": [
+          "खेलता है",
+          "खेलो",
+          "खेल रहे हैं",
+          "खेला"
+        ],
+        "answer": "खेलो",
+        "feedback": "Correct answer is: खेलो"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "Fill in the blank: Which word correctly completes the sentence? Please sit beside me.",
+        "options": [
+          "बगल में",
+          "अंदर",
+          "ऊपर",
+          "पीछे"
+        ],
+        "answer": "बगल में",
+        "feedback": "Correct answer is: बगल में"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "Fill in the blank: She speaks English very well.",
+        "options": [
+          "बोलो",
+          "बोलता है",
+          "बोल रहा हूँ",
+          "बोला"
+        ],
+        "answer": "बोलता है",
+        "feedback": "Correct answer is: बोलता है"
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "Fill in the blank: सही वाक्य का चयन करें।",
+        "options": [
+          "पाँच सेब हैं.",
+          "पाँच सेब हैं. ",
+          "वहाँ पाँच सेब हैं.",
+          "पाँच सेब हों।"
+        ],
+        "answer": "पाँच सेब हैं.",
+        "feedback": "Correct answer is: पाँच सेब हैं."
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "Fill in the blank: I am going to visit my grandparents next week.",
+        "options": [
+          "जा रहा हूँ",
+          "जा रहा था",
+          "जा रहा हूँ ",
+          "जाता है"
+        ],
+        "answer": "जा रहा हूँ",
+        "feedback": "Correct answer is: जा रहा हूँ"
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "Fill in the blank: कौन सा वाक्य भविष्य काल में है?",
+        "options": [
+          "मैं क्रिकेट खेलता हूं.",
+          "मैंने क्रिकेट खेला.",
+          "मैं क्रिकेट खेलूंगा.",
+          "मैंने क्रिकेट खेला है."
+        ],
+        "answer": "मैं क्रिकेट खेलूंगा.",
+        "feedback": "Correct answer is: मैं क्रिकेट खेलूंगा."
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "Fill in the blank: Fill in the blank. The teacher gave us homework.",
+        "options": [
+          "हमें",
+          "हम",
+          "हमारा",
+          "हमारा "
+        ],
+        "answer": "हमें",
+        "feedback": "Correct answer is: हमें"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "Fill in the blank: Choose the correct punctuation. ___ are you today?",
+        "options": [
+          "!",
+          ".",
+          "?",
+          ","
+        ],
+        "answer": "?",
+        "feedback": "Correct answer is: ?"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "Fill in the blank: कौन सा वाक्य व्याकरणिक दृष्टि से सही है?",
+        "options": [
+          "वह गा सकती है.",
+          "वह गा सकती है. ",
+          "वह गा सकती है.  ",
+          "वह गा सकती है.   "
+        ],
+        "answer": "वह गा सकती है.",
+        "feedback": "Correct answer is: वह गा सकती है."
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "Fill in the blank: Complete the sentence. Everyone should protect the environment.",
+        "options": [
+          "रक्षा करें",
+          "रक्षा करता है",
+          "संरक्षित",
+          "रक्षा करना"
+        ],
+        "answer": "रक्षा करें",
+        "feedback": "Correct answer is: रक्षा करें"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 101,
+        "type": "Puzzle",
+        "text": "Find the odd one out.",
+        "options": [
+          "गुलाब",
+          "कमल",
+          "आम",
+          "लिली"
+        ],
+        "answer": "आम",
+        "feedback": "Correct answer is: आम"
+      },
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 5, 10, 15, 20, __",
+        "options": [
+          "22",
+          "25",
+          "30",
+          "35"
+        ],
+        "answer": "25",
+        "feedback": "Correct answer is: 25"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Which word does not belong?",
+        "options": [
+          "डॉक्टर",
+          "नर्स",
+          "शिक्षक",
+          "केला"
+        ],
+        "answer": "केला",
+        "feedback": "Correct answer is: केला"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "Find the missing letter. A, C, E, G, __",
+        "options": [
+          "एच",
+          "मैं",
+          "जे",
+          "के"
+        ],
+        "answer": "मैं",
+        "feedback": "Correct answer is: मैं"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "If today is Monday, what day comes after two days?",
+        "options": [
+          "मंगलवार",
+          "बुधवार",
+          "गुरुवार",
+          "शुक्रवार"
+        ],
+        "answer": "गुरुवार",
+        "feedback": "Correct answer is: गुरुवार"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "Which number is the largest?",
+        "options": [
+          "48",
+          "62",
+          "79",
+          "57"
+        ],
+        "answer": "79",
+        "feedback": "Correct answer is: 79"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "Find the odd one out.",
+        "options": [
+          "बस",
+          "ट्रेन",
+          "साइकिल",
+          "रेफ्रिजरेटर"
+        ],
+        "answer": "रेफ्रिजरेटर",
+        "feedback": "Correct answer is: रेफ्रिजरेटर"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "Complete the pattern. 2, 6, 10, 14, __",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
+        "answer": "18",
+        "feedback": "Correct answer is: 18"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "Which object is used for measuring time?",
+        "options": [
+          "पैमाना",
+          "घड़ी",
+          "थर्मामीटर",
+          "दिशा सूचक यंत्र"
+        ],
+        "answer": "घड़ी",
+        "feedback": "Correct answer is: घड़ी"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "Which word has the same meaning as begin?",
+        "options": [
+          "ख़त्म",
+          "प्रारंभ करें",
+          "रुकें",
+          "ख़त्म करो"
+        ],
+        "answer": "प्रारंभ करें",
+        "feedback": "Correct answer is: प्रारंभ करें"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "Complete the alphabet pattern. Z, X, V, T, __",
+        "options": [
+          "आर",
+          "प्र",
+          "पी",
+          "एस"
+        ],
+        "answer": "आर",
+        "feedback": "Correct answer is: आर"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "Which is the smallest?",
+        "options": [
+          "किलोग्राम",
+          "ग्राम",
+          "टन",
+          "क्विंटल"
+        ],
+        "answer": "ग्राम",
+        "feedback": "Correct answer is: ग्राम"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "Which pair is related?",
+        "options": [
+          "कलम : लिखो",
+          "अध्यक्ष: खाओ",
+          "पुस्तक: ड्राइव",
+          "चम्मच : पढ़ो"
+        ],
+        "answer": "कलम : लिखो",
+        "feedback": "Correct answer is: कलम : लिखो"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "Find the next number. 3, 6, 9, 12, __",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "15",
+        "feedback": "Correct answer is: 15"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "Which animal lays eggs?",
+        "options": [
+          "गाय",
+          "मुर्गी",
+          "बकरी",
+          "कुत्ता"
+        ],
+        "answer": "मुर्गी",
+        "feedback": "Correct answer is: मुर्गी"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "Find the odd one out.",
+        "options": [
+          "जनवरी",
+          "मार्च",
+          "शुक्रवार",
+          "जून"
+        ],
+        "answer": "शुक्रवार",
+        "feedback": "Correct answer is: शुक्रवार"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "Which word completes the analogy? Bird : Nest :: Bee : _____",
+        "options": [
+          "छत्ता",
+          "पेड़",
+          "नदी",
+          "मकान"
+        ],
+        "answer": "छत्ता",
+        "feedback": "Correct answer is: छत्ता"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "Which shape has four equal sides?",
+        "options": [
+          "घेरा",
+          "त्रिकोण",
+          "चौकोर",
+          "अंडाकार"
+        ],
+        "answer": "चौकोर",
+        "feedback": "Correct answer is: चौकोर"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 100, 90, 80, 70, __",
+        "options": [
+          "65",
+          "60",
+          "55",
+          "50"
+        ],
+        "answer": "60",
+        "feedback": "Correct answer is: 60"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "Which word is different?",
+        "options": [
+          "सेब",
+          "नारंगी",
+          "गाजर",
+          "अंगूर"
+        ],
+        "answer": "गाजर",
+        "feedback": "Correct answer is: गाजर"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "If a clock shows 3:00, where will the minute hand point?",
+        "options": [
+          "3",
+          "6",
+          "12",
+          "9"
+        ],
+        "answer": "12",
+        "feedback": "Correct answer is: 12"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "Which comes next? Red, Orange, Yellow, __",
+        "options": [
+          "नीला",
+          "हरा",
+          "काला",
+          "सफ़ेद"
+        ],
+        "answer": "हरा",
+        "feedback": "Correct answer is: हरा"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "Which object is used for communication?",
+        "options": [
+          "चल दूरभाष",
+          "थाली",
+          "तकिया",
+          "जूता"
+        ],
+        "answer": "चल दूरभाष",
+        "feedback": "Correct answer is: चल दूरभाष"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "Find the missing number. 4, 8, 12, 16, __",
+        "options": [
+          "18",
+          "20",
+          "22",
+          "24"
+        ],
+        "answer": "20",
+        "feedback": "Correct answer is: 20"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "Which word completes the analogy? Teacher : School :: Doctor : _____",
+        "options": [
+          "बाज़ार",
+          "अस्पताल",
+          "पुस्तकालय",
+          "कार्यालय"
+        ],
+        "answer": "अस्पताल",
+        "feedback": "Correct answer is: अस्पताल"
       }
     ]
   },
-  "Advanced": {}
+  "Advanced": {
+    "MCQ": [
+      {
+        "id": 1,
+        "type": "MCQ",
+        "text": "Choose the sentence with the correct grammar.",
+        "options": [
+          "उसे कॉफ़ी पसंद नहीं है.",
+          "उसे कॉफ़ी पसंद नहीं है. ",
+          "उसे कॉफ़ी पसंद नहीं है.  ",
+          "वह कॉफी की तरह नहीं है."
+        ],
+        "answer": "उसे कॉफ़ी पसंद नहीं है.",
+        "feedback": "Correct answer is: उसे कॉफ़ी पसंद नहीं है."
+      },
+      {
+        "id": 2,
+        "type": "MCQ",
+        "text": "Which word is the synonym of \"rapid\"?",
+        "options": [
+          "धीरे",
+          "तेज",
+          "कमजोर",
+          "शांत"
+        ],
+        "answer": "तेज",
+        "feedback": "Correct answer is: तेज"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Choose the correct sentence.",
+        "options": [
+          "बच्चे खेल रहे थे.",
+          "बच्चे खेल रहे थे. ",
+          "बच्चे खेल रहे हैं.",
+          "बच्चे खेल रहे हैं. "
+        ],
+        "answer": "बच्चे खेल रहे थे.",
+        "feedback": "Correct answer is: बच्चे खेल रहे थे."
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which word best completes the sentence? The scientist made an important _____ during the experiment.",
+        "options": [
+          "खोज",
+          "रात का खाना",
+          "यात्रा",
+          "छुट्टियाँ"
+        ],
+        "answer": "खोज",
+        "feedback": "Correct answer is: खोज"
+      },
+      {
+        "id": 5,
+        "type": "MCQ",
+        "text": "What is the opposite of generous?",
+        "options": [
+          "दयालु",
+          "स्वार्थी",
+          "मिलनसार",
+          "मददगार"
+        ],
+        "answer": "स्वार्थी",
+        "feedback": "Correct answer is: स्वार्थी"
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "Which sentence is in the future tense?",
+        "options": [
+          "मैंने अपना काम पूरा कर लिया.",
+          "मैं अपना काम पूरा कर रहा हूं.",
+          "मैं अपना काम पूरा करूंगा.",
+          "मैं अपना काम पूरा करता हूं."
+        ],
+        "answer": "मैं अपना काम पूरा करूंगा.",
+        "feedback": "Correct answer is: मैं अपना काम पूरा करूंगा."
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "Choose the correctly spelled word.",
+        "options": [
+          "पर्यावरण",
+          "वातावरण",
+          "वातावरण ",
+          "पर्यावरण "
+        ],
+        "answer": "पर्यावरण",
+        "feedback": "Correct answer is: पर्यावरण"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "Which word is an adjective?",
+        "options": [
+          "सुंदर",
+          "सौंदर्य",
+          "सुशोभित करें",
+          "खूबसूरती से"
+        ],
+        "answer": "सुंदर",
+        "feedback": "Correct answer is: सुंदर"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "Read the sentence. Rahul studied hard, so he passed the examination. Why did Rahul pass?",
+        "options": [
+          "वह भाग्यशाली था।",
+          "उन्होंने कड़ी मेहनत से पढ़ाई की.",
+          "उसने उत्तरों की नकल की।",
+          "उसकी परीक्षा छूट गयी."
+        ],
+        "answer": "उन्होंने कड़ी मेहनत से पढ़ाई की.",
+        "feedback": "Correct answer is: उन्होंने कड़ी मेहनत से पढ़ाई की."
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which sentence uses punctuation correctly?",
+        "options": [
+          "आपका क्या नाम है?",
+          "आपका क्या नाम है।",
+          "आपका क्या नाम है!",
+          "आपका नाम क्या है,"
+        ],
+        "answer": "आपका क्या नाम है?",
+        "feedback": "Correct answer is: आपका क्या नाम है?"
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "Choose the correct meaning of \"honest.\"",
+        "options": [
+          "हमेशा सच बोलता है.",
+          "जोर से बोलता है.",
+          "तेजी से चलता है.",
+          "धीरे-धीरे काम करता है."
+        ],
+        "answer": "हमेशा सच बोलता है.",
+        "feedback": "Correct answer is: हमेशा सच बोलता है."
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "Which word completes the sentence? The weather was so _____ that everyone stayed indoors.",
+        "options": [
+          "सुखद",
+          "गंभीर",
+          "शांतिपूर्ण",
+          "रंगीन"
+        ],
+        "answer": "गंभीर",
+        "feedback": "Correct answer is: गंभीर"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "Which sentence is passive voice?",
+        "options": [
+          "अध्यापक ने छात्र की प्रशंसा की।",
+          "शिक्षक द्वारा छात्र की प्रशंसा की गई।",
+          "छात्र शिक्षक की प्रशंसा करता है.",
+          "टीचर छात्र की तारीफ कर रहे हैं."
+        ],
+        "answer": "शिक्षक द्वारा छात्र की प्रशंसा की गई।",
+        "feedback": "Correct answer is: शिक्षक द्वारा छात्र की प्रशंसा की गई।"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "Which word is a conjunction?",
+        "options": [
+          "क्योंकि",
+          "जल्दी",
+          "मकान",
+          "खुश"
+        ],
+        "answer": "क्योंकि",
+        "feedback": "Correct answer is: क्योंकि"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "Which sentence is correct?",
+        "options": [
+          "सब ख़त्म हो गए.",
+          "सब ख़त्म हो गए. ",
+          "सब ख़त्म हो गए.  ",
+          "सब ख़त्म हो गए.   "
+        ],
+        "answer": "सब ख़त्म हो गए.",
+        "feedback": "Correct answer is: सब ख़त्म हो गए."
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "Which word is closest in meaning to assist?",
+        "options": [
+          "मदद",
+          "मना कर देना",
+          "नजरअंदाज करें",
+          "भूल जाओ"
+        ],
+        "answer": "मदद",
+        "feedback": "Correct answer is: मदद"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "Complete the sentence. If you exercise regularly, you _____ healthier.",
+        "options": [
+          "बनो",
+          "बन गया",
+          "बन रहा है",
+          "बन जाता है"
+        ],
+        "answer": "बनो",
+        "feedback": "Correct answer is: बनो"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "Which sentence is a question?",
+        "options": [
+          "कृपया बैठ जाओ।",
+          "आप कहाँ रहते हैं?",
+          "मैं जयपुर में रहता हूँ.",
+          "दरवाज़ा बंद कर दो।"
+        ],
+        "answer": "आप कहाँ रहते हैं?",
+        "feedback": "Correct answer is: आप कहाँ रहते हैं?"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "Choose the correct article. He is _____ honest man.",
+        "options": [
+          "ए",
+          "एक",
+          "द",
+          "कोई लेख नहीं"
+        ],
+        "answer": "एक",
+        "feedback": "Correct answer is: एक"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "Which word is a noun?",
+        "options": [
+          "साहस",
+          "साहसी",
+          "साहसपूर्वक",
+          "प्रोत्साहित करें"
+        ],
+        "answer": "साहस",
+        "feedback": "Correct answer is: साहस"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "Read the sentence. The company rewarded employees who worked diligently throughout the year. Why were the employees rewarded?",
+        "options": [
+          "उन्होंने लगन से काम किया.",
+          "वे अनुपस्थित थे.",
+          "उन्होंने इस्तीफा दे दिया.",
+          "वे देर से पहुंचे."
+        ],
+        "answer": "उन्होंने लगन से काम किया.",
+        "feedback": "Correct answer is: उन्होंने लगन से काम किया."
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "Which sentence is grammatically correct?",
+        "options": [
+          "दोनों में से कोई भी लड़का मौजूद नहीं है.",
+          "कोई भी लड़का मौजूद नहीं है.",
+          "कोई भी लड़का मौजूद नहीं था.",
+          "कोई भी लड़का मौजूद नहीं है. "
+        ],
+        "answer": "कोई भी लड़का मौजूद नहीं है.",
+        "feedback": "Correct answer is: कोई भी लड़का मौजूद नहीं है."
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "Which word is an antonym of expand?",
+        "options": [
+          "वृद्धि",
+          "विस्तार",
+          "कम करें",
+          "सुधार करो"
+        ],
+        "answer": "कम करें",
+        "feedback": "Correct answer is: कम करें"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "Which sentence expresses advice?",
+        "options": [
+          "आपको पर्याप्त पानी पीना चाहिए.",
+          "मैंने पर्याप्त पानी पी लिया.",
+          "पेय जल।",
+          "पानी महत्वपूर्ण है."
+        ],
+        "answer": "आपको पर्याप्त पानी पीना चाहिए.",
+        "feedback": "Correct answer is: आपको पर्याप्त पानी पीना चाहिए."
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "Complete the sentence. Reading regularly improves your _____ and communication skills.",
+        "options": [
+          "शब्दावली",
+          "फर्नीचर",
+          "यात्रा",
+          "परिवहन"
+        ],
+        "answer": "शब्दावली",
+        "feedback": "Correct answer is: शब्दावली"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "Read aloud: हर सुबह, मैं जल्दी उठता हूं, तीस मिनट तक व्यायाम करता हूं और फिर स्वस्थ नाश्ते के साथ अपने दिन की तैयारी करता हूं।",
+        "word": "हर सुबह, मैं जल्दी उठता हूं, तीस मिनट तक व्यायाम करता हूं और फिर स्वस्थ नाश्ते के साथ अपने दिन की तैयारी करता हूं।"
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "Read aloud: एक नई भाषा सीखने से संचार कौशल में सुधार होता है, आत्मविश्वास बढ़ता है और लोगों को विभिन्न संस्कृतियों से जुड़ने में मदद मिलती है।",
+        "word": "एक नई भाषा सीखने से संचार कौशल में सुधार होता है, आत्मविश्वास बढ़ता है और लोगों को विभिन्न संस्कृतियों से जुड़ने में मदद मिलती है।"
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "Read aloud: प्रौद्योगिकी ने छात्रों को डिजिटल संसाधनों, ऑनलाइन पाठ्यक्रमों और इंटरैक्टिव शिक्षण अनुभवों तक पहुंच प्रदान करके शिक्षा को बदल दिया है।",
+        "word": "प्रौद्योगिकी ने छात्रों को डिजिटल संसाधनों, ऑनलाइन पाठ्यक्रमों और इंटरैक्टिव शिक्षण अनुभवों तक पहुंच प्रदान करके शिक्षा को बदल दिया है।"
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "Read aloud: शारीरिक और मानसिक स्वास्थ्य दोनों को बनाए रखने के लिए नियमित व्यायाम, संतुलित आहार और पर्याप्त नींद आवश्यक है।",
+        "word": "शारीरिक और मानसिक स्वास्थ्य दोनों को बनाए रखने के लिए नियमित व्यायाम, संतुलित आहार और पर्याप्त नींद आवश्यक है।"
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "Read aloud: लाइब्रेरियन ने छात्रों को किताबें उधार लेने के लिए प्रोत्साहित किया क्योंकि नियमित रूप से पढ़ने से शब्दावली, कल्पना और आलोचनात्मक सोच में सुधार होता है।",
+        "word": "लाइब्रेरियन ने छात्रों को किताबें उधार लेने के लिए प्रोत्साहित किया क्योंकि नियमित रूप से पढ़ने से शब्दावली, कल्पना और आलोचनात्मक सोच में सुधार होता है।"
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "Read aloud: विज्ञान प्रदर्शनी के दौरान छात्रों ने आत्मविश्वास से शिक्षकों, अभिभावकों और आगंतुकों को अपनी नवीन परियोजनाओं के बारे में बताया।",
+        "word": "विज्ञान प्रदर्शनी के दौरान छात्रों ने आत्मविश्वास से शिक्षकों, अभिभावकों और आगंतुकों को अपनी नवीन परियोजनाओं के बारे में बताया।"
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "Read aloud: किसान ने पर्यावरण की रक्षा करते हुए फसल उत्पादन बढ़ाने के लिए आधुनिक कृषि तकनीकों को अपनाया।",
+        "word": "किसान ने पर्यावरण की रक्षा करते हुए फसल उत्पादन बढ़ाने के लिए आधुनिक कृषि तकनीकों को अपनाया।"
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "Read aloud: हालाँकि मौसम पूर्वानुमान में भारी बारिश की भविष्यवाणी की गई थी, फिर भी कार्यक्रम जारी रहा क्योंकि उपयुक्त व्यवस्था पहले ही कर ली गई थी।",
+        "word": "हालाँकि मौसम पूर्वानुमान में भारी बारिश की भविष्यवाणी की गई थी, फिर भी कार्यक्रम जारी रहा क्योंकि उपयुक्त व्यवस्था पहले ही कर ली गई थी।"
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "Read aloud: अच्छे नेता ध्यान से सुनते हैं, स्पष्ट रूप से संवाद करते हैं और केवल अपने शब्दों के बजाय अपने कार्यों से दूसरों को प्रेरित करते हैं।",
+        "word": "अच्छे नेता ध्यान से सुनते हैं, स्पष्ट रूप से संवाद करते हैं और केवल अपने शब्दों के बजाय अपने कार्यों से दूसरों को प्रेरित करते हैं।"
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "Read aloud: स्वास्थ्य देखभाल टीम ने समय पर उपचार प्रदान करने और यह सुनिश्चित करने के लिए रात भर अथक प्रयास किया कि प्रत्येक रोगी को उचित देखभाल मिले।",
+        "word": "स्वास्थ्य देखभाल टीम ने समय पर उपचार प्रदान करने और यह सुनिश्चित करने के लिए रात भर अथक प्रयास किया कि प्रत्येक रोगी को उचित देखभाल मिले।"
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "Read aloud: पर्यावरण संरक्षण के लिए व्यक्तियों, समुदायों और सरकारों को सतत विकास की दिशा में मिलकर काम करने की आवश्यकता है।",
+        "word": "पर्यावरण संरक्षण के लिए व्यक्तियों, समुदायों और सरकारों को सतत विकास की दिशा में मिलकर काम करने की आवश्यकता है।"
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "Read aloud: संग्रहालय में ऐतिहासिक कलाकृतियाँ प्रदर्शित की गईं जिससे आगंतुकों को देश की समृद्ध सांस्कृतिक विरासत को समझने में मदद मिली।",
+        "word": "संग्रहालय में ऐतिहासिक कलाकृतियाँ प्रदर्शित की गईं जिससे आगंतुकों को देश की समृद्ध सांस्कृतिक विरासत को समझने में मदद मिली।"
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "Read aloud: प्रतिदिन समाचार पत्र और विश्वसनीय ऑनलाइन लेख पढ़ने से लोगों को दुनिया भर की वर्तमान घटनाओं के बारे में सूचित रहने में मदद मिलती है।",
+        "word": "प्रतिदिन समाचार पत्र और विश्वसनीय ऑनलाइन लेख पढ़ने से लोगों को दुनिया भर की वर्तमान घटनाओं के बारे में सूचित रहने में मदद मिलती है।"
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "Read aloud: सॉफ़्टवेयर इंजीनियर ने समाधान लिखने से पहले प्रत्येक चरण का सावधानीपूर्वक विश्लेषण करके एक जटिल प्रोग्रामिंग समस्या को हल किया।",
+        "word": "सॉफ़्टवेयर इंजीनियर ने समाधान लिखने से पहले प्रत्येक चरण का सावधानीपूर्वक विश्लेषण करके एक जटिल प्रोग्रामिंग समस्या को हल किया।"
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "Read aloud: ईमानदारी, अनुशासन और दृढ़ता ऐसे गुण हैं जो दीर्घकालिक व्यक्तिगत और व्यावसायिक सफलता में महत्वपूर्ण योगदान देते हैं।",
+        "word": "ईमानदारी, अनुशासन और दृढ़ता ऐसे गुण हैं जो दीर्घकालिक व्यक्तिगत और व्यावसायिक सफलता में महत्वपूर्ण योगदान देते हैं।"
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "Read aloud: शिक्षक ने उन छात्रों की सराहना की जिन्होंने कक्षा चर्चाओं में सक्रिय रूप से भाग लिया और विभिन्न विचारों का सम्मान किया।",
+        "word": "शिक्षक ने उन छात्रों की सराहना की जिन्होंने कक्षा चर्चाओं में सक्रिय रूप से भाग लिया और विभिन्न विचारों का सम्मान किया।"
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "Read aloud: आर्टिफिशियल इंटेलिजेंस विभिन्न क्षमताओं वाले छात्रों के लिए व्यक्तिगत सीखने के अनुभव बनाकर शिक्षा में बदलाव ला रहा है।",
+        "word": "आर्टिफिशियल इंटेलिजेंस विभिन्न क्षमताओं वाले छात्रों के लिए व्यक्तिगत सीखने के अनुभव बनाकर शिक्षा में बदलाव ला रहा है।"
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "Read aloud: सार्वजनिक परिवहन यातायात की भीड़ को कम करने, ईंधन बचाने और भीड़-भाड़ वाले शहरों में पर्यावरण प्रदूषण को कम करने में मदद करता है।",
+        "word": "सार्वजनिक परिवहन यातायात की भीड़ को कम करने, ईंधन बचाने और भीड़-भाड़ वाले शहरों में पर्यावरण प्रदूषण को कम करने में मदद करता है।"
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "Read aloud: प्रभावी संचार में न केवल स्पष्ट रूप से बोलना शामिल है बल्कि ध्यान से सुनना और सोच-समझकर जवाब देना भी शामिल है।",
+        "word": "प्रभावी संचार में न केवल स्पष्ट रूप से बोलना शामिल है बल्कि ध्यान से सुनना और सोच-समझकर जवाब देना भी शामिल है।"
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "Read aloud: अनुसंधान टीम ने निष्कर्ष निकालने और दर्शकों के सामने अपने निष्कर्ष प्रस्तुत करने से पहले सटीक डेटा एकत्र किया।",
+        "word": "अनुसंधान टीम ने निष्कर्ष निकालने और दर्शकों के सामने अपने निष्कर्ष प्रस्तुत करने से पहले सटीक डेटा एकत्र किया।"
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "Read aloud: सामुदायिक सेवा गतिविधियों में स्वयंसेवा जिम्मेदारी, टीम वर्क, सहानुभूति और नेतृत्व कौशल सिखाती है।",
+        "word": "सामुदायिक सेवा गतिविधियों में स्वयंसेवा जिम्मेदारी, टीम वर्क, सहानुभूति और नेतृत्व कौशल सिखाती है।"
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "Read aloud: जो लोग लगातार नए कौशल सीखते हैं वे अक्सर बदलती प्रौद्योगिकियों और कार्यस्थल की मांगों के अनुकूल ढलने के लिए बेहतर रूप से तैयार होते हैं।",
+        "word": "जो लोग लगातार नए कौशल सीखते हैं वे अक्सर बदलती प्रौद्योगिकियों और कार्यस्थल की मांगों के अनुकूल ढलने के लिए बेहतर रूप से तैयार होते हैं।"
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "Read aloud: वित्तीय नियोजन परिवारों को खर्चों का प्रबंधन करने, भविष्य के लक्ष्यों के लिए धन बचाने और अप्रत्याशित स्थितियों के लिए तैयार होने में मदद करता है।",
+        "word": "वित्तीय नियोजन परिवारों को खर्चों का प्रबंधन करने, भविष्य के लक्ष्यों के लिए धन बचाने और अप्रत्याशित स्थितियों के लिए तैयार होने में मदद करता है।"
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "Read aloud: कई चुनौतियों का सामना करने के बावजूद, युवा उद्यमी दृढ़ संकल्पित रहा और अंततः एक सफल व्यवसाय खड़ा किया।",
+        "word": "कई चुनौतियों का सामना करने के बावजूद, युवा उद्यमी दृढ़ संकल्पित रहा और अंततः एक सफल व्यवसाय खड़ा किया।"
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "Read aloud: शिक्षा व्यक्तियों को सूचित निर्णय लेने, समाज में सकारात्मक योगदान देने और उनके जीवन की समग्र गुणवत्ता में सुधार करने का अधिकार देती है।",
+        "word": "शिक्षा व्यक्तियों को सूचित निर्णय लेने, समाज में सकारात्मक योगदान देने और उनके जीवन की समग्र गुणवत्ता में सुधार करने का अधिकार देती है।"
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "Translate into Hindi: Critical thinking",
+        "answer": "आलोचनात्मक सोच",
+        "feedback": "Correct translation is: आलोचनात्मक सोच"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "Translate into Hindi: Team spirit",
+        "answer": "टीम भावना",
+        "feedback": "Correct translation is: टीम भावना"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "Translate into Hindi: Digital literacy",
+        "answer": "डिजिटल साक्षरता",
+        "feedback": "Correct translation is: डिजिटल साक्षरता"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "Translate into Hindi: Time management",
+        "answer": "समय प्रबंधन",
+        "feedback": "Correct translation is: समय प्रबंधन"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "Translate into Hindi: Healthy lifestyle",
+        "answer": "स्वस्थ जीवन शैली",
+        "feedback": "Correct translation is: स्वस्थ जीवन शैली"
+      },
+      {
+        "id": 56,
+        "type": "Writing",
+        "text": "Translate into Hindi: Climate change",
+        "answer": "जलवायु परिवर्तन",
+        "feedback": "Correct translation is: जलवायु परिवर्तन"
+      },
+      {
+        "id": 57,
+        "type": "Writing",
+        "text": "Translate into Hindi: Financial planning",
+        "answer": "वित्तीय नियोजन",
+        "feedback": "Correct translation is: वित्तीय नियोजन"
+      },
+      {
+        "id": 58,
+        "type": "Writing",
+        "text": "Translate into Hindi: Problem solving",
+        "answer": "समस्या समाधान",
+        "feedback": "Correct translation is: समस्या समाधान"
+      },
+      {
+        "id": 59,
+        "type": "Writing",
+        "text": "Translate into Hindi: Artificial intelligence",
+        "answer": "कृत्रिम बुद्धिमत्ता",
+        "feedback": "Correct translation is: कृत्रिम बुद्धिमत्ता"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "Translate into Hindi: Positive attitude",
+        "answer": "सकारात्मक दृष्टिकोण",
+        "feedback": "Correct translation is: सकारात्मक दृष्टिकोण"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "Translate into Hindi: Career growth",
+        "answer": "कैरियर विकास",
+        "feedback": "Correct translation is: कैरियर विकास"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "Translate into Hindi: Leadership skills",
+        "answer": "नेतृत्व कौशल",
+        "feedback": "Correct translation is: नेतृत्व कौशल"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "Translate into Hindi: Community service",
+        "answer": "सामुदायिक सेवा",
+        "feedback": "Correct translation is: सामुदायिक सेवा"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "Translate into Hindi: Public speaking",
+        "answer": "सार्वजनिक भाषण",
+        "feedback": "Correct translation is: सार्वजनिक भाषण"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "Translate into Hindi: Emotional intelligence",
+        "answer": "भावनात्मक बुद्धिमत्ता",
+        "feedback": "Correct translation is: भावनात्मक बुद्धिमत्ता"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "Translate into Hindi: Data analysis",
+        "answer": "डेटा विश्लेषण",
+        "feedback": "Correct translation is: डेटा विश्लेषण"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "Translate into Hindi: Online learning",
+        "answer": "ऑनलाइन शिक्षण",
+        "feedback": "Correct translation is: ऑनलाइन शिक्षण"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "Translate into Hindi: Decision making",
+        "answer": "निर्णय लेना",
+        "feedback": "Correct translation is: निर्णय लेना"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "Translate into Hindi: Environmental protection",
+        "answer": "पर्यावरण संरक्षण",
+        "feedback": "Correct translation is: पर्यावरण संरक्षण"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "Translate into Hindi: Knowledge sharing",
+        "answer": "ज्ञान बाँटना",
+        "feedback": "Correct translation is: ज्ञान बाँटना"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "Translate into Hindi: Self discipline",
+        "answer": "आत्म अनुशासन",
+        "feedback": "Correct translation is: आत्म अनुशासन"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "Translate into Hindi: Goal setting",
+        "answer": "लक्ष्य निर्धारण",
+        "feedback": "Correct translation is: लक्ष्य निर्धारण"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "Translate into Hindi: Creative mindset",
+        "answer": "रचनात्मक मानसिकता",
+        "feedback": "Correct translation is: रचनात्मक मानसिकता"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "Translate into Hindi: Lifelong learning",
+        "answer": "आजीवन सीखना",
+        "feedback": "Correct translation is: आजीवन सीखना"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "Translate into Hindi: Professional ethics",
+        "answer": "व्यावसायिक नैतिकता",
+        "feedback": "Correct translation is: व्यावसायिक नैतिकता"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "Fill in the blank: By next year, she will have completed her degree.",
+        "options": [
+          "पूरा करता है",
+          "पूरा हुआ",
+          "पूरा करेंगे",
+          "पूरा हो गया होगा"
+        ],
+        "answer": "पूरा हो गया होगा",
+        "feedback": "Correct answer is: पूरा हो गया होगा"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "Fill in the blank: Neither of the students is absent today.",
+        "options": [
+          "हैं",
+          "थे",
+          "है",
+          "है "
+        ],
+        "answer": "है",
+        "feedback": "Correct answer is: है"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "Fill in the blank: If I had enough money, I would buy a laptop.",
+        "options": [
+          "है",
+          "था",
+          "है ",
+          "होना"
+        ],
+        "answer": "था",
+        "feedback": "Correct answer is: था"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "Fill in the blank: The meeting was conducted by the manager yesterday.",
+        "options": [
+          "आचरण करता है",
+          "संचालित",
+          "आयोजित किया गया",
+          "संचालन कर रहा है"
+        ],
+        "answer": "आयोजित किया गया",
+        "feedback": "Correct answer is: आयोजित किया गया"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "Fill in the blank: She speaks English better than her brother.",
+        "options": [
+          "अच्छा",
+          "अच्छा ",
+          "बेहतर",
+          "सर्वोत्तम"
+        ],
+        "answer": "बेहतर",
+        "feedback": "Correct answer is: बेहतर"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "Fill in the blank: सही वाक्य का चयन करें।",
+        "options": [
+          "सभी ने रिपोर्ट सौंप दी है.",
+          "सभी ने रिपोर्ट सौंप दी है. ",
+          "सभी लोग रिपोर्ट सौंप रहे हैं.",
+          "सभी लोग रिपोर्ट जमा कर रहे थे."
+        ],
+        "answer": "सभी ने रिपोर्ट सौंप दी है.",
+        "feedback": "Correct answer is: सभी ने रिपोर्ट सौंप दी है."
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "Fill in the blank: The teacher asked the students to sit quietly.",
+        "options": [
+          "बैठो",
+          "बैठना",
+          "बैठे",
+          "बैठ गया"
+        ],
+        "answer": "बैठना",
+        "feedback": "Correct answer is: बैठना"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "Fill in the blank: निष्क्रिय स्वर में कौन सा वाक्य है?",
+        "options": [
+          "रसोइये ने भोजन तैयार किया.",
+          "भोजन रसोइये द्वारा तैयार किया गया था।",
+          "रसोइया भोजन तैयार कर रहा है.",
+          "रसोइया भोजन तैयार करता है."
+        ],
+        "answer": "भोजन रसोइये द्वारा तैयार किया गया था।",
+        "feedback": "Correct answer is: भोजन रसोइये द्वारा तैयार किया गया था।"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "Fill in the blank: If it rains tomorrow, we will stay at home.",
+        "options": [
+          "रुके",
+          "रहना",
+          "रहेगा",
+          "रहना "
+        ],
+        "answer": "रहेगा",
+        "feedback": "Correct answer is: रहेगा"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "Fill in the blank: The project must be completed before Friday.",
+        "options": [
+          "पूर्ण",
+          "पूरा किया जाए",
+          "पूरा हुआ",
+          "पूरा करना"
+        ],
+        "answer": "पूरा किया जाए",
+        "feedback": "Correct answer is: पूरा किया जाए"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "Fill in the blank: ___She has lived here  2010.",
+        "options": [
+          "के लिए",
+          "तब से",
+          "से",
+          "द्वारा"
+        ],
+        "answer": "तब से",
+        "feedback": "Correct answer is:  तब से"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "Fill in the blank: I am interested in learning new languages.",
+        "options": [
+          "पर",
+          "में",
+          "पर ",
+          "के साथ"
+        ],
+        "answer": "में",
+        "feedback": "Correct answer is: में"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "Fill in the blank: He is one of the best players in the team.",
+        "options": [
+          "पर",
+          "पर ",
+          "में",
+          "खत्म"
+        ],
+        "answer": "में",
+        "feedback": "Correct answer is: में"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "Fill in the blank: कौनसा वाक्य ठीक है?",
+        "options": [
+          "उसे पढ़ने में मजा आता है.",
+          "उसे पढ़ने में मजा आता है. ",
+          "उसे पढ़ने में मजा आता है.  ",
+          "उसे पढ़ने में आनंद आया।"
+        ],
+        "answer": "उसे पढ़ने में मजा आता है.",
+        "feedback": "Correct answer is: उसे पढ़ने में मजा आता है."
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "Fill in the blank: The train had already left before we reached the station.",
+        "options": [
+          "पहुंचें",
+          "पहुंच गया",
+          "पहुँचता है",
+          "पहुँचना"
+        ],
+        "answer": "पहुंच गया",
+        "feedback": "Correct answer is: पहुंच गया"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "Fill in the blank: कौन सी क्रियात्मक क्रिया सलाह व्यक्त करती है?",
+        "options": [
+          "कर सकते हैं",
+          "चाहिए",
+          "मई",
+          "अवश्य"
+        ],
+        "answer": "चाहिए",
+        "feedback": "Correct answer is: चाहिए"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "Fill in the blank: \"मैं व्यस्त हूं,\" उसने कहा। सही अप्रत्यक्ष भाषण चुनें.",
+        "options": [
+          "उसने कहा कि वह व्यस्त थी.",
+          "उसने कहा कि वह व्यस्त है.",
+          "वह कहती है कि वह व्यस्त थी।",
+          "उसने कहा मैं व्यस्त हूं."
+        ],
+        "answer": "उसने कहा कि वह व्यस्त थी.",
+        "feedback": "Correct answer is: उसने कहा कि वह व्यस्त थी."
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "Fill in the blank: The students have been preparing for the examination since morning.",
+        "options": [
+          "हो गया है",
+          "रहे हैं",
+          "था",
+          "है"
+        ],
+        "answer": "रहे हैं",
+        "feedback": "Correct answer is: रहे हैं"
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "Fill in the blank: कौन सा वाक्य व्याकरणिक दृष्टि से सही है?",
+        "options": [
+          "खबरें दिलचस्प हैं.",
+          "खबर दिलचस्प है.",
+          "खबरें दिलचस्प थीं.",
+          "खबरें दिलचस्प हैं. "
+        ],
+        "answer": "खबर दिलचस्प है.",
+        "feedback": "Correct answer is: खबर दिलचस्प है."
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "Fill in the blank: We look forward meeting you soon.",
+        "options": [
+          "मिलो",
+          "बैठक",
+          "मिले",
+          "मिलना"
+        ],
+        "answer": "बैठक",
+        "feedback": "Correct answer is: बैठक"
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "Fill in the blank: किस वाक्य में संबंधवाचक सर्वनाम है?",
+        "options": [
+          "जिस लड़के ने दौड़ जीती वह मेरा चचेरा भाई है।",
+          "लड़का तेज़ दौड़ता है.",
+          "दौड़ रोमांचक थी.",
+          "मेरा चचेरा भाई यहाँ है."
+        ],
+        "answer": "जिस लड़के ने दौड़ जीती वह मेरा चचेरा भाई है।",
+        "feedback": "Correct answer is: जिस लड़के ने दौड़ जीती वह मेरा चचेरा भाई है।"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "Fill in the blank: Hardly had the match started when it began to rain.",
+        "options": [
+          "कब",
+          "से",
+          "फिर",
+          "जबकि"
+        ],
+        "answer": "कब",
+        "feedback": "Correct answer is: कब"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "Fill in the blank: Which word correctly completes the sentence? The manager spoke confidently during the presentation.",
+        "options": [
+          "आत्मविश्वास",
+          "आत्मविश्वास से",
+          "आश्वस्त",
+          "आत्मविश्वास "
+        ],
+        "answer": "आत्मविश्वास से",
+        "feedback": "Correct answer is: आत्मविश्वास से"
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "Fill in the blank: सही विराम चिह्न वाला वाक्य चुनें।",
+        "options": [
+          "हाँ मैं सहमत हूँ।",
+          "हाँ मैं सहमत हूँ। ",
+          "हाँ मैं सहमत हूँ।  ",
+          "हाँ; मैं सहमत हूं"
+        ],
+        "answer": "हाँ मैं सहमत हूँ।",
+        "feedback": "Correct answer is: हाँ मैं सहमत हूँ।"
+      },
+      {
+        "id": 101,
+        "type": "Grammar",
+        "text": "Fill in the blank: सही वाक्य का चयन करें.",
+        "options": [
+          "प्रत्येक प्रतिभागी को एक प्रमाण पत्र प्राप्त हुआ है।",
+          "प्रत्येक प्रतिभागी को एक प्रमाण पत्र प्राप्त हुआ है। ",
+          "प्रत्येक प्रतिभागियों को एक प्रमाण पत्र प्राप्त हुआ है।",
+          "प्रत्येक प्रतिभागी को प्रमाण पत्र प्राप्त हुआ है।"
+        ],
+        "answer": "प्रत्येक प्रतिभागी को एक प्रमाण पत्र प्राप्त हुआ है।",
+        "feedback": "Correct answer is: प्रत्येक प्रतिभागी को एक प्रमाण पत्र प्राप्त हुआ है।"
+      }
+    ],
+    "Puzzle": [
+      {
+        "id": 102,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 3, 6, 12, 24, __",
+        "options": [
+          "36",
+          "42",
+          "48",
+          "54"
+        ],
+        "answer": "48",
+        "feedback": "Correct answer is: 48"
+      },
+      {
+        "id": 103,
+        "type": "Puzzle",
+        "text": "Find the odd one out.",
+        "options": [
+          "कीबोर्ड",
+          "मॉनिटर",
+          "मुद्रक",
+          "साइकिल"
+        ],
+        "answer": "साइकिल",
+        "feedback": "Correct answer is: साइकिल"
+      },
+      {
+        "id": 104,
+        "type": "Puzzle",
+        "text": "Book is to Reading as Pen is to _____.",
+        "options": [
+          "सो रहा है",
+          "लेखन",
+          "दौड़ना",
+          "खाना बनाना"
+        ],
+        "answer": "लेखन",
+        "feedback": "Correct answer is: लेखन"
+      },
+      {
+        "id": 105,
+        "type": "Puzzle",
+        "text": "Complete the alphabet pattern. A, D, G, J, __",
+        "options": [
+          "के",
+          "एल",
+          "एम",
+          "एन"
+        ],
+        "answer": "एम",
+        "feedback": "Correct answer is: एम"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "Which number is missing? 5, 10, 20, 40, __",
+        "options": [
+          "50",
+          "60",
+          "70",
+          "80"
+        ],
+        "answer": "80",
+        "feedback": "Correct answer is: 80"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "Which word is different?",
+        "options": [
+          "गुलाब",
+          "कमल",
+          "ट्यूलिप",
+          "केला"
+        ],
+        "answer": "केला",
+        "feedback": "Correct answer is: केला"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "If all roses are flowers and all flowers are plants, then a rose is a _____.",
+        "options": [
+          "फल",
+          "पौधा",
+          "पेड़",
+          "सब्जी"
+        ],
+        "answer": "पौधा",
+        "feedback": "Correct answer is: पौधा"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "Find the next letter. Z, W, T, Q, __",
+        "options": [
+          "ओ",
+          "एन",
+          "एम",
+          "एल"
+        ],
+        "answer": "एन",
+        "feedback": "Correct answer is: एन"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "Which number does not belong?",
+        "options": [
+          "16",
+          "25",
+          "36",
+          "38"
+        ],
+        "answer": "38",
+        "feedback": "Correct answer is: 38"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "Doctor is to Hospital as Teacher is to _____.",
+        "options": [
+          "पुस्तकालय",
+          "स्कूल",
+          "बाज़ार",
+          "कार्यालय"
+        ],
+        "answer": "स्कूल",
+        "feedback": "Correct answer is: स्कूल"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "Complete the pattern. 2, 5, 10, 17, 26, __",
+        "options": [
+          "35",
+          "37",
+          "39",
+          "41"
+        ],
+        "answer": "37",
+        "feedback": "Correct answer is: 37"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "Find the odd one.",
+        "options": [
+          "बुध",
+          "शुक्र",
+          "पृथ्वी",
+          "चाँद"
+        ],
+        "answer": "चाँद",
+        "feedback": "Correct answer is: चाँद"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "Which pair has the same relationship? Knife : Cut",
+        "options": [
+          "चम्मच : पी लो",
+          "ब्रश : पेंट",
+          "अध्यक्ष: बैठो",
+          "पंखा : वायु"
+        ],
+        "answer": "ब्रश : पेंट",
+        "feedback": "Correct answer is: ब्रश : पेंट"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "Which word completes the analogy? Bird : Fly :: Fish : _____",
+        "options": [
+          "तैरना",
+          "चलो",
+          "कूदो",
+          "रेंगना"
+        ],
+        "answer": "तैरना",
+        "feedback": "Correct answer is: तैरना"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "Which comes next? Monday, Wednesday, Friday, _____",
+        "options": [
+          "शनिवार",
+          "रविवार",
+          "मंगलवार",
+          "गुरुवार"
+        ],
+        "answer": "रविवार",
+        "feedback": "Correct answer is: रविवार"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "Rearrange the letters. LEPAP",
+        "options": [
+          "सेब",
+          "पेपला",
+          "विनती करो",
+          "लापेप"
+        ],
+        "answer": "सेब",
+        "feedback": "Correct answer is: सेब"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "Which is the smallest fraction?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5"
+        ],
+        "answer": "1/5",
+        "feedback": "Correct answer is: 1/5"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "If yesterday was Tuesday, what day is tomorrow?",
+        "options": [
+          "बुधवार",
+          "गुरुवार",
+          "शुक्रवार",
+          "शनिवार"
+        ],
+        "answer": "गुरुवार",
+        "feedback": "Correct answer is: गुरुवार"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 100, 95, 90, 85, __",
+        "options": [
+          "75",
+          "80",
+          "82",
+          "78"
+        ],
+        "answer": "80",
+        "feedback": "Correct answer is: 80"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "Which object is measured in kilograms?",
+        "options": [
+          "दूध",
+          "चावल",
+          "पानी",
+          "रस"
+        ],
+        "answer": "चावल",
+        "feedback": "Correct answer is: चावल"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "Find the missing number. 7, 14, 21, __, 35",
+        "options": [
+          "24",
+          "28",
+          "30",
+          "32"
+        ],
+        "answer": "28",
+        "feedback": "Correct answer is: 28"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "Which one is a renewable energy source?",
+        "options": [
+          "कोयला",
+          "पेट्रोल",
+          "सौर ऊर्जा",
+          "डीज़ल"
+        ],
+        "answer": "सौर ऊर्जा",
+        "feedback": "Correct answer is: सौर ऊर्जा"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "Which word has the closest meaning to ancient?",
+        "options": [
+          "आधुनिक",
+          "पुराना",
+          "युवा",
+          "भविष्य"
+        ],
+        "answer": "पुराना",
+        "feedback": "Correct answer is: पुराना"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "Which is the correct order?",
+        "options": [
+          "बीज -> पेड़ -> पौधा",
+          "बीज -> पौधा -> पेड़",
+          "पौधा -> बीज -> पेड़",
+          "पेड़ -> बीज -> पौधा"
+        ],
+        "answer": "बीज -> पौधा -> पेड़",
+        "feedback": "Correct answer is: बीज -> पौधा -> पेड़"
+      },
+      {
+        "id": 126,
+        "type": "Puzzle",
+        "text": "A farmer has 10 mangoes. He gives 4 to his friend and buys 6 more. How many mangoes does he have now?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "14"
+        ],
+        "answer": "12",
+        "feedback": "Correct answer is: 12"
+      }
+    ]
+  }
 }

@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { Home, BookOpen, Target, Gamepad2, Edit3, Award, Medal, BarChart2, User, Settings, LogOut, Bot, Mic, BookText, Layers, BrainCircuit, Activity, Compass, ShieldAlert, Eye, UserCheck, Menu, X } from 'lucide-react';
 import ProfileModal from '../components/ProfileModal';
 import SettingsModal from '../components/SettingsModal';
+import Button from '../components/ui/Button';
+import Badge from '../components/ui/Badge';
 import LeaderboardModal from '../components/LeaderboardModal';
 import TutorModal from '../components/TutorModal';
 import ProgressModal from '../components/ProgressModal';
@@ -278,36 +280,34 @@ const ActivitiesPage = () => {
         
         {/* Top Header */}
         <header className="dashboard-header activities-header">
-          <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
-            {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-          <div className="welcome-text">
-            <h1>{t('act_title', 'Learning Activities')}</h1>
-            <p>{t('act_subtitle', "Engaging ways to practice and apply what you've learned.")}</p>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
+              {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+            <h1 style={{ margin: 0, fontSize: '1.5rem', color: 'var(--text-main)', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <Target size={28} color="#0d9488" /> {t('act_title', 'Learning Activities')}
+            </h1>
           </div>
         </header>
 
         {/* Level Tabs */}
         <div className="activity-tabs" style={{ display: 'flex', gap: '1rem', padding: '0 2.5rem', marginBottom: '2rem' }}>
           {['Beginner', 'Intermediate', 'Advanced'].map(level => (
-            <button
+            <Button
+              variant="primary"
               key={level}
-              className={`activity-tab ${activeTab === level ? 'active' : ''}`}
+              className={`activity-tab track-btn track-btn-${level.toLowerCase()} ${activeTab === level ? 'active' : ''}`}
               onClick={() => setActiveTab(level)}
               style={{
                 padding: '0.75rem 1.5rem',
                 borderRadius: '8px',
-                border: 'none',
                 fontWeight: '600',
                 fontSize: '1rem',
-                cursor: 'pointer',
-                background: activeTab === level ? '#1a73e8' : '#f1f5f9',
-                color: activeTab === level ? 'white' : '#64748b',
-                transition: 'all 0.2s'
+                flex: '0 1 auto'
               }}
             >
               {t(`act_${level.toLowerCase()}`, level)}
-            </button>
+            </Button>
           ))}
         </div>
 
@@ -318,19 +318,32 @@ const ActivitiesPage = () => {
                 key={activity.id} 
                 className="activity-card"
                 onClick={() => navigate(activity.route)}
+                role="button"
+                tabIndex={0}
+                onKeyDown={(e) => {
+                  if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    navigate(activity.route);
+                  }
+                }}
                 style={{ position: 'relative' }}
               >
                 {activity.isNew && (
-                  <div style={{ position: 'absolute', top: '-10px', right: '-10px', background: '#ef4444', color: 'white', padding: '4px 10px', borderRadius: '12px', fontSize: '0.75rem', fontWeight: 'bold', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }}>
+                  <Badge variant="primary" style={{ position: 'absolute', top: '-10px', right: '-10px', boxShadow: 'var(--shadow-sm)' }}>
                     {t('act_new', 'NEW')}
-                  </div>
+                  </Badge>
                 )}
                 <div className="activity-icon-wrapper" style={{ backgroundColor: activity.color }}>
                   {activity.icon}
                 </div>
-                <div className="activity-content">
+                <div className="activity-content" style={{ flex: 1 }}>
                   <h3>{activity.title}</h3>
                   <p>{activity.description}</p>
+                </div>
+                <div style={{ marginTop: 'auto', paddingTop: '1.2rem', borderTop: '1px solid var(--border-subtle)', display: 'flex', justifyContent: 'flex-end' }}>
+                   <Button variant="ghost" size="sm" iconRight={<Target size={16} />} tabIndex={-1} aria-hidden="true" style={{ color: activity.color }}>
+                     Start Activity
+                   </Button>
                 </div>
               </div>
             ))}

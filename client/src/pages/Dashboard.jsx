@@ -11,8 +11,23 @@ import StreakModal from '../components/StreakModal';
 import ShopModal from '../components/ShopModal';
 import AnnouncementsModal from '../components/AnnouncementsModal';
 import LessonPage from './LessonPage';
+import Button from '../components/ui/Button';
+import Badge from '../components/ui/Badge';
+import Card from '../components/ui/Card';
 import './Dashboard.css';
 import { API_BASE_URL } from '../config/api';
+
+import badgeBronze from '../assets/badges/badge-bronze.png';
+import badgeSilver from '../assets/badges/badge-silver.png';
+import badgeGold from '../assets/badges/badge-gold.png';
+import badgePlatinum from '../assets/badges/badge-platinum.png';
+
+const rankBadges = {
+  bronze: badgeBronze,
+  silver: badgeSilver,
+  gold: badgeGold,
+  platinum: badgePlatinum
+};
 
 // Helper: get time-of-day greeting key
 function getGreetingKey() {
@@ -112,6 +127,12 @@ const Dashboard = () => {
   // Find current active lesson for the track
   const currentTrackLesson = filteredLessons.find(l => l.status === 'active') || filteredLessons.find(l => l.status !== 'completed') || filteredLessons[filteredLessons.length - 1];
 
+  // Next level transition properties
+  const nextLvl = activeTab === 'Beginner' ? 'Intermediate' : activeTab === 'Intermediate' ? 'Advanced' : null;
+  const nextLvlLessons = nextLvl ? lessons.filter(l => l.level === nextLvl) : [];
+  const nextLesson = nextLvl && nextLvlLessons.length > 0 ? (nextLvlLessons.find(l => l.status === 'active' || l.status !== 'completed') || nextLvlLessons[0]) : null;
+  const hasCompletedTab = totalLessons > 0 && completedLessons === totalLessons;
+
   // Today's goal percentage
   const goalPercent = todaysGoal ? Math.min(100, Math.round((todaysGoal.earned / todaysGoal.target) * 100)) : 0;
 
@@ -153,54 +174,101 @@ const Dashboard = () => {
         
         {/* Top Header */}
         <header className="dashboard-header">
-          <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)} aria-label="Toggle Sidebar">
-            {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-          <div className="welcome-text">
-            <h1>{t('dash_hello', { name: user.name.split(' ')[0] })}</h1>
-            <p>{t(getGreetingKey())}</p>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)} aria-label="Toggle Sidebar">
+              {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+            <div className="welcome-text">
+              <h1 style={{ fontSize: '1.5rem', fontWeight: 700, margin: '0 0 0.2rem 0', color: 'var(--text-main)' }}>
+                {t('dash_hello', { name: user.name.split(' ')[0] })}
+              </h1>
+              <p style={{ margin: 0, fontSize: '0.9rem', color: 'var(--text-muted)' }}>{t(getGreetingKey())}</p>
+            </div>
           </div>
 
           <div className="header-actions">
-            <div className="lang-switcher">
-              <Globe size={16} />
-              <span>{t('header_learn_lang', 'Learn')}:</span>
-              <select 
-                value={user?.preferred_language || 'hi'} 
-                onChange={async (e) => {
-                  const newLang = e.target.value;
-                  try {
-                    const token = localStorage.getItem('token');
-                    await fetch(`${API_BASE_URL}/api/profile`, {
-                      method: 'PUT',
-                      headers: {
-                        'Authorization': `Bearer ${token}`,
-                        'Content-Type': 'application/json'
-                      },
-                      body: JSON.stringify({ preferred_language: newLang })
-                    });
-                    const updatedUser = { ...user, preferred_language: newLang };
-                    localStorage.setItem('user', JSON.stringify(updatedUser));
-                    fetchDashboardData();
-                  } catch (err) {
-                    console.error(err);
-                  }
-                }}
-              >
-                <option value="en">English</option>
-                <option value="hi">हिन्दी</option>
-                <option value="mwr">मारवाड़ी</option>
-                <option value="ta">தமிழ்</option>
-                <option value="te">తెలుగు</option>
-                <option value="bn">বাংলা</option>
-                <option value="mr">मराठी</option>
-                <option value="ur">اردو</option>
-              </select>
+            <div className="lang-switcher-container" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+              <div className="lang-switcher" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'var(--bg-app)', padding: '0.4rem 0.8rem', borderRadius: '12px', border: '1px solid var(--border-subtle)' }}>
+                <Globe size={16} color="currentColor" style={{ color: 'var(--text-muted)' }} />
+                <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-muted)' }}>UI:</span>
+                <select 
+                  aria-label="Interface Language"
+                  value={i18n.language || 'en'} 
+                  onChange={async (e) => {
+                    const newLang = e.target.value;
+                    i18n.changeLanguage(newLang);
+                    localStorage.setItem('i18nextLng', newLang);
+                    try {
+                      const token = localStorage.getItem('token');
+                      await fetch(`${API_BASE_URL}/api/profile`, {
+                        method: 'PUT',
+                        headers: {
+                          'Authorization': `Bearer ${token}`,
+                          'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ interface_language: newLang })
+                      });
+                      const updatedUser = { ...user, interface_language: newLang };
+                      localStorage.setItem('user', JSON.stringify(updatedUser));
+                    } catch (err) {
+                      console.error('Failed to update UI language:', err);
+                    }
+                  }}
+                  style={{ border: 'none', background: 'transparent', fontSize: '0.9rem', fontWeight: 700, color: 'var(--text-main)', cursor: 'pointer', outline: 'none' }}
+                >
+                  <option value="en">English</option>
+                  <option value="hi">हिन्दी</option>
+                  <option value="mwr">मारवाड़ी</option>
+                  <option value="ta">தமிழ்</option>
+                  <option value="te">తెలుగు</option>
+                  <option value="bn">বাংলা</option>
+                  <option value="mr">मराठी</option>
+                  <option value="ur">اردو</option>
+                </select>
+              </div>
+
+              <div className="lang-switcher" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'var(--color-primary-50)', padding: '0.4rem 0.8rem', borderRadius: '12px', border: '1px solid var(--border-subtle)' }}>
+                <BookOpen size={16} color="currentColor" style={{ color: 'var(--color-primary-700)' }} />
+                <span style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--color-primary-700)' }}>Learn:</span>
+                <select 
+                  aria-label="Learning Language"
+                  value={user?.learning_language || 'hi'} 
+                  onChange={async (e) => {
+                    const newLang = e.target.value;
+                    try {
+                      const token = localStorage.getItem('token');
+                      await fetch(`${API_BASE_URL}/api/profile`, {
+                        method: 'PUT',
+                        headers: {
+                          'Authorization': `Bearer ${token}`,
+                          'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ learning_language: newLang })
+                      });
+                      const updatedUser = { ...user, learning_language: newLang };
+                      localStorage.setItem('user', JSON.stringify(updatedUser));
+                      fetchDashboardData();
+                    } catch (err) {
+                      console.error(err);
+                    }
+                  }}
+                  style={{ border: 'none', background: 'transparent', fontSize: '0.9rem', fontWeight: 700, color: 'var(--color-primary-600)', cursor: 'pointer', outline: 'none' }}
+                >
+                  <option value="en">English</option>
+                  <option value="hi">हिन्दी</option>
+                  <option value="mwr">मारवाड़ी</option>
+                  <option value="ta">தமிழ்</option>
+                  <option value="te">తెలుగు</option>
+                  <option value="bn">বাংলা</option>
+                  <option value="mr">मराठी</option>
+                  <option value="ur">اردو</option>
+                </select>
+              </div>
             </div>
             
-            <button className="btn-secondary retake-btn" onClick={() => navigate('/assessment?retake=true')}>
+            <Button variant="secondary" className="retake-btn" onClick={() => navigate('/assessment?retake=true')}>
               {t('dash_retake_assessment')}
-            </button>
+            </Button>
             
             <div className="notification-bell clickable" onClick={() => setShowAnnouncements(true)}>
               <Bell size={24} />
@@ -219,6 +287,8 @@ const Dashboard = () => {
           </div>
         </header>
 
+
+
         {/* Top Metrics Row */}
         <div className="dashboard-metrics-row">
           <div className="metric-card clickable" onClick={() => setShowStreakModal(true)}>
@@ -236,7 +306,13 @@ const Dashboard = () => {
             </div>
           </div>
           <div className="metric-card">
-            <div className="metric-icon rank-icon"><Award size={24} /></div>
+            <div className="metric-icon rank-icon" style={{ background: 'transparent' }}>
+              <img 
+                src={rankBadges[(rank || 'bronze').toLowerCase()] || badgeBronze} 
+                alt={rank || 'Bronze'} 
+                style={{ width: '40px', height: '40px', objectFit: 'contain' }} 
+              />
+            </div>
             <div className="metric-info">
               <span className="metric-value" style={{fontSize: '1.2rem'}}>{t('dash_rank', { rank: rank || 'Bronze' })}</span>
               <span className="metric-label">Current Rank</span>
@@ -269,7 +345,7 @@ const Dashboard = () => {
             </div>
 
             {/* Proficiency Track Selector */}
-            <div className="track-selector" style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', background: '#f1f5f9', padding: '0.5rem', borderRadius: '12px' }}>
+            <div className="track-selector" style={{ display: 'flex', gap: '0.5rem', marginBottom: '1.5rem', background: 'var(--border-subtle)', padding: '0.5rem', borderRadius: '12px' }}>
               {['Beginner', 'Intermediate', 'Advanced'].map(lvl => (
                 <button
                   key={lvl}
@@ -281,9 +357,10 @@ const Dashboard = () => {
                     borderRadius: '8px',
                     fontWeight: 'bold',
                     cursor: 'pointer',
-                    background: activeTab === lvl ? '#111827' : 'transparent',
-                    color: activeTab === lvl ? '#fff' : '#64748b',
-                    transition: 'all 0.2s'
+                    background: activeTab === lvl ? 'var(--bg-surface)' : 'transparent',
+                    color: activeTab === lvl ? 'var(--text-main)' : 'var(--text-muted)',
+                    transition: 'all 0.2s',
+                    boxShadow: activeTab === lvl ? 'var(--shadow-sm)' : 'none'
                   }}
                 >
                   {t(`dash_${lvl.toLowerCase()}`, lvl)}
@@ -295,7 +372,33 @@ const Dashboard = () => {
             <div className="dash-card continue-card">
               <h3>{t('dash_continue_learning', 'Continue Learning')}</h3>
               
-              {currentTrackLesson ? (
+              {hasCompletedTab && nextLesson ? (
+                <>
+                  <div className="lesson-info">
+                    <div className="lesson-icon-circle" style={{ background: 'var(--color-success-100)', color: 'var(--color-success-700)' }}>
+                      <Play size={24} />
+                    </div>
+                    <h4>
+                      {nextLesson.title}
+                    </h4>
+                  </div>
+                  
+                  <p className="progress-text" style={{ color: 'var(--color-success-600)', fontWeight: 600 }}>
+                    {t('dash_level_completed_next', '{{level}} Level 100% Completed! Next up:').replace('{{level}}', activeTab)}
+                  </p>
+
+                  <Button 
+                    variant="primary"
+                    className="dash-continue-btn" 
+                    onClick={() => {
+                      setActiveTab(nextLvl);
+                      setActiveLessonId(nextLesson.id);
+                    }}
+                  >
+                    {t('dash_start_next_level', 'Start {{level}} Level').replace('{{level}}', nextLvl)}
+                  </Button>
+                </>
+              ) : currentTrackLesson ? (
                 <>
                   <div className="lesson-info">
                     <div className="lesson-icon-circle"><Play size={24} /></div>
@@ -308,9 +411,13 @@ const Dashboard = () => {
                     {t('dash_progress_pct', { pct: progressPercent })}
                   </p>
 
-                  <button className="btn-primary" onClick={() => setActiveLessonId(currentTrackLesson.id)}>
+                  <Button 
+                    variant="primary"
+                    className="dash-continue-btn" 
+                    onClick={() => setActiveLessonId(currentTrackLesson.id)}
+                  >
                     {t('dash_continue_btn', 'Continue')}
-                  </button>
+                  </Button>
                 </>
               ) : (
                 <div className="empty-state">
@@ -320,9 +427,9 @@ const Dashboard = () => {
                       : t('dash_take_assessment', 'Take an assessment to unlock lessons.')}
                   </p>
                   {completedLessons !== totalLessons && (
-                    <button className="btn-primary" onClick={() => navigate('/assessment')}>
+                    <Button variant="primary" onClick={() => navigate('/assessment')}>
                       {t('dash_take_assessment_btn', 'Take Assessment')}
-                    </button>
+                    </Button>
                   )}
                 </div>
               )}
@@ -391,7 +498,7 @@ const Dashboard = () => {
                     
                     <div className="ai-overall-level">
                       <span>Overall Level:</span>
-                      <span className="level-badge">{data.settings.ai_insights.overall_level}</span>
+                      <Badge variant="success">{data.settings.ai_insights.overall_level}</Badge>
                     </div>
                   </div>
                 )}
@@ -410,7 +517,7 @@ const Dashboard = () => {
                       title={t(`ach_${ach.id}_desc`, ach.desc)}
                       className={`achievement-badge-card ${ach.unlocked ? 'unlocked' : 'locked'}`}
                     >
-                      {!ach.unlocked && <div className="lock-icon">🔒</div>}
+                      {!ach.unlocked && <div className="lock-icon"><Lock size={14} color="#64748b" /></div>}
                       <span className="ach-icon">{ach.icon}</span>
                       <span className="ach-title">{t(`ach_${ach.id}_title`, ach.title)}</span>
                       <div className="ach-progress-bg">
@@ -444,29 +551,29 @@ const Dashboard = () => {
             </div>
 
             {/* Leaderboard */}
-            <div className="stat-card" style={{ marginBottom: '1.5rem', padding: '1.5rem', background: '#fff', borderRadius: '16px', boxShadow: '0 4px 6px rgba(0,0,0,0.05)' }}>
-              <h3 style={{ margin: '0 0 1rem 0' }}>{t('dash_leaderboard')}</h3>
+            <div className="stat-card" style={{ marginBottom: '1.5rem', padding: '1.5rem', background: 'var(--bg-surface)', borderRadius: '16px', boxShadow: 'var(--shadow-sm)' }}>
+              <h3 style={{ margin: '0 0 1rem 0', color: 'var(--text-main)' }}>{t('dash_leaderboard')}</h3>
               {leaderboard && leaderboard.length > 0 ? (
                 <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                   {leaderboard.map((entry, idx) => (
                     <li key={idx} style={{ 
                       padding: '0.8rem', 
-                      background: entry.isCurrentUser ? '#f1f5f9' : 'transparent',
+                      background: entry.isCurrentUser ? 'var(--border-subtle)' : 'transparent',
                       borderRadius: entry.isCurrentUser ? '8px' : '0',
-                      borderBottom: idx < leaderboard.length - 1 ? '1px solid #f1f5f9' : 'none',
+                      borderBottom: idx < leaderboard.length - 1 ? '1px solid var(--border-subtle)' : 'none',
                       fontWeight: entry.isCurrentUser ? 'bold' : '400',
-                      color: entry.isCurrentUser ? '#111827' : '#475569',
+                      color: entry.isCurrentUser ? 'var(--text-main)' : 'var(--text-muted)',
                       display: 'flex',
                       justifyContent: 'space-between',
                       alignItems: 'center'
                     }}>
                       <span>#{entry.rank} {entry.name.split(' ')[0]} {entry.isCurrentUser ? t('dash_you') : ''}</span>
-                      <span style={{ color: '#eab308', fontWeight: '600' }}>{entry.xp} XP</span>
+                      <span style={{ color: 'var(--color-warning-500)', fontWeight: '600' }}>{entry.xp} XP</span>
                     </li>
                   ))}
                 </ul>
               ) : (
-                <p style={{ color: '#94a3b8', margin: 0 }}>{t('dash_no_users')}</p>
+                <p style={{ color: 'var(--text-muted)', margin: 0 }}>{t('dash_no_users')}</p>
               )}
             </div>
 
@@ -474,54 +581,54 @@ const Dashboard = () => {
             <div className="stat-card" style={{ 
               marginBottom: '1.5rem', 
               padding: '1.5rem', 
-              background: '#fff', 
+              background: 'var(--bg-surface)', 
               borderRadius: '16px', 
-              boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.05)',
-              border: '1px solid rgba(139, 92, 246, 0.1)',
+              boxShadow: 'var(--shadow-sm)',
+              border: '1px solid var(--border-subtle)',
               position: 'relative',
               overflow: 'hidden'
             }}>
-              <div style={{ position: 'absolute', top: '1rem', right: '1rem', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
-                <span className="pulse-animation" style={{ display: 'inline-block', width: '8px', height: '8px', borderRadius: '50%', background: '#8b5cf6' }} />
-                <span style={{ fontSize: '0.65rem', fontWeight: 'bold', color: '#8b5cf6', letterSpacing: '0.5px', textTransform: 'uppercase' }}>AI Active</span>
+              <div className="ai-active-indicator">
+                <span className="pulse-animation ai-active-dot" />
+                <span className="ai-active-text">AI Active</span>
               </div>
 
-              <h3 style={{ margin: '0 0 1.25rem 0', display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#1f2937' }}>
-                <Bot size={22} color="#8b5cf6" />
+              <h3 style={{ margin: '0 0 1.25rem 0', display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-main)' }}>
+                <Bot size={22} color="var(--color-info-500)" />
                 <span>{t('dash_ai_feedback', 'AI Insights & Feedback')}</span>
               </h3>
 
               {aiInsightLoading ? (
-                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#94a3b8', padding: '0.5rem 0' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: 'var(--text-muted)', padding: '0.5rem 0' }}>
                   <Loader size={16} className="spin-animation" /> {t('dash_ai_analyzing')}
                 </div>
               ) : (
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                   <div style={{ 
-                    background: '#f3f0ff', 
+                    background: 'var(--color-slate-100)', 
                     padding: '1rem', 
                     borderRadius: '12px 12px 12px 0', 
-                    border: '1px solid #e9d5ff', 
+                    border: '1px solid var(--border-subtle)', 
                     position: 'relative' 
                   }}>
-                    <strong style={{ display: 'block', fontSize: '0.75rem', color: '#6b21a8', textTransform: 'uppercase', marginBottom: '0.25rem', letterSpacing: '0.5px' }}>Observation:</strong>
-                    <p style={{ margin: 0, color: '#581c87', fontSize: '0.9rem', lineHeight: '1.4', fontWeight: '500' }}>
+                    <strong style={{ display: 'block', fontSize: '0.75rem', color: 'var(--color-primary-600)', textTransform: 'uppercase', marginBottom: '0.25rem', letterSpacing: '0.5px' }}>Observation:</strong>
+                    <p style={{ margin: 0, color: 'var(--text-main)', fontSize: '0.9rem', lineHeight: '1.4', fontWeight: '500' }}>
                       "{aiInsight?.feedback || 'Complete some lessons to get personalized AI feedback!'}"
                     </p>
                   </div>
 
                   {aiInsight?.recommendation && (
                     <div style={{ 
-                      background: '#f8fafc', 
+                      background: 'var(--bg-app)', 
                       padding: '1rem', 
                       borderRadius: '12px', 
-                      border: '1px dashed #cbd5e1', 
+                      border: '1px dashed var(--border-subtle)', 
                       display: 'flex',
                       flexDirection: 'column',
                       gap: '0.5rem'
                     }}>
-                      <strong style={{ fontSize: '0.75rem', color: '#475569', textTransform: 'uppercase', letterSpacing: '0.5px' }}>AI Recommended Action:</strong>
-                      <p style={{ margin: 0, color: '#334155', fontSize: '0.85rem', lineHeight: '1.4' }}>
+                      <strong style={{ fontSize: '0.75rem', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.5px' }}>AI Recommended Action:</strong>
+                      <p style={{ margin: 0, color: 'var(--text-main)', fontSize: '0.85rem', lineHeight: '1.4' }}>
                         {aiInsight.recommendation}
                       </p>
                     </div>

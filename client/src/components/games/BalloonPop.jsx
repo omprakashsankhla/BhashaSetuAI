@@ -1,38 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Volume2, Award, RefreshCw, CheckCircle, HelpCircle } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { BALLOON_DATA } from '../../data/games/coreGamesData';
 
 // Vocabulary words and syllables for balloon popping
-const BALLOON_DATA = {
-  hi: [
-    { word: 'पानी', translation: 'Water', syllables: ['पा', 'नी'], pool: ['पा', 'नी', 'कू', 'जा', 'ल', 'म'] },
-    { word: 'खाना', translation: 'Food', syllables: ['खा', 'ना'], pool: ['खा', 'ना', 'ता', 'रा', 'पा', 'नी'] },
-    { word: 'किताब', translation: 'Book', syllables: ['कि', 'ता', 'ब'], pool: ['कि', 'ता', 'ब', 'ल', 'म', 'क'] },
-    { word: 'नमस्ते', translation: 'Hello', syllables: ['न', 'म', 'स्के', 'ते'], pool: ['न', 'म', 'स्के', 'ते', 'हा', 'पा'] },
-    { word: 'घर', translation: 'House', syllables: ['घ', 'र'], pool: ['घ', 'र', 'म', 'न', 'क', 'ल'] }
-  ],
-  ur: [
-    { word: 'پانی', translation: 'Water', syllables: ['پا', 'نی'], pool: ['پا', 'نی', 'کا', 'لا', 'جا', 'تا'] },
-    { word: 'کتاب', translation: 'Book', syllables: ['ک', 'تا', 'ب'], pool: ['ک', 'تا', 'ب', 'م', 'ل', 'ر'] },
-    { word: 'سلام', translation: 'Hello', syllables: ['س', 'لا', 'م'], pool: ['س', 'لا', 'م', 'پ', 'ن', 'ہ'] },
-    { word: 'گھر', translation: 'House', syllables: ['گ', 'ھ', 'ر'], pool: ['گ', 'ھ', 'ر', 'ک', 'م', 'ن'] },
-    { word: 'کھانا', translation: 'Food', syllables: ['کھا', 'نا'], pool: ['کھا', 'نا', 'پا', 'تی', 'کی', 'لا'] }
-  ],
-  en: [
-    { word: 'water', translation: 'Water', syllables: ['wa', 'ter'], pool: ['wa', 'ter', 'bo', 'tle', 'la', 'ke'] },
-    { word: 'hello', translation: 'Hello', syllables: ['hel', 'lo'], pool: ['hel', 'lo', 'hi', 'hey', 'bye', 'good'] },
-    { word: 'book', translation: 'Book', syllables: ['bo', 'ok'], pool: ['bo', 'ok', 're', 'ad', 'pa', 'ge'] },
-    { word: 'food', translation: 'Food', syllables: ['fo', 'od'], pool: ['fo', 'od', 'ea', 'at', 'co', 'ok'] },
-    { word: 'house', translation: 'House', syllables: ['ho', 'use'], pool: ['ho', 'use', 'ho', 'me', 'ro', 'of'] }
-  ]
-};
-
-// Fallback to Hindi if language not found
-const getGameData = (lang) => BALLOON_DATA[lang] || BALLOON_DATA['hi'] || BALLOON_DATA['en'];
+const getGameData = (lang) => BALLOON_DATA[lang] || BALLOON_DATA['hi'];
 
 const BalloonPop = ({ onGameComplete }) => {
   const { i18n } = useTranslation();
-  const gameWords = getGameData((JSON.parse(localStorage.getItem('user') || '{}').preferred_language || 'hi'));
+  const gameWords = getGameData((JSON.parse(localStorage.getItem('user') || '{}').learning_language || 'hi'));
 
   const [currentWordIdx, setCurrentWordIdx] = useState(0);
   const [spelledSyllables, setSpelledSyllables] = useState([]);

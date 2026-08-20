@@ -8,10 +8,11 @@
 
 ### 1. 🎙️ Multimodal Voice & Speech Evaluation (`gemini-1.5-flash`)
 - Analyzes user spoken audio (WebM recordings) natively using Gemini's multimodal capabilities.
-- Evaluates **pronunciation**, **fluency**, **accuracy**, and **confidence** scores (0–100) with encouraging feedback.
+- Evaluates **pronunciation**, **fluency**, **accuracy**, and **confidence** scores (0–100) with detailed feedback.
 
-### 2. 🧠 Adaptive AI Curriculum & Learning Strategy
-- Evaluates user baseline performance during initial/retake assessments.
+### 2. 🧠 Adaptive AI Curriculum (10 Levels)
+- Evaluates user baseline performance during assessments.
+- Personalizes learning paths across **10 progressive difficulty levels** per track.
 - Generates a customized 5-point learning strategy, overall evaluated proficiency, and targeted focus areas (Strengths vs. Weaknesses).
 
 ### 3. 🤖 Floating AI Tutor Widget
@@ -21,6 +22,14 @@
 ### 4. 📚 90+ Structured Interactive Lessons & Tracks
 - Dynamic tracks for **Beginner**, **Intermediate**, and **Advanced** learners.
 - Diverse activity types: MCQ, Reading/Speech, Listening (TTS), Writing, and Puzzles.
+
+### 5. 🌍 8-Language Multilingual Engine
+- Full localization of both the application interface (UI) and learning content.
+- Supports 8 major regional languages: **English**, **Hindi**, **Bengali**, **Marathi**, **Marwari**, **Tamil**, **Telugu**, and **Urdu**.
+
+### 6. 🎮 Interactive Games Hub & Sandbox
+- **EchoChamber:** Practice speaking with 10 unique tongue twisters per language (80 total).
+- **8 Custom Sandbox Mini-Games:** Picture Bingo, Flash Memory Flip, Clue Crossword, Tense Shift Connect, Dialogue Puzzler, Editorial Speed Draft, Debate Argument Builder, and Idiom Connect.
 
 ---
 
@@ -39,16 +48,20 @@
 BhashaSetuAI/
 ├── client/                 # React Vite Frontend Application
 │   ├── src/
-│   │   ├── components/     # UI Modals & Widgets (Tutor, Profile, Progress, Settings)
-│   │   ├── pages/          # Dashboard, LearnPage, ActivitiesPage, LessonPage, etc.
+│   │   ├── components/     # UI Modals, Games & Widgets (Tutor, Profile, Progress, Settings)
+│   │   ├── pages/          # Dashboard, LearnPage, ActivitiesPage, LessonPage, GamesHub, etc.
 │   │   ├── context/        # App & Settings Context Providers
-│   │   └── i18n/           # Multilingual Translations
+│   │   └── locales/        # i18next Translation Resource JSON Files (8 Languages)
+│   ├── sw.js               # Service Worker source code for offline support
+│   ├── vite.config.js      # Vite and PWA configuration
 │   └── package.json
 ├── server/                 # Express Node Backend API
-│   ├── data/               # Lesson datasets (Beginner, Intermediate, Advanced)
-│   ├── routes/             # Assessment, Dashboard, Learning, Tutor API endpoints
-│   ├── db.js               # MySQL Connection configuration
-│   ├── server.js           # Main Express server entry point
+│   ├── data/               # Multilingual Lesson & Question datasets
+│   ├── middleware/         # Centralized middlewares (auth, languageContext)
+│   ├── routes/             # Assessment, Dashboard, Learning, Tutor API routes
+│   ├── db.js               # MySQL connection & verification logic
+│   ├── index.js            # Main Express server entry point
+│   ├── scripts/            # Database seed, migration, and generation helpers
 │   ├── .env.example        # Environment variables template
 │   └── package.json
 └── README.md
@@ -81,7 +94,9 @@ GEMINI_API_KEY=your_gemini_api_key
 ```
 
 ### 2. Database Initialization
-Ensure MySQL is running and execute the database setup script or create `bhashasetu_db` with tables (`Users`, `Progress`, `Lessons`, `Assessments`, `Voice_Assessments`).
+- Ensure MySQL is running.
+- Create a database named `bhashasetu_db`.
+- The Express server automatically verifies, creates, and sets up all required tables and structures (`Users`, `User_Settings`, `User_Analytics`, `User_Skills`, `Lessons`, `User_Lessons`, `Assessments`, `Learning_Profiles`, `spaced_repetition`) on startup.
 
 ### 3. Install Dependencies & Run
 
@@ -103,5 +118,22 @@ Open `http://localhost:5173` in your browser to start learning!
 
 ---
 
+## 🧪 Running Tests
+
+### Backend (Jest):
+```bash
+cd server
+npm test
+```
+
+### Frontend (Vitest):
+```bash
+cd client
+npm test
+```
+
+---
+
 ## 🔒 Security Notice
 Make sure **never** to commit your actual `.env` file containing API keys or database passwords to public repositories. Always use `.env.example` as a template for team or submission sharing.
+

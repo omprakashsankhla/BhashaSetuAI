@@ -119,7 +119,7 @@ const ScamDetector = () => {
     let currentLang = 'hi';
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    currentLang = storedUser.preferred_language || 'hi';
+    currentLang = storedUser.learning_language || 'hi';
   } catch (e) {}
   const data = MESSAGES_DATA[currentLang] || MESSAGES_DATA['hi'];
 

@@ -85,9 +85,22 @@ const PronunciationPageAdv = () => {
     let currentLang = 'hi';
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    currentLang = storedUser.preferred_language || 'hi';
+    currentLang = storedUser.learning_language || 'hi';
   } catch (e) {}
   const phrases = ADV_PHRASES_BY_LANG[currentLang] || ADV_PHRASES_BY_LANG['hi'];
+  const interfaceLang = i18n.language?.split('-')[0] || currentLang;
+
+  const UI_ADV = {
+    hi: { back: 'पीछे जाएं', mastered: (m, t) => `सफलता: ${m} / ${t}`, practiceList: 'अभ्यास सूची', speaking: 'बोलना जारी रखें...', tapMic: 'रिकॉर्ड करने के लिए माइक दबाएं', speechDetected: 'सुना गया शब्द:', great: 'उत्कृष्ट उच्चारण! बहुत बढ़िया।', tryAgain: 'कृपया पुनः प्रयास करें।' },
+    en: { back: 'Back', mastered: (m, t) => `Mastered: ${m} / ${t}`, practiceList: 'Practice List', speaking: 'Speaking...', tapMic: 'Tap microphone to record', speechDetected: 'Speech detected:', great: 'Excellent pronunciation! Great job.', tryAgain: 'Try again, practice makes perfect!' },
+    bn: { back: 'পিছনে যান', mastered: (m, t) => `সফল: ${m} / ${t}`, practiceList: 'অভ্যাস তালিকা', speaking: 'বলছেন...', tapMic: 'রেকর্ড করতে মাইকে ট্যাপ করুন', speechDetected: 'শোনা গেছে:', great: 'চমৎকার উচ্চারণ!', tryAgain: 'আবার চেষ্টা করুন।' },
+    mr: { back: 'मागे जा', mastered: (m, t) => `सफल: ${m} / ${t}`, practiceList: 'सराव सूची', speaking: 'बोलत आहात...', tapMic: 'रेकॉर्ड करण्यासाठी माइक दाबा', speechDetected: 'ऐकले:', great: 'उत्कृष्ट उच्चारण!', tryAgain: 'पुन्हा प्रयत्न करा.' },
+    mwr: { back: 'पाछे जाओ', mastered: (m, t) => `सफलता: ${m} / ${t}`, practiceList: 'अभ्यास री सूची', speaking: 'बोल रह्या हो...', tapMic: 'रिकॉर्ड करबा सारू माइक दबाओ', speechDetected: 'सुणयो गयो:', great: 'घणो चोखो उच्चारण!', tryAgain: 'फेर सू बोलो।' },
+    ta: { back: 'பின் செல்', mastered: (m, t) => `தேர்ச்சி: ${m} / ${t}`, practiceList: 'பயிற்சி பட்டியல்', speaking: 'பேசுகிறீர்கள்...', tapMic: 'பதிவு செய்ய மைக்கைத் தட்டுங்கள்', speechDetected: 'கேட்டது:', great: 'அருமையான உச்சரிப்பு!', tryAgain: 'மீண்டும் முயற்சிக்கவும்.' },
+    te: { back: 'వెనక్కి', mastered: (m, t) => `సాధన: ${m} / ${t}`, practiceList: 'సాధన జాబితా', speaking: 'మాట్లాడుతున్నారు...', tapMic: 'రికార్డ్ చేయడానికి మైక్ నొక్కండి', speechDetected: 'విన్నది:', great: 'అద్భుతమైన ఉచ్ఛారణ!', tryAgain: 'మళ్ళీ ప్రయత్నించండి.' },
+    ur: { back: 'واپس', mastered: (m, t) => `مکمل: ${m} / ${t}`, practiceList: 'مشق کی فہرست', speaking: 'بول رہے ہیں...', tapMic: 'ریکارڈ کرنے کے لیے مائک دبائیں', speechDetected: 'سنا گیا:', great: 'بہترین تلفظ!', tryAgain: 'دوبارہ کوشش کریں۔' }
+  };
+  const ut = UI_ADV[interfaceLang] || UI_ADV['en'];
 
   const [currentIdx, setCurrentIdx] = useState(0);
   const [isRecording, setIsRecording] = useState(false);
@@ -180,13 +193,13 @@ const PronunciationPageAdv = () => {
           onClick={() => navigate('/activities')} 
           style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: '#1e293b', border: '1px solid #334155', padding: '0.6rem 1.2rem', borderRadius: '12px', cursor: 'pointer', color: '#cbd5e1', fontSize: '0.9rem', fontWeight: 700 }}
         >
-          <ArrowLeft size={18} /> {currentLang === 'hi' ? "पीछे जाएं" : "Back"}
+          <ArrowLeft size={18} /> {ut.back}
         </button>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', background: '#1e293b', padding: '0.6rem 1.2rem', borderRadius: '16px', border: '1px solid #334155' }}>
           <Award size={20} color="#eab308" />
           <span style={{ fontWeight: 800 }}>
-            {currentLang === 'hi' ? `सफलता: ${masteredCount} / ${phrases.length}` : `Mastered: ${masteredCount} / ${phrases.length}`}
+            {ut.mastered(masteredCount, phrases.length)}
           </span>
         </div>
       </header>
@@ -197,7 +210,7 @@ const PronunciationPageAdv = () => {
         {/* Left Sidebar List */}
         <div style={{ background: '#1e293b', borderRadius: '24px', padding: '1.2rem', border: '1px solid #334155', height: 'fit-content' }}>
           <h3 style={{ fontSize: '0.8rem', color: '#94a3b8', textTransform: 'uppercase', margin: '0 0 1rem 0', letterSpacing: '0.05em', fontWeight: 800 }}>
-            {currentLang === 'hi' ? "अभ्यास सूची" : "Practice List"}
+            {ut.practiceList}
           </h3>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem' }}>
             {phrases.map((p, idx) => {
@@ -314,14 +327,14 @@ const PronunciationPageAdv = () => {
               )}
 
               <p style={{ color: '#94a3b8', fontSize: '0.85rem', fontWeight: 600, margin: 0 }}>
-                {isRecording ? (currentLang === 'hi' ? "बोलना जारी रखें..." : "Speaking...") : (currentLang === 'hi' ? "रिकॉर्ड करने के लिए माइक दबाएं" : "Tap microphone to record")}
+                {isRecording ? ut.speaking : ut.tapMic}
               </p>
 
               {/* Speech transcription feedback */}
               {transcript && (
                 <div style={{ background: 'rgba(255,255,255,0.05)', padding: '1rem 1.5rem', borderRadius: '16px', fontSize: '0.95rem', width: '100%', boxSizing: 'border-box', textAlign: 'center', border: '1px solid #334155' }}>
                   <span style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: 800, textTransform: 'uppercase', display: 'block', marginBottom: '0.2rem' }}>
-                    {currentLang === 'hi' ? "सुना गया शब्द:" : "Speech detected:"}
+                    {ut.speechDetected}
                   </span>
                   <span style={{ fontWeight: 700, color: '#f8fafc' }}>
                     "{transcript}"
@@ -350,12 +363,12 @@ const PronunciationPageAdv = () => {
                   {result === 'great' ? (
                     <>
                       <CheckCircle2 size={20} />
-                      <span>{currentLang === 'hi' ? "उत्कृष्ट उच्चारण! बहुत बढ़िया।" : "Excellent pronunciation! Great job."}</span>
+                      <span>{ut.great}</span>
                     </>
                   ) : (
                     <>
                       <AlertCircle size={20} />
-                      <span>{currentLang === 'hi' ? "कृपया पुनः प्रयास करें।" : "Try again, practice makes perfect!"}</span>
+                      <span>{ut.tryAgain}</span>
                     </>
                   )}
                 </div>

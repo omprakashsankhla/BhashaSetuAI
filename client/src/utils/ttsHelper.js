@@ -37,7 +37,7 @@ if (typeof window !== 'undefined' && window.speechSynthesis) {
 export function getUserLearningLang() {
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    return storedUser.preferred_language || 'hi';
+    return storedUser.learning_language || storedUser.preferred_language || 'hi';
   } catch (e) {
     return 'hi';
   }
@@ -80,7 +80,7 @@ function findBestVoice(locale) {
  * 
  * @param {string} text - The text to speak
  * @param {Object} [options] - Optional configuration
- * @param {string} [options.lang] - Override language code (defaults to user's preferred_language)
+ * @param {string} [options.lang] - Override language code (defaults to user's learning_language)
  * @param {number} [options.rate] - Speech rate (default 0.85)
  * @param {function} [options.onStart] - Callback when speech starts
  * @param {function} [options.onEnd] - Callback when speech ends

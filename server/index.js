@@ -1,3 +1,4 @@
+process.env.DOTENV_CONFIG_QUIET = 'true';
 const express = require('express');
 const cors = require('cors');
 const logger = require('./utils/logger');
@@ -51,24 +52,57 @@ const tutorRoutes = require('./routes/tutor');
 const profileRoutes = require('./routes/profile');
 const settingsRoutes = require('./routes/settings');
 const activitiesRoutes = require('./routes/activities');
+const adaptiveRoutes = require('./routes/adaptive');
+const analyticsRoutes = require('./routes/analytics');
+const healthRoutes = require('./routes/health');
+const systemRoutes = require('./routes/system');
 
 const app = express();
 const path = require('path');
 
 // Middleware
-app.use(helmet());
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        defaultSrc: ["'self'"],
+        scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'", "https://apis.google.com"],
+        styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
+        imgSrc: ["'self'", "data:", "blob:", "https://*.googleusercontent.com"],
+        connectSrc: ["'self'", "https://*.googleapis.com", "https://api.sarvam.ai", "http://localhost:5000"],
+        fontSrc: ["'self'", "https://fonts.gstatic.com"],
+        objectSrc: ["'none'"],
+        mediaSrc: ["'self'", "blob:", "data:"],
+        frameSrc: ["'self'", "https://accounts.google.com"],
+      },
+    },
+    crossOriginEmbedderPolicy: false,
+  })
+);
+
+app.use((req, res, next) => {
+  res.setHeader('Permissions-Policy', 'camera=(), microphone=(self), geolocation=()');
+  next();
+});
+
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+  origin: [process.env.FRONTEND_URL || 'http://localhost:5173', 'http://localhost:5174'],
   credentials: true
 }));
 
 // Initialize Database
 const db = require('./db');
 
+const { rateLimitStore } = require('./services/redisClient');
+
+const requestIdMiddleware = require('./middleware/requestIdMiddleware');
+app.use(requestIdMiddleware);
+
 const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 200, // limit each IP to 200 requests per windowMs
-  message: 'Too many requests from this IP, please try again after 15 minutes'
+  message: 'Too many requests from this IP, please try again after 15 minutes',
+  store: rateLimitStore
 });
 app.use('/api/', apiLimiter);
 
@@ -85,11 +119,12 @@ app.use('/api/tutor', tutorRoutes);
 app.use('/api/profile', profileRoutes);
 app.use('/api/settings', settingsRoutes);
 app.use('/api/activities', activitiesRoutes);
+app.use('/api/adaptive', adaptiveRoutes);
+app.use('/api/analytics', analyticsRoutes);
 
-// Health check endpoint
-app.get('/api/health', (req, res) => {
-  res.status(200).json({ status: 'ok', message: 'BhashaSetu Backend is running' });
-});
+// Health check endpoints
+app.use('/api/health', healthRoutes);
+app.use('/api/system', systemRoutes);
 
 // Root endpoint for platform health checks
 app.get('/', (req, res) => {

@@ -20,9 +20,9 @@
 }
 
 .lesson-card.engine-card {
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+  background: var(--bg-surface);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-lg);
   width: 100%;
   max-width: 480px;
   padding: 2rem;
@@ -37,18 +37,18 @@
 .progress-bar {
   width: 100%;
   height: 8px;
-  background: #eee;
-  border-radius: 4px;
+  background: var(--bg-app);
+  border-radius: var(--radius-full);
   margin-bottom: 0.5rem;
   overflow: hidden;
 }
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #34d399, #58cc02);
-  border-radius: 4px;
+  background: linear-gradient(90deg, var(--color-success-400), var(--color-success-500));
+  border-radius: var(--radius-full);
   transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 0 10px rgba(88, 204, 2, 0.5);
+  box-shadow: var(--shadow-glow-success);
 }
 
 .lesson-header {
@@ -76,32 +76,37 @@
 }
 
 .option-btn {
-  background: #f8f9fa;
-  border: 2px solid #e2e8f0;
-  padding: 1rem 1.2rem;
-  border-radius: 12px;
-  font-size: 1.1rem;
+  background: var(--bg-app);
+  border: 2px solid var(--border-subtle);
+  padding: var(--spacing-md) 1.2rem;
+  border-radius: var(--radius-md);
+  font-size: var(--text-lg);
   font-weight: 500;
-  color: #333;
+  color: var(--text-main);
   cursor: pointer;
   transition: all 0.2s ease;
   text-align: center;
 }
 
 .option-btn:hover:not(:disabled) {
-  border-color: #4285F4;
-  background: #f0f5ff;
+  border-color: var(--color-primary-500);
+  background: var(--bg-surface);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(66, 133, 244, 0.15);
+  box-shadow: var(--shadow-sm);
+}
+
+.option-btn:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
 }
 
 .option-btn.selected {
-  border-color: #4285F4;
-  background: #e8f0fe;
-  color: #1a73e8;
+  border-color: var(--color-primary-500);
+  background: var(--bg-surface);
+  color: var(--color-primary-500);
   font-weight: 700;
   transform: scale(1.02);
-  box-shadow: 0 4px 15px rgba(66, 133, 244, 0.2);
+  box-shadow: var(--shadow-glow-primary);
 }
 
 .option-btn:disabled {
@@ -111,10 +116,10 @@
 
 /* Flashcard / Reading */
 .flashcard.large {
-  background: white;
-  padding: 2.5rem;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.05), inset 0 0 0 2px #e2e8f0;
+  background: var(--bg-surface);
+  padding: var(--spacing-2xl);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-md), inset 0 0 0 2px var(--border-subtle);
   display: inline-block;
   min-width: 280px;
   max-width: 100%;
@@ -139,7 +144,12 @@
   border: none;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  box-shadow: var(--shadow-sm);
+}
+
+.mic-btn:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
 }
 
 .mic-btn.record {
@@ -152,7 +162,7 @@
 }
 
 .mic-btn.stop {
-  background: #333;
+  background: var(--text-main);
   animation: pulse-recording 1.5s infinite;
 }
 
@@ -178,24 +188,29 @@
 }
 
 .check-btn:disabled {
-  background: #ccc !important;
+  background: var(--border-subtle) !important;
   cursor: not-allowed;
   transform: none;
   box-shadow: none;
 }
 
 .primary-btn {
-  background: #4285F4;
-  box-shadow: 0 4px 15px rgba(66, 133, 244, 0.3);
+  background: var(--color-primary-500);
+  box-shadow: var(--shadow-md);
 }
 
 .primary-btn:hover:not(:disabled) {
-  background: #3367d6;
+  background: var(--color-primary-600);
   transform: translateY(-2px);
 }
 
+.primary-btn:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+
 .natural {
-  background: #34d399;
+  background: var(--color-success-500);
   text-decoration: none;
   display: flex;
   align-items: center;
@@ -203,7 +218,7 @@
 }
 
 .natural:hover:not(:disabled) {
-  background: #059669;
+  background: var(--color-success-600);
 }
 
 /* Feedback Box */
@@ -247,4 +262,118 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* Lesson Header / Top Nav Styles */
+.lesson-top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border-subtle);
+  position: relative;
+}
+
+.lesson-top-nav .close-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 50%;
+  transition: background 0.2s;
+  text-decoration: none;
+}
+
+.lesson-top-nav .close-btn:hover {
+  background: var(--bg-app);
+  color: var(--text-main);
+}
+
+.lesson-top-nav .title-wrapper {
+  flex: 1;
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.lesson-top-nav .title-wrapper h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 0;
+}
+
+.lesson-top-nav .stats-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.lesson-top-nav .stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-main);
+  background: var(--bg-app);
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid var(--border-subtle);
+}
+
+/* Progress and Stats Row Styles */
+.progress-stats-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.progress-bar-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.progress-bar-wrapper .progress-bar {
+  flex: 1;
+  height: 10px;
+  background: var(--bg-app);
+  border-radius: var(--radius-full);
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.progress-bar-wrapper .progress-text {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.progress-stats-row .stats-indicator {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.progress-stats-row .stat-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-main);
+  background: var(--bg-app);
+  padding: 4px 8px;
+  border-radius: 12px;
+  border: 1px solid var(--border-subtle);
 }

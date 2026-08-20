@@ -14,22 +14,12 @@ webpush.setVapidDetails(
 );
 
 // Middleware to verify token
-const verifyToken = (req, res, next) => {
-  const authHeader = req.headers['authorization'];
-  if (!authHeader) return res.status(403).json({ message: 'No token provided.' });
-  const token = authHeader.split(' ')[1];
-  
-  jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
-    if (err) return res.status(401).json({ message: 'Unauthorized!' });
-    req.userId = decoded.user_id;
-    next();
-  });
-};
+const verifyToken = require('../middleware/auth');
 
 // GET settings
 router.get('/', verifyToken, async (req, res) => {
   try {
-    const [users] = await db.query('SELECT settings FROM Users WHERE user_id = ?', [req.userId]);
+    const [users] = await db.query('SELECT settings, interface_language FROM Users WHERE user_id = ?', [req.userId]);
     if (users.length === 0) return res.status(404).json({ message: 'User not found' });
     
     // Default settings if null
@@ -38,12 +28,18 @@ router.get('/', verifyToken, async (req, res) => {
       voiceSpeed: 1,
       autoPlayAudio: true,
       dailyReminders: true,
-      weeklyReports: false,
-      appLanguage: 'en'
+      weeklyReports: false
     };
 
-    const userSettings = users[0].settings || defaultSettings;
-    res.json({ ...defaultSettings, ...userSettings });
+    const userSettings = users[0].settings || {};
+    // Remove appLanguage if it's lingering in the JSON
+    if (userSettings.appLanguage) {
+      delete userSettings.appLanguage;
+    }
+    
+    const interfaceLanguage = users[0].interface_language || 'en';
+
+    res.json({ ...defaultSettings, ...userSettings, interface_language: interfaceLanguage });
   } catch (error) {
     console.error('Error fetching settings:', error);
     res.status(500).json({ message: 'Failed to fetch settings' });
@@ -53,18 +49,29 @@ router.get('/', verifyToken, async (req, res) => {
 // PUT update settings
 router.put('/', verifyToken, async (req, res) => {
   try {
-    const newSettings = req.body;
+    const { interface_language, ...newSettings } = req.body;
     
     // Fetch current settings to merge
-    const [users] = await db.query('SELECT settings FROM Users WHERE user_id = ?', [req.userId]);
+    const [users] = await db.query('SELECT settings, interface_language FROM Users WHERE user_id = ?', [req.userId]);
     if (users.length === 0) return res.status(404).json({ message: 'User not found' });
     
     const currentSettings = users[0].settings || {};
     const mergedSettings = { ...currentSettings, ...newSettings };
 
-    await db.query('UPDATE Users SET settings = ? WHERE user_id = ?', [JSON.stringify(mergedSettings), req.userId]);
+    let query = 'UPDATE Users SET settings = ?';
+    let params = [JSON.stringify(mergedSettings)];
+
+    if (interface_language) {
+      query += ', interface_language = ?';
+      params.push(interface_language);
+    }
     
-    res.json(mergedSettings);
+    query += ' WHERE user_id = ?';
+    params.push(req.userId);
+
+    await db.query(query, params);
+    
+    res.json({ ...mergedSettings, interface_language: interface_language || users[0].interface_language });
   } catch (error) {
     console.error('Error updating settings:', error);
     res.status(500).json({ message: 'Failed to update settings' });

@@ -61,9 +61,10 @@ const ShopKeeper = ({ onGameComplete }) => {
   const [gameOver, setGameOver] = useState(false);
 
   const fetchGameData = async () => {
+    let targetLang = 'hi';
     try {
       const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-      const targetLang = storedUser.preferred_language || 'hi';
+      targetLang = storedUser.learning_language || 'hi';
       const interfaceLang = i18n.language || 'en';
       
       const token = localStorage.getItem('token');
@@ -72,16 +73,21 @@ const ShopKeeper = ({ onGameComplete }) => {
       });
       if (res.ok) {
         const data = await res.json();
-        if (data && data.items && data.customers) {
+        if (data && data.items && data.customers && data.items.length > 0 && data.customers.length > 0) {
           setItems(data.items);
           setCustomers(data.customers);
+          setLoading(false);
+          return;
         }
       }
     } catch (e) {
       console.error('Error loading shopkeeper data:', e);
-    } finally {
-      setLoading(false);
     }
+    
+    // Fallback to local offline data
+    setItems(getItems(targetLang));
+    setCustomers(getCustomers(targetLang));
+    setLoading(false);
   };
 
   useEffect(() => {

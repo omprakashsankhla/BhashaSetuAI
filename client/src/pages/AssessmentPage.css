@@ -4,24 +4,19 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  background-color: rgba(17, 24, 39, 0.7);
-  backdrop-filter: blur(8px);
-}
-
-/* Dynamic Backgrounds (Overridden for modal look) */
-.bg-default, .bg-mcq, .bg-reading, .bg-writing, .bg-listening, .bg-grammar, .bg-puzzle {
-  background-color: rgba(17, 24, 39, 0.7);
+  background-color: #596372;
 }
 
 .assessment-card.engine-card {
   background: white;
-  border-radius: 20px;
-  box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+  border-radius: 24px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   width: 100%;
   max-width: 480px;
-  padding: 1.25rem 1.5rem;
+  padding: 1rem 1.25rem;
   text-align: center;
   position: relative;
+  min-height: 500px;
   max-height: 92vh;
   overflow-y: auto;
   animation: slideUp 0.3s ease-out;
@@ -29,39 +24,54 @@
   flex-direction: column;
 }
 
-.progress-bar {
-  width: 100%;
-  height: 8px;
-  background: #eee;
-  border-radius: 4px;
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 0.5rem;
+}
+
+.progress-bar-container {
+  flex: 1;
+  height: 8px;
+  background: #f1f5f9;
+  border-radius: 4px;
+  margin-right: 1rem;
   overflow: hidden;
 }
 
 .progress-fill {
   height: 100%;
-  background: #4285F4;
+  background: #3b82f6;
+  border-radius: 4px;
   transition: width 0.3s ease;
 }
 
 .progress-text {
-  font-size: 0.85rem;
-  color: #888;
-  text-align: right;
-  margin-bottom: 0.75rem;
+  font-size: 0.8rem;
+  color: #64748b;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
-.a-orb-container.small {
-  width: 40px;
-  height: 40px;
+.assessment-title {
+  font-size: 1.6rem;
+  color: #1e293b;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.a-orb-container {
   margin: 0 auto 0.5rem;
+  width: 28px;
+  height: 28px;
 }
 
 .ai-orb.pulsing {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: linear-gradient(135deg, #4285f4, #8b5cf6);
+  background: linear-gradient(135deg, #60a5fa, #8b5cf6);
   animation: pulse-orb 2s infinite alternate;
 }
 
@@ -70,17 +80,55 @@
   100% { transform: scale(1.05); }
 }
 
-.question-header {
+.assessment-header-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 0.5rem;
+}
+
+.dashboard-btn-pill {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.level-select-pill {
+  background: #1d4ed8;
+  color: white;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+}
+.level-select-pill option {
+  background-color: white;
+  color: #1e293b;
+}
+.level-select-pill-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: #334155;
 }
 
 .question-badge {
   display: inline-block;
-  padding: 0.3rem 0.8rem;
-  background: #333;
+  padding: 0.2rem 1rem;
+  background: #1e293b;
   color: white;
-  border-radius: 12px;
-  font-size: 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.7rem;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -88,21 +136,19 @@
 }
 
 .question-header h2 {
-  font-size: 1.25rem;
-  color: #1a1a1a;
+  font-size: 1.2rem;
+  color: #1e293b;
   line-height: 1.3;
+  font-weight: 700;
 }
 
-.question-body {
-  margin-bottom: 1rem;
-  min-height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.assessment-card .question-body {
+  margin-bottom: 0.5rem;
   width: 100%;
+  flex: none;
+  min-height: unset;
 }
 
-/* MCQ Styles */
 .options-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -110,76 +156,157 @@
   width: 100%;
 }
 
-.option-btn {
-  background: #f8f9fa;
+.assessment-card .option-btn {
+  background: #ffffff;
   border: 2px solid #e2e8f0;
-  padding: 1rem;
+  padding: 0.8rem 1rem;
   border-radius: 12px;
-  font-size: 1.1rem;
-  font-weight: 500;
-  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #334155;
   cursor: pointer;
-  transition: all 0.2s ease;
+  transition: all 0.2s;
   text-align: left;
 }
 
 .option-btn:hover:not(:disabled) {
-  border-color: #4285F4;
-  background: #f0f5ff;
+  border-color: #3b82f6;
+  background: #eff6ff;
+  transform: translateY(-2px);
 }
 
 .option-btn.selected {
-  border-color: #4285F4;
-  background: #e8f0fe;
-  color: #1a73e8;
-  font-weight: 600;
+  border-color: #3b82f6;
+  background: #dbeafe;
+  color: #1d4ed8;
 }
 
-/* Writing / Listening */
 .text-input {
   width: 100%;
-  padding: 0.6rem 1rem;
+  padding: 0.8rem 1rem;
   border: 2px solid #e2e8f0;
   border-radius: 12px;
   font-size: 1rem;
   outline: none;
   transition: border-color 0.2s ease;
-  resize: none;
-  min-height: 44px;
-  height: 44px;
-  box-sizing: border-box;
+  min-height: 48px;
 }
 .text-input:focus {
-  border-color: #4285F4;
+  border-color: #3b82f6;
 }
 
-.play-audio-btn {
-  background: #e8f0fe;
+.flashcard.large {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding: 1.5rem 1rem;
+  background: #ffffff;
+  border: 2px solid #bfdbfe;
+  border-radius: 12px;
+  margin: 0.5rem auto;
+  width: 100%;
+  color: #1e3a5f;
+  text-align: center;
+}
+
+.mic-action-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.mic-record-btn {
+  background: #ef4444;
   border: none;
-  width: 80px;
-  height: 80px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  margin: 0 auto 0.5rem;
   transition: transform 0.2s ease;
 }
-.play-audio-btn:hover {
+.mic-record-btn:hover {
   transform: scale(1.05);
 }
 
-.hint-text {
-  font-size: 0.9rem;
-  color: #666;
-  margin-bottom: 1.5rem;
+.mic-record-btn.recording {
+  animation: pulse-orb 1s infinite alternate;
+}
+
+.record-hint {
+  margin-top: 0.5rem;
+  color: #64748b;
+  font-size: 0.85rem;
+}
+
+/* Nav Buttons */
+.check-btn.natural {
+  background: #d1d5db; 
+  color: #ffffff;
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #9ca3af;
+  transition: all 0.1s;
+}
+.check-btn.natural:active:not(:disabled) {
+  transform: translateY(4px);
+  box-shadow: 0 0 0 transparent;
+}
+.check-btn.natural.active {
+  background: #3b82f6;
+  box-shadow: 0 4px 0 #2563eb;
+}
+
+.bottom-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.5rem;
+  gap: 1rem;
+}
+
+.action-btn-back, .action-btn-skip {
+  flex: 1;
+  padding: 0.8rem;
+  border-radius: 12px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #0f172a;
+}
+
+.action-btn-back {
+  background: #86efac;
+}
+
+.action-btn-back:hover:not(:disabled) {
+  background: #4ade80;
+}
+
+.action-btn-skip {
+  background: #fde047;
+}
+
+.action-btn-skip:hover:not(:disabled) {
+  background: #facc15;
+}
+
+.action-btn-back:disabled, .action-btn-skip:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  background-color: #cbd5e1;
+  color: #475569;
 }
 
 /* Puzzle */
-.q-puzzle {
-  width: 100%;
-}
+.q-puzzle { width: 100%; }
 .puzzle-dropzone {
   min-height: 60px;
   border: 2px dashed #cbd5e1;
@@ -208,11 +335,6 @@
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-.puzzle-piece:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
 }
 .clear-btn {
   background: none;
@@ -223,85 +345,8 @@
   font-size: 0.9rem;
 }
 
-/* Voice specific */
-.flashcard.large {
-  font-size: 1.25rem;
-  font-weight: 600;
-  padding: 0.6rem 1.4rem;
-  background: #f0f7ff;
-  border: 2px solid #bfdbfe;
-  border-radius: 12px;
-  margin-bottom: 0.5rem;
-  display: block;
-  width: fit-content;
-  height: auto !important;
-  min-height: unset !important;
-  align-self: center;
-  color: #1e3a5f;
-  line-height: 1.5;
-  white-space: normal;
-  word-wrap: break-word;
-  max-width: 100%;
-  text-align: center;
-}
-
-/* Check & Next Buttons */
-.check-btn {
-  background: #4285F4;
-  color: white;
-  border: none;
-  width: 100%;
-  padding: 1rem;
-  border-radius: 12px;
-  font-size: 1.1rem;
-  font-weight: 700;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-.check-btn:hover:not(:disabled) {
-  background: #1a73e8;
-}
-.check-btn:disabled {
-  background: #a0c3ff;
-  cursor: not-allowed;
-}
-
-/* Natural Buttons */
-.check-btn.natural {
-  background: #3b82f6; 
-  box-shadow: 0 4px 0 #2563eb;
-  transition: all 0.1s;
-}
-.check-btn.natural:active:not(:disabled) {
-  transform: translateY(4px);
-  box-shadow: 0 0 0 transparent;
-}
-.check-btn.natural:disabled {
-  background: #cbd5e1;
-  box-shadow: 0 4px 0 #94a3b8;
-}
-
-.next-btn.natural {
-  background: #22c55e; 
-  color: white;
-  border: none;
-  width: 100%;
-  padding: 1rem;
-  border-radius: 12px;
-  font-size: 1.1rem;
-  font-weight: 700;
-  cursor: pointer;
-  box-shadow: 0 4px 0 #16a34a;
-  transition: all 0.1s;
-}
-.next-btn.natural:active {
-  transform: translateY(4px);
-  box-shadow: 0 0 0 transparent;
-}
-
-/* Inline Feedback */
 .inline-feedback {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   padding: 1rem;
   border-radius: 12px;
   display: flex;
@@ -320,56 +365,8 @@
   color: #991b1b;
   border: 1px solid #fecaca;
 }
-.inline-feedback-icon {
-  display: flex;
-  align-items: center;
-}
-
-/* Nav Controls */
-.nav-controls {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  margin-top: 1rem;
-  gap: 1rem;
-}
-
-.nav-controls button {
-  flex: 1;
-  padding: 0.8rem;
-  border-radius: 12px;
-  font-weight: 700;
-  cursor: pointer;
-  border: none;
-  transition: all 0.2s;
-}
-.nav-controls button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-.btn-back {
-  background: #f1f5f9;
-  color: #64748b;
-}
-.btn-back:hover:not(:disabled) {
-  background: #e2e8f0;
-}
-.btn-skip {
-  background: #fef08a;
-  color: #854d0e;
-}
-.btn-skip:hover:not(:disabled) {
-  background: #fde047;
-}
 
 @keyframes slideUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }

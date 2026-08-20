@@ -143,7 +143,7 @@ const MockInterview = () => {
     let currentLang = 'hi';
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    currentLang = storedUser.preferred_language || 'hi';
+    currentLang = storedUser.learning_language || 'hi';
   } catch (e) {}
   const data = INTERVIEW_DATA[currentLang] || INTERVIEW_DATA['hi'];
 

@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "name": "टोमॅटो",
+      "price": 20,
+      "emoji": "🍅"
+    },
+    {
+      "name": "बटाटे",
+      "price": 10,
+      "emoji": "🥔"
+    },
+    {
+      "name": "कांदा",
+      "price": 15,
+      "emoji": "🧅"
+    }
+  ],
+  "customers": [
+    {
+      "dialogue": "मला २ किलो टोमॅटो आणि १ किलो बटाटे हवे आहेत.",
+      "targetTomatoes": 2,
+      "targetPotatoes": 1,
+      "targetOnions": 0,
+      "bill": 50
+    },
+    {
+      "dialogue": "मला १ किलो टोमॅटो आणि २ किलो कांदा द्या.",
+      "targetTomatoes": 1,
+      "targetPotatoes": 0,
+      "targetOnions": 2,
+      "bill": 50
+    },
+    {
+      "dialogue": "माझ्यासाठी ३ किलो बटाटे आणि १ किलो कांदा मोजा.",
+      "targetTomatoes": 0,
+      "targetPotatoes": 3,
+      "targetOnions": 1,
+      "bill": 45
+    }
+  ]
+}

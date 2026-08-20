@@ -1,10 +1,14 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { X, Coins, ShieldCheck, User } from 'lucide-react';
+import { useFocusTrap } from '../hooks/useFocusTrap';
+import Button from './ui/Button';
 
 const ShopModal = ({ stats, onClose }) => {
   const { t } = useTranslation();
   const [purchaseMsg, setPurchaseMsg] = useState('');
+
+  const modalRef = useFocusTrap(true, onClose);
 
   const handleBuy = (item, cost) => {
     if (stats.coins >= cost) {
@@ -18,12 +22,19 @@ const ShopModal = ({ stats, onClose }) => {
 
   return (
     <div className="progress-modal-overlay">
-      <div className="progress-modal-content" style={{ maxWidth: '600px', height: 'auto' }}>
+      <div 
+        className="progress-modal-content" 
+        style={{ maxWidth: '600px', height: 'auto' }}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="shop-modal-title"
+        ref={modalRef}
+      >
         <header className="progress-header" style={{ borderBottom: 'none', paddingBottom: '1rem' }}>
-          <h1 style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <h1 id="shop-modal-title" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <Coins size={28} fill="#eab308" color="#eab308" /> {t('shop_title', 'Virtual Shop')}
           </h1>
-          <button className="close-btn" onClick={onClose}><X size={24} /></button>
+          <button className="close-btn" onClick={onClose} aria-label="Close Shop"><X size={24} /></button>
         </header>
 
         <div className="progress-scroll-area" style={{ paddingTop: '0' }}>
@@ -52,14 +63,15 @@ const ShopModal = ({ stats, onClose }) => {
                   <p style={{ margin: '0', color: '#64748b', fontSize: '0.9rem', maxWidth: '250px' }}>Protects your streak from resetting if you miss one day of practice.</p>
                 </div>
               </div>
-              <button 
+              <Button 
+                variant="outline"
                 onClick={() => handleBuy('Streak Freeze', 100)}
-                style={{ background: '#f8fafc', border: '2px solid #e2e8f0', padding: '0.75rem 1.5rem', borderRadius: '12px', cursor: 'pointer', fontWeight: '700', color: '#3b82f6', display: 'flex', alignItems: 'center', gap: '0.5rem', transition: 'all 0.2s' }}
-                onMouseOver={(e) => e.currentTarget.style.borderColor = '#3b82f6'}
-                onMouseOut={(e) => e.currentTarget.style.borderColor = '#e2e8f0'}
+                style={{ color: '#3b82f6', fontWeight: '700', borderColor: '#e2e8f0' }}
               >
-                <Coins size={18} fill="#eab308" color="#eab308" /> 100
-              </button>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <Coins size={18} fill="#eab308" color="#eab308" /> 100
+                </div>
+              </Button>
             </div>
 
             {/* Premium Avatar */}
@@ -73,14 +85,15 @@ const ShopModal = ({ stats, onClose }) => {
                   <p style={{ margin: '0', color: '#64748b', fontSize: '0.9rem', maxWidth: '250px' }}>Unlock a cool customized avatar for your profile and leaderboard.</p>
                 </div>
               </div>
-              <button 
+              <Button 
+                variant="outline"
                 onClick={() => handleBuy('Premium Avatar', 300)}
-                style={{ background: '#f8fafc', border: '2px solid #e2e8f0', padding: '0.75rem 1.5rem', borderRadius: '12px', cursor: 'pointer', fontWeight: '700', color: '#a855f7', display: 'flex', alignItems: 'center', gap: '0.5rem', transition: 'all 0.2s' }}
-                onMouseOver={(e) => e.currentTarget.style.borderColor = '#a855f7'}
-                onMouseOut={(e) => e.currentTarget.style.borderColor = '#e2e8f0'}
+                style={{ color: '#a855f7', fontWeight: '700', borderColor: '#e2e8f0' }}
               >
-                <Coins size={18} fill="#eab308" color="#eab308" /> 300
-              </button>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <Coins size={18} fill="#eab308" color="#eab308" /> 300
+                </div>
+              </Button>
             </div>
           </div>
         </div>

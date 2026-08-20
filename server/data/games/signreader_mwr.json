@@ -1,0 +1,114 @@
+{
+  "signs": [
+    {
+      "sign": "जावणो मना है",
+      "type": "danger",
+      "options": [
+        "No Entry",
+        "Hospital Ahead",
+        "One Way",
+        "Speed Limit"
+      ],
+      "answer": "No Entry"
+    },
+    {
+      "sign": "बीड़ी-सिगरेट मना है",
+      "type": "warning",
+      "options": [
+        "Wet Floor",
+        "No Smoking",
+        "Toxic Danger",
+        "Keep Left"
+      ],
+      "answer": "No Smoking"
+    },
+    {
+      "sign": "खतरो",
+      "type": "danger",
+      "options": [
+        "Danger",
+        "Exit",
+        "Restaurant",
+        "Free Parking"
+      ],
+      "answer": "Danger"
+    },
+    {
+      "sign": "शांत क्षेत्र",
+      "type": "info",
+      "options": [
+        "Construction Zone",
+        "Quiet Zone / Silent Zone",
+        "Speed Breaker",
+        "No Parking"
+      ],
+      "answer": "Quiet Zone / Silent Zone"
+    },
+    {
+      "sign": "कचरो ना नाखो",
+      "type": "info",
+      "options": [
+        "Keep Left",
+        "No Littering",
+        "Do Not Touch",
+        "Emergency Exit"
+      ],
+      "answer": "No Littering"
+    },
+    {
+      "sign": "रुक जाओ",
+      "type": "danger",
+      "options": [
+        "Stop",
+        "Go",
+        "Yield",
+        "Slow Down"
+      ],
+      "answer": "Stop"
+    },
+    {
+      "sign": "गति सीमा",
+      "type": "info",
+      "options": [
+        "Speed Limit",
+        "No Entry",
+        "Stop",
+        "Hospital"
+      ],
+      "answer": "Speed Limit"
+    },
+    {
+      "sign": "एक तरफा रस्तो",
+      "type": "warning",
+      "options": [
+        "One Way",
+        "Two Way",
+        "U-Turn",
+        "Stop"
+      ],
+      "answer": "One Way"
+    },
+    {
+      "sign": "आगे अस्पताल है",
+      "type": "info",
+      "options": [
+        "Hospital Ahead",
+        "School Ahead",
+        "Market",
+        "Bus Stop"
+      ],
+      "answer": "Hospital Ahead"
+    },
+    {
+      "sign": "आगे स्कूल है",
+      "type": "warning",
+      "options": [
+        "School Ahead",
+        "Hospital",
+        "No Entry",
+        "Stop"
+      ],
+      "answer": "School Ahead"
+    }
+  ]
+}

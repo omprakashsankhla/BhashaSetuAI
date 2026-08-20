@@ -3,6 +3,9 @@ import { useTranslation } from 'react-i18next';
 import { X, Globe, Moon, Sun, Volume2, Bell, Shield, Key, Trash2 } from 'lucide-react';
 import { useSettings } from '../context/SettingsContext';
 import { API_BASE_URL } from '../config/api';
+import { useFocusTrap } from '../hooks/useFocusTrap';
+import Button from './ui/Button';
+import Input from './ui/Input';
 import './SettingsModal.css';
 
 const SettingsModal = ({ onClose }) => {
@@ -12,6 +15,8 @@ const SettingsModal = ({ onClose }) => {
   const [passwordData, setPasswordData] = useState({ oldPassword: '', newPassword: '' });
   const [passMsg, setPassMsg] = useState('');
   
+  const modalRef = useFocusTrap(true, onClose);
+
   if (loading) return null;
 
   const handleLanguageChange = (e) => {
@@ -19,6 +24,7 @@ const SettingsModal = ({ onClose }) => {
     updateSetting('appLanguage', val);
     i18n.changeLanguage(val);
     localStorage.setItem('i18nextLng', val);
+    localStorage.removeItem('assessmentProgress');
   };
 
   const handleThemeToggle = () => {
@@ -108,9 +114,15 @@ const SettingsModal = ({ onClose }) => {
 
   return (
     <div className="settings-modal-overlay">
-      <div className="settings-modal-content">
+      <div 
+        className="settings-modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="settings-modal-title"
+        ref={modalRef}
+      >
         <header className="settings-header">
-          <h1>Settings</h1>
+          <h1 id="settings-modal-title">Settings</h1>
           <button className="close-btn" onClick={onClose} aria-label="Close Settings">
             <X size={24} />
           </button>
@@ -147,9 +159,9 @@ const SettingsModal = ({ onClose }) => {
                     <h3>Color Theme</h3>
                     <p>Switch between Light and Dark mode.</p>
                   </div>
-                  <button className="theme-toggle-btn" onClick={handleThemeToggle}>
+                  <Button variant="secondary" className="theme-toggle-btn" onClick={handleThemeToggle}>
                     {settings.theme === 'light' ? <><Moon size={18}/> Dark Mode</> : <><Sun size={18}/> Light Mode</>}
-                  </button>
+                  </Button>
                 </div>
               </div>
             </section>
@@ -231,10 +243,10 @@ const SettingsModal = ({ onClose }) => {
                     <h3>Change Password</h3>
                     <p>Update the password used to log into your account.</p>
                   </div>
-                  <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
-                    <input type="password" placeholder="Old Password" value={passwordData.oldPassword} onChange={e => setPasswordData({...passwordData, oldPassword: e.target.value})} className="setting-dropdown" />
-                    <input type="password" placeholder="New Password" value={passwordData.newPassword} onChange={e => setPasswordData({...passwordData, newPassword: e.target.value})} className="setting-dropdown" />
-                    <button className="action-btn secondary" onClick={handlePasswordChange}><Key size={16}/> Update</button>
+                  <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem', width: '100%', maxWidth: '600px', flexWrap: 'wrap' }}>
+                    <Input type="password" placeholder="Old Password" value={passwordData.oldPassword} onChange={e => setPasswordData({...passwordData, oldPassword: e.target.value})} style={{ flex: 1, minWidth: '200px' }} aria-label="Old Password" />
+                    <Input type="password" placeholder="New Password" value={passwordData.newPassword} onChange={e => setPasswordData({...passwordData, newPassword: e.target.value})} style={{ flex: 1, minWidth: '200px' }} aria-label="New Password" />
+                    <Button variant="secondary" onClick={handlePasswordChange} iconLeft={<Key size={16}/>}>Update</Button>
                   </div>
                   {passMsg && <p style={{ color: '#ef4444', marginTop: '0.5rem', fontSize: '0.9rem' }}>{passMsg}</p>}
                 </div>
@@ -245,7 +257,7 @@ const SettingsModal = ({ onClose }) => {
                     <h3 className="danger-text">Delete Account</h3>
                     <p>Permanently delete your account and all learning data.</p>
                   </div>
-                  <button className="action-btn danger" onClick={handleDeleteAccount}><Trash2 size={16}/> Delete Account</button>
+                  <Button variant="danger" onClick={handleDeleteAccount} iconLeft={<Trash2 size={16}/>}>Delete Account</Button>
                 </div>
               </div>
             </section>

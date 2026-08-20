@@ -1,0 +1,28 @@
+{
+  "words": [
+    {
+      "target": "வணக்கம்",
+      "translation": "hello"
+    },
+    {
+      "target": "தண்ணீர்",
+      "translation": "water"
+    },
+    {
+      "target": "புத்தகம்",
+      "translation": "book"
+    },
+    {
+      "target": "வீடு",
+      "translation": "house"
+    },
+    {
+      "target": "உணவு",
+      "translation": "food"
+    },
+    {
+      "target": "நாளை",
+      "translation": "tomorrow"
+    }
+  ]
+}

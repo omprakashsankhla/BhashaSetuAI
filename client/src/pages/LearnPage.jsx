@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Flame, Coins, User, Settings, Award, BookOpen, Lock, Check, Play, LogOut, Heart, Mic, Gamepad2, Edit3, BarChart2, Medal, ArrowRight, Home, Target, Bot, Globe, Bell, Menu, X } from 'lucide-react';
+import { Flame, Coins, User, Settings, Award, BookOpen, Lock, Check, Play, LogOut, Heart, Mic, Gamepad2, Edit3, BarChart2, Medal, ArrowRight, Home, Target, Bot, Globe, Bell, Menu, X, Users, Palette, Calendar, Hash, Dog, Coffee, FileText, Type, Headphones } from 'lucide-react';
 import ProfileModal from '../components/ProfileModal';
 import SettingsModal from '../components/SettingsModal';
 import LessonPage from './LessonPage';
@@ -11,9 +11,30 @@ import ProgressModal from '../components/ProgressModal';
 import StreakModal from '../components/StreakModal';
 import ShopModal from '../components/ShopModal';
 import AnnouncementsModal from '../components/AnnouncementsModal';
+import Button from '../components/ui/Button';
+import Badge from '../components/ui/Badge';
 import './Dashboard.css';
 import './LearnPage.css';
 import { API_BASE_URL } from '../config/api';
+
+const getThematicIcon = (title, type) => {
+  const tStr = (title || '').toLowerCase();
+  if (tStr.includes('family') || tStr.includes('people')) return <Users size={28} />;
+  if (tStr.includes('color')) return <Palette size={28} />;
+  if (tStr.includes('day') || tStr.includes('week') || tStr.includes('time')) return <Calendar size={28} />;
+  if (tStr.includes('number')) return <Hash size={28} />;
+  if (tStr.includes('animal')) return <Dog size={28} />;
+  if (tStr.includes('food') || tStr.includes('drink')) return <Coffee size={28} />;
+  
+  if (type === 'Reading') return <BookOpen size={28} />;
+  if (type === 'Listening') return <Headphones size={28} />;
+  if (type === 'Writing') return <Edit3 size={28} />;
+  if (type === 'Speaking') return <Mic size={28} />;
+  if (type === 'Grammar') return <Type size={28} />;
+  if (type === 'Vocabulary') return <FileText size={28} />;
+  
+  return <Target size={28} />;
+};
 
 const LearnPage = () => {
   const { t, i18n } = useTranslation();
@@ -104,19 +125,21 @@ const LearnPage = () => {
         
         {/* Top Header */}
         <header className="dashboard-header">
-          <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
-            {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-          <div className="welcome-text">
-            <h1>{t('dash_learning_journey', 'Learning Journey')}</h1>
-            <p>{t('dash_day_of', { current: dayNumber || 1, total: 30 })}</p>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <button className="sidebar-toggle" onClick={() => setSidebarOpen(!sidebarOpen)}>
+              {sidebarOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+            <h1 style={{ margin: 0, fontSize: '1.5rem', color: 'var(--text-main)', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+              <BookOpen size={28} style={{ color: 'var(--color-primary-500)' }} /> {t('dash_learning_journey', 'Learning Journey')}
+            </h1>
           </div>
 
           <div className="header-actions">
             <div className="lang-switcher">
               <Globe size={16} />
               <select 
-                value={user?.preferred_language || 'hi'} 
+                aria-label="Learning Language"
+                value={user?.learning_language || 'hi'} 
                 onChange={async (e) => {
                   const newLang = e.target.value;
                   try {
@@ -127,9 +150,9 @@ const LearnPage = () => {
                         'Authorization': `Bearer ${token}`,
                         'Content-Type': 'application/json'
                       },
-                      body: JSON.stringify({ preferred_language: newLang })
+                      body: JSON.stringify({ learning_language: newLang })
                     });
-                    const updatedUser = { ...user, preferred_language: newLang };
+                    const updatedUser = { ...user, learning_language: newLang };
                     localStorage.setItem('user', JSON.stringify(updatedUser));
                     fetchDashboardData();
                   } catch (err) {
@@ -166,15 +189,26 @@ const LearnPage = () => {
 
         <main className="learn-map-container">
           {/* Proficiency Track Selector */}
-          <div className="track-selector">
+          <div className="track-selector" style={{ background: 'transparent', boxShadow: 'none', border: 'none', padding: 0, display: 'flex', gap: '1rem', justifyContent: 'center' }}>
             {['Beginner', 'Intermediate', 'Advanced'].map(lvl => (
-              <button
+              <Button
                 key={lvl}
+                variant="primary"
                 onClick={() => setActiveTab(lvl)}
-                className={`track-btn ${activeTab === lvl ? 'active' : ''}`}
+                className={`track-btn track-btn-${lvl.toLowerCase()} ${activeTab === lvl ? 'active' : ''}`}
+                style={{
+                  padding: '0.75rem 1.5rem',
+                  borderRadius: '8px',
+                  border: 'none',
+                  fontWeight: '600',
+                  fontSize: '1rem',
+                  cursor: 'pointer',
+                  transition: 'all 0.2s',
+                  flex: '0 1 auto'
+                }}
               >
                 {t(`dash_${lvl.toLowerCase()}`, lvl)}
-              </button>
+              </Button>
             ))}
           </div>
 
@@ -183,9 +217,9 @@ const LearnPage = () => {
               <div key={idx} className={`unit-section ${unit.status}`}>
                 <div className="unit-header">
                   <h2>{unit.name}</h2>
-                  <span className="unit-progress">
+                  <Badge variant="success" className="unit-progress">
                     {t('dash_completed_of', { done: unit.completedLessons, total: unit.totalLessons })}
-                  </span>
+                  </Badge>
                 </div>
                 
                 <div className="unit-nodes">
@@ -193,23 +227,68 @@ const LearnPage = () => {
                     <div 
                       key={lIdx} 
                       className={`lesson-node ${lesson.status}`}
-                      onClick={() => {
-                        if(lesson.status !== 'locked' && lesson.id != null && lesson.id !== 0) {
-                          setActiveLessonId(lesson.id);
-                        }
-                      }}
                     >
-                      <div className="node-icon">
-                        {lesson.status === 'completed' ? <Check size={24} color="white" /> 
-                          : lesson.status === 'active' ? <Play size={24} fill="white" /> 
-                          : <Lock size={20} color="#94a3b8" />}
+                      <div 
+                        className="node-icon" 
+                        tabIndex={0} 
+                        role="button"
+                        onClick={() => {
+                          if(lesson.status !== 'locked' && lesson.id != null && lesson.id !== 0) {
+                            setActiveLessonId(lesson.id);
+                          }
+                        }}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter' || e.key === ' ') {
+                            e.preventDefault();
+                            if(lesson.status !== 'locked' && lesson.id != null && lesson.id !== 0) {
+                              setActiveLessonId(lesson.id);
+                            }
+                          }
+                        }}
+                      >
+                        {getThematicIcon(lesson.title, lesson.type)}
+                        {lesson.status === 'completed' && (
+                          <div className="node-badge completed"><Check size={14} strokeWidth={3} /></div>
+                        )}
+                        {lesson.status === 'locked' && (
+                          <div className="node-badge locked"><Lock size={12} strokeWidth={3} /></div>
+                        )}
+                        {lesson.status === 'active' && (
+                          <div className="node-badge active"><Play size={12} fill="currentColor" /></div>
+                        )}
                       </div>
                       <div className="node-label">{lesson.title}</div>
                       
-                      {/* Connection line */}
-                      {lIdx < unit.lessons.length - 1 && (
-                        <div className="path-line"></div>
-                      )}
+                      {/* Connection line SVG */}
+                      {lIdx < unit.lessons.length - 1 && (() => {
+                        const nextIdx = lIdx + 1;
+                        const isNextLast = nextIdx === unit.lessons.length - 1;
+                        
+                        let startX = 50;
+                        if (lIdx !== 0) {
+                           startX = (lIdx + 1) % 2 === 0 ? 25 : 75;
+                        }
+                        
+                        let endX = 50;
+                        if (!isNextLast) {
+                           endX = (nextIdx + 1) % 2 === 0 ? 25 : 75;
+                        }
+
+                        const d = `M ${startX} 0 C ${startX} 45, ${endX} 55, ${endX} 100`;
+
+                        return (
+                          <svg className="path-svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+                            <path 
+                               d={d} 
+                               stroke={lesson.status === 'completed' ? "#10b981" : "#e2e8f0"} 
+                               strokeWidth="4" 
+                               fill="none" 
+                               vectorEffect="non-scaling-stroke"
+                               strokeLinecap="round"
+                            />
+                          </svg>
+                        );
+                      })()}
                     </div>
                   ))}
                 </div>

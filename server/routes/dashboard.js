@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken');
 const db = require('../db');
 const { GoogleGenAI } = require('@google/genai');
 const { translateOrAdaptContent } = require('./translationHelper');
+const { syncUserAnalytics } = require('../services/analyticsService');
 
 const router = express.Router();
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || 'MISSING_API_KEY' });
@@ -28,17 +29,7 @@ async function generateContentWithRetry(options, maxRetries = 4) {
   }
 }
 
-const verifyToken = (req, res, next) => {
-  const authHeader = req.headers['authorization'];
-  if (!authHeader) return res.status(403).json({ message: 'No token provided.' });
-  const token = authHeader.split(' ')[1];
-  
-  jwt.verify(token, process.env.JWT_SECRET, (err, decoded) => {
-    if (err) return res.status(401).json({ message: 'Unauthorized!' });
-    req.userId = decoded.user_id;
-    next();
-  });
-};
+const verifyToken = require('../middleware/auth');
 
 // Helper: Derive rank from XP
 function getRank(xp) {
@@ -126,18 +117,12 @@ function deriveAchievements(stats, completedCount, hasVoiceAssessment) {
   ];
 }
 
-// The 30 lessons grouped into 4 units (matching the curriculum in assessment.js)
-const UNIT_DEFINITIONS = [
-  { name: 'Unit 1', lessonIndices: [0, 1, 2, 3, 4, 5, 6] },
-  { name: 'Unit 2', lessonIndices: [7, 8, 9, 10, 11, 12, 13] },
-  { name: 'Unit 3', lessonIndices: [14, 15, 16, 17, 18, 19, 20] },
-  { name: 'Unit 4', lessonIndices: [21, 22, 23, 24, 25, 26, 27, 28, 29] }
-];
+// Dynamic unit chunking is handled inside the routes now.
 
 router.get('/data', verifyToken, async (req, res) => {
   try {
     // 1. Fetch user data
-    const [users] = await db.query('SELECT name, preferred_language, education_level, xp, coins, streak, last_login, hearts, hearts_last_regen, avatar, settings, skills_progress FROM Users WHERE user_id = ?', [req.userId]);
+    const [users] = await db.query('SELECT name, preferred_language, interface_language, learning_language, education_level, xp, coins, streak, last_login, hearts, hearts_last_regen, avatar, settings, skills_progress FROM Users WHERE user_id = ?', [req.userId]);
     if (users.length === 0) return res.status(404).json({ message: 'User not found' });
     const user = users[0];
 
@@ -217,8 +202,8 @@ router.get('/data', verifyToken, async (req, res) => {
       ];
     }
 
-    const targetLang = user.preferred_language || 'hi';
-    const interfaceLang = req.query.interfaceLang || targetLang;
+    const targetLang = user.learning_language || 'hi';
+    const interfaceLang = req.query.interfaceLang || user.interface_language || 'en';
 
     // Translate lesson titles
     try {
@@ -274,7 +259,7 @@ router.get('/data', verifyToken, async (req, res) => {
     }
 
     // 6. Compute unitProgress — group lessons into units per level
-    const completedCount = lessons.filter(l => l.status === 'completed').length;
+    const completedCount = lessons.filter(l => l.status === 'completed' && l.completedAt !== null).length;
     
     const unitProgress = {};
     const levels = ['Beginner', 'Intermediate', 'Advanced'];
@@ -282,11 +267,20 @@ router.get('/data', verifyToken, async (req, res) => {
     for (const lvl of levels) {
       const trackLessons = lessons.filter(l => l.level === lvl);
       
-      unitProgress[lvl] = UNIT_DEFINITIONS.map((unit, unitIdx) => {
+      const numUnits = Math.ceil(trackLessons.length / 7) || 1;
+      const dynamicUnits = Array.from({ length: numUnits }, (_, i) => {
+        const start = i * 7;
+        const end = Math.min(start + 7, trackLessons.length);
+        const indices = [];
+        for (let j = start; j < end; j++) indices.push(j);
+        return { name: `Unit ${i + 1}`, lessonIndices: indices };
+      });
+      
+      unitProgress[lvl] = dynamicUnits.map((unit, unitIdx) => {
         const unitLessons = unit.lessonIndices.map(i => {
           if (i < trackLessons.length) return trackLessons[i];
           return { title: 'Upcoming Lesson', status: 'locked', type: 'locked' };
-        }).filter(l => l.title !== 'Upcoming Lesson'); // Don't show placeholders if the track is shorter (e.g. 28 lessons)
+        }).filter(l => l.title !== 'Upcoming Lesson'); // Don't show placeholders
         
         const completedInUnit = unitLessons.filter(l => l.status === 'completed').length;
         const totalInUnit = unitLessons.length;
@@ -325,14 +319,14 @@ router.get('/data', verifyToken, async (req, res) => {
 
     // 9. Compute leaderboard — top 5 users by XP
     const [leaderboardRows] = await db.query(
-      `SELECT name, xp, avatar FROM Users ORDER BY xp DESC LIMIT 5`
+      `SELECT user_id, name, xp, avatar FROM Users ORDER BY xp DESC LIMIT 5`
     );
     const leaderboard = leaderboardRows.map((row, idx) => ({
       rank: idx + 1,
       name: row.name,
       avatar: row.avatar,
       xp: row.xp || 0,
-      isCurrentUser: row.name === user.name
+      isCurrentUser: row.user_id === req.userId
     }));
 
     // 10. Compute skill analysis from granular skills_progress
@@ -431,7 +425,7 @@ router.get('/leaderboard', verifyToken, async (req, res) => {
     const user = users[0];
 
     const [leaderboardRows] = await db.query(
-      `SELECT name, xp, avatar FROM Users ORDER BY xp DESC LIMIT 100`
+      `SELECT user_id, name, xp, avatar FROM Users ORDER BY xp DESC LIMIT 100`
     );
     
     const leaderboard = leaderboardRows.map((row, idx) => ({
@@ -439,7 +433,7 @@ router.get('/leaderboard', verifyToken, async (req, res) => {
       name: row.name,
       avatar: row.avatar,
       xp: row.xp || 0,
-      isCurrentUser: row.name === user.name
+      isCurrentUser: row.user_id === req.userId
     }));
 
     // If current user is not in top 50, fetch their rank specifically
@@ -474,7 +468,7 @@ router.get('/leaderboard', verifyToken, async (req, res) => {
 router.get('/ai-insight', verifyToken, async (req, res) => {
   try {
     // Fetch user's recent lesson data and skills progress
-    const [users] = await db.query('SELECT name, preferred_language, xp, skills_progress FROM Users WHERE user_id = ?', [req.userId]);
+    const [users] = await db.query('SELECT name, preferred_language, interface_language, learning_language, xp, skills_progress FROM Users WHERE user_id = ?', [req.userId]);
     if (users.length === 0) return res.status(404).json({ message: 'User not found' });
     const user = users[0];
 
@@ -519,7 +513,7 @@ router.get('/ai-insight', verifyToken, async (req, res) => {
 
     const prompt = `You are an AI language learning advisor. Based on the following student data, provide TWO short insights:
 
-Student: ${user.name}, Learning language: ${user.preferred_language}, Total XP: ${user.xp}
+Student: ${user.name}, Learning language: ${user.learning_language}, Total XP: ${user.xp}
 Detailed Skill Breakdown (Actual correct answer % across all activities):
 - Reading: ${skillAnalysis.reading}%
 - Writing: ${skillAnalysis.writing}%
@@ -543,7 +537,7 @@ Be specific and encouraging. Output strictly valid JSON, no markdown.`;
 
     try {
       const response = await generateContentWithRetry({
-        model: 'gemini-3.6-flash',
+        model: 'gemini-3.5-flash',
         contents: prompt,
         config: {
           responseMimeType: 'application/json',
@@ -603,6 +597,7 @@ router.post('/award-coins', verifyToken, async (req, res) => {
   }
   try {
     await db.query('UPDATE Users SET coins = coins + ? WHERE user_id = ?', [Math.round(coins), req.userId]);
+    await syncUserAnalytics(req.userId);
     res.status(200).json({ message: 'Coins awarded successfully', coinsAwarded: Math.round(coins) });
   } catch (err) {
     console.error('Error awarding coins:', err);

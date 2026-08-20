@@ -97,7 +97,7 @@ const ArticleTranslation = () => {
   let currentLang = 'hi';
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    currentLang = storedUser.preferred_language || 'hi';
+    currentLang = storedUser.learning_language || 'hi';
   } catch (e) {}
   const data = TRANSLATION_LANG_DATA[currentLang] || TRANSLATION_LANG_DATA['hi'];
 
@@ -113,10 +113,13 @@ const ArticleTranslation = () => {
   useEffect(() => {
     const fetchArticles = async () => {
       try {
+        const token = localStorage.getItem('token');
         const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-        const targetLang = storedUser.preferred_language || 'hi';
+        const targetLang = storedUser.learning_language || 'hi';
         const interfaceLang = i18n.language || 'en';
-        const res = await fetch(`${API_BASE_URL}/api/activities/article-translation?lang=${targetLang}&interfaceLang=${interfaceLang}`);
+        const res = await fetch(`${API_BASE_URL}/api/activities/article-translation?lang=${targetLang}&interfaceLang=${interfaceLang}`, {
+          headers: { 'Authorization': `Bearer ${token}` }
+        });
         if (res.ok) {
           const resData = await res.json();
           setArticles(resData.items || []);
@@ -128,7 +131,7 @@ const ArticleTranslation = () => {
       }
     };
     fetchArticles();
-  }, [currentLang]);
+  }, [currentLang, i18n.language]);
 
   useEffect(() => {
     setCurrentIndex(0);

@@ -4,185 +4,663 @@
       {
         "id": 1,
         "type": "MCQ",
-        "text": "भाषांतर करा: Water",
+        "text": "A नंतर कोणते अक्षर येते?",
         "options": [
-          "पाणी",
-          "Fire",
-          "Earth",
-          "Air"
+          "B",
+          "C",
+          "D",
+          "E"
         ],
-        "answer": "पाणी",
-        "feedback": "योग्य उत्तर आहे: पाणी"
+        "answer": "B",
+        "feedback": "बरोबर उत्तर आहे बी"
       },
       {
         "id": 2,
         "type": "MCQ",
-        "text": "भाषांतर करा: Food",
+        "text": "कोणता शब्द फळ आहे?",
         "options": [
-          "अन्न",
-          "Sleep",
-          "Walk",
-          "Run"
+          "Apple",
+          "Chair",
+          "Table",
+          "Book"
         ],
-        "answer": "अन्न",
-        "feedback": "योग्य उत्तर आहे: अन्न"
+        "answer": "Apple",
+        "feedback": "बरोबर उत्तर Apple आहे"
       },
       {
         "id": 3,
         "type": "MCQ",
-        "text": "भाषांतर करा: Sun",
+        "text": "कोणता शब्द प्राण्याचे नाव देतो?",
         "options": [
-          "सूर्य",
-          "Moon",
-          "Star",
-          "Cloud"
+          "Dog",
+          "Pen",
+          "Cup",
+          "Fan"
         ],
-        "answer": "सूर्य",
-        "feedback": "योग्य उत्तर आहे: सूर्य"
+        "answer": "Dog",
+        "feedback": "बरोबर उत्तर आहे कुत्रा"
       },
       {
         "id": 4,
         "type": "MCQ",
-        "text": "भाषांतर करा: House",
+        "text": "कोणते अक्षर स्वर आहे?",
         "options": [
-          "घर",
-          "Tree",
-          "Road",
-          "Car"
+          "B",
+          "C",
+          "A",
+          "D"
         ],
-        "answer": "घर",
-        "feedback": "योग्य उत्तर आहे: घर"
+        "answer": "A",
+        "feedback": "बरोबर उत्तर A आहे"
       },
       {
         "id": 5,
         "type": "MCQ",
-        "text": "रिकाम्या जागा भरा: A ___ C",
+        "text": "कोणत्या शब्दाचा अर्थ अभिवादन असा होतो?",
         "options": [
-          "B",
-          "D",
-          "E",
-          "F"
+          "Hello",
+          "Sleep",
+          "Eat",
+          "Jump"
         ],
-        "answer": "B",
-        "feedback": "योग्य उत्तर आहे: B"
+        "answer": "Hello",
+        "feedback": "बरोबर उत्तर हॅलो आहे"
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "9 नंतर कोणती संख्या येते?",
+        "options": [
+          "8",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "feedback": "बरोबर उत्तर 10 आहे"
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "लेखनासाठी कोणती वस्तू वापरली जाते?",
+        "options": [
+          "Pencil",
+          "Plate",
+          "Spoon",
+          "Bottle"
+        ],
+        "answer": "Pencil",
+        "feedback": "बरोबर उत्तर पेन्सिल आहे"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "रंग कोणता शब्द आहे?",
+        "options": [
+          "Red",
+          "Ball",
+          "Mango",
+          "Bird"
+        ],
+        "answer": "Red",
+        "feedback": "बरोबर उत्तर लाल आहे"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "कोणते वाक्य बरोबर आहे?",
+        "options": [
+          "I am happy.",
+          "Happy I am.",
+          "Am I happy.",
+          "Happy am."
+        ],
+        "answer": "I am happy.",
+        "feedback": "बरोबर उत्तर म्हणजे मी आनंदी आहे."
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "शरीराचा अवयव कोणता?",
+        "options": [
+          "Hand",
+          "Chair",
+          "Cup",
+          "Bag"
+        ],
+        "answer": "Hand",
+        "feedback": "बरोबर उत्तर आहे हात"
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "मोठ्याच्या विरुद्धार्थी शब्द कोणता?",
+        "options": [
+          "Small",
+          "Long",
+          "Fast",
+          "Tall"
+        ],
+        "answer": "Small",
+        "feedback": "बरोबर उत्तर लहान आहे"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "आठवड्यातील कोणता दिवस आहे?",
+        "options": [
+          "Monday",
+          "January",
+          "Morning",
+          "Summer"
+        ],
+        "answer": "Monday",
+        "feedback": "बरोबर उत्तर सोमवार आहे"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "भाजी कोणती?",
+        "options": [
+          "Carrot",
+          "Mango",
+          "Banana",
+          "Orange"
+        ],
+        "answer": "Carrot",
+        "feedback": "बरोबर उत्तर आहे गाजर"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "कोणता प्राणी \"म्याव\" म्हणतो?",
+        "options": [
+          "Cat",
+          "Dog",
+          "Cow",
+          "Goat"
+        ],
+        "answer": "Cat",
+        "feedback": "बरोबर उत्तर मांजर आहे"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "पेय कोणता शब्द आहे?",
+        "options": [
+          "Milk",
+          "Rice",
+          "Bread",
+          "Apple"
+        ],
+        "answer": "Milk",
+        "feedback": "बरोबर उत्तर आहे दूध"
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "G च्या आधी कोणते अक्षर येते?",
+        "options": [
+          "F",
+          "E",
+          "H",
+          "I"
+        ],
+        "answer": "F",
+        "feedback": "बरोबर उत्तर F आहे"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "कोणता उडतो?",
+        "options": [
+          "Bird",
+          "Fish",
+          "Dog",
+          "Cow"
+        ],
+        "answer": "Bird",
+        "feedback": "बरोबर उत्तर आहे पक्षी"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "शाळेत कोणता शब्द वापरला जातो?",
+        "options": [
+          "Book",
+          "Pillow",
+          "Stove",
+          "Bucket"
+        ],
+        "answer": "Book",
+        "feedback": "बरोबर उत्तर पुस्तक आहे"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "कोणता हंगाम सर्वात उष्ण आहे?",
+        "options": [
+          "Summer",
+          "Winter",
+          "Rainy",
+          "Autumn"
+        ],
+        "answer": "Summer",
+        "feedback": "बरोबर उत्तर आहे उन्हाळा"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "अप च्या विरुद्धार्थी शब्द कोणता?",
+        "options": [
+          "Down",
+          "Left",
+          "Right",
+          "Near"
+        ],
+        "answer": "Down",
+        "feedback": "बरोबर उत्तर खाली आहे"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "कोणते वाक्य सभ्य आहे?",
+        "options": [
+          "Thank you.",
+          "Go away.",
+          "Be quiet.",
+          "No."
+        ],
+        "answer": "Thank you.",
+        "feedback": "बरोबर उत्तर आहे धन्यवाद."
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "कोणत्या आकाराला तीन बाजू आहेत?",
+        "options": [
+          "Triangle",
+          "Square",
+          "Circle",
+          "Rectangle"
+        ],
+        "answer": "Triangle",
+        "feedback": "बरोबर उत्तर त्रिकोण आहे"
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "वेळ सांगण्यासाठी कोणता वापरला जातो?",
+        "options": [
+          "Clock",
+          "Plate",
+          "Pencil",
+          "Bag"
+        ],
+        "answer": "Clock",
+        "feedback": "बरोबर उत्तर आहे घड्याळ"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "कुटुंबातील सदस्य कोणता?",
+        "options": [
+          "Mother",
+          "Teacher",
+          "Doctor",
+          "Driver"
+        ],
+        "answer": "Mother",
+        "feedback": "बरोबर उत्तर आहे आई"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "कोणता शब्द वाक्य पूर्ण करतो? आकाश _____ आहे.",
+        "options": [
+          "Blue",
+          "Sweet",
+          "Hot",
+          "Soft"
+        ],
+        "answer": "Blue",
+        "feedback": "बरोबर उत्तर निळा आहे"
       }
     ],
     "Reading": [
       {
         "id": 26,
         "type": "Reading",
-        "text": "मोठ्याने वाचा: मला सफरचंद आवडतात.",
-        "word": "मला सफरचंद आवडतात."
+        "text": "मोठ्याने वाचा: I am Sam.",
+        "word": "I am Sam."
       },
       {
         "id": 27,
         "type": "Reading",
-        "text": "मोठ्याने वाचा: Hello.",
-        "word": "Hello."
+        "text": "मोठ्याने वाचा: This is a cat.",
+        "word": "This is a cat."
       },
       {
         "id": 28,
         "type": "Reading",
-        "text": "मोठ्याने वाचा: Thank you.",
-        "word": "Thank you."
+        "text": "मोठ्याने वाचा: The sun is hot.",
+        "word": "The sun is hot."
       },
       {
         "id": 29,
         "type": "Reading",
-        "text": "मोठ्याने वाचा: Good boy.",
-        "word": "Good boy."
+        "text": "मोठ्याने वाचा: I like milk.",
+        "word": "I like milk."
       },
       {
         "id": 30,
         "type": "Reading",
-        "text": "मोठ्याने वाचा: Welcome.",
-        "word": "Welcome."
+        "text": "मोठ्याने वाचा: She has a pen.",
+        "word": "She has a pen."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: We play daily.",
+        "word": "We play daily."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The bird can fly.",
+        "word": "The bird can fly."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: My bag is blue.",
+        "word": "My bag is blue."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: He is my friend.",
+        "word": "He is my friend."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Open the door.",
+        "word": "Open the door."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The dog is running.",
+        "word": "The dog is running."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: I wash my hands.",
+        "word": "I wash my hands."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The flowers smell nice.",
+        "word": "The flowers smell nice."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: My school is nearby.",
+        "word": "My school is nearby."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: We drink clean water.",
+        "word": "We drink clean water."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The moon shines at night.",
+        "word": "The moon shines at night."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Please close the window.",
+        "word": "Please close the window."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Children are playing happily.",
+        "word": "Children are playing happily."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The farmer grows vegetables.",
+        "word": "The farmer grows vegetables."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: I enjoy reading books.",
+        "word": "I enjoy reading books."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: My family eats dinner together.",
+        "word": "My family eats dinner together."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Always speak with kindness.",
+        "word": "Always speak with kindness."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Practice makes us better.",
+        "word": "Practice makes us better."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Every day is a new beginning.",
+        "word": "Every day is a new beginning."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Learning opens many opportunities.",
+        "word": "Learning opens many opportunities."
       }
     ],
     "Writing": [
       {
         "id": 51,
         "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: ती एक पुस्तक वाचत आहे.",
-        "answer": "She is reading a book.",
-        "feedback": "योग्य भाषांतर आहे: She is reading a book."
+        "text": "इंग्रजीत भाषांतर करा: सफरचंद",
+        "answer": "Apple",
+        "feedback": "वाक्य होते: Apple"
       },
       {
         "id": 52,
         "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: Namaste / Vanakkam / Hello",
-        "answer": "Hello",
-        "feedback": "योग्य भाषांतर आहे: Hello"
+        "text": "इंग्रजीत भाषांतर करा: शुभ सकाळ",
+        "answer": "Good morning",
+        "feedback": "वाक्य होते: Good morning"
       },
       {
         "id": 53,
         "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: Yes",
-        "answer": "Yes",
-        "feedback": "योग्य भाषांतर आहे: Yes"
+        "text": "इंग्रजीत भाषांतर करा: धन्यवाद",
+        "answer": "Thank you",
+        "feedback": "वाक्य होते: Thank you"
       },
       {
         "id": 54,
         "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: No",
-        "answer": "No",
-        "feedback": "योग्य भाषांतर आहे: No"
+        "text": "इंग्रजीत भाषांतर करा: माझे पुस्तक",
+        "answer": "My book",
+        "feedback": "वाक्य होते: My book"
       },
       {
         "id": 55,
         "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: Water",
-        "answer": "Water",
-        "feedback": "योग्य भाषांतर आहे: Water"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 76,
-        "type": "Listening",
-        "audioText": "शुभ सकाळ",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "Good morning",
-        "feedback": "योग्य उत्तर आहे: Good morning"
+        "text": "इंग्रजीत भाषांतर करा: निळे आकाश",
+        "answer": "Blue sky",
+        "feedback": "वाक्य होते: Blue sky"
       },
       {
-        "id": 77,
-        "type": "Listening",
-        "audioText": "Thank you",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "Thank you",
-        "feedback": "योग्य उत्तर आहे: Thank you"
+        "id": 56,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: लाल चेंडू",
+        "answer": "Red ball",
+        "feedback": "वाक्य होते: Red ball"
       },
       {
-        "id": 78,
-        "type": "Listening",
-        "audioText": "Welcome",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "Welcome",
-        "feedback": "योग्य उत्तर आहे: Welcome"
+        "id": 57,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: हिरवे झाड",
+        "answer": "Green tree",
+        "feedback": "वाक्य होते: Green tree"
       },
       {
-        "id": 79,
-        "type": "Listening",
-        "audioText": "Yes",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "Yes",
-        "feedback": "योग्य उत्तर आहे: Yes"
+        "id": 58,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: पाणी प्या",
+        "answer": "Drink water",
+        "feedback": "वाक्य होते: Drink water"
       },
       {
-        "id": 80,
-        "type": "Listening",
-        "audioText": "No",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "No",
-        "feedback": "योग्य उत्तर आहे: No"
+        "id": 59,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: दार उघडा",
+        "answer": "Open door",
+        "feedback": "वाक्य होते: Open door"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: खिडकी बंद करा",
+        "answer": "Close window",
+        "feedback": "वाक्य होते: Close window"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: आनंदी मूल",
+        "answer": "Happy child",
+        "feedback": "वाक्य होते: Happy child"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: वेगवान गाडी",
+        "answer": "Fast car",
+        "feedback": "वाक्य होते: Fast car"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: लहान मांजर",
+        "answer": "Small cat",
+        "feedback": "वाक्य होते: Small cat"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: मोठे घर",
+        "answer": "Big house",
+        "feedback": "वाक्य होते: Big house"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: पिवळे फूल",
+        "answer": "Yellow flower",
+        "feedback": "वाक्य होते: Yellow flower"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: पुस्तक वाचा",
+        "answer": "Read book",
+        "feedback": "वाक्य होते: Read book"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: हात स्वच्छ करा",
+        "answer": "Clean hands",
+        "feedback": "वाक्य होते: Clean hands"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: अन्न खा",
+        "answer": "Eat food",
+        "feedback": "वाक्य होते: Eat food"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: छान दिवस",
+        "answer": "Nice day",
+        "feedback": "वाक्य होते: Nice day"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: घरी जा",
+        "answer": "Go home",
+        "feedback": "वाक्य होते: Go home"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: चांगला मित्र",
+        "answer": "Good friend",
+        "feedback": "वाक्य होते: Good friend"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: माझी शाळा",
+        "answer": "My school",
+        "feedback": "वाक्य होते: My school"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: गोड आंबा",
+        "answer": "Sweet mango",
+        "feedback": "वाक्य होते: Sweet mango"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: आनंदी शिक्षण",
+        "answer": "Happy learning",
+        "feedback": "वाक्य होते: Happy learning"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: चांगले केले",
+        "answer": "Well done",
+        "feedback": "वाक्य होते: Well done"
       }
     ],
     "Grammar": [
       {
-        "id": 101,
+        "id": 76,
         "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: I ___ a student.",
+        "text": "रिक्त जागा भरा: I ___ a student.",
         "options": [
           "am",
           "is",
@@ -193,12 +671,12 @@
         "feedback": "योग्य उत्तर आहे: am"
       },
       {
-        "id": 102,
+        "id": 77,
         "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: He ___ a boy.",
+        "text": "रिक्त जागा भरा: She ___ happy.",
         "options": [
-          "is",
           "am",
+          "is",
           "are",
           "be"
         ],
@@ -206,12 +684,90 @@
         "feedback": "योग्य उत्तर आहे: is"
       },
       {
-        "id": 103,
+        "id": 78,
         "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: They ___ playing.",
+        "text": "रिक्त जागा भरा: They ___ playing.",
         "options": [
+          "am",
+          "is",
+          "are",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "योग्य उत्तर आहे: are"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: This is ___ apple.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "योग्य उत्तर आहे: an"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: I have ___ book.",
+        "options": [
+          "an",
+          "a",
+          "the",
+          "no article"
+        ],
+        "answer": "a",
+        "feedback": "योग्य उत्तर आहे: a"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: ___ sun rises in the east.",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "No article"
+        ],
+        "answer": "The",
+        "feedback": "योग्य उत्तर आहे: The"
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: We ___ friends.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "are",
+        "feedback": "योग्य उत्तर आहे: are"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: He ___ my brother.",
+        "options": [
+          "am",
           "are",
           "is",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "योग्य उत्तर आहे: is"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: The birds ___ flying.",
+        "options": [
+          "is",
+          "are",
           "am",
           "was"
         ],
@@ -219,739 +775,3163 @@
         "feedback": "योग्य उत्तर आहे: are"
       },
       {
-        "id": 104,
+        "id": 85,
         "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: She ___ reading.",
+        "text": "रिक्त जागा भरा: She has two ___.",
         "options": [
+          "book",
+          "books",
+          "bookes",
+          "bookses"
+        ],
+        "answer": "books",
+        "feedback": "योग्य उत्तर आहे: books"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: I eat ___ banana every day.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "a",
+        "feedback": "योग्य उत्तर आहे: a"
+      },
+      {
+        "id": 87,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Ravi ___ a doctor.",
+        "options": [
+          "are",
           "is",
           "am",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "योग्य उत्तर आहे: is"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: We ___ to school.",
+        "options": [
+          "goes",
+          "go",
+          "going",
+          "gone"
+        ],
+        "answer": "go",
+        "feedback": "योग्य उत्तर आहे: go"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: She ___ water.",
+        "options": [
+          "drink",
+          "drinks",
+          "drinking",
+          "drank"
+        ],
+        "answer": "drinks",
+        "feedback": "योग्य उत्तर आहे: drinks"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: They ___ football.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "answer": "play",
+        "feedback": "योग्य उत्तर आहे: play"
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: This ___ my bag.",
+        "options": [
           "are",
+          "is",
+          "am",
           "be"
         ],
         "answer": "is",
         "feedback": "योग्य उत्तर आहे: is"
       },
       {
-        "id": 105,
+        "id": 92,
         "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: We ___ happy.",
+        "text": "रिक्त जागा भरा: I ___ my homework.",
         "options": [
-          "are",
-          "is",
-          "am",
-          "be"
+          "do",
+          "does",
+          "dids",
+          "doing"
         ],
-        "answer": "are",
-        "feedback": "योग्य उत्तर आहे: are"
+        "answer": "do",
+        "feedback": "योग्य उत्तर आहे: do"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: He ___ his homework.",
+        "options": [
+          "do",
+          "does",
+          "doing",
+          "done"
+        ],
+        "answer": "does",
+        "feedback": "योग्य उत्तर आहे: does"
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: We have three ___.",
+        "options": [
+          "pen",
+          "pens",
+          "penes",
+          "penc"
+        ],
+        "answer": "pens",
+        "feedback": "योग्य उत्तर आहे: pens"
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: The child ___ smiling.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "योग्य उत्तर आहे: is"
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: ___ is my teacher.",
+        "options": [
+          "He",
+          "Him",
+          "His",
+          "Himself"
+        ],
+        "answer": "He",
+        "feedback": "योग्य उत्तर आहे: He"
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: This is ___ pencil.",
+        "options": [
+          "my",
+          "me",
+          "I",
+          "mine"
+        ],
+        "answer": "my",
+        "feedback": "योग्य उत्तर आहे: my"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: They live ___ India.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "from"
+        ],
+        "answer": "in",
+        "feedback": "योग्य उत्तर आहे: in"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: The cat is ___ the table.",
+        "options": [
+          "on",
+          "in",
+          "under",
+          "from"
+        ],
+        "answer": "on",
+        "feedback": "योग्य उत्तर आहे: on"
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: We ___ English every day.",
+        "options": [
+          "learns",
+          "learn",
+          "learning",
+          "learned"
+        ],
+        "answer": "learn",
+        "feedback": "योग्य उत्तर आहे: learn"
       }
     ],
     "Puzzle": [
       {
-        "id": 126,
+        "id": 101,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "dog",
-          "The",
-          "barks"
+        "text": "कोणता शब्द वेगळा आहे?",
+        "options": [
+          "Apple",
+          "Mango",
+          "Banana",
+          "Chair"
         ],
-        "answer": "The dog barks",
-        "feedback": "योग्य उत्तर आहे: The dog barks"
+        "answer": "Chair",
+        "feedback": "योग्य उत्तर आहे: Chair"
       },
       {
-        "id": 127,
+        "id": 102,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "boy",
-          "is",
-          "He",
-          "a"
+        "text": "नमुना पूर्ण करा: A, B, C, __",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "G"
         ],
-        "answer": "He is a boy",
-        "feedback": "योग्य उत्तर आहे: He is a boy"
+        "answer": "D",
+        "feedback": "योग्य उत्तर आहे: D"
       },
       {
-        "id": 128,
+        "id": 103,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "playing",
-          "are",
-          "They"
+        "text": "पुढे कोणता नंबर येतो? 2, 4, 6, 8, __",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
         ],
-        "answer": "They are playing",
-        "feedback": "योग्य उत्तर आहे: They are playing"
+        "answer": "10",
+        "feedback": "योग्य उत्तर आहे: 10"
       },
       {
-        "id": 129,
+        "id": 104,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "reading",
-          "She",
-          "is"
+        "text": "कोणते फळ नाही?",
+        "options": [
+          "Orange",
+          "Apple",
+          "Potato",
+          "Mango"
         ],
-        "answer": "She is reading",
-        "feedback": "योग्य उत्तर आहे: She is reading"
+        "answer": "Potato",
+        "feedback": "योग्य उत्तर आहे: Potato"
       },
       {
-        "id": 130,
+        "id": 105,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "happy",
-          "We",
-          "are"
+        "text": "विषम शोधा.",
+        "options": [
+          "Cat",
+          "Dog",
+          "Cow",
+          "Table"
         ],
-        "answer": "We are happy",
-        "feedback": "योग्य उत्तर आहे: We are happy"
+        "answer": "Table",
+        "feedback": "योग्य उत्तर आहे: Table"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "कोणत्या आकाराला कोपरे नाहीत?",
+        "options": [
+          "Square",
+          "Rectangle",
+          "Circle",
+          "Triangle"
+        ],
+        "answer": "Circle",
+        "feedback": "योग्य उत्तर आहे: Circle"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "कोणता प्रथम येतो?",
+        "options": [
+          "Evening",
+          "Morning",
+          "Night",
+          "Midnight"
+        ],
+        "answer": "Morning",
+        "feedback": "योग्य उत्तर आहे: Morning"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "शब्द पूर्ण करा: C _ T",
+        "options": [
+          "A",
+          "O",
+          "E",
+          "U"
+        ],
+        "answer": "A",
+        "feedback": "योग्य उत्तर आहे: A"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "सर्वात मोठे कोणते?",
+        "options": [
+          "Ant",
+          "Elephant",
+          "Rat",
+          "Cat"
+        ],
+        "answer": "Elephant",
+        "feedback": "योग्य उत्तर आहे: Elephant"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "वर्गात कोणते?",
+        "options": [
+          "Blackboard",
+          "Pillow",
+          "Stove",
+          "Shower"
+        ],
+        "answer": "Blackboard",
+        "feedback": "योग्य उत्तर आहे: Blackboard"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "पुढील अक्षर शोधा: M, N, O, __",
+        "options": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ],
+        "answer": "P",
+        "feedback": "योग्य उत्तर आहे: P"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "स्वयंपाकासाठी कोणता वापरला जातो?",
+        "options": [
+          "Pan",
+          "Book",
+          "Ball",
+          "Pencil"
+        ],
+        "answer": "Pan",
+        "feedback": "योग्य उत्तर आहे: Pan"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "सर्वात लहान संख्या कोणती?",
+        "options": [
+          "7",
+          "2",
+          "5",
+          "9"
+        ],
+        "answer": "2",
+        "feedback": "योग्य उत्तर आहे: 2"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "पाण्यात कोणता प्राणी राहतो?",
+        "options": [
+          "Lion",
+          "Fish",
+          "Goat",
+          "Horse"
+        ],
+        "answer": "Fish",
+        "feedback": "योग्य उत्तर आहे: Fish"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "वाहतूक वाहन कोणते आहे?",
+        "options": [
+          "Bus",
+          "Tree",
+          "Chair",
+          "Fan"
+        ],
+        "answer": "Bus",
+        "feedback": "योग्य उत्तर आहे: Bus"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "क्रम पूर्ण करा: 10, 20, 30, __",
+        "options": [
+          "35",
+          "40",
+          "45",
+          "50"
+        ],
+        "answer": "40",
+        "feedback": "योग्य उत्तर आहे: 40"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "वेळ सांगण्यासाठी कोणता वापरला जातो?",
+        "options": [
+          "Clock",
+          "Spoon",
+          "Plate",
+          "Bottle"
+        ],
+        "answer": "Clock",
+        "feedback": "योग्य उत्तर आहे: Clock"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "शुक्रवार नंतर कोणता येतो?",
+        "options": [
+          "Thursday",
+          "Saturday",
+          "Sunday",
+          "Monday"
+        ],
+        "answer": "Saturday",
+        "feedback": "योग्य उत्तर आहे: Saturday"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "कोणत्या शब्दाला सर्वाधिक अक्षरे आहेत?",
+        "options": [
+          "Cat",
+          "Elephant",
+          "Dog",
+          "Cow"
+        ],
+        "answer": "Elephant",
+        "feedback": "योग्य उत्तर आहे: Elephant"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "कोणती वस्तू प्रकाश देते?",
+        "options": [
+          "Lamp",
+          "Chair",
+          "Bag",
+          "Shoe"
+        ],
+        "answer": "Lamp",
+        "feedback": "योग्य उत्तर आहे: Lamp"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "\"ओपन\" च्या विरुद्धार्थी कोणता आहे?",
+        "options": [
+          "Start",
+          "Close",
+          "Run",
+          "Walk"
+        ],
+        "answer": "Close",
+        "feedback": "योग्य उत्तर आहे: Close"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "कोणता नंबर गहाळ आहे? ५, १०, __, २०",
+        "options": [
+          "12",
+          "15",
+          "18",
+          "25"
+        ],
+        "answer": "15",
+        "feedback": "योग्य उत्तर आहे: 15"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "कोणता पक्षी आहे?",
+        "options": [
+          "Sparrow",
+          "Tiger",
+          "Horse",
+          "Cow"
+        ],
+        "answer": "Sparrow",
+        "feedback": "योग्य उत्तर आहे: Sparrow"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "K च्या आधी कोणते अक्षर येते?",
+        "options": [
+          "H",
+          "I",
+          "J",
+          "L"
+        ],
+        "answer": "J",
+        "feedback": "योग्य उत्तर आहे: J"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "वाचनासाठी कोणती वस्तू वापरली जाते?",
+        "options": [
+          "Book",
+          "Plate",
+          "Shoe",
+          "Cup"
+        ],
+        "answer": "Book",
+        "feedback": "योग्य उत्तर आहे: Book"
       }
     ]
   },
   "Intermediate": {
     "MCQ": [
       {
-        "id": 201,
+        "id": 1,
         "type": "MCQ",
-        "text": "भाषांतर करा: Beautiful",
+        "text": "योग्य वाक्य निवडा.",
         "options": [
-          "सुंदर",
-          "Ugly",
-          "Fast",
-          "Slow"
+          "She go to school.",
+          "She goes to school.",
+          "She going school.",
+          "She gone school."
         ],
-        "answer": "सुंदर",
-        "feedback": "योग्य उत्तर आहे: सुंदर"
+        "answer": "She goes to school.",
+        "feedback": "बरोबर उत्तर आहे ती शाळेत जाते."
       },
       {
-        "id": 202,
+        "id": 2,
         "type": "MCQ",
-        "text": "भाषांतर करा: Library",
+        "text": "\"आनंदी\" च्या विरुद्धार्थी शब्द कोणता आहे?",
         "options": [
-          "ग्रंथालय",
+          "Joyful",
+          "Sad",
+          "Excited",
+          "Bright"
+        ],
+        "answer": "Sad",
+        "feedback": "बरोबर उत्तर दुःखी आहे"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "वाक्य पूर्ण करा: पक्षी _____ आकाशात.",
+        "options": [
+          "swim",
+          "fly",
+          "walk",
+          "crawl"
+        ],
+        "answer": "fly",
+        "feedback": "बरोबर उत्तर आहे माशी"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "कोणता शब्द क्रियापद आहे?",
+        "options": [
+          "Teacher",
+          "Running",
           "School",
-          "Hospital",
-          "Park"
+          "Table"
         ],
-        "answer": "ग्रंथालय",
-        "feedback": "योग्य उत्तर आहे: ग्रंथालय"
+        "answer": "Running",
+        "feedback": "योग्य उत्तर म्हणजे धावणे"
       },
       {
-        "id": 203,
+        "id": 5,
         "type": "MCQ",
-        "text": "रिकाम्या जागा भरा: Past tense of 'run' is ___",
+        "text": "कोणते वाक्य बरोबर आहे?",
         "options": [
-          "ran",
-          "runned",
-          "running",
-          "runs"
+          "They is playing.",
+          "They are playing.",
+          "They am playing.",
+          "They be playing."
         ],
-        "answer": "ran",
-        "feedback": "योग्य उत्तर आहे: ran"
+        "answer": "They are playing.",
+        "feedback": "बरोबर उत्तर आहे ते खेळत आहेत."
       },
       {
-        "id": 204,
+        "id": 6,
         "type": "MCQ",
-        "text": "रिकाम्या जागा भरा: Opposite of 'hot' is ___",
+        "text": "कोणता शब्द द्रुत शब्दाचा समानार्थी शब्द आहे?",
         "options": [
-          "cold",
-          "warm",
-          "boiling",
-          "freezing"
+          "Slow",
+          "Fast",
+          "Late",
+          "Quiet"
         ],
-        "answer": "cold",
-        "feedback": "योग्य उत्तर आहे: cold"
+        "answer": "Fast",
+        "feedback": "बरोबर उत्तर जलद आहे"
       },
       {
-        "id": 205,
+        "id": 7,
         "type": "MCQ",
-        "text": "रिकाम्या जागा भरा: Verb is ___",
+        "text": "योग्य शब्दलेखन निवडा.",
         "options": [
-          "Run",
-          "Apple",
-          "Blue",
-          "Quickly"
+          "Beautifull",
+          "Beautiful",
+          "Beautifal",
+          "Beutiful"
         ],
-        "answer": "Run",
-        "feedback": "योग्य उत्तर आहे: Run"
-      }
-    ],
-    "Reading": [
-      {
-        "id": 226,
-        "type": "Reading",
-        "text": "मोठ्याने वाचा: मी एक नवीन भाषा शिकत आहे.",
-        "word": "मी एक नवीन भाषा शिकत आहे."
-      },
-      {
-        "id": 227,
-        "type": "Reading",
-        "text": "मोठ्याने वाचा: The quick brown fox.",
-        "word": "The quick brown fox."
-      },
-      {
-        "id": 228,
-        "type": "Reading",
-        "text": "मोठ्याने वाचा: It is raining outside.",
-        "word": "It is raining outside."
-      },
-      {
-        "id": 229,
-        "type": "Reading",
-        "text": "मोठ्याने वाचा: She likes to read books.",
-        "word": "She likes to read books."
-      },
-      {
-        "id": 230,
-        "type": "Reading",
-        "text": "मोठ्याने वाचा: I am learning English.",
-        "word": "I am learning English."
-      }
-    ],
-    "Writing": [
-      {
-        "id": 251,
-        "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: ग्रंथालय कुठे आहे?",
-        "answer": "Where is the library?",
-        "feedback": "योग्य भाषांतर आहे: Where is the library?"
-      },
-      {
-        "id": 252,
-        "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: Beautiful",
         "answer": "Beautiful",
-        "feedback": "योग्य भाषांतर आहे: Beautiful"
+        "feedback": "बरोबर उत्तर सुंदर आहे"
       },
       {
-        "id": 253,
-        "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: Important",
-        "answer": "Important",
-        "feedback": "योग्य भाषांतर आहे: Important"
-      },
-      {
-        "id": 254,
-        "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: Because",
-        "answer": "Because",
-        "feedback": "योग्य भाषांतर आहे: Because"
-      },
-      {
-        "id": 255,
-        "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: Together",
-        "answer": "Together",
-        "feedback": "योग्य भाषांतर आहे: Together"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 276,
-        "type": "Listening",
-        "audioText": "तू कसा आहेस?",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "How are you?",
-        "feedback": "योग्य उत्तर आहे: How are you?"
-      },
-      {
-        "id": 277,
-        "type": "Listening",
-        "audioText": "Beautiful",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "Beautiful",
-        "feedback": "योग्य उत्तर आहे: Beautiful"
-      },
-      {
-        "id": 278,
-        "type": "Listening",
-        "audioText": "I am fine",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "I am fine",
-        "feedback": "योग्य उत्तर आहे: I am fine"
-      },
-      {
-        "id": 279,
-        "type": "Listening",
-        "audioText": "See you later",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "See you later",
-        "feedback": "योग्य उत्तर आहे: See you later"
-      },
-      {
-        "id": 280,
-        "type": "Listening",
-        "audioText": "Have a good day",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "Have a good day",
-        "feedback": "योग्य उत्तर आहे: Have a good day"
-      }
-    ],
-    "Grammar": [
-      {
-        "id": 301,
-        "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: She ___ to the store yesterday.",
+        "id": 8,
+        "type": "MCQ",
+        "text": "कोणत्या वाक्याचा शेवट प्रश्नचिन्हाने होतो?",
         "options": [
-          "went",
-          "go",
-          "going",
-          "goes"
+          "I like apples.",
+          "Where are you?",
+          "She is happy.",
+          "Open the door."
         ],
-        "answer": "went",
-        "feedback": "योग्य उत्तर आहे: went"
+        "answer": "Where are you?",
+        "feedback": "बरोबर उत्तर आहे तुम्ही कुठे आहात?"
       },
       {
-        "id": 302,
-        "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: I have ___ eaten breakfast.",
+        "id": 9,
+        "type": "MCQ",
+        "text": "कोणता शब्द एक संज्ञा आहे?",
         "options": [
-          "already",
-          "yet",
-          "still",
-          "soon"
+          "Dance",
+          "House",
+          "Quickly",
+          "Happy"
         ],
-        "answer": "already",
-        "feedback": "योग्य उत्तर आहे: already"
+        "answer": "House",
+        "feedback": "बरोबर उत्तर हाऊस आहे"
       },
       {
-        "id": 303,
-        "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: He is taller ___ his brother.",
+        "id": 10,
+        "type": "MCQ",
+        "text": "कोणते वाक्य सभ्य आहे?",
         "options": [
-          "than",
-          "then",
-          "that",
-          "there"
+          "Move away!",
+          "Please help me.",
+          "Give me that.",
+          "Be quiet."
         ],
-        "answer": "than",
-        "feedback": "योग्य उत्तर आहे: than"
+        "answer": "Please help me.",
+        "feedback": "बरोबर उत्तर आहे कृपया मला मदत करा."
       },
       {
-        "id": 304,
-        "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: They will arrive ___ Monday.",
+        "id": 11,
+        "type": "MCQ",
+        "text": "वाक्य पूर्ण करा: पाणी जीवनासाठी _____ आहे.",
+        "options": [
+          "important",
+          "noisy",
+          "expensive",
+          "dirty"
+        ],
+        "answer": "important",
+        "feedback": "बरोबर उत्तर महत्वाचे आहे"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "गटातील कोणता शब्द आहे? गुलाब, लिली, कमळ, _____",
+        "options": [
+          "Mango",
+          "Jasmine",
+          "Potato",
+          "Rice"
+        ],
+        "answer": "Jasmine",
+        "feedback": "बरोबर उत्तर आहे चमेली"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "योग्य लेख निवडा. मी _____ हत्ती पाहिला.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "बरोबर उत्तर आहे an"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "कोणता शब्द विशेषण आहे?",
+        "options": [
+          "Tall",
+          "Walk",
+          "School",
+          "Friend"
+        ],
+        "answer": "Tall",
+        "feedback": "बरोबर उत्तर आहे उंच"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "कोणते वाक्य भूतकाळातील आहे?",
+        "options": [
+          "I play football.",
+          "I played football.",
+          "I am playing football.",
+          "I will play football."
+        ],
+        "answer": "I played football.",
+        "feedback": "बरोबर उत्तर आहे मी फुटबॉल खेळलो."
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "रुग्णालयात कोणते वापरले जाते?",
+        "options": [
+          "Stethoscope",
+          "Hammer",
+          "Spade",
+          "Eraser"
+        ],
+        "answer": "Stethoscope",
+        "feedback": "बरोबर उत्तर स्टेथोस्कोप आहे"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "कोणता शब्द वाक्य पूर्ण करतो? ट्रेन _____ वेळेत आली.",
         "options": [
           "on",
           "in",
           "at",
-          "by"
+          "over"
+        ],
+        "answer": "on",
+        "feedback": "बरोबर उत्तर चालू आहे"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "बरोबर अनेकवचनी कोणते?",
+        "options": [
+          "Childs",
+          "Children",
+          "Childes",
+          "Childrens"
+        ],
+        "answer": "Children",
+        "feedback": "बरोबर उत्तर आहे मुले"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "कोणत्या वाक्यात योग्य कॅपिटलायझेशन आहे?",
+        "options": [
+          "india is my country.",
+          "India is my country.",
+          "india Is my country.",
+          "India is My country."
+        ],
+        "answer": "India is my country.",
+        "feedback": "भारत माझा देश आहे हे बरोबर उत्तर आहे."
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "शेतीशी संबंधित शब्द कोणता?",
+        "options": [
+          "Tractor",
+          "Laptop",
+          "Television",
+          "Printer"
+        ],
+        "answer": "Tractor",
+        "feedback": "बरोबर उत्तर ट्रॅक्टर आहे"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "योग्य शब्द निवडा. बाळ _____ जोरात आहे.",
+        "options": [
+          "cry",
+          "crying",
+          "cried",
+          "cries"
+        ],
+        "answer": "crying",
+        "feedback": "योग्य उत्तर म्हणजे रडणे"
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "कोणते वाक्य सर्वात अर्थपूर्ण आहे?",
+        "options": [
+          "The fish climbed a tree.",
+          "The fish swims in water.",
+          "The fish drives a car.",
+          "The fish writes a letter."
+        ],
+        "answer": "The fish swims in water.",
+        "feedback": "बरोबर उत्तर आहे मासा पाण्यात पोहतो."
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "स्ट्राँगचा विरुद्धार्थी शब्द कोणता आहे?",
+        "options": [
+          "Powerful",
+          "Weak",
+          "Healthy",
+          "Brave"
+        ],
+        "answer": "Weak",
+        "feedback": "बरोबर उत्तर कमकुवत आहे"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "कोणते विरामचिन्हे उद्गारवाचक वाक्य संपवतात?",
+        "options": [
+          ".",
+          ",",
+          "!",
+          "?"
+        ],
+        "answer": "!",
+        "feedback": "बरोबर उत्तर आहे!"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "वाक्य पूर्ण करा. आपण नेहमी सत्य _____ ठेवले पाहिजे.",
+        "options": [
+          "tell",
+          "hide",
+          "forget",
+          "break"
+        ],
+        "answer": "tell",
+        "feedback": "बरोबर उत्तर सांगा"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: My name is Rahul. I enjoy reading books every evening.",
+        "word": "My name is Rahul. I enjoy reading books every evening."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The children are playing football in the school playground.",
+        "word": "The children are playing football in the school playground."
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: My mother prepares healthy food for our family every day.",
+        "word": "My mother prepares healthy food for our family every day."
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The bus arrived on time, so everyone reached school early.",
+        "word": "The bus arrived on time, so everyone reached school early."
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: We should drink clean water to stay healthy and active.",
+        "word": "We should drink clean water to stay healthy and active."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The farmer works hard to grow fresh fruits and vegetables.",
+        "word": "The farmer works hard to grow fresh fruits and vegetables."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Rita helped her grandmother carry groceries from the market.",
+        "word": "Rita helped her grandmother carry groceries from the market."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The weather is pleasant today, so we decided to visit the park.",
+        "word": "The weather is pleasant today, so we decided to visit the park."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: My teacher encourages us to ask questions and learn new things.",
+        "word": "My teacher encourages us to ask questions and learn new things."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Trees provide fresh air, shade, and homes for many birds.",
+        "word": "Trees provide fresh air, shade, and homes for many birds."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Every morning, I wake up early and exercise for thirty minutes.",
+        "word": "Every morning, I wake up early and exercise for thirty minutes."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The doctor advised the patient to eat healthy food and rest well.",
+        "word": "The doctor advised the patient to eat healthy food and rest well."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Our library has many interesting books about science, history, and nature.",
+        "word": "Our library has many interesting books about science, history, and nature."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Always wear a helmet while riding a bicycle to stay safe.",
+        "word": "Always wear a helmet while riding a bicycle to stay safe."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The train was delayed because of heavy rainfall during the night.",
+        "word": "The train was delayed because of heavy rainfall during the night."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Students should complete their homework before watching television.",
+        "word": "Students should complete their homework before watching television."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The shopkeeper greeted every customer with a warm smile.",
+        "word": "The shopkeeper greeted every customer with a warm smile."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Saving electricity helps protect the environment and reduces electricity bills.",
+        "word": "Saving electricity helps protect the environment and reduces electricity bills."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Our school organized a tree plantation drive on Environment Day.",
+        "word": "Our school organized a tree plantation drive on Environment Day."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Honesty and kindness help us build strong friendships with others.",
+        "word": "Honesty and kindness help us build strong friendships with others."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The computer helps us learn, communicate, and solve many problems.",
+        "word": "The computer helps us learn, communicate, and solve many problems."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Reading newspapers every day improves vocabulary and general knowledge.",
+        "word": "Reading newspapers every day improves vocabulary and general knowledge."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Good communication skills help people succeed in school and at work.",
+        "word": "Good communication skills help people succeed in school and at work."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Learning a new language helps us understand different cultures and traditions.",
+        "word": "Learning a new language helps us understand different cultures and traditions."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Regular practice and determination help every learner achieve success.",
+        "word": "Regular practice and determination help every learner achieve success."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: शुभ दुपार",
+        "answer": "Good afternoon",
+        "feedback": "वाक्य होते: Good afternoon"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: स्वच्छ पाणी",
+        "answer": "Clean water",
+        "feedback": "वाक्य होते: Clean water"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: निरोगी अन्न",
+        "answer": "Healthy food",
+        "feedback": "वाक्य होते: Healthy food"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: खिडकी उघडा",
+        "answer": "Open window",
+        "feedback": "वाक्य होते: Open window"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: गेट बंद करा",
+        "answer": "Close gate",
+        "feedback": "वाक्य होते: Close gate"
+      },
+      {
+        "id": 56,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: काळजीपूर्वक वाचा",
+        "answer": "Read carefully",
+        "feedback": "वाक्य होते: Read carefully"
+      },
+      {
+        "id": 57,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: स्पष्ट बोला",
+        "answer": "Speak clearly",
+        "feedback": "वाक्य होते: Speak clearly"
+      },
+      {
+        "id": 58,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: एकत्र काम करा",
+        "answer": "Work together",
+        "feedback": "वाक्य होते: Work together"
+      },
+      {
+        "id": 59,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: वीज वाचवा",
+        "answer": "Save electricity",
+        "feedback": "वाक्य होते: Save electricity"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: झाडे लावा",
+        "answer": "Plant trees",
+        "feedback": "वाक्य होते: Plant trees"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: इतरांना मदत करा",
+        "answer": "Help others",
+        "feedback": "वाक्य होते: Help others"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: नियम पाळा",
+        "answer": "Follow rules",
+        "feedback": "वाक्य होते: Follow rules"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: हसत राहा",
+        "answer": "Keep smiling",
+        "feedback": "वाक्य होते: Keep smiling"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: नियमित अभ्यास करा",
+        "answer": "Study regularly",
+        "feedback": "वाक्य होते: Study regularly"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: सकारात्मक विचार करा",
+        "answer": "Think positively",
+        "feedback": "वाक्य होते: Think positively"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: लवकर या",
+        "answer": "Arrive early",
+        "feedback": "वाक्य होते: Arrive early"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: भाज्या धुवा",
+        "answer": "Wash vegetables",
+        "feedback": "वाक्य होते: Wash vegetables"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: ज्येष्ठांचा आदर करा",
+        "answer": "Respect elders",
+        "feedback": "वाक्य होते: Respect elders"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: हेल्मेट वापरा",
+        "answer": "Use helmet",
+        "feedback": "वाक्य होते: Use helmet"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: लक्ष केंद्रित ठेवा",
+        "answer": "Stay focused",
+        "feedback": "वाक्य होते: Stay focused"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: रोज शिका",
+        "answer": "Learn daily",
+        "feedback": "वाक्य होते: Learn daily"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: गृहपाठ पूर्ण करा",
+        "answer": "Finish homework",
+        "feedback": "वाक्य होते: Finish homework"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: ज्ञान सामायिक करा",
+        "answer": "Share knowledge",
+        "feedback": "वाक्य होते: Share knowledge"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: बोलण्याचा सराव करा",
+        "answer": "Practice speaking",
+        "feedback": "वाक्य होते: Practice speaking"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: स्वतःवर विश्वास ठेवा",
+        "answer": "Believe yourself",
+        "feedback": "वाक्य होते: Believe yourself"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: She _____ to school every day.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "gone"
+        ],
+        "answer": "goes",
+        "feedback": "योग्य उत्तर आहे: goes"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: They _____ football yesterday.",
+        "options": [
+          "play",
+          "played",
+          "plays",
+          "playing"
+        ],
+        "answer": "played",
+        "feedback": "योग्य उत्तर आहे: played"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: I _____ my homework every evening.",
+        "options": [
+          "do",
+          "does",
+          "did",
+          "doing"
+        ],
+        "answer": "do",
+        "feedback": "योग्य उत्तर आहे: do"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: We _____ going to the market tomorrow.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "योग्य उत्तर आहे: are"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Choose the correct article. I saw _____ owl in the tree.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "योग्य उत्तर आहे: an"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: The books are _____ the table.",
+        "options": [
+          "in",
+          "on",
+          "under",
+          "between"
         ],
         "answer": "on",
         "feedback": "योग्य उत्तर आहे: on"
       },
       {
-        "id": 305,
+        "id": 82,
         "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: She ___ speaking French.",
+        "text": "रिक्त जागा भरा: My father _____ a car.",
+        "options": [
+          "drive",
+          "drives",
+          "driving",
+          "driven"
+        ],
+        "answer": "drives",
+        "feedback": "योग्य उत्तर आहे: drives"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: We _____ lunch at 1 p.m.",
+        "options": [
+          "eat",
+          "eats",
+          "eating",
+          "ate"
+        ],
+        "answer": "eat",
+        "feedback": "योग्य उत्तर आहे: eat"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Choose the correct pronoun. Riya is absent. _____ is sick.",
+        "options": [
+          "He",
+          "She",
+          "They",
+          "It"
+        ],
+        "answer": "She",
+        "feedback": "योग्य उत्तर आहे: She"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: I _____ a movie last night.",
+        "options": [
+          "watch",
+          "watched",
+          "watches",
+          "watching"
+        ],
+        "answer": "watched",
+        "feedback": "योग्य उत्तर आहे: watched"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Which sentence is correct?",
+        "options": [
+          "He don't like tea.",
+          "He doesn't like tea.",
+          "He not like tea.",
+          "He didn't likes tea."
+        ],
+        "answer": "He doesn't like tea.",
+        "feedback": "योग्य उत्तर आहे: He doesn't like tea."
+      },
+      {
+        "id": 87,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Choose the correct conjunction. I was tired, _____ I finished my work.",
+        "options": [
+          "but",
+          "or",
+          "because",
+          "if"
+        ],
+        "answer": "but",
+        "feedback": "योग्य उत्तर आहे: but"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: They _____ in Jaipur.",
+        "options": [
+          "lives",
+          "live",
+          "living",
+          "lived"
+        ],
+        "answer": "live",
+        "feedback": "योग्य उत्तर आहे: live"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: My sister is _____ engineer.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "योग्य उत्तर आहे: an"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: We should _____ honest.",
         "options": [
           "is",
-          "am",
+          "be",
           "are",
-          "be"
+          "being"
         ],
-        "answer": "is",
-        "feedback": "योग्य उत्तर आहे: is"
+        "answer": "be",
+        "feedback": "योग्य उत्तर आहे: be"
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: The children _____ happily in the park.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "answer": "play",
+        "feedback": "योग्य उत्तर आहे: play"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Which word correctly completes the sentence? Please sit _____ me.",
+        "options": [
+          "beside",
+          "inside",
+          "above",
+          "behind"
+        ],
+        "answer": "beside",
+        "feedback": "योग्य उत्तर आहे: beside"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: She _____ English very well.",
+        "options": [
+          "speak",
+          "speaks",
+          "speaking",
+          "spoken"
+        ],
+        "answer": "speaks",
+        "feedback": "योग्य उत्तर आहे: speaks"
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Choose the correct sentence.",
+        "options": [
+          "There are five apples.",
+          "There is five apples.",
+          "There am five apples.",
+          "There be five apples."
+        ],
+        "answer": "There are five apples.",
+        "feedback": "योग्य उत्तर आहे: There are five apples."
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: I _____ to visit my grandparents next week.",
+        "options": [
+          "am going",
+          "was going",
+          "going",
+          "goes"
+        ],
+        "answer": "am going",
+        "feedback": "योग्य उत्तर आहे: am going"
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Which sentence is in the future tense?",
+        "options": [
+          "I play cricket.",
+          "I played cricket.",
+          "I will play cricket.",
+          "I am played cricket."
+        ],
+        "answer": "I will play cricket.",
+        "feedback": "योग्य उत्तर आहे: I will play cricket."
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Fill in the blank. The teacher gave _____ homework.",
+        "options": [
+          "us",
+          "we",
+          "our",
+          "ours"
+        ],
+        "answer": "us",
+        "feedback": "योग्य उत्तर आहे: us"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Choose the correct punctuation. _____ are you today?",
+        "options": [
+          "!",
+          ".",
+          "?",
+          ","
+        ],
+        "answer": "?",
+        "feedback": "योग्य उत्तर आहे: ?"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Which sentence is grammatically correct?",
+        "options": [
+          "She can sings.",
+          "She can sing.",
+          "She can singing.",
+          "She can sang."
+        ],
+        "answer": "She can sing.",
+        "feedback": "योग्य उत्तर आहे: She can sing."
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Complete the sentence. Everyone should _____ the environment.",
+        "options": [
+          "protect",
+          "protects",
+          "protected",
+          "protecting"
+        ],
+        "answer": "protect",
+        "feedback": "योग्य उत्तर आहे: protect"
       }
     ],
     "Puzzle": [
       {
-        "id": 326,
+        "id": 101,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "store",
-          "She",
-          "went",
-          "the",
-          "to"
+        "text": "विषम एक शोधा.",
+        "options": [
+          "Rose",
+          "Lotus",
+          "Mango",
+          "Lily"
         ],
-        "answer": "She went to the store",
-        "feedback": "योग्य उत्तर आहे: She went to the store"
+        "answer": "Mango",
+        "feedback": "योग्य उत्तर आहे: Mango"
       },
       {
-        "id": 327,
+        "id": 102,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "brother",
-          "than",
-          "taller",
-          "He",
-          "is",
-          "his"
+        "text": "क्रम पूर्ण करा. 5, 10, 15, 20, __",
+        "options": [
+          "22",
+          "25",
+          "30",
+          "35"
         ],
-        "answer": "He is taller than his brother",
-        "feedback": "योग्य उत्तर आहे: He is taller than his brother"
+        "answer": "25",
+        "feedback": "योग्य उत्तर आहे: 25"
       },
       {
-        "id": 328,
+        "id": 103,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "Monday",
-          "arrive",
-          "on",
-          "They",
-          "will"
+        "text": "कोणता शब्द संबंधित नाही?",
+        "options": [
+          "Doctor",
+          "Nurse",
+          "Teacher",
+          "Banana"
         ],
-        "answer": "They will arrive on Monday",
-        "feedback": "योग्य उत्तर आहे: They will arrive on Monday"
+        "answer": "Banana",
+        "feedback": "योग्य उत्तर आहे: Banana"
       },
       {
-        "id": 329,
+        "id": 104,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "already",
-          "have",
+        "text": "गहाळ पत्र शोधा. A, C, E, G, __",
+        "options": [
+          "H",
           "I",
-          "eaten"
+          "J",
+          "K"
         ],
-        "answer": "I have already eaten",
-        "feedback": "योग्य उत्तर आहे: I have already eaten"
+        "answer": "I",
+        "feedback": "योग्य उत्तर आहे: I"
       },
       {
-        "id": 330,
+        "id": 105,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "speaking",
-          "is",
-          "She",
-          "French"
+        "text": "जर आज सोमवार असेल तर दोन दिवसांनी कोणता दिवस येतो?",
+        "options": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
         ],
-        "answer": "She is speaking French",
-        "feedback": "योग्य उत्तर आहे: She is speaking French"
+        "answer": "Thursday",
+        "feedback": "योग्य उत्तर आहे: Thursday"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "कोणती संख्या सर्वात मोठी आहे?",
+        "options": [
+          "48",
+          "62",
+          "79",
+          "57"
+        ],
+        "answer": "79",
+        "feedback": "योग्य उत्तर आहे: 79"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "विषम एक शोधा.",
+        "options": [
+          "Bus",
+          "Train",
+          "Bicycle",
+          "Refrigerator"
+        ],
+        "answer": "Refrigerator",
+        "feedback": "योग्य उत्तर आहे: Refrigerator"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "नमुना पूर्ण करा. 2, 6, 10, 14, __",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
+        "answer": "18",
+        "feedback": "योग्य उत्तर आहे: 18"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "वेळ मोजण्यासाठी कोणती वस्तू वापरली जाते?",
+        "options": [
+          "Scale",
+          "Clock",
+          "Thermometer",
+          "Compass"
+        ],
+        "answer": "Clock",
+        "feedback": "योग्य उत्तर आहे: Clock"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "सुरुवात असाच अर्थ कोणत्या शब्दाचा आहे?",
+        "options": [
+          "End",
+          "Start",
+          "Stop",
+          "Finish"
+        ],
+        "answer": "Start",
+        "feedback": "योग्य उत्तर आहे: Start"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "वर्णमाला नमुना पूर्ण करा. Z, X, V, T, __",
+        "options": [
+          "R",
+          "Q",
+          "P",
+          "S"
+        ],
+        "answer": "R",
+        "feedback": "योग्य उत्तर आहे: R"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "सर्वात लहान कोणते?",
+        "options": [
+          "Kilogram",
+          "Gram",
+          "Ton",
+          "Quintal"
+        ],
+        "answer": "Gram",
+        "feedback": "योग्य उत्तर आहे: Gram"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "कोणती जोडी संबंधित आहे?",
+        "options": [
+          "Pen : Write",
+          "Chair : Eat",
+          "Book : Drive",
+          "Spoon : Read"
+        ],
+        "answer": "Pen : Write",
+        "feedback": "योग्य उत्तर आहे: Pen : Write"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "पुढील क्रमांक शोधा. ३, ६, ९, १२, __",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "15",
+        "feedback": "योग्य उत्तर आहे: 15"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "कोणता प्राणी अंडी घालतो?",
+        "options": [
+          "Cow",
+          "Hen",
+          "Goat",
+          "Dog"
+        ],
+        "answer": "Hen",
+        "feedback": "योग्य उत्तर आहे: Hen"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "विषम एक शोधा.",
+        "options": [
+          "January",
+          "March",
+          "Friday",
+          "June"
+        ],
+        "answer": "Friday",
+        "feedback": "योग्य उत्तर आहे: Friday"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "कोणता शब्द साधर्म्य पूर्ण करतो? पक्षी : घरटे :: मधमाशी : _____",
+        "options": [
+          "Hive",
+          "Tree",
+          "River",
+          "House"
+        ],
+        "answer": "Hive",
+        "feedback": "योग्य उत्तर आहे: Hive"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "कोणत्या आकाराला चार समान बाजू आहेत?",
+        "options": [
+          "Circle",
+          "Triangle",
+          "Square",
+          "Oval"
+        ],
+        "answer": "Square",
+        "feedback": "योग्य उत्तर आहे: Square"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "क्रम पूर्ण करा. 100, 90, 80, 70, __",
+        "options": [
+          "65",
+          "60",
+          "55",
+          "50"
+        ],
+        "answer": "60",
+        "feedback": "योग्य उत्तर आहे: 60"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "कोणता शब्द वेगळा आहे?",
+        "options": [
+          "Apple",
+          "Orange",
+          "Carrot",
+          "Grapes"
+        ],
+        "answer": "Carrot",
+        "feedback": "योग्य उत्तर आहे: Carrot"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "जर घड्याळ 3:00 दाखवत असेल तर मिनिट हात कुठे दर्शवेल?",
+        "options": [
+          "3",
+          "6",
+          "12",
+          "9"
+        ],
+        "answer": "12",
+        "feedback": "योग्य उत्तर आहे: 12"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "पुढे कोणता येतो? लाल, नारंगी, पिवळा, __",
+        "options": [
+          "Blue",
+          "Green",
+          "Black",
+          "White"
+        ],
+        "answer": "Green",
+        "feedback": "योग्य उत्तर आहे: Green"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "संवादासाठी कोणती वस्तू वापरली जाते?",
+        "options": [
+          "Mobile Phone",
+          "Plate",
+          "Pillow",
+          "Shoe"
+        ],
+        "answer": "Mobile Phone",
+        "feedback": "योग्य उत्तर आहे: Mobile Phone"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "गहाळ क्रमांक शोधा. ४, ८, १२, १६, __",
+        "options": [
+          "18",
+          "20",
+          "22",
+          "24"
+        ],
+        "answer": "20",
+        "feedback": "योग्य उत्तर आहे: 20"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "कोणता शब्द साधर्म्य पूर्ण करतो? शिक्षक : शाळा :: डॉक्टर : _____",
+        "options": [
+          "Market",
+          "Hospital",
+          "Library",
+          "Office"
+        ],
+        "answer": "Hospital",
+        "feedback": "योग्य उत्तर आहे: Hospital"
       }
     ]
   },
   "Advanced": {
     "MCQ": [
       {
-        "id": 401,
+        "id": 1,
         "type": "MCQ",
-        "text": "भाषांतर करा: Environment",
+        "text": "योग्य व्याकरणासह वाक्य निवडा.",
         "options": [
-          "पर्यावरण",
-          "Economy",
-          "Society",
-          "Politics"
+          "She don't like coffee.",
+          "She doesn't like coffee.",
+          "She not likes coffee.",
+          "She isn't like coffee."
         ],
-        "answer": "पर्यावरण",
-        "feedback": "योग्य उत्तर आहे: पर्यावरण"
+        "answer": "She doesn't like coffee.",
+        "feedback": "बरोबर उत्तर आहे तिला कॉफी आवडत नाही."
       },
       {
-        "id": 402,
+        "id": 2,
         "type": "MCQ",
-        "text": "भाषांतर करा: Economy",
+        "text": "\"रॅपिड\" चा समानार्थी शब्द कोणता आहे?",
         "options": [
-          "अर्थव्यवस्था",
-          "History",
-          "Math",
-          "Science"
+          "Slow",
+          "Fast",
+          "Weak",
+          "Quiet"
         ],
-        "answer": "अर्थव्यवस्था",
-        "feedback": "योग्य उत्तर आहे: अर्थव्यवस्था"
+        "answer": "Fast",
+        "feedback": "बरोबर उत्तर जलद आहे"
       },
       {
-        "id": 403,
+        "id": 3,
         "type": "MCQ",
-        "text": "रिकाम्या जागा भरा: Synonym for 'meticulous'",
+        "text": "योग्य वाक्य निवडा.",
         "options": [
-          "careful",
-          "careless",
-          "fast",
-          "slow"
+          "The children was playing.",
+          "The children were playing.",
+          "The children is playing.",
+          "The children am playing."
         ],
-        "answer": "careful",
-        "feedback": "योग्य उत्तर आहे: careful"
+        "answer": "The children were playing.",
+        "feedback": "बरोबर उत्तर आहे मुले खेळत होती."
       },
       {
-        "id": 404,
+        "id": 4,
         "type": "MCQ",
-        "text": "रिकाम्या जागा भरा: Meaning of 'ubiquitous'",
+        "text": "कोणता शब्द वाक्य पूर्ण करतो? प्रयोगादरम्यान शास्त्रज्ञाने एक महत्त्वपूर्ण _____ केले.",
         "options": [
-          "everywhere",
-          "nowhere",
-          "rare",
-          "unique"
+          "discovery",
+          "dinner",
+          "journey",
+          "holiday"
         ],
-        "answer": "everywhere",
-        "feedback": "योग्य उत्तर आहे: everywhere"
+        "answer": "discovery",
+        "feedback": "योग्य उत्तर म्हणजे शोध"
       },
       {
-        "id": 405,
+        "id": 5,
         "type": "MCQ",
-        "text": "रिकाम्या जागा भरा: Adverb is ___",
+        "text": "उदार विरुद्ध काय आहे?",
         "options": [
+          "Kind",
+          "Selfish",
+          "Friendly",
+          "Helpful"
+        ],
+        "answer": "Selfish",
+        "feedback": "बरोबर उत्तर स्वार्थी आहे"
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "भविष्यकाळातील कोणते वाक्य आहे?",
+        "options": [
+          "I completed my work.",
+          "I am completing my work.",
+          "I will complete my work.",
+          "I complete my work."
+        ],
+        "answer": "I will complete my work.",
+        "feedback": "बरोबर उत्तर आहे मी माझे काम पूर्ण करीन."
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "अचूक शब्दलेखन केलेला शब्द निवडा.",
+        "options": [
+          "Environment",
+          "Enviroment",
+          "Envirnment",
+          "Environmant"
+        ],
+        "answer": "Environment",
+        "feedback": "बरोबर उत्तर आहे पर्यावरण"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "कोणता शब्द विशेषण आहे?",
+        "options": [
+          "Beautiful",
+          "Beauty",
+          "Beautify",
+          "Beautifully"
+        ],
+        "answer": "Beautiful",
+        "feedback": "बरोबर उत्तर सुंदर आहे"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "वाक्य वाचा. राहुलने खूप अभ्यास केला, म्हणून तो परीक्षा उत्तीर्ण झाला. राहुल पास का झाला?",
+        "options": [
+          "He was lucky.",
+          "He studied hard.",
+          "He copied answers.",
+          "He missed the exam."
+        ],
+        "answer": "He studied hard.",
+        "feedback": "बरोबर उत्तर म्हणजे त्याने खूप अभ्यास केला."
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "कोणते वाक्य विरामचिन्हे बरोबर वापरते?",
+        "options": [
+          "What is your name?",
+          "What is your name.",
+          "What is your name!",
+          "What is your name,"
+        ],
+        "answer": "What is your name?",
+        "feedback": "बरोबर उत्तर आहे तुमचे नाव काय आहे?"
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "\"प्रामाणिक\" चा योग्य अर्थ निवडा.",
+        "options": [
+          "Always tells the truth.",
+          "Speaks loudly.",
+          "Runs quickly.",
+          "Works slowly."
+        ],
+        "answer": "Always tells the truth.",
+        "feedback": "बरोबर उत्तर म्हणजे नेहमी सत्य बोलणे."
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "कोणता शब्द वाक्य पूर्ण करतो? हवामान इतके _____ होते की सर्वजण घरातच राहिले.",
+        "options": [
+          "pleasant",
+          "severe",
+          "peaceful",
+          "colorful"
+        ],
+        "answer": "severe",
+        "feedback": "बरोबर उत्तर गंभीर आहे"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "निष्क्रिय आवाज कोणते वाक्य आहे?",
+        "options": [
+          "The teacher praised the student.",
+          "The student was praised by the teacher.",
+          "The student praises the teacher.",
+          "The teacher is praising the student."
+        ],
+        "answer": "The student was praised by the teacher.",
+        "feedback": "बरोबर उत्तर आहे विद्यार्थ्याचे शिक्षकाने कौतुक केले."
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "कोणता शब्द संयोग आहे?",
+        "options": [
+          "Because",
           "Quickly",
-          "Quick",
-          "Quicker",
-          "Quickest"
+          "House",
+          "Happy"
         ],
-        "answer": "Quickly",
-        "feedback": "योग्य उत्तर आहे: Quickly"
+        "answer": "Because",
+        "feedback": "बरोबर उत्तर आहे कारण"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "कोणते वाक्य बरोबर आहे?",
+        "options": [
+          "Everyone have finished.",
+          "Everyone has finished.",
+          "Everyone are finished.",
+          "Everyone were finished."
+        ],
+        "answer": "Everyone has finished.",
+        "feedback": "बरोबर उत्तर प्रत्येकाने पूर्ण केले आहे."
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "कोणता शब्द सहाय्य करण्यासाठी सर्वात जवळचा शब्द आहे?",
+        "options": [
+          "Help",
+          "Refuse",
+          "Ignore",
+          "Forget"
+        ],
+        "answer": "Help",
+        "feedback": "बरोबर उत्तर म्हणजे मदत"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "वाक्य पूर्ण करा. तुम्ही नियमितपणे व्यायाम केल्यास, तुम्ही _____ निरोगी व्हाल.",
+        "options": [
+          "become",
+          "became",
+          "becoming",
+          "becomes"
+        ],
+        "answer": "become",
+        "feedback": "बरोबर उत्तर बनले आहे"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "कोणते वाक्य एक प्रश्न आहे?",
+        "options": [
+          "Please sit down.",
+          "Where do you live?",
+          "I live in Jaipur.",
+          "Close the door."
+        ],
+        "answer": "Where do you live?",
+        "feedback": "बरोबर उत्तर आहे तुम्ही कुठे राहता?"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "योग्य लेख निवडा. तो _____ प्रामाणिक माणूस आहे.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "बरोबर उत्तर आहे an"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "कोणता शब्द एक संज्ञा आहे?",
+        "options": [
+          "Courage",
+          "Courageous",
+          "Courageously",
+          "Encourage"
+        ],
+        "answer": "Courage",
+        "feedback": "बरोबर उत्तर म्हणजे धैर्य"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "वाक्य वाचा. वर्षभर परिश्रमपूर्वक काम करणाऱ्या कर्मचाऱ्यांना कंपनीने बक्षीस दिले. कर्मचाऱ्यांना बक्षीस का देण्यात आले?",
+        "options": [
+          "They worked diligently.",
+          "They were absent.",
+          "They resigned.",
+          "They arrived late."
+        ],
+        "answer": "They worked diligently.",
+        "feedback": "बरोबर उत्तर आहे त्यांनी परिश्रमपूर्वक काम केले."
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "कोणते वाक्य व्याकरणदृष्ट्या योग्य आहे?",
+        "options": [
+          "Neither of the boys are present.",
+          "Neither of the boys is present.",
+          "Neither of the boys were present.",
+          "Neither boys is present."
+        ],
+        "answer": "Neither of the boys is present.",
+        "feedback": "बरोबर उत्तर आहे दोन्हीपैकी एकही मुलगा उपस्थित नाही."
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "कोणता शब्द विस्ताराचा विरुद्धार्थी आहे?",
+        "options": [
+          "Increase",
+          "Extend",
+          "Reduce",
+          "Improve"
+        ],
+        "answer": "Reduce",
+        "feedback": "योग्य उत्तर कमी आहे"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "कोणते वाक्य सल्ला व्यक्त करते?",
+        "options": [
+          "You should drink enough water.",
+          "I drank enough water.",
+          "Drinking water.",
+          "Water is important."
+        ],
+        "answer": "You should drink enough water.",
+        "feedback": "बरोबर उत्तर आहे तुम्ही पुरेसे पाणी प्यावे."
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "वाक्य पूर्ण करा. नियमितपणे वाचन केल्याने तुमचे _____ आणि संवाद कौशल्य सुधारते.",
+        "options": [
+          "vocabulary",
+          "furniture",
+          "journey",
+          "transport"
+        ],
+        "answer": "vocabulary",
+        "feedback": "बरोबर उत्तर म्हणजे शब्दसंग्रह"
       }
     ],
     "Reading": [
       {
-        "id": 426,
+        "id": 26,
         "type": "Reading",
-        "text": "मोठ्याने वाचा: शाश्वत विकास आपल्या भविष्यासाठी महत्त्वाचा आहे.",
-        "word": "शाश्वत विकास आपल्या भविष्यासाठी महत्त्वाचा आहे."
+        "text": "मोठ्याने वाचा: Every morning, I wake up early, exercise for thirty minutes, and then prepare for my day with a healthy breakfast.",
+        "word": "Every morning, I wake up early, exercise for thirty minutes, and then prepare for my day with a healthy breakfast."
       },
       {
-        "id": 427,
+        "id": 27,
         "type": "Reading",
-        "text": "मोठ्याने वाचा: The hypothesis was confirmed.",
-        "word": "The hypothesis was confirmed."
+        "text": "मोठ्याने वाचा: Learning a new language improves communication skills, builds confidence, and helps people connect with different cultures.",
+        "word": "Learning a new language improves communication skills, builds confidence, and helps people connect with different cultures."
       },
       {
-        "id": 428,
+        "id": 28,
         "type": "Reading",
-        "text": "मोठ्याने वाचा: Significant progress has been made.",
-        "word": "Significant progress has been made."
+        "text": "मोठ्याने वाचा: Technology has transformed education by providing students with access to digital resources, online courses, and interactive learning experiences.",
+        "word": "Technology has transformed education by providing students with access to digital resources, online courses, and interactive learning experiences."
       },
       {
-        "id": 429,
+        "id": 29,
         "type": "Reading",
-        "text": "मोठ्याने वाचा: The implications are profound.",
-        "word": "The implications are profound."
+        "text": "मोठ्याने वाचा: Regular exercise, a balanced diet, and adequate sleep are essential for maintaining both physical and mental well-being.",
+        "word": "Regular exercise, a balanced diet, and adequate sleep are essential for maintaining both physical and mental well-being."
       },
       {
-        "id": 430,
+        "id": 30,
         "type": "Reading",
-        "text": "मोठ्याने वाचा: It is undeniably true.",
-        "word": "It is undeniably true."
+        "text": "मोठ्याने वाचा: The librarian encouraged students to borrow books because reading regularly improves vocabulary, imagination, and critical thinking.",
+        "word": "The librarian encouraged students to borrow books because reading regularly improves vocabulary, imagination, and critical thinking."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: During the science exhibition, students confidently explained their innovative projects to teachers, parents, and visitors.",
+        "word": "During the science exhibition, students confidently explained their innovative projects to teachers, parents, and visitors."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The farmer adopted modern agricultural techniques to increase crop production while protecting the environment.",
+        "word": "The farmer adopted modern agricultural techniques to increase crop production while protecting the environment."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Although the weather forecast predicted heavy rain, the event continued because suitable arrangements had already been made.",
+        "word": "Although the weather forecast predicted heavy rain, the event continued because suitable arrangements had already been made."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Good leaders listen carefully, communicate clearly, and inspire others through their actions rather than only their words.",
+        "word": "Good leaders listen carefully, communicate clearly, and inspire others through their actions rather than only their words."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The healthcare team worked tirelessly throughout the night to provide timely treatment and ensure every patient received proper care.",
+        "word": "The healthcare team worked tirelessly throughout the night to provide timely treatment and ensure every patient received proper care."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Environmental conservation requires individuals, communities, and governments to work together toward sustainable development.",
+        "word": "Environmental conservation requires individuals, communities, and governments to work together toward sustainable development."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The museum displayed historical artifacts that helped visitors understand the rich cultural heritage of the country.",
+        "word": "The museum displayed historical artifacts that helped visitors understand the rich cultural heritage of the country."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Reading newspapers and reliable online articles every day helps people stay informed about current events around the world.",
+        "word": "Reading newspapers and reliable online articles every day helps people stay informed about current events around the world."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The software engineer solved a complex programming problem by carefully analyzing each step before writing the solution.",
+        "word": "The software engineer solved a complex programming problem by carefully analyzing each step before writing the solution."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Honesty, discipline, and perseverance are qualities that contribute significantly to long-term personal and professional success.",
+        "word": "Honesty, discipline, and perseverance are qualities that contribute significantly to long-term personal and professional success."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The teacher appreciated students who actively participated in classroom discussions and respected different opinions.",
+        "word": "The teacher appreciated students who actively participated in classroom discussions and respected different opinions."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Artificial intelligence is transforming education by creating personalized learning experiences for students with different abilities.",
+        "word": "Artificial intelligence is transforming education by creating personalized learning experiences for students with different abilities."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Public transportation helps reduce traffic congestion, saves fuel, and lowers environmental pollution in crowded cities.",
+        "word": "Public transportation helps reduce traffic congestion, saves fuel, and lowers environmental pollution in crowded cities."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Effective communication involves not only speaking clearly but also listening carefully and responding thoughtfully.",
+        "word": "Effective communication involves not only speaking clearly but also listening carefully and responding thoughtfully."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: The research team collected accurate data before drawing conclusions and presenting their findings to the audience.",
+        "word": "The research team collected accurate data before drawing conclusions and presenting their findings to the audience."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Volunteering in community service activities teaches responsibility, teamwork, empathy, and leadership skills.",
+        "word": "Volunteering in community service activities teaches responsibility, teamwork, empathy, and leadership skills."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: People who continuously learn new skills are often better prepared to adapt to changing technologies and workplace demands.",
+        "word": "People who continuously learn new skills are often better prepared to adapt to changing technologies and workplace demands."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Financial planning helps families manage expenses, save money for future goals, and prepare for unexpected situations.",
+        "word": "Financial planning helps families manage expenses, save money for future goals, and prepare for unexpected situations."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Despite facing several challenges, the young entrepreneur remained determined and eventually built a successful business.",
+        "word": "Despite facing several challenges, the young entrepreneur remained determined and eventually built a successful business."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "मोठ्याने वाचा: Education empowers individuals to make informed decisions, contribute positively to society, and improve their overall quality of life.",
+        "word": "Education empowers individuals to make informed decisions, contribute positively to society, and improve their overall quality of life."
       }
     ],
     "Writing": [
       {
-        "id": 451,
+        "id": 51,
         "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: अर्थव्यवस्था वेगाने वाढत आहे.",
-        "answer": "The economy is growing rapidly.",
-        "feedback": "योग्य भाषांतर आहे: The economy is growing rapidly."
+        "text": "इंग्रजीत भाषांतर करा: गंभीर विचार",
+        "answer": "Critical thinking",
+        "feedback": "वाक्य होते: Critical thinking"
       },
       {
-        "id": 452,
+        "id": 52,
         "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: Environment",
-        "answer": "Environment",
-        "feedback": "योग्य भाषांतर आहे: Environment"
+        "text": "इंग्रजीत भाषांतर करा: संघभावना",
+        "answer": "Team spirit",
+        "feedback": "वाक्य होते: Team spirit"
       },
       {
-        "id": 453,
+        "id": 53,
         "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: Sustainable",
-        "answer": "Sustainable",
-        "feedback": "योग्य भाषांतर आहे: Sustainable"
+        "text": "इंग्रजीत भाषांतर करा: डिजिटल साक्षरता",
+        "answer": "Digital literacy",
+        "feedback": "वाक्य होते: Digital literacy"
       },
       {
-        "id": 454,
+        "id": 54,
         "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: Development",
-        "answer": "Development",
-        "feedback": "योग्य भाषांतर आहे: Development"
+        "text": "इंग्रजीत भाषांतर करा: वेळेचे व्यवस्थापन",
+        "answer": "Time management",
+        "feedback": "वाक्य होते: Time management"
       },
       {
-        "id": 455,
+        "id": 55,
         "type": "Writing",
-        "text": "इंग्रजी भाषांतर लिहा: Congratulations",
-        "answer": "Congratulations",
-        "feedback": "योग्य भाषांतर आहे: Congratulations"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 476,
-        "type": "Listening",
-        "audioText": "तुझ्या यशाबद्दल अभिनंदन.",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "Congratulations on your success.",
-        "feedback": "योग्य उत्तर आहे: Congratulations on your success."
+        "text": "इंग्रजीत भाषांतर करा: निरोगी जीवनशैली",
+        "answer": "Healthy lifestyle",
+        "feedback": "वाक्य होते: Healthy lifestyle"
       },
       {
-        "id": 477,
-        "type": "Listening",
-        "audioText": "Environment",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "Environment",
-        "feedback": "योग्य उत्तर आहे: Environment"
+        "id": 56,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: हवामान बदल",
+        "answer": "Climate change",
+        "feedback": "वाक्य होते: Climate change"
       },
       {
-        "id": 478,
-        "type": "Listening",
-        "audioText": "Sustainable",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "Sustainable",
-        "feedback": "योग्य उत्तर आहे: Sustainable"
+        "id": 57,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: आर्थिक नियोजन",
+        "answer": "Financial planning",
+        "feedback": "वाक्य होते: Financial planning"
       },
       {
-        "id": 479,
-        "type": "Listening",
-        "audioText": "Development",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "Development",
-        "feedback": "योग्य उत्तर आहे: Development"
+        "id": 58,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: समस्या सोडवणे",
+        "answer": "Problem solving",
+        "feedback": "वाक्य होते: Problem solving"
       },
       {
-        "id": 480,
-        "type": "Listening",
-        "audioText": "Hypothesis",
-        "text": "ऐका आणि इंग्रजीत लिहा",
-        "answer": "Hypothesis",
-        "feedback": "योग्य उत्तर आहे: Hypothesis"
+        "id": 59,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: कृत्रिम बुद्धिमत्ता",
+        "answer": "Artificial intelligence",
+        "feedback": "वाक्य होते: Artificial intelligence"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: सकारात्मक दृष्टीकोन",
+        "answer": "Positive attitude",
+        "feedback": "वाक्य होते: Positive attitude"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: करिअरची वाढ",
+        "answer": "Career growth",
+        "feedback": "वाक्य होते: Career growth"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: नेतृत्व कौशल्य",
+        "answer": "Leadership skills",
+        "feedback": "वाक्य होते: Leadership skills"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: समुदाय सेवा",
+        "answer": "Community service",
+        "feedback": "वाक्य होते: Community service"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: सार्वजनिक बोलणे",
+        "answer": "Public speaking",
+        "feedback": "वाक्य होते: Public speaking"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: भावनिक बुद्धिमत्ता",
+        "answer": "Emotional intelligence",
+        "feedback": "वाक्य होते: Emotional intelligence"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: डेटा विश्लेषण",
+        "answer": "Data analysis",
+        "feedback": "वाक्य होते: Data analysis"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: ऑनलाइन शिक्षण",
+        "answer": "Online learning",
+        "feedback": "वाक्य होते: Online learning"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: निर्णय घेणे",
+        "answer": "Decision making",
+        "feedback": "वाक्य होते: Decision making"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: पर्यावरण संरक्षण",
+        "answer": "Environmental protection",
+        "feedback": "वाक्य होते: Environmental protection"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: ज्ञानाची देवाणघेवाण",
+        "answer": "Knowledge sharing",
+        "feedback": "वाक्य होते: Knowledge sharing"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: स्वयंशिस्त",
+        "answer": "Self discipline",
+        "feedback": "वाक्य होते: Self discipline"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: ध्येय सेटिंग",
+        "answer": "Goal setting",
+        "feedback": "वाक्य होते: Goal setting"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: सर्जनशील मानसिकता",
+        "answer": "Creative mindset",
+        "feedback": "वाक्य होते: Creative mindset"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: आयुष्यभर शिक्षण",
+        "answer": "Lifelong learning",
+        "feedback": "वाक्य होते: Lifelong learning"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "इंग्रजीत भाषांतर करा: व्यावसायिक नैतिकता",
+        "answer": "Professional ethics",
+        "feedback": "वाक्य होते: Professional ethics"
       }
     ],
     "Grammar": [
       {
-        "id": 501,
+        "id": 76,
         "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: If I ___ known, I would have come.",
+        "text": "रिक्त जागा भरा: By next year, she _____ her degree.",
         "options": [
-          "had",
-          "have",
-          "has",
-          "did"
+          "completes",
+          "completed",
+          "will complete",
+          "will have completed"
         ],
-        "answer": "had",
-        "feedback": "योग्य उत्तर आहे: had"
+        "answer": "will have completed",
+        "feedback": "योग्य उत्तर आहे: will have completed"
       },
       {
-        "id": 502,
+        "id": 77,
         "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: By the time we arrived, they ___ left.",
+        "text": "रिक्त जागा भरा: Neither of the students _____ absent today.",
         "options": [
-          "had",
-          "have",
-          "will have",
-          "are"
-        ],
-        "answer": "had",
-        "feedback": "योग्य उत्तर आहे: had"
-      },
-      {
-        "id": 503,
-        "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: Not only ___ he late, but he also forgot his book.",
-        "options": [
-          "was",
-          "is",
+          "are",
           "were",
-          "did"
+          "is",
+          "have"
         ],
-        "answer": "was",
-        "feedback": "योग्य उत्तर आहे: was"
+        "answer": "is",
+        "feedback": "योग्य उत्तर आहे: is"
       },
       {
-        "id": 504,
+        "id": 78,
         "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: I wish I ___ a car.",
+        "text": "रिक्त जागा भरा: If I _____ enough money, I would buy a laptop.",
         "options": [
-          "had",
           "have",
-          "will have",
-          "am having"
+          "had",
+          "has",
+          "having"
         ],
         "answer": "had",
         "feedback": "योग्य उत्तर आहे: had"
       },
       {
-        "id": 505,
+        "id": 79,
         "type": "Grammar",
-        "text": "रिकाम्या जागा भरा: She speaks as if she ___ everything.",
+        "text": "रिक्त जागा भरा: The meeting _____ by the manager yesterday.",
         "options": [
-          "knew",
-          "knows",
-          "know",
-          "knowing"
+          "conducts",
+          "conducted",
+          "was conducted",
+          "is conducting"
         ],
-        "answer": "knew",
-        "feedback": "योग्य उत्तर आहे: knew"
+        "answer": "was conducted",
+        "feedback": "योग्य उत्तर आहे: was conducted"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: She speaks English _____ than her brother.",
+        "options": [
+          "good",
+          "well",
+          "better",
+          "best"
+        ],
+        "answer": "better",
+        "feedback": "योग्य उत्तर आहे: better"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Choose the correct sentence.",
+        "options": [
+          "Everyone have submitted the report.",
+          "Everyone has submitted the report.",
+          "Everyone are submitting the report.",
+          "Everyone were submitting the report."
+        ],
+        "answer": "Everyone has submitted the report.",
+        "feedback": "योग्य उत्तर आहे: Everyone has submitted the report."
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: The teacher asked the students _____ quietly.",
+        "options": [
+          "sit",
+          "to sit",
+          "sitting",
+          "sat"
+        ],
+        "answer": "to sit",
+        "feedback": "योग्य उत्तर आहे: to sit"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Which sentence is in passive voice?",
+        "options": [
+          "The chef prepared the meal.",
+          "The meal was prepared by the chef.",
+          "The chef is preparing the meal.",
+          "The chef prepares meals."
+        ],
+        "answer": "The meal was prepared by the chef.",
+        "feedback": "योग्य उत्तर आहे: The meal was prepared by the chef."
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: If it rains tomorrow, we _____ at home.",
+        "options": [
+          "stayed",
+          "stay",
+          "will stay",
+          "staying"
+        ],
+        "answer": "will stay",
+        "feedback": "योग्य उत्तर आहे: will stay"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: The project must _____ before Friday.",
+        "options": [
+          "complete",
+          "be completed",
+          "completed",
+          "completing"
+        ],
+        "answer": "be completed",
+        "feedback": "योग्य उत्तर आहे: be completed"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: She has lived here _____ 2010.",
+        "options": [
+          "for",
+          "since",
+          "from",
+          "by"
+        ],
+        "answer": "since",
+        "feedback": "योग्य उत्तर आहे:  since"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: I am interested _____ learning new languages.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "with"
+        ],
+        "answer": "in",
+        "feedback": "योग्य उत्तर आहे: in"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: He is one of the best players _____ the team.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "over"
+        ],
+        "answer": "in",
+        "feedback": "योग्य उत्तर आहे: in"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Which sentence is correct?",
+        "options": [
+          "She enjoys to read.",
+          "She enjoys reading.",
+          "She enjoy reading.",
+          "She enjoyed read."
+        ],
+        "answer": "She enjoys reading.",
+        "feedback": "योग्य उत्तर आहे: She enjoys reading."
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: The train had already left before we _____ the station.",
+        "options": [
+          "reach",
+          "reached",
+          "reaches",
+          "reaching"
+        ],
+        "answer": "reached",
+        "feedback": "योग्य उत्तर आहे: reached"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Which modal verb expresses advice?",
+        "options": [
+          "Can",
+          "Should",
+          "May",
+          "Must"
+        ],
+        "answer": "Should",
+        "feedback": "योग्य उत्तर आहे: Should"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: \"I am busy,\" she said. Choose the correct indirect speech.",
+        "options": [
+          "She said that she was busy.",
+          "She said she is busy.",
+          "She says she was busy.",
+          "She told I am busy."
+        ],
+        "answer": "She said that she was busy.",
+        "feedback": "योग्य उत्तर आहे: She said that she was busy."
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: The students _____ preparing for the examination since morning.",
+        "options": [
+          "has been",
+          "have been",
+          "was",
+          "is"
+        ],
+        "answer": "have been",
+        "feedback": "योग्य उत्तर आहे: have been"
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Which sentence is grammatically correct?",
+        "options": [
+          "The news are interesting.",
+          "The news is interesting.",
+          "The news were interesting.",
+          "The news have interesting."
+        ],
+        "answer": "The news is interesting.",
+        "feedback": "योग्य उत्तर आहे: The news is interesting."
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: We look forward _____ you soon.",
+        "options": [
+          "meet",
+          "meeting",
+          "met",
+          "to meet"
+        ],
+        "answer": "meeting",
+        "feedback": "योग्य उत्तर आहे: meeting"
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Which sentence contains a relative pronoun?",
+        "options": [
+          "The boy who won the race is my cousin.",
+          "The boy runs fast.",
+          "The race was exciting.",
+          "My cousin is here."
+        ],
+        "answer": "The boy who won the race is my cousin.",
+        "feedback": "योग्य उत्तर आहे: The boy who won the race is my cousin."
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Hardly had the match started _____ it began to rain.",
+        "options": [
+          "when",
+          "than",
+          "then",
+          "while"
+        ],
+        "answer": "when",
+        "feedback": "योग्य उत्तर आहे: when"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Which word correctly completes the sentence? The manager spoke _____ during the presentation.",
+        "options": [
+          "confidence",
+          "confidently",
+          "confident",
+          "confidences"
+        ],
+        "answer": "confidently",
+        "feedback": "योग्य उत्तर आहे: confidently"
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Choose the correctly punctuated sentence.",
+        "options": [
+          "Yes I agree.",
+          "Yes, I agree.",
+          "Yes I, agree.",
+          "Yes; I agree"
+        ],
+        "answer": "Yes, I agree.",
+        "feedback": "योग्य उत्तर आहे: Yes, I agree."
+      },
+      {
+        "id": 101,
+        "type": "Grammar",
+        "text": "रिक्त जागा भरा: Select the correct sentence.",
+        "options": [
+          "Each of the participants has received a certificate.",
+          "Each of the participants have received a certificate.",
+          "Each participants has received a certificate.",
+          "Each participant have received certificates."
+        ],
+        "answer": "Each of the participants has received a certificate.",
+        "feedback": "योग्य उत्तर आहे: Each of the participants has received a certificate."
       }
     ],
     "Puzzle": [
       {
-        "id": 526,
+        "id": 102,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "come",
-          "have",
-          "would",
-          "I",
-          "known",
-          "had",
-          "If",
-          "I"
+        "text": "क्रम पूर्ण करा. 3, 6, 12, 24, __",
+        "options": [
+          "36",
+          "42",
+          "48",
+          "54"
         ],
-        "answer": "If I had known I would have come",
-        "feedback": "योग्य उत्तर आहे: If I had known I would have come"
+        "answer": "48",
+        "feedback": "योग्य उत्तर आहे: 48"
       },
       {
-        "id": 527,
+        "id": 103,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "arrived",
-          "we",
-          "time",
-          "the",
-          "By",
-          "left",
-          "had",
-          "they"
+        "text": "विषम एक शोधा.",
+        "options": [
+          "Keyboard",
+          "Monitor",
+          "Printer",
+          "Bicycle"
         ],
-        "answer": "By the time we arrived they had left",
-        "feedback": "योग्य उत्तर आहे: By the time we arrived they had left"
+        "answer": "Bicycle",
+        "feedback": "योग्य उत्तर आहे: Bicycle"
       },
       {
-        "id": 528,
+        "id": 104,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "late",
-          "he",
-          "was",
-          "only",
-          "Not"
+        "text": "पुस्तक वाचनासाठी आहे जसे पेन _____ ला आहे.",
+        "options": [
+          "Sleeping",
+          "Writing",
+          "Running",
+          "Cooking"
         ],
-        "answer": "Not only was he late",
-        "feedback": "योग्य उत्तर आहे: Not only was he late"
+        "answer": "Writing",
+        "feedback": "योग्य उत्तर आहे: Writing"
       },
       {
-        "id": 529,
+        "id": 105,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "car",
-          "a",
-          "had",
-          "I",
-          "wish",
-          "I"
+        "text": "वर्णमाला नमुना पूर्ण करा. A, D, G, J, __",
+        "options": [
+          "K",
+          "L",
+          "M",
+          "N"
         ],
-        "answer": "I wish I had a car",
-        "feedback": "योग्य उत्तर आहे: I wish I had a car"
+        "answer": "M",
+        "feedback": "योग्य उत्तर आहे: M"
       },
       {
-        "id": 530,
+        "id": 106,
         "type": "Puzzle",
-        "text": "योग्य क्रमाने लावा",
-        "scrambled": [
-          "everything",
-          "knew",
-          "she",
-          "if",
-          "as",
-          "speaks",
-          "She"
+        "text": "कोणता नंबर गहाळ आहे? ५, १०, २०, ४०, __",
+        "options": [
+          "50",
+          "60",
+          "70",
+          "80"
         ],
-        "answer": "She speaks as if she knew everything",
-        "feedback": "योग्य उत्तर आहे: She speaks as if she knew everything"
+        "answer": "80",
+        "feedback": "योग्य उत्तर आहे: 80"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "कोणता शब्द वेगळा आहे?",
+        "options": [
+          "Rose",
+          "Lotus",
+          "Tulip",
+          "Banana"
+        ],
+        "answer": "Banana",
+        "feedback": "योग्य उत्तर आहे: Banana"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "जर सर्व गुलाब फुले असतील आणि सर्व फुले वनस्पती असतील तर गुलाब _____ आहे.",
+        "options": [
+          "Fruit",
+          "Plant",
+          "Tree",
+          "Vegetable"
+        ],
+        "answer": "Plant",
+        "feedback": "योग्य उत्तर आहे: Plant"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "पुढील पत्र शोधा. Z, W, T, Q, __",
+        "options": [
+          "O",
+          "N",
+          "M",
+          "L"
+        ],
+        "answer": "N",
+        "feedback": "योग्य उत्तर आहे: N"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "कोणता क्रमांक संबंधित नाही?",
+        "options": [
+          "16",
+          "25",
+          "36",
+          "38"
+        ],
+        "answer": "38",
+        "feedback": "योग्य उत्तर आहे: 38"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "शिक्षक _____ ला आहे म्हणून डॉक्टर हॉस्पिटलमध्ये आहेत.",
+        "options": [
+          "Library",
+          "School",
+          "Market",
+          "Office"
+        ],
+        "answer": "School",
+        "feedback": "योग्य उत्तर आहे: School"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "नमुना पूर्ण करा. 2, 5, 10, 17, 26, __",
+        "options": [
+          "35",
+          "37",
+          "39",
+          "41"
+        ],
+        "answer": "37",
+        "feedback": "योग्य उत्तर आहे: 37"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "विषम शोधा.",
+        "options": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Moon"
+        ],
+        "answer": "Moon",
+        "feedback": "योग्य उत्तर आहे: Moon"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "कोणत्या जोडीचा समान संबंध आहे? चाकू: कापून टाका",
+        "options": [
+          "Spoon : Drink",
+          "Brush : Paint",
+          "Chair : Sit",
+          "Fan : Air"
+        ],
+        "answer": "Brush : Paint",
+        "feedback": "योग्य उत्तर आहे: Brush : Paint"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "कोणता शब्द साधर्म्य पूर्ण करतो? पक्षी : माशी :: मासे : _____",
+        "options": [
+          "Swim",
+          "Walk",
+          "Jump",
+          "Crawl"
+        ],
+        "answer": "Swim",
+        "feedback": "योग्य उत्तर आहे: Swim"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "पुढे कोणता येतो? सोमवार, बुधवार, शुक्रवार, _____",
+        "options": [
+          "Saturday",
+          "Sunday",
+          "Tuesday",
+          "Thursday"
+        ],
+        "answer": "Sunday",
+        "feedback": "योग्य उत्तर आहे: Sunday"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "अक्षरे पुन्हा व्यवस्थित करा. LEPAP",
+        "options": [
+          "Apple",
+          "Pepla",
+          "Pleap",
+          "Lapep"
+        ],
+        "answer": "Apple",
+        "feedback": "योग्य उत्तर आहे: Apple"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "सर्वात लहान अपूर्णांक कोणता आहे?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5"
+        ],
+        "answer": "1/5",
+        "feedback": "योग्य उत्तर आहे: 1/5"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "जर काल मंगळवार असेल तर उद्या कोणता दिवस आहे?",
+        "options": [
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "answer": "Thursday",
+        "feedback": "योग्य उत्तर आहे: Thursday"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "क्रम पूर्ण करा. 100, 95, 90, 85, __",
+        "options": [
+          "75",
+          "80",
+          "82",
+          "78"
+        ],
+        "answer": "80",
+        "feedback": "योग्य उत्तर आहे: 80"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "कोणती वस्तू किलोग्रॅममध्ये मोजली जाते?",
+        "options": [
+          "Milk",
+          "Rice",
+          "Water",
+          "Juice"
+        ],
+        "answer": "Rice",
+        "feedback": "योग्य उत्तर आहे: Rice"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "गहाळ क्रमांक शोधा. 7, 14, 21, __, 35",
+        "options": [
+          "24",
+          "28",
+          "30",
+          "32"
+        ],
+        "answer": "28",
+        "feedback": "योग्य उत्तर आहे: 28"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "अक्षय ऊर्जा स्त्रोत कोणता आहे?",
+        "options": [
+          "Coal",
+          "Petrol",
+          "Solar Energy",
+          "Diesel"
+        ],
+        "answer": "Solar Energy",
+        "feedback": "योग्य उत्तर आहे: Solar Energy"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "कोणत्या शब्दाचा सर्वात जवळचा अर्थ प्राचीन आहे?",
+        "options": [
+          "Modern",
+          "Old",
+          "Young",
+          "Future"
+        ],
+        "answer": "Old",
+        "feedback": "योग्य उत्तर आहे: Old"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "योग्य क्रम कोणता?",
+        "options": [
+          "Seed -> Tree -> Plant",
+          "Seed -> Plant -> Tree",
+          "Plant -> Seed -> Tree",
+          "Tree -> Seed -> Plant"
+        ],
+        "answer": "Seed -> Plant -> Tree",
+        "feedback": "योग्य उत्तर आहे: Seed -> Plant -> Tree"
+      },
+      {
+        "id": 126,
+        "type": "Puzzle",
+        "text": "एका शेतकऱ्याकडे 10 आंबे आहेत. तो त्याच्या मित्राला 4 देतो आणि आणखी 6 विकत घेतो. आता त्याच्याकडे किती आंबे आहेत?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "14"
+        ],
+        "answer": "12",
+        "feedback": "योग्य उत्तर आहे: 12"
       }
     ]
   }

@@ -1,0 +1,102 @@
+You are a professional language teacher. Translate and adapt this JSON array of speech preparation tasks.
+Target Learning Language: Hindi
+User's Interface/Instruction Language: English
+
+Ensure that:
+1. Translate "topic" into English.
+2. Translate all items in the "tips" array into English.
+3. Do NOT change the JSON structure. Output ONLY raw JSON.
+
+JSON:
+[
+  {
+    "id": "job-interview",
+    "topic": "Introduce yourself and explain why you are the best fit for the Senior Manager position.",
+    "tips": [
+      "Talk about past leadership experience",
+      "Mention specific strengths",
+      "Use formal, professional vocabulary"
+    ]
+  },
+  {
+    "id": "ai-ethics-workforce",
+    "topic": "Discuss whether the rapid advancement of Artificial Intelligence will ultimately create more high-skilled jobs or cause irrecoverable economic displacement.",
+    "tips": [
+      "Balance economic theories with current technological trends",
+      "Use nuanced discourse markers (e.g., 'On the one hand,' 'Notwithstanding')",
+      "Incorporate advanced terminology like 'automation,' 'disruption,' and 'reskilling'"
+    ]
+  },
+  {
+    "id": "climate-responsibility",
+    "topic": "Debate whether primary accountability for combating climate change rests on individual lifestyle choices or corporate and government policy action.",
+    "tips": [
+      "Structure your argument logically using cause-and-effect transitions",
+      "Address counterarguments before reinforcing your main stance",
+      "Employ persuasive language and conditional clauses"
+    ]
+  },
+  {
+    "id": "remote-work-culture",
+    "topic": "Evaluate the long-term impact of permanent remote work on organizational culture, employee loyalty, and career progression.",
+    "tips": [
+      "Analyze both tangible productivity metrics and intangible social dynamics",
+      "Use professional business vocabulary (e.g., 'retention,' 'synergy,' 'cohesion')",
+      "Provide a clear, cohesive concluding summary"
+    ]
+  },
+  {
+    "id": "universal-basic-income",
+    "topic": "Present an argument for or against the implementation of a Universal Basic Income (UBI) in modern developed economies.",
+    "tips": [
+      "Discuss fiscal feasibility alongside socio-economic benefits or drawbacks",
+      "Use formal hedge words (e.g., 'arguably,' 'potentially,' 'it remains uncertain')",
+      "Maintain an objective and analytical tone throughout"
+    ]
+  },
+  {
+    "id": "social-media-mental-health",
+    "topic": "Propose potential policy regulations to hold social media companies accountable for the mental health impacts of their algorithms on youth.",
+    "tips": [
+      "Detail specific actionable measures rather than broad assertions",
+      "Incorporate precise terminology related to digital ethics and mental well-being",
+      "Use clear signposting to delineate your proposal steps"
+    ]
+  },
+  {
+    "id": "globalization-vs-localization",
+    "topic": "Critique the shift from global supply chain reliance toward localized production, weighing national resilience against economic efficiency.",
+    "tips": [
+      "Evaluate trade-offs using comparative structures",
+      "Incorporate macroeconomic terms like 'resilience,' 'protectionism,' and 'economies of scale'",
+      "Formulate a balanced synthesis of both strategies"
+    ]
+  },
+  {
+    "id": "crisis-management-pitch",
+    "topic": "Deliver a statement as a company spokesperson addressing a major public security data breach to reassure investors and consumers.",
+    "tips": [
+      "Adopt an empathetic yet authoritative tone",
+      "Use crisis-response phrasing (e.g., 'mitigate risk,' 'transparent inquiry,' 'remedial measures')",
+      "Maintain concise and unambiguous sentence structures"
+    ]
+  },
+  {
+    "id": "higher-education-value",
+    "topic": "Argue whether traditional four-year university degrees remain essential in an era of alternative certifications and skill-based hiring.",
+    "tips": [
+      "Contrast structural benefits of higher education with practical industry demands",
+      "Use idiomatic advanced expressions natural to academic discourse",
+      "Conclude with a clear perspective on the future of tertiary education"
+    ]
+  },
+  {
+    "id": "arts-funding-priority",
+    "topic": "Defend the allocation of public tax revenues toward cultural and artistic preservation during times of national economic austerity.",
+    "tips": [
+      "Frame the intrinsic and indirect economic values of arts and heritage",
+      "Utilize sophisticated rhetorical techniques to build a persuasive argument",
+      "Address pragmatic financial objections directly"
+    ]
+  }
+]

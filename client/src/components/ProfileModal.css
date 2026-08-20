@@ -13,7 +13,7 @@
 }
 
 .profile-modal-content {
-  background: #f4f6f8;
+  background: #f8fafc;
   width: 90%;
   max-width: 1000px;
   height: 90vh;
@@ -93,9 +93,10 @@
 /* Cards */
 .profile-stats-card, .profile-form-card {
   background: white;
-  border-radius: 16px;
+  border-radius: 24px;
   padding: 2rem;
   box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05), 0 2px 4px -1px rgba(0,0,0,0.03);
+  border: 1px solid #e2e8f0;
 }
 
 .profile-stats-card {
@@ -112,11 +113,11 @@
 }
 
 .profile-avatar {
-  background-color: #FFD166;
-  color: #111827;
+  background: linear-gradient(135deg, #fbbf24, #d97706);
+  color: white;
   padding: 1rem;
   border-radius: 50%;
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .stats-header-info h2 {
@@ -261,24 +262,24 @@
 
 .save-profile-btn {
   margin-top: 1rem;
-  background: #2B58FF;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
   color: white;
   border: none;
   padding: 1rem;
   border-radius: 12px;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   transition: all 0.2s ease;
   width: fit-content;
   padding-left: 3rem;
   padding-right: 3rem;
+  box-shadow: 0 4px 15px rgba(59, 130, 246, 0.4);
 }
 
 .save-profile-btn:hover:not(:disabled) {
-  background: #1e3fcc;
   transform: translateY(-2px);
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.6);
 }
 
 .save-profile-btn:disabled {

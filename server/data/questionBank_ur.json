@@ -4,185 +4,663 @@
       {
         "id": 1,
         "type": "MCQ",
-        "text": "ترجمہ کریں: Water",
+        "text": "A کے بعد کون سا حرف آتا ہے؟",
         "options": [
-          "پانی",
-          "Fire",
-          "Earth",
-          "Air"
+          "B",
+          "C",
+          "D",
+          "E"
         ],
-        "answer": "پانی",
-        "feedback": "صحیح جواب ہے: پانی"
+        "answer": "B",
+        "feedback": "صحیح جواب ہے B"
       },
       {
         "id": 2,
         "type": "MCQ",
-        "text": "ترجمہ کریں: Food",
+        "text": "کون سا لفظ پھل ہے؟",
         "options": [
-          "کھانا",
-          "Sleep",
-          "Walk",
-          "Run"
+          "Apple",
+          "Chair",
+          "Table",
+          "Book"
         ],
-        "answer": "کھانا",
-        "feedback": "صحیح جواب ہے: کھانا"
+        "answer": "Apple",
+        "feedback": "Correct answer is Apple"
       },
       {
         "id": 3,
         "type": "MCQ",
-        "text": "ترجمہ کریں: Sun",
+        "text": "جانور کا نام کون سا لفظ ہے؟",
         "options": [
-          "سورج",
-          "Moon",
-          "Star",
-          "Cloud"
+          "Dog",
+          "Pen",
+          "Cup",
+          "Fan"
         ],
-        "answer": "سورج",
-        "feedback": "صحیح جواب ہے: سورج"
+        "answer": "Dog",
+        "feedback": "Correct answer is Dog"
       },
       {
         "id": 4,
         "type": "MCQ",
-        "text": "ترجمہ کریں: House",
+        "text": "کون سا حرف حرف ہے؟",
         "options": [
-          "گھر",
-          "Tree",
-          "Road",
-          "Car"
+          "B",
+          "C",
+          "A",
+          "D"
         ],
-        "answer": "گھر",
-        "feedback": "صحیح جواب ہے: گھر"
+        "answer": "A",
+        "feedback": "درست جواب A ہے۔"
       },
       {
         "id": 5,
         "type": "MCQ",
-        "text": "خالی جگہ پر کریں: A ___ C",
+        "text": "Which word means a greeting?",
         "options": [
-          "B",
-          "D",
-          "E",
-          "F"
+          "Hello",
+          "Sleep",
+          "Eat",
+          "Jump"
         ],
-        "answer": "B",
-        "feedback": "صحیح جواب ہے: B"
+        "answer": "Hello",
+        "feedback": "Correct answer is Hello"
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "9 کے بعد کون سا نمبر آتا ہے؟",
+        "options": [
+          "8",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "feedback": "درست جواب 10 ہے۔"
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "Which object is used for writing?",
+        "options": [
+          "Pencil",
+          "Plate",
+          "Spoon",
+          "Bottle"
+        ],
+        "answer": "Pencil",
+        "feedback": "Correct answer is Pencil"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "Which word is a color?",
+        "options": [
+          "Red",
+          "Ball",
+          "Mango",
+          "Bird"
+        ],
+        "answer": "Red",
+        "feedback": "درست جواب سرخ ہے۔"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "Which sentence is correct?",
+        "options": [
+          "I am happy.",
+          "Happy I am.",
+          "Am I happy.",
+          "Happy am."
+        ],
+        "answer": "I am happy.",
+        "feedback": "درست جواب یہ ہے کہ میں خوش ہوں۔"
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "کون سا جسم کا حصہ ہے؟",
+        "options": [
+          "Hand",
+          "Chair",
+          "Cup",
+          "Bag"
+        ],
+        "answer": "Hand",
+        "feedback": "صحیح جواب ہاتھ ہے۔"
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "بڑا کا مخالف کون سا لفظ ہے؟",
+        "options": [
+          "Small",
+          "Long",
+          "Fast",
+          "Tall"
+        ],
+        "answer": "Small",
+        "feedback": "درست جواب چھوٹا ہے۔"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "Which is a day of the week?",
+        "options": [
+          "Monday",
+          "January",
+          "Morning",
+          "Summer"
+        ],
+        "answer": "Monday",
+        "feedback": "Correct answer is Monday"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "کون سی سبزی ہے؟",
+        "options": [
+          "Carrot",
+          "Mango",
+          "Banana",
+          "Orange"
+        ],
+        "answer": "Carrot",
+        "feedback": "صحیح جواب گاجر ہے۔"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "Which animal says \"Meow\"?",
+        "options": [
+          "Cat",
+          "Dog",
+          "Cow",
+          "Goat"
+        ],
+        "answer": "Cat",
+        "feedback": "Correct answer is Cat"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "Which word is a drink?",
+        "options": [
+          "Milk",
+          "Rice",
+          "Bread",
+          "Apple"
+        ],
+        "answer": "Milk",
+        "feedback": "صحیح جواب ہے دودھ"
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "جی سے پہلے کون سا خط آتا ہے؟",
+        "options": [
+          "F",
+          "E",
+          "H",
+          "I"
+        ],
+        "answer": "F",
+        "feedback": "درست جواب ایف ہے۔"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "Which one flies?",
+        "options": [
+          "Bird",
+          "Fish",
+          "Dog",
+          "Cow"
+        ],
+        "answer": "Bird",
+        "feedback": "صحیح جواب برڈ ہے۔"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "سکول میں کون سا لفظ استعمال ہوتا ہے؟",
+        "options": [
+          "Book",
+          "Pillow",
+          "Stove",
+          "Bucket"
+        ],
+        "answer": "Book",
+        "feedback": "صحیح جواب کتاب ہے۔"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "کون سا موسم سب سے زیادہ گرم ہے؟",
+        "options": [
+          "Summer",
+          "Winter",
+          "Rainy",
+          "Autumn"
+        ],
+        "answer": "Summer",
+        "feedback": "صحیح جواب موسم گرما ہے۔"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "اپ کے مخالف کون سا لفظ ہے؟",
+        "options": [
+          "Down",
+          "Left",
+          "Right",
+          "Near"
+        ],
+        "answer": "Down",
+        "feedback": "Correct answer is Down"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "کون سا جملہ شائستہ ہے؟",
+        "options": [
+          "Thank you.",
+          "Go away.",
+          "Be quiet.",
+          "No."
+        ],
+        "answer": "Thank you.",
+        "feedback": "درست جواب ہے شکریہ۔"
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "Which shape has three sides?",
+        "options": [
+          "Triangle",
+          "Square",
+          "Circle",
+          "Rectangle"
+        ],
+        "answer": "Triangle",
+        "feedback": "Correct answer is Triangle"
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "جو وقت بتانے کے لیے استعمال ہوتا ہے؟",
+        "options": [
+          "Clock",
+          "Plate",
+          "Pencil",
+          "Bag"
+        ],
+        "answer": "Clock",
+        "feedback": "Correct answer is Clock"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "کون سا خاندان کا فرد ہے؟",
+        "options": [
+          "Mother",
+          "Teacher",
+          "Doctor",
+          "Driver"
+        ],
+        "answer": "Mother",
+        "feedback": "صحیح جواب ہے ماں"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "Which word completes the sentence? The sky is _____.",
+        "options": [
+          "Blue",
+          "Sweet",
+          "Hot",
+          "Soft"
+        ],
+        "answer": "Blue",
+        "feedback": "صحیح جواب بلیو ہے۔"
       }
     ],
     "Reading": [
       {
         "id": 26,
         "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: مجھے سیب پسند ہیں۔",
-        "word": "مجھے سیب پسند ہیں۔"
+        "text": "اونچی آواز میں پڑھیں: I am Sam.",
+        "word": "I am Sam."
       },
       {
         "id": 27,
         "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: Hello.",
-        "word": "Hello."
+        "text": "اونچی آواز میں پڑھیں: This is a cat.",
+        "word": "This is a cat."
       },
       {
         "id": 28,
         "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: Thank you.",
-        "word": "Thank you."
+        "text": "اونچی آواز میں پڑھیں: The sun is hot.",
+        "word": "The sun is hot."
       },
       {
         "id": 29,
         "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: Good boy.",
-        "word": "Good boy."
+        "text": "اونچی آواز میں پڑھیں: I like milk.",
+        "word": "I like milk."
       },
       {
         "id": 30,
         "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: Welcome.",
-        "word": "Welcome."
+        "text": "اونچی آواز میں پڑھیں: She has a pen.",
+        "word": "She has a pen."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: We play daily.",
+        "word": "We play daily."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The bird can fly.",
+        "word": "The bird can fly."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: My bag is blue.",
+        "word": "My bag is blue."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: He is my friend.",
+        "word": "He is my friend."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Open the door.",
+        "word": "Open the door."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The dog is running.",
+        "word": "The dog is running."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: I wash my hands.",
+        "word": "I wash my hands."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The flowers smell nice.",
+        "word": "The flowers smell nice."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: My school is nearby.",
+        "word": "My school is nearby."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: We drink clean water.",
+        "word": "We drink clean water."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The moon shines at night.",
+        "word": "The moon shines at night."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Please close the window.",
+        "word": "Please close the window."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Children are playing happily.",
+        "word": "Children are playing happily."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The farmer grows vegetables.",
+        "word": "The farmer grows vegetables."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: I enjoy reading books.",
+        "word": "I enjoy reading books."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: My family eats dinner together.",
+        "word": "My family eats dinner together."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Always speak with kindness.",
+        "word": "Always speak with kindness."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Practice makes us better.",
+        "word": "Practice makes us better."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Every day is a new beginning.",
+        "word": "Every day is a new beginning."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Learning opens many opportunities.",
+        "word": "Learning opens many opportunities."
       }
     ],
     "Writing": [
       {
         "id": 51,
         "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: وہ ایک کتاب پڑھ رہی ہے۔",
-        "answer": "She is reading a book.",
-        "feedback": "صحیح ترجمہ ہے: She is reading a book."
+        "text": "انگریزی میں ترجمہ کریں۔: سیب",
+        "answer": "Apple",
+        "feedback": "جملہ تھا: Apple"
       },
       {
         "id": 52,
         "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: Namaste / Vanakkam / Hello",
-        "answer": "Hello",
-        "feedback": "صحیح ترجمہ ہے: Hello"
+        "text": "انگریزی میں ترجمہ کریں۔: Good morning",
+        "answer": "Good morning",
+        "feedback": "جملہ تھا: Good morning"
       },
       {
         "id": 53,
         "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: Yes",
-        "answer": "Yes",
-        "feedback": "صحیح ترجمہ ہے: Yes"
+        "text": "انگریزی میں ترجمہ کریں۔: شکریہ",
+        "answer": "Thank you",
+        "feedback": "جملہ تھا: Thank you"
       },
       {
         "id": 54,
         "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: No",
-        "answer": "No",
-        "feedback": "صحیح ترجمہ ہے: No"
+        "text": "انگریزی میں ترجمہ کریں۔: میری کتاب",
+        "answer": "My book",
+        "feedback": "جملہ تھا: My book"
       },
       {
         "id": 55,
         "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: Water",
-        "answer": "Water",
-        "feedback": "صحیح ترجمہ ہے: Water"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 76,
-        "type": "Listening",
-        "audioText": "صبح بخیر",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "Good morning",
-        "feedback": "صحیح جواب ہے: Good morning"
+        "text": "انگریزی میں ترجمہ کریں۔: Blue sky",
+        "answer": "Blue sky",
+        "feedback": "جملہ تھا: Blue sky"
       },
       {
-        "id": 77,
-        "type": "Listening",
-        "audioText": "Thank you",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "Thank you",
-        "feedback": "صحیح جواب ہے: Thank you"
+        "id": 56,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Red ball",
+        "answer": "Red ball",
+        "feedback": "جملہ تھا: Red ball"
       },
       {
-        "id": 78,
-        "type": "Listening",
-        "audioText": "Welcome",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "Welcome",
-        "feedback": "صحیح جواب ہے: Welcome"
+        "id": 57,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Green tree",
+        "answer": "Green tree",
+        "feedback": "جملہ تھا: Green tree"
       },
       {
-        "id": 79,
-        "type": "Listening",
-        "audioText": "Yes",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "Yes",
-        "feedback": "صحیح جواب ہے: Yes"
+        "id": 58,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Drink water",
+        "answer": "Drink water",
+        "feedback": "جملہ تھا: Drink water"
       },
       {
-        "id": 80,
-        "type": "Listening",
-        "audioText": "No",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "No",
-        "feedback": "صحیح جواب ہے: No"
+        "id": 59,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: دروازہ کھولو",
+        "answer": "Open door",
+        "feedback": "جملہ تھا: Open door"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: کھڑکی بند کریں۔",
+        "answer": "Close window",
+        "feedback": "جملہ تھا: Close window"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: خوش بچے",
+        "answer": "Happy child",
+        "feedback": "جملہ تھا: Happy child"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Fast car",
+        "answer": "Fast car",
+        "feedback": "جملہ تھا: Fast car"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: چھوٹی بلی ۔",
+        "answer": "Small cat",
+        "feedback": "جملہ تھا: Small cat"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: بڑا گھر",
+        "answer": "Big house",
+        "feedback": "جملہ تھا: Big house"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: پیلا پھول",
+        "answer": "Yellow flower",
+        "feedback": "جملہ تھا: Yellow flower"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: کتاب پڑھیں",
+        "answer": "Read book",
+        "feedback": "جملہ تھا: Read book"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Clean hands",
+        "answer": "Clean hands",
+        "feedback": "جملہ تھا: Clean hands"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: کھانا کھاؤ",
+        "answer": "Eat food",
+        "feedback": "جملہ تھا: Eat food"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: اچھا دن",
+        "answer": "Nice day",
+        "feedback": "جملہ تھا: Nice day"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: گھر جاؤ",
+        "answer": "Go home",
+        "feedback": "جملہ تھا: Go home"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Good friend",
+        "answer": "Good friend",
+        "feedback": "جملہ تھا: Good friend"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: My school",
+        "answer": "My school",
+        "feedback": "جملہ تھا: My school"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: میٹھا آم",
+        "answer": "Sweet mango",
+        "feedback": "جملہ تھا: Sweet mango"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: خوش تعلیم",
+        "answer": "Happy learning",
+        "feedback": "جملہ تھا: Happy learning"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Well done",
+        "answer": "Well done",
+        "feedback": "جملہ تھا: Well done"
       }
     ],
     "Grammar": [
       {
-        "id": 101,
+        "id": 76,
         "type": "Grammar",
-        "text": "خالی جگہ پر کریں: I ___ a student.",
+        "text": "خالی جگہ پُر کریں: I ___ a student.",
         "options": [
           "am",
           "is",
@@ -190,768 +668,3270 @@
           "be"
         ],
         "answer": "am",
-        "feedback": "صحیح جواب ہے: am"
+        "feedback": "درست جواب ہے: am"
       },
       {
-        "id": 102,
+        "id": 77,
         "type": "Grammar",
-        "text": "خالی جگہ پر کریں: He ___ a boy.",
+        "text": "خالی جگہ پُر کریں: She ___ happy.",
         "options": [
-          "is",
           "am",
+          "is",
           "are",
           "be"
         ],
         "answer": "is",
-        "feedback": "صحیح جواب ہے: is"
+        "feedback": "درست جواب ہے: is"
       },
       {
-        "id": 103,
+        "id": 78,
         "type": "Grammar",
-        "text": "خالی جگہ پر کریں: They ___ playing.",
+        "text": "خالی جگہ پُر کریں: They ___ playing.",
         "options": [
+          "am",
+          "is",
+          "are",
+          "was"
+        ],
+        "answer": "are",
+        "feedback": "درست جواب ہے: are"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: This is ___ apple.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "درست جواب ہے: an"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: I have ___ book.",
+        "options": [
+          "an",
+          "a",
+          "the",
+          "no article"
+        ],
+        "answer": "a",
+        "feedback": "درست جواب ہے: a"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: ___ sun rises in the east.",
+        "options": [
+          "A",
+          "An",
+          "The",
+          "No article"
+        ],
+        "answer": "The",
+        "feedback": "درست جواب ہے: The"
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: We ___ friends.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "are",
+        "feedback": "درست جواب ہے: are"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: He ___ my brother.",
+        "options": [
+          "am",
           "are",
           "is",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "درست جواب ہے: is"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: The birds ___ flying.",
+        "options": [
+          "is",
+          "are",
           "am",
           "was"
         ],
         "answer": "are",
-        "feedback": "صحیح جواب ہے: are"
+        "feedback": "درست جواب ہے: are"
       },
       {
-        "id": 104,
+        "id": 85,
         "type": "Grammar",
-        "text": "خالی جگہ پر کریں: She ___ reading.",
+        "text": "خالی جگہ پُر کریں: She has two ___.",
         "options": [
+          "book",
+          "books",
+          "bookes",
+          "bookses"
+        ],
+        "answer": "books",
+        "feedback": "درست جواب ہے: books"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: I eat ___ banana every day.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "a",
+        "feedback": "درست جواب ہے: a"
+      },
+      {
+        "id": 87,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Ravi ___ a doctor.",
+        "options": [
+          "are",
           "is",
           "am",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "درست جواب ہے: is"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: We ___ to school.",
+        "options": [
+          "goes",
+          "go",
+          "going",
+          "gone"
+        ],
+        "answer": "go",
+        "feedback": "درست جواب ہے: go"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: She ___ water.",
+        "options": [
+          "drink",
+          "drinks",
+          "drinking",
+          "drank"
+        ],
+        "answer": "drinks",
+        "feedback": "درست جواب ہے: drinks"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: They ___ football.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "answer": "play",
+        "feedback": "درست جواب ہے: play"
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: This ___ my bag.",
+        "options": [
           "are",
+          "is",
+          "am",
           "be"
         ],
         "answer": "is",
-        "feedback": "صحیح جواب ہے: is"
+        "feedback": "درست جواب ہے: is"
       },
       {
-        "id": 105,
+        "id": 92,
         "type": "Grammar",
-        "text": "خالی جگہ پر کریں: We ___ happy.",
+        "text": "خالی جگہ پُر کریں: I ___ my homework.",
         "options": [
-          "are",
-          "is",
-          "am",
-          "be"
+          "do",
+          "does",
+          "dids",
+          "doing"
         ],
-        "answer": "are",
-        "feedback": "صحیح جواب ہے: are"
+        "answer": "do",
+        "feedback": "درست جواب ہے: do"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: He ___ his homework.",
+        "options": [
+          "do",
+          "does",
+          "doing",
+          "done"
+        ],
+        "answer": "does",
+        "feedback": "درست جواب ہے: does"
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: We have three ___.",
+        "options": [
+          "pen",
+          "pens",
+          "penes",
+          "penc"
+        ],
+        "answer": "pens",
+        "feedback": "درست جواب ہے: pens"
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: The child ___ smiling.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "were"
+        ],
+        "answer": "is",
+        "feedback": "درست جواب ہے: is"
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: ___ is my teacher.",
+        "options": [
+          "He",
+          "Him",
+          "His",
+          "Himself"
+        ],
+        "answer": "He",
+        "feedback": "درست جواب ہے: He"
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: This is ___ pencil.",
+        "options": [
+          "my",
+          "me",
+          "I",
+          "mine"
+        ],
+        "answer": "my",
+        "feedback": "درست جواب ہے: my"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: They live ___ India.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "from"
+        ],
+        "answer": "in",
+        "feedback": "درست جواب ہے: in"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: The cat is ___ the table.",
+        "options": [
+          "on",
+          "in",
+          "under",
+          "from"
+        ],
+        "answer": "on",
+        "feedback": "درست جواب ہے: on"
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: We ___ English every day.",
+        "options": [
+          "learns",
+          "learn",
+          "learning",
+          "learned"
+        ],
+        "answer": "learn",
+        "feedback": "درست جواب ہے: learn"
       }
     ],
     "Puzzle": [
       {
-        "id": 126,
+        "id": 101,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "dog",
-          "The",
-          "barks"
+        "text": "Which word is different?",
+        "options": [
+          "Apple",
+          "Mango",
+          "Banana",
+          "Chair"
         ],
-        "answer": "The dog barks",
-        "feedback": "صحیح جواب ہے: The dog barks"
+        "answer": "Chair",
+        "feedback": "درست جواب ہے: Chair"
       },
       {
-        "id": 127,
+        "id": 102,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "boy",
-          "is",
-          "He",
-          "a"
+        "text": "پیٹرن مکمل کریں: A, B, C, __",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "G"
         ],
-        "answer": "He is a boy",
-        "feedback": "صحیح جواب ہے: He is a boy"
+        "answer": "D",
+        "feedback": "درست جواب ہے: D"
       },
       {
-        "id": 128,
+        "id": 103,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "playing",
-          "are",
-          "They"
+        "text": "Which number comes next? 2, 4, 6, 8, __",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
         ],
-        "answer": "They are playing",
-        "feedback": "صحیح جواب ہے: They are playing"
+        "answer": "10",
+        "feedback": "درست جواب ہے: 10"
       },
       {
-        "id": 129,
+        "id": 104,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "reading",
-          "She",
-          "is"
+        "text": "کون سا پھل نہیں ہے؟",
+        "options": [
+          "Orange",
+          "Apple",
+          "Potato",
+          "Mango"
         ],
-        "answer": "She is reading",
-        "feedback": "صحیح جواب ہے: She is reading"
+        "answer": "Potato",
+        "feedback": "درست جواب ہے: Potato"
       },
       {
-        "id": 130,
+        "id": 105,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "happy",
-          "We",
-          "are"
+        "text": "عجیب تلاش کریں۔",
+        "options": [
+          "Cat",
+          "Dog",
+          "Cow",
+          "Table"
         ],
-        "answer": "We are happy",
-        "feedback": "صحیح جواب ہے: We are happy"
+        "answer": "Table",
+        "feedback": "درست جواب ہے: Table"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "Which shape has no corners?",
+        "options": [
+          "Square",
+          "Rectangle",
+          "Circle",
+          "Triangle"
+        ],
+        "answer": "Circle",
+        "feedback": "درست جواب ہے: Circle"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "Which comes first?",
+        "options": [
+          "Evening",
+          "Morning",
+          "Night",
+          "Midnight"
+        ],
+        "answer": "Morning",
+        "feedback": "درست جواب ہے: Morning"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "لفظ مکمل کریں: C _ T",
+        "options": [
+          "A",
+          "O",
+          "E",
+          "U"
+        ],
+        "answer": "A",
+        "feedback": "درست جواب ہے: A"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "Which is the largest?",
+        "options": [
+          "Ant",
+          "Elephant",
+          "Rat",
+          "Cat"
+        ],
+        "answer": "Elephant",
+        "feedback": "درست جواب ہے: Elephant"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "Which one belongs in a classroom?",
+        "options": [
+          "Blackboard",
+          "Pillow",
+          "Stove",
+          "Shower"
+        ],
+        "answer": "Blackboard",
+        "feedback": "درست جواب ہے: Blackboard"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "اگلا حرف تلاش کریں: M, N, O, __",
+        "options": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ],
+        "answer": "P",
+        "feedback": "درست جواب ہے: P"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "جو کھانا پکانے کے لیے استعمال ہوتا ہے؟",
+        "options": [
+          "Pan",
+          "Book",
+          "Ball",
+          "Pencil"
+        ],
+        "answer": "Pan",
+        "feedback": "درست جواب ہے: Pan"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "Which is the smallest number?",
+        "options": [
+          "7",
+          "2",
+          "5",
+          "9"
+        ],
+        "answer": "2",
+        "feedback": "درست جواب ہے: 2"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "Which animal lives in water?",
+        "options": [
+          "Lion",
+          "Fish",
+          "Goat",
+          "Horse"
+        ],
+        "answer": "Fish",
+        "feedback": "درست جواب ہے: Fish"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "کون سی ٹرانسپورٹ گاڑی ہے؟",
+        "options": [
+          "Bus",
+          "Tree",
+          "Chair",
+          "Fan"
+        ],
+        "answer": "Bus",
+        "feedback": "درست جواب ہے: Bus"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "Complete the sequence: 10, 20, 30, __",
+        "options": [
+          "35",
+          "40",
+          "45",
+          "50"
+        ],
+        "answer": "40",
+        "feedback": "درست جواب ہے: 40"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "وقت بتانے کے لیے کون سا استعمال ہوتا ہے؟",
+        "options": [
+          "Clock",
+          "Spoon",
+          "Plate",
+          "Bottle"
+        ],
+        "answer": "Clock",
+        "feedback": "درست جواب ہے: Clock"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "Which comes after Friday?",
+        "options": [
+          "Thursday",
+          "Saturday",
+          "Sunday",
+          "Monday"
+        ],
+        "answer": "Saturday",
+        "feedback": "درست جواب ہے: Saturday"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "Which word has the most letters?",
+        "options": [
+          "Cat",
+          "Elephant",
+          "Dog",
+          "Cow"
+        ],
+        "answer": "Elephant",
+        "feedback": "درست جواب ہے: Elephant"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "Which object gives light?",
+        "options": [
+          "Lamp",
+          "Chair",
+          "Bag",
+          "Shoe"
+        ],
+        "answer": "Lamp",
+        "feedback": "درست جواب ہے: Lamp"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "Which is the opposite of \"Open\"?",
+        "options": [
+          "Start",
+          "Close",
+          "Run",
+          "Walk"
+        ],
+        "answer": "Close",
+        "feedback": "درست جواب ہے: Close"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "Which number is missing? 5, 10, __, 20",
+        "options": [
+          "12",
+          "15",
+          "18",
+          "25"
+        ],
+        "answer": "15",
+        "feedback": "درست جواب ہے: 15"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "کون سا پرندہ ہے؟",
+        "options": [
+          "Sparrow",
+          "Tiger",
+          "Horse",
+          "Cow"
+        ],
+        "answer": "Sparrow",
+        "feedback": "درست جواب ہے: Sparrow"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "Which letter comes before K?",
+        "options": [
+          "H",
+          "I",
+          "J",
+          "L"
+        ],
+        "answer": "J",
+        "feedback": "درست جواب ہے: J"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "پڑھنے کے لیے کون سی چیز استعمال ہوتی ہے؟",
+        "options": [
+          "Book",
+          "Plate",
+          "Shoe",
+          "Cup"
+        ],
+        "answer": "Book",
+        "feedback": "درست جواب ہے: Book"
       }
     ]
   },
   "Intermediate": {
     "MCQ": [
       {
-        "id": 201,
+        "id": 1,
         "type": "MCQ",
-        "text": "ترجمہ کریں: Beautiful",
+        "text": "صحیح جملے کا انتخاب کریں۔",
         "options": [
-          "خوبصورت",
-          "Ugly",
-          "Fast",
-          "Slow"
+          "She go to school.",
+          "She goes to school.",
+          "She going school.",
+          "She gone school."
         ],
-        "answer": "خوبصورت",
-        "feedback": "صحیح جواب ہے: خوبصورت"
+        "answer": "She goes to school.",
+        "feedback": "درست جواب ہے وہ سکول جاتی ہے۔"
       },
       {
-        "id": 202,
+        "id": 2,
         "type": "MCQ",
-        "text": "ترجمہ کریں: Library",
+        "text": "کون سا لفظ \"خوش\" کا مخالف ہے؟",
         "options": [
-          "لائبریری",
+          "Joyful",
+          "Sad",
+          "Excited",
+          "Bright"
+        ],
+        "answer": "Sad",
+        "feedback": "درست جواب افسوسناک ہے۔"
+      },
+      {
+        "id": 3,
+        "type": "MCQ",
+        "text": "Complete the sentence: The birds _____ in the sky.",
+        "options": [
+          "swim",
+          "fly",
+          "walk",
+          "crawl"
+        ],
+        "answer": "fly",
+        "feedback": "Correct answer is fly"
+      },
+      {
+        "id": 4,
+        "type": "MCQ",
+        "text": "Which word is a verb?",
+        "options": [
+          "Teacher",
+          "Running",
           "School",
-          "Hospital",
-          "Park"
+          "Table"
         ],
-        "answer": "لائبریری",
-        "feedback": "صحیح جواب ہے: لائبریری"
+        "answer": "Running",
+        "feedback": "صحیح جواب چل رہا ہے۔"
       },
       {
-        "id": 203,
+        "id": 5,
         "type": "MCQ",
-        "text": "خالی جگہ پر کریں: Past tense of 'run' is ___",
+        "text": "Which sentence is correct?",
         "options": [
-          "ran",
-          "runned",
-          "running",
-          "runs"
+          "They is playing.",
+          "They are playing.",
+          "They am playing.",
+          "They be playing."
         ],
-        "answer": "ran",
-        "feedback": "صحیح جواب ہے: ran"
+        "answer": "They are playing.",
+        "feedback": "صحیح جواب یہ ہے کہ وہ کھیل رہے ہیں۔"
       },
       {
-        "id": 204,
+        "id": 6,
         "type": "MCQ",
-        "text": "خالی جگہ پر کریں: Opposite of 'hot' is ___",
+        "text": "کون سا لفظ جلدی کا مترادف ہے؟",
         "options": [
-          "cold",
-          "warm",
-          "boiling",
-          "freezing"
+          "Slow",
+          "Fast",
+          "Late",
+          "Quiet"
         ],
-        "answer": "cold",
-        "feedback": "صحیح جواب ہے: cold"
+        "answer": "Fast",
+        "feedback": "Correct answer is Fast"
       },
       {
-        "id": 205,
+        "id": 7,
         "type": "MCQ",
-        "text": "خالی جگہ پر کریں: Verb is ___",
+        "text": "صحیح ہجے کا انتخاب کریں۔",
         "options": [
-          "Run",
-          "Apple",
-          "Blue",
-          "Quickly"
+          "Beautifull",
+          "Beautiful",
+          "Beautifal",
+          "Beutiful"
         ],
-        "answer": "Run",
-        "feedback": "صحیح جواب ہے: Run"
-      }
-    ],
-    "Reading": [
-      {
-        "id": 226,
-        "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: میں ایک نئی زبان سیکھ رہا ہوں۔",
-        "word": "میں ایک نئی زبان سیکھ رہا ہوں۔"
-      },
-      {
-        "id": 227,
-        "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: The quick brown fox.",
-        "word": "The quick brown fox."
-      },
-      {
-        "id": 228,
-        "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: It is raining outside.",
-        "word": "It is raining outside."
-      },
-      {
-        "id": 229,
-        "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: She likes to read books.",
-        "word": "She likes to read books."
-      },
-      {
-        "id": 230,
-        "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: I am learning English.",
-        "word": "I am learning English."
-      }
-    ],
-    "Writing": [
-      {
-        "id": 251,
-        "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: لائبریری کہاں ہے؟",
-        "answer": "Where is the library?",
-        "feedback": "صحیح ترجمہ ہے: Where is the library?"
-      },
-      {
-        "id": 252,
-        "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: Beautiful",
         "answer": "Beautiful",
-        "feedback": "صحیح ترجمہ ہے: Beautiful"
+        "feedback": "درست جواب خوبصورت ہے۔"
       },
       {
-        "id": 253,
-        "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: Important",
-        "answer": "Important",
-        "feedback": "صحیح ترجمہ ہے: Important"
-      },
-      {
-        "id": 254,
-        "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: Because",
-        "answer": "Because",
-        "feedback": "صحیح ترجمہ ہے: Because"
-      },
-      {
-        "id": 255,
-        "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: Together",
-        "answer": "Together",
-        "feedback": "صحیح ترجمہ ہے: Together"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 276,
-        "type": "Listening",
-        "audioText": "آپ کیسے ہیں؟",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "How are you?",
-        "feedback": "صحیح جواب ہے: How are you?"
-      },
-      {
-        "id": 277,
-        "type": "Listening",
-        "audioText": "Beautiful",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "Beautiful",
-        "feedback": "صحیح جواب ہے: Beautiful"
-      },
-      {
-        "id": 278,
-        "type": "Listening",
-        "audioText": "I am fine",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "I am fine",
-        "feedback": "صحیح جواب ہے: I am fine"
-      },
-      {
-        "id": 279,
-        "type": "Listening",
-        "audioText": "See you later",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "See you later",
-        "feedback": "صحیح جواب ہے: See you later"
-      },
-      {
-        "id": 280,
-        "type": "Listening",
-        "audioText": "Have a good day",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "Have a good day",
-        "feedback": "صحیح جواب ہے: Have a good day"
-      }
-    ],
-    "Grammar": [
-      {
-        "id": 301,
-        "type": "Grammar",
-        "text": "خالی جگہ پر کریں: She ___ to the store yesterday.",
+        "id": 8,
+        "type": "MCQ",
+        "text": "سوالیہ نشان کے ساتھ کون سا جملہ ختم ہوتا ہے؟",
         "options": [
-          "went",
-          "go",
-          "going",
-          "goes"
+          "I like apples.",
+          "Where are you?",
+          "She is happy.",
+          "Open the door."
         ],
-        "answer": "went",
-        "feedback": "صحیح جواب ہے: went"
+        "answer": "Where are you?",
+        "feedback": "درست جواب ہے آپ کہاں ہیں؟"
       },
       {
-        "id": 302,
-        "type": "Grammar",
-        "text": "خالی جگہ پر کریں: I have ___ eaten breakfast.",
+        "id": 9,
+        "type": "MCQ",
+        "text": "Which word is a noun?",
         "options": [
-          "already",
-          "yet",
-          "still",
-          "soon"
+          "Dance",
+          "House",
+          "Quickly",
+          "Happy"
         ],
-        "answer": "already",
-        "feedback": "صحیح جواب ہے: already"
+        "answer": "House",
+        "feedback": "Correct answer is House"
       },
       {
-        "id": 303,
-        "type": "Grammar",
-        "text": "خالی جگہ پر کریں: He is taller ___ his brother.",
+        "id": 10,
+        "type": "MCQ",
+        "text": "کون سا جملہ شائستہ ہے؟",
         "options": [
-          "than",
-          "then",
-          "that",
-          "there"
+          "Move away!",
+          "Please help me.",
+          "Give me that.",
+          "Be quiet."
         ],
-        "answer": "than",
-        "feedback": "صحیح جواب ہے: than"
+        "answer": "Please help me.",
+        "feedback": "درست جواب ہے پلیز میری مدد کریں۔"
       },
       {
-        "id": 304,
-        "type": "Grammar",
-        "text": "خالی جگہ پر کریں: They will arrive ___ Monday.",
+        "id": 11,
+        "type": "MCQ",
+        "text": "Complete the sentence: Water is _____ for life.",
+        "options": [
+          "important",
+          "noisy",
+          "expensive",
+          "dirty"
+        ],
+        "answer": "important",
+        "feedback": "Correct answer is important"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "کون سا لفظ گروہ سے تعلق رکھتا ہے؟ گلاب، للی، کمل، _____",
+        "options": [
+          "Mango",
+          "Jasmine",
+          "Potato",
+          "Rice"
+        ],
+        "answer": "Jasmine",
+        "feedback": "Correct answer is Jasmine"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "صحیح مضمون کا انتخاب کریں۔ میں نے _____ ہاتھی دیکھا۔",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "Correct answer is an"
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "کون سا لفظ صفت ہے؟",
+        "options": [
+          "Tall",
+          "Walk",
+          "School",
+          "Friend"
+        ],
+        "answer": "Tall",
+        "feedback": "درست جواب قد ہے۔"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "Which sentence is in the past tense?",
+        "options": [
+          "I play football.",
+          "I played football.",
+          "I am playing football.",
+          "I will play football."
+        ],
+        "answer": "I played football.",
+        "feedback": "درست جواب ہے کہ میں نے فٹ بال کھیلا۔"
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "ہسپتال میں کون سا استعمال ہوتا ہے؟",
+        "options": [
+          "Stethoscope",
+          "Hammer",
+          "Spade",
+          "Eraser"
+        ],
+        "answer": "Stethoscope",
+        "feedback": "درست جواب سٹیتھوسکوپ ہے۔"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "کون سا لفظ جملہ مکمل کرتا ہے؟ ٹرین _____ وقت پر پہنچی۔",
         "options": [
           "on",
           "in",
           "at",
-          "by"
+          "over"
         ],
         "answer": "on",
-        "feedback": "صحیح جواب ہے: on"
+        "feedback": "درست جواب آن ہے۔"
       },
       {
-        "id": 305,
+        "id": 18,
+        "type": "MCQ",
+        "text": "صحیح جمع کون سا ہے؟",
+        "options": [
+          "Childs",
+          "Children",
+          "Childes",
+          "Childrens"
+        ],
+        "answer": "Children",
+        "feedback": "صحیح جواب ہے بچے"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "کس جملے کا صحیح حروف تہجی ہے؟",
+        "options": [
+          "india is my country.",
+          "India is my country.",
+          "india Is my country.",
+          "India is My country."
+        ],
+        "answer": "India is my country.",
+        "feedback": "صحیح جواب ہے کہ ہندوستان میرا ملک ہے۔"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "Which word is related to farming?",
+        "options": [
+          "Tractor",
+          "Laptop",
+          "Television",
+          "Printer"
+        ],
+        "answer": "Tractor",
+        "feedback": "Correct answer is Tractor"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "Choose the correct word. The baby is _____ loudly.",
+        "options": [
+          "cry",
+          "crying",
+          "cried",
+          "cries"
+        ],
+        "answer": "crying",
+        "feedback": "صحیح جواب رونا ہے۔"
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "کون سا جملہ سب سے زیادہ معنی رکھتا ہے؟",
+        "options": [
+          "The fish climbed a tree.",
+          "The fish swims in water.",
+          "The fish drives a car.",
+          "The fish writes a letter."
+        ],
+        "answer": "The fish swims in water.",
+        "feedback": "Correct answer is The fish swims in water."
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "Which word is an antonym of strong?",
+        "options": [
+          "Powerful",
+          "Weak",
+          "Healthy",
+          "Brave"
+        ],
+        "answer": "Weak",
+        "feedback": "درست جواب ضعیف ہے۔"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "کون سا اوقاف کا نشان ایک فجائیہ جملہ کو ختم کرتا ہے؟",
+        "options": [
+          ".",
+          ",",
+          "!",
+          "?"
+        ],
+        "answer": "!",
+        "feedback": "درست جواب ہے!"
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "Complete the sentence. We should always _____ the truth.",
+        "options": [
+          "tell",
+          "hide",
+          "forget",
+          "break"
+        ],
+        "answer": "tell",
+        "feedback": "Correct answer is tell"
+      }
+    ],
+    "Reading": [
+      {
+        "id": 26,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: My name is Rahul. I enjoy reading books every evening.",
+        "word": "My name is Rahul. I enjoy reading books every evening."
+      },
+      {
+        "id": 27,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The children are playing football in the school playground.",
+        "word": "The children are playing football in the school playground."
+      },
+      {
+        "id": 28,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: My mother prepares healthy food for our family every day.",
+        "word": "My mother prepares healthy food for our family every day."
+      },
+      {
+        "id": 29,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The bus arrived on time, so everyone reached school early.",
+        "word": "The bus arrived on time, so everyone reached school early."
+      },
+      {
+        "id": 30,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: We should drink clean water to stay healthy and active.",
+        "word": "We should drink clean water to stay healthy and active."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The farmer works hard to grow fresh fruits and vegetables.",
+        "word": "The farmer works hard to grow fresh fruits and vegetables."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Rita helped her grandmother carry groceries from the market.",
+        "word": "Rita helped her grandmother carry groceries from the market."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The weather is pleasant today, so we decided to visit the park.",
+        "word": "The weather is pleasant today, so we decided to visit the park."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: My teacher encourages us to ask questions and learn new things.",
+        "word": "My teacher encourages us to ask questions and learn new things."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Trees provide fresh air, shade, and homes for many birds.",
+        "word": "Trees provide fresh air, shade, and homes for many birds."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Every morning, I wake up early and exercise for thirty minutes.",
+        "word": "Every morning, I wake up early and exercise for thirty minutes."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The doctor advised the patient to eat healthy food and rest well.",
+        "word": "The doctor advised the patient to eat healthy food and rest well."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Our library has many interesting books about science, history, and nature.",
+        "word": "Our library has many interesting books about science, history, and nature."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Always wear a helmet while riding a bicycle to stay safe.",
+        "word": "Always wear a helmet while riding a bicycle to stay safe."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The train was delayed because of heavy rainfall during the night.",
+        "word": "The train was delayed because of heavy rainfall during the night."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Students should complete their homework before watching television.",
+        "word": "Students should complete their homework before watching television."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The shopkeeper greeted every customer with a warm smile.",
+        "word": "The shopkeeper greeted every customer with a warm smile."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Saving electricity helps protect the environment and reduces electricity bills.",
+        "word": "Saving electricity helps protect the environment and reduces electricity bills."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Our school organized a tree plantation drive on Environment Day.",
+        "word": "Our school organized a tree plantation drive on Environment Day."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Honesty and kindness help us build strong friendships with others.",
+        "word": "Honesty and kindness help us build strong friendships with others."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The computer helps us learn, communicate, and solve many problems.",
+        "word": "The computer helps us learn, communicate, and solve many problems."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Reading newspapers every day improves vocabulary and general knowledge.",
+        "word": "Reading newspapers every day improves vocabulary and general knowledge."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Good communication skills help people succeed in school and at work.",
+        "word": "Good communication skills help people succeed in school and at work."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Learning a new language helps us understand different cultures and traditions.",
+        "word": "Learning a new language helps us understand different cultures and traditions."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Regular practice and determination help every learner achieve success.",
+        "word": "Regular practice and determination help every learner achieve success."
+      }
+    ],
+    "Writing": [
+      {
+        "id": 51,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Good afternoon",
+        "answer": "Good afternoon",
+        "feedback": "جملہ تھا: Good afternoon"
+      },
+      {
+        "id": 52,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Clean water",
+        "answer": "Clean water",
+        "feedback": "جملہ تھا: Clean water"
+      },
+      {
+        "id": 53,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: صحت مند کھانا",
+        "answer": "Healthy food",
+        "feedback": "جملہ تھا: Healthy food"
+      },
+      {
+        "id": 54,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: کھڑکی کھولیں۔",
+        "answer": "Open window",
+        "feedback": "جملہ تھا: Open window"
+      },
+      {
+        "id": 55,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Close gate",
+        "answer": "Close gate",
+        "feedback": "جملہ تھا: Close gate"
+      },
+      {
+        "id": 56,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Read carefully",
+        "answer": "Read carefully",
+        "feedback": "جملہ تھا: Read carefully"
+      },
+      {
+        "id": 57,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Speak clearly",
+        "answer": "Speak clearly",
+        "feedback": "جملہ تھا: Speak clearly"
+      },
+      {
+        "id": 58,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: مل کر کام کریں۔",
+        "answer": "Work together",
+        "feedback": "جملہ تھا: Work together"
+      },
+      {
+        "id": 59,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Save electricity",
+        "answer": "Save electricity",
+        "feedback": "جملہ تھا: Save electricity"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: درخت لگائیں۔",
+        "answer": "Plant trees",
+        "feedback": "جملہ تھا: Plant trees"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: دوسروں کی مدد کریں۔",
+        "answer": "Help others",
+        "feedback": "جملہ تھا: Help others"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: قوانین پر عمل کریں۔",
+        "answer": "Follow rules",
+        "feedback": "جملہ تھا: Follow rules"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Keep smiling",
+        "answer": "Keep smiling",
+        "feedback": "جملہ تھا: Keep smiling"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Study regularly",
+        "answer": "Study regularly",
+        "feedback": "جملہ تھا: Study regularly"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: مثبت سوچیں۔",
+        "answer": "Think positively",
+        "feedback": "جملہ تھا: Think positively"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: جلدی پہنچنا",
+        "answer": "Arrive early",
+        "feedback": "جملہ تھا: Arrive early"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Wash vegetables",
+        "answer": "Wash vegetables",
+        "feedback": "جملہ تھا: Wash vegetables"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Respect elders",
+        "answer": "Respect elders",
+        "feedback": "جملہ تھا: Respect elders"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Use helmet",
+        "answer": "Use helmet",
+        "feedback": "جملہ تھا: Use helmet"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Stay focused",
+        "answer": "Stay focused",
+        "feedback": "جملہ تھا: Stay focused"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Learn daily",
+        "answer": "Learn daily",
+        "feedback": "جملہ تھا: Learn daily"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Finish homework",
+        "answer": "Finish homework",
+        "feedback": "جملہ تھا: Finish homework"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: علم بانٹیں۔",
+        "answer": "Share knowledge",
+        "feedback": "جملہ تھا: Share knowledge"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: بولنے کی مشق کریں۔",
+        "answer": "Practice speaking",
+        "feedback": "جملہ تھا: Practice speaking"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Believe yourself",
+        "answer": "Believe yourself",
+        "feedback": "جملہ تھا: Believe yourself"
+      }
+    ],
+    "Grammar": [
+      {
+        "id": 76,
         "type": "Grammar",
-        "text": "خالی جگہ پر کریں: She ___ speaking French.",
+        "text": "خالی جگہ پُر کریں: She _____ to school every day.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "gone"
+        ],
+        "answer": "goes",
+        "feedback": "درست جواب ہے: goes"
+      },
+      {
+        "id": 77,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: They _____ football yesterday.",
+        "options": [
+          "play",
+          "played",
+          "plays",
+          "playing"
+        ],
+        "answer": "played",
+        "feedback": "درست جواب ہے: played"
+      },
+      {
+        "id": 78,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: I _____ my homework every evening.",
+        "options": [
+          "do",
+          "does",
+          "did",
+          "doing"
+        ],
+        "answer": "do",
+        "feedback": "درست جواب ہے: do"
+      },
+      {
+        "id": 79,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: We _____ going to the market tomorrow.",
         "options": [
           "is",
-          "am",
           "are",
-          "be"
+          "am",
+          "was"
         ],
-        "answer": "is",
-        "feedback": "صحیح جواب ہے: is"
+        "answer": "are",
+        "feedback": "درست جواب ہے: are"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Choose the correct article. I saw _____ owl in the tree.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "درست جواب ہے: an"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: The books are _____ the table.",
+        "options": [
+          "in",
+          "on",
+          "under",
+          "between"
+        ],
+        "answer": "on",
+        "feedback": "درست جواب ہے: on"
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: My father _____ a car.",
+        "options": [
+          "drive",
+          "drives",
+          "driving",
+          "driven"
+        ],
+        "answer": "drives",
+        "feedback": "درست جواب ہے: drives"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: We _____ lunch at 1 p.m.",
+        "options": [
+          "eat",
+          "eats",
+          "eating",
+          "ate"
+        ],
+        "answer": "eat",
+        "feedback": "درست جواب ہے: eat"
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Choose the correct pronoun. Riya is absent. _____ is sick.",
+        "options": [
+          "He",
+          "She",
+          "They",
+          "It"
+        ],
+        "answer": "She",
+        "feedback": "درست جواب ہے: She"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: I _____ a movie last night.",
+        "options": [
+          "watch",
+          "watched",
+          "watches",
+          "watching"
+        ],
+        "answer": "watched",
+        "feedback": "درست جواب ہے: watched"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Which sentence is correct?",
+        "options": [
+          "He don't like tea.",
+          "He doesn't like tea.",
+          "He not like tea.",
+          "He didn't likes tea."
+        ],
+        "answer": "He doesn't like tea.",
+        "feedback": "درست جواب ہے: He doesn't like tea."
+      },
+      {
+        "id": 87,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Choose the correct conjunction. I was tired, _____ I finished my work.",
+        "options": [
+          "but",
+          "or",
+          "because",
+          "if"
+        ],
+        "answer": "but",
+        "feedback": "درست جواب ہے: but"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: They _____ in Jaipur.",
+        "options": [
+          "lives",
+          "live",
+          "living",
+          "lived"
+        ],
+        "answer": "live",
+        "feedback": "درست جواب ہے: live"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: My sister is _____ engineer.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "درست جواب ہے: an"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: We should _____ honest.",
+        "options": [
+          "is",
+          "be",
+          "are",
+          "being"
+        ],
+        "answer": "be",
+        "feedback": "درست جواب ہے: be"
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: The children _____ happily in the park.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "answer": "play",
+        "feedback": "درست جواب ہے: play"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Which word correctly completes the sentence? Please sit _____ me.",
+        "options": [
+          "beside",
+          "inside",
+          "above",
+          "behind"
+        ],
+        "answer": "beside",
+        "feedback": "درست جواب ہے: beside"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: She _____ English very well.",
+        "options": [
+          "speak",
+          "speaks",
+          "speaking",
+          "spoken"
+        ],
+        "answer": "speaks",
+        "feedback": "درست جواب ہے: speaks"
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Choose the correct sentence.",
+        "options": [
+          "There are five apples.",
+          "There is five apples.",
+          "There am five apples.",
+          "There be five apples."
+        ],
+        "answer": "There are five apples.",
+        "feedback": "درست جواب ہے: There are five apples."
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: I _____ to visit my grandparents next week.",
+        "options": [
+          "am going",
+          "was going",
+          "going",
+          "goes"
+        ],
+        "answer": "am going",
+        "feedback": "درست جواب ہے: am going"
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Which sentence is in the future tense?",
+        "options": [
+          "I play cricket.",
+          "I played cricket.",
+          "I will play cricket.",
+          "I am played cricket."
+        ],
+        "answer": "I will play cricket.",
+        "feedback": "درست جواب ہے: I will play cricket."
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Fill in the blank. The teacher gave _____ homework.",
+        "options": [
+          "us",
+          "we",
+          "our",
+          "ours"
+        ],
+        "answer": "us",
+        "feedback": "درست جواب ہے: us"
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Choose the correct punctuation. _____ are you today?",
+        "options": [
+          "!",
+          ".",
+          "?",
+          ","
+        ],
+        "answer": "?",
+        "feedback": "درست جواب ہے: ?"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Which sentence is grammatically correct?",
+        "options": [
+          "She can sings.",
+          "She can sing.",
+          "She can singing.",
+          "She can sang."
+        ],
+        "answer": "She can sing.",
+        "feedback": "درست جواب ہے: She can sing."
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Complete the sentence. Everyone should _____ the environment.",
+        "options": [
+          "protect",
+          "protects",
+          "protected",
+          "protecting"
+        ],
+        "answer": "protect",
+        "feedback": "درست جواب ہے: protect"
       }
     ],
     "Puzzle": [
       {
-        "id": 326,
+        "id": 101,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "store",
-          "She",
-          "went",
-          "the",
-          "to"
+        "text": "Find the odd one out.",
+        "options": [
+          "Rose",
+          "Lotus",
+          "Mango",
+          "Lily"
         ],
-        "answer": "She went to the store",
-        "feedback": "صحیح جواب ہے: She went to the store"
+        "answer": "Mango",
+        "feedback": "درست جواب ہے: Mango"
       },
       {
-        "id": 327,
+        "id": 102,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "brother",
-          "than",
-          "taller",
-          "He",
-          "is",
-          "his"
+        "text": "Complete the sequence. 5, 10, 15, 20, __",
+        "options": [
+          "22",
+          "25",
+          "30",
+          "35"
         ],
-        "answer": "He is taller than his brother",
-        "feedback": "صحیح جواب ہے: He is taller than his brother"
+        "answer": "25",
+        "feedback": "درست جواب ہے: 25"
       },
       {
-        "id": 328,
+        "id": 103,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "Monday",
-          "arrive",
-          "on",
-          "They",
-          "will"
+        "text": "کون سا لفظ نہیں ہے؟",
+        "options": [
+          "Doctor",
+          "Nurse",
+          "Teacher",
+          "Banana"
         ],
-        "answer": "They will arrive on Monday",
-        "feedback": "صحیح جواب ہے: They will arrive on Monday"
+        "answer": "Banana",
+        "feedback": "درست جواب ہے: Banana"
       },
       {
-        "id": 329,
+        "id": 104,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "already",
-          "have",
+        "text": "گمشدہ خط تلاش کریں۔ اے، سی، ای، جی، __",
+        "options": [
+          "H",
           "I",
-          "eaten"
+          "J",
+          "K"
         ],
-        "answer": "I have already eaten",
-        "feedback": "صحیح جواب ہے: I have already eaten"
+        "answer": "I",
+        "feedback": "درست جواب ہے: I"
       },
       {
-        "id": 330,
+        "id": 105,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "speaking",
-          "is",
-          "She",
-          "French"
+        "text": "If today is Monday, what day comes after two days?",
+        "options": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
         ],
-        "answer": "She is speaking French",
-        "feedback": "صحیح جواب ہے: She is speaking French"
+        "answer": "Thursday",
+        "feedback": "درست جواب ہے: Thursday"
+      },
+      {
+        "id": 106,
+        "type": "Puzzle",
+        "text": "Which number is the largest?",
+        "options": [
+          "48",
+          "62",
+          "79",
+          "57"
+        ],
+        "answer": "79",
+        "feedback": "درست جواب ہے: 79"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "Find the odd one out.",
+        "options": [
+          "Bus",
+          "Train",
+          "Bicycle",
+          "Refrigerator"
+        ],
+        "answer": "Refrigerator",
+        "feedback": "درست جواب ہے: Refrigerator"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "پیٹرن کو مکمل کریں۔ 2، 6، 10، 14، __",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "22"
+        ],
+        "answer": "18",
+        "feedback": "درست جواب ہے: 18"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "Which object is used for measuring time?",
+        "options": [
+          "Scale",
+          "Clock",
+          "Thermometer",
+          "Compass"
+        ],
+        "answer": "Clock",
+        "feedback": "درست جواب ہے: Clock"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "کس لفظ کا وہی معنی ہے جو شروع ہے؟",
+        "options": [
+          "End",
+          "Start",
+          "Stop",
+          "Finish"
+        ],
+        "answer": "Start",
+        "feedback": "درست جواب ہے: Start"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "Complete the alphabet pattern. Z, X, V, T, __",
+        "options": [
+          "R",
+          "Q",
+          "P",
+          "S"
+        ],
+        "answer": "R",
+        "feedback": "درست جواب ہے: R"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "Which is the smallest?",
+        "options": [
+          "Kilogram",
+          "Gram",
+          "Ton",
+          "Quintal"
+        ],
+        "answer": "Gram",
+        "feedback": "درست جواب ہے: Gram"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "کون سا جوڑا متعلقہ ہے؟",
+        "options": [
+          "Pen : Write",
+          "Chair : Eat",
+          "Book : Drive",
+          "Spoon : Read"
+        ],
+        "answer": "Pen : Write",
+        "feedback": "درست جواب ہے: Pen : Write"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "اگلا نمبر تلاش کریں۔ 3، 6، 9، 12، __",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "15",
+        "feedback": "درست جواب ہے: 15"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "Which animal lays eggs?",
+        "options": [
+          "Cow",
+          "Hen",
+          "Goat",
+          "Dog"
+        ],
+        "answer": "Hen",
+        "feedback": "درست جواب ہے: Hen"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "Find the odd one out.",
+        "options": [
+          "January",
+          "March",
+          "Friday",
+          "June"
+        ],
+        "answer": "Friday",
+        "feedback": "درست جواب ہے: Friday"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "کون سا لفظ تشبیہ کو مکمل کرتا ہے؟ پرندہ : گھونسلہ :: مکھی : _____",
+        "options": [
+          "Hive",
+          "Tree",
+          "River",
+          "House"
+        ],
+        "answer": "Hive",
+        "feedback": "درست جواب ہے: Hive"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "کس شکل کے چار برابر اطراف ہیں؟",
+        "options": [
+          "Circle",
+          "Triangle",
+          "Square",
+          "Oval"
+        ],
+        "answer": "Square",
+        "feedback": "درست جواب ہے: Square"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 100, 90, 80, 70, __",
+        "options": [
+          "65",
+          "60",
+          "55",
+          "50"
+        ],
+        "answer": "60",
+        "feedback": "درست جواب ہے: 60"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "Which word is different?",
+        "options": [
+          "Apple",
+          "Orange",
+          "Carrot",
+          "Grapes"
+        ],
+        "answer": "Carrot",
+        "feedback": "درست جواب ہے: Carrot"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "اگر گھڑی 3:00 دکھاتی ہے، تو منٹ کا ہاتھ کہاں اشارہ کرے گا؟",
+        "options": [
+          "3",
+          "6",
+          "12",
+          "9"
+        ],
+        "answer": "12",
+        "feedback": "درست جواب ہے: 12"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "Which comes next? Red, Orange, Yellow, __",
+        "options": [
+          "Blue",
+          "Green",
+          "Black",
+          "White"
+        ],
+        "answer": "Green",
+        "feedback": "درست جواب ہے: Green"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "Which object is used for communication?",
+        "options": [
+          "Mobile Phone",
+          "Plate",
+          "Pillow",
+          "Shoe"
+        ],
+        "answer": "Mobile Phone",
+        "feedback": "درست جواب ہے: Mobile Phone"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "گمشدہ نمبر تلاش کریں۔ 4، 8، 12، 16، __",
+        "options": [
+          "18",
+          "20",
+          "22",
+          "24"
+        ],
+        "answer": "20",
+        "feedback": "درست جواب ہے: 20"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "کون سا لفظ تشبیہ کو مکمل کرتا ہے؟ استاد: سکول:: ڈاکٹر: _____",
+        "options": [
+          "Market",
+          "Hospital",
+          "Library",
+          "Office"
+        ],
+        "answer": "Hospital",
+        "feedback": "درست جواب ہے: Hospital"
       }
     ]
   },
   "Advanced": {
     "MCQ": [
       {
-        "id": 401,
+        "id": 1,
         "type": "MCQ",
-        "text": "ترجمہ کریں: Environment",
+        "text": "Choose the sentence with the correct grammar.",
         "options": [
-          "ماحول",
-          "Economy",
-          "Society",
-          "Politics"
+          "She don't like coffee.",
+          "She doesn't like coffee.",
+          "She not likes coffee.",
+          "She isn't like coffee."
         ],
-        "answer": "ماحول",
-        "feedback": "صحیح جواب ہے: ماحول"
+        "answer": "She doesn't like coffee.",
+        "feedback": "درست جواب ہے کہ وہ کافی پسند نہیں کرتی۔"
       },
       {
-        "id": 402,
+        "id": 2,
         "type": "MCQ",
-        "text": "ترجمہ کریں: Economy",
+        "text": "کون سا لفظ \"تیز\" کا مترادف ہے؟",
         "options": [
-          "معیشت",
-          "History",
-          "Math",
-          "Science"
+          "Slow",
+          "Fast",
+          "Weak",
+          "Quiet"
         ],
-        "answer": "معیشت",
-        "feedback": "صحیح جواب ہے: معیشت"
+        "answer": "Fast",
+        "feedback": "Correct answer is Fast"
       },
       {
-        "id": 403,
+        "id": 3,
         "type": "MCQ",
-        "text": "خالی جگہ پر کریں: Synonym for 'meticulous'",
+        "text": "صحیح جملے کا انتخاب کریں۔",
         "options": [
-          "careful",
-          "careless",
-          "fast",
-          "slow"
+          "The children was playing.",
+          "The children were playing.",
+          "The children is playing.",
+          "The children am playing."
         ],
-        "answer": "careful",
-        "feedback": "صحیح جواب ہے: careful"
+        "answer": "The children were playing.",
+        "feedback": "صحیح جواب ہے کہ بچے کھیل رہے تھے۔"
       },
       {
-        "id": 404,
+        "id": 4,
         "type": "MCQ",
-        "text": "خالی جگہ پر کریں: Meaning of 'ubiquitous'",
+        "text": "Which word best completes the sentence? The scientist made an important _____ during the experiment.",
         "options": [
-          "everywhere",
-          "nowhere",
-          "rare",
-          "unique"
+          "discovery",
+          "dinner",
+          "journey",
+          "holiday"
         ],
-        "answer": "everywhere",
-        "feedback": "صحیح جواب ہے: everywhere"
+        "answer": "discovery",
+        "feedback": "Correct answer is discovery"
       },
       {
-        "id": 405,
+        "id": 5,
         "type": "MCQ",
-        "text": "خالی جگہ پر کریں: Adverb is ___",
+        "text": "سخی کا مخالف کیا ہے؟",
         "options": [
+          "Kind",
+          "Selfish",
+          "Friendly",
+          "Helpful"
+        ],
+        "answer": "Selfish",
+        "feedback": "درست جواب خود غرضی ہے۔"
+      },
+      {
+        "id": 6,
+        "type": "MCQ",
+        "text": "زمانہ مستقبل میں کون سا جملہ ہے؟",
+        "options": [
+          "I completed my work.",
+          "I am completing my work.",
+          "I will complete my work.",
+          "I complete my work."
+        ],
+        "answer": "I will complete my work.",
+        "feedback": "Correct answer is I will complete my work."
+      },
+      {
+        "id": 7,
+        "type": "MCQ",
+        "text": "صحیح ہجے والے لفظ کا انتخاب کریں۔",
+        "options": [
+          "Environment",
+          "Enviroment",
+          "Envirnment",
+          "Environmant"
+        ],
+        "answer": "Environment",
+        "feedback": "Correct answer is Environment"
+      },
+      {
+        "id": 8,
+        "type": "MCQ",
+        "text": "کون سا لفظ صفت ہے؟",
+        "options": [
+          "Beautiful",
+          "Beauty",
+          "Beautify",
+          "Beautifully"
+        ],
+        "answer": "Beautiful",
+        "feedback": "درست جواب خوبصورت ہے۔"
+      },
+      {
+        "id": 9,
+        "type": "MCQ",
+        "text": "Read the sentence. Rahul studied hard, so he passed the examination. Why did Rahul pass?",
+        "options": [
+          "He was lucky.",
+          "He studied hard.",
+          "He copied answers.",
+          "He missed the exam."
+        ],
+        "answer": "He studied hard.",
+        "feedback": "درست جواب یہ ہے کہ اس نے سخت مطالعہ کیا۔"
+      },
+      {
+        "id": 10,
+        "type": "MCQ",
+        "text": "Which sentence uses punctuation correctly?",
+        "options": [
+          "What is your name?",
+          "What is your name.",
+          "What is your name!",
+          "What is your name,"
+        ],
+        "answer": "What is your name?",
+        "feedback": "Correct answer is What is your name?"
+      },
+      {
+        "id": 11,
+        "type": "MCQ",
+        "text": "\"ایماندار\" کے صحیح معنی کا انتخاب کریں۔",
+        "options": [
+          "Always tells the truth.",
+          "Speaks loudly.",
+          "Runs quickly.",
+          "Works slowly."
+        ],
+        "answer": "Always tells the truth.",
+        "feedback": "درست جواب ہمیشہ سچ بولنا ہے۔"
+      },
+      {
+        "id": 12,
+        "type": "MCQ",
+        "text": "کون سا لفظ جملہ مکمل کرتا ہے؟ موسم ایسا _____ تھا کہ سب گھر کے اندر ہی رہ گئے۔",
+        "options": [
+          "pleasant",
+          "severe",
+          "peaceful",
+          "colorful"
+        ],
+        "answer": "severe",
+        "feedback": "درست جواب شدید ہے۔"
+      },
+      {
+        "id": 13,
+        "type": "MCQ",
+        "text": "Which sentence is passive voice?",
+        "options": [
+          "The teacher praised the student.",
+          "The student was praised by the teacher.",
+          "The student praises the teacher.",
+          "The teacher is praising the student."
+        ],
+        "answer": "The student was praised by the teacher.",
+        "feedback": "Correct answer is The student was praised by the teacher."
+      },
+      {
+        "id": 14,
+        "type": "MCQ",
+        "text": "Which word is a conjunction?",
+        "options": [
+          "Because",
           "Quickly",
-          "Quick",
-          "Quicker",
-          "Quickest"
+          "House",
+          "Happy"
         ],
-        "answer": "Quickly",
-        "feedback": "صحیح جواب ہے: Quickly"
+        "answer": "Because",
+        "feedback": "درست جواب ہے کیونکہ"
+      },
+      {
+        "id": 15,
+        "type": "MCQ",
+        "text": "Which sentence is correct?",
+        "options": [
+          "Everyone have finished.",
+          "Everyone has finished.",
+          "Everyone are finished.",
+          "Everyone were finished."
+        ],
+        "answer": "Everyone has finished.",
+        "feedback": "درست جواب یہ ہے کہ سب ختم ہو چکے ہیں۔"
+      },
+      {
+        "id": 16,
+        "type": "MCQ",
+        "text": "Which word is closest in meaning to assist?",
+        "options": [
+          "Help",
+          "Refuse",
+          "Ignore",
+          "Forget"
+        ],
+        "answer": "Help",
+        "feedback": "درست جواب مدد ہے۔"
+      },
+      {
+        "id": 17,
+        "type": "MCQ",
+        "text": "جملہ مکمل کریں۔ اگر آپ باقاعدگی سے ورزش کرتے ہیں، تو آپ _____ صحت مند ہوتے ہیں۔",
+        "options": [
+          "become",
+          "became",
+          "becoming",
+          "becomes"
+        ],
+        "answer": "become",
+        "feedback": "درست جواب بن گیا ہے۔"
+      },
+      {
+        "id": 18,
+        "type": "MCQ",
+        "text": "کون سا جملہ ایک سوال ہے؟",
+        "options": [
+          "Please sit down.",
+          "Where do you live?",
+          "I live in Jaipur.",
+          "Close the door."
+        ],
+        "answer": "Where do you live?",
+        "feedback": "درست جواب یہ ہے کہ آپ کہاں رہتے ہیں؟"
+      },
+      {
+        "id": 19,
+        "type": "MCQ",
+        "text": "Choose the correct article. He is _____ honest man.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "no article"
+        ],
+        "answer": "an",
+        "feedback": "Correct answer is an"
+      },
+      {
+        "id": 20,
+        "type": "MCQ",
+        "text": "Which word is a noun?",
+        "options": [
+          "Courage",
+          "Courageous",
+          "Courageously",
+          "Encourage"
+        ],
+        "answer": "Courage",
+        "feedback": "Correct answer is Courage"
+      },
+      {
+        "id": 21,
+        "type": "MCQ",
+        "text": "Read the sentence. The company rewarded employees who worked diligently throughout the year. Why were the employees rewarded?",
+        "options": [
+          "They worked diligently.",
+          "They were absent.",
+          "They resigned.",
+          "They arrived late."
+        ],
+        "answer": "They worked diligently.",
+        "feedback": "Correct answer is They worked diligently."
+      },
+      {
+        "id": 22,
+        "type": "MCQ",
+        "text": "کون سا جملہ گرامر کے لحاظ سے درست ہے؟",
+        "options": [
+          "Neither of the boys are present.",
+          "Neither of the boys is present.",
+          "Neither of the boys were present.",
+          "Neither boys is present."
+        ],
+        "answer": "Neither of the boys is present.",
+        "feedback": "Correct answer is Neither of the boys is present."
+      },
+      {
+        "id": 23,
+        "type": "MCQ",
+        "text": "کون سا لفظ توسیع کا مترادف ہے؟",
+        "options": [
+          "Increase",
+          "Extend",
+          "Reduce",
+          "Improve"
+        ],
+        "answer": "Reduce",
+        "feedback": "درست جواب کم کرنا ہے۔"
+      },
+      {
+        "id": 24,
+        "type": "MCQ",
+        "text": "کون سا جملہ نصیحت کا اظہار کرتا ہے؟",
+        "options": [
+          "You should drink enough water.",
+          "I drank enough water.",
+          "Drinking water.",
+          "Water is important."
+        ],
+        "answer": "You should drink enough water.",
+        "feedback": "Correct answer is You should drink enough water."
+      },
+      {
+        "id": 25,
+        "type": "MCQ",
+        "text": "جملہ مکمل کریں۔ باقاعدگی سے پڑھنے سے آپ کی _____ اور بات چیت کی مہارت بہتر ہوتی ہے۔",
+        "options": [
+          "vocabulary",
+          "furniture",
+          "journey",
+          "transport"
+        ],
+        "answer": "vocabulary",
+        "feedback": "Correct answer is vocabulary"
       }
     ],
     "Reading": [
       {
-        "id": 426,
+        "id": 26,
         "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: پائیدار ترقی ہمارے مستقبل کے لیے اہم ہے۔",
-        "word": "پائیدار ترقی ہمارے مستقبل کے لیے اہم ہے۔"
+        "text": "اونچی آواز میں پڑھیں: Every morning, I wake up early, exercise for thirty minutes, and then prepare for my day with a healthy breakfast.",
+        "word": "Every morning, I wake up early, exercise for thirty minutes, and then prepare for my day with a healthy breakfast."
       },
       {
-        "id": 427,
+        "id": 27,
         "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: The hypothesis was confirmed.",
-        "word": "The hypothesis was confirmed."
+        "text": "اونچی آواز میں پڑھیں: Learning a new language improves communication skills, builds confidence, and helps people connect with different cultures.",
+        "word": "Learning a new language improves communication skills, builds confidence, and helps people connect with different cultures."
       },
       {
-        "id": 428,
+        "id": 28,
         "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: Significant progress has been made.",
-        "word": "Significant progress has been made."
+        "text": "اونچی آواز میں پڑھیں: Technology has transformed education by providing students with access to digital resources, online courses, and interactive learning experiences.",
+        "word": "Technology has transformed education by providing students with access to digital resources, online courses, and interactive learning experiences."
       },
       {
-        "id": 429,
+        "id": 29,
         "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: The implications are profound.",
-        "word": "The implications are profound."
+        "text": "اونچی آواز میں پڑھیں: Regular exercise, a balanced diet, and adequate sleep are essential for maintaining both physical and mental well-being.",
+        "word": "Regular exercise, a balanced diet, and adequate sleep are essential for maintaining both physical and mental well-being."
       },
       {
-        "id": 430,
+        "id": 30,
         "type": "Reading",
-        "text": "بلند آواز سے پڑھیں: It is undeniably true.",
-        "word": "It is undeniably true."
+        "text": "اونچی آواز میں پڑھیں: The librarian encouraged students to borrow books because reading regularly improves vocabulary, imagination, and critical thinking.",
+        "word": "The librarian encouraged students to borrow books because reading regularly improves vocabulary, imagination, and critical thinking."
+      },
+      {
+        "id": 31,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: During the science exhibition, students confidently explained their innovative projects to teachers, parents, and visitors.",
+        "word": "During the science exhibition, students confidently explained their innovative projects to teachers, parents, and visitors."
+      },
+      {
+        "id": 32,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The farmer adopted modern agricultural techniques to increase crop production while protecting the environment.",
+        "word": "The farmer adopted modern agricultural techniques to increase crop production while protecting the environment."
+      },
+      {
+        "id": 33,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Although the weather forecast predicted heavy rain, the event continued because suitable arrangements had already been made.",
+        "word": "Although the weather forecast predicted heavy rain, the event continued because suitable arrangements had already been made."
+      },
+      {
+        "id": 34,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Good leaders listen carefully, communicate clearly, and inspire others through their actions rather than only their words.",
+        "word": "Good leaders listen carefully, communicate clearly, and inspire others through their actions rather than only their words."
+      },
+      {
+        "id": 35,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The healthcare team worked tirelessly throughout the night to provide timely treatment and ensure every patient received proper care.",
+        "word": "The healthcare team worked tirelessly throughout the night to provide timely treatment and ensure every patient received proper care."
+      },
+      {
+        "id": 36,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Environmental conservation requires individuals, communities, and governments to work together toward sustainable development.",
+        "word": "Environmental conservation requires individuals, communities, and governments to work together toward sustainable development."
+      },
+      {
+        "id": 37,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The museum displayed historical artifacts that helped visitors understand the rich cultural heritage of the country.",
+        "word": "The museum displayed historical artifacts that helped visitors understand the rich cultural heritage of the country."
+      },
+      {
+        "id": 38,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Reading newspapers and reliable online articles every day helps people stay informed about current events around the world.",
+        "word": "Reading newspapers and reliable online articles every day helps people stay informed about current events around the world."
+      },
+      {
+        "id": 39,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The software engineer solved a complex programming problem by carefully analyzing each step before writing the solution.",
+        "word": "The software engineer solved a complex programming problem by carefully analyzing each step before writing the solution."
+      },
+      {
+        "id": 40,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Honesty, discipline, and perseverance are qualities that contribute significantly to long-term personal and professional success.",
+        "word": "Honesty, discipline, and perseverance are qualities that contribute significantly to long-term personal and professional success."
+      },
+      {
+        "id": 41,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The teacher appreciated students who actively participated in classroom discussions and respected different opinions.",
+        "word": "The teacher appreciated students who actively participated in classroom discussions and respected different opinions."
+      },
+      {
+        "id": 42,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Artificial intelligence is transforming education by creating personalized learning experiences for students with different abilities.",
+        "word": "Artificial intelligence is transforming education by creating personalized learning experiences for students with different abilities."
+      },
+      {
+        "id": 43,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Public transportation helps reduce traffic congestion, saves fuel, and lowers environmental pollution in crowded cities.",
+        "word": "Public transportation helps reduce traffic congestion, saves fuel, and lowers environmental pollution in crowded cities."
+      },
+      {
+        "id": 44,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Effective communication involves not only speaking clearly but also listening carefully and responding thoughtfully.",
+        "word": "Effective communication involves not only speaking clearly but also listening carefully and responding thoughtfully."
+      },
+      {
+        "id": 45,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: The research team collected accurate data before drawing conclusions and presenting their findings to the audience.",
+        "word": "The research team collected accurate data before drawing conclusions and presenting their findings to the audience."
+      },
+      {
+        "id": 46,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Volunteering in community service activities teaches responsibility, teamwork, empathy, and leadership skills.",
+        "word": "Volunteering in community service activities teaches responsibility, teamwork, empathy, and leadership skills."
+      },
+      {
+        "id": 47,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: People who continuously learn new skills are often better prepared to adapt to changing technologies and workplace demands.",
+        "word": "People who continuously learn new skills are often better prepared to adapt to changing technologies and workplace demands."
+      },
+      {
+        "id": 48,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Financial planning helps families manage expenses, save money for future goals, and prepare for unexpected situations.",
+        "word": "Financial planning helps families manage expenses, save money for future goals, and prepare for unexpected situations."
+      },
+      {
+        "id": 49,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Despite facing several challenges, the young entrepreneur remained determined and eventually built a successful business.",
+        "word": "Despite facing several challenges, the young entrepreneur remained determined and eventually built a successful business."
+      },
+      {
+        "id": 50,
+        "type": "Reading",
+        "text": "اونچی آواز میں پڑھیں: Education empowers individuals to make informed decisions, contribute positively to society, and improve their overall quality of life.",
+        "word": "Education empowers individuals to make informed decisions, contribute positively to society, and improve their overall quality of life."
       }
     ],
     "Writing": [
       {
-        "id": 451,
+        "id": 51,
         "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: معیشت تیزی سے بڑھ رہی ہے۔",
-        "answer": "The economy is growing rapidly.",
-        "feedback": "صحیح ترجمہ ہے: The economy is growing rapidly."
+        "text": "انگریزی میں ترجمہ کریں۔: تنقیدی سوچ",
+        "answer": "Critical thinking",
+        "feedback": "جملہ تھا: Critical thinking"
       },
       {
-        "id": 452,
+        "id": 52,
         "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: Environment",
-        "answer": "Environment",
-        "feedback": "صحیح ترجمہ ہے: Environment"
+        "text": "انگریزی میں ترجمہ کریں۔: Team spirit",
+        "answer": "Team spirit",
+        "feedback": "جملہ تھا: Team spirit"
       },
       {
-        "id": 453,
+        "id": 53,
         "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: Sustainable",
-        "answer": "Sustainable",
-        "feedback": "صحیح ترجمہ ہے: Sustainable"
+        "text": "انگریزی میں ترجمہ کریں۔: Digital literacy",
+        "answer": "Digital literacy",
+        "feedback": "جملہ تھا: Digital literacy"
       },
       {
-        "id": 454,
+        "id": 54,
         "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: Development",
-        "answer": "Development",
-        "feedback": "صحیح ترجمہ ہے: Development"
+        "text": "انگریزی میں ترجمہ کریں۔: Time management",
+        "answer": "Time management",
+        "feedback": "جملہ تھا: Time management"
       },
       {
-        "id": 455,
+        "id": 55,
         "type": "Writing",
-        "text": "انگریزی ترجمہ لکھیں: Congratulations",
-        "answer": "Congratulations",
-        "feedback": "صحیح ترجمہ ہے: Congratulations"
-      }
-    ],
-    "Listening": [
-      {
-        "id": 476,
-        "type": "Listening",
-        "audioText": "آپ کی کامیابی پر مبارکباد۔",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "Congratulations on your success.",
-        "feedback": "صحیح جواب ہے: Congratulations on your success."
+        "text": "انگریزی میں ترجمہ کریں۔: Healthy lifestyle",
+        "answer": "Healthy lifestyle",
+        "feedback": "جملہ تھا: Healthy lifestyle"
       },
       {
-        "id": 477,
-        "type": "Listening",
-        "audioText": "Environment",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "Environment",
-        "feedback": "صحیح جواب ہے: Environment"
+        "id": 56,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Climate change",
+        "answer": "Climate change",
+        "feedback": "جملہ تھا: Climate change"
       },
       {
-        "id": 478,
-        "type": "Listening",
-        "audioText": "Sustainable",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "Sustainable",
-        "feedback": "صحیح جواب ہے: Sustainable"
+        "id": 57,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Financial planning",
+        "answer": "Financial planning",
+        "feedback": "جملہ تھا: Financial planning"
       },
       {
-        "id": 479,
-        "type": "Listening",
-        "audioText": "Development",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "Development",
-        "feedback": "صحیح جواب ہے: Development"
+        "id": 58,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: مسئلہ حل کرنا",
+        "answer": "Problem solving",
+        "feedback": "جملہ تھا: Problem solving"
       },
       {
-        "id": 480,
-        "type": "Listening",
-        "audioText": "Hypothesis",
-        "text": "سنیں اور انگریزی میں لکھیں",
-        "answer": "Hypothesis",
-        "feedback": "صحیح جواب ہے: Hypothesis"
+        "id": 59,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: مصنوعی ذہانت",
+        "answer": "Artificial intelligence",
+        "feedback": "جملہ تھا: Artificial intelligence"
+      },
+      {
+        "id": 60,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Positive attitude",
+        "answer": "Positive attitude",
+        "feedback": "جملہ تھا: Positive attitude"
+      },
+      {
+        "id": 61,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Career growth",
+        "answer": "Career growth",
+        "feedback": "جملہ تھا: Career growth"
+      },
+      {
+        "id": 62,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Leadership skills",
+        "answer": "Leadership skills",
+        "feedback": "جملہ تھا: Leadership skills"
+      },
+      {
+        "id": 63,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: کمیونٹی سروس",
+        "answer": "Community service",
+        "feedback": "جملہ تھا: Community service"
+      },
+      {
+        "id": 64,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Public speaking",
+        "answer": "Public speaking",
+        "feedback": "جملہ تھا: Public speaking"
+      },
+      {
+        "id": 65,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: جذباتی ذہانت",
+        "answer": "Emotional intelligence",
+        "feedback": "جملہ تھا: Emotional intelligence"
+      },
+      {
+        "id": 66,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: ڈیٹا کا تجزیہ",
+        "answer": "Data analysis",
+        "feedback": "جملہ تھا: Data analysis"
+      },
+      {
+        "id": 67,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: آن لائن سیکھنے",
+        "answer": "Online learning",
+        "feedback": "جملہ تھا: Online learning"
+      },
+      {
+        "id": 68,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Decision making",
+        "answer": "Decision making",
+        "feedback": "جملہ تھا: Decision making"
+      },
+      {
+        "id": 69,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Environmental protection",
+        "answer": "Environmental protection",
+        "feedback": "جملہ تھا: Environmental protection"
+      },
+      {
+        "id": 70,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: علم کا اشتراک",
+        "answer": "Knowledge sharing",
+        "feedback": "جملہ تھا: Knowledge sharing"
+      },
+      {
+        "id": 71,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: خود نظم و ضبط",
+        "answer": "Self discipline",
+        "feedback": "جملہ تھا: Self discipline"
+      },
+      {
+        "id": 72,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Goal setting",
+        "answer": "Goal setting",
+        "feedback": "جملہ تھا: Goal setting"
+      },
+      {
+        "id": 73,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Creative mindset",
+        "answer": "Creative mindset",
+        "feedback": "جملہ تھا: Creative mindset"
+      },
+      {
+        "id": 74,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Lifelong learning",
+        "answer": "Lifelong learning",
+        "feedback": "جملہ تھا: Lifelong learning"
+      },
+      {
+        "id": 75,
+        "type": "Writing",
+        "text": "انگریزی میں ترجمہ کریں۔: Professional ethics",
+        "answer": "Professional ethics",
+        "feedback": "جملہ تھا: Professional ethics"
       }
     ],
     "Grammar": [
       {
-        "id": 501,
+        "id": 76,
         "type": "Grammar",
-        "text": "خالی جگہ پر کریں: If I ___ known, I would have come.",
+        "text": "خالی جگہ پُر کریں: By next year, she _____ her degree.",
         "options": [
-          "had",
-          "have",
-          "has",
-          "did"
+          "completes",
+          "completed",
+          "will complete",
+          "will have completed"
         ],
-        "answer": "had",
-        "feedback": "صحیح جواب ہے: had"
+        "answer": "will have completed",
+        "feedback": "درست جواب ہے: will have completed"
       },
       {
-        "id": 502,
+        "id": 77,
         "type": "Grammar",
-        "text": "خالی جگہ پر کریں: By the time we arrived, they ___ left.",
+        "text": "خالی جگہ پُر کریں: Neither of the students _____ absent today.",
         "options": [
-          "had",
-          "have",
-          "will have",
-          "are"
-        ],
-        "answer": "had",
-        "feedback": "صحیح جواب ہے: had"
-      },
-      {
-        "id": 503,
-        "type": "Grammar",
-        "text": "خالی جگہ پر کریں: Not only ___ he late, but he also forgot his book.",
-        "options": [
-          "was",
-          "is",
+          "are",
           "were",
-          "did"
+          "is",
+          "have"
         ],
-        "answer": "was",
-        "feedback": "صحیح جواب ہے: was"
+        "answer": "is",
+        "feedback": "درست جواب ہے: is"
       },
       {
-        "id": 504,
+        "id": 78,
         "type": "Grammar",
-        "text": "خالی جگہ پر کریں: I wish I ___ a car.",
+        "text": "خالی جگہ پُر کریں: If I _____ enough money, I would buy a laptop.",
         "options": [
-          "had",
           "have",
-          "will have",
-          "am having"
+          "had",
+          "has",
+          "having"
         ],
         "answer": "had",
-        "feedback": "صحیح جواب ہے: had"
+        "feedback": "درست جواب ہے: had"
       },
       {
-        "id": 505,
+        "id": 79,
         "type": "Grammar",
-        "text": "خالی جگہ پر کریں: She speaks as if she ___ everything.",
+        "text": "خالی جگہ پُر کریں: The meeting _____ by the manager yesterday.",
         "options": [
-          "knew",
-          "knows",
-          "know",
-          "knowing"
+          "conducts",
+          "conducted",
+          "was conducted",
+          "is conducting"
         ],
-        "answer": "knew",
-        "feedback": "صحیح جواب ہے: knew"
+        "answer": "was conducted",
+        "feedback": "درست جواب ہے: was conducted"
+      },
+      {
+        "id": 80,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: She speaks English _____ than her brother.",
+        "options": [
+          "good",
+          "well",
+          "better",
+          "best"
+        ],
+        "answer": "better",
+        "feedback": "درست جواب ہے: better"
+      },
+      {
+        "id": 81,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Choose the correct sentence.",
+        "options": [
+          "Everyone have submitted the report.",
+          "Everyone has submitted the report.",
+          "Everyone are submitting the report.",
+          "Everyone were submitting the report."
+        ],
+        "answer": "Everyone has submitted the report.",
+        "feedback": "درست جواب ہے: Everyone has submitted the report."
+      },
+      {
+        "id": 82,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: The teacher asked the students _____ quietly.",
+        "options": [
+          "sit",
+          "to sit",
+          "sitting",
+          "sat"
+        ],
+        "answer": "to sit",
+        "feedback": "درست جواب ہے: to sit"
+      },
+      {
+        "id": 83,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Which sentence is in passive voice?",
+        "options": [
+          "The chef prepared the meal.",
+          "The meal was prepared by the chef.",
+          "The chef is preparing the meal.",
+          "The chef prepares meals."
+        ],
+        "answer": "The meal was prepared by the chef.",
+        "feedback": "درست جواب ہے: The meal was prepared by the chef."
+      },
+      {
+        "id": 84,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: If it rains tomorrow, we _____ at home.",
+        "options": [
+          "stayed",
+          "stay",
+          "will stay",
+          "staying"
+        ],
+        "answer": "will stay",
+        "feedback": "درست جواب ہے: will stay"
+      },
+      {
+        "id": 85,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: The project must _____ before Friday.",
+        "options": [
+          "complete",
+          "be completed",
+          "completed",
+          "completing"
+        ],
+        "answer": "be completed",
+        "feedback": "درست جواب ہے: be completed"
+      },
+      {
+        "id": 86,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: She has lived here _____ 2010.",
+        "options": [
+          "for",
+          "since",
+          "from",
+          "by"
+        ],
+        "answer": "since",
+        "feedback": "درست جواب ہے:  since"
+      },
+      {
+        "id": 88,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: I am interested _____ learning new languages.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "with"
+        ],
+        "answer": "in",
+        "feedback": "درست جواب ہے: in"
+      },
+      {
+        "id": 89,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: He is one of the best players _____ the team.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "over"
+        ],
+        "answer": "in",
+        "feedback": "درست جواب ہے: in"
+      },
+      {
+        "id": 90,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Which sentence is correct?",
+        "options": [
+          "She enjoys to read.",
+          "She enjoys reading.",
+          "She enjoy reading.",
+          "She enjoyed read."
+        ],
+        "answer": "She enjoys reading.",
+        "feedback": "درست جواب ہے: She enjoys reading."
+      },
+      {
+        "id": 91,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: The train had already left before we _____ the station.",
+        "options": [
+          "reach",
+          "reached",
+          "reaches",
+          "reaching"
+        ],
+        "answer": "reached",
+        "feedback": "درست جواب ہے: reached"
+      },
+      {
+        "id": 92,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Which modal verb expresses advice?",
+        "options": [
+          "Can",
+          "Should",
+          "May",
+          "Must"
+        ],
+        "answer": "Should",
+        "feedback": "درست جواب ہے: Should"
+      },
+      {
+        "id": 93,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: \"I am busy,\" she said. Choose the correct indirect speech.",
+        "options": [
+          "She said that she was busy.",
+          "She said she is busy.",
+          "She says she was busy.",
+          "She told I am busy."
+        ],
+        "answer": "She said that she was busy.",
+        "feedback": "درست جواب ہے: She said that she was busy."
+      },
+      {
+        "id": 94,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: The students _____ preparing for the examination since morning.",
+        "options": [
+          "has been",
+          "have been",
+          "was",
+          "is"
+        ],
+        "answer": "have been",
+        "feedback": "درست جواب ہے: have been"
+      },
+      {
+        "id": 95,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Which sentence is grammatically correct?",
+        "options": [
+          "The news are interesting.",
+          "The news is interesting.",
+          "The news were interesting.",
+          "The news have interesting."
+        ],
+        "answer": "The news is interesting.",
+        "feedback": "درست جواب ہے: The news is interesting."
+      },
+      {
+        "id": 96,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: We look forward _____ you soon.",
+        "options": [
+          "meet",
+          "meeting",
+          "met",
+          "to meet"
+        ],
+        "answer": "meeting",
+        "feedback": "درست جواب ہے: meeting"
+      },
+      {
+        "id": 97,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Which sentence contains a relative pronoun?",
+        "options": [
+          "The boy who won the race is my cousin.",
+          "The boy runs fast.",
+          "The race was exciting.",
+          "My cousin is here."
+        ],
+        "answer": "The boy who won the race is my cousin.",
+        "feedback": "درست جواب ہے: The boy who won the race is my cousin."
+      },
+      {
+        "id": 98,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Hardly had the match started _____ it began to rain.",
+        "options": [
+          "when",
+          "than",
+          "then",
+          "while"
+        ],
+        "answer": "when",
+        "feedback": "درست جواب ہے: when"
+      },
+      {
+        "id": 99,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Which word correctly completes the sentence? The manager spoke _____ during the presentation.",
+        "options": [
+          "confidence",
+          "confidently",
+          "confident",
+          "confidences"
+        ],
+        "answer": "confidently",
+        "feedback": "درست جواب ہے: confidently"
+      },
+      {
+        "id": 100,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Choose the correctly punctuated sentence.",
+        "options": [
+          "Yes I agree.",
+          "Yes, I agree.",
+          "Yes I, agree.",
+          "Yes; I agree"
+        ],
+        "answer": "Yes, I agree.",
+        "feedback": "درست جواب ہے: Yes, I agree."
+      },
+      {
+        "id": 101,
+        "type": "Grammar",
+        "text": "خالی جگہ پُر کریں: Select the correct sentence.",
+        "options": [
+          "Each of the participants has received a certificate.",
+          "Each of the participants have received a certificate.",
+          "Each participants has received a certificate.",
+          "Each participant have received certificates."
+        ],
+        "answer": "Each of the participants has received a certificate.",
+        "feedback": "درست جواب ہے: Each of the participants has received a certificate."
       }
     ],
     "Puzzle": [
       {
-        "id": 526,
+        "id": 102,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "come",
-          "have",
-          "would",
-          "I",
-          "known",
-          "had",
-          "If",
-          "I"
+        "text": "ترتیب کو مکمل کریں۔ 3، 6، 12، 24، __",
+        "options": [
+          "36",
+          "42",
+          "48",
+          "54"
         ],
-        "answer": "If I had known I would have come",
-        "feedback": "صحیح جواب ہے: If I had known I would have come"
+        "answer": "48",
+        "feedback": "درست جواب ہے: 48"
       },
       {
-        "id": 527,
+        "id": 103,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "arrived",
-          "we",
-          "time",
-          "the",
-          "By",
-          "left",
-          "had",
-          "they"
+        "text": "Find the odd one out.",
+        "options": [
+          "Keyboard",
+          "Monitor",
+          "Printer",
+          "Bicycle"
         ],
-        "answer": "By the time we arrived they had left",
-        "feedback": "صحیح جواب ہے: By the time we arrived they had left"
+        "answer": "Bicycle",
+        "feedback": "درست جواب ہے: Bicycle"
       },
       {
-        "id": 528,
+        "id": 104,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "late",
-          "he",
-          "was",
-          "only",
-          "Not"
+        "text": "کتاب پڑھنے کے لیے ہے جیسے قلم _____ کے لیے ہے۔",
+        "options": [
+          "Sleeping",
+          "Writing",
+          "Running",
+          "Cooking"
         ],
-        "answer": "Not only was he late",
-        "feedback": "صحیح جواب ہے: Not only was he late"
+        "answer": "Writing",
+        "feedback": "درست جواب ہے: Writing"
       },
       {
-        "id": 529,
+        "id": 105,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "car",
-          "a",
-          "had",
-          "I",
-          "wish",
-          "I"
+        "text": "Complete the alphabet pattern. A, D, G, J, __",
+        "options": [
+          "K",
+          "L",
+          "M",
+          "N"
         ],
-        "answer": "I wish I had a car",
-        "feedback": "صحیح جواب ہے: I wish I had a car"
+        "answer": "M",
+        "feedback": "درست جواب ہے: M"
       },
       {
-        "id": 530,
+        "id": 106,
         "type": "Puzzle",
-        "text": "صحیح ترتیب میں ترتیب دیں",
-        "scrambled": [
-          "everything",
-          "knew",
-          "she",
-          "if",
-          "as",
-          "speaks",
-          "She"
+        "text": "کون سا نمبر غائب ہے؟ 5، 10، 20، 40، __",
+        "options": [
+          "50",
+          "60",
+          "70",
+          "80"
         ],
-        "answer": "She speaks as if she knew everything",
-        "feedback": "صحیح جواب ہے: She speaks as if she knew everything"
+        "answer": "80",
+        "feedback": "درست جواب ہے: 80"
+      },
+      {
+        "id": 107,
+        "type": "Puzzle",
+        "text": "Which word is different?",
+        "options": [
+          "Rose",
+          "Lotus",
+          "Tulip",
+          "Banana"
+        ],
+        "answer": "Banana",
+        "feedback": "درست جواب ہے: Banana"
+      },
+      {
+        "id": 108,
+        "type": "Puzzle",
+        "text": "If all roses are flowers and all flowers are plants, then a rose is a _____.",
+        "options": [
+          "Fruit",
+          "Plant",
+          "Tree",
+          "Vegetable"
+        ],
+        "answer": "Plant",
+        "feedback": "درست جواب ہے: Plant"
+      },
+      {
+        "id": 109,
+        "type": "Puzzle",
+        "text": "Find the next letter. Z, W, T, Q, __",
+        "options": [
+          "O",
+          "N",
+          "M",
+          "L"
+        ],
+        "answer": "N",
+        "feedback": "درست جواب ہے: N"
+      },
+      {
+        "id": 110,
+        "type": "Puzzle",
+        "text": "Which number does not belong?",
+        "options": [
+          "16",
+          "25",
+          "36",
+          "38"
+        ],
+        "answer": "38",
+        "feedback": "درست جواب ہے: 38"
+      },
+      {
+        "id": 111,
+        "type": "Puzzle",
+        "text": "ڈاکٹر ہسپتال میں ہے جیسا کہ استاد _____ کو ہے۔",
+        "options": [
+          "Library",
+          "School",
+          "Market",
+          "Office"
+        ],
+        "answer": "School",
+        "feedback": "درست جواب ہے: School"
+      },
+      {
+        "id": 112,
+        "type": "Puzzle",
+        "text": "پیٹرن کو مکمل کریں۔ 2، 5، 10، 17، 26، __",
+        "options": [
+          "35",
+          "37",
+          "39",
+          "41"
+        ],
+        "answer": "37",
+        "feedback": "درست جواب ہے: 37"
+      },
+      {
+        "id": 113,
+        "type": "Puzzle",
+        "text": "عجیب تلاش کریں۔",
+        "options": [
+          "Mercury",
+          "Venus",
+          "Earth",
+          "Moon"
+        ],
+        "answer": "Moon",
+        "feedback": "درست جواب ہے: Moon"
+      },
+      {
+        "id": 114,
+        "type": "Puzzle",
+        "text": "کونسا جوڑا ایک جیسا تعلق رکھتا ہے؟ چاقو: کاٹنا",
+        "options": [
+          "Spoon : Drink",
+          "Brush : Paint",
+          "Chair : Sit",
+          "Fan : Air"
+        ],
+        "answer": "Brush : Paint",
+        "feedback": "درست جواب ہے: Brush : Paint"
+      },
+      {
+        "id": 115,
+        "type": "Puzzle",
+        "text": "کون سا لفظ تشبیہ کو مکمل کرتا ہے؟ پرندہ : اڑنا :: مچھلی : _____",
+        "options": [
+          "Swim",
+          "Walk",
+          "Jump",
+          "Crawl"
+        ],
+        "answer": "Swim",
+        "feedback": "درست جواب ہے: Swim"
+      },
+      {
+        "id": 116,
+        "type": "Puzzle",
+        "text": "Which comes next? Monday, Wednesday, Friday, _____",
+        "options": [
+          "Saturday",
+          "Sunday",
+          "Tuesday",
+          "Thursday"
+        ],
+        "answer": "Sunday",
+        "feedback": "درست جواب ہے: Sunday"
+      },
+      {
+        "id": 117,
+        "type": "Puzzle",
+        "text": "Rearrange the letters. LEPAP",
+        "options": [
+          "Apple",
+          "Pepla",
+          "Pleap",
+          "Lapep"
+        ],
+        "answer": "Apple",
+        "feedback": "درست جواب ہے: Apple"
+      },
+      {
+        "id": 118,
+        "type": "Puzzle",
+        "text": "سب سے چھوٹا حصہ کون سا ہے؟",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5"
+        ],
+        "answer": "1/5",
+        "feedback": "درست جواب ہے: 1/5"
+      },
+      {
+        "id": 119,
+        "type": "Puzzle",
+        "text": "If yesterday was Tuesday, what day is tomorrow?",
+        "options": [
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "answer": "Thursday",
+        "feedback": "درست جواب ہے: Thursday"
+      },
+      {
+        "id": 120,
+        "type": "Puzzle",
+        "text": "Complete the sequence. 100, 95, 90, 85, __",
+        "options": [
+          "75",
+          "80",
+          "82",
+          "78"
+        ],
+        "answer": "80",
+        "feedback": "درست جواب ہے: 80"
+      },
+      {
+        "id": 121,
+        "type": "Puzzle",
+        "text": "Which object is measured in kilograms?",
+        "options": [
+          "Milk",
+          "Rice",
+          "Water",
+          "Juice"
+        ],
+        "answer": "Rice",
+        "feedback": "درست جواب ہے: Rice"
+      },
+      {
+        "id": 122,
+        "type": "Puzzle",
+        "text": "گمشدہ نمبر تلاش کریں۔ 7، 14، 21، __، 35",
+        "options": [
+          "24",
+          "28",
+          "30",
+          "32"
+        ],
+        "answer": "28",
+        "feedback": "درست جواب ہے: 28"
+      },
+      {
+        "id": 123,
+        "type": "Puzzle",
+        "text": "Which one is a renewable energy source?",
+        "options": [
+          "Coal",
+          "Petrol",
+          "Solar Energy",
+          "Diesel"
+        ],
+        "answer": "Solar Energy",
+        "feedback": "درست جواب ہے: Solar Energy"
+      },
+      {
+        "id": 124,
+        "type": "Puzzle",
+        "text": "Which word has the closest meaning to ancient?",
+        "options": [
+          "Modern",
+          "Old",
+          "Young",
+          "Future"
+        ],
+        "answer": "Old",
+        "feedback": "درست جواب ہے: Old"
+      },
+      {
+        "id": 125,
+        "type": "Puzzle",
+        "text": "صحیح حکم کون سا ہے؟",
+        "options": [
+          "Seed -> Tree -> Plant",
+          "Seed -> Plant -> Tree",
+          "Plant -> Seed -> Tree",
+          "Tree -> Seed -> Plant"
+        ],
+        "answer": "Seed -> Plant -> Tree",
+        "feedback": "درست جواب ہے: Seed -> Plant -> Tree"
+      },
+      {
+        "id": 126,
+        "type": "Puzzle",
+        "text": "ایک کسان کے پاس 10 آم ہیں۔ وہ اپنے دوست کو 4 دیتا ہے اور 6 مزید خریدتا ہے۔ اب اس کے پاس کتنے آم ہیں؟",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "14"
+        ],
+        "answer": "12",
+        "feedback": "درست جواب ہے: 12"
       }
     ]
   }

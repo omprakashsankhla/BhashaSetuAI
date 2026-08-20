@@ -2,9 +2,11 @@ import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import { SettingsProvider } from './context/SettingsContext';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 const LanguageSelection = lazy(() => import('./pages/LanguageSelection'));
 const AuthPage = lazy(() => import('./pages/AuthPage'));
+const LanguageConfirmationModal = lazy(() => import('./components/LanguageConfirmationModal'));
 const AssessmentPage = lazy(() => import('./pages/AssessmentPage'));
 const Dashboard = lazy(() => import('./pages/Dashboard'));
 const LearnPage = lazy(() => import('./pages/LearnPage'));
@@ -28,10 +30,10 @@ const MockInterview = lazy(() => import('./pages/activities/MockInterview'));
 const GrammarEditor = lazy(() => import('./pages/activities/GrammarEditor'));
 const LessonPage = lazy(() => import('./pages/LessonPage'));
 const AdminDashboard = lazy(() => import('./pages/AdminDashboard'));
+const AnalyticsDashboard = lazy(() => import('./pages/admin/AnalyticsDashboard'));
 const ActivityEngine = lazy(() => import('./pages/ActivityEngine'));
 const GamesHub = lazy(() => import('./pages/GamesHub'));
 
-// You will need to put your actual Google Client ID in an environment variable later
 const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID || 'dummy_client_id.apps.googleusercontent.com';
 
 const LoadingFallback = () => (
@@ -42,13 +44,24 @@ const LoadingFallback = () => (
   </div>
 );
 
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      refetchOnWindowFocus: false,
+      staleTime: 5 * 60 * 1000, 
+    },
+  },
+});
+
 function App() {
   return (
-    <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
-      <SettingsProvider>
-        <Router>
-          <Suspense fallback={<LoadingFallback />}>
-            <Routes>
+    <QueryClientProvider client={queryClient}>
+      <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID}>
+        <SettingsProvider>
+          <Router>
+            <Suspense fallback={<LoadingFallback />}>
+              <LanguageConfirmationModal />
+              <Routes>
               <Route path="/" element={<LanguageSelection />} />
               <Route path="/register" element={<AuthPage />} />
               <Route path="/assessment" element={<AssessmentPage />} />
@@ -77,11 +90,13 @@ function App() {
 
               <Route path="/activity/:gameType" element={<ActivityEngine />} />
               <Route path="/admin" element={<AdminDashboard />} />
+              <Route path="/admin/analytics" element={<AnalyticsDashboard />} />
             </Routes>
           </Suspense>
         </Router>
       </SettingsProvider>
     </GoogleOAuthProvider>
+    </QueryClientProvider>
   );
 }
 

@@ -123,3 +123,146 @@ CREATE TABLE IF NOT EXISTS PushSubscriptions (
   FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE,
   INDEX idx_push_user_id (user_id)
 );
+
+CREATE TABLE IF NOT EXISTS lesson_translations (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    lesson_id INT NOT NULL,
+    language_code VARCHAR(10) NOT NULL,
+    interface_language VARCHAR(10) NOT NULL DEFAULT 'en',
+    translated_content JSON NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    UNIQUE KEY lesson_lang_unique (lesson_id, language_code, interface_language),
+    FOREIGN KEY (lesson_id) REFERENCES Lessons(lesson_id) ON DELETE CASCADE,
+    INDEX idx_trans_lesson (lesson_id),
+    INDEX idx_trans_lang (language_code),
+    INDEX idx_trans_interface (interface_language)
+);
+
+CREATE TABLE IF NOT EXISTS Learning_Profiles (
+  profile_id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT UNIQUE,
+  vocabulary_score INT DEFAULT 0,
+  reading_score INT DEFAULT 0,
+  listening_score INT DEFAULT 0,
+  speaking_score INT DEFAULT 0,
+  writing_score INT DEFAULT 0,
+  weak_areas JSON,
+  strong_areas JSON,
+  recommended_lessons JSON,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS Achievements (
+  achievement_id INT AUTO_INCREMENT PRIMARY KEY,
+  code VARCHAR(50) UNIQUE,
+  title VARCHAR(100),
+  description TEXT,
+  xp_reward INT,
+  icon VARCHAR(50)
+);
+
+CREATE TABLE IF NOT EXISTS User_Achievements (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT,
+  achievement_id INT,
+  unlocked_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE,
+  FOREIGN KEY (achievement_id) REFERENCES Achievements(achievement_id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS Streaks (
+  user_id INT PRIMARY KEY,
+  current_streak INT DEFAULT 0,
+  max_streak INT DEFAULT 0,
+  last_login DATE,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS Tutor_Memory (
+  memory_id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT,
+  interaction_type ENUM('Doubt', 'Correction', 'Goal'),
+  content TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS Skill_Analytics (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT NOT NULL,
+  skill VARCHAR(50) NOT NULL,
+  score INT DEFAULT 0,
+  total_attempts INT DEFAULT 0,
+  correct_attempts INT DEFAULT 0,
+  updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE,
+  UNIQUE KEY user_skill_unique (user_id, skill)
+);
+
+CREATE TABLE IF NOT EXISTS Weak_Areas (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT NOT NULL,
+  skill VARCHAR(50) NOT NULL,
+  topic VARCHAR(255) NOT NULL,
+  fail_count INT DEFAULT 1,
+  last_failed_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE,
+  UNIQUE KEY user_skill_topic_unique (user_id, skill, topic)
+);
+
+CREATE TABLE IF NOT EXISTS Review_Queue (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT NOT NULL,
+  item_type ENUM('Lesson', 'Vocabulary', 'Grammar') NOT NULL,
+  item_id INT NOT NULL,
+  next_review DATE NOT NULL,
+  repetitions INT DEFAULT 0,
+  interval_days INT DEFAULT 0,
+  ease_factor DOUBLE DEFAULT 2.5,
+  last_reviewed_at TIMESTAMP NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE,
+  UNIQUE KEY user_item_unique (user_id, item_type, item_id)
+);
+
+CREATE TABLE IF NOT EXISTS User_Settings (
+  user_id INT PRIMARY KEY,
+  interface_language VARCHAR(10) DEFAULT 'en',
+  learning_language VARCHAR(10) DEFAULT 'hi',
+  has_completed_assessment BOOLEAN DEFAULT FALSE,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS User_Skills (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT NOT NULL,
+  skill_type ENUM('reading', 'writing', 'speaking', 'listening', 'vocabulary', 'grammar') NOT NULL,
+  proficiency_level VARCHAR(50) DEFAULT 'Beginner',
+  correct_count INT DEFAULT 0,
+  total_count INT DEFAULT 0,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE,
+  UNIQUE KEY user_skill_type_unique (user_id, skill_type)
+);
+
+CREATE TABLE IF NOT EXISTS User_Analytics (
+  user_id INT PRIMARY KEY,
+  total_xp INT DEFAULT 0,
+  total_coins INT DEFAULT 0,
+  current_streak INT DEFAULT 0,
+  max_streak INT DEFAULT 0,
+  last_active DATE,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS Audit_Logs (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  user_id INT NULL,
+  action VARCHAR(255) NOT NULL,
+  details TEXT NULL,
+  ip_address VARCHAR(45) NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES Users(user_id) ON DELETE SET NULL
+);
+

@@ -1,0 +1,38 @@
+{
+  "puzzles": [
+    {
+      "sentenceParts": [
+        "These ",
+        "is ",
+        "my books."
+      ],
+      "wrongIdx": 1,
+      "wrongWord": "is ",
+      "options": [
+        "are ",
+        "was ",
+        "be ",
+        "am "
+      ],
+      "correctAnswer": "are ",
+      "explanation": "Plural subject \"These\" requires plural verb \"are\"."
+    },
+    {
+      "sentenceParts": [
+        "He ",
+        "do not ",
+        "like apples."
+      ],
+      "wrongIdx": 1,
+      "wrongWord": "do not ",
+      "options": [
+        "does not ",
+        "did not ",
+        "is not ",
+        "are not "
+      ],
+      "correctAnswer": "does not ",
+      "explanation": "Singular pronoun \"He\" requires the auxiliary verb \"does\"."
+    }
+  ]
+}

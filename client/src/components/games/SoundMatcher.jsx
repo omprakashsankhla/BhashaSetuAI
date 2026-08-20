@@ -28,7 +28,7 @@ const getMatchData = (lang) => MATCH_DATA[lang] || MATCH_DATA['hi'] || MATCH_DAT
 
 const SoundMatcher = ({ onGameComplete }) => {
   const { i18n } = useTranslation();
-  const rawPairs = getMatchData((JSON.parse(localStorage.getItem('user') || '{}').preferred_language || 'hi'));
+  const rawPairs = getMatchData((JSON.parse(localStorage.getItem('user') || '{}').learning_language || 'hi'));
 
   const [cards, setCards] = useState([]);
   const [flipped, setFlipped] = useState([]); // indices of currently flipped cards

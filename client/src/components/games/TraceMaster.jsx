@@ -10,7 +10,7 @@ const getTraceData = (lang) => TRACE_LETTERS[lang] || TRACE_LETTERS['hi'] || TRA
 const TraceMaster = ({ onGameComplete }) => {
   const { i18n } = useTranslation();
   const navigate = useNavigate();
-  const letters = getTraceData((JSON.parse(localStorage.getItem('user') || '{}').preferred_language || 'hi'));
+  const letters = getTraceData((JSON.parse(localStorage.getItem('user') || '{}').learning_language || 'hi'));
 
   const [currentIdx, setCurrentIdx] = useState(0);
   const [isDrawing, setIsDrawing] = useState(false);
@@ -185,7 +185,7 @@ const TraceMaster = ({ onGameComplete }) => {
 
   // Get the vocabulary word for the current letter
   const getVocab = () => {
-    const lang = (JSON.parse(localStorage.getItem('user') || '{}').preferred_language || 'hi');
+    const lang = (JSON.parse(localStorage.getItem('user') || '{}').learning_language || 'hi');
     const vocabMap = VOCAB_WORDS[lang] || VOCAB_WORDS['en'];
     return vocabMap[currentLetter.letter] || null;
   };

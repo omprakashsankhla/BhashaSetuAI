@@ -148,19 +148,22 @@ const FlashcardsPage = () => {
   const { i18n } = useTranslation();
   const navigate = useNavigate();
   
-  const [cards, setCards] = useState(() => VOCAB_BY_LANG[JSON.parse(localStorage.getItem('user') || '{}').preferred_language || 'hi'] || VOCAB_BY_LANG['en']);
+  const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
+  const learningLang = storedUser.learning_language || 'hi';
+  
+  const [cards, setCards] = useState(() => VOCAB_BY_LANG[learningLang] || VOCAB_BY_LANG['en']);
   const [unlockedIndex, setUnlockedIndex] = useState(0);
   const [isFlipped, setIsFlipped] = useState(false);
   const [score, setScore] = useState(0);
   const [finished, setFinished] = useState(false);
 
   useEffect(() => {
-    setCards(VOCAB_BY_LANG[JSON.parse(localStorage.getItem('user') || '{}').preferred_language || 'hi'] || VOCAB_BY_LANG['en']);
+    setCards(VOCAB_BY_LANG[learningLang] || VOCAB_BY_LANG['en']);
     setUnlockedIndex(0);
     setIsFlipped(false);
     setScore(0);
     setFinished(false);
-  }, [i18n.language]);
+  }, [i18n.language, learningLang]);
 
   const handleFlip = (index) => {
     if (index !== unlockedIndex) return; 

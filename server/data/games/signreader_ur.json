@@ -1,0 +1,114 @@
+{
+  "signs": [
+    {
+      "sign": "داخلہ ممنوع",
+      "type": "danger",
+      "options": [
+        "No Entry",
+        "Hospital Ahead",
+        "One Way",
+        "Speed Limit"
+      ],
+      "answer": "No Entry"
+    },
+    {
+      "sign": "تمباکو نوشی منع ہے",
+      "type": "warning",
+      "options": [
+        "Wet Floor",
+        "No Smoking",
+        "Toxic Danger",
+        "Keep Left"
+      ],
+      "answer": "No Smoking"
+    },
+    {
+      "sign": "خطرہ",
+      "type": "danger",
+      "options": [
+        "Danger",
+        "Exit",
+        "Restaurant",
+        "Free Parking"
+      ],
+      "answer": "Danger"
+    },
+    {
+      "sign": "خاموش علاقہ",
+      "type": "info",
+      "options": [
+        "Construction Zone",
+        "Quiet Zone / Silent Zone",
+        "Speed Breaker",
+        "No Parking"
+      ],
+      "answer": "Quiet Zone / Silent Zone"
+    },
+    {
+      "sign": "کوڑا مت پھینکیں",
+      "type": "info",
+      "options": [
+        "Keep Left",
+        "No Littering",
+        "Do Not Touch",
+        "Emergency Exit"
+      ],
+      "answer": "No Littering"
+    },
+    {
+      "sign": "رکیں",
+      "type": "danger",
+      "options": [
+        "Stop",
+        "Go",
+        "Yield",
+        "Slow Down"
+      ],
+      "answer": "Stop"
+    },
+    {
+      "sign": "رفتار کی حد",
+      "type": "info",
+      "options": [
+        "Speed Limit",
+        "No Entry",
+        "Stop",
+        "Hospital"
+      ],
+      "answer": "Speed Limit"
+    },
+    {
+      "sign": "یکطرفہ راستہ",
+      "type": "warning",
+      "options": [
+        "One Way",
+        "Two Way",
+        "U-Turn",
+        "Stop"
+      ],
+      "answer": "One Way"
+    },
+    {
+      "sign": "آگے ہسپتال ہے",
+      "type": "info",
+      "options": [
+        "Hospital Ahead",
+        "School Ahead",
+        "Market",
+        "Bus Stop"
+      ],
+      "answer": "Hospital Ahead"
+    },
+    {
+      "sign": "آگے سکول ہے",
+      "type": "warning",
+      "options": [
+        "School Ahead",
+        "Hospital",
+        "No Entry",
+        "Stop"
+      ],
+      "answer": "School Ahead"
+    }
+  ]
+}

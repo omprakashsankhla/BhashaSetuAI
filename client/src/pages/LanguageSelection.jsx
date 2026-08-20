@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './LanguageSelection.css';
+import { Globe2, Sparkles } from 'lucide-react';
 
 const ALL_LANGUAGES = [
   { code: 'en', name: 'English', sub: 'ENGLISH', native: 'English' },
@@ -75,7 +76,7 @@ const LanguageSelection = () => {
   };
 
   const handleOrbClick = () => {
-    // TTS functionality could go here
+    // Disabled voice assistant for now
   };
 
   const handleContinue = () => {
@@ -181,18 +182,18 @@ const LanguageSelection = () => {
         </div>
 
         <div className="ls-ai-section">
-          <div className="ai-orb-container" onClick={handleOrbClick} style={{ cursor: 'pointer' }} title="Click me to speak!">
-            <div className="ai-orb"></div>
+          <div className="ai-orb-container" onClick={handleOrbClick} style={{ cursor: 'pointer' }}>
             <div className="ai-orb-glow"></div>
             <div className="ai-orb-ring"></div>
-          </div>
-          <div className="ai-greeting">
-            {t('ai_greeting')} <span>{t('ai_guide')}</span>
+            <div className="ai-orb"></div>
           </div>
         </div>
 
         <div className="ls-language-section">
-          <h2>{t('choose_lang')}</h2>
+          <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', marginBottom: '0.2rem' }}>
+            <Globe2 size={24} color="#8b5cf6" />
+            <h2 style={{ margin: 0 }}>{t('choose_lang')}</h2>
+          </div>
           <p>{t('tap_lang')}</p>
           
           <div className="ls-grid">

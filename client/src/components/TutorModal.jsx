@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { X, Send, Mic, Keyboard, StopCircle } from 'lucide-react';
 import { useSettings } from '../context/SettingsContext';
+import { API_BASE_URL } from '../config/api';
 import './TutorModal.css';
 
 // Language code mapping for Web Speech API
@@ -111,7 +112,11 @@ const TutorModal = ({ onClose }) => {
 
     try {
       const token = localStorage.getItem('token');
-      const response = await fetch(`${API_BASE_URL}/api/tutor/chat`, {
+      const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
+      const learningLang = storedUser.learning_language || 'hi';
+      const interfaceLang = i18n.language || 'en';
+      
+      const response = await fetch(`${API_BASE_URL}/api/tutor/chat?lang=${learningLang}&interfaceLang=${interfaceLang}`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -119,7 +124,7 @@ const TutorModal = ({ onClose }) => {
         },
         body: JSON.stringify({ 
           message: messageText,
-          language: i18n.language
+          language: interfaceLang
         })
       });
 

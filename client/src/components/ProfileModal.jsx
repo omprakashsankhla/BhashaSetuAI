@@ -3,6 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, User, Mail, Award, Calendar, Target, BookOpen, Clock, Loader, X, Camera, Image as ImageIcon } from 'lucide-react';
 import './ProfileModal.css';
 import { API_BASE_URL } from '../config/api';
+import { useFocusTrap } from '../hooks/useFocusTrap';
+import Button from './ui/Button';
+import Input from './ui/Input';
 
 const PRESET_AVATARS = [
   'https://api.dicebear.com/7.x/avataaars/svg?seed=Felix',
@@ -21,11 +24,14 @@ const ProfileModal = ({ onClose }) => {
   const [error, setError] = useState(null);
   const [success, setSuccess] = useState(null);
 
+  const modalRef = useFocusTrap(true, onClose);
+
   // Form State
   const [formData, setFormData] = useState({
     name: '',
     age: '',
-    preferred_language: '',
+    interface_language: '',
+    learning_language: '',
     education_level: '',
     proficiency_level: ''
   });
@@ -50,7 +56,8 @@ const ProfileModal = ({ onClose }) => {
         setFormData({
           name: data.name || '',
           age: data.age || '',
-          preferred_language: data.preferred_language || '',
+          interface_language: data.interface_language || '',
+          learning_language: data.learning_language || '',
           education_level: data.education_level || '',
           proficiency_level: data.proficiency_level || ''
         });
@@ -91,6 +98,11 @@ const ProfileModal = ({ onClose }) => {
         setSuccess('Profile updated successfully!');
         try {
           const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
+          
+          if (storedUser.learning_language !== formData.learning_language || storedUser.interface_language !== formData.interface_language) {
+            localStorage.removeItem('assessmentProgress');
+          }
+          
           const updatedUser = { ...storedUser, ...formData };
           localStorage.setItem('user', JSON.stringify(updatedUser));
         } catch (e) {
@@ -183,10 +195,16 @@ const ProfileModal = ({ onClose }) => {
 
   return (
     <div className="profile-modal-overlay">
-      <div className="profile-modal-content">
+      <div 
+        className="profile-modal-content"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="profile-modal-title"
+        ref={modalRef}
+      >
         <header className="profile-header">
-          <h1>Your Profile</h1>
-          <button className="close-btn" onClick={onClose}>
+          <h1 id="profile-modal-title">Your Profile</h1>
+          <button className="close-btn" onClick={onClose} aria-label="Close Profile">
             <X size={24} />
           </button>
         </header>
@@ -271,39 +289,40 @@ const ProfileModal = ({ onClose }) => {
               <form onSubmit={handleSubmit} className="profile-form">
                 <div className="form-group readonly-group">
                   <label><Mail size={16} /> Email Address (Cannot be changed)</label>
-                  <input type="email" value={profile?.email || ''} disabled />
+                  <Input type="email" value={profile?.email || ''} disabled aria-label="Email Address" />
                 </div>
 
                 <div className="form-grid">
                   <div className="form-group">
                     <label>Full Name</label>
-                    <input 
+                    <Input 
                       type="text" 
                       name="name" 
                       value={formData.name} 
                       onChange={handleInputChange} 
                       placeholder="Your Name"
                       required 
+                      aria-label="Full Name"
                     />
                   </div>
 
                   <div className="form-group">
                     <label>Age</label>
-                    <input 
+                    <Input 
                       type="number" 
                       name="age" 
                       value={formData.age} 
                       onChange={handleInputChange} 
                       placeholder="Your Age"
+                      aria-label="Age"
                     />
                   </div>
 
                    <div className="form-group">
-                    <label>Learning Language</label>
-                    <select name="preferred_language" value={formData.preferred_language} onChange={handleInputChange}>
-                      <option value="en">English</option>
-                      <option value="hi">हिन्दी (Hindi)</option>
-                      <option value="mwr">मारवाड़ी (Marwadi)</option>
+                    <label>Interface Language</label>
+                    <select name="interface_language" value={formData.interface_language} onChange={handleInputChange}>
+                      <option value="en">English (English)</option>
+                      <option value="hi">हिंदी (Hindi)</option>
                       <option value="ta">தமிழ் (Tamil)</option>
                       <option value="te">తెలుగు (Telugu)</option>
                       <option value="bn">বাংলা (Bengali)</option>
@@ -312,21 +331,35 @@ const ProfileModal = ({ onClose }) => {
                     </select>
                   </div>
 
+                   <div className="form-group">
+                    <label>Learning Language</label>
+                    <select name="learning_language" value={formData.learning_language} onChange={handleInputChange}>
+                      <option value="hi">हिंदी (Hindi)</option>
+                      <option value="ta">தமிழ் (Tamil)</option>
+                      <option value="te">తెలుగు (Telugu)</option>
+                      <option value="bn">বাংলা (Bengali)</option>
+                      <option value="mr">मराठी (Marathi)</option>
+                      <option value="ur">اردو (Urdu)</option>
+                      <option value="en">English (English)</option>
+                    </select>
+                  </div>
+
                   <div className="form-group">
                     <label>Education Level</label>
-                    <input 
+                    <Input 
                       type="text" 
                       name="education_level" 
                       value={formData.education_level} 
                       onChange={handleInputChange} 
                       placeholder="e.g. High School, Bachelor's"
+                      aria-label="Education Level"
                     />
                   </div>
                 </div>
 
-                <button type="submit" className="save-profile-btn" disabled={saving}>
+                <Button type="submit" variant="primary" className="save-profile-btn" disabled={saving}>
                   {saving ? 'Saving...' : 'Save Changes'}
-                </button>
+                </Button>
               </form>
             </section>
           </div>

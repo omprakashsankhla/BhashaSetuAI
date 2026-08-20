@@ -1,0 +1,42 @@
+{
+  "items": [
+    {
+      "name": "টমেটো",
+      "price": 20,
+      "emoji": "🍅"
+    },
+    {
+      "name": "আলু",
+      "price": 10,
+      "emoji": "🥔"
+    },
+    {
+      "name": "পেঁয়াজ",
+      "price": 15,
+      "emoji": "🧅"
+    }
+  ],
+  "customers": [
+    {
+      "dialogue": "নমস্কার! আমার ২ কেজি টমেটো এবং ১ কেজি আলু লাগবে।",
+      "targetTomatoes": 2,
+      "targetPotatoes": 1,
+      "targetOnions": 0,
+      "bill": 50
+    },
+    {
+      "dialogue": "শুনুন, আমাকে ১ কেজি টমেটো এবং ২ কেজি পেঁয়াজ দিন।",
+      "targetTomatoes": 1,
+      "targetPotatoes": 0,
+      "targetOnions": 2,
+      "bill": 50
+    },
+    {
+      "dialogue": "দাদা, আমার জন্য ৩ কেজি আলু এবং ১ কেজি পেঁয়াজ ওজন করুন।",
+      "targetTomatoes": 0,
+      "targetPotatoes": 3,
+      "targetOnions": 1,
+      "bill": 45
+    }
+  ]
+}

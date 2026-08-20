@@ -184,7 +184,7 @@ const GrammarEditor = () => {
     let currentLang = 'hi';
   try {
     const storedUser = JSON.parse(localStorage.getItem('user') || '{}');
-    currentLang = storedUser.preferred_language || 'hi';
+    currentLang = storedUser.learning_language || 'hi';
   } catch (e) {}
   const data = EDITOR_LANG_DATA[currentLang] || EDITOR_LANG_DATA['hi'];
 
