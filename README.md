@@ -6,7 +6,7 @@
 
 ## ✨ Features & Google Gemini AI Integration
 
-### 1. 🎙️ Multimodal Voice & Speech Evaluation (`gemini-1.5-flash`)
+### 1. 🎙️ Multimodal Voice & Speech Evaluation (`gemini-3.5-flash`)
 - Analyzes user spoken audio (WebM recordings) natively using Gemini's multimodal capabilities.
 - Evaluates **pronunciation**, **fluency**, **accuracy**, and **confidence** scores (0–100) with detailed feedback.
 
@@ -15,7 +15,7 @@
 - Personalizes learning paths across **10 progressive difficulty levels** per track.
 - Generates a customized 5-point learning strategy, overall evaluated proficiency, and targeted focus areas (Strengths vs. Weaknesses).
 
-### 3. 🤖 Floating AI Tutor Widget
+### 3. 🤖 Floating AI Tutor Widget (`gemini-3.5-flash-lite`)
 - Accessible on all pages (Home, Learn, Activities).
 - Powered by Gemini to deliver interactive, conversational assistance and answer learner questions in real time.
 
