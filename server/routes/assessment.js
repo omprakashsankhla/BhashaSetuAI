@@ -202,14 +202,14 @@ router.get('/generate', verifyToken, languageContext, async (req, res) => {
   }
 });
 
-const { rateLimitStore } = require('../services/redisClient');
+const { createRateLimitStore } = require('../services/redisClient');
 
 const voiceLimiter = rateLimit({
   windowMs: 60 * 1000,
   max: 6,
   keyGenerator: (req) => req.userId || 'anonymous',
   message: { message: 'Too many voice submissions. Please wait a moment.' },
-  store: rateLimitStore
+  store: createRateLimitStore('assessment-voice')
 });
 
 router.post('/voice', verifyToken, languageContext, voiceLimiter, upload.single('audio'), async (req, res) => {

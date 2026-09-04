@@ -93,7 +93,7 @@ app.use(cors({
 // Initialize Database
 const db = require('./db');
 
-const { rateLimitStore } = require('./services/redisClient');
+const { createRateLimitStore } = require('./services/redisClient');
 
 const requestIdMiddleware = require('./middleware/requestIdMiddleware');
 app.use(requestIdMiddleware);
@@ -102,7 +102,7 @@ const apiLimiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 200, // limit each IP to 200 requests per windowMs
   message: 'Too many requests from this IP, please try again after 15 minutes',
-  store: rateLimitStore
+  store: createRateLimitStore('api')
 });
 app.use('/api/', apiLimiter);
 

@@ -79,18 +79,33 @@ const cacheService = {
   }
 };
 
-let rateLimitStore = undefined;
-if (redisClient) {
+/**
+ * Factory to create a dedicated RedisStore instance with a unique prefix for express-rate-limit.
+ * express-rate-limit strictly disallows sharing the same Store instance across multiple rate limiters.
+ *
+ * @param {string} prefix - Unique prefix for the rate limiter (e.g., 'api', 'tutor', 'voice')
+ * @returns {RedisStore|undefined} - A new RedisStore instance or undefined (falls back to MemoryStore)
+ */
+function createRateLimitStore(prefix = 'global') {
+  if (process.env.NODE_ENV === 'test' || !redisClient) return undefined;
   try {
-    const RedisStore = require('rate-limit-redis').default;
-    rateLimitStore = new RedisStore({
+    const RedisStore = require('rate-limit-redis').default || require('rate-limit-redis');
+    return new RedisStore({
       sendCommand: (...args) => redisClient.call(...args),
+      prefix: `rl:${prefix}:`,
     });
   } catch (e) {
-    logger.error('Failed to initialize Redis rate-limit store: ' + e.message);
+    logger.error(`Failed to initialize Redis rate-limit store for prefix '${prefix}': ` + e.message);
+    return undefined;
   }
 }
 
 cacheService.redisClient = redisClient;
-cacheService.rateLimitStore = rateLimitStore;
+cacheService.createRateLimitStore = createRateLimitStore;
+// Backwards compatibility: getter that returns a new store instance with a unique prefix if accessed directly
+Object.defineProperty(cacheService, 'rateLimitStore', {
+  get() {
+    return createRateLimitStore('legacy');
+  }
+});
 module.exports = cacheService;
